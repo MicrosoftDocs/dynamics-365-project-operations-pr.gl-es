@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> A funcionalidade sinalada neste artigo está dispoñible para os usuarios obxectivo como parte dunha versión de previsualización. O contido e a funcionalidade están suxeitos a cambios. Para obter máis información sobre as versións de previsualización, consulte [Preguntas frecuentes sobre actualizacións de servizo dunha versión](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
