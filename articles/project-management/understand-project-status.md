@@ -1,0 +1,31 @@
+---
+title: Comprender o estado do proxecto
+description: Este tema fornece información sobre o estado atribuído aos proxectos en Dynamics 365 Project Operations.
+author: ruhercul
+manager: Annbe
+ms.date: 10/01/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: kfend
+ms.author: ruhercul
+ms.openlocfilehash: 336e479ad39653af14cca7930fe63e906b7de489
+ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.translationtype: HT
+ms.contentlocale: gl-ES
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3965674"
+---
+# <a name="understand-project-status"></a><span data-ttu-id="39ecd-103">Comprender o estado do proxecto</span><span class="sxs-lookup"><span data-stu-id="39ecd-103">Understand project status</span></span>
+
+<span data-ttu-id="39ecd-104">_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_</span><span class="sxs-lookup"><span data-stu-id="39ecd-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+
+
+<span data-ttu-id="39ecd-105">A sección **Estado** da páxina **Entidade do proxecto** ofrece un resumo da saúde dun proxecto en función do custo e do esforzo.</span><span class="sxs-lookup"><span data-stu-id="39ecd-105">The **Status** section on the **Project Entity** page provides a summary of a project's health based upon cost and effort.</span></span>
+
+
+## <a name="status-summary-fields"></a><span data-ttu-id="39ecd-106">Campos resumo do estado</span><span class="sxs-lookup"><span data-stu-id="39ecd-106">Status summary fields</span></span>
+
+- <span data-ttu-id="39ecd-107">O campo **Estado xeral do proxecto** é un campo editable que amosa o estado xeral do proxecto.</span><span class="sxs-lookup"><span data-stu-id="39ecd-107">The **Overall project status** field is an editable field that shows the overall status of the project.</span></span> <span data-ttu-id="39ecd-108">Este campo emprega codificación de cores, como verde, amarelo e vermello, para indicar un risco crecente.</span><span class="sxs-lookup"><span data-stu-id="39ecd-108">This field uses color-coding, such as green, yellow, and red, to indicate increasing risk.</span></span> 
+- <span data-ttu-id="39ecd-109">O campo **Comentarios** permítelle ao xestor de proxectos introducir comentarios específicos sobre o estado.</span><span class="sxs-lookup"><span data-stu-id="39ecd-109">The **Comments** field lets the project manager enter specific comments about the status.</span></span> 
+- <span data-ttu-id="39ecd-110">O campo **Estado actualizado o** non é editable.</span><span class="sxs-lookup"><span data-stu-id="39ecd-110">The **Status updated on** field isn't editable.</span></span> <span data-ttu-id="39ecd-111">O valor deste campo é unha marca de tempo que indica cando se actualizou por última vez o estado.</span><span class="sxs-lookup"><span data-stu-id="39ecd-111">The value in this field is a timestamp that indicates when the status was last updated.</span></span>
+- <span data-ttu-id="39ecd-112">Os campos **Rendemento de programación** e **Rendemento de custos** defínense a partir da grade de rastrexo.</span><span class="sxs-lookup"><span data-stu-id="39ecd-112">The **Schedule performance** and **Cost performance** fields are set from the tracking grid.</span></span> <span data-ttu-id="39ecd-113">Cando a varianza de programación e custo para o nó raíz na vista **Rastrexo do esforzo** é positiva, estes campos actualízanse a **Adiantado**.</span><span class="sxs-lookup"><span data-stu-id="39ecd-113">When the schedule and cost variance for the root node in the **Effort tracking** view are positive, these fields are updated to **Ahead**.</span></span> <span data-ttu-id="39ecd-114">Cando o calendario e a varianza de custos para o nó raíz son negativos, estes campos configúranse en **Atrasado**.</span><span class="sxs-lookup"><span data-stu-id="39ecd-114">When the schedule and cost variance for the root node are negative, these fields are set to **Behind**.</span></span>
