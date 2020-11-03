@@ -1,17 +1,25 @@
-Ao activar a aplicación Project Finder mobile, fornece aos usuarios da organización visibilidade para o traballo de proxecto e a posibilidade de rexistrarse para o traballo. Os usuarios tamén poden traballar coa aplicación Project Finder para ver e actualizar as súas habilidades. A aplicación Project Finder mobile está activada a través da configuración de parámetros de Project Service mediante a configuración do valor dos Requisitos de recurso visibles para os recursos e de Permitir actualización de habilidades por atributos de recurso en Si. Se modifica o valor destes atributos e os configura en Non, desactívase esta funcionalidade.  
+---
+ms.openlocfilehash: dc45bfd6fefaa51a4a540d694cb4ba07c5058a2a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.translationtype: HT
+ms.contentlocale: gl-ES
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4069579"
+---
+<span data-ttu-id="1cc17-101">Ao activar a aplicación Project Finder mobile, fornece aos usuarios da organización visibilidade para o traballo de proxecto e a posibilidade de rexistrarse para o traballo.</span><span class="sxs-lookup"><span data-stu-id="1cc17-101">By enabling the Project Finder mobile app, you provide users in the organization with visibility into project work and the ability to sign up for work.</span></span> <span data-ttu-id="1cc17-102">Os usuarios tamén poden traballar coa aplicación Project Finder para ver e actualizar as súas habilidades.</span><span class="sxs-lookup"><span data-stu-id="1cc17-102">Users can also work with the Project Finder app to view and update their skills.</span></span> <span data-ttu-id="1cc17-103">A aplicación Project Finder mobile está activada a través da configuración de parámetros de Project Service mediante a configuración do valor dos Requisitos de recurso visibles para os recursos e de Permitir actualización de habilidades por atributos de recurso en Si.</span><span class="sxs-lookup"><span data-stu-id="1cc17-103">The Project Finder mobile app is enabled via the Project Service Parameters Setting, by setting the value of the Resource requirements visible to resources and Allow skill update by resource attributes to Yes.</span></span> <span data-ttu-id="1cc17-104">Se modifica o valor destes atributos e os configura en Non, desactívase esta funcionalidade.</span><span class="sxs-lookup"><span data-stu-id="1cc17-104">Changing the value of these attributes to No disables this functionality.</span></span>  
   
- Ao usar esta funcionalidade, asegúrese de considerar os seguintes puntos clave:  
+ <span data-ttu-id="1cc17-105">Ao usar esta funcionalidade, asegúrese de considerar os seguintes puntos clave:</span><span class="sxs-lookup"><span data-stu-id="1cc17-105">When using this feature, be sure to consider the following key points:</span></span>  
   
--   Requisitos de recurso visibles para os recursos. Se configura este atributo en Si, ofrece aos usuarios visibilidade para o traballo de proxecto e conta coa seguinte información acerca dun proxecto:  
+-   <span data-ttu-id="1cc17-106">Requisitos de recurso visibles para os recursos.</span><span class="sxs-lookup"><span data-stu-id="1cc17-106">Resource requirements visible to resources.</span></span> <span data-ttu-id="1cc17-107">Se configura este atributo en Si, ofrece aos usuarios visibilidade para o traballo de proxecto e conta coa seguinte información acerca dun proxecto:</span><span class="sxs-lookup"><span data-stu-id="1cc17-107">Setting this attribute to Yes provides users with visibility into project work exposes the following information about a project:</span></span>  
   
-    -   Nome do proxecto  
+    -   <span data-ttu-id="1cc17-108">Nome do proxecto</span><span class="sxs-lookup"><span data-stu-id="1cc17-108">Project name</span></span>  
   
-    -   Nome do rol  
+    -   <span data-ttu-id="1cc17-109">Nome do rol</span><span class="sxs-lookup"><span data-stu-id="1cc17-109">Role name</span></span>  
   
-    -   Nome do cliente  
+    -   <span data-ttu-id="1cc17-110">Nome do cliente</span><span class="sxs-lookup"><span data-stu-id="1cc17-110">Customer name</span></span>  
   
-    -   Enderezo do cliente  
+    -   <span data-ttu-id="1cc17-111">Enderezo do cliente</span><span class="sxs-lookup"><span data-stu-id="1cc17-111">Customer address</span></span>  
   
-    -   Duración do traballo  
+    -   <span data-ttu-id="1cc17-112">Duración do traballo</span><span class="sxs-lookup"><span data-stu-id="1cc17-112">Work duration</span></span>  
   
--   Permitir actualización de habilidades por recurso. Se configura este atributo en Si, ofrece aos usuarios a posibilidade de engadir habilidades aos seus perfís, así como de configurar o nivel de coñecemento das habilidades que engadan.
+-   <span data-ttu-id="1cc17-113">Permitir actualización de habilidades por recurso.</span><span class="sxs-lookup"><span data-stu-id="1cc17-113">Allow skill update by resource.</span></span> <span data-ttu-id="1cc17-114">Se configura este atributo en Si, ofrece aos usuarios a posibilidade de engadir habilidades aos seus perfís, así como de configurar o nivel de coñecemento das habilidades que engadan.</span><span class="sxs-lookup"><span data-stu-id="1cc17-114">Setting this attribute to Yes provides users with the ability to add skills to their profiles and to set their level of proficiency for the skills they add.</span></span>
