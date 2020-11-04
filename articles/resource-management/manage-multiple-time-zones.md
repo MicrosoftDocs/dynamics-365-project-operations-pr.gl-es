@@ -9,62 +9,62 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961862"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076070"
 ---
-# <a name="manage-time-zones"></a>Xestionar fusos horarios
+# <a name="manage-time-zones"></a><span data-ttu-id="c6704-103">Xestionar fusos horarios</span><span class="sxs-lookup"><span data-stu-id="c6704-103">Manage time zones</span></span>
 
-_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
+<span data-ttu-id="c6704-104">_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_</span><span class="sxs-lookup"><span data-stu-id="c6704-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
 
-## <a name="projects"></a>Proxectos
+## <a name="projects"></a><span data-ttu-id="c6704-105">Proxectos</span><span class="sxs-lookup"><span data-stu-id="c6704-105">Projects</span></span>
 
-Cando se crea un proxecto, o fuso horario baséase no fuso horario definido no modelo de hora de traballo aplicado. En **Proxecto**, as datas son sempre relativas ao fuso horario do usuario que iniciou sesión en cada separador, agás o separador **Tarefa**. Cando vexa a estrutura de subdivisión do traballo, as datas sempre se amosarán no fuso horario do proxecto.
+<span data-ttu-id="c6704-106">Cando se crea un proxecto, o fuso horario baséase no fuso horario definido no modelo de hora de traballo aplicado.</span><span class="sxs-lookup"><span data-stu-id="c6704-106">When a project is created, the time zone is based on the time zone defined in the applied work hour template.</span></span> <span data-ttu-id="c6704-107">En **Proxecto** , as datas son sempre relativas ao fuso horario do usuario que iniciou sesión en cada separador, agás o separador **Tarefa**. Cando vexa a estrutura de subdivisión do traballo, as datas sempre se amosarán no fuso horario do proxecto.</span><span class="sxs-lookup"><span data-stu-id="c6704-107">On the **Project** for, the dates are always relative to the time zone of the user that is logged in on each tab, except the **Task** tab. When you view the work breakdown structure, the dates will always be displayed in the project’s time zone.</span></span>
 
-## <a name="tasks"></a>Tarefas
+## <a name="tasks"></a><span data-ttu-id="c6704-108">Tarefas</span><span class="sxs-lookup"><span data-stu-id="c6704-108">Tasks</span></span>
 
-Cando se crea unha tarefa, a hora de inicio, a hora de finalización e as horas/día están controladas polas horas de traballo do proxecto. Por exemplo, se se crea unha tarefa cun proxecto cuxo fuso horario é -8 PST e ten o seguinte horario de traballo: de 9:00 a 17:00 de luns a venres, calquera tarefa creada sen unha atribución respectará a hora de inicio e hora de finalización do calendario do proxecto.
+<span data-ttu-id="c6704-109">Cando se crea unha tarefa, a hora de inicio, a hora de finalización e as horas/día están controladas polas horas de traballo do proxecto.</span><span class="sxs-lookup"><span data-stu-id="c6704-109">When a task is created, the start time, end time, and hours/day is controlled by the working hours of the project.</span></span> <span data-ttu-id="c6704-110">Por exemplo, se se crea unha tarefa cun proxecto cuxo fuso horario é -8 PST e ten o seguinte horario de traballo: de 9:00 a 17:00 de luns a venres, calquera tarefa creada sen unha atribución respectará a hora de inicio e hora de finalización do calendario do proxecto.</span><span class="sxs-lookup"><span data-stu-id="c6704-110">For example, if a task is created with a project whose time zone is -8 PST and has the following working hours: 9:00 AM to 5:00 PM Monday to Friday, any task created without an assignment will respect the start time and end time of the project calendar.</span></span>
 
-## <a name="manage-resources-with-time-zones"></a>Xestionar recursos con fusos horarios
+## <a name="manage-resources-with-time-zones"></a><span data-ttu-id="c6704-111">Xestionar recursos con fusos horarios</span><span class="sxs-lookup"><span data-stu-id="c6704-111">Manage resources with time zones</span></span>
 
-Para obter resultados precisos e predicibles ao usar **Ampliar reserva**, hai dous requisitos previos clave que deben cumprirse:  
+<span data-ttu-id="c6704-112">Para obter resultados precisos e predicibles ao usar **Ampliar reserva** , hai dous requisitos previos clave que deben cumprirse:</span><span class="sxs-lookup"><span data-stu-id="c6704-112">For accurate and predictable results when using **Extend Booking** , there are two key prerequisites that must be met:</span></span>  
 
-- O usuario debe configurar o fuso horario do seu dispositivo para que coincida co fuso horario definido no sistema **Configuración de personalización**.
+- <span data-ttu-id="c6704-113">O usuario debe configurar o fuso horario do seu dispositivo para que coincida co fuso horario definido no sistema **Configuración de personalización**.</span><span class="sxs-lookup"><span data-stu-id="c6704-113">The user must configure their device's time zone to match the time zone defined in the system's **Personalization Settings**.</span></span>
  
   ![Configuración do fuso horario en Windows 10](media/reconcile-assignments-03.png)
 
   ![Configuración do fuso horario na configuración de personalización](media/reconcile-assignments-04.png)
  
-- O recurso reservable debe ter polo menos un minuto de tempo de traballo que se superpón cos contornos que se empregan para definir a extensión solicitada. Por exemplo, os seguintes recursos con horario de traballo comprendido entre as 9:00 e as 19:00. 
+- <span data-ttu-id="c6704-116">O recurso reservable debe ter polo menos un minuto de tempo de traballo que se superpón cos contornos que se empregan para definir a extensión solicitada.</span><span class="sxs-lookup"><span data-stu-id="c6704-116">The bookable resource must have at least one minute of working time that overlaps with the contours that are used to define the requested extension.</span></span> <span data-ttu-id="c6704-117">Por exemplo, os seguintes recursos con horario de traballo comprendido entre as 9:00 e as 19:00.</span><span class="sxs-lookup"><span data-stu-id="c6704-117">For example, the following resources with working hours that fall between 9:00 AM and 7:00 PM.</span></span> 
 
   ![Comparación de contornos de recursos](media/reconcile-assignments-05.png)
 
-A seguinte táboa mostra:
+<span data-ttu-id="c6704-119">A seguinte táboa mostra:</span><span class="sxs-lookup"><span data-stu-id="c6704-119">The following table shows:</span></span>
 
-- Un modelo de calendario do proxecto
-- Recurso A: Este recurso ten o mesmo calendario e está no mesmo fuso horario que o proxecto. A hora de inicios das reservas será ás 9:00.
-- Recurso B: Este recurso está situado nun fuso horario diferente do proxecto e comeza ás 7:00 AM no seu fuso horario. Non obstante, as reservas comezarán ás 9:00 xa que esa é a hora de inicio máis temperá do contorno da tarefa.
-- Recursos C e D: Os recursos localízanse en diferentes fusos horarios, ambos diferentes entre si e do proxecto, e as súas reservas non comezan antes das respectivas horas de inicio dispoñibles.
+- <span data-ttu-id="c6704-120">Un modelo de calendario do proxecto</span><span class="sxs-lookup"><span data-stu-id="c6704-120">A project calendar template</span></span>
+- <span data-ttu-id="c6704-121">Recurso A: Este recurso ten o mesmo calendario e está no mesmo fuso horario que o proxecto.</span><span class="sxs-lookup"><span data-stu-id="c6704-121">Resource A: This resource has the same calendar and is in the same time zone as the project.</span></span> <span data-ttu-id="c6704-122">A hora de inicios das reservas será ás 9:00.</span><span class="sxs-lookup"><span data-stu-id="c6704-122">The start time of the bookings will be 9:00 AM.</span></span>
+- <span data-ttu-id="c6704-123">Recurso B: Este recurso está situado nun fuso horario diferente do proxecto e comeza ás 7:00 AM no seu fuso horario.</span><span class="sxs-lookup"><span data-stu-id="c6704-123">Resource B: This resource is located in a different time zone than the project and starts at 7:00 AM in their time zone.</span></span> <span data-ttu-id="c6704-124">Non obstante, as reservas comezarán ás 9:00 xa que esa é a hora de inicio máis temperá do contorno da tarefa.</span><span class="sxs-lookup"><span data-stu-id="c6704-124">However, the bookings will begin at 9:00 AM as that is the earliest start time of the assignment contour.</span></span>
+- <span data-ttu-id="c6704-125">Recursos C e D: Os recursos localízanse en diferentes fusos horarios, ambos diferentes entre si e do proxecto, e as súas reservas non comezan antes das respectivas horas de inicio dispoñibles.</span><span class="sxs-lookup"><span data-stu-id="c6704-125">Resources C and D: The resources are located in different time zones, both different from each other and the project, and their bookings start no earlier than their respective available start times.</span></span>
 
-|Entidade  |Calendario  |
+|<span data-ttu-id="c6704-126">Entidade</span><span class="sxs-lookup"><span data-stu-id="c6704-126">Entity</span></span>  |<span data-ttu-id="c6704-127">Calendario</span><span class="sxs-lookup"><span data-stu-id="c6704-127">Calendar</span></span>  |
 |-|-|
-|Modelo de calendario do proxecto   | ![calendario do proxecto](media/reconcile-assignments-06.png) |
-|Recurso A  | ![Calendario do recurso A](media/reconcile-assignments-06.png) |
-|Recurso B  |  ![Calendario do recurso B](media/reconcile-assignments-07.png) |
-|Recurso C  |  ![Calendario do recurso C](media/reconcile-assignments-08.png) |
-|Recurso D  | ![Calendario do recurso D](media/reconcile-assignments-09.png)  |
+|<span data-ttu-id="c6704-128">Modelo de calendario do proxecto</span><span class="sxs-lookup"><span data-stu-id="c6704-128">Project calendar template</span></span>   | ![calendario do proxecto](media/reconcile-assignments-06.png) |
+|<span data-ttu-id="c6704-130">Recurso A</span><span class="sxs-lookup"><span data-stu-id="c6704-130">Resource A</span></span>  | ![Calendario do recurso A](media/reconcile-assignments-06.png) |
+|<span data-ttu-id="c6704-132">Recurso B</span><span class="sxs-lookup"><span data-stu-id="c6704-132">Resource B</span></span>  |  ![Calendario do recurso B](media/reconcile-assignments-07.png) |
+|<span data-ttu-id="c6704-134">Recurso C</span><span class="sxs-lookup"><span data-stu-id="c6704-134">Resource C</span></span>  |  ![Calendario do recurso C](media/reconcile-assignments-08.png) |
+|<span data-ttu-id="c6704-136">Recurso D</span><span class="sxs-lookup"><span data-stu-id="c6704-136">Resource D</span></span>  | ![Calendario do recurso D](media/reconcile-assignments-09.png)  |
  
-Cando navegue á vista **Conciliación**, móstranse as atribucións de recursos e as carencias de reservas asociadas.
+<span data-ttu-id="c6704-138">Cando navegue á vista **Conciliación** , móstranse as atribucións de recursos e as carencias de reservas asociadas.</span><span class="sxs-lookup"><span data-stu-id="c6704-138">When you navigate to the **Reconciliation** view, the resource assignments and the associated booking shortages are displayed.</span></span>
 
 ![Vista de conciliación antes da extensión](media/reconcile-assignments-10.png)
 
-Despois de que se empregou a funcionalidade de ampliación de reservas para cada recurso, as reservas amplíanse con éxito para cada recurso porque as horas de traballo de cada recurso superpuxéronse aos contornos da escaseza.
+<span data-ttu-id="c6704-140">Despois de que se empregou a funcionalidade de ampliación de reservas para cada recurso, as reservas amplíanse con éxito para cada recurso porque as horas de traballo de cada recurso superpuxéronse aos contornos da escaseza.</span><span class="sxs-lookup"><span data-stu-id="c6704-140">After the extend booking functionality has been used for each resource, bookings are successfully extended for each resource because each resource’s working hours overlapped with the contours of the shortage.</span></span>
 
 ![Vista de conciliación despois da extensión da reserva](media/reconcile-assignments-11.png) 
 
-Teña en conta que unha ollada máis atenta aos detalles das reservas mostra diferenzas na hora de inicio das reservas. As reservas comezan non antes da hora de inicio do contorno da atribución nin antes da hora de inicio dispoñible do recurso.
+<span data-ttu-id="c6704-142">Teña en conta que unha ollada máis atenta aos detalles das reservas mostra diferenzas na hora de inicio das reservas.</span><span class="sxs-lookup"><span data-stu-id="c6704-142">Notice that a closer look at the details of the bookings shows differences in the start time of the bookings.</span></span> <span data-ttu-id="c6704-143">As reservas comezan non antes da hora de inicio do contorno da atribución nin antes da hora de inicio dispoñible do recurso.</span><span class="sxs-lookup"><span data-stu-id="c6704-143">The bookings start no earlier than the start time of the assignment contour and no earlier than the available start time of the resource.</span></span>
 
 ![Novas reservas dos recursos no panel de programación](media/reconcile-assignments-12.png)

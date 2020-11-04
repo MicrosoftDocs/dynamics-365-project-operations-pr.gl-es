@@ -7,7 +7,6 @@ ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,28 +17,28 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 4efd5d182b14d8b3b54ddde47176bbdeccfdeb69
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: 8e1001144bf5347ba1c170cdeae494deef6c2d9c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949270"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076101"
 ---
-# <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
+# <a name="dynamics-365-project-operations"></a><span data-ttu-id="8a71e-103">Dynamics 365 Project Operations</span><span class="sxs-lookup"><span data-stu-id="8a71e-103">Dynamics 365 Project Operations</span></span>
 
-Microsoft Dynamics 365 Project Operations conecta equipos de vendas, recursos, xestión de proxectos e finanzas nunha única aplicación para gañar máis ofertas, acelerar a entrega do proxecto e maximizar a rendibilidade.
+<span data-ttu-id="8a71e-104">Microsoft Dynamics 365 Project Operations conecta equipos de vendas, recursos, xestión de proxectos e finanzas nunha única aplicación para gañar máis ofertas, acelerar a entrega do proxecto e maximizar a rendibilidade.</span><span class="sxs-lookup"><span data-stu-id="8a71e-104">Microsoft Dynamics 365 Project Operations connects sales, resourcing, project management, and finance teams in a single application to win more deals, accelerate project delivery, and maximize profitability.</span></span>
 
--   **Os líderes obteñen información de negocio** para aumentar a visibilidade en todos os equipos, datos e procesos, ademais de capacidades de IA para tomar decisións de negocio mellores e máis rápidas.
--   **Sales está capacitada** para gañar máis ofertas e acelerar o ciclo de vendas con ofertas rápidas e precisas, prezos flexibles e transicións sen interrupcións da estimación á execución.
--   **A obtención de recursos está configurada para optimizar** o uso dos recursos aliñando ás persoas adecuadas, coas habilidades adecuadas, aos proxectos adecuados. Isto mellora a calidade e axuda a manter ás persoas con mellor rendemento.
--   **Os xestores de proxectos poden acelerar** a entrega de proxectos con xestión de proxectos integrada de última xeración que emprega capacidades de Microsoft Project coñecidas e fáciles de usar.
--   **Os membros do equipo poden mellorar a produtividade**, a colaboración e a visibilidade con integración en Microsoft Teams, e enviar tempo e gastos desde calquera lugar.
--   **Finance pode simplificar a contabilidade de proxectos** con xestión de rastrexo de tempo e gastos, custos de proxectos, orzamentos, facturación, recoñecemento de ingresos, cumprimento e visibilidade nos indicadores clave de saúde empresarial.
+-   <span data-ttu-id="8a71e-105">**Os líderes obteñen información de negocio** para aumentar a visibilidade en todos os equipos, datos e procesos, ademais de capacidades de IA para tomar decisións de negocio mellores e máis rápidas.</span><span class="sxs-lookup"><span data-stu-id="8a71e-105">**Leaders get business insights** to increase visibility across all teams, data, and processes, plus AI capabilities for better and faster business decisions.</span></span>
+-   <span data-ttu-id="8a71e-106">**Sales está capacitada** para gañar máis ofertas e acelerar o ciclo de vendas con ofertas rápidas e precisas, prezos flexibles e transicións sen interrupcións da estimación á execución.</span><span class="sxs-lookup"><span data-stu-id="8a71e-106">**Sales is enabled** to win more deals and accelerate the sales cycle with fast and accurate quotes, flexible pricing, and seamless transitions from estimate to execution.</span></span>
+-   <span data-ttu-id="8a71e-107">**A obtención de recursos está configurada para optimizar** o uso dos recursos aliñando ás persoas adecuadas, coas habilidades adecuadas, aos proxectos adecuados.</span><span class="sxs-lookup"><span data-stu-id="8a71e-107">**Resourcing is set up to optimize** resource use by aligning the right people, with the right skills, to the right projects.</span></span> <span data-ttu-id="8a71e-108">Isto mellora a calidade e axuda a manter ás persoas con mellor rendemento.</span><span class="sxs-lookup"><span data-stu-id="8a71e-108">This improves quality and helps to retain top performers.</span></span>
+-   <span data-ttu-id="8a71e-109">**Os xestores de proxectos poden acelerar** a entrega de proxectos con xestión de proxectos integrada de última xeración que emprega capacidades de Microsoft Project coñecidas e fáciles de usar.</span><span class="sxs-lookup"><span data-stu-id="8a71e-109">**Project managers can accelerate** project delivery with state-of-the-art, built-in project management that uses familiar, easy-to-use Microsoft Project capabilities.</span></span>
+-   <span data-ttu-id="8a71e-110">**Os membros do equipo poden mellorar a produtividade** , a colaboración e a visibilidade con integración en Microsoft Teams, e enviar tempo e gastos desde calquera lugar.</span><span class="sxs-lookup"><span data-stu-id="8a71e-110">**Team members can improve productivity** , collaboration, and visibility with integration to Microsoft Teams, and submit time and expenses from anywhere.</span></span>
+-   <span data-ttu-id="8a71e-111">**Finance pode simplificar a contabilidade de proxectos** con xestión de rastrexo de tempo e gastos, custos de proxectos, orzamentos, facturación, recoñecemento de ingresos, cumprimento e visibilidade nos indicadores clave de saúde empresarial.</span><span class="sxs-lookup"><span data-stu-id="8a71e-111">**Finance can simplify project accounting** with time and expense tracking governance, project costing, budgeting, invoicing, revenue recognition, compliance, and visibility into key business health metrics.</span></span>
 
-Project Operations é potente por si mesmo, pero pode ser ampliado polos nosos clientes que requiren capacidades adicionais de Dynamics 365. Isto inclúe márketing, recursos humanos, servizo de atención ao cliente e moito máis. Se desexa a funcionalidade adicional doutra aplicación de Dynamics 365 ou engadir unha aplicación personalizada creada con Power Apps, todo funciona en conxunto e funciona como esperaba porque comparten a base común dunha solución segura, privada e compatible coa normativa na nube.
+<span data-ttu-id="8a71e-112">Project Operations é potente por si mesmo, pero pode ser ampliado polos nosos clientes que requiren capacidades adicionais de Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="8a71e-112">Project Operations is powerful on its own, but can be expanded by our customers who require additional capabilities from Dynamics 365.</span></span> <span data-ttu-id="8a71e-113">Isto inclúe márketing, recursos humanos, servizo de atención ao cliente e moito máis.</span><span class="sxs-lookup"><span data-stu-id="8a71e-113">This includes Marketing, Human Resources, Customer Service, and more.</span></span> <span data-ttu-id="8a71e-114">Se desexa a funcionalidade adicional doutra aplicación de Dynamics 365 ou engadir unha aplicación personalizada creada con Power Apps, todo funciona en conxunto e funciona como esperaba porque comparten a base común dunha solución segura, privada e compatible coa normativa na nube.</span><span class="sxs-lookup"><span data-stu-id="8a71e-114">Whether you want the additional functionality of another Dynamics 365 application or to add on a custom application built with Power Apps, everything works together and works like you expect because they share the common foundation of a secure, private, and compliant cloud-delivered solution.</span></span>
 
-Para obter máis información, consulte:
+<span data-ttu-id="8a71e-115">Para obter máis información, consulte:</span><span class="sxs-lookup"><span data-stu-id="8a71e-115">For more information, see:</span></span>
 
-- [Visión xeral de Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Visión xeral da onda 1 de lanzamento de Dynamics 365 Project Operations 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
+- [<span data-ttu-id="8a71e-116">Visión xeral de Project Operations</span><span class="sxs-lookup"><span data-stu-id="8a71e-116">Project Operations Overview</span></span>](https://dynamics.microsoft.com/en-us/project-operations/overview/)
+- [<span data-ttu-id="8a71e-117">Visión xeral da onda 1 de lanzamento de Dynamics 365 Project Operations 2020</span><span class="sxs-lookup"><span data-stu-id="8a71e-117">Overview of Dynamics 365 Project Operations 2020 release wave 1</span></span>](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 

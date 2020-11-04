@@ -9,32 +9,32 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 2afe4ff2f84fc5426c409e6314da73b11a4de281
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908120"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076054"
 ---
-# <a name="expense-estimates"></a>Estimacións de gastos
-_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
+# <a name="expense-estimates"></a><span data-ttu-id="b5188-103">Estimacións de gastos</span><span class="sxs-lookup"><span data-stu-id="b5188-103">Expense estimates</span></span>
+<span data-ttu-id="b5188-104">_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_</span><span class="sxs-lookup"><span data-stu-id="b5188-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Xunto coa definición de estimacións baseadas en recursos, Dynamics 365 Project Operations permite aos xestores de proxectos definir gastos baseados en proxectos para cada proxecto. Cada elemento de gasto pode asociarse a unha tarefa ou categoría de gasto específica do proxecto. As categorías de gastos normalmente se definen a nivel organizativo. O prezo de cada categoría de gasto defínese normalmente na seguinte xerarquía:
+<span data-ttu-id="b5188-105">Xunto coa definición de estimacións baseadas en recursos, Dynamics 365 Project Operations permite aos xestores de proxectos definir gastos baseados en proxectos para cada proxecto.</span><span class="sxs-lookup"><span data-stu-id="b5188-105">Along with defining resource-based estimates, Dynamics 365 Project Operations allows Project managers to define project-based expenses for each project.</span></span> <span data-ttu-id="b5188-106">Cada elemento de gasto pode asociarse a unha tarefa ou categoría de gasto específica do proxecto.</span><span class="sxs-lookup"><span data-stu-id="b5188-106">Each expense item can be associated with a specific project task or expense category.</span></span> <span data-ttu-id="b5188-107">As categorías de gastos normalmente se definen a nivel organizativo.</span><span class="sxs-lookup"><span data-stu-id="b5188-107">Expense categories are typically defined at the organizational level.</span></span> <span data-ttu-id="b5188-108">O prezo de cada categoría de gasto defínese normalmente na seguinte xerarquía:</span><span class="sxs-lookup"><span data-stu-id="b5188-108">Pricing for each expense category is typically defined in the following hierarchy:</span></span>
 
-- Organización
-- Cliente
-- Oferta/contrato
+- <span data-ttu-id="b5188-109">Organización</span><span class="sxs-lookup"><span data-stu-id="b5188-109">Organization</span></span>
+- <span data-ttu-id="b5188-110">Cliente</span><span class="sxs-lookup"><span data-stu-id="b5188-110">Customer</span></span>
+- <span data-ttu-id="b5188-111">Oferta/contrato</span><span class="sxs-lookup"><span data-stu-id="b5188-111">Quote/contract</span></span>
 
-Complete os seguintes pasos para ver, engadir ou eliminar un gasto do proxecto.
+<span data-ttu-id="b5188-112">Complete os seguintes pasos para ver, engadir ou eliminar un gasto do proxecto.</span><span class="sxs-lookup"><span data-stu-id="b5188-112">Complete the following steps to view, add, or delete a project expense.</span></span>
 
-1. Vaia a **Proxectos** e seleccione o proxecto no que desexa traballar.
-2. Seleccione o separador **Estimacións do proxecto** e vexa a lista de gastos do proxecto.
-3. Seleccione **Novo gasto** para engadir un gasto. Ou seleccione un gasto para eliminar e despois seleccione **Eliminar gasto**.
+1. <span data-ttu-id="b5188-113">Vaia a **Proxectos** e seleccione o proxecto no que desexa traballar.</span><span class="sxs-lookup"><span data-stu-id="b5188-113">Go to **Projects** , and select the project you want to work on.</span></span>
+2. <span data-ttu-id="b5188-114">Seleccione o separador **Estimacións do proxecto** e vexa a lista de gastos do proxecto.</span><span class="sxs-lookup"><span data-stu-id="b5188-114">Select the **Project Estimates** tab and view the list of project expenses.</span></span>
+3. <span data-ttu-id="b5188-115">Seleccione **Novo gasto** para engadir un gasto.</span><span class="sxs-lookup"><span data-stu-id="b5188-115">Select **New Expense** to add an expense.</span></span> <span data-ttu-id="b5188-116">Ou seleccione un gasto para eliminar e despois seleccione **Eliminar gasto**.</span><span class="sxs-lookup"><span data-stu-id="b5188-116">Or, select an expense to delete, and then select **Delete Expense**.</span></span>
 
-Defínense os seguintes atributos para cada partida de gasto:
+<span data-ttu-id="b5188-117">Defínense os seguintes atributos para cada partida de gasto:</span><span class="sxs-lookup"><span data-stu-id="b5188-117">The following attributes are defined for each expense line item:</span></span>
 
-- **Categoría**: As agrupacións comúns empregadas para describir todos os gastos incorridos nun proxecto.
-- **Data de inicio**: A data na que está previsto incorrer no gasto.
-- **Cantidade**: O número estimado de partidas de gasto para unha categoría específica.
-- **Prezo de custo unitario**: O prezo unitario usado para calcular o custo do gasto.
-- **Prezo de venda unitario**: O prezo unitario usado para calcular o prezo de venda do gasto.
+- <span data-ttu-id="b5188-118">**Categoría** : As agrupacións comúns empregadas para describir todos os gastos incorridos nun proxecto.</span><span class="sxs-lookup"><span data-stu-id="b5188-118">**Category** : The common groupings used to describe all expenses incurred on a project.</span></span>
+- <span data-ttu-id="b5188-119">**Data de inicio** : A data na que está previsto incorrer no gasto.</span><span class="sxs-lookup"><span data-stu-id="b5188-119">**Start Date** : The date when the expense is forecasted to be incurred.</span></span>
+- <span data-ttu-id="b5188-120">**Cantidade** : O número estimado de partidas de gasto para unha categoría específica.</span><span class="sxs-lookup"><span data-stu-id="b5188-120">**Quantity** : The estimated number of expense items for a specific category.</span></span>
+- <span data-ttu-id="b5188-121">**Prezo de custo unitario** : O prezo unitario usado para calcular o custo do gasto.</span><span class="sxs-lookup"><span data-stu-id="b5188-121">**Unit Cost Price** : The unit price used to calculate to cost of the expense.</span></span>
+- <span data-ttu-id="b5188-122">**Prezo de venda unitario** : O prezo unitario usado para calcular o prezo de venda do gasto.</span><span class="sxs-lookup"><span data-stu-id="b5188-122">**Unit Sales Price** : The unit price used to calculate the sale prices of the expense.</span></span>
 

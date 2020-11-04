@@ -8,71 +8,74 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896729"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076017"
 ---
-# <a name="security-model"></a>Modelo de seguranza
+# <a name="security-model"></a><span data-ttu-id="1e1fa-103">Modelo de seguranza</span><span class="sxs-lookup"><span data-stu-id="1e1fa-103">Security Model</span></span>
 
-_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
+<span data-ttu-id="1e1fa-104">_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_</span><span class="sxs-lookup"><span data-stu-id="1e1fa-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Microsoft Dynamics 365 Project Operations contén un modelo de seguranza exclusivo que permite un modelo de seguranza empresarial baseado en roles que colabora con Grupos de Microsoft Office. 
+<span data-ttu-id="1e1fa-105">Microsoft Dynamics 365 Project Operations contén un modelo de seguranza exclusivo que permite un modelo de seguranza empresarial baseado en roles que colabora con Grupos de Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-105">Microsoft Dynamics 365 Project Operations contains a unique security model that allows for a role-based business security model that collaborates with Microsoft Office Groups.</span></span> 
 
 
-## <a name="security-roles"></a>Roles de seguranza
-As capacidades front-end de Project Operations inclúen os seguintes roles:
+## <a name="security-roles"></a><span data-ttu-id="1e1fa-106">Roles de seguranza</span><span class="sxs-lookup"><span data-stu-id="1e1fa-106">Security roles</span></span>
+<span data-ttu-id="1e1fa-107">As capacidades front-end de Project Operations inclúen os seguintes roles:</span><span class="sxs-lookup"><span data-stu-id="1e1fa-107">Project Operations front-end capabilities include the following roles:</span></span>
 
-| Rol                          | Descripción                                                                                                                                                                 | Scope |
+| <span data-ttu-id="1e1fa-108">Rol</span><span class="sxs-lookup"><span data-stu-id="1e1fa-108">Role</span></span>                          | <span data-ttu-id="1e1fa-109">Descripción</span><span class="sxs-lookup"><span data-stu-id="1e1fa-109">Description</span></span>                                                                                                                                                                 | <span data-ttu-id="1e1fa-110">Scope</span><span class="sxs-lookup"><span data-stu-id="1e1fa-110">Scope</span></span> |
 |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
-| Xestor de prácticas              | Admite informes entre proxectos.                                                                                                            | Unidade empresarial              |
-| Responsable da aprobación do proxecto              | Aproba tempo e gastos dun proxecto.                                                                                                                              | Unidade empresarial |
-| Administrador de facturación de proxecto | Crea a proposta de factura.                                                                                                                                                 | Unidade empresarial |
-| Xestor de proxectos               | Crea o plan do proxecto e solicita recursos.                                                                                                                              | Unidade empresarial |
-| Recursos de proxecto              | Membros do equipo que se poden reservar e informar do tempo.                                                                                                          | Unidade empresarial|
-| Xestor de recursos              | Todas as funcións de xestión de recursos, como cumprir as solicitudes e reservas de recursos, separáronse para admitir unha configuración híbrida de Xestor de proxectos + Xestor de recursos e un rol de xestor de recursos único e centralizado. | Unidade empresarial |
+| <span data-ttu-id="1e1fa-111">Xestor de prácticas</span><span class="sxs-lookup"><span data-stu-id="1e1fa-111">Practice manager</span></span>              | <span data-ttu-id="1e1fa-112">Admite informes entre proxectos.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-112">Supports cross-project reporting.</span></span>                                                                                                            | <span data-ttu-id="1e1fa-113">Unidade empresarial</span><span class="sxs-lookup"><span data-stu-id="1e1fa-113">Business unit</span></span>              |
+| <span data-ttu-id="1e1fa-114">Responsable da aprobación do proxecto</span><span class="sxs-lookup"><span data-stu-id="1e1fa-114">Project approver</span></span>              | <span data-ttu-id="1e1fa-115">Aproba tempo e gastos dun proxecto.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-115">Approves time and expenses against a project.</span></span>                                                                                                                              | <span data-ttu-id="1e1fa-116">Unidade empresarial</span><span class="sxs-lookup"><span data-stu-id="1e1fa-116">Business unit</span></span> |
+| <span data-ttu-id="1e1fa-117">Administrador de facturación de proxecto</span><span class="sxs-lookup"><span data-stu-id="1e1fa-117">Project billing administrator</span></span> | <span data-ttu-id="1e1fa-118">Crea a proposta de factura.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-118">Creates the invoice proposal.</span></span>                                                                                                                                                 | <span data-ttu-id="1e1fa-119">Unidade empresarial</span><span class="sxs-lookup"><span data-stu-id="1e1fa-119">Business unit</span></span> |
+| <span data-ttu-id="1e1fa-120">Xestor de proxectos</span><span class="sxs-lookup"><span data-stu-id="1e1fa-120">Project manager</span></span>               | <span data-ttu-id="1e1fa-121">Crea o plan do proxecto e solicita recursos.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-121">Creates the project plan and requests resources.</span></span>                                                                                                                              | <span data-ttu-id="1e1fa-122">Unidade empresarial</span><span class="sxs-lookup"><span data-stu-id="1e1fa-122">Business unit</span></span> |
+| <span data-ttu-id="1e1fa-123">Recursos de proxecto</span><span class="sxs-lookup"><span data-stu-id="1e1fa-123">Project resource</span></span>              | <span data-ttu-id="1e1fa-124">Membros do equipo que se poden reservar e informar do tempo.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-124">Team members who can be booked and report time.</span></span>                                                                                                          | <span data-ttu-id="1e1fa-125">Unidade empresarial</span><span class="sxs-lookup"><span data-stu-id="1e1fa-125">Business unit</span></span>|
+| <span data-ttu-id="1e1fa-126">Xestor de recursos</span><span class="sxs-lookup"><span data-stu-id="1e1fa-126">Resource manager</span></span>              | <span data-ttu-id="1e1fa-127">Todas as funcións de xestión de recursos, como cumprir as solicitudes e reservas de recursos, separáronse para admitir unha configuración híbrida de Xestor de proxectos + Xestor de recursos e un rol de xestor de recursos único e centralizado.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-127">All resource management functions, such as fulfill resource requests and bookings, separated to support a hybrid Project manager + Resource manager configuration and a single and centralized Resource manager role.</span></span> | <span data-ttu-id="1e1fa-128">Unidade empresarial</span><span class="sxs-lookup"><span data-stu-id="1e1fa-128">Business unit</span></span> |
 
 
-Microsoft Project para a web inclúe os seguintes roles:
-| Rol                          | Descripción                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Usuario do proxecto | Usuario cooperativo de Project que pode crear os seus propios proxectos e ver os proxectos compartidos con eles.| Usuario|
-| Sistema do proxecto | Rol empregado para o contexto da aplicación. Os clientes non deben usar este rol do sistema. | Global|
+<span data-ttu-id="1e1fa-129">Microsoft Project para a web inclúe os seguintes roles:</span><span class="sxs-lookup"><span data-stu-id="1e1fa-129">Microsoft Project for the Web includes the following roles:</span></span>
 
-## <a name="security-enforcement"></a>Aplicación da seguranza
-As accións que se realizan a nivel de proxecto realízanse no contexto do usuario que iniciou sesión. Isto significa que para crear, abrir ou eliminar un proxecto, o usuario debe ter acceso dispoñible en CDS. O acceso a CDS pode concederse a través de calquera dos posibles mecanismos incluídos na plataforma. Por exemplo, un usuario cun alcance maior pode acceder ao proxecto ou se se realizou unha acción explícita para compartir o proxecto que concede acceso ao usuario.
+| <span data-ttu-id="1e1fa-130">Rol</span><span class="sxs-lookup"><span data-stu-id="1e1fa-130">Role</span></span>           | <span data-ttu-id="1e1fa-131">Descripción</span><span class="sxs-lookup"><span data-stu-id="1e1fa-131">Description</span></span>                                                                                                        | <span data-ttu-id="1e1fa-132">Scope</span><span class="sxs-lookup"><span data-stu-id="1e1fa-132">Scope</span></span>  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| <span data-ttu-id="1e1fa-133">Usuario do proxecto</span><span class="sxs-lookup"><span data-stu-id="1e1fa-133">Project user</span></span>   | <span data-ttu-id="1e1fa-134">Usuario cooperativo de Project que pode crear os seus propios proxectos e ver os proxectos compartidos con eles.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-134">Collaborative user of Project   who is able to create their own projects and view any projects shared with   them.</span></span> | <span data-ttu-id="1e1fa-135">Usuario</span><span class="sxs-lookup"><span data-stu-id="1e1fa-135">User</span></span>   |
+| <span data-ttu-id="1e1fa-136">Sistema do proxecto</span><span class="sxs-lookup"><span data-stu-id="1e1fa-136">Project system</span></span> | <span data-ttu-id="1e1fa-137">Rol empregado para o contexto da aplicación.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-137">Role used for application   context.</span></span> <span data-ttu-id="1e1fa-138">Os clientes non deben usar este rol do sistema.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-138">Customers should not use this system role.</span></span>                                    | <span data-ttu-id="1e1fa-139">Global</span><span class="sxs-lookup"><span data-stu-id="1e1fa-139">Global</span></span> |
 
-É importante telo en conta ao crear proxectos en Project Operations.
+## <a name="security-enforcement"></a><span data-ttu-id="1e1fa-140">Aplicación da seguranza</span><span class="sxs-lookup"><span data-stu-id="1e1fa-140">Security enforcement</span></span>
+<span data-ttu-id="1e1fa-141">As accións que se realizan a nivel de proxecto realízanse no contexto do usuario que iniciou sesión.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-141">Actions that are performed at the project level are performed in the context of the logged in user.</span></span> <span data-ttu-id="1e1fa-142">Isto significa que para crear, abrir ou eliminar un proxecto, o usuario debe ter acceso dispoñible en CDS.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-142">This means that in order to create, open, or delete a project, the user is required to have access available in CDS.</span></span> <span data-ttu-id="1e1fa-143">O acceso a CDS pode concederse a través de calquera dos posibles mecanismos incluídos na plataforma.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-143">Access in CDS may be granted through any of the possible mechanisms included in the platform.</span></span> <span data-ttu-id="1e1fa-144">Por exemplo, un usuario cun alcance maior pode acceder ao proxecto ou se se realizou unha acción explícita para compartir o proxecto que concede acceso ao usuario.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-144">For example, a user with a larger scope may access the project or if an explicit project share action has been performed which grants the user access.</span></span>
 
-## <a name="modern-group-collaboration-with-project-operations"></a>Colaboración moderna de grupo con Project Operations
-Project para a web e Project Operations apoian a colaboración de grupos modernos. Os usuarios engadidos ao proxecto a través dun grupo poden editar o plan do proxecto.
+<span data-ttu-id="1e1fa-145">É importante telo en conta ao crear proxectos en Project Operations.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-145">It's important to consider this when creating projects in Project Operations.</span></span>
 
-Project para a web engade usuarios ao grupo automaticamente despois da atribución.
+## <a name="modern-group-collaboration-with-project-operations"></a><span data-ttu-id="1e1fa-146">Colaboración moderna de grupo con Project Operations</span><span class="sxs-lookup"><span data-stu-id="1e1fa-146">Modern group collaboration with Project Operations</span></span>
+<span data-ttu-id="1e1fa-147">Project para a web e Project Operations apoian a colaboración de grupos modernos.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-147">Project for the Web and Project Operations support modern groups for collaboration.</span></span> <span data-ttu-id="1e1fa-148">Os usuarios engadidos ao proxecto a través dun grupo poden editar o plan do proxecto.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-148">Users added to the project through a group are able to edit the project plan.</span></span>
 
-Os grupos permiten que traballar nos permisos do proxecto e os artefactos de colaboración complementarios de xeito cooperativo. O seguinte diagrama mostra os eventos e os cambios de estado que ocorren durante o proceso de atribución de grupos.
+<span data-ttu-id="1e1fa-149">Project para a web engade usuarios ao grupo automaticamente despois da atribución.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-149">Project for the Web adds users to the group automatically upon assignment.</span></span>
 
-Project Operations non crea un grupo a través da acción implícita e só o fai a través da acción explícita de grupos de presión.
+<span data-ttu-id="1e1fa-150">Os grupos permiten que traballar nos permisos do proxecto e os artefactos de colaboración complementarios de xeito cooperativo.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-150">Groups allow the permissions of the project and supporting collaboration artifacts to be worked on collaboratively.</span></span> <span data-ttu-id="1e1fa-151">O seguinte diagrama mostra os eventos e os cambios de estado que ocorren durante o proceso de atribución de grupos.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-151">The following diagram depicts the events and state changes that happen during the group assignment process.</span></span>
 
-A busca de membros do grupo no diálogo **Xestión de grupo** está limitada a aqueles que se configuran como parte do grupo de seguranza do ambiente. Para obter máis información, vexa [Controlar o acceso de usuario a ambientes: grupos de seguranza e licenzas](https://docs.microsoft.com/power-platform/admin/control-user-access).
+<span data-ttu-id="1e1fa-152">Project Operations non crea un grupo a través da acción implícita e só o fai a través da acción explícita de grupos de presión.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-152">Project Operations does not create a group through implicit action and only does so through the explicit action of pressing groups.</span></span>
 
-1. O proxecto é creado e pertence ao usuario creador.
-2. O propietario do proxecto actualízase co equipo.
-3. O equipo do propietario está asignado ao grupo de Office especificado ou creado.
-4. O propietario orixinal do proxecto engádese ao grupo de Office.
+<span data-ttu-id="1e1fa-153">A busca de membros do grupo no diálogo **Xestión de grupo** está limitada a aqueles que se configuran como parte do grupo de seguranza do ambiente.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-153">Group member search in the **Group management** dialog, is limited to those who are set as part of the environment's security group.</span></span> <span data-ttu-id="1e1fa-154">Para obter máis información, vexa [Controlar o acceso de usuario a ambientes: grupos de seguranza e licenzas](https://docs.microsoft.com/power-platform/admin/control-user-access).</span><span class="sxs-lookup"><span data-stu-id="1e1fa-154">For more information, see [Control user access to environments: security groups and licenses](https://docs.microsoft.com/power-platform/admin/control-user-access).</span></span>
 
-## <a name="deployment-recommendation"></a>Recomendacións de despregamento
-A medida que evoluciona o modelo de colaboración dos grupos de Office, engadirase funcionalidade para proporcionar un control máis detallado ao longo do tempo. Anímase aos clientes que despregan Project Operations actualmente a centrarse nun modelo de seguranza tradicional de Microsoft Dynamics 365.
+![Modo de grupo](./media/groupsmode.png)
 
-Para obter máis información, consulte [Seguranza en Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
+1. <span data-ttu-id="1e1fa-156">O proxecto é creado e pertence ao usuario creador.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-156">The Project is created and owned by the creating User.</span></span>
+2. <span data-ttu-id="1e1fa-157">O propietario do proxecto actualízase co equipo.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-157">The Project owner is updated to the team.</span></span>
+3. <span data-ttu-id="1e1fa-158">O equipo do propietario está asignado ao grupo de Office especificado ou creado.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-158">The Owner team is mapped to the specified or created Office Group.</span></span>
+4. <span data-ttu-id="1e1fa-159">O propietario orixinal do proxecto engádese ao grupo de Office.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-159">The original owner of the Project is added to the Office Group.</span></span>
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Seguranza de Project Operations e Microsoft Dynamics 365 Finance
-Project Operations inclúe os seguintes roles:
+## <a name="deployment-recommendation"></a><span data-ttu-id="1e1fa-160">Recomendacións de despregamento</span><span class="sxs-lookup"><span data-stu-id="1e1fa-160">Deployment recommendation</span></span>
+<span data-ttu-id="1e1fa-161">A medida que evoluciona o modelo de colaboración dos grupos de Office, engadirase funcionalidade para proporcionar un control máis detallado ao longo do tempo.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-161">As the Office group collaboration model evolves, functionality will be added to provide more detailed control over time.</span></span> <span data-ttu-id="1e1fa-162">Anímase aos clientes que despregan Project Operations actualmente a centrarse nun modelo de seguranza tradicional de Microsoft Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="1e1fa-162">Customers that deploy Project Operations today are encouraged to focus on a traditional Microsoft Dynamics 365 security model.</span></span>
 
-- Xestor de proxectos
-- Contable do proxecto
+<span data-ttu-id="1e1fa-163">Para obter máis información, consulte [Seguranza en Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).</span><span class="sxs-lookup"><span data-stu-id="1e1fa-163">For more information, see [Security in Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).</span></span>
 
-Para obter máis información sobre seguranza en Finance, consulte [Seguranza baseada en roles](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a><span data-ttu-id="1e1fa-164">Seguranza de Project Operations e Microsoft Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="1e1fa-164">Project Operations and Microsoft Dynamics 365 Finance security</span></span>
+<span data-ttu-id="1e1fa-165">Project Operations inclúe os seguintes roles:</span><span class="sxs-lookup"><span data-stu-id="1e1fa-165">Project Operations includes the following roles:</span></span>
+
+- <span data-ttu-id="1e1fa-166">Xestor de proxectos</span><span class="sxs-lookup"><span data-stu-id="1e1fa-166">Project manager</span></span>
+- <span data-ttu-id="1e1fa-167">Contable do proxecto</span><span class="sxs-lookup"><span data-stu-id="1e1fa-167">Project accountant</span></span>
+
+<span data-ttu-id="1e1fa-168">Para obter máis información sobre seguranza en Finance, consulte [Seguranza baseada en roles](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).</span><span class="sxs-lookup"><span data-stu-id="1e1fa-168">For more information about security in Finance, see [Role-based security](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).</span></span>
 
 

@@ -9,50 +9,50 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 606098473db479d0015e3a7a3c01a3d3b6de9db1
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898530"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076044"
 ---
-# <a name="create-project-quotes-from-opportunities"></a>Crear ofertas de proxectos a partir de oportunidades
+# <a name="create-project-quotes-from-opportunities"></a><span data-ttu-id="51ab4-103">Crear ofertas de proxectos a partir de oportunidades</span><span class="sxs-lookup"><span data-stu-id="51ab4-103">Create project quotes from opportunities</span></span>
 
-_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
+<span data-ttu-id="51ab4-104">_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_</span><span class="sxs-lookup"><span data-stu-id="51ab4-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Pódense crear ofertas a partir das oportunidades do proxecto das seguintes formas:
+<span data-ttu-id="51ab4-105">Pódense crear ofertas a partir das oportunidades do proxecto das seguintes formas:</span><span class="sxs-lookup"><span data-stu-id="51ab4-105">Quotes can be created from project opportunities in the following ways:</span></span>
 
-- Desde o separador **Ofertas** na páxina **Oportunidade de proxecto**
-- Desde o fluxo do proceso de vendas de oportunidade
-- Actualizando a referencia de oportunidade nunha oferta existente
+- <span data-ttu-id="51ab4-106">Desde o separador **Ofertas** na páxina **Oportunidade de proxecto**</span><span class="sxs-lookup"><span data-stu-id="51ab4-106">From the **Quotes** tab on the **Project Opportunity** page</span></span>
+- <span data-ttu-id="51ab4-107">Desde o fluxo do proceso de vendas de oportunidade</span><span class="sxs-lookup"><span data-stu-id="51ab4-107">From the Opportunity sales process flow</span></span>
+- <span data-ttu-id="51ab4-108">Actualizando a referencia de oportunidade nunha oferta existente</span><span class="sxs-lookup"><span data-stu-id="51ab4-108">By updating the opportunity reference on an existing quote</span></span>
 
-## <a name="from-the-quotes-tab-of-the-project-opportunity-page"></a>Desde o separador Ofertas da páxina Oportunidade de proxecto
+## <a name="from-the-quotes-tab-of-the-project-opportunity-page"></a><span data-ttu-id="51ab4-109">Desde o separador Ofertas da páxina Oportunidade de proxecto</span><span class="sxs-lookup"><span data-stu-id="51ab4-109">From the Quotes tab of the Project Opportunity page</span></span>
 
-Para crear unha oferta de proxecto a partir dunha oportunidade, complete os pasos seguintes.
+<span data-ttu-id="51ab4-110">Para crear unha oferta de proxecto a partir dunha oportunidade, complete os pasos seguintes.</span><span class="sxs-lookup"><span data-stu-id="51ab4-110">To create a project quote from an opportunity, complete the following steps.</span></span>
 
-1. Abra a páxina **Oportunidade de proxecto** e seleccione o separador **Ofertas**. 
-2. Na subgrade **Ofertas**, seleccione **+** para crear unha nova oferta de proxecto baseada na oportunidade. Todas as liñas da oportunidade e as listas de prezos do proxecto relacionadas cópianse á nova oferta desde a oportunidade.
+1. <span data-ttu-id="51ab4-111">Abra a páxina **Oportunidade de proxecto** e seleccione o separador **Ofertas**.</span><span class="sxs-lookup"><span data-stu-id="51ab4-111">Open the **Project Opportunity** page and select the **Quotes** tab.</span></span> 
+2. <span data-ttu-id="51ab4-112">Na subgrade **Ofertas** , seleccione **+** para crear unha nova oferta de proxecto baseada na oportunidade.</span><span class="sxs-lookup"><span data-stu-id="51ab4-112">On the **Quotes** sub-grid, select the **+** to create a new project quote based on the opportunity.</span></span> <span data-ttu-id="51ab4-113">Todas as liñas da oportunidade e as listas de prezos do proxecto relacionadas cópianse á nova oferta desde a oportunidade.</span><span class="sxs-lookup"><span data-stu-id="51ab4-113">All of the opportunity lines and related Project price lists are copied to the new quote from the opportunity.</span></span>
 
-## <a name="from-the-opportunity-sales-process-flow"></a>Desde o fluxo do proceso de vendas de oportunidade
+## <a name="from-the-opportunity-sales-process-flow"></a><span data-ttu-id="51ab4-114">Desde o fluxo do proceso de vendas de oportunidade</span><span class="sxs-lookup"><span data-stu-id="51ab4-114">From the Opportunity sales process flow</span></span>
 
-Para crear unha oferta desde o fluxo do proceso de vendas da oportunidade, complete os pasos seguintes.
+<span data-ttu-id="51ab4-115">Para crear unha oferta desde o fluxo do proceso de vendas da oportunidade, complete os pasos seguintes.</span><span class="sxs-lookup"><span data-stu-id="51ab4-115">To create a quote from the Opportunity sales process flow, complete the following steps.</span></span>
 
-1. Desde o fluxo do proceso de vendas de Oportunidade, abra Oportunidade.
-2. Seleccione a fase **Cualificar**. 
-3. Seleccione **Seguinte** e logo seleccione **+ Crear** para crear unha nova oferta. A maior parte da información sobre o separador **Resumo** desta nova oferta será a da oportunidade por defecto. 
-4. Introduza a información necesaria que falta ou actualice os valores predefinidos segundo sexa necesario no separador **Resumo**,
-5. Seleccione **Gardar**. A nova oferta créase e asóciase á oportunidade. Agora pode ver a información da oferta no separador **Ofertas** da páxina **Oportunidade**. 
+1. <span data-ttu-id="51ab4-116">Desde o fluxo do proceso de vendas de Oportunidade, abra Oportunidade.</span><span class="sxs-lookup"><span data-stu-id="51ab4-116">From the Opportunity sales process flow, open the Opportunity.</span></span>
+2. <span data-ttu-id="51ab4-117">Seleccione a fase **Cualificar**.</span><span class="sxs-lookup"><span data-stu-id="51ab4-117">Select the **Qualify** stage.</span></span> 
+3. <span data-ttu-id="51ab4-118">Seleccione **Seguinte** e logo seleccione **+ Crear** para crear unha nova oferta.</span><span class="sxs-lookup"><span data-stu-id="51ab4-118">Select **Next** and then select **+ Create** to create a new quote.</span></span> <span data-ttu-id="51ab4-119">A maior parte da información sobre o separador **Resumo** desta nova oferta será a da oportunidade por defecto.</span><span class="sxs-lookup"><span data-stu-id="51ab4-119">Most of the information on the **Summary** tab for this new quote will have defaulted from the opportunity.</span></span> 
+4. <span data-ttu-id="51ab4-120">Introduza a información necesaria que falta ou actualice os valores predefinidos segundo sexa necesario no separador **Resumo** ,</span><span class="sxs-lookup"><span data-stu-id="51ab4-120">Enter in any required information that is missing, or update defaulted values as necessary on the **Summary** tab,</span></span>
+5. <span data-ttu-id="51ab4-121">Seleccione **Gardar**.</span><span class="sxs-lookup"><span data-stu-id="51ab4-121">Select **Save**.</span></span> <span data-ttu-id="51ab4-122">A nova oferta créase e asóciase á oportunidade.</span><span class="sxs-lookup"><span data-stu-id="51ab4-122">The new quote is created and associated to the opportunity.</span></span> <span data-ttu-id="51ab4-123">Agora pode ver a información da oferta no separador **Ofertas** da páxina **Oportunidade**.</span><span class="sxs-lookup"><span data-stu-id="51ab4-123">You can now view the quote information on the **Quotes** tab of the **Opportunity** page.</span></span> 
 
-   O proceso de vendas de Oportunidade pasa á seguinte fase, **Propoñer**.
+   <span data-ttu-id="51ab4-124">O proceso de vendas de Oportunidade pasa á seguinte fase, **Propoñer**.</span><span class="sxs-lookup"><span data-stu-id="51ab4-124">The Opportunity sales process moves to the next stage, **Propose**.</span></span>
 
 
-## <a name="by-updating-the-opportunity-reference-on-an-existing-quote"></a>Actualizando a referencia de oportunidade nunha oferta existente
+## <a name="by-updating-the-opportunity-reference-on-an-existing-quote"></a><span data-ttu-id="51ab4-125">Actualizando a referencia de oportunidade nunha oferta existente</span><span class="sxs-lookup"><span data-stu-id="51ab4-125">By updating the opportunity reference on an existing quote</span></span>
 
-Unha oferta existente pódese vincular a unha oportunidade. Complete os seguintes pasos para actualizar a información de oportunidade sobre unha oferta existente.
+<span data-ttu-id="51ab4-126">Unha oferta existente pódese vincular a unha oportunidade.</span><span class="sxs-lookup"><span data-stu-id="51ab4-126">An existing quote can be linked to an Opportunity.</span></span> <span data-ttu-id="51ab4-127">Complete os seguintes pasos para actualizar a información de oportunidade sobre unha oferta existente.</span><span class="sxs-lookup"><span data-stu-id="51ab4-127">Complete the following steps to update the Opportunity information on an existing quote.</span></span>
 
-1. Abra a páxina **Oferta** e seleccione o separador **Resumo**.
-2. No campo **Oportunidade**, seleccione a oportunidade que desexa ligar á oferta. Pode ver a oferta na grade **Ofertas** da oportunidade. 
-3. Usando o proceso de vendas de Oportunidade, a oportunidade pódese pasar á seguinte fase, **Propoñer**. 
+1. <span data-ttu-id="51ab4-128">Abra a páxina **Oferta** e seleccione o separador **Resumo**.</span><span class="sxs-lookup"><span data-stu-id="51ab4-128">Open the **Quote** page and select the **Summary** tab.</span></span>
+2. <span data-ttu-id="51ab4-129">No campo **Oportunidade** , seleccione a oportunidade que desexa ligar á oferta.</span><span class="sxs-lookup"><span data-stu-id="51ab4-129">In the **Opportunity** field, select the opportunity that you want to link to the quote.</span></span> <span data-ttu-id="51ab4-130">Pode ver a oferta na grade **Ofertas** da oportunidade.</span><span class="sxs-lookup"><span data-stu-id="51ab4-130">You can see the quote in the **Quotes** grid of the Opportunity.</span></span> 
+3. <span data-ttu-id="51ab4-131">Usando o proceso de vendas de Oportunidade, a oportunidade pódese pasar á seguinte fase, **Propoñer**.</span><span class="sxs-lookup"><span data-stu-id="51ab4-131">Using the Opportunity sales process, the opportunity can be moved to the next stage, **Propose**.</span></span> 
 
-   Cando traslade unha oportunidade a esta fase, pode seleccionar esta oferta nunha lista de ofertas asociadas a esta oportunidade. Se selecciona esta oferta, indica que seguirá adiante con ela.
+   <span data-ttu-id="51ab4-132">Cando traslade unha oportunidade a esta fase, pode seleccionar esta oferta nunha lista de ofertas asociadas a esta oportunidade.</span><span class="sxs-lookup"><span data-stu-id="51ab4-132">When you move an opportunity to this stage, you can select this quote from a list of quotes associated with this opportunity.</span></span> <span data-ttu-id="51ab4-133">Se selecciona esta oferta, indica que seguirá adiante con ela.</span><span class="sxs-lookup"><span data-stu-id="51ab4-133">Selecting this quote indicates that you're moving forward with it.</span></span>
 
-   Todas as outras ofertas asociadas á oportunidade aínda estarán dispoñibles e estarán activas ata que se gañe unha delas. Pode mover o proceso de venda á etapa anterior **Cualificar** e escoller outra cita para seguir adiante con ela.
+   <span data-ttu-id="51ab4-134">Todas as outras ofertas asociadas á oportunidade aínda estarán dispoñibles e estarán activas ata que se gañe unha delas.</span><span class="sxs-lookup"><span data-stu-id="51ab4-134">All the other quotes associated with the Opportunity will still be available and active until one of them is won.</span></span> <span data-ttu-id="51ab4-135">Pode mover o proceso de venda á etapa anterior **Cualificar** e escoller outra cita para seguir adiante con ela.</span><span class="sxs-lookup"><span data-stu-id="51ab4-135">You can move the sales process back to the previous stage **Qualify** , and pick another quote to move forward with.</span></span>

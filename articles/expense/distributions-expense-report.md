@@ -9,24 +9,24 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: a1fa7383e7715fe57380de0a006ccc4e020bb5a5
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908110"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076013"
 ---
-# <a name="distributions-on-an-expense-report"></a>Distribucións nun informe de gastos
+# <a name="distributions-on-an-expense-report"></a><span data-ttu-id="20fc1-103">Distribucións nun informe de gastos</span><span class="sxs-lookup"><span data-stu-id="20fc1-103">Distributions on an expense report</span></span>
 
-_**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
+<span data-ttu-id="20fc1-104">_**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_</span><span class="sxs-lookup"><span data-stu-id="20fc1-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-Cando introduce gastos nun informe de gastos, pode distribuílos entre varios proxectos, dimensións financeiras ou contas da súa organización.
+<span data-ttu-id="20fc1-105">Cando introduce gastos nun informe de gastos, pode distribuílos entre varios proxectos, dimensións financeiras ou contas da súa organización.</span><span class="sxs-lookup"><span data-stu-id="20fc1-105">When you enter expenses on an expense report, you can distribute them across multiple projects, financial dimensions, or accounts in your organization.</span></span>
 
-Por exemplo, Nancy, representante de vendas de Fabrikam, viaxou de Copenhague a Frankfurt. En Frankfurt, Nancy reuniuse con dúas organizacións para discutir proxectos distintos para cada organización. Nancy pasou sete días laborables traballando coa organización A no proxecto A e tres días laborables traballando coa organización B no proxecto B.
+<span data-ttu-id="20fc1-106">Por exemplo, Nancy, representante de vendas de Fabrikam, viaxou de Copenhague a Frankfurt.</span><span class="sxs-lookup"><span data-stu-id="20fc1-106">For example, Nancy, a Fabrikam sales representative, traveled from Copenhagen to Frankfurt.</span></span> <span data-ttu-id="20fc1-107">En Frankfurt, Nancy reuniuse con dúas organizacións para discutir proxectos distintos para cada organización.</span><span class="sxs-lookup"><span data-stu-id="20fc1-107">In Frankfurt, Nancy met with two organizations to discuss separate projects for each organization.</span></span> <span data-ttu-id="20fc1-108">Nancy pasou sete días laborables traballando coa organización A no proxecto A e tres días laborables traballando coa organización B no proxecto B.</span><span class="sxs-lookup"><span data-stu-id="20fc1-108">Nancy spent seven business days working with organization A on project A, and three business days working with organization B on project B.</span></span>
 
-Debido a que Nancy traballou en dous proxectos distintos mentres estaba en Frankfurt, cando introduce o informe de gastos, Nancy distribúe os gastos segundo corresponda para cada proxecto. A seguinte táboa mostra como distribuíu Nancy os gastos.
+<span data-ttu-id="20fc1-109">Debido a que Nancy traballou en dous proxectos distintos mentres estaba en Frankfurt, cando introduce o informe de gastos, Nancy distribúe os gastos segundo corresponda para cada proxecto.</span><span class="sxs-lookup"><span data-stu-id="20fc1-109">Because Nancy worked on two separate projects while was in Frankfurt, when she enters the expense report, Nancy distributes the expenses as appropriate for each project.</span></span> <span data-ttu-id="20fc1-110">A seguinte táboa mostra como distribuíu Nancy os gastos.</span><span class="sxs-lookup"><span data-stu-id="20fc1-110">The following table shows how Nancy distributed the expenses.</span></span>
 
-| Tipo de gasto | Importe do gasto total | Cantidade distribuída ao proxecto A | Cantidade distribuída ao proxecto B |
+| <span data-ttu-id="20fc1-111">Tipo de gasto</span><span class="sxs-lookup"><span data-stu-id="20fc1-111">Expense type</span></span> | <span data-ttu-id="20fc1-112">Importe do gasto total</span><span class="sxs-lookup"><span data-stu-id="20fc1-112">Total expense amount</span></span> | <span data-ttu-id="20fc1-113">Cantidade distribuída ao proxecto A</span><span class="sxs-lookup"><span data-stu-id="20fc1-113">Amount distributed to project A</span></span> | <span data-ttu-id="20fc1-114">Cantidade distribuída ao proxecto B</span><span class="sxs-lookup"><span data-stu-id="20fc1-114">Amount distributed to project B</span></span> |
 |--------------|----------------------|---------------------------------|---------------------------------|
-| Tarifa de tren   | DKK 578              | DKK 405                         | DKK 173                         |
-| Hotel        | 725 EUR              | 557 EUR                         | 168 EUR                         |
-| Comidas        | 346 EUR              | 284 EUR                         | 62 EUR                          |
+| <span data-ttu-id="20fc1-115">Tarifa de tren</span><span class="sxs-lookup"><span data-stu-id="20fc1-115">Train fare</span></span>   | <span data-ttu-id="20fc1-116">DKK 578</span><span class="sxs-lookup"><span data-stu-id="20fc1-116">DKK 578</span></span>              | <span data-ttu-id="20fc1-117">DKK 405</span><span class="sxs-lookup"><span data-stu-id="20fc1-117">DKK 405</span></span>                         | <span data-ttu-id="20fc1-118">DKK 173</span><span class="sxs-lookup"><span data-stu-id="20fc1-118">DKK 173</span></span>                         |
+| <span data-ttu-id="20fc1-119">Hotel</span><span class="sxs-lookup"><span data-stu-id="20fc1-119">Hotel</span></span>        | <span data-ttu-id="20fc1-120">725 EUR</span><span class="sxs-lookup"><span data-stu-id="20fc1-120">EUR 725</span></span>              | <span data-ttu-id="20fc1-121">557 EUR</span><span class="sxs-lookup"><span data-stu-id="20fc1-121">EUR 557</span></span>                         | <span data-ttu-id="20fc1-122">168 EUR</span><span class="sxs-lookup"><span data-stu-id="20fc1-122">EUR 168</span></span>                         |
+| <span data-ttu-id="20fc1-123">Comidas</span><span class="sxs-lookup"><span data-stu-id="20fc1-123">Meals</span></span>        | <span data-ttu-id="20fc1-124">346 EUR</span><span class="sxs-lookup"><span data-stu-id="20fc1-124">EUR 346</span></span>              | <span data-ttu-id="20fc1-125">284 EUR</span><span class="sxs-lookup"><span data-stu-id="20fc1-125">EUR 284</span></span>                         | <span data-ttu-id="20fc1-126">62 EUR</span><span class="sxs-lookup"><span data-stu-id="20fc1-126">EUR 62</span></span>                          |

@@ -1,5 +1,5 @@
 ---
-title: Páxina de inicio de xestión de recursos
+title: Visión xeral de xestión de recursos
 description: Neste tema se proporciona información sobre a funcionalidade de xestión de recursos en Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
@@ -7,7 +7,6 @@ ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,11 +17,11 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3d07dddf017afb5642ca96883b78f8719217aa3d
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 9487997066c1a3cadcd4fabec9dcf9aaee1a3cb0
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897494"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076161"
 ---
-# <a name="resource-management-home-page"></a>Páxina de inicio de xestión de recursos
+# <a name="resource-management-overview"></a><span data-ttu-id="ec2ab-103">Visión xeral de xestión de recursos</span><span class="sxs-lookup"><span data-stu-id="ec2ab-103">Resource management overview</span></span>
