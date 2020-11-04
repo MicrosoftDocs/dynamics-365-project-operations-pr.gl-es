@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 2f08de54767f49c308d0ccc7f2e1c6ef880b7f99
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906159"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076060"
 ---
 # <a name="opportunity-header"></a>Cabeceira de oportunidade
 
@@ -27,7 +27,7 @@ A seguinte táboa inclúe os campos dunha oportunidade baseada en proxecto que s
 
 | **Campo** | **Localización** | **Relevancia, finalidade e orientación** | **Impacto descendente** |
 | --- | --- | --- | --- |
-| Tipo | Separador Xeral (oculto) | Este campo de conxunto de opcións ten as seguintes opcións:</br>- Baseado en traballo (dispoñible só con Project Operations)</br>- Baseado en elementos (dispoñible só cando Project Operations e Sales están instaladas)</br>- Baseado en mantemento de servizo (dispoñible cando se instala Field Service) | Cando usa Project Operations, este valor de campo configúrase automaticamente en **Baseado en traballo**, que clasifica a oportunidade como baseada en proxecto. A oportunidade debe estar baseada en proxecto para activar todas as extensións e funcionalidades específicas do proxecto no proceso de vendas descendentes para este acordo. |
+| Tipo | Separador Xeral (oculto) | Este campo de conxunto de opcións ten as seguintes opcións:</br>- Baseado en traballo (dispoñible só con Project Operations)</br>- Baseado en elementos (dispoñible só cando Project Operations e Sales están instaladas)</br>- Baseado en mantemento de servizo (dispoñible cando se instala Field Service) | Cando usa Project Operations, este valor de campo configúrase automaticamente en **Baseado en traballo** , que clasifica a oportunidade como baseada en proxecto. A oportunidade debe estar baseada en proxecto para activar todas as extensións e funcionalidades específicas do proxecto no proceso de vendas descendentes para este acordo. |
 | Contacto | Separador Xeral | Referencia ao contacto principal do cliente para este acordo. | |
 | Conta | Separador Xeral | Referencia á empresa ou ao rexistro da conta do cliente. | |
 | Xestor de contas | Separador Xeral | O nome do xestor de contas desta oportunidade baseada en proxecto. | O xestor de contas é o responsable de xestionar a relación co cliente a través durante a realización deste proxecto. Baseada no rexistro de recursos reservables ligado ao xestor de contas, a unidade de contratación está predefinida. |

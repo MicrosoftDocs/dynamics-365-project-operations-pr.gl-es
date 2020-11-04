@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 02c1bafbe907a657689b610ae792f88085320903
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 62d6316c9602089518a94267d8ef2b7fb8d59cd0
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896999"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076097"
 ---
 # <a name="match-a-receipt-to-an-expense-using-ocr"></a>Emparellar un recibo cun gasto mediante OCR
 
@@ -40,18 +39,18 @@ A entrada de gastos mellorouse mediante a introdución do procesamento de recoñ
 Para anexar automaticamente recibos que inclúan transaccións con tarxeta de crédito cando se crea un informe de gastos, complete os seguintes pasos.
 
   1. Abra a área de traballo **Xestión de gastos**.
-  2. No separador **Recibos**, comprobe que existen recibos non anexados. Tamén pode cargar recibos no separador **Recibos**.
-  3. No separador **Gastos**, comprobe que existen gastos non anexados. Normalmente, o administrador de gastos importa estes gastos do provedor da tarxeta de crédito.
+  2. No separador **Recibos** , comprobe que existen recibos non anexados. Tamén pode cargar recibos no separador **Recibos**.
+  3. No separador **Gastos** , comprobe que existen gastos non anexados. Normalmente, o administrador de gastos importa estes gastos do provedor da tarxeta de crédito.
   4. Seleccione **Novo informe de gastos**. Teña en conta que agora tamén pode incluír gastos e recibos tamén cando crea un informe de gastos. Se engade tanto gastos como recibos, activarase a correspondencia automática dos recibos cos gastos.
 
 ## <a name="create-or-match-receipts-to-an-expense-report"></a>Crear ou emparellar recibos cun informe de gastos
 Para crear un gasto ou emparellar un gasto desde un recibo, complete os seguintes pasos.
 
-  1. Nun informe de gastos, no separador **Recibos**, anexe un recibo seleccionando **Engadir recibos**.
+  1. Nun informe de gastos, no separador **Recibos** , anexe un recibo seleccionando **Engadir recibos**.
   2. Debaixo da imaxe cargada do recibo, observe as opcións **Crear** e **Emparellar**.
 
       - Seleccione **Crear** para crear unha transacción de gastos introducida manualmente e encher os valores que se extraen do recibo.
-      - Se selecciona **Emparellar**, o sistema tenta emparellar un gasto existente co recibo.
+      - Se selecciona **Emparellar** , o sistema tenta emparellar un gasto existente co recibo.
 
 ## <a name="installation"></a>Instalación
 
@@ -65,7 +64,7 @@ Para utilizar estas capacidades avanzadas de gastos, instale o complemento Servi
 6. Siga a guía de instalación e acepte os termos e condicións.
 7. Seleccionar **Instalar**.
 
-Na área de traballo **Xestión de funcionalidades**, active as seguintes funcionalidades:
+Na área de traballo **Xestión de funcionalidades** , active as seguintes funcionalidades:
 
 - Os informes de gastos reinventáronse
 - Emparellar automaticamente e crear gastos a partir do recibo

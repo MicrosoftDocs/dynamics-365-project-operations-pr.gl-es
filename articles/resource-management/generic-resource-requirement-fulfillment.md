@@ -1,29 +1,19 @@
 ---
 title: Cumprimento dos requisitos de recursos xenéricos
-description: Este tema proporciona información sobre a reserva de recursos nomeados para un requisito de recursos xenérico.
+description: Este tema proporciona información sobre como reservar recursos nomeados para un requisito de recursos xenérico.
 author: ruhercul
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
 ms.author: ruhercul
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 76dd47fa2451b5cb61298ff332d77bae646a288a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 6bb7c185656ff87bb3ca24209594c07d25862d70
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897584"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076077"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Cumprimento dos requisitos de recursos xenéricos
 
@@ -31,9 +21,9 @@ _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fo
 
 Pode reservar un recurso nomeado para substituír un recurso xenérico que teña un requisito de recursos.
 
-1. Na páxina **Proxectos**, seleccione o separador **Equipo**.
+1. Na páxina **Proxectos** , seleccione o separador **Equipo**.
 2. Seleccione o recurso xenérico que ten un requisito de recursos da lista e logo seleccione **Reservar**. Ou abra o requisito de recursos e logo seleccione **Reservar**.
-3. Na páxina **Asistente de programación**, seleccione un recurso nomeado para reservar no seu equipo de proxecto e logo seleccione **Reservar**.
+3. Na páxina **Asistente de programación** , seleccione un recurso nomeado para reservar no seu equipo de proxecto e logo seleccione **Reservar**.
 
 Cando a reserva está completa e cumprida por un recurso nomeado, o recurso xenérico substitúese polo recurso nomeado.
 

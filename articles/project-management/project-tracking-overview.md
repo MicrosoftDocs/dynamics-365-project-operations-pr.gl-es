@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907361"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075983"
 ---
 # <a name="project-tracking-overview"></a>Visión xeral do rastrexo de proxectos
 
@@ -25,10 +25,10 @@ A necesidade de rastrexar o progreso cunha programación varía segundo o sector
 
 A vista **Rastrexo do esforzo** rastrexa o progreso das tarefas de programación comparando as horas de esforzo real dedicadas a unha tarefa coas horas de esforzo planificadas da tarefa. Dynamics 365 Project Operations usa as seguintes fórmulas para calcular as métricas de rastrexo:
 
-- **Porcentaxe de progreso**: Esforzo real realizado ata a data ÷ Estimación ao completar (EAC) 
-- **Estimación para completar (ETC)**: Esforzo previsto - Esforzo real realizado ata a data 
-- **EAC**: Esforzo restante + Esforzo real realizado ata a data 
-- **Varianza de esforzo proxectado**: Esforzo planificado - EAC
+- **Porcentaxe de progreso** : Esforzo real realizado ata a data ÷ Estimación ao completar (EAC) 
+- **Estimación para completar (ETC)** : Esforzo previsto - Esforzo real realizado ata a data 
+- **EAC** : Esforzo restante + Esforzo real realizado ata a data 
+- **Varianza de esforzo proxectado** : Esforzo planificado - EAC
 
 Project Operations mostra unha proxección da varianza de esforzo na tarefa. Se a EAC supón un esforzo superior ao previsto, proxéctase que a tarefa levará máis tempo do que estaba previsto inicialmente e está atrasada. Se a EAC supón un esforzo inferior ao previsto, proxéctase que a tarefa levará menos tempo do que estaba previsto inicialmente e está adiantada.
 
@@ -60,10 +60,10 @@ A vista **Seguimento de custos** compara o custo real que se gastou nunha tarefa
 > [!NOTE]
 > Esta vista mostra só os custos laborais e non inclúe os custos das estimacións de gastos. Project Operations usa as seguintes fórmulas para calcular as métricas de rastrexo:
 
-- **Porcentaxe do custo consumido**: Custo real gastado ata a data ÷ Custo estimado ao completar
-- **Custo para completar (CTC)**: Custo planificado - Custo real gastado ata a data
-- **EAC**: custo restante + custo real gastado ata a data
-- **Varianza do custo proxectado**: Custo planificado - EAC
+- **Porcentaxe do custo consumido** : Custo real gastado ata a data ÷ Custo estimado ao completar
+- **Custo para completar (CTC)** : Custo planificado - Custo real gastado ata a data
+- **EAC** : custo restante + custo real gastado ata a data
+- **Varianza do custo proxectado** : Custo planificado - EAC
 
 A proxección da varianza de custo móstrase na tarefa. Se o EAC supón un esforzo superior ao custo previsto, proxéctase que a tarefa custará máis do que estaba previsto inicialmente. Polo tanto, tende a superar o orzamento. Se o EAC supón un esforzo inferior ao custo previsto, proxéctase que a tarefa custará menos do que estaba previsto inicialmente. Polo tanto, tende a estar por debaixo do orzamento.
 

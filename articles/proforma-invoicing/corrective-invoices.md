@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e14da1c07d5b697de6caf1b9041c30581ecff102
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: b31e702cc15bbb3937e8c4b305064212f63ce919
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898079"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076300"
 ---
 # <a name="corrected-invoices"></a>Facturas corrixidas
 
-_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
+_**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
 Pódense editar as facturas confirmadas. Cando edite unha factura confirmada, créase un novo borrador de factura corrixida. Dado que se supón que desexa reverter todas as transaccións e cantidades da factura orixinal, a factura corrixida inclúe todas as transaccións da factura orixinal e todas as cantidades que hai en ela son cero (0).
 

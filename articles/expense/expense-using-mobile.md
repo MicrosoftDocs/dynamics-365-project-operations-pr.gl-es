@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3185c80c792dfe537f4974fa276eafbd16813131
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 0c1955198e98a3d8499f51c669478cd422b957e6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897044"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076134"
 ---
 # <a name="expense-using-mobile"></a>Gasto con dispositivos móbiles
 
@@ -106,13 +105,13 @@ Descargue e instale a aplicación móbil Dynamics 365 Unified Ops:
 3. Seleccione **Facer foto** ou **Escoller imaxe**.
 4. Siga un destes pasos:
 
-   - Se seleccionou **Facer foto**, siga estes pasos:
+   - Se seleccionou **Facer foto** , siga estes pasos:
 
       1. Irá á cámara do seu dispositivo móbil para que poida facer unha foto do recibo. 
       2. Cando remate de facer unha foto, seleccione **Aceptar** para aceptar a foto.
       3. Opcional: Introduza un nome para a foto e introduza calquera nota.
 
-    - Se seleccionou **Escoller imaxe**, siga estes pasos:
+    - Se seleccionou **Escoller imaxe** , siga estes pasos:
 
         1. Seleccione unha imaxe da lista.
         2. Opcional: Introduza un nome para a imaxe e introduza calquera nota.
@@ -131,8 +130,8 @@ Descargue e instale a aplicación móbil Dynamics 365 Unified Ops:
 8. Seleccione **Facer foto** ou **Escoller imaxe**.
 9. Siga un destes pasos:
 
-    - Se seleccionou **Facer foto**, irá á cámara do seu dispositivo móbil para que poida facer unha foto do recibo. Cando remate de facer unha foto, seleccione **Aceptar** para aceptar a foto.
-    - Se seleccionou **Escoller imaxe**, seleccione unha imaxe da lista.
+    - Se seleccionou **Facer foto** , irá á cámara do seu dispositivo móbil para que poida facer unha foto do recibo. Cando remate de facer unha foto, seleccione **Aceptar** para aceptar a foto.
+    - Se seleccionou **Escoller imaxe** , seleccione unha imaxe da lista.
 
 10. Seleccione **Feito**.
 
@@ -145,7 +144,7 @@ Descargue e instale a aplicación móbil Dynamics 365 Unified Ops:
     
 3. Seleccione un informe de gastos para ver os detalles do gasto.
 4. Seleccione un gasto para ver os seus detalles. A información que se mostra para un gasto inclúe o recibo, o convidado e os detalles.
-5. De volta na páxina **Informe de gastos**, seleccione aprobar ou rexeitar o informe de gastos.
+5. De volta na páxina **Informe de gastos** , seleccione aprobar ou rexeitar o informe de gastos.
 6. Introduza calquera comentario para a acción de aprobación.
 7. Seleccione **Feito**.
 
@@ -172,24 +171,24 @@ Descargue e instale a aplicación móbil Dynamics 365 Unified Ops:
     1. Seleccione **Capturar recibo** ou **Anexar recibo**.
     2. Siga un destes pasos:
 
-        - Se seleccionou **Capturar recibo**, siga estes pasos:
+        - Se seleccionou **Capturar recibo** , siga estes pasos:
 
             1. Seleccione **Facer foto** ou **Escoller imaxe**.
             2. Siga un destes pasos:
 
-                - Se seleccionou **Facer foto**, siga estes pasos:
+                - Se seleccionou **Facer foto** , siga estes pasos:
 
                     1. Irá á cámara do seu dispositivo móbil para que poida facer unha foto do recibo. Cando remate de facer unha foto, seleccione **Aceptar** para aceptar a foto.
                     2. Opcional: Introduza un nome para a foto e introduza calquera nota.
 
-                - Se seleccionou **Escoller imaxe**, siga estes pasos:
+                - Se seleccionou **Escoller imaxe** , siga estes pasos:
 
                     1. Seleccione unha imaxe da lista.
                     2. Opcional: Introduza un nome para a imaxe e introduza calquera nota.
 
             3.  Seleccione **Feito**.
 
-        - Se seleccionou **Anexar recibo**, siga estes pasos:
+        - Se seleccionou **Anexar recibo** , siga estes pasos:
 
             1.  Seleccione unha ou máis imaxes da lista.
             2.  Seleccione **Feito**.
@@ -198,22 +197,22 @@ Descargue e instale a aplicación móbil Dynamics 365 Unified Ops:
 
 18. Se a política da empresa require convidados para o gasto, seleccione **Convidados** e siga estes pasos:
 
-    1. Seleccione **Convidado**, **Convidados anteriores** ou **Compañeiros de traballo**.
+    1. Seleccione **Convidado** , **Convidados anteriores** ou **Compañeiros de traballo**.
     2. Siga un destes pasos:
 
-        - Se seleccionou **Convidado**, siga estes pasos:
+        - Se seleccionou **Convidado** , siga estes pasos:
 
             1. Introduza o nome do convidado.
             2. Opcional: Introduza a organización e/ou o país do convidado.
             3. Opcional: Introduza o cargo do convidado.
             4. Seleccione **Feito**.
 
-        - Se seleccionou **Convidados anteriores**, siga estes pasos:
+        - Se seleccionou **Convidados anteriores** , siga estes pasos:
 
             1. Seleccione un ou máis convidados anteriores da lista. Verá unha lista de convidados anteriores que engadiu a informes de gastos anteriores que se cargan na súa aplicación para o seu uso sen conexión. Por defecto, cárganse 50 elementos, pero un programador pode cambiar este número. Para obter máis información, os programadores deben consultar [Plataforma móbil](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Se o seu convidado anterior non está na lista, seleccione **Buscar** para facer unha busca en liña. Busque por nome ou cambie á busca por organización, país ou cargo.
             2. Seleccione **Feito**.
 
-        - Se seleccionou **Compañeiros de traballo**, siga estes pasos:
+        - Se seleccionou **Compañeiros de traballo** , siga estes pasos:
 
             1. Seleccione un ou máis compañeiros de traballo da lista. Verá unha lista dos compañeiros de traballo cargados na súa aplicación para o seu uso sen conexión. Por defecto, cárganse 50 elementos, pero un programador pode cambiar este número. Para obter máis información, os programadores deben consultar [Plataforma móbil](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Se o seu compañeiro de traballo non está na lista, seleccione **Buscar** para facer unha busca en liña. Busque por nome ou cambie á busca por empresa ou cargo.
             2. Seleccione **Feito**.

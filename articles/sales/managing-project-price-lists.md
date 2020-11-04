@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d09a0dd8234641ca106c37a38d1d721dfb07236c
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898664"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076358"
 ---
 # <a name="project-price-lists"></a>Listas de prezos de proxectos
 
@@ -35,16 +34,16 @@ Dynamics 365 Project Operations estende a entidade de lista de prezos en Dynamic
 
 Unha lista de prezos inclúe información ofrecida por catro entidades diferentes:
 
-- **Lista de prezos**: Esta entidade almacena información sobre contexto, moeda, efectividade de data e unidade de tempo para o tempo de prezos. O contexto mostra se a lista de prezos expresa taxas de custo ou taxas de vendas. 
-- **Moeda**: Esta entidade almacena a moeda dos prezos na lista de prezos. 
-- **Data**: Esta entidade úsase cando o sistema intenta introducir un prezo por defecto nunha transacción. Selecciónase a lista de prezos que ten efectividade de data que inclúe a data da transacción. Se se atopa máis dunha lista de prezos que é efectiva para a data da transacción e está anexada á oferta, contrato ou unidade organizativa relacionada, entón ningún prezo será predefinido. 
-- **Tempo**: Esta entidade almacena a unidade de tempo para a que se expresan os prezos, como taxas diarias ou horarias. 
+- **Lista de prezos** : Esta entidade almacena información sobre contexto, moeda, efectividade de data e unidade de tempo para o tempo de prezos. O contexto mostra se a lista de prezos expresa taxas de custo ou taxas de vendas. 
+- **Moeda** : Esta entidade almacena a moeda dos prezos na lista de prezos. 
+- **Data** : Esta entidade úsase cando o sistema intenta introducir un prezo por defecto nunha transacción. Selecciónase a lista de prezos que ten efectividade de data que inclúe a data da transacción. Se se atopa máis dunha lista de prezos que é efectiva para a data da transacción e está anexada á oferta, contrato ou unidade organizativa relacionada, entón ningún prezo será predefinido. 
+- **Tempo** : Esta entidade almacena a unidade de tempo para a que se expresan os prezos, como taxas diarias ou horarias. 
 
 A entidade Lista de prezos ten tres táboas relacionadas que almacenan os prezos:
 
-  - **Prezo de rol**: Esta táboa almacena unha taxa para a combinación de valores de rol e unidade organizativa e úsase para establecer prezos baseados en roles para os recursos humanos.
-  - **Prezo da categoría de transacción**: Esta táboa almacena os prezos por categoría de transacción e úsase para configurar prezos de categoría de gasto.
-  - **Elementos da lista de prezos**: Esta táboa almacena os prezos dos produtos do catálogo.
+  - **Prezo de rol** : Esta táboa almacena unha taxa para a combinación de valores de rol e unidade organizativa e úsase para establecer prezos baseados en roles para os recursos humanos.
+  - **Prezo da categoría de transacción** : Esta táboa almacena os prezos por categoría de transacción e úsase para configurar prezos de categoría de gasto.
+  - **Elementos da lista de prezos** : Esta táboa almacena os prezos dos produtos do catálogo.
  
 A lista de prezos é un cartón de tarifas. Un cartón de tarifas é unha combinación da entidade Lista de prezos e as filas relacionadas nas táboas de Prezo de rol, Prezo de categoría de transacción e Elementos da lista de prezos.
 
@@ -54,15 +53,15 @@ O termo *rol de recurso* refírese a un conxunto de habilidades, competencias e 
 
 O tempo de recursos humanos ofertarse en función do rol que un recurso cumpre nun proxecto específico. Para o tempo de recursos humanos, o custo e a facturación baséanse no rol dos recursos. Pode fixarse o prezo do tempo en calquera unidade do grupo de unidades **Tempo**.
 
-O grupo de unidades **Tempo** créase cando instala Project Operations. Ten unha unidade predefinida de **Hora**. Non pode eliminar, cambiar o nome ou editar os atributos do grupo de unidades **Tempo** ou a unidade **Hora**. Non obstante, pode engadir outras unidades ao grupo de unidades **Tempo**. Se tenta eliminar o grupo de unidades **Tempo** ou a unidade **Hora**, pode causar fallos na lóxica de negocio.
+O grupo de unidades **Tempo** créase cando instala Project Operations. Ten unha unidade predefinida de **Hora**. Non pode eliminar, cambiar o nome ou editar os atributos do grupo de unidades **Tempo** ou a unidade **Hora**. Non obstante, pode engadir outras unidades ao grupo de unidades **Tempo**. Se tenta eliminar o grupo de unidades **Tempo** ou a unidade **Hora** , pode causar fallos na lóxica de negocio.
  
 ## <a name="transaction-categories-and-expense-categories"></a>Categorías de transaccións e categorías de gasto
 
 Factúranse ao cliente os gastos de viaxe e outros gastos nos que incorren os consultores do proxecto. A fixación de prezos de categorías de gasto realízase mediante listas de prezos. Os gastos de avións, hoteis e aluguer de vehículos son exemplos de categorías de gasto. Cada liña da lista de prezos para gastos especifica os prezos para unha categoría de gasto específica. Os tres métodos seguintes úsanse para fixar o prezo das categorías de gasto:
 
-- **A custo**: O custo do gasto factúrase ao cliente e non se aplica ningún sobreprezo.
-- **Porcentaxe de sobreprezo**: A porcentaxe sobre o custo real factúrase ao cliente. 
-- **Prezo por unidade**: Establécese un prezo de facturación para cada unidade da categoría de gasto. A cantidade que se factura ao cliente calcúlase en función do número de unidades de gasto que informa o consultor. Quilometraxe usa o método de prezo por unidade. Por exemplo, a categoría de gasto de quilometraxe pódese configurar para 30 dólares estadounidenses (USD) por día ou 2 USD por milla. Cando un consultor informa de quilometraxe nun proxecto, o importe a facturar calcúlase en función do número de millas que informou o consultor.
+- **A custo** : O custo do gasto factúrase ao cliente e non se aplica ningún sobreprezo.
+- **Porcentaxe de sobreprezo** : A porcentaxe sobre o custo real factúrase ao cliente. 
+- **Prezo por unidade** : Establécese un prezo de facturación para cada unidade da categoría de gasto. A cantidade que se factura ao cliente calcúlase en función do número de unidades de gasto que informa o consultor. Quilometraxe usa o método de prezo por unidade. Por exemplo, a categoría de gasto de quilometraxe pódese configurar para 30 dólares estadounidenses (USD) por día ou 2 USD por milla. Cando un consultor informa de quilometraxe nun proxecto, o importe a facturar calcúlase en función do número de millas que informou o consultor.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Prezos de vendas e anulacións do proxecto
 
@@ -104,7 +103,7 @@ Pode crear anulacións específicas de operacións para os prezos seleccionados 
 
 Por defecto, un contrato de proxecto sempre recibe unha copia da lista de prezos de venda principal en lugar dunha ligazón directa a ela. Este comportamento axuda a garantir que os acordos de prezos que se realizan cun cliente para unha declaración de traballo (SOW) non cambian se cambia a lista de prezos principal.
 
-Non obstante, nunha oferta, pode usar unha lista de prezos principal. Alternativamente, pode copiar unha lista de prezos principal e editala para crear unha lista de prezos personalizada que se aplica só a esa oferta. Para crear unha nova lista de prezos específica dunha oferta, na páxina **Oferta**, seleccione **Crear prezos personalizados**. Pode acceder á lista de prezos de proxecto específica da oferta só desde a oferta. 
+Non obstante, nunha oferta, pode usar unha lista de prezos principal. Alternativamente, pode copiar unha lista de prezos principal e editala para crear unha lista de prezos personalizada que se aplica só a esa oferta. Para crear unha nova lista de prezos específica dunha oferta, na páxina **Oferta** , seleccione **Crear prezos personalizados**. Pode acceder á lista de prezos de proxecto específica da oferta só desde a oferta. 
 
 Cando crea unha lista de prezos de proxecto personalizada, só se copian os compoñentes do proxecto da lista de prezos. Noutras palabras, unha nova lista de prezos creada como unha copia da lista de prezos de proxecto existente que se anexa na oferta, e esta nova lista de prezos só ten prezos de rol relacionados e os prezos da categoría de transacción.
   

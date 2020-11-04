@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: ab39d7e5dc2d8c01ed49ca0f1a4d1691aaf15637
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961860"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075980"
 ---
 # <a name="define-resource-calendars"></a>Definir calendarios de recursos
 
@@ -26,9 +26,9 @@ Cada recurso reservable que traballa nun proxecto debe ter un calendario de hora
 
 ## <a name="define-a-resources-working-hours"></a>Definir as horas de traballo dun recurso
 
-1. No menú **Recursos**, seleccione **Recursos**.
+1. No menú **Recursos** , seleccione **Recursos**.
 2. Na vista de grade, seleccione o **Recurso reservable** aplicable.
-3. Na páxina **Detalles do recurso**, seleccione o separador **Horas de traballo**. Por defecto, o calendario de recursos reservables é o horario de traballo do modelo de horas de traballo por defecto definido para a organización.
+3. Na páxina **Detalles do recurso** , seleccione o separador **Horas de traballo**. Por defecto, o calendario de recursos reservables é o horario de traballo do modelo de horas de traballo por defecto definido para a organización.
 4. Para actualizar as horas de traballo, prema co botón dereito na data de inicio da regra de calendario proposta que se definirá. Use o menú de regras de calendario para definir unha regra de calendario para un día específico, o resto da serie ou todo o calendario.
 5. Despois de seleccionar a opción, pode definir:
 
@@ -39,7 +39,7 @@ Cada recurso reservable que traballa nun proxecto debe ter un calendario de hora
 
 ## <a name="applying-a-calendar-template-to-a-resource"></a>Aplicación dun modelo de calendario a un recurso
 
-1. No menú **Recursos**, seleccione **Recursos**.
+1. No menú **Recursos** , seleccione **Recursos**.
 2. Na vista de grade, seleccione ata 25 **Recursos reservables** para actualizar.
 3. Seleccione **Establecer calendario** e un diálogo solicitaralle unha lista de modelos de horas de traballo dispoñibles.
 4. Seleccione o modelo que desexe usar e, a seguir, seleccione **Aplicar**.

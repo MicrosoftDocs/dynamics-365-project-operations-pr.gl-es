@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 274f99527804b0db81b26201a22eb5a8cbe86c9a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 855593df1ea14827f06961dda5b4becd2fa75c18
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896954"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076129"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Crear e confirmar diarios de corrección
 
@@ -37,31 +36,31 @@ Para completar os procedementos neste tema, necesitará permisos de administrado
 
 Realice os seguintes pasos para corrixir as entradas de tempo individuais ou múltiples para un proxecto.
 
-1. Na zona **Vendas**, seleccione **Transaccións** e logo seleccione **Tempo aprobado**. 
+1. Na zona **Vendas** , seleccione **Transaccións** e logo seleccione **Tempo aprobado**. 
 
-2. Na lista **Tempo aprobado**, localice e seleccione unha ou varias entradas de tempo aprobadas para corrixir. Pode usar o filtro para localizar entradas relacionadas. Por exemplo, pode filtrar un ID de proxecto e seleccionar todas as entradas de tempo aprobadas con ese ID de proxecto.
+2. Na lista **Tempo aprobado** , localice e seleccione unha ou varias entradas de tempo aprobadas para corrixir. Pode usar o filtro para localizar entradas relacionadas. Por exemplo, pode filtrar un ID de proxecto e seleccionar todas as entradas de tempo aprobadas con ese ID de proxecto.
 
 3. Seleccione **Corrixir entradas**. Créase automaticamente un novo diario de corrección, co tipo asignado **Corrección de tempo**. As entradas que seleccionou engádense ao diario. 
 
-4. Na páxina **Novo diario**, introduza unha **Descrición** do diario de corrección e, a seguir, seleccione o separador **Correccións de entradas de tempo**.  
+4. Na páxina **Novo diario** , introduza unha **Descrición** do diario de corrección e, a seguir, seleccione o separador **Correccións de entradas de tempo**.  
 
-5. Na sección **Novos valores para entradas de tempo**, actualice os campos coa información correcta segundo sexa necesario. Por exemplo, pode cambiar o proxecto asignado ou o recurso reservable.
+5. Na sección **Novos valores para entradas de tempo** , actualice os campos coa información correcta segundo sexa necesario. Por exemplo, pode cambiar o proxecto asignado ou o recurso reservable.
 
-6. Seleccione **Previsualización**. Na caixa de diálogo, seleccione **Aceptar**. No separador **Liñas de diario**, pode ver unha lista dos datos reais orixinais relacionados coas entradas de tempo seleccionadas que foron invertidas e as liñas correspondentes corrixidas que se crearon. Se hai que facer correccións adicionais, repita os pasos 5 e 6. 
+6. Seleccione **Previsualización**. Na caixa de diálogo, seleccione **Aceptar**. No separador **Liñas de diario** , pode ver unha lista dos datos reais orixinais relacionados coas entradas de tempo seleccionadas que foron invertidas e as liñas correspondentes corrixidas que se crearon. Se hai que facer correccións adicionais, repita os pasos 5 e 6. 
 
 > [!NOTE]
 > Todos os datos reais corrixidos terán os mesmos valores que seleccionou na sección **Novos valores das entradas de tempo**.
 
 7. Se as correccións aparecen como se espera, seleccione **Confirmar**. Na caixa de diálogo, seleccione **Aceptar**.
 
-8. Volva á zona **Vendas**, seleccione **Proxectos** e, a seguir, abra o proxecto para o que acaba de actualizar as entradas de tempo. 
+8. Volva á zona **Vendas** , seleccione **Proxectos** e, a seguir, abra o proxecto para o que acaba de actualizar as entradas de tempo. 
 
-9. Na páxina **Proxectos**, no separador **Datos reais**, vexa os cambios que fixo. 
+9. Na páxina **Proxectos** , no separador **Datos reais** , vexa os cambios que fixo. 
 
 > [!NOTE]
 > Se o separador **Datos reais** non é visible, seleccione **Relacionado** > **Datos reais**.  
 
-10. Na lista **Vista asociada de datos reais**, pode ver que as entradas de tempo orixinais que foron invertidas aínda están na lista, do mesmo xeito que as entradas de tempo corrixidas correspondentes. 
+10. Na lista **Vista asociada de datos reais** , pode ver que as entradas de tempo orixinais que foron invertidas aínda están na lista, do mesmo xeito que as entradas de tempo corrixidas correspondentes. 
 
 Por exemplo, na seguinte gráfica, hai dúas partidas cunha cantidade de 8,00 que teñen débitos na columna Importe. Ademais, hai dúas partidas cunha cantidade de -8,00 que amosan importes cobrados na columna Importe. Estas correccións poñen a cantidade en cero.
 
@@ -70,11 +69,11 @@ Por exemplo, na seguinte gráfica, hai dúas partidas cunha cantidade de 8,00 qu
 
 Realice os seguintes pasos para corrixir unha ou varias entradas de gasto. 
 
-1. Na zona **Vendas**, no panel de navegación esquerdo, baixo **Transaccións**, seleccione **Gastos aprobados**.
+1. Na zona **Vendas** , no panel de navegación esquerdo, baixo **Transaccións** , seleccione **Gastos aprobados**.
 
-2. Na lista **Gastos aprobados**, seleccione o proxecto que desexa corrixir e logo seleccione **Corrixir entradas**. Crearase automaticamente un novo diario de corrección, co tipo asignado de **Corrección de gasto**. 
+2. Na lista **Gastos aprobados** , seleccione o proxecto que desexa corrixir e logo seleccione **Corrixir entradas**. Crearase automaticamente un novo diario de corrección, co tipo asignado de **Corrección de gasto**. 
 
-3. Na páxina **Novo diario**, introduza unha **Descrición** para a corrección, e no separador **Corrección de gasto**, na sección **Novos valores para gastos**, seleccione os campos de datos que desexa corrixir para as liñas de gasto seleccionadas. Por exemplo, pode atribuír o gasto a outro **Proxecto** ou corrixir **Categoría de gasto**, **Data de gasto** ou **Recurso reservable**.
+3. Na páxina **Novo diario** , introduza unha **Descrición** para a corrección, e no separador **Corrección de gasto** , na sección **Novos valores para gastos** , seleccione os campos de datos que desexa corrixir para as liñas de gasto seleccionadas. Por exemplo, pode atribuír o gasto a outro **Proxecto** ou corrixir **Categoría de gasto** , **Data de gasto** ou **Recurso reservable**.
 
 4. Seleccione **Previsualización**. Na caixa de diálogo, seleccione **Aceptar**. 
 
@@ -87,6 +86,6 @@ Realice os seguintes pasos para corrixir unha ou varias entradas de gasto.
 
 7. Despois de confirmar o diario de correccións, desprácese ata o proxecto ou proxectos que actualizou para ver os seus cambios.  
 
-8. Na páxina do proxecto, no separador **Datos reais**, revise a **Visualización asociada dos datos reais**. Aparecerán as entradas orixinais e as entradas corrixidas. O seguinte gráfico mostra os importes orixinais das entradas de gastos e os correspondentes importes corrixidos das entradas de gastos. 
+8. Na páxina do proxecto, no separador **Datos reais** , revise a **Visualización asociada dos datos reais**. Aparecerán as entradas orixinais e as entradas corrixidas. O seguinte gráfico mostra os importes orixinais das entradas de gastos e os correspondentes importes corrixidos das entradas de gastos. 
 
 

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 656418ab99db46455195f70c38b6f5fa13c30755
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966778"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076032"
 ---
 # <a name="managing-multiple-customers-on-project-quotes-sales"></a>Xestión de varios clientes en ofertas de proxecto (Vendas)
 
@@ -31,7 +31,7 @@ Poden engadirse, actualizarse ou eliminarse clientes de oferta e clientes de li�
 
 O cliente que está no separador de resumo da oferta de proxecto como cliente potencial é o cliente principal da oferta. Cando intenta eliminar o cliente principal da lista de clientes da oferta, verá un erro de que non se pode eliminar un rexistro de cliente principal nunha oferta.
 
-Non se debe actualizar o cliente principal desde a lista de clientes da oferta. Non obstante, pode influír no cliente principal cambiando o cliente potencial no separador **Resumo** da oferta. Cando se actualiza este campo no **Resumo da oferta**, o cliente potencial que se acaba de seleccionar engádese como novo cliente da oferta co indicador **Principal** activado. O antigo cliente potencial seguirá sendo un cliente na oferta.
+Non se debe actualizar o cliente principal desde a lista de clientes da oferta. Non obstante, pode influír no cliente principal cambiando o cliente potencial no separador **Resumo** da oferta. Cando se actualiza este campo no **Resumo da oferta** , o cliente potencial que se acaba de seleccionar engádese como novo cliente da oferta co indicador **Principal** activado. O antigo cliente potencial seguirá sendo un cliente na oferta.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Crear, actualizar ou eliminar un rexistro de cliente de oferta
 

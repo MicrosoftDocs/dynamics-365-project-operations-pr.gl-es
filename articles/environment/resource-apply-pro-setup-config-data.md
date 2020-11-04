@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948860"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076005"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Configure e aplique a configuración no Common Data Service para Project Operations
 
@@ -27,7 +27,7 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 
 ![Migración da configuración](./media/1ConfigurationMigration.png)
 
-4. Na páxina 2 do asistente de CMT, seleccione **Office 365** como o **Tipo de despregamento**.
+4. Na páxina 2 do asistente de CMT, seleccione **Microsoft 365** como o **Tipo de despregamento**.
 5. Seleccione as caixas de verificación **Mostrar unha lista das organizacións dispoñibles** e **Mostrar avanzado**.
 6. Seleccione a rexión do seu arrendatario, introduza as súas credenciais e seleccione **Iniciar sesión**.
 
@@ -79,11 +79,11 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 
 ![Recursos reservables](./media/8BookableResources.png)
 
-3. No separador **Xeral**, seleccione o seu usuario administrador. Verifique que o fuso horario coincide co fuso no que se atopa. 
+3. No separador **Xeral** , seleccione o seu usuario administrador. Verifique que o fuso horario coincide co fuso no que se atopa. 
 
 ![Novo recurso reservable](./media/9NewBookableResource.png)
 
-4. No separador **Programación**, no campo **Empresa**, escolla a empresa **USPM** e seleccione **Gardar**. 
+4. No separador **Programación** , no campo **Empresa** , escolla a empresa **USPM** e seleccione **Gardar**. 
 
 ![Separador de programación](./media/10SchedulingTab.png)
 
@@ -114,10 +114,10 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
  
 12. Actualice os seguintes campos:
 
- - **Empresa predefinida**: USPM
- - **Unidade organizativa predefinida**: Contoso Robotics Global
- - **Frecuencia de facturas**: Sétimo e último día
- - **Modelo de horas de traballo**: Cambie ao modelo que creou.
+ - **Empresa predefinida** : USPM
+ - **Unidade organizativa predefinida** : Contoso Robotics Global
+ - **Frecuencia de facturas** : Sétimo e último día
+ - **Modelo de horas de traballo** : Cambie ao modelo que creou.
 
 13. Seleccione **Gardar**. 
 

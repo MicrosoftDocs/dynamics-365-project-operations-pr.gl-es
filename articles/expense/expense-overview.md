@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 0874b3d89e1dc0e65a51cedb82bf8f80831ca0bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967364"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076012"
 ---
 # <a name="expense-home-page"></a>Páxina de inicio de gastos
 
@@ -24,8 +24,8 @@ Dynamics 365 Project Operations admite a capacidade de procesar gastos. O proces
 
 En Project Operations, hai dous modelos de despregamento compatibles con gasto: 
 
-- **Completo**: Está dispoñible o despregamento completo para **Project Operations para situacións baseadas en recursos/sen fornecemento** ou **Project Operations para situacións baseadas en pedidos de produción**.
-- **Básico**: O despregamento básico está dispoñible para **Project Operations para situacións baseadas en recursos/sen fornecemento** e **Despregamento Lite: acordo para a facturación proforma**.
+- **Completo** : Está dispoñible o despregamento completo para **Project Operations para situacións baseadas en recursos/sen fornecemento** ou **Project Operations para situacións baseadas en pedidos de produción**.
+- **Básico** : O despregamento básico está dispoñible para **Project Operations para situacións baseadas en recursos/sen fornecemento** e **Despregamento Lite: acordo para a facturación proforma**.
 
 ## <a name="full"></a>Completo 
 O despregamento de gastos completos proporciona unha aplicación completa das políticas que inclúe a posibilidade de crear políticas, como:

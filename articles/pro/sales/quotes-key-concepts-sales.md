@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896279"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076056"
 ---
 # <a name="project-quote-key-concepts"></a>Conceptos clave de ofertas de proxecto
 
@@ -78,7 +78,7 @@ As ofertas de varios clientes prodúcense cando hai máis dun cliente ao que fac
 
 ## <a name="invoice-schedules"></a>Programacións de facturas
 
-As programacións de facturas son específicos de cada liña de oferta e tamén son opcionais. As programacións de facturas créanse en función de certas datas de inicio e finalización e frecuencia de facturación. As programacións de facturas úsanse na fase do contrato cando se configura o proceso de creación automática de facturas. Na fase de oferta, as programacións son opcionais. Cando se crean programacións de facturas na fase **Oferta**, cópianse no contrato do proxecto que se crea cando se gaña unha oferta do proxecto.
+As programacións de facturas son específicos de cada liña de oferta e tamén son opcionais. As programacións de facturas créanse en función de certas datas de inicio e finalización e frecuencia de facturación. As programacións de facturas úsanse na fase do contrato cando se configura o proceso de creación automática de facturas. Na fase de oferta, as programacións son opcionais. Cando se crean programacións de facturas na fase **Oferta** , cópianse no contrato do proxecto que se crea cando se gaña unha oferta do proxecto.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Cambios da oferta de Dynamics 365 Sales:
 

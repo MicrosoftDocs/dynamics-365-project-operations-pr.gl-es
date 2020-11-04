@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 6eb26bab511ec09201ab70c3e2808dece3f74c4c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968041"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076021"
 ---
 # <a name="estimate-projects-overview"></a>Visión xeral da estimación de proxectos
 
@@ -74,8 +74,8 @@ Se engadiu un campo personalizado no detalle de liña de oferta e quere que o si
 2. Seleccione **Buscar** e busque o complemento para actualizar.
 3. Seleccione o complemento e, a seguir, na páxina principal, prema **Seleccionar**.
 4. Seleccione o paso do complemento para actualizar, prema co botón dereito e logo seleccione **Actualizar**.
-5. Na caixa de diálogo **Actualizar o paso existente**, no campo **Atributos de filtrado**, seleccione o botón de puntos suspensivos (**...**):
-6. Na caixa de diálogo **Seleccionar atributos**, seleccione as caixas de verificación dos atributos personalizados.
+5. Na caixa de diálogo **Actualizar o paso existente** , no campo **Atributos de filtrado** , seleccione o botón de puntos suspensivos ( **...** ):
+6. Na caixa de diálogo **Seleccionar atributos** , seleccione as caixas de verificación dos atributos personalizados.
 7. Seleccione **Aceptar** para pechar a caixa de diálogo e logo seleccione **Actualizar paso**.
 8. Repita os pasos do 1 ao 7 para o segundo complemento.
 9. Peche **PluginRegistrationTool**.

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 2c20e4a7fa9748e03bf1729fc2f7bdbfc2f292d1
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908122"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076000"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Recuperación do IVE na xestión de gastos
 
@@ -21,7 +21,7 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 
 Para recibir reembolsos por transaccións do imposto sobre o valor engadido (IVE) elixibles, unha empresa ou organización debe identificar, recoller, verificar e enviar información precisa. Este proceso inclúe varias tarefas e, dependendo do tamaño da súa empresa, pode incluír varios empregados ou funcións.
 
-Para recuperar o IVE no módulo **Xestión de gastos**, deben cumprirse os seguintes requisitos previos:
+Para recuperar o IVE no módulo **Xestión de gastos** , deben cumprirse os seguintes requisitos previos:
 
 - Débense crear códigos fiscais para os países/rexións que están asignados a categorías de gasto.
 - Debe crearse un grupo fiscal de vendas para cada código fiscal.

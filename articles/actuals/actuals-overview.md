@@ -1,5 +1,5 @@
 ---
-title: Páxina de inicio de datos reais
+title: Datos reais
 description: Este tema ofrece información sobre como traballar con datos reais en Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
@@ -7,7 +7,6 @@ ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +16,14 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 75ad336a995aba3505325466433a5c5e2bb3e776
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 93a945ffbe9c6dd998456b506b95e717ab8fbab7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907316"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076122"
 ---
-# <a name="actuals"></a>Datos reais
+# <a name="actuals"></a>Datos reais 
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
@@ -46,7 +45,7 @@ Cando unha entrada de tempo que se envía está ligada a un proxecto que está a
 
 A lóxica para crear prezos predefinidos reside na liña de diario. Os valores de campo da entrada de tempo cópianse á liña de diario. Estes valores inclúen a data da transacción, a liña de contrato á que está asignado o proxecto e o resultado da moeda na lista de prezos correspondente.
 
-Os campos que afectan aos prezos predefinidos, por exemplo, **Rol** e **Unidade organizativa**, utilízanse para determinar o prezo adecuado por defecto na liña de diario. Pode engadir un campo personalizado na entrada de tempo. Se desexa que o valor de campo se propague aos datos reais, cree o campo na entidade Datos reais e utilice as asignacións de campos para copiar o campo da entrada de tempo aos datos reais.
+Os campos que afectan aos prezos predefinidos, por exemplo, **Rol** e **Unidade organizativa** , utilízanse para determinar o prezo adecuado por defecto na liña de diario. Pode engadir un campo personalizado na entrada de tempo. Se desexa que o valor de campo se propague aos datos reais, cree o campo na entidade Datos reais e utilice as asignacións de campos para copiar o campo da entrada de tempo aos datos reais.
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Liñas de diario e envío de gastos básicos
 

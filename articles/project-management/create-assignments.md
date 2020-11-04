@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 20eb3880b17fb1f765ad79bd720520b0c8004c0a
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906157"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076045"
 ---
 # <a name="create-resource-assignments"></a>Crear atribucións de recursos
 
@@ -37,7 +37,7 @@ Cando crea un membro do equipo xenérico mediante a atribución de tarefas, crea
 
 ## <a name="assign-a-named-resource-from-the-list-of-all-bookable-resources"></a>Atribuír un recurso denominado da lista de todos os recursos que se poden reservar.
 
-Pode utilizar a caixa de busca no **Selector de recursos** para buscar todos os recursos que se poden reservar activos en Project Service e atribuílos a calquera tarefa nó folla. Os recursos atribuídos deste xeito engádense ao equipo sen reservas. Isto é similar a engadir un membro do equipo e seleccionar **Ningún** como método de asignación. O recurso móstrase nos separadores **Equipo**, **Atribución de recursos** e **Conciliación** como recursos co só atribucións e sen reserva. Reservaos se desexas utilizar a súa dispoñibilidade.
+Pode utilizar a caixa de busca no **Selector de recursos** para buscar todos os recursos que se poden reservar activos en Project Service e atribuílos a calquera tarefa nó folla. Os recursos atribuídos deste xeito engádense ao equipo sen reservas. Isto é similar a engadir un membro do equipo e seleccionar **Ningún** como método de asignación. O recurso móstrase nos separadores **Equipo** , **Atribución de recursos** e **Conciliación** como recursos co só atribucións e sen reserva. Reservaos se desexas utilizar a súa dispoñibilidade.
 
 1. Desde a grade de tarefas, panel ou liña de tempo, desprácese ata o a cela **Atribuído a**.
 2. Na caixa de busca, comece a escribir un nome. Os resultados de busca para o nome móstranse no **Selector de recursos** en **Outros recursos**.

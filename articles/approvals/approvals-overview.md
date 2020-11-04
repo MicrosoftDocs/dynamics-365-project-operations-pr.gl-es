@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961164"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075992"
 ---
 # <a name="approvals-overview"></a>Visión xeral das aprobacións
 
@@ -27,7 +27,7 @@ Cando crea e envía unha entrada de tempo ou gasto, créase unha entrada de apro
 ## <a name="approve-an-entry"></a>Aprobar unha entrada
 O formulario **Aprobacións** permítelle cambiar entre diferentes vistas para que poida ver os diferentes tipos de aprobacións.
   
-1. Vaia ao formulario **Aprobacións** e seleccione **Gastos**, **Tempo** ou **Recuperacións**.
+1. Vaia ao formulario **Aprobacións** e seleccione **Gastos** , **Tempo** ou **Recuperacións**.
 2. Revise cada aprobación e seleccione as que desexa aprobar.
 3. Seleccione **Aprobar** para aprobar as entradas seleccionadas.
 O sistema procesará estas entradas e creará datos reais ou unha reserva.
@@ -47,7 +47,7 @@ Nalgún momento, é posible que teña que recuperar unha entrada enviada. Se a e
 Cada proxecto ten un número de membros do equipo do proxecto. Pode especificar que membros do equipo tamén son responsables de aprobacións do proxecto.
 
 1. Vaia ao formulario **Proxectos** e abra o proxecto desde a lista.
-2. No separador **Equipo**, seleccione o membro do equipo que aprobará o proxecto e seleccione **Editar**.
+2. No separador **Equipo** , seleccione o membro do equipo que aprobará o proxecto e seleccione **Editar**.
 3. Configure o campo **Responsable de aprobación do proxecto** en **Si**.
 4. Seleccione **Gardar**.
 5. Repita os pasos 2 a 4 para engadir responsables de aprobacións do proxecto adicionais.

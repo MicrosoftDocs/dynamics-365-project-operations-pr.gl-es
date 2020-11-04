@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948861"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076003"
 ---
 # <a name="add-an-azure-subscription-to-lcs-project"></a>Engadir unha subscrición de Azure ao proxecto de LCS
 
@@ -23,11 +23,11 @@ Os ambientes aloxados na nube deben despregarse mediante unha subscrición a Azu
 
 ## <a name="grant-admin-consent"></a>Outorgar o consentimento de administrador
 
-1. No seu proxecto LCS, na sección **Ambientes**, seleccione **Configuración de Microsoft Azure**.
+1. No seu proxecto LCS, na sección **Ambientes** , seleccione **Configuración de Microsoft Azure**.
 
 ![Configuración de Microsoft Azure](./media/1MicrosoftAzureSettings.png)
 
-2. Na páxina **Configuración do proxecto**, no separador **Conectores de Azure**, seleccione **Autorizar**. Isto permite despregar ambientes neste proxecto.
+2. Na páxina **Configuración do proxecto** , no separador **Conectores de Azure** , seleccione **Autorizar**. Isto permite despregar ambientes neste proxecto.
 
 ![Conectores de Azure](./media/2AzureConnectors.png)
 
@@ -57,11 +57,11 @@ A autorización xa está completa.
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Engadir un conector de subscrición a un proxecto LCS
 
-1. No seu proxecto LCS, na páxina **Configuración de Microsoft Azure**, seleccione **Engadir** para engadir un novo conector.
+1. No seu proxecto LCS, na páxina **Configuración de Microsoft Azure** , seleccione **Engadir** para engadir un novo conector.
 2. Introduza o seu ID de subscrición a Azure. Pode atopar o seu ID de subscrición a Azure no [Portal de Azure](https://ms.portal.azure.com/), en **Configuración** na parte inferior esquerda da pantalla.
-3. No campo **Configurar para usar Azure Resource Manager**, seleccione **Si**.
+3. No campo **Configurar para usar Azure Resource Manager** , seleccione **Si**.
 4. Asegúrese de que o dominio do arrendatario AAD da subscrición a Azure coincida coa subscrición a Azure que posúe o dominio que está a usar e seleccione **Seguinte**.
-5. Na pantalla **Configuración de Microsoft Azure**, seleccione **Seguinte** para confirmar. Se recibe un erro nesta pantalla, volva á sección [Proporcionar acceso a Dynamics Deployment Services para a subscrición a Azure](#provide) neste tema e asegúrese de que completou todos os pasos.
+5. Na pantalla **Configuración de Microsoft Azure** , seleccione **Seguinte** para confirmar. Se recibe un erro nesta pantalla, volva á sección [Proporcionar acceso a Dynamics Deployment Services para a subscrición a Azure](#provide) neste tema e asegúrese de que completou todos os pasos.
 6. Descargue o certificado de xestión de Azure nun cartafol local do seu ordenador e logo cárgueo no portal de xestión de Azure indo a **Configuración** > **Certificados de xestión**. Este certificado permitirá a LCS comunicarse con Azure no seu nome. Podes omitir este paso se o seu usuario ten acceso á subscrición.
 7. Seleccione **Seguinte**.
 8. Seleccione a rexión de Azure na que desexa despregar e seleccione un centro de datos que estea preto do lugar onde desexa usar este sistema.

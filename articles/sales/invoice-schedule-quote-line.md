@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ecaf4d872873473b0e7fe3b08d62c6fe5af9c3d
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908127"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076065"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Programacións de facturas en liñas de oferta baseada en proxecto
 
@@ -28,11 +28,11 @@ En xeral, a finalidade das programacións de facturas é permitir a creación au
 Cando o método de facturación dunha liña de oferta baseada en proxecto é Tempo e material, o sistema xera una programación de facturas baseada en datas. Para xerar automaticamente unha programación de facturas baseada en datas, complete os seguintes pasos.
 
 1. Vaia a **Configuración** > **frecuencias de facturas** e configure unha frecuencia de facturas.
-2. Na páxina **Ofertas**, abra a oferta do proxecto e na páxina **Resumo**, estableza a data de entrega solicitada.
+2. Na páxina **Ofertas** , abra a oferta do proxecto e na páxina **Resumo** , estableza a data de entrega solicitada.
 3. Abra a liña de oferta de tempo e material para a que precisa crear unha programación de facturas baseada en datas. 
-4. No separador **Programación de facturas**, seleccione valores nos campos **Comezo da facturación** e **Frecuencia das facturas**. 
+4. No separador **Programación de facturas** , seleccione valores nos campos **Comezo da facturación** e **Frecuencia das facturas**. 
 5. Na subgrade, seleccione **Xerar unha programación de facturas**.
-6. A aplicación xera a programación de facturas cos campos **Data de execución da factura**, **Data de corte da transacción**, e **Estado de execución** configurados do seguinte xeito:
+6. A aplicación xera a programación de facturas cos campos **Data de execución da factura** , **Data de corte da transacción** , e **Estado de execución** configurados do seguinte xeito:
 
     - **Data de execución da factura** establécese na data obrigada en función da frecuencia da factura.
     - **Data de corte da transacción** establécese o día anterior á **Data de execución da factura**.
@@ -40,12 +40,12 @@ Cando o método de facturación dunha liña de oferta baseada en proxecto é Tem
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Crear unha programación de facturas de prezo fixo para unha liña de oferta baseada en proxecto
 
-Cando a liña de oferta baseada en proxecto ten un método de facturación **Fixo**, o sistema crea unha programación de facturas baseada en fitos. Complete os seguintes pasos para xerar automaticamente esta programación para un conxunto fixo de fitos que se distribúen igualmente para o período do calendario.
+Cando a liña de oferta baseada en proxecto ten un método de facturación **Fixo** , o sistema crea unha programación de facturas baseada en fitos. Complete os seguintes pasos para xerar automaticamente esta programación para un conxunto fixo de fitos que se distribúen igualmente para o período do calendario.
 
 1. Vaia a **Configuración** > **frecuencias de facturas** e configure unha frecuencia de facturas.
-2. Na páxina **Ofertas**, abra a oferta do proxecto e na páxina **Resumo**, estableza a data de entrega solicitada.
+2. Na páxina **Ofertas** , abra a oferta do proxecto e na páxina **Resumo** , estableza a data de entrega solicitada.
 3. Abra a liña de oferta de prezo fixo para a que necesita crear unha programación de fitos. 
-4. No separador **Programación de facturas**, seleccione valores nos campos **Comezo da facturación** e **Frecuencia das facturas**. 
+4. No separador **Programación de facturas** , seleccione valores nos campos **Comezo da facturación** e **Frecuencia das facturas**. 
 5. Na subgrade, seleccione **Xerar fitos periódicos**.
 6. A aplicación xera a programación de facturas cun nome, data e importe de fito.
 
@@ -58,7 +58,7 @@ Cando a liña de oferta baseada en proxecto ten un método de facturación **Fix
 
 Os fitos de prezo fixo tamén se poden xerar manualmente cando non se dividen periodicamente. Para crear un fito manualmente:
 
-Abra a liña de oferta de prezo fixo na que necesita crear un fito. No separador **Programación da facturas**, na subgrade, seleccione **+ Crear un novo fito da liña de oferta** e introduza a información requirida baseándose na seguinte táboa.
+Abra a liña de oferta de prezo fixo na que necesita crear un fito. No separador **Programación da facturas** , na subgrade, seleccione **+ Crear un novo fito da liña de oferta** e introduza a información requirida baseándose na seguinte táboa.
 
 | **Campo** | **Localización** | **Relevancia, finalidade e orientación** | **Impacto descendente** |
 | --- | --- | --- | --- |

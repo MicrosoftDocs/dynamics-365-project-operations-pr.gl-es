@@ -9,17 +9,17 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 8b1d9284c063e34e34ec6525072a1f8f860116b6
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908126"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075986"
 ---
 # <a name="manage-multiple-customers-on-project-quotes"></a>Xestionar de varios clientes en ofertas de proxecto
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-As ofertas de proxecto admiten a situación na que a proposta implica varios clientes que financiarán o acordo. O separador **Resumo** da oferta ten o campo **Cliente potencial**, que identifica o cliente principal do acordo. Pódense configurar outros clientes para o acordo no separador **Clientes** da oferta do proxecto.
+As ofertas de proxecto admiten a situación na que a proposta implica varios clientes que financiarán o acordo. O separador **Resumo** da oferta ten o campo **Cliente potencial** , que identifica o cliente principal do acordo. Pódense configurar outros clientes para o acordo no separador **Clientes** da oferta do proxecto.
 
 Todos os clientes da oferta no separador **Clientes** da oferta do proxecto son por defecto os clientes de liña da oferta en calquera **nova** liña de oferta baseada en proxecto creada para a oferta. Calquera liña de oferta baseada en proxecto existente non herdará os novos rexistros de clientes da oferta creados despois dela.
 
@@ -29,7 +29,7 @@ Poden engadirse, actualizarse ou eliminarse clientes de oferta e clientes de li�
 
 O cliente que aparece no separador **Resumo** da oferta de proxecto como cliente potencial é o cliente principal da oferta. Se intenta eliminar o cliente principal da lista de clientes da oferta, recibirá un erro de que non se pode eliminar un rexistro de cliente principal nunha oferta.
 
-Non se debe actualizar o cliente principal desde a lista de clientes da oferta. Non obstante, pode influír no cliente principal cambiando o cliente potencial no separador **Resumo** da oferta. Cando se actualiza este campo no **Resumo da oferta**, o cliente potencial que se acaba de seleccionar engádese como novo cliente da oferta co indicador **Principal** activado. O antigo cliente potencial seguirá sendo un cliente na oferta.
+Non se debe actualizar o cliente principal desde a lista de clientes da oferta. Non obstante, pode influír no cliente principal cambiando o cliente potencial no separador **Resumo** da oferta. Cando se actualiza este campo no **Resumo da oferta** , o cliente potencial que se acaba de seleccionar engádese como novo cliente da oferta co indicador **Principal** activado. O antigo cliente potencial seguirá sendo un cliente na oferta.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Crear, actualizar ou eliminar un rexistro de cliente de oferta
 

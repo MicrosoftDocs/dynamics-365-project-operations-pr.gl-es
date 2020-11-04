@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: c4e91c1a869347ac1182db2de1ab9244309eb856
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908115"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076007"
 ---
 # <a name="opportunity-headersummary"></a>Cabeceira/resumo de oportunidade
 
@@ -28,7 +28,7 @@ A seguinte táboa inclúe os campos dunha oportunidade baseada en proxecto que s
 
 | **Campo** | **Localización** | **Relevancia, finalidade e orientación** | **Impacto descendente** |
 | --- | --- | --- | --- |
-| Tipo | Separador Xeral (oculto) | Este campo de conxunto de opcións ten as seguintes opcións:</br>- Baseado en traballo (dispoñible só con Project Operations)</br>- Baseado en elementos (dispoñible só cando Project Operations e Sales están instaladas)</br>- Baseado en mantemento de servizo (dispoñible cando se instala Field Service) | Cando usa Project Operations, este valor de campo configúrase automaticamente en **Baseado en traballo**, que clasifica a oportunidade como baseada en proxecto. A oportunidade debe estar baseada en proxecto para activar todas as extensións e funcionalidades específicas do proxecto no proceso de vendas descendentes para este acordo. |
+| Tipo | Separador Xeral (oculto) | Este campo de conxunto de opcións ten as seguintes opcións:</br>- Baseado en traballo (dispoñible só con Project Operations)</br>- Baseado en elementos (dispoñible só cando Project Operations e Sales están instaladas)</br>- Baseado en mantemento de servizo (dispoñible cando se instala Field Service) | Cando usa Project Operations, este valor de campo configúrase automaticamente en **Baseado en traballo** , que clasifica a oportunidade como baseada en proxecto. A oportunidade debe estar baseada en proxecto para activar todas as extensións e funcionalidades específicas do proxecto no proceso de vendas descendentes para este acordo. |
 | Empresa propietaria | Separador Xeral | Esta é a empresa ou entidade legal que entregará o proxecto ao cliente. | Esta información de campo copiarase no campo correspondente da oferta do proxecto creada a partir desta oportunidade. |
 | Contacto | Separador Xeral | Referencia ao contacto principal do cliente para este acordo. | |
 | Conta | Separador Xeral | Referencia á empresa ou ao rexistro da conta do cliente. | |

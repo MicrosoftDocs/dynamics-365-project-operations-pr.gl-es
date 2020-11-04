@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961862"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076070"
 ---
 # <a name="manage-time-zones"></a>Xestionar fusos horarios
 
@@ -22,7 +22,7 @@ _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fo
 
 ## <a name="projects"></a>Proxectos
 
-Cando se crea un proxecto, o fuso horario baséase no fuso horario definido no modelo de hora de traballo aplicado. En **Proxecto**, as datas son sempre relativas ao fuso horario do usuario que iniciou sesión en cada separador, agás o separador **Tarefa**. Cando vexa a estrutura de subdivisión do traballo, as datas sempre se amosarán no fuso horario do proxecto.
+Cando se crea un proxecto, o fuso horario baséase no fuso horario definido no modelo de hora de traballo aplicado. En **Proxecto** , as datas son sempre relativas ao fuso horario do usuario que iniciou sesión en cada separador, agás o separador **Tarefa**. Cando vexa a estrutura de subdivisión do traballo, as datas sempre se amosarán no fuso horario do proxecto.
 
 ## <a name="tasks"></a>Tarefas
 
@@ -30,7 +30,7 @@ Cando se crea unha tarefa, a hora de inicio, a hora de finalización e as horas/
 
 ## <a name="manage-resources-with-time-zones"></a>Xestionar recursos con fusos horarios
 
-Para obter resultados precisos e predicibles ao usar **Ampliar reserva**, hai dous requisitos previos clave que deben cumprirse:  
+Para obter resultados precisos e predicibles ao usar **Ampliar reserva** , hai dous requisitos previos clave que deben cumprirse:  
 
 - O usuario debe configurar o fuso horario do seu dispositivo para que coincida co fuso horario definido no sistema **Configuración de personalización**.
  
@@ -57,7 +57,7 @@ A seguinte táboa mostra:
 |Recurso C  |  ![Calendario do recurso C](media/reconcile-assignments-08.png) |
 |Recurso D  | ![Calendario do recurso D](media/reconcile-assignments-09.png)  |
  
-Cando navegue á vista **Conciliación**, móstranse as atribucións de recursos e as carencias de reservas asociadas.
+Cando navegue á vista **Conciliación** , móstranse as atribucións de recursos e as carencias de reservas asociadas.
 
 ![Vista de conciliación antes da extensión](media/reconcile-assignments-10.png)
 

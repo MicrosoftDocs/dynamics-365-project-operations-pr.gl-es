@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 94cf0f0d88e9be2522936b45122ed0037434d4f3
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961704"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076026"
 ---
 # <a name="submit-a-resource-request"></a>Enviar unha solicitude de recurso
 
@@ -21,7 +21,7 @@ _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fo
 
 Pode enviar un requisito de recurso xerado como solicitude de recurso. A solicitude envíase a un xestor de recursos para o seu cumprimento.
 
-1. En Dynamics 365 Project Operations, na páxina **Proxectos**, seleccione o separador **Equipo** para ver a lista de recursos reservables. 
+1. En Dynamics 365 Project Operations, na páxina **Proxectos** , seleccione o separador **Equipo** para ver a lista de recursos reservables. 
 2. Seleccione o recurso xenérico que ten un requisito de recurso da lista e prema en **Enviar solicitude**.
 
 O estado da solicitude de membro xenérico do equipo cambiará a **Enviado**.

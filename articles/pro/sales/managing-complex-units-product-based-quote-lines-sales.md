@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965781"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076064"
 ---
 # <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Xestión de unidades complexas como por usuario, por mes para as liñas de oferta baseadas en produto
 
@@ -29,15 +29,15 @@ Project Operations valida que só as propiedades numéricas ou propiedades de pr
 
 Por exemplo, Dynamics 365 Sales pode ter as seguintes propiedades:
 
-- **N.º de usuarios**: O número de usuarios
-- **Nº de meses**: O número de meses de subscrición
+- **N.º de usuarios** : O número de usuarios
+- **Nº de meses** : O número de meses de subscrición
 - **SKU de produto**
 
 Pode marcar as propiedades **N.º de Usuarios** e **N.º de meses** como factores de cantidade editando as propiedades da liña de produtos.
 
 Para crear factores de cantidade a partir das propiedades do produto, siga estes pasos:
 
-1. No panel de navegación esquerdo de Project Operations, vaia a**Vendas** > **Produtos**.
+1. No panel de navegación esquerdo de Project Operations, vaia a **Vendas** > **Produtos**.
 2. Abra o produto para o que precisa configurar os factores de cantidade. Asegúrese de que o produto xa ten propiedades configuradas.
 3. Na páxina **Información do proxecto** do produto, seleccione o separador **Factores de cantidade**.
 4. Na subgrade, seleccione **+ Novo cálculo de campo**.

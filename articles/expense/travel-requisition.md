@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 0261405abb9305d7f6abcde9cb90d9b184868580
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906160"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076001"
 ---
 # <a name="travel-requisitions"></a>Solicitudes de viaxes
 
@@ -33,7 +33,7 @@ As solicitudes de viaxes pódense configurar como "obrigatorias" activando o par
 
 1. Vaia a **Os meus gastos: Solicitude de viaxe** e seleccione **Nova solicitude de viaxe**.
 2. Insira un propósito e un destino para a solicitude.
-3. No campo **Descrición da viaxe**, introduza calquera información adicional. 
+3. No campo **Descrición da viaxe** , introduza calquera información adicional. 
 4. Para cada un dos gastos previstos, como voo, comidas ou aluguer de vehículos, cree unha partida para gastos. Inclúa a data estimada, o importe estimado e a moeda de cada gasto. 
 5. Cando remate de engadir os gastos esperados, seleccione **Gardar**.
 6. Cando estea listo para enviar a solicitude de viaxe, seleccione **Fluxo de traballo** > **Enviar**.

@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b252f6e02d0809c352d3665731ec5e02e4e9a73f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 42ea1eb71b3285159b3fdf79ba34a562f948fd6e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898440"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076298"
 ---
 # <a name="quotes---key-concepts"></a>Ofertas - Conceptos clave
 
@@ -31,20 +30,20 @@ _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fo
 
 En Dynamics 365 Project Operations, hai dous tipos de ofertas: de proxecto e de vendas. Os dous tipos de ofertas difiren das seguintes formas:
 
-- **Grades para os elementos de liña**: Na oferta de vendas, só hai unha grade para elementos de liña. Nunha oferta de proxecto, hai dúas grades para os elementos de liña. Unha grade é para liñas de proxectos e a outra é para liñas de produtos.
-- **Activación e revisións**: As ofertas de vendas admiten a activación e revisións. Estes procesos non se admiten nunha oferta de proxecto.
-- **Pedidos anexados**: Pode anexar varios pedidos a unha oferta de vendas. Só se pode anexar un contrato de proxecto a unha oferta de proxecto.
-- **Gañar unha oferta**: Cando gaña unha oferta de vendas, a oportunidade relacionada pode permanecer aberta. Despois de gañar unha oferta de proxecto, a oportunidade relacionada péchase.
-- **Campos e conceptos**: Unha oferta de vendas non inclúe algúns campos e conceptos que se inclúen nunha oferta de proxecto. Os campos inclúen **Unidade contratante**, **Xestor de conta** e **Facturar ao nome de contacto**.  
-- **Tipo**: As ofertas de vendas e as ofertas de proxecto tamén se identifican por un campo baseado en conxunto de opcións, **Tipo**. Para unha oferta de vendas, este campo ten o valor **Baseado en elementos**. Para unha oferta de proxecto, ten o valor **Baseado en traballo**.
+- **Grades para os elementos de liña** : Na oferta de vendas, só hai unha grade para elementos de liña. Nunha oferta de proxecto, hai dúas grades para os elementos de liña. Unha grade é para liñas de proxectos e a outra é para liñas de produtos.
+- **Activación e revisións** : As ofertas de vendas admiten a activación e revisións. Estes procesos non se admiten nunha oferta de proxecto.
+- **Pedidos anexados** : Pode anexar varios pedidos a unha oferta de vendas. Só se pode anexar un contrato de proxecto a unha oferta de proxecto.
+- **Gañar unha oferta** : Cando gaña unha oferta de vendas, a oportunidade relacionada pode permanecer aberta. Despois de gañar unha oferta de proxecto, a oportunidade relacionada péchase.
+- **Campos e conceptos** : Unha oferta de vendas non inclúe algúns campos e conceptos que se inclúen nunha oferta de proxecto. Os campos inclúen **Unidade contratante** , **Xestor de conta** e **Facturar ao nome de contacto**.  
+- **Tipo** : As ofertas de vendas e as ofertas de proxecto tamén se identifican por un campo baseado en conxunto de opcións, **Tipo**. Para unha oferta de vendas, este campo ten o valor **Baseado en elementos**. Para unha oferta de proxecto, ten o valor **Baseado en traballo**.
 
 Este tema centrase nos detalles das ofertas de proxecto.
 
 Unha oferta de proxecto en Project Operations pode ter varios elementos ou liñas de oferta. De feito, unha oferta de proxecto ten dúas grades para os elementos de liña. Unha grade é para liñas baseadas en proxectos que permiten estimacións detalladas. A outra grade é para liñas baseadas en produtos que empregan un prezo de unidade simple e un enfoque baseado na cantidade.
 
-- **Baseado en proxectos**: O valor ofertado determínase despois de estimar canto traballo é necesario. Pode estimar o traballo a un nivel alto, directamente como detalles de liña debaixo de cada liña de oferta ou baseándose en estimacións, usando un proxecto e un plan de proxecto. As liñas de ofertas baseadas en proxectos só se atopan en ofertas baseadas en proxectos creadas mediante Project Operations. Este tipo de liña de oferta é un formulario personalizado das liñas de oferta fóra de catálogo dispoñibles en Microsoft Dynamics 365 Sales.
+- **Baseado en proxectos** : O valor ofertado determínase despois de estimar canto traballo é necesario. Pode estimar o traballo a un nivel alto, directamente como detalles de liña debaixo de cada liña de oferta ou baseándose en estimacións, usando un proxecto e un plan de proxecto. As liñas de ofertas baseadas en proxectos só se atopan en ofertas baseadas en proxectos creadas mediante Project Operations. Este tipo de liña de oferta é un formulario personalizado das liñas de oferta fóra de catálogo dispoñibles en Microsoft Dynamics 365 Sales.
 
-- **Baseada en produtos**: A cantidade (valor ofertado) determínase en función da cantidade de unidades vendidas e do prezo de venda unitario do produto. O produto nunha liña baseada en produtos pode proceder dun catálogo de produtos en Sales ou pode ser un produto que defina vostede. Este tipo de liña de oferta tamén está dispoñible en ofertas baseadas en proxectos creadas mediante Project Operations.
+- **Baseada en produtos** : A cantidade (valor ofertado) determínase en función da cantidade de unidades vendidas e do prezo de venda unitario do produto. O produto nunha liña baseada en produtos pode proceder dun catálogo de produtos en Sales ou pode ser un produto que defina vostede. Este tipo de liña de oferta tamén está dispoñible en ofertas baseadas en proxectos creadas mediante Project Operations.
 
 O importe dunha oferta é o total das liñas baseadas en produtos e as liñas baseadas en proxectos.
 
@@ -76,12 +75,12 @@ Project Operations admite os tres tipos de programas de facturas para liñas de 
 
 As organizacións de servizos profesionais normalmente ofertan e facturan aos seus clientes mediante a clasificación dos custos. Os custos están representados polas seguintes clasificacións de transaccións:
 
-- **Tempo**: Esta clasificación representa o custo do tempo de traballo ou recursos humanos nun proxecto.
-- **Gasto**: Esta clasificación representa todos os demais tipos de gastos nun proxecto. Debido a que os gastos poden clasificarse de maneira xeral, a maioría das organizacións crean subcategorías, como viaxes, aluguer de vehículos, hotel ou material de oficina.
-- **Tarifa**: Esta clasificación representa gastos xerais, penalizacións e outros elementos que se cobran ao cliente. 
-- **Imposto**: Esta clasificación representa os importes de impostos que os usuarios engaden mentres introducen gastos.
-- **Transacción de material**: Esta clasificación representa os datos reais das liñas de produtos nunha factura de proxecto confirmada.
-- **Fito**: Esta clasificación é utilizada pola lóxica de facturación de prezo fixo en PSA.
+- **Tempo** : Esta clasificación representa o custo do tempo de traballo ou recursos humanos nun proxecto.
+- **Gasto** : Esta clasificación representa todos os demais tipos de gastos nun proxecto. Debido a que os gastos poden clasificarse de maneira xeral, a maioría das organizacións crean subcategorías, como viaxes, aluguer de vehículos, hotel ou material de oficina.
+- **Tarifa** : Esta clasificación representa gastos xerais, penalizacións e outros elementos que se cobran ao cliente. 
+- **Imposto** : Esta clasificación representa os importes de impostos que os usuarios engaden mentres introducen gastos.
+- **Transacción de material** : Esta clasificación representa os datos reais das liñas de produtos nunha factura de proxecto confirmada.
+- **Fito** : Esta clasificación é utilizada pola lóxica de facturación de prezo fixo en PSA.
 
 Unha ou máis destas clasificacións de transaccións poden asociarse a cada liña de oferta. Despois de gañar unha oferta, a asignación entre a clasificación da transacción e a liña de oferta transfírese á liña de contrato.
   
@@ -91,16 +90,16 @@ Por exemplo, unha oferta podería conter as dúas liñas de oferta seguintes:
 - Gastos de viaxe relacionados que empregan un método de facturación de prezo fixo. Por exemplo, todos os gastos de viaxe para o exemplo de proxecto **Aplicación de Dynamics AX** factúranse a un valor monetario fixo.
 
 > [!NOTE]
-> A combinación de clasificacións de proxectos e transaccións de **Tempo**, **Gasto**, e **Tarifa** asociados a unha liña de oferta ou liña de contrato debe ser única. Se a mesma combinación de clase de proxecto e transacción está asociada a máis dunha liña de contrato ou liña de oferta, Project Operations non funcionará correctamente.
+> A combinación de clasificacións de proxectos e transaccións de **Tempo** , **Gasto** , e **Tarifa** asociados a unha liña de oferta ou liña de contrato debe ser única. Se a mesma combinación de clase de proxecto e transacción está asociada a máis dunha liña de contrato ou liña de oferta, Project Operations non funcionará correctamente.
 
 ## <a name="billing-types"></a>Tipos de facturación
 
 O campo **Tipo de facturación** define o concepto de imputabilidade. É un conxunto de opcións que ten os seguintes valores posibles:
 
-- **Imputable**: O custo que acumula este rol/categoría é un custo directo que impulsa a execución do proxecto e o cliente pagará por este traballo. O pago pódese administrar como un arranxo de tempo e material ou de prezo fixo. Non obstante, o empregado que dedique este tempo recibirá o crédito correspondente pola súa utilización facturable.
-- **Non Imputable**: O custo que acumula este rol/categoría considérase un custo directo que impulsa a execución do proxecto, aínda que o cliente non recoñece este feito en non pagará por este traballo. Ao empregado que dedique este tempo non se lle acreditará una utilización facturable por iso.
-- **Gratuíto**: O custo que acumula este rol/categoría considérase un custo directo que impulsa a execución do proxecto e o cliente recoñece este feito. Ao empregado que dedique este tempo acreditaráselle una utilización facturable por iso. Non obstante, este custo non se cobra ao cliente.
-- **Non dispoñible**: Os custos nos que se incorre en proxectos internos que non requiren o rastrexo de ingresos rastréxanse mediante esta opción.
+- **Imputable** : O custo que acumula este rol/categoría é un custo directo que impulsa a execución do proxecto e o cliente pagará por este traballo. O pago pódese administrar como un arranxo de tempo e material ou de prezo fixo. Non obstante, o empregado que dedique este tempo recibirá o crédito correspondente pola súa utilización facturable.
+- **Non Imputable** : O custo que acumula este rol/categoría considérase un custo directo que impulsa a execución do proxecto, aínda que o cliente non recoñece este feito en non pagará por este traballo. Ao empregado que dedique este tempo non se lle acreditará una utilización facturable por iso.
+- **Gratuíto** : O custo que acumula este rol/categoría considérase un custo directo que impulsa a execución do proxecto e o cliente recoñece este feito. Ao empregado que dedique este tempo acreditaráselle una utilización facturable por iso. Non obstante, este custo non se cobra ao cliente.
+- **Non dispoñible** : Os custos nos que se incorre en proxectos internos que non requiren o rastrexo de ingresos rastréxanse mediante esta opción.
 
 ## <a name="invoice-schedule"></a>Programa de facturas
 
@@ -116,11 +115,11 @@ Estes tres valores de atributo utilízanse para xerar un conxunto de datas provi
 
 A frecuencia de facturas é unha entidade que almacena valores de atributo que axudan a expresar a frecuencia de creación de facturas. Os seguintes atributos expresan ou definen a entidade de frecuencia de facturas:
 
-- **Período**: Admítense períodos mensuais, quincenais e semanais. 
-- **Execucións por período**: Para períodos semanais e quincenais, pode definir só unha execución por período. Para períodos mensuais, pode definir entre unha e catro execucións por período. 
-- **Días de execución**: Os días nos que debe executarse a facturación. Pode configurar este atributo de dúas maneiras:
-  - **Días laborables**: Por exemplo, pode especificar que a facturación se executa todos os luns ou cada dous luns. Os clientes que deban establecer a facturación para que se execute un día laborable poderán preferir este tipo de configuración. 
-  - **Días de calendario**: Por exemplo, pode especificar que a facturación se execute os días 7 e 21 de cada mes. Algunhas organizacións poden preferir este tipo de configuración, porque axuda a garantir que a facturación se execute segundo un programa fixo cada mes.
+- **Período** : Admítense períodos mensuais, quincenais e semanais. 
+- **Execucións por período** : Para períodos semanais e quincenais, pode definir só unha execución por período. Para períodos mensuais, pode definir entre unha e catro execucións por período. 
+- **Días de execución** : Os días nos que debe executarse a facturación. Pode configurar este atributo de dúas maneiras:
+  - **Días laborables** : Por exemplo, pode especificar que a facturación se executa todos os luns ou cada dous luns. Os clientes que deban establecer a facturación para que se execute un día laborable poderán preferir este tipo de configuración. 
+  - **Días de calendario** : Por exemplo, pode especificar que a facturación se execute os días 7 e 21 de cada mes. Algunhas organizacións poden preferir este tipo de configuración, porque axuda a garantir que a facturación se execute segundo un programa fixo cada mes.
   
 ### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Programa de facturas para unha liña de oferta de prezo fixo
 

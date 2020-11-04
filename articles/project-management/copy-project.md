@@ -3,23 +3,23 @@ title: Copiar un proxecto
 description: Neste tema se proporciona información sobre copiar proxectos en Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908121"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076073"
 ---
 # <a name="copy-a-project"></a>Copiar un proxecto
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Con Dynamics 365 Project Operations, pode crear novos proxectos rapidamente usando a acción **Copiar proxecto** do formulario **Proxectos**. Para copiar un proxecto, seleccione un proxecto e logo seleccione **Copiar**. A acción copiará:
+Con Dynamics 365 Project Operations, pode crear novos proxectos rapidamente seleccionando **Copiar proxecto** no formulario **Proxectos**. Para copiar un proxecto, abra o proxecto que desexe copiar e logo seleccione **Copiar proxecto**. A acción copiará:
 
 - Propiedades do obxecto
 - A estrutura de subdivisión do traballo
@@ -58,4 +58,6 @@ Cando se copia un equipo do proxecto dese o proxecto de orixe, cópianse os recu
 
 ## <a name="estimates"></a>Estimacións
 
-Cando se copia o proxecto, as liñas de estimación de recursos e gastos copianse desde o proxecto de orixe.
+Cando se copia o proxecto, as liñas de estimación de recursos e gastos copianse desde o proxecto de orixe. 
+
+Para obter información sobre como acceder por programación a Copiar proxecto, consulte[Desenvolver modelos de proxecto con Copiar proxecto](dev-copy-project.md).

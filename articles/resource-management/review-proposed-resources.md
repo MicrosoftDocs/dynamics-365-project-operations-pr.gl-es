@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 212b80a7fde8368eedd7572dd5f9278cc53fae98
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: ad5cbdeb5fe05e6115eb024833a8d58b626ea4c9
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897359"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076099"
 ---
 # <a name="review-proposed-resources"></a>Revisar os recursos propostos
 
@@ -32,11 +31,11 @@ _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fo
 Os xestores de recursos poden propoñer un recurso ao xestor de proxectos empregando unha solicitude de recursos.
 
 1. Na grade de solicitudes ou na propia solicitude, seleccione **Buscar recursos**.
-2. Na páxina **Asistente de programación**, seleccione o recurso e, a seguir, no panel **Crear reserva de recursos**, no campo **Estado da reserva**, seleccione **Reservar**.
+2. Na páxina **Asistente de programación** , seleccione o recurso e, a seguir, no panel **Crear reserva de recursos** , no campo **Estado da reserva** , seleccione **Reservar**.
 
 Prodúcense as seguintes actualizacións de estado:
 
-- Na páxina **Asistente de programación**, os indicadores de estado actualízanse para indicar que a reserva é unha proposta, non unha reserva dura.
+- Na páxina **Asistente de programación** , os indicadores de estado actualízanse para indicar que a reserva é unha proposta, non unha reserva dura.
 - Na solicitude do recurso, o estado cambia a **Necesita revisión**.
 - No separador **Equipo** do proxecto, o valor **Estado da solicitude** do membro xenérico do equipo, o valor cambiase a **Necesita revisión**.
 
@@ -72,9 +71,9 @@ Debido a que a vista **Utilización de recursos** está baseada no panel de prog
 
 A grade require que estableza unha utilización obxectivo no rol ou o recurso individual. Para configurar isto, vaia a **Recursos** \> **Roles de recursos**.
 
-Ademais, debe atribuírse un rol predefinido a cada recurso reservable. Vaia a **Recursos** \> **Recursos**. No separador **Project Service**, verifique se está definido un rol de recurso e que o campo **É predefinido** para el está configurado en **Si**. Pode engadir roles adicionais cando **É predefinido = Non**. O rol cando **É predefinido = Si** úsase para avaliar a utilización do recurso fronte ao obxectivo para ese rol.
+Ademais, debe atribuírse un rol predefinido a cada recurso reservable. Vaia a **Recursos** \> **Recursos**. No separador **Project Service** , verifique se está definido un rol de recurso e que o campo **É predefinido** para el está configurado en **Si**. Pode engadir roles adicionais cando **É predefinido = Non**. O rol cando **É predefinido = Si** úsase para avaliar a utilización do recurso fronte ao obxectivo para ese rol.
 
-No separador **Project Service**, tamén pode configurar unha utilización obxectivo individual para o recurso. A seguir, o cálculo de utilización usa esa utilización obxectivo para avaliar o obxectivo do recurso no canto do obxectivo do rol predefinido do recurso.
+No separador **Project Service** , tamén pode configurar unha utilización obxectivo individual para o recurso. A seguir, o cálculo de utilización usa esa utilización obxectivo para avaliar o obxectivo do recurso no canto do obxectivo do rol predefinido do recurso.
 
 A utilización móstrase para un recurso só se ese recurso ten un tempo imputable acordado durante o período que se amosa na grade.
 

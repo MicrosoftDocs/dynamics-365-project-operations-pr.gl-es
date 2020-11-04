@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1ad85262482f782391eca85f46ca0e63a887c89f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 203b8a057d8ef3b699b20c4303061e622d2a3acd
+ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896100"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4076362"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>Crear unha factura proforma manual
 
-_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
+_**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
 Facturación proporciona aos xestores de proxectos un segundo nivel de aprobación antes de que creen facturas para os clientes. O primeiro nivel de aprobación complétase cando se aproban as entradas de tempo e gasto que envían os membros do equipo do proxecto.
 
@@ -45,17 +44,17 @@ Pódense crear as facturas dun proxecto unha a unha ou en masa. Pode crealas man
 
 ### <a name="manually-create-project-invoices"></a>Crear facturas de proxecto manualmente 
 
-Dende a páxina de lista **Contratos do proxecto**, pode crear facturas de proxecto por separado para cada contrato de proxecto, ou pode crear facturas en masa para varios contratos de proxecto.
+Dende a páxina de lista **Contratos do proxecto** , pode crear facturas de proxecto por separado para cada contrato de proxecto, ou pode crear facturas en masa para varios contratos de proxecto.
 
 Siga este paso para crear unha factura para un contrato de proxecto específico.
 
-- Na páxina de lista **Contratos de proxecto**, abra un contrato de proxecto e, a seguir, seleccione **Crear factura**.
+- Na páxina de lista **Contratos de proxecto** , abra un contrato de proxecto e, a seguir, seleccione **Crear factura**.
 
     Xérase unha factura para todas as transaccións do contrato de proxecto seleccionado que teñan un estado de **Listo para facturar**. Estas transaccións inclúen tempo, gastos, fitos e liñas de contratos baseadas en produtos.
 
 Siga estes pasos para crear facturas en masa.
 
-1. Na páxina de lista **Contratos do proxecto**, seleccione un ou máis contratos de proxecto para os que debe crear unha factura e logo seleccione **Crear facturas de proxecto**.
+1. Na páxina de lista **Contratos do proxecto** , seleccione un ou máis contratos de proxecto para os que debe crear unha factura e logo seleccione **Crear facturas de proxecto**.
 
     Unha mensaxe de aviso informa que pode haber un atraso antes de que se creen as facturas. Tamén se amosa o proceso.
 
@@ -71,8 +70,8 @@ Siga estes pasos para configurar unha factura automatizada executada.
 
 1. Vaia a **Configuración** \> **Traballos en lote**.
 2. Cree un traballo en lote e noméelo **Crear facturas de Project Operations**. O nome do traballo por lotes debe incluír o termo "Crear facturas".
-3. No campo **Tipo de traballo**, seleccione **Ningún**. Por defecto, as opcións **Frecuencia diaria** e **Está activo** están definidas en **Si**.
-4. Seleccione **Executar fluxo de traballo**. Na caixa de diálogo **Buscar rexistro**, verá tres fluxos de traballo:
+3. No campo **Tipo de traballo** , seleccione **Ningún**. Por defecto, as opcións **Frecuencia diaria** e **Está activo** están definidas en **Si**.
+4. Seleccione **Executar fluxo de traballo**. Na caixa de diálogo **Buscar rexistro** , verá tres fluxos de traballo:
 
     - ProcessRunCaller
     - ProcessRunner
@@ -81,11 +80,11 @@ Siga estes pasos para configurar unha factura automatizada executada.
 5. Seleccione **ProcessRunCaller** e, a seguir, seleccione **Engadir**.
 6. Na caixa de diálogo seguinte, seleccione **Aceptar**. Un fluxo de traballo **Suspensión** vai seguido por fluxo de traballo **Proceso**.
 
-    Tamén pode seleccionar **ProcessRunner** no paso 5. Entón, cando seleccione **Aceptar**, o fluxo de traballo **Proceso** vai seguido por un fluxo de traballo **Suspensión**.
+    Tamén pode seleccionar **ProcessRunner** no paso 5. Entón, cando seleccione **Aceptar** , o fluxo de traballo **Proceso** vai seguido por un fluxo de traballo **Suspensión**.
 
 Os fluxos de traballo **ProcessRunCaller** e **ProcessRunner** crean facturas. **ProcessRunCaller** chama a **ProcessRunner**. **ProcessRunner** é o fluxo de traballo que realmente crea as facturas. Percorre todas as liñas de contrato nas que deben crearse as facturas e crea facturas para esas liñas. Para determinar as liñas de contrato para as que deben crearse as facturas, o traballo analiza as datas de execución de facturas para as liñas de contrato. Se as liñas de contrato que pertencen a un contrato teñen a mesma data de execución de facturas, as transaccións combínanse nunha factura que ten dúas liñas de factura. Se non hai transaccións para as que crear facturas, o traballo omite a creación de facturas.
 
-Despois de que **ProcessRunner** remate a execución, chama a **ProcessRunCaller**, fornece a hora de finalización e péchase. A seguir, **ProcessRunCaller** inicia un temporizador que se executa durante 24 horas desde a hora de finalización especificada. Ao final do temporizador, **ProcessRunCaller** péchase.
+Despois de que **ProcessRunner** remate a execución, chama a **ProcessRunCaller** , fornece a hora de finalización e péchase. A seguir, **ProcessRunCaller** inicia un temporizador que se executa durante 24 horas desde a hora de finalización especificada. Ao final do temporizador, **ProcessRunCaller** péchase.
 
 O traballo de proceso por lotes para crear facturas é un traballo recorrente. Se este proceso de lotes se executa moitas veces, créanse varias instancias do traballo e causan erros. Polo tanto, debe iniciar o proceso por lotes unha soa vez e só debe reinicialo se deixa de executarse.
 
@@ -100,7 +99,7 @@ Cando se crea un borrador de factura de proxecto, todas as transaccións de vend
 - Editar e axustar a cantidade e o tipo de facturación.
 - Engadir directamente tempo, gastos e taxas como transaccións na factura. Pode empregar esta funcionalidade se a liña de factura está asignada a unha liña de contrato que permite estas clases de transaccións.
 
-Seleccione **Confirmar** para confirmar unha factura. A acción Confirmar é unha acción unidireccional. Cando seleccione **Confirmar**, o sistema fai a factura só de lectura e crea facturas de vendas facturadas a partir de cada detalle da liña de factura para cada liña de factura. Se o detalle da liña de factura fai referencia a un prezo real de vendas non facturadas, o sistema tamén inverte o dato real de vendas non facturadas. (Calquera detalle de liña de factura que se crease a partir dunha entrada de gasto ou referencia fará referencia a un dato real de vendas non facturadas). Os sistemas de integración de libro de contabilidade xeral poden usar esta inversión para inverter o traballo do proxecto (WIP) para contabilidade.
+Seleccione **Confirmar** para confirmar unha factura. A acción Confirmar é unha acción unidireccional. Cando seleccione **Confirmar** , o sistema fai a factura só de lectura e crea facturas de vendas facturadas a partir de cada detalle da liña de factura para cada liña de factura. Se o detalle da liña de factura fai referencia a un prezo real de vendas non facturadas, o sistema tamén inverte o dato real de vendas non facturadas. (Calquera detalle de liña de factura que se crease a partir dunha entrada de gasto ou referencia fará referencia a un dato real de vendas non facturadas). Os sistemas de integración de libro de contabilidade xeral poden usar esta inversión para inverter o traballo do proxecto (WIP) para contabilidade.
 
 ### <a name="correct-a-confirmed-invoice"></a>Corrixir unha factura confirmada
 
