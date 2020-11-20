@@ -3,7 +3,7 @@ title: Tipos de fases de proxecto
 description: Neste tema se proporciona información sobre as fases do proxecto.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 521bf4b3090473a603626a99fded53906b644a7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: aa423979a794b07a8bd27440f47a29480b74b518
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076183"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123051"
 ---
 # <a name="project-stage-types"></a>Tipos de fases de proxecto 
 
@@ -46,11 +46,11 @@ Ao crear un proxecto, a fase do proxecto defínese como **Novo**. Se o proxecto 
 
 ## <a name="quote"></a>Oferta
 
-Cando asocia un proxecto a unha oferta ou cando crea un proxecto a partir dunha oferta, a fase de proxecto está definida en **Oferta** , e as datas de inicio e fin estimadas tamén se actualizan. Mentres o proxecto está na fase de **Oferta** , o separador **Vendas** da páxina **Entidade do proxecto** mostra detalles da oferta.
+Cando asocia un proxecto a unha oferta ou cando crea un proxecto a partir dunha oferta, a fase de proxecto está definida en **Oferta**, e as datas de inicio e fin estimadas tamén se actualizan. Mentres o proxecto está na fase de **Oferta**, o separador **Vendas** da páxina **Entidade do proxecto** mostra detalles da oferta.
 
 ## <a name="plan"></a>Planificar
 
-Cando gaña unha oferta asociada a un proxecto, e o proxecto se move á fase **Contrato** , a fase do proxecto actualízase a **Planificar**. Mentres o proxecto está na fase **Planificar** , a páxina **Entidade do proxecto** mostra detalles do contrato.
+Cando gaña unha oferta asociada a un proxecto, e o proxecto se move á fase **Contrato**, a fase do proxecto actualízase a **Planificar**. Mentres o proxecto está na fase **Planificar**, a páxina **Entidade do proxecto** mostra detalles do contrato.
 
 ## <a name="deliver"></a>Entregar
 
@@ -58,7 +58,7 @@ Cando o plan do proxecto estea finalizado e vostede estea listo para iniciar o p
 
 ## <a name="complete"></a>Finalizar 
 
-Cando o traballo para o proxecto estea rematado, o xestor de proxectos pode actualizar a fase a **Finalizar**. Ao actualizar a fase do proxecto a **Finalizar** , o xestor de proxectos indica que o traballo está finalizado ao 100 por cento, pero que o proxecto se mantén aberto para que se poida rexistrar calquera entrada de tempo ou gasto pendente.
+Cando o traballo para o proxecto estea rematado, o xestor de proxectos pode actualizar a fase a **Finalizar**. Ao actualizar a fase do proxecto a **Finalizar**, o xestor de proxectos indica que o traballo está finalizado ao 100 por cento, pero que o proxecto se mantén aberto para que se poida rexistrar calquera entrada de tempo ou gasto pendente.
 
 ## <a name="close"></a>Pechar
 

@@ -3,7 +3,7 @@ title: Ver a utilización imputable de recursos
 description: Este tema fornece información sobre a vista de utilización de recursos.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a1d1db532c65b2a13f3cf4e1281a5987490b96df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076154"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122161"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Ver a utilización imputable de recursos
  
@@ -46,7 +46,7 @@ A utilization de destino pódese definir no rol predefinido do recurso ou no rec
 
 1. Vaia a **Recursos** \> **Recursos**. 
 2. Seleccione un recurso para abrir o rexistro. 
-3. No separador **Project Service** , pode definir a utilización obxectivo do recurso.
+3. No separador **Project Service**, pode definir a utilización obxectivo do recurso.
 
 > ![Captura de utilizar o separador Project Service para definir a utilización de destino](media/FAQ-utilization-2.png)
  
@@ -68,7 +68,7 @@ En primeiro lugar, a utilización obxectivo debe definirse no recurso individual
 
 1. Para definir isto, vaia a **Recursos** \> **Recursos**. 
 2. Seleccione un recurso, abra o rexistro e logo seleccione o separador **Project Service**. 
-3. Na grade **Rol do recurso** , comprobe que hai un rol para o recurso e que **É predefinido** está configurado en **Si**.
+3. Na grade **Rol do recurso**, comprobe que hai un rol para o recurso e que **É predefinido** está configurado en **Si**.
  
 ### <a name="change-billing-type-for-resource-role"></a>Cambiar tipo de facturación deste rol do recurso
 

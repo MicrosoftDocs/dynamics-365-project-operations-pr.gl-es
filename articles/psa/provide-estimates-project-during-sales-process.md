@@ -3,7 +3,7 @@ title: Fornecer estimacións de traballo para un proxecto durante o proceso de v
 description: Como fornecer estimacións de traballo para un proxecto durante o proceso de vendas en Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ddb7f8c0ff8c7fd7e51edb42f9d227f2b91a811b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7bd83b6872d437f1d074d6ea2336c751bdfdd9e6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076182"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120586"
 ---
 # <a name="provide-work-estimates-for-a-project-during-the-sales-process-project-service"></a>Fornecer estimacións de traballo para un proxecto durante o proceso de vendas (Project Service)
 
@@ -46,7 +46,7 @@ Durante o proceso de vendas, pode calcular estimacións de vendas desde o princi
 ## <a name="import-estimates-from-a-project-into-a-quote"></a>Estimacións de importación dun proxecto a unha oferta  
  Unha vez teña estimacións de proxecto nun proxecto, pode importar estas estimacións na liña da oferta:  
   
--   En **Detalles da liña de oferta** , prema en **Importar de estimacións**. 
+-   En **Detalles da liña de oferta**, prema en **Importar de estimacións**. 
 
 -   Seleccione se desexa importar estimacións de proxecto resumidas por tipo de transacción, rol ou nivel de nó da estrutura de subdivisión do traballo.  
   

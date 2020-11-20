@@ -3,7 +3,7 @@ title: Traballo co modelo de datos de Project Service Automation
 description: Este tema fornece información sobre como traballar co modelo de datos.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19e999e16a5bf6321a5a61208c8654f7870e6007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076317"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120271"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Traballo co modelo de datos de Project Service Automation
 
@@ -33,15 +33,15 @@ Dynamics 365 Project Service Automation estende outras entidades de aplicacións
 
 ## <a name="reporting-on-opportunities"></a>Informes sobre oportunidades
 
-Project Service Automation estende a entidade **Oportunidade** de Dynamics 365 Sales engadindo campos que permiten escenarios baseados en proxectos. Estes campos identifícanse cun nome de esquema prefixado con **msdyn\_**. Un novo campo importante para informar sobre as oportunidades de PSA é **Tipo de pedido**. Un valor de **Baseado no traballo** para este campo indica que a oportunidade é unha oportunidade de PSA. Outros campos que se engadiron á entidade inclúen **Organización contratante** , que capta a organización que está a manter a oportunidade, e **Xestor de contas** , que capta o nome do xestor de contas que é o responsable da oportunidade.
+Project Service Automation estende a entidade **Oportunidade** de Dynamics 365 Sales engadindo campos que permiten escenarios baseados en proxectos. Estes campos identifícanse cun nome de esquema prefixado con **msdyn\_**. Un novo campo importante para informar sobre as oportunidades de PSA é **Tipo de pedido**. Un valor de **Baseado no traballo** para este campo indica que a oportunidade é unha oportunidade de PSA. Outros campos que se engadiron á entidade inclúen **Organización contratante**, que capta a organización que está a manter a oportunidade, e **Xestor de contas**, que capta o nome do xestor de contas que é o responsable da oportunidade.
 
 A entidade **Liña de oportunidade** tamén inclúe campos relacionados co Project Service. **Método de facturación** indica se a liña de oportunidade debe facturarse por tempo ou por materiais ou con prezo fixo e **Proxecto** captura o nome do proxecto que está apoiando a oportunidade. Outros campos dos que pode informar capturan os custos e os importes do orzamento do cliente para o elemento de liña.
 
 ## <a name="reporting-on-quotes"></a>Informes sobre ofertas
 
-PSA amplía a entidade **Oferta** de Vendas engadindo campos relacionados co proxecto. **Tipo de pedido** distingue as ofertas de PSA das ofertas que non son de PSA. Un valor de **Baseado en traballo** para este campo indica que a oferta é unha oferta de PSA. Outros campos que poden ser relevantes para informar sobre ofertas de PSA inclúen campos de cantidade, como **Custos imputables** , **Custos non imputables** , **Marxe bruta** , **Estimacións** e **Orzamento**. Outros campos útiles indican se a oferta é rendible, se se completará antes do prazo e se cumpre as expectativas orzamentarias do cliente.
+PSA amplía a entidade **Oferta** de Vendas engadindo campos relacionados co proxecto. **Tipo de pedido** distingue as ofertas de PSA das ofertas que non son de PSA. Un valor de **Baseado en traballo** para este campo indica que a oferta é unha oferta de PSA. Outros campos que poden ser relevantes para informar sobre ofertas de PSA inclúen campos de cantidade, como **Custos imputables**, **Custos non imputables**, **Marxe bruta**, **Estimacións** e **Orzamento**. Outros campos útiles indican se a oferta é rendible, se se completará antes do prazo e se cumpre as expectativas orzamentarias do cliente.
 
-PSA tamén amplía a entidade **Liña de oferta** de Vendas. Un campo que PSA engade é **Método de facturación** , que indica como se facturará a liña de oferta (tempo e materiais ou prezo fixo). Outros campos que se engadiron á entidade capturan o proxecto relacionado que apoia a liña de oferta, facturación, custo e orzamento.
+PSA tamén amplía a entidade **Liña de oferta** de Vendas. Un campo que PSA engade é **Método de facturación**, que indica como se facturará a liña de oferta (tempo e materiais ou prezo fixo). Outros campos que se engadiron á entidade capturan o proxecto relacionado que apoia a liña de oferta, facturación, custo e orzamento.
 
 PSA tamén engade novas entidades relacionadas coas ofertas ao modelo de datos de Dynamics 365. Aquí van algúns exemplos:
 
@@ -50,13 +50,13 @@ PSA tamén engade novas entidades relacionadas coas ofertas ao modelo de datos d
 - **Fito de liña de oferta** - Esta entidade contén os fitos de facturación das liñas de oferta de prezo fixo.
 - **Subdivisión de análise da liña de oferta** - Esta entidade contén os detalles financeiros da liña de oferta. Estes detalles poden ser útiles para informar de importes de vendas ofertadas e custo estimado por varias dimensións.
 
-Outras entidades que PSA engade ás ofertas son **Lista de prezos do proxecto da liña de oferta** , **Categoría de recursos de liña de oferta** e **Categoría de transacción de liña de oferta**.
+Outras entidades que PSA engade ás ofertas son **Lista de prezos do proxecto da liña de oferta**, **Categoría de recursos de liña de oferta** e **Categoría de transacción de liña de oferta**.
 
 ![Diagrama que mostra a oferta, a liña de oferta e as relacións do proxecto](media/PS-Reporting-image2.png "Diagrama que mostra a oferta, a liña de oferta e as relacións do proxecto")
 
 ## <a name="reporting-on-project-contracts"></a>Informes sobre contratos do proxecto
 
-PSA amplía a entidade **Pedido** de Vendas que se emprega cando se rexistran contratos de proxecto. Engade un campo novo importante, **Tipo de pedido** , que identifica o contrato como un contrato de proxecto de PSA en lugar dun pedido de vendas. Un valor de **Baseado no traballo** para este campo indica que o pedido é un contrato de proxecto de PSA. Outros campos novos que se engaden á entidade **Pedido** capturan detalles sobre os custos, o estado do contrato de PSA e a organización propietaria do contrato.
+PSA amplía a entidade **Pedido** de Vendas que se emprega cando se rexistran contratos de proxecto. Engade un campo novo importante, **Tipo de pedido**, que identifica o contrato como un contrato de proxecto de PSA en lugar dun pedido de vendas. Un valor de **Baseado no traballo** para este campo indica que o pedido é un contrato de proxecto de PSA. Outros campos novos que se engaden á entidade **Pedido** capturan detalles sobre os custos, o estado do contrato de PSA e a organización propietaria do contrato.
 
 PSA tamén amplía a entidade **Liña de pedido de vendas**. Entre os campos que engade están os campos que capturan o método de facturación (tempo e materiais ou prezo fixo), os importes do orzamento do cliente e o proxecto subxacente.
 
@@ -66,7 +66,7 @@ PSA tamén engade novas entidades deseñadas para contratos de proxecto. Aquí v
 - **Programación de facturas da liña de contrato** - Esta entidade contén a programación de facturación que se xera en función da frecuencia de facturas asignada á liña de contrato.
 - **Fito de contrato** - Esta entidade contén os fitos de facturación para liñas de contrato que teñen un prazo de facturación de prezo fixo.
 
-Outras entidades que PSA engade aos contratos son **Lista de prezos do proxecto da liña de contrato do proxecto** , **Categoría de recursos de liña de contrato do proxecto** e **Categoría de transacción de liña de contrato do proxecto**.
+Outras entidades que PSA engade aos contratos son **Lista de prezos do proxecto da liña de contrato do proxecto**, **Categoría de recursos de liña de contrato do proxecto** e **Categoría de transacción de liña de contrato do proxecto**.
 
 ![Diagrama que mostra o pedido, a liña de pedido e as relacións do proxecto](media/PS-Reporting-image3.png "Diagrama que mostra o pedido, a liña de pedido e as relacións do proxecto")
 
@@ -97,7 +97,7 @@ Os recursos do proxecto utilizan as entidades **Recurso reservable** de Universa
 
 Cando aproba unha folla de control horario ou un gasto ou factura un contrato en PSA, a transacción comercial captúrase na entidade **Dato real**. Esta entidade pode servir de base para case todos os informes relacionados con financiamento en PSA. A entidade **Dato real** captura as transaccións de custo e vendas para o evento comercial. Tamén captura moitos atributos relevantes.
 
-Cando estea a traballar coa entidade **Dato real** , é importante que entenda que transacción ou transaccións se rexistran na entidade e cando se rexistran as transaccións. Este é o fluxo típico cando se traballa con entradas de tempo (o fluxo para as entradas de gasto é similar):
+Cando estea a traballar coa entidade **Dato real**, é importante que entenda que transacción ou transaccións se rexistran na entidade e cando se rexistran as transaccións. Este é o fluxo típico cando se traballa con entradas de tempo (o fluxo para as entradas de gasto é similar):
 
 1. Cando se garda a entrada de tempo, non se crean rexistros na entidade **Dato real**.
 2. Cando se envía a entrada de tempo, non se crean rexistros na entidade **Dato real**.

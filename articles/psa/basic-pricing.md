@@ -3,7 +3,7 @@ title: Prezos de proxecto
 description: Este tema fornece información sobre como funcionan os prezos en Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076329"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120766"
 ---
 # <a name="project-pricing"></a>Prezos de proxecto 
 
@@ -56,7 +56,7 @@ O termo *rol de recurso* refírese a un conxunto de habilidades, competencias e 
 
 O tempo de recursos humanos soe ofertarse en función do rol que un recurso cumpre nun proxecto específico. Para o tempo de recursos humanos, PSA admite o custo e a facturación baseados no rol dos recursos. Pode fixarse o prezo do tempo en calquera unidade do grupo de unidades **Tempo**.
 
-O grupo de unidades **Tempo** créase cando se instala PSA. Ten unha unidade predefinida de **Hora**. Non pode eliminar, cambiar o nome ou editar os atributos do grupo de unidades **Tempo** ou a unidade **Hora**. Non obstante, pode engadir outras unidades ao grupo de unidades **Tempo**. Se tenta eliminar o grupo de unidades **Tempo** ou a unidade **Hora** , pode causar fallos na lóxica de negocio de PSA.
+O grupo de unidades **Tempo** créase cando se instala PSA. Ten unha unidade predefinida de **Hora**. Non pode eliminar, cambiar o nome ou editar os atributos do grupo de unidades **Tempo** ou a unidade **Hora**. Non obstante, pode engadir outras unidades ao grupo de unidades **Tempo**. Se tenta eliminar o grupo de unidades **Tempo** ou a unidade **Hora**, pode causar fallos na lóxica de negocio de PSA.
 
 > ![Configuración dos prezos por rol](media/basic-guide-13.png)
  
@@ -110,7 +110,7 @@ En PSA, pode crear anulacións específicas de operacións para os prezos selecc
 
 Por defecto, un contrato de proxecto sempre recibe unha copia da lista de prezos de venda principal en lugar dunha ligazón directa a ela. Este comportamento axuda a garantir que os acordos de prezos que se realizan cun cliente para unha declaración de traballo (SOW) non cambian se cambia a lista de prezos principal.
 
-Non obstante, nunha oferta, pode usar unha lista de prezos principal. Alternativamente, pode copiar unha lista de prezos principal e editala para crear unha lista de prezos personalizada que se aplica só a esa oferta. Para crear unha nova lista de prezos específica dunha oferta, na páxina **Oferta** , seleccione **Crear prezos personalizados**. Pode acceder á lista de prezos de proxecto específica da oferta só desde a oferta. 
+Non obstante, nunha oferta, pode usar unha lista de prezos principal. Alternativamente, pode copiar unha lista de prezos principal e editala para crear unha lista de prezos personalizada que se aplica só a esa oferta. Para crear unha nova lista de prezos específica dunha oferta, na páxina **Oferta**, seleccione **Crear prezos personalizados**. Pode acceder á lista de prezos de proxecto específica da oferta só desde a oferta. 
 
 Cando crea unha lista de prezos de proxecto personalizada, só se copian os compoñentes do proxecto da lista de prezos. Noutras palabras, unha nova lista de prezos creada como unha copia da lista de prezos de proxecto existente que se anexa na oferta, e esta nova lista de prezos só ten prezos de rol relacionados e os prezos da categoría de transacción.
 

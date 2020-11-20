@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076160"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122926"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Crea estimacións nunha liña de oferta
 
@@ -83,8 +83,8 @@ Se engadiu un campo personalizado no detalle de liña de oferta e quere que o si
 2. Seleccione **Buscar** e busque o complemento para actualizar.
 3. Seleccione o complemento e, a seguir, na páxina principal, seleccione **Seleccionar**.
 4. Seleccione o paso do complemento para actualizar, prema co botón dereito e logo seleccione **Actualizar**.
-5. Na caixa de diálogo **Actualizar o paso existente** , no campo **Atributos de filtrado** , seleccione o botón de puntos suspensivos ( **...** ):
-6. Na caixa de diálogo **Seleccionar atributos** , seleccione as caixas de verificación dos atributos personalizados.
+5. Na caixa de diálogo **Actualizar o paso existente**, no campo **Atributos de filtrado**, seleccione o botón de puntos suspensivos (**...**):
+6. Na caixa de diálogo **Seleccionar atributos**, seleccione as caixas de verificación dos atributos personalizados.
 7. Seleccione **Aceptar** para pechar a caixa de diálogo e logo seleccione **Actualizar paso**.
 8. Repita os pasos do 1 ao 7 para o segundo complemento.
 9. Peche PluginRegistrationTool.

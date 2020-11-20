@@ -3,7 +3,7 @@ title: Novidades ou cambios na versión 18 de actualización de Project Service 
 description: Este tema mostra as funcionalidades e correccións que están dispoñibles la versión 18 de actualización de Project Service Automation, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d7ea200531dd24d56a829f879e3a2532a9b38dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a6d3ee21ecf742b2253132f3d3cc1cb2b57af75
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076086"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119866"
 ---
 # <a name="project-service-automation-update-release-18-v3"></a>Versión 18 de actualización de Project Service Automation, V3
 
@@ -36,7 +36,7 @@ Este tema mostra as funcionalidades e correccións que son novas ou modificadas 
 
 **Tempo e gasto**
 
-- Corrixido: Os fluxos **Recuperar** , **Solicitar** e **Cancelar aprobación** lanzan excepcións con mensaxes de erro pouco claras.
+- Corrixido: Os fluxos **Recuperar**, **Solicitar** e **Cancelar aprobación** lanzan excepcións con mensaxes de erro pouco claras.
 - Corrixido: Cando **Cancelar a aprobación** falla para un gasto, non se lanza un erro de excepción relevante.
 - Corrixido: A grade Entrada de tempo xestiona de forma incorrecta os días non laborables en Australia despois do cambio da hora de verán (DST) en outubro.
 - Corrixido: A lóxica por defecto incorrecta impide a presentación de gastos.
@@ -60,4 +60,4 @@ Este tema mostra as funcionalidades e correccións que son novas ou modificadas 
 
 **Sales**
 
-- Corrixido: Cando se aproban de novo as entradas de tempo ( **Aprobar > Cancelar >** aprobar de novo), créase un duplicado real non imputable.
+- Corrixido: Cando se aproban de novo as entradas de tempo (**Aprobar > Cancelar >** aprobar de novo), créase un duplicado real non imputable.

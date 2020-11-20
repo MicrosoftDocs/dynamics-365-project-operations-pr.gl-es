@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 30633a7445baaf99af5be5c88e35b24824022b93
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076229"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121261"
 ---
 # <a name="products"></a>Produtos
 
@@ -33,27 +33,27 @@ Os productos son a rede central do seu negocio. O catálogo de produtos en Dynam
 ## <a name="add-a-product"></a>Engadir un produto
 
 1.  Asegúrese de dispoñer da función de administrador do sistema ou de xestor de Sales Professional para poder engadir produtos en Dynamics 365 Sales Professional.
-2.  No mapa do sitio, en **Configuración** , seleccione **Produtos**.
+2.  No mapa do sitio, en **Configuración**, seleccione **Produtos**.
 3.  Seleccione **Engadir produto** e encha a seguinte información:
 
     -  **Nome**
     -  **Identificador do produto**
-    -  **Principal** : Seleccione unha familia de produtos principal para o produto. Se está a crear un produto secundario nunha familia de produtos, o nome da familia de produtos principal introdúcese aquí. Isto non se pode cambiar despois de gardar o rexistro.
-    -  **Válido desde**/**Válido ata** : Defina o período para o que é válido o produto seleccionando as datas **Válido desde** e **Válido ata**.
-    -  **Grupo de unidades** : Seleccionar unha unidade de grupos. Un grupo de unidades é unha colección de varias unidades en que se vende un produto e define como se agrupan os elementos individuais en cantidades máis grandes. Por exemplo, se está a engadir sementes como un produto, pode que creara un grupo de unidades chamado "Sementes", e efinira a súa unidade primaria como "paquete."
-    -  **Unidade predefinida** : Seleccione a unidade máis común na que se venderá o produto. As unidades son as cantidades ou medidas en que se venden os produtos. Por exemplo, se está a engadir sementes como un produto, pode vendelas en paquetes, caixas ou pallets. Cada unha destas convértese nunha unidade do produto. Se a maioría das sementes se vende en paquetes, seleccione paquetes como a unidade.
-    -  **Lista de prezos predefinida** : Se é un produto novo, este campo é de só lectura. Antes de que poida seleccionar unha lista de prezos predefinida, debe encher todos os campos obrigatorios, e despois gardar o rexistro. A pesar de que a lista de prezos non é obrigatoria, despois de gardar o rexistro do produto é aconsellable definir unha lista de prezos predefinida para cada produto. Logo, se o rexistro dun cliente non contén una lista de prezos, Sales pode utilizar a lista de prezos predefinida para xerar ofertas, pedidos e facturas.
-    -  **Decimais admitidos** : Introduza un número enteiro entre 0 e 5. Se o produto non se pode dividir en cantidades fraccionais, introduza 0. A precisión do campo **Cantidade** no rexistro do produto da oferta, do pedido ou da factura valídase en comparación co valor neste campo se o produto non ten unha lista de prezos asociada.
-    -  **Asunto** : Asocie este produto a un asunto. Pode utilizar os asuntos para colocar os produtos en categorías e para filtrar informes.
+    -  **Principal**: Seleccione unha familia de produtos principal para o produto. Se está a crear un produto secundario nunha familia de produtos, o nome da familia de produtos principal introdúcese aquí. Isto non se pode cambiar despois de gardar o rexistro.
+    -  **Válido desde**/**Válido ata**: Defina o período para o que é válido o produto seleccionando as datas **Válido desde** e **Válido ata**.
+    -  **Grupo de unidades**: Seleccionar unha unidade de grupos. Un grupo de unidades é unha colección de varias unidades en que se vende un produto e define como se agrupan os elementos individuais en cantidades máis grandes. Por exemplo, se está a engadir sementes como un produto, pode que creara un grupo de unidades chamado "Sementes", e efinira a súa unidade primaria como "paquete."
+    -  **Unidade predefinida**: Seleccione a unidade máis común na que se venderá o produto. As unidades son as cantidades ou medidas en que se venden os produtos. Por exemplo, se está a engadir sementes como un produto, pode vendelas en paquetes, caixas ou pallets. Cada unha destas convértese nunha unidade do produto. Se a maioría das sementes se vende en paquetes, seleccione paquetes como a unidade.
+    -  **Lista de prezos predefinida**: Se é un produto novo, este campo é de só lectura. Antes de que poida seleccionar unha lista de prezos predefinida, debe encher todos os campos obrigatorios, e despois gardar o rexistro. A pesar de que a lista de prezos non é obrigatoria, despois de gardar o rexistro do produto é aconsellable definir unha lista de prezos predefinida para cada produto. Logo, se o rexistro dun cliente non contén una lista de prezos, Sales pode utilizar a lista de prezos predefinida para xerar ofertas, pedidos e facturas.
+    -  **Decimais admitidos**: Introduza un número enteiro entre 0 e 5. Se o produto non se pode dividir en cantidades fraccionais, introduza 0. A precisión do campo **Cantidade** no rexistro do produto da oferta, do pedido ou da factura valídase en comparación co valor neste campo se o produto non ten unha lista de prezos asociada.
+    -  **Asunto**: Asocie este produto a un asunto. Pode utilizar os asuntos para colocar os produtos en categorías e para filtrar informes.
 
 4.  Seleccione **Gardar**.
-5.  No separador **Detalles adicionais** , na sección **Elementos da lista de prezos** , seleccione **Máis comandos** e despois seleccione **Engadir novo elemento da lista de prezos**.
-7.  No separador **Detalles adicionais** , na sección **Relación de produtos** , seleccione a icona **Máis comandos** e despois seleccione **Engadir nova relación de produtos.**
-8.  No formulario **Nova relación de produto** , introduza os seguintes detalles e, na barra de comandos, seleccione **Gardar e pechar** :
+5.  No separador **Detalles adicionais**, na sección **Elementos da lista de prezos**, seleccione **Máis comandos** e despois seleccione **Engadir novo elemento da lista de prezos**.
+7.  No separador **Detalles adicionais**, na sección **Relación de produtos**, seleccione a icona **Máis comandos** e despois seleccione **Engadir nova relación de produtos.**
+8.  No formulario **Nova relación de produto**, introduza os seguintes detalles e, na barra de comandos, seleccione **Gardar e pechar**:
 
-    -   **Produto relacionado** : Seleccione un produto que desexa engadir como produto relacionado para o rexistro do produto existente co que está a traballar.
-    -   **Tipo de relación de vendas** : Seleccione se desexa engadir o produto como unha incremento das vendas, vendas cruzadas, accesorio ou produto de substitución.
-    -   **Dirección** : Seleccione se a relación entre os produtos será dunha dirección ou de dúas direccións. Cando se selecciona unha dirección, o produto que selecciona en **Produto Relacionado** mostraráselle como recommendation para o produto existente, pero non viceversa.
+    -   **Produto relacionado**: Seleccione un produto que desexa engadir como produto relacionado para o rexistro do produto existente co que está a traballar.
+    -   **Tipo de relación de vendas**: Seleccione se desexa engadir o produto como unha incremento das vendas, vendas cruzadas, accesorio ou produto de substitución.
+    -   **Dirección**: Seleccione se a relación entre os produtos será dunha dirección ou de dúas direccións. Cando se selecciona unha dirección, o produto que selecciona en **Produto Relacionado** mostraráselle como recommendation para o produto existente, pero non viceversa.
 
 9.  No formulario de produto, seleccione **Gardar**.
 
@@ -68,7 +68,7 @@ Manteña o inventario de produtos actualizado revisando rapidamentede as propied
 1.  Asegúrese de dispoñer dun dos seguintes roles de seguranza ou permisos equivalentes: administrador do sistema, personalizador do sistema, xestor de vendas, vicepresidente de vendas, vicepresidente de márketing ou CEO-xestor empresarial.
 2.  No mapa do sitio, seleccione **Produtos**.
 3.  Abra un produto que desexe cambiar e, na barra de comandos, seleccione **Revisar**.
-4.  Na caixa de diálogo **Confirmar Revisar** , seleccione **Confirmar**. Isto modifica o estado do produto para **En Revisión**.
+4.  Na caixa de diálogo **Confirmar Revisar**, seleccione **Confirmar**. Isto modifica o estado do produto para **En Revisión**.
 5.  Despois de facer cambios, na barra de comandos, seleccione **Publicar**.
 
     > [!TIP]
@@ -92,7 +92,7 @@ Se a súa organización xa non vende un produto, retíreo para que o produto xa 
 1.  Asegúrese de dispoñer da función de administrador do sistema ou de xestor de Sales Professional ou permisos equivalentes.
 2.  No mapa do sitio, seleccione **Produtos**.
 3.  Abra un produto que desexe retirar e, na barra de comandos, seleccione **Retirar**.
-4.  Na caixa de diálogo **Confirmar Retirar** , seleccione **Confirmar**.
+4.  Na caixa de diálogo **Confirmar Retirar**, seleccione **Confirmar**.
 
 
 ## <a name="delete-a-product"></a>Eliminar un produto
@@ -105,7 +105,7 @@ Para deter a venda dun produto, elimíneo.
 1.  Asegúrese de dispoñer da función de administrador do sistema ou de xestor de Sales Professional ou permisos equivalentes.
 2.  No mapa do sitio, seleccione **Produtos**.
 3.  Seleccione un rexistro de produto que desexa eliminar e, na barra de comandos, seleccione **Eliminar**.
-4.  Na caixa de diálogo **Confirmar eliminación** , seleccione **Continuar**.
+4.  Na caixa de diálogo **Confirmar eliminación**, seleccione **Continuar**.
  
  ## <a name="quantity-factors-for-products"></a>Factores de cantidade para produtos
 
@@ -119,8 +119,8 @@ O sistema valida que só as propiedades numéricas ou propiedades de produto que
 
 Por exemplo, se hai as seguintes propiedades: 
 
-- **N.º de usuarios** : O número de usuarios 
-- **Nº de meses** : O número de meses de subscrición
+- **N.º de usuarios**: O número de usuarios 
+- **Nº de meses**: O número de meses de subscrición
 - **SKU de produto** 
 
 As propiedades **N.º de Usuarios** e **N.º de meses** pódense marcar como factores de cantidade editando as propiedades da liña de produtos. 

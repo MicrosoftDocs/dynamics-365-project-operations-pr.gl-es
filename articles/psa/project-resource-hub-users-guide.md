@@ -3,7 +3,7 @@ title: Guía do usuario para Project Resource Hub
 description: Unha guía para o usuario final de Project Resource Hub (Dynamics 365 for Project Service) | MicrosoftDocs
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 181e47a7bf923100e480eabd120d8bd784c24d07
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1c52a17d791b5656f13535077e4300b331db71b5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076123"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123151"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Guía do usuario para Project Resource Hub
 
@@ -66,7 +66,7 @@ As seccións Favoritos e Rexistros recentes fornecen acceso rápido aos seus rex
 
 - Para acceder a estas seccións, toque o botón **Menú** ![botón Menú](media/MenuButton.png "Botón do menú") na barra de navegación e, a seguir, toque o botón **Favoritos e recentes** ![botón de Favoritos](media/FavButton.png "Botón Fav").
 
-- Para fixar un elemento como favorito, desde a lista de elementos **Usados recentemente** , toque o marcador. Isto fixará e moverá o elemento a Favoritos.
+- Para fixar un elemento como favorito, desde a lista de elementos **Usados recentemente**, toque o marcador. Isto fixará e moverá o elemento a Favoritos.
 
   ![Elementos favoritos e recentes](media/Favs_3.png "Elementos favoritos e recentes")
  
@@ -88,7 +88,7 @@ Introduza os gastos como mínimo semanalmente, ou na frecuencia solicitada polo 
 
 1. Toque o botón ![botón Menú](media/MenuButton.png "Botón do menú") do menú e, a seguir, toque **Gastos**. Aparecerá o calendario.
 
-2. Pode cambiar a visualización a **Día** , **Semana** ou **Mes** , ou navegar até o período de tempo anterior ou seguinte. 
+2. Pode cambiar a visualización a **Día**, **Semana** ou **Mes**, ou navegar até o período de tempo anterior ou seguinte. 
 
 3. Para introducir os gastos, toque **Novo** na barra de comandos. 
 

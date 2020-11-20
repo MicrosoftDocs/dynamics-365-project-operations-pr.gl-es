@@ -3,7 +3,7 @@ title: Configuración de proxecto
 description: Neste tema se proporciona información sobre a configuración de xestión de proxectos.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9b8659f3b7ee81d2e21ef52743debd521fa9bb9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b2cda6bfd7f152ee948cf49fab91aed475968a09
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076295"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123106"
 ---
 # <a name="project-settings"></a>Configuración de proxecto
 
@@ -36,12 +36,12 @@ Use os seguintes axustes para acceder ás funcións de planificación de proxect
 Para crear unha programación de proxecto, créase un modelo de calendario de proxecto que define o número de horas de traballo para adaptar por día na programación e os peches de empresa. Para crear un modelo de calendario de proxecto, asocie un modelo de traballo ao campo **Modelo de calendario** para o proxecto. Siga estes pasos para crear un modelo de traballo.
 
 1. En PSA, no panel de navegación esquerdo, prema **Recursos**. 
-2. Na páxina de lista **Recursos** , abra un rexistro de usuario e, a seguir, seleccione **Mostrar horas laborables**.
+2. Na páxina de lista **Recursos**, abra un rexistro de usuario e, a seguir, seleccione **Mostrar horas laborables**.
 
   > [!NOTE]
   > Asegúrese de permitir ventás emerxentes na páxina do navegador. Isto permítelle ver as horas laborables establecidas para o recurso.
   
-3. No separador **Vista mensual** , prema **Configurar**. Aparece unha lista de tres opcións: 
+3. No separador **Vista mensual**, prema **Configurar**. Aparece unha lista de tres opcións: 
 
   - Nova programación semanal
   - Programación de traballo para un día
@@ -53,7 +53,7 @@ Para crear unha programación de proxecto, créase un modelo de calendario de pr
 5. Estableza o intervalo de datas, seleccione **Gardar** e, a seguir, prema **Pechar**. 
 6. Volva á páxina de lista **Recursos** e seleccione o recurso para o que estableceu as horas laborables. 
 7. Seleccione **Establecer calendario como** para configurar o modelo de traballo. 
-8. Na caixa de diálogo **Modelo de traballo** , introduza un nome para o modelo de traballo e, a seguir, seleccione **Aplicar**. 
+8. Na caixa de diálogo **Modelo de traballo**, introduza un nome para o modelo de traballo e, a seguir, seleccione **Aplicar**. 
 
 Agora pode asociar o modelo de traballo a un modelo de calendario de proxecto.
 
@@ -65,4 +65,4 @@ Cada organización debe configurar estes roles na páxina **Categorías de recur
 
 ## <a name="price-lists"></a>Listas de prezos
 
-As listas de prezos permítenlle establecer o custo e os prezos de vendas para roles de recursos, categorías de gasto, produtos e outros elementos dunha organización. Antes de establecer estimacións financeiras para o traballo que se deben entregar para un proxecto, debería crear unha lista de custos e prezos de vendas de seguridade. Na sección de parámetros, tamén debe configurar unha lista de custos e prezos de vendas predefinida que se aplica a todos os proxectos creados na organización. Na páxina **Parámetros do proxecto activos** , asegúrese de configurar unha lista de prezos de vendas e custos predefinida.
+As listas de prezos permítenlle establecer o custo e os prezos de vendas para roles de recursos, categorías de gasto, produtos e outros elementos dunha organización. Antes de establecer estimacións financeiras para o traballo que se deben entregar para un proxecto, debería crear unha lista de custos e prezos de vendas de seguridade. Na sección de parámetros, tamén debe configurar unha lista de custos e prezos de vendas predefinida que se aplica a todos os proxectos creados na organización. Na páxina **Parámetros do proxecto activos**, asegúrese de configurar unha lista de prezos de vendas e custos predefinida.

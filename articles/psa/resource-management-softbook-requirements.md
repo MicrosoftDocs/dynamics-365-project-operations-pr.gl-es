@@ -3,7 +3,7 @@ title: Requisitos da reserva branda
 description: Este tema fornece información sobre como cumprir requisitos de reserva branda.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 861e484ea2fc251e0082b4cb0cd5409a45a74057
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076342"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124096"
 ---
 # <a name="soft-book-requirements"></a>Requisitos da reserva branda
 
@@ -31,7 +31,7 @@ Pódese facer unha reserva dura dun requisito de recursos. Unha reserva dura cre
 
 ![O estado da reserva establecido en Branda](media/Resource-Management-image77.png)
 
-Cando o separador **Equipo** está na vista **Membros nomeados do equipo** , o recurso aparece alí. As horas con reserva branda aparecen na columna **Horas con reserva branda**.
+Cando o separador **Equipo** está na vista **Membros nomeados do equipo**, o recurso aparece alí. As horas con reserva branda aparecen na columna **Horas con reserva branda**.
 
 ![Horas con reserva branda na vista de membros nomeados do equipo](media/Resource-Management-image78.png)
 
@@ -39,7 +39,7 @@ Non se poden atribuír os membros do equipo cunha reserva branda a tarefas.
 
 ![Membro do equipo cunha reserva branda atribuído a una tarefa.](media/Resource-Management-image79.png)
 
-No separador **Conciliación** , non se amosan reservas para un recurso con reserva branda, porque o separador **Conciliación** considera só as reservas duras.
+No separador **Conciliación**, non se amosan reservas para un recurso con reserva branda, porque o separador **Conciliación** considera só as reservas duras.
 
 ![Recurso con reserva branda sen reservas no separador Conciliación](media/Resource-Management-image80.png)
 
@@ -54,7 +54,7 @@ Para converter unha reserva branda en unha reserva dura, no panel de programaci�
 
 ![Cambio do estado da reserva a dura](media/Resource-Management-image82.png)
 
-A reserva cambia e o estado cámbiase no panel de programación. Como o estado da reserva é agora **Dura** , o recurso móstrase como reservado e axústase a súa capacidade e dispoñibilidade.
+A reserva cambia e o estado cámbiase no panel de programación. Como o estado da reserva é agora **Dura**, o recurso móstrase como reservado e axústase a súa capacidade e dispoñibilidade.
 
 Pode usar o mesmo método para cancelar unha reserva dura ou unha reserva branda no panel de programación.
 

@@ -3,7 +3,7 @@ title: Crear unha lista de prezos
 description: Como crear una lista de prezos en Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf75286fd1837e27a9b6053ccb21b60771ee197d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 08d93ad86d782922df6b22370749628ddbdc0718
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076168"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122026"
 ---
 # <a name="create-a-price-list-project-service"></a>Crear unha lista de prezos (Project Service)
 
@@ -39,33 +39,33 @@ As listas de prezos dependen das categorías de gastos e roles, polo que antes d
   
 2.  Prema **Novo**.  
   
-3.  En **Contexto** , seleccione se esta lista de prezos é para **Custo** , **Compra** ou **Vendas**.  
+3.  En **Contexto**, seleccione se esta lista de prezos é para **Custo**, **Compra** ou **Vendas**.  
   
-4.  En **Nome** , introduza un nome para a lista de prezos.  
+4.  En **Nome**, introduza un nome para a lista de prezos.  
   
-5.  En **Moeda** , seleccione a moeda que se vai utilizar para facturación ou custos.  
+5.  En **Moeda**, seleccione a moeda que se vai utilizar para facturación ou custos.  
   
-6.  En **Unidade de tempo** , especifique o período de tempo ao que se aplica o prezo, como día ou horas.  
+6.  En **Unidade de tempo**, especifique o período de tempo ao que se aplica o prezo, como día ou horas.  
   
-7.  Encha a **Data de Comezo** , **Data de Fin** e **Descrición** segundo sexa necesario.  
+7.  Encha a **Data de Comezo**, **Data de Fin** e **Descrición** segundo sexa necesario.  
   
 8.  Prema **Gardar** para crear o rexistro e poder editalo.  
   
 9. Para engadir un prezo de rol á lista de prezos, prema **+** en **Prezos de rol**.  
   
-10. No panel **Prezos de rol** , encha os detalles e, a seguir, prema en **Gardar**. Continúe a engadir prezos de rol segundo sexa necesario. Ao acabar, prema **Gardar** na parte inferior dereita da pantalla.  
+10. No panel **Prezos de rol**, encha os detalles e, a seguir, prema en **Gardar**. Continúe a engadir prezos de rol segundo sexa necesario. Ao acabar, prema **Gardar** na parte inferior dereita da pantalla.  
   
 11. Para engadir un prezo de categoría de custo á lista de prezos, prema **+** en **Categoría de prezos**.  
   
-12. No panel **Prezos de categoría de transaccións** , encha os detalles e, a seguir, prema en **Gardar**. Continúe a engadir prezos de categoría segundo sexa necesario. Ao acabar, prema **Gardar** na parte inferior dereita da pantalla.  
+12. No panel **Prezos de categoría de transaccións**, encha os detalles e, a seguir, prema en **Gardar**. Continúe a engadir prezos de categoría segundo sexa necesario. Ao acabar, prema **Gardar** na parte inferior dereita da pantalla.  
   
 13. Para engadir elementos da lista de prezos á lista de prezos, prema **+** en **Elementos da Lista de Prezos**.  
   
-14. No panel **Elemento da lista de prezos** , encha os detalles e, a seguir, prema en **Gardar**. Continúe a engadir elementos da lista de prezos segundo sexa necesario. Ao acabar, prema **Gardar** na parte inferior dereita da pantalla.  
+14. No panel **Elemento da lista de prezos**, encha os detalles e, a seguir, prema en **Gardar**. Continúe a engadir elementos da lista de prezos segundo sexa necesario. Ao acabar, prema **Gardar** na parte inferior dereita da pantalla.  
   
 15. Para engadir relacións de zonas de vendas á lista de prezos, prema **+** en **Relacións de zonas de vendas**.  
   
-16. Na ventá **Nova conexión** , encha os detalles e, a seguir, prema en **Gardar**. Continuar a engadir relacións de zonas de vendas segundo sexa necesario. Ao acabar, prema **Gardar** na parte inferior dereita da pantalla.  
+16. Na ventá **Nova conexión**, encha os detalles e, a seguir, prema en **Gardar**. Continuar a engadir relacións de zonas de vendas segundo sexa necesario. Ao acabar, prema **Gardar** na parte inferior dereita da pantalla.  
   
 ### <a name="see-also"></a>Consulte tamén  
  [Configurar Project Service Automation](../psa/configure.md)

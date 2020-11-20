@@ -3,7 +3,7 @@ title: Crear unha reserva de proxecto desde o panel de programación
 description: Este tema fornece información sobre como crear unha reserva de proxecto desde o panel de programación.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076149"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122296"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Crear unha reserva de proxecto desde o panel de programación
 
@@ -81,7 +81,7 @@ Complete os seguintes pasos para reservar a partir dun novo requisito de recurso
 
 1. Vaia á **Requisitos de recursos** e, a seguir, seleccione **Novo** para crear un novo requisito de recurso.
 
-2. No separador **Proxecto** , seleccione un proxecto para asociar o requisito ao proxecto.
+2. No separador **Proxecto**, seleccione un proxecto para asociar o requisito ao proxecto.
  
     No panel de programación, este novo requisito creado recentemente móstrase como **Requisito aberto** que pode realizar.
 

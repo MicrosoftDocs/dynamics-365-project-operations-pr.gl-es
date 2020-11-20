@@ -5,17 +5,17 @@ author: suvaidya
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 209fe0b8a79b2c0689c458c423664cb292da249b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076015"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122747"
 ---
 # <a name="cash-advance"></a>Adianto en efectivo
 
@@ -25,10 +25,10 @@ Un adianto de efectivo permite aos empregados pedir diñeiro prestado á súa em
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Crear e enviar unha solicitude de adianto de efectivo
 
-1. En **Os meus gastos** , seleccione **Adiantos de efectivo** > **Novo** para crear un novo adianto de efectivo. 
-2. Na páxina **Nova solicitude de adianto de efectivo** , introduza a finalidade do gasto e seleccione o lugar onde se incorrerá no gasto.
+1. En **Os meus gastos**, seleccione **Adiantos de efectivo** > **Novo** para crear un novo adianto de efectivo. 
+2. Na páxina **Nova solicitude de adianto de efectivo**, introduza a finalidade do gasto e seleccione o lugar onde se incorrerá no gasto.
 3. Introduza o importe solicitado e a moeda e seleccione **Gardar**. 
-4. Cando estea listo para enviar a solicitude de adianto de efectivo, na páxina **Solicitude de adianto de efectivo** , seleccione **Fluxo de traballo** > **Enviar**.
+4. Cando estea listo para enviar a solicitude de adianto de efectivo, na páxina **Solicitude de adianto de efectivo**, seleccione **Fluxo de traballo** > **Enviar**.
 
 ## <a name="modify-a-cash-advance-request"></a>Modificar unha solicitude de adianto de efectivo
 
@@ -46,7 +46,7 @@ Pode revisar a lista de todos os adiantos de efectivo que están en borrador, en
 
 Os xestores ou usuarios configurados como responsables de aprobacións no fluxo de traballo poderán aprobar os adiantos de efectivo que se lles envíen para a súa revisión. 
 
-1. Para aprobar un adianto de efectivo, en **Procesar adiantos de efectivo** , seleccione **Adiantos de efectivo para a miña revisión**.
+1. Para aprobar un adianto de efectivo, en **Procesar adiantos de efectivo**, seleccione **Adiantos de efectivo para a miña revisión**.
 2. Seleccione o adianto de efectivo que precisa revisar e seleccione **Aprobar**.  
 
 ## <a name="pay-cash-advances"></a>Pagar adianto de efectivo 

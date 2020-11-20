@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4ae5b3c4a4378330caed97011f55ca11175e644
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087915"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119551"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Resolver prezos de vendas para estimacións e datos reais
 
@@ -27,12 +27,12 @@ En Project Operations, as liñas de estimación para o tempo úsanse para indica
 
 Despois de resolverse unha lista de prezos para vendas, o sistema completa os seguintes pasos para predefinir a taxa de facturación.
 
-1. O sistema utiliza os campos **Rol** , **Empresa de recursos** e **Unidade de recursos** da liña de estimación para que o tempo coincida coas liñas de prezo de rol na lista de prezos resolta. Esta coincidencia supón que está a usar unhas dimensións de prezos listas para taxas de facturación. Se configurou os prezos segundo os outros campos en lugar de ou ademais de **Rol** , **Empresa de recursos** e **Unidade de recursos** , esa é a combinación que se utilizará para recuperar unha liña de prezo de rol coincidente.
-2. Se o sistema atopa unha liña de prezo de rol que ten unha taxa de facturación para a combinación de campos **Rol** , **Empresa de recursos** e **Unidade de recursos** , esa é a taxa de facturación predefinida.
-3. Se a aplicación non pode coincidir cos valores de campo de **Rol** , **Empresa de recursos** e **Unidade de recursos** , recupera as liñas de prezo de rol cun rol coincidente, pero valores nulos de **Unidade de recursos**. Despois de que o sistema atope un rexistro de prezo de rol coincidente, predeterminará a taxa de facturación dese rexistro. Esta coincidencia supón unha configuración lista para usar para a prioridade relativa de **Rol** fronte a **Unidade de Recursos** como dimensión de prezos de venda.
+1. O sistema utiliza os campos **Rol**, **Empresa de recursos** e **Unidade de recursos** da liña de estimación para que o tempo coincida coas liñas de prezo de rol na lista de prezos resolta. Esta coincidencia supón que está a usar unhas dimensións de prezos listas para taxas de facturación. Se configurou os prezos segundo os outros campos en lugar de ou ademais de **Rol**, **Empresa de recursos** e **Unidade de recursos**, esa é a combinación que se utilizará para recuperar unha liña de prezo de rol coincidente.
+2. Se o sistema atopa unha liña de prezo de rol que ten unha taxa de facturación para a combinación de campos **Rol**, **Empresa de recursos** e **Unidade de recursos**, esa é a taxa de facturación predefinida.
+3. Se a aplicación non pode coincidir cos valores de campo de **Rol**, **Empresa de recursos** e **Unidade de recursos**, recupera as liñas de prezo de rol cun rol coincidente, pero valores nulos de **Unidade de recursos**. Despois de que o sistema atope un rexistro de prezo de rol coincidente, predeterminará a taxa de facturación dese rexistro. Esta coincidencia supón unha configuración lista para usar para a prioridade relativa de **Rol** fronte a **Unidade de Recursos** como dimensión de prezos de venda.
 
 > [!NOTE]
-> Se configurou unha priorización diferente de **Rol** , **Empresa de recursos** e **Unidade de recursos** ou se ten outras dimensións con maior prioridade, este comportamento cambiará en consecuencia. O sistema recupera os rexistros de prezos de rol con valores coincidentes de cada un dos valores da dimensión de prezos por orde de prioridade con filas que teñen valores nulos para as últimas dimensións.
+> Se configurou unha priorización diferente de **Rol**, **Empresa de recursos** e **Unidade de recursos** ou se ten outras dimensións con maior prioridade, este comportamento cambiará en consecuencia. O sistema recupera os rexistros de prezos de rol con valores coincidentes de cada un dos valores da dimensión de prezos por orde de prioridade con filas que teñen valores nulos para as últimas dimensións.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Resolver taxas de vendas nas liñas de datos reais e estimacións para gasto
 
@@ -41,7 +41,7 @@ En Project Operations, as liñas de estimación para o gasto úsanse para indica
 Despois de resolverse unha lista de prezos para vendas, o sistema completa os seguintes pasos para predefinir o prezo de vandas da unidae.
 
 1. O sistema utiliza unha combinación dos campos **Categoría** e **Unidade** da liña de estimación para que un gasto coincida coas liñas de prezo de categoría na lista de prezos que se resolveu.
-2. Se o sistema atopa unha liña de prezo de categoría que ten unha taxa de vendas para a combinación dos campos **Categoría** e **Unidade** , esa é a taxa de vendas predefinida.
+2. Se o sistema atopa unha liña de prezo de categoría que ten unha taxa de vendas para a combinación dos campos **Categoría** e **Unidade**, esa é a taxa de vendas predefinida.
 3. Se o sistema atopa unha liña de prezo de categoría coincidente, pódese usar o prezo de vendas como método de fixación de prezos por defecto. A seguinte táboa mostra o comportamento predefinido do prezo do gasto en Project Operations.
 
     | Contexto | Método de cálculo de prezos | Prezo predefinido |

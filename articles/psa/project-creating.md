@@ -3,7 +3,7 @@ title: Programas de proxecto
 description: Este tema fornece información sobre como crear unha programación.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076167"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123231"
 ---
 # <a name="project-schedules"></a>Programas de proxecto 
 
@@ -83,12 +83,12 @@ Os botóns **Mover arriba** e **Mover abaixo** cambian a posición dunha tarefa 
 
 A grade **Programación** é totalmente accesible e pode usarse con lectores de pantalla como Narrator, JAWS ou NVDA. Pode moverse pola área da grade mediante as teclas de frecha (como en Microsoft Excel), pode usar a tecla TAB para avanzar nos elementos interactivos da interface de usuario e pode usar a tecla de frecha cara abaixo, a tecla Intro ou a barra espazadora para seleccionar e invocar os menús despregables. As cabeceiras de columna tamén son interactivas. Pode ocultar e amosar columnas, usar a tecla TAB e as teclas de frecha para moverse polas cabeceiras das columnas e usar os botóns de acción da barra de ferramentas. Ademais, pode empregar os seguintes atallos de teclado:
 
-- **Actualizar** : ALT+MAIÚS+F5
-- **Engadir** : ALT+MAIÚS+Inserir
-- **Eliminar** : ALT+MAIÚS+Eliminar
-- **Mover cara arriba/abaixo** : ALT+MAIÚS+Frechas arriba/abaixo
-- **Aplicar sangría/Cancelar sangría** : ALT_MAIÚS+Frechas esquerda/dereita
-- **Expandir/Contraer xerarquías** : Teclas ALT+MAIÚS+ Máis/Menos
+- **Actualizar**: ALT+MAIÚS+F5
+- **Engadir**: ALT+MAIÚS+Inserir
+- **Eliminar**: ALT+MAIÚS+Eliminar
+- **Mover cara arriba/abaixo**: ALT+MAIÚS+Frechas arriba/abaixo
+- **Aplicar sangría/Cancelar sangría**: ALT_MAIÚS+Frechas esquerda/dereita
+- **Expandir/Contraer xerarquías**: Teclas ALT+MAIÚS+ Máis/Menos
 
 ## <a name="task-attributes"></a>Atributos de lista
 
@@ -98,19 +98,19 @@ O nome dunha tarefa describe o traballo que precisa ser concluído. En PSA, os a
  
 ### <a name="schedule-attributes"></a>Programar atributos
 
-Os atributos **Esforzo** , **Data de inicio** , **Data de finalización** e **Duración** definen a programación para a tarefa.
+Os atributos **Esforzo**, **Data de inicio**, **Data de finalización** e **Duración** definen a programación para a tarefa.
 
 Outros atributos de programación inclúen:
 
-- **Horas de esforzo** : Introduza unha estimación das horas necesarias para completar a tarefa. 
-- **Duración** : Especifique o número de días laborables que se requiren para completar a tarefa.
-- **Identificador de programación** : Este ID xerado automaticamente úsase para ordenar tarefas na xerarquía. As dependencias entre as tarefas xestionan a orde real na que se traballa nas tarefas.
+- **Horas de esforzo**: Introduza unha estimación das horas necesarias para completar a tarefa. 
+- **Duración**: Especifique o número de días laborables que se requiren para completar a tarefa.
+- **Identificador de programación**: Este ID xerado automaticamente úsase para ordenar tarefas na xerarquía. As dependencias entre as tarefas xestionan a orde real na que se traballa nas tarefas.
  
 ### <a name="staffing-attributes"></a>Atributos de persoal
 
-Pódese acceder a atributos de persoal a través do campo **Recursos** na programación. Pode buscar un recurso existente ou premer en **Crear** e no panel **Creación rápida** , engadir un membro do equipo do proxecto como novo recurso.
+Pódese acceder a atributos de persoal a través do campo **Recursos** na programación. Pode buscar un recurso existente ou premer en **Crear** e no panel **Creación rápida**, engadir un membro do equipo do proxecto como novo recurso.
 
-Os campos **Rol** , **Unidade de recursos** e **Nome do posto** úsanse para describir os requisitos de persoal para a tarefa. Estes atributos de persoal xunto coa programación de tarefas úsanse para atopar os recursos dispoñibles para facer esta tarefa.
+Os campos **Rol**, **Unidade de recursos** e **Nome do posto** úsanse para describir os requisitos de persoal para a tarefa. Estes atributos de persoal xunto coa programación de tarefas úsanse para atopar os recursos dispoñibles para facer esta tarefa.
 
 **Rol** - Especifique o tipo de recurso que se require para realizar a tarefa.
 
@@ -134,7 +134,7 @@ O modo de tarefa determina a programación de tarefas de nós folla. PSA admite 
 
 ### <a name="auto-scheduling"></a>Programación automática 
  
-Cando establece o modo de tarefa a **Programada automaticamente** , o motor de programación de tarefas usa as regras de programación nos seguintes atributos de tarefa para determinar a programación para a tarefa:
+Cando establece o modo de tarefa a **Programada automaticamente**, o motor de programación de tarefas usa as regras de programación nos seguintes atributos de tarefa para determinar a programación para a tarefa:
 
 #### <a name="scheduling-rules"></a>Regras de programación
 

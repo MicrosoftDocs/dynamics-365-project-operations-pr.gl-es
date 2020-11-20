@@ -2,7 +2,7 @@
 title: Novidades ou cambios na versión 3 de Project Service Automation
 description: Este tema fornece información sobre as novidades e as modificacións na versión 3 de Project Service Automation.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076094"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120001"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novidades ou cambios na versión 3 de Project Service Automation
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -94,7 +94,7 @@ As estimacións dividíronse en dous separadores, **Atribucións de recursos** e
 
 ![Separador de atribucións de recursos que mostra estimacións e atribucións de recursos para tarefas](media/resource-assignments-tab-02.png)
 
-O separador **Estimacións** mostra os custos e as cantidades de vendas para atribucións de recursos. Os importes son só de lectura. Os custos e os prezos de vendas derívanse das atribucións dos membros do equipo na programación. Isto significa que se ten unha tarefa sen ningunha atribución, a tarefa mostrarase na sección de non atribuídos. Isto tamén significa que sen **rol** , que é unha dimensión predefinida de prezos, non haberá custo nin vendas estimadas se ten un cliente ou un contrato/oferta asociado ao proxecto. 
+O separador **Estimacións** mostra os custos e as cantidades de vendas para atribucións de recursos. Os importes son só de lectura. Os custos e os prezos de vendas derívanse das atribucións dos membros do equipo na programación. Isto significa que se ten unha tarefa sen ningunha atribución, a tarefa mostrarase na sección de non atribuídos. Isto tamén significa que sen **rol**, que é unha dimensión predefinida de prezos, non haberá custo nin vendas estimadas se ten un cliente ou un contrato/oferta asociado ao proxecto. 
 
 ![Separador Estimacións que mostra as cantidades de custos e vendas](media/estimates-tab-03.png)
   
@@ -110,7 +110,7 @@ Na versión 3 de Project Service Automation, coa nova IU do cliente unificado e 
 ![Utilizar o selector de recursos](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Atribuír un recurso real reservable 
-Na versión 3 de Project Service Automation, as reservas e as atribucións de tarefas non están tan estreitamente entrelazadas como nas versións anteriores de Project Service Automation. Pode empregar a grade do equipo para reservar un membro do equipo **real** , de xeito similar ao mercado.
+Na versión 3 de Project Service Automation, as reservas e as atribucións de tarefas non están tan estreitamente entrelazadas como nas versións anteriores de Project Service Automation. Pode empregar a grade do equipo para reservar un membro do equipo **real**, de xeito similar ao mercado.
 
 Ao usar o selector de recursos na programación, pode seleccionar o membro do equipo creado na vista do equipo e despois atribuílo a tarefas. Pode seguir atribuíndolle tarefas, incluso superando as súas reservas. Use o separador **Conciliación** para conciliar membros do equipo que teñen diferenzas nas reservas e atribucións.
 
@@ -158,7 +158,7 @@ Prema en **Novo** na fita para abrir unha páxina de creación rápida para a en
 Os campos de busca están apoiados por vistas do sistema. Por exemplo, despois de introducir a información do proxecto, o campo **Tarefa de proxecto** establécese de forma predefinida na vista **As miñas tarefas de proxecto abertas**. Para crear entradas de tempo para tarefas que non están atribuídas ao usuario, prema en **Cambiar vista** na busca e seleccione **Todas as tarefas de proxecto activas**. Una vez que se cree la entrada de tempo e se mostre na grade, poderá editar calquera valor de liña directamente na grade.  
 
 ### <a name="bulk-createcopy"></a>Creación/copia en masa 
-Despois de crear unhas poucas entradas de tempo, pode usar a funcionalidade de copia para crear entradas de tempo adicionais en masa. Prema en **Copiar** para abrir a caixa de diálogo **Copiar**. En **Desde o período: data de inicio** , estableza o rango de datas desde o que se deben copiar os períodos de tempo. En **Ata o período: data de inicio** , especifique a data para la que se deben crear entradas de tempo. Prema en **Copiar** para copiar as entradas de tempo ao día correspondente da semana indicado en **Ata o período**. Por exemplo, a entrada de tempo do luns da semana pasada copiarase no luns da semana indicada en **Ata o período**. 
+Despois de crear unhas poucas entradas de tempo, pode usar a funcionalidade de copia para crear entradas de tempo adicionais en masa. Prema en **Copiar** para abrir a caixa de diálogo **Copiar**. En **Desde o período: data de inicio**, estableza o rango de datas desde o que se deben copiar os períodos de tempo. En **Ata o período: data de inicio**, especifique a data para la que se deben crear entradas de tempo. Prema en **Copiar** para copiar as entradas de tempo ao día correspondente da semana indicado en **Ata o período**. Por exemplo, a entrada de tempo do luns da semana pasada copiarase no luns da semana indicada en **Ata o período**. 
 
 ![Copiar entradas de tempo en masa](media/bulk-copy-time-entry-09.png)
  
@@ -172,9 +172,9 @@ Na versión 3, afastámonos do control de calendario personalizado e agora estam
 > Unha limitación do calendario é que este control non admite accións en elementos de calendario individuais. Por exemplo, non poderá seleccionar un ou varios elementos do calendario e enviar ou eliminar eses elementos. Ao premer ni elemento do calendario, abrirase a páxina da entidade **Entrada de tempo** para accións adicionais. 
 
 ### <a name="extensibility"></a>Extensibilidade
-**Captura de datos en campos personalizados só en entidades de entrada de tempo e gastos** : a entrada de tempo utiliza unha grade editable, unha grade de só lectura e controis de calendario desde a plataforma. Todos estes controis son nativos e, polo tanto, admitirán personalizacións. Na versión 3 de Project Service Automation, pode engadir campos personalizados adicionais, configurar campos de busca e facer copia de seguridade con vistas personalizadas. Tamén pode configurar unha lóxica de negocio personalizada baseada nos valores seleccionados en campos personalizados.  
+**Captura de datos en campos personalizados só en entidades de entrada de tempo e gastos**: a entrada de tempo utiliza unha grade editable, unha grade de só lectura e controis de calendario desde a plataforma. Todos estes controis son nativos e, polo tanto, admitirán personalizacións. Na versión 3 de Project Service Automation, pode engadir campos personalizados adicionais, configurar campos de busca e facer copia de seguridade con vistas personalizadas. Tamén pode configurar unha lóxica de negocio personalizada baseada nos valores seleccionados en campos personalizados.  
 
-**Captura de datos en campos personalizados na entrada de tempo y gastos e propagación a través de entidades que admiten o fluxo de envío e aprobación** : o procesamento típico das entradas de tempo móstrase no seguinte diagrama.
+**Captura de datos en campos personalizados na entrada de tempo y gastos e propagación a través de entidades que admiten o fluxo de envío e aprobación**: o procesamento típico das entradas de tempo móstrase no seguinte diagrama.
 
 ![Proceso de fluxo de entrada de tempo](media/process-time-entries-10.png)
 
@@ -192,11 +192,11 @@ A plataforma Common Data Service non admite que un usuario se faga pasar por out
 A personalización permítelle engadir **Recurso reservable** ás experiencias de creación e edición, o que permitirá que un usuario actúe como delegado ao cambiar o campo **Reserva de recursos** a outro usuario para o que se deben rexistrar as entradas de tempo e gastos. Os seguintes pasos tratan sobre a delegación de entrada de tempo. Aplícase a mesma información á delegación de entrada de gastos. 
  
 1.  Asegúrese de que o usuario delegado teña acceso de seguridade global a proxectos e tarefas de proxecto. 
-1.  Debido a que **Recurso reservable** , que é un campo da entidade **Entrada de tempo** , non se expón na páxina **Creación rápida** , terá que engadilo.
+1.  Debido a que **Recurso reservable**, que é un campo da entidade **Entrada de tempo**, non se expón na páxina **Creación rápida**, terá que engadilo.
 
     ou
 
-    Cree unha vista personalizada, que inclúa a columna **Recurso reservable** , para ver só as entradas de tempo creadas para o recurso. Publique as personalizacións no deseñador do módulo da aplicación para que esta vista apareza en **Selector de vistas** na páxina **Entradas de tempo**. Existen dous complementos que xestionan a configuración do administrador para as entradas de tempo que non son do proxecto:
+    Cree unha vista personalizada, que inclúa a columna **Recurso reservable**, para ver só as entradas de tempo creadas para o recurso. Publique as personalizacións no deseñador do módulo da aplicación para que esta vista apareza en **Selector de vistas** na páxina **Entradas de tempo**. Existen dous complementos que xestionan a configuración do administrador para as entradas de tempo que non son do proxecto:
 
     - PreValidateTimeEntryCreate
     - PreValidateTimeEntryUpdate

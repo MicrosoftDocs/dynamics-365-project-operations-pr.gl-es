@@ -3,7 +3,7 @@ title: Guía de tempo, gasto e colaboración
 description: Guía de tempo, gastos e colaboración para Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3404642bf20ee23000202b3447f3167aeb4dee27
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4f975a248c6224bdea72ca1ecdb8a299f0f9254c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076221"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120046"
 ---
 # <a name="time-expense-and-collaboration-guide-project-service"></a>Guía de tempo, gastos e colaboración (Project Service)
 
@@ -59,7 +59,7 @@ Prema na ligazón seguinte para obter máis información sobre que pode facer co
   
 -   [Permitir que outra persoa introduza o seu horario de entrada ou gastos](../psa/allow-someone-else-enter-time-entry-expense.md)  
   
--   [Programar tempo libre ](../psa/schedule-time-off.md)  
+-   [Programar tempo libre](../psa/schedule-time-off.md)  
   
 -   [Colaborar cos membros do equipo de proxecto con Grupos de Office 365](../psa/collaborate-project-team-members-office-365-groups.md)  
   

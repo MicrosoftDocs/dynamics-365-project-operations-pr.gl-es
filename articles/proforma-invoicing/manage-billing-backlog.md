@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ec77f3911a460b96414a61bc44ea254f1b7da660
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087912"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122341"
 ---
 # <a name="manage-the-billing-backlog"></a>Xestionar o traballo pendente de facturación
 
@@ -23,9 +23,9 @@ Dynamics 365 Project Operations ten dúas vistas dedicadas para axudarlle a trab
 
 ## <a name="fixed-price-milestones"></a>Fitos de prezo fixo
 
-Esta vista mostra todos os fitos de prezo fixo en todas as liñas de contrato de proxecto no sistema. Os fitos simples ou múltiples pódense marcar como **Listo para facturar** ou **Non listo para facturar** desde esta vista. Cando marca un fito como **Listo para facturar** , o fito está dispoñible para un borrador de factura.
+Esta vista mostra todos os fitos de prezo fixo en todas as liñas de contrato de proxecto no sistema. Os fitos simples ou múltiples pódense marcar como **Listo para facturar** ou **Non listo para facturar** desde esta vista. Cando marca un fito como **Listo para facturar**, o fito está dispoñible para un borrador de factura.
 
-Cando as liñas de contrato de varios clientes teñen un método de facturación de prezo fixo, créase un fito para cada cliente na liña de contrato. O usuario crea un fito e ese fito divídese en rexistros de fitos específicos do cliente internamente, segundo a división da porcentaxe de facturación definida para cada cliente na liña de contrato. Na vista **Fitos de prezo fixo** , verá rexistros de fitos específicos do cliente individual. Cada un destes rexistros de fitos pódese marcar como **Listo para facturar** separadamente desta vista. Cando un ou máis dos fitos relacionados están marcados como **Listo para facturar** , a cabeceira pasa a un estado de **En curso** desde **Non iniciado**. Cando se facturen todas as divisións de fitos, o estado do fito de cabeceira pasa a ser **Completado**.
+Cando as liñas de contrato de varios clientes teñen un método de facturación de prezo fixo, créase un fito para cada cliente na liña de contrato. O usuario crea un fito e ese fito divídese en rexistros de fitos específicos do cliente internamente, segundo a división da porcentaxe de facturación definida para cada cliente na liña de contrato. Na vista **Fitos de prezo fixo**, verá rexistros de fitos específicos do cliente individual. Cada un destes rexistros de fitos pódese marcar como **Listo para facturar** separadamente desta vista. Cando un ou máis dos fitos relacionados están marcados como **Listo para facturar**, a cabeceira pasa a un estado de **En curso** desde **Non iniciado**. Cando se facturen todas as divisións de fitos, o estado do fito de cabeceira pasa a ser **Completado**.
 
 Nesta vista móstrase fito nun borrador de factura cun estado de facturación de **Factura do cliente creada**. Cando se confirma o borrador da factura, o estado de facturación deste rexistro actualízase a **Factura contabilizada**. Non se recomenda actualizar este valor de estado usando código personalizado. Project Operations non funcionará correctamente se estes valores de estado se actualizan con código personalizado.
 
@@ -35,6 +35,6 @@ Esta vista mostra todos os datos reais de vendas non facturados que non se factu
 
 Os datos reais de vendas sen facturar que teñen un estado **Non superable** de **Con erros** non se poden marcar como **Listo para facturar**. Se hai que marcar así estes datos reais, restableza o estado doutros datos reais da liña de contrato que estean confirmados e avalíe o estado **Non superable**.
 
-No caso das liñas de contratos con varios clientes que teñan un método de facturación de tempo e material, cando se aproban o tempo e os gastos, créanse vendas reais non facturadas para cada cliente na liña de contrato segundo a división da porcentaxe de facturación definida para cada cliente na liña de contrato. Na vista **Traballo pendente de facturación de tempo e material** , verá estes datos de vendas sen facturar específicos do cliente individual. Cada un destes rexistros de datos reais sen facturar pódese marcar como **Listo para facturar** separadamente desta vista.
+No caso das liñas de contratos con varios clientes que teñan un método de facturación de tempo e material, cando se aproban o tempo e os gastos, créanse vendas reais non facturadas para cada cliente na liña de contrato segundo a división da porcentaxe de facturación definida para cada cliente na liña de contrato. Na vista **Traballo pendente de facturación de tempo e material**, verá estes datos de vendas sen facturar específicos do cliente individual. Cada un destes rexistros de datos reais sen facturar pódese marcar como **Listo para facturar** separadamente desta vista.
 
 Nesta vista móstrase un dato real de vendas sen facturar nun borrador de factura cun **Estado de facturación** de **Factura do cliente creada**. Cando se confirma o borrador da factura, o estado de facturación deste rexistro actualízase a **Factura de cliente contabilizada**. Non se recomenda actualizar este valor de estado cando está neste estado usando código personalizado. Project Operations non funcionará correctamente cando estes valores de estado se actualicen con código personalizado.

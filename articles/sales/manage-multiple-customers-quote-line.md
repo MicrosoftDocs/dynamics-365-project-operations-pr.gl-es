@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ea7f0a8207fc78914783f5b9c919b3243a0bb5a4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076008"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118561"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Xestionar varios clientes en liñas de oferta baseada en proxecto
 
@@ -33,11 +33,11 @@ A seguinte táboa mostra os campos do rexistro de cliente de liña de oferta dun
 
 | Campo | Localización | Descrición e orientación | Impacto descendente |
 | --- | --- | --- | --- |
-| **Conta** | Unha grade editable no separador **Clientes de liña de oferta** , o formulario principal e o formulario de creación rápida para un cliente de liña de oferta. | Indica todas as contas activas. Este campo bloquéase despois de que se crea o rexistro. Se precisa actualizar o campo, elimine e cree de novo o rexistro. Se gravou algún dato real, non pode eliminar o rexistro. | Cando escolle unha conta da lista principal de contas para engadir, o cliente da liña de oferta tamén se engade como cliente da oferta Os clientes de liña de oferta tamén se copian aos clientes de liña de contrato do proxecto cando se gaña unha oferta. |
-| **Porcentaxe de división de facturación** | Unha grade editable no separador **Clientes de liña de oferta** , o formulario principal e o formulario de creación rápida para un cliente de liña de oferta. | Representa a porcentaxe de cada transacción de vendas non facturada que se atribuirá a este cliente de liña de oferta. | Copiado aos clientes de liña de contrato de proxecto. |
-| **Límite non superable** | Unha grade editable no separador **Clientes de liña de oferta** , o formulario principal e o formulario de creación rápida para un cliente de liña de oferta. | Indica se hai un límite negociado ou tope para o importe total que se facturará a este cliente por esta liña ofertada. | Copiado aos clientes de liña de contrato do proxecto cando se gaña unha oferta. |
-| **Empresa propietaria** | Unha grade editable no separador **Clientes de liña de oferta** , o formulario principal e o formulario de creación rápida para un cliente de liña de oferta. | A entidade legal na que este cliente está establecido no módulo **Xestión e contabilidade de proxectos**. Este campo é de só lectura e configúrase na empresa propietaria da oferta. A lista de clientes para engadir no campo **Conta** xa está filtrado na lista da empresa propietaria no módulo **Xestión e contabilidade de proxectos** de Project Operations. | A empresa propietaria equivale ao concepto de entidade legal. Todos os custos e ingresos que se derivan deste proxecto contabilízanse no libro maior da empresa propietaria. |
-| **É arredondamento** | Unha grade editable no separador **Clientes de liña de oferta** , o formulario principal e o formulario de creación rápida para un cliente de liña de oferta. | Indica se este cliente é un cliente de redondeo predefinido para esta liña de oferta baseada en proxecto. | Copiado aos clientes de contrato do proxecto cando se gaña unha oferta. |
+| **Conta** | Unha grade editable no separador **Clientes de liña de oferta**, o formulario principal e o formulario de creación rápida para un cliente de liña de oferta. | Indica todas as contas activas. Este campo bloquéase despois de que se crea o rexistro. Se precisa actualizar o campo, elimine e cree de novo o rexistro. Se gravou algún dato real, non pode eliminar o rexistro. | Cando escolle unha conta da lista principal de contas para engadir, o cliente da liña de oferta tamén se engade como cliente da oferta Os clientes de liña de oferta tamén se copian aos clientes de liña de contrato do proxecto cando se gaña unha oferta. |
+| **Porcentaxe de división de facturación** | Unha grade editable no separador **Clientes de liña de oferta**, o formulario principal e o formulario de creación rápida para un cliente de liña de oferta. | Representa a porcentaxe de cada transacción de vendas non facturada que se atribuirá a este cliente de liña de oferta. | Copiado aos clientes de liña de contrato de proxecto. |
+| **Límite non superable** | Unha grade editable no separador **Clientes de liña de oferta**, o formulario principal e o formulario de creación rápida para un cliente de liña de oferta. | Indica se hai un límite negociado ou tope para o importe total que se facturará a este cliente por esta liña ofertada. | Copiado aos clientes de liña de contrato do proxecto cando se gaña unha oferta. |
+| **Empresa propietaria** | Unha grade editable no separador **Clientes de liña de oferta**, o formulario principal e o formulario de creación rápida para un cliente de liña de oferta. | A entidade legal na que este cliente está establecido no módulo **Xestión e contabilidade de proxectos**. Este campo é de só lectura e configúrase na empresa propietaria da oferta. A lista de clientes para engadir no campo **Conta** xa está filtrado na lista da empresa propietaria no módulo **Xestión e contabilidade de proxectos** de Project Operations. | A empresa propietaria equivale ao concepto de entidade legal. Todos os custos e ingresos que se derivan deste proxecto contabilízanse no libro maior da empresa propietaria. |
+| **É arredondamento** | Unha grade editable no separador **Clientes de liña de oferta**, o formulario principal e o formulario de creación rápida para un cliente de liña de oferta. | Indica se este cliente é un cliente de redondeo predefinido para esta liña de oferta baseada en proxecto. | Copiado aos clientes de contrato do proxecto cando se gaña unha oferta. |
 
 ## <a name="edit-billing-split-percentages"></a>Editar porcentaxes divididas de facturación
 

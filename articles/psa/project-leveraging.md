@@ -3,7 +3,7 @@ title: Proxectos e estimacións de vendas
 description: Este tema fornece información sobre como aproveitar a programación e as estimacións no proceso de vendas.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eafe60362003198a223026526f56261de414bb4a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8bb380519759659dc1b4151b62228a626ee7a26
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076150"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120676"
 ---
 # <a name="sales-estimates-and-projects"></a>Proxectos e estimacións de vendas
 
@@ -51,4 +51,4 @@ Pode definir o esforzo de traballo e programar estimacións mediante os campos d
 
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Importación de estimacións dun proxecto a unha oferta
 
-Despois de definir as estimacións do proxecto, pode importalas na liña de oferta. Na páxina **Detalles de liña de oferta** , seleccione **Importación das estimacións** na fita para resumir as estimacións do proxecto por tipo de transacción, rol ou nivel de tarefa.
+Despois de definir as estimacións do proxecto, pode importalas na liña de oferta. Na páxina **Detalles de liña de oferta**, seleccione **Importación das estimacións** na fita para resumir as estimacións do proxecto por tipo de transacción, rol ou nivel de tarefa.

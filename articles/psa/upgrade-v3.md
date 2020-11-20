@@ -2,7 +2,7 @@
 title: Consideracións sobre a actualización - Microsoft Dynamics 365 Project Service Automation versión 2.x ou 1.x a versión 3
 description: Este tema proporciona información sobre as consideracións que debe ter en conta ao actualizar da versión 2.x ou 1.x á versión 3 de Project Service Automation.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19d6d312c7cedd2d7b9b5649452b85dd24fae761
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076212"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121711"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Consideracións sobre a actualización - PSA versión 2.x ou 1.x a versión 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "4076212"
 Tanto Dynamics 365 Project Service Automation como Dynamics 365 Field Service usan a solución Universal Resourcing Scheduling (URS) para a planificación de recursos. Se ten na súa instancia tanto Project Service Automation como Field Service, debe planificar a actualización de ambas solucións á versión máis recente (versión 3.x para Project Service Automation, versión 8.x para Field Service). A actualización de Project Service Automation e Field Service instalará a última versión de URS, o que significa que é posible un comportamento incoherente se as solucións Project Service Automation e Field Service da mesma instancia non se actualizan á última versión.
 
 ## <a name="resource-assignments"></a>Atribucións de recursos
-En Project Service Automation versión 2 e versión 1, as tarefas almacenábanse como tarefas secundarias (tamén chamadas tarefas de liña) na **Entidade tarefa** , e indirectamente relacionadas coa entidade **Atribución de recursos**. A tarefa de liña era visible na ventá emerxente de atribución en Work Breakdown Structure (WBS).
+En Project Service Automation versión 2 e versión 1, as tarefas almacenábanse como tarefas secundarias (tamén chamadas tarefas de liña) na **Entidade tarefa**, e indirectamente relacionadas coa entidade **Atribución de recursos**. A tarefa de liña era visible na ventá emerxente de atribución en Work Breakdown Structure (WBS).
 
 ![Tarefas de liña no WBS en Project Service Automation versión 2 e versión 1](media/upgrade-line-task-01.png)
 
@@ -77,7 +77,7 @@ Na versión 2 e na versión 1, os proxectos con recursos xenéricos poden estar 
 
 Antes de comezar a actualización, recomendamos que xere de novo o equipo para cada proxecto que teña tarefas atribuídas a recursos xenéricos ou que aínda teña que executar o proceso de xeración do equipo.
 
-Para tarefas atribuídas a membros do equipo xenérico que se xeraron con **Xerar equipo** , a actualización deixará o recurso xenérico no equipo e deixará a atribución a ese membro do equipo xenérico. Recomendamos que xere o requisito de recurso para o membro xenérico do equipo despois da actualización, pero antes de reservar ou enviar unha solicitude de recurso. Isto conservará as tarefas de unidades organizativas nos membros xenéricos do equipo que sexan diferentes da unidade organizativa contratante do proxecto.
+Para tarefas atribuídas a membros do equipo xenérico que se xeraron con **Xerar equipo**, a actualización deixará o recurso xenérico no equipo e deixará a atribución a ese membro do equipo xenérico. Recomendamos que xere o requisito de recurso para o membro xenérico do equipo despois da actualización, pero antes de reservar ou enviar unha solicitude de recurso. Isto conservará as tarefas de unidades organizativas nos membros xenéricos do equipo que sexan diferentes da unidade organizativa contratante do proxecto.
 
 Por exemplo, no proxecto Project Z, a unidade organizativa de contratación é Contoso US. No plan do proxecto, as tarefas de proba dentro da fase de implantación foron atribuídas co rol de consultor técnico e a unidade organizativa atribuída é Contoso India.
 

@@ -3,7 +3,7 @@ title: Liñas de oferta baseadas en produtos
 description: Este tema fornece información sobre liñas de oferta baseadas en produtos.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55a5b5041a494892e6d96bf24e1bc132a26521dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c3b2b35abe894e79d6f55a7ddd6e5c64d0f12f2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076312"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123196"
 ---
 # <a name="product-based-quote-lines"></a>Liñas de oferta baseadas en produtos
 
@@ -41,7 +41,7 @@ Por exemplo, unha empresa vende licenzas de subscrición para unha variedade de 
 - Número de usuarios 
 - Duración da subscrición (en meses)
 
-Un bo xeito de manter este tipo de catálogo é crear unha familia de produtos que leva o nome **Software de subscrición** , e iso ten **Número de usuarios** e **Duración da subscrición** como atributos. Pode engadir produtos individuais, como **Dynamics 365 Sales** ou **Dynamics 365 Field Service** á familia de produtos **Software de subscrición**.
+Un bo xeito de manter este tipo de catálogo é crear unha familia de produtos que leva o nome **Software de subscrición**, e iso ten **Número de usuarios** e **Duración da subscrición** como atributos. Pode engadir produtos individuais, como **Dynamics 365 Sales** ou **Dynamics 365 Field Service** á familia de produtos **Software de subscrición**.
 
 ## <a name="adding-product-catalog-items-to-a-project-quote"></a>Engadir elementos do catálogo de produtos a unha oferta de proxecto
 
@@ -54,7 +54,7 @@ Se unha liña de oferta está baseada nun catálogo de produtos, pode anular o p
 - Anular prezos  
 - Usar predefinido
 
-Se definiu este campo en **Anular prezos** , Dynamics 365 non establece un prezo por defecto. Debe introducir un prezo para o produto na liña de oferta. Se definiu este campo como **Usar predefinido** , Dynamics 365 usa o prezo de venda predefinido e bloquea o campo para evitar a edición.
+Se definiu este campo en **Anular prezos**, Dynamics 365 non establece un prezo por defecto. Debe introducir un prezo para o produto na liña de oferta. Se definiu este campo como **Usar predefinido**, Dynamics 365 usa o prezo de venda predefinido e bloquea o campo para evitar a edición.
 
 Despois de instalar PSA, os prezos de venda por defecto introdúcense nas liñas baseadas en produtos nunha oferta. O campo **Prezos** defínese como **Anular prezos** para que poida editar o prezo por defecto nas liñas de oferta.
 

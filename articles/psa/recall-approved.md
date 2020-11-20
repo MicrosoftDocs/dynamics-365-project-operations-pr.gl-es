@@ -3,7 +3,7 @@ title: Recuperar entradas de tempo ou gasto aprobadas previamente
 description: Este tema fornece información sobre como recuperar unha transacción de tempo e gasto de proxecto aprobada previamente.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076179"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120541"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Recuperar entradas de tempo ou gasto aprobadas previamente
 
@@ -60,13 +60,13 @@ Siga estes pasos para solicitar unha recuperación dunha entrada de tempo ou gas
 Siga estes pasos para aprobar ou rexeitar unha solicitude de recuperación.
 
 1. Vaia a **Proxectos** \> **O meu traballo** \> **Aprobacións**.
-2. Na páxina de lista **Aprobacións** , cambie a vista a **Solicitudes de recuperación para aprobación**. Móstrase unha lista de solicitudes de recuperación enviadas.
+2. Na páxina de lista **Aprobacións**, cambie a vista a **Solicitudes de recuperación para aprobación**. Móstrase unha lista de solicitudes de recuperación enviadas.
 3. Seleccione unha ou máis entradas e logo seleccione **Aprobar** ou **Rexeitar**.
-4. Se seleccionou **Aprobar** , recibirá unha mensaxe de aviso que explica o impacto da aprobación. Seleccione **Aceptar** para confirmar a operación. Apróbase a solicitude de recuperación.
+4. Se seleccionou **Aprobar**, recibirá unha mensaxe de aviso que explica o impacto da aprobación. Seleccione **Aceptar** para confirmar a operación. Apróbase a solicitude de recuperación.
 
     –ou–
 
-    Se seleccionou **Rexeitar** , a solicitude de recuperación é rexeitada.
+    Se seleccionou **Rexeitar**, a solicitude de recuperación é rexeitada.
 
 > [!NOTE]
 > Como cando se solicita unha recuperación, cando se aproba unha recuperación, o sistema verifica calquera actividade de facturación nas entradas de tempo ou gasto. Se unha entrada xa foi facturada ou se está nun borrador de factura, o responsable de aprobacións recibirá unha mensaxe de erro que afirma que o tempo ou gasto non se poden aprobar para a súa recuperación porque xa foi facturado.
@@ -77,7 +77,7 @@ Cando se recupera unha aprobación, hai un impacto operativo e financeiro.
 
 ### <a name="operational-impact"></a>Impacto operativo
 
-Se se aproba unha solicitude de recuperación, o rexistro de aprobación está marcado como **Rexeitado**. O estado da entrada cambia a **Devolto** ou **Rexeitado** , segundo sexa unha entrada de tempo ou unha entrada de gasto.
+Se se aproba unha solicitude de recuperación, o rexistro de aprobación está marcado como **Rexeitado**. O estado da entrada cambia a **Devolto** ou **Rexeitado**, segundo sexa unha entrada de tempo ou unha entrada de gasto.
 
 O membro do equipo do proxecto pode ver as entradas, editar e volver enviar as entradas ou borrar por completo as entradas.
 
@@ -90,7 +90,7 @@ Se unha solicitude de recuperación é aprobada, os datos reais correspondentes 
 - O campo **Estado de axuste** actualízase a **Axustado**.
 - O campo **Estado de facturación** actualízase a **Cancelado**.
 
-A continuación, créanse entradas de reversión na táboa de Datos reais. Para crear entradas de reversión, o sistema copia sobre os valores de campo a partir dos datos reais orixinais. Os únicos valores que non se copian son os valores de cantidade. Estes valores revértense. Os datos reais revertidos créanse para **Custo** e **Vendas sen facturar**. O campo **Estado de axuste** nos datos reais invertidos establecese en **Inaxustable** , e o campo **Estado de facturación** establécese en **Cancelado**. Debido a estes cambios, o importe que se rexistra como gastado no proxecto e os ingresos acumulados do proxecto xa non contabilizarán as cantidades que representan estes datos reais.
+A continuación, créanse entradas de reversión na táboa de Datos reais. Para crear entradas de reversión, o sistema copia sobre os valores de campo a partir dos datos reais orixinais. Os únicos valores que non se copian son os valores de cantidade. Estes valores revértense. Os datos reais revertidos créanse para **Custo** e **Vendas sen facturar**. O campo **Estado de axuste** nos datos reais invertidos establecese en **Inaxustable**, e o campo **Estado de facturación** establécese en **Cancelado**. Debido a estes cambios, o importe que se rexistra como gastado no proxecto e os ingresos acumulados do proxecto xa non contabilizarán as cantidades que representan estes datos reais.
 
 Se se rexeita a solicitude de recuperación, non hai impacto financeiro no proxecto.
 
