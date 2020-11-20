@@ -3,17 +3,17 @@ title: Determinar o seu tipo de despregamento
 description: Este tema ofrece información para axudarlle a determinar o tipo de despregamento correcto das operacións do proxecto para a súa empresa.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076136"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401216"
 ---
 # <a name="determine-your-deployment-type"></a>Determinar o seu tipo de despregamento
 
@@ -25,11 +25,11 @@ _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fo
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Clientes existentes de Dynamics usando Dynamics 365 Project Service Automation
-Project Operations inclúe as capacidades que se fornecen con Project Service Automation. No futuro publicarase unha ruta de actualización para estes clientes.
+Project Operations inclúe as capacidades que se fornecen con Project Service Automation. Publicarase un camiño de actualización para estes clientes na onda 1 da versión de 2021.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clientes existentes de Dynamics 365 Finance empregando a xestión e a contabilidade do proxecto 
 
-Os clientes existentes de Finance que empregan a funcionalidade de xestión e contabilidade de proxectos poden seguir usando isto tal como está. Consulte [Project Operations para situacións baseadas en recursos/sen fornecemento](#pma).
+Os clientes existentes de Finance que empregan a funcionalidade de xestión e contabilidade de proxectos poden seguir empregándoa tal como está. Consulte [Project Operations para situacións baseadas en recursos/sen fornecemento](#pma).
 
 
 ## <a name="deployment-types"></a>Tipos de despregamento
@@ -47,12 +47,13 @@ Project Operations admite situacións de pedidos de produción/con fornecemento 
 
 O despregamento lite inclúe as seguintes capacidades:
 
+- Proceso de vendas para proxectos que amplían as experiencias da aplicación Dynamics 365 Sales
 - Planificación de proxectos mediante Microsoft Project para a web
 - Prezos multidimensionais
 - Xestión de recursos unificada
 - Rastrexo de tempo
 - Gasto básico
-- Proposta de factura
+- Facturación proforma e orientada ao cliente 
 
 #### <a name="deployment-steps"></a>Pasos de despregamento
 Determine o mellor modelo de despregamento de Project Operations usando o [Cuestionario de despregamento](https://aka.ms/provisionprojectoperations).
@@ -62,7 +63,8 @@ Para este despregamento, consulte [Rexistro para subscricións de previsualizaci
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>Project Operations para escenarios baseados en recursos ou sen existencias
 Project Operations para situacións de recursos/sen fornecemento inclúe as seguintes capacidades:
-  
+ 
+- Proceso de vendas para proxectos que amplían a aplicación Dynamics 365 Sales
 - Planificación de proxectos mediante Microsoft Project para a web
 - Prezos multidimensionais
 - Xestión de recursos unificada
@@ -70,8 +72,8 @@ Project Operations para situacións de recursos/sen fornecemento inclúe as segu
 - Gasto básico
 - Gasto completo
 - OCR de recibos
-- Facturación completa
-- Recoñecemento de ingresos
+- Facturación proforma e orientada ao cliente 
+- Recoñecemento de ingresos para proxectos
 
 #### <a name="deployment-steps"></a>Pasos de despregamento
 Determine o mellor modelo de despregamento de Project Operations usando o [Cuestionario de despregamento](https://aka.ms/provisionprojectoperations).

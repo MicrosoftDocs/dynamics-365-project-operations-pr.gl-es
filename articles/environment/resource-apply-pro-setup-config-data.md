@@ -1,23 +1,33 @@
 ---
-title: Configure e aplique a configuración no Common Data Service para Project Operations
+title: Configurar e aplicar datos de configuración en Common Data Service
 description: Este tema ofrece información sobre como configurar e aplicar os datos de configuración en Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076005"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401126"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Configure e aplique a configuración no Common Data Service para Project Operations
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Configurar e aplicar datos de configuración en Common Data Service 
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
+
+## <a name="prerequisites"></a>Requisitos previos
+
+Antes de comezar a configurar datos en Common Data Service (CDS), deben cumprirse os seguintes requisitos previos:
+
+1.  Proporcionar un ambiente de CDS e un ambiente de Dynamics 365 Finance ambiente para Project Operations.
+2.  A información da entidade legal de Dynamics 365 Finance compártese co ambiente de CDS. Isto significa que a entidade **Empresa** en CDS ten os seguintes rexistros da empresa:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Instale os datos de configuración
 
@@ -79,11 +89,11 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 
 ![Recursos reservables](./media/8BookableResources.png)
 
-3. No separador **Xeral** , seleccione o seu usuario administrador. Verifique que o fuso horario coincide co fuso no que se atopa. 
+3. No separador **Xeral**, seleccione o seu usuario administrador. Verifique que o fuso horario coincide co fuso no que se atopa. 
 
 ![Novo recurso reservable](./media/9NewBookableResource.png)
 
-4. No separador **Programación** , no campo **Empresa** , escolla a empresa **USPM** e seleccione **Gardar**. 
+4. No separador **Programación**, no campo **Empresa**, escolla a empresa **USPM** e seleccione **Gardar**. 
 
 ![Separador de programación](./media/10SchedulingTab.png)
 
@@ -114,10 +124,10 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
  
 12. Actualice os seguintes campos:
 
- - **Empresa predefinida** : USPM
- - **Unidade organizativa predefinida** : Contoso Robotics Global
- - **Frecuencia de facturas** : Sétimo e último día
- - **Modelo de horas de traballo** : Cambie ao modelo que creou.
+ - **Empresa predefinida**: USPM
+ - **Unidade organizativa predefinida**: Contoso Robotics Global
+ - **Frecuencia de facturas**: Sétimo e último día
+ - **Modelo de horas de traballo**: Cambie ao modelo que creou.
 
 13. Seleccione **Gardar**. 
 

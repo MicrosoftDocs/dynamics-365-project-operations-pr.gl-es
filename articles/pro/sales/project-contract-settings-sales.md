@@ -1,21 +1,21 @@
 ---
-title: Campos e información de contrato de proxecto
+title: Configuración de contrato de proxecto - lite
 description: Este tema ofrece información sobre os campos que afectan ás liñas de contrato e a información sobre o contrato que se resume en todos os elementos de liña.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 082292c54682022933a4b46b856f9241078a9067
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087909"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180910"
 ---
-# <a name="project-contract-fields-and-information"></a>Campos e información de contrato de proxecto 
+# <a name="project-contract-settings---lite"></a>Configuración de contrato de proxecto - lite
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
@@ -23,7 +23,7 @@ Este tema ofrece información sobre campos que se aplican a todo o contrato do p
 
 A seguinte táboa indica os campos de información resumida nun contrato de proxecto que son exclusivos de Dynamics 365 Project Operations ou teñen algúns cambios importantes no comportamento respecto dos pedidos de vendas de Dynamics 365 Sales.
 
-| Campo | Localización | Relevancia, finalidade e orientación | Impacto descendente |
+| Campo | Localización | Descripción | Impacto descendente |
 | --- | --- | --- | --- |
 | Tipo | Separador **Resumo** (oculto) | Este é un campo de conxunto de opcións coas seguintes opcións:</br>- **Baseado en traballo** (dispoñible só cando Project Operations están instalada)</br>- **Baseado en elementos** (dispoñible só cando Project Operations e Sales están instaladas)</br>- **Baseado en mantemento de servizo** (dispoñible cando se instala Dynamics 365 Field Service) | En Project Operations, o valor deste campo é por defecto **Baseado no traballo** e clasifica o contrato como un contrato baseado en proxecto. Un contrato debería basearse no proxecto para activar todas as extensións e funcionalidades específicas do proxecto. |
 | Cliente | Separador **Resumo** | A referencia á empresa ou ao rexistro da conta do cliente. Cando se crea un contrato a partir dunha oferta, este campo copiase desde o campo correspondente na oferta. | A moeda do contrato de proxecto está predefinida en función da moeda do cliente. Isto se pode cambiar antes de gardar o contrato. |
@@ -36,7 +36,7 @@ A seguinte táboa indica os campos de información resumida nun contrato de prox
 
 Os seguintes KPI están dispoñibles no separador **Execución do contrato** dun contrato de proxecto.
 
-| Campo | Localización | Relevancia, finalidade e orientación |
+| Campo | Localización | Descripción |
 | --- | --- | --- |
 | Valor do contrato | Contrato xeral | O valor total do contrato do proxecto. |
 | Importe facturado | Contrato xeral | A suma dos importes de todas as facturas correspondentes a este contrato. |

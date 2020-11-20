@@ -1,21 +1,21 @@
 ---
-title: Conceptos clave de ofertas de proxecto
+title: Ofertas - Conceptos clave - lite
 description: Este tema ofrece información sobre el uso de las ofertas de proxecto en Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076056"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4178004"
 ---
-# <a name="project-quote-key-concepts"></a>Conceptos clave de ofertas de proxecto
+# <a name="quotes---key-concepts---lite"></a>Ofertas - Conceptos clave - lite
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
@@ -78,7 +78,7 @@ As ofertas de varios clientes prodúcense cando hai máis dun cliente ao que fac
 
 ## <a name="invoice-schedules"></a>Programacións de facturas
 
-As programacións de facturas son específicos de cada liña de oferta e tamén son opcionais. As programacións de facturas créanse en función de certas datas de inicio e finalización e frecuencia de facturación. As programacións de facturas úsanse na fase do contrato cando se configura o proceso de creación automática de facturas. Na fase de oferta, as programacións son opcionais. Cando se crean programacións de facturas na fase **Oferta** , cópianse no contrato do proxecto que se crea cando se gaña unha oferta do proxecto.
+As programacións de facturas son específicos de cada liña de oferta e tamén son opcionais. As programacións de facturas créanse en función de certas datas de inicio e finalización e frecuencia de facturación. As programacións de facturas úsanse na fase do contrato cando se configura o proceso de creación automática de facturas. Na fase de oferta, as programacións son opcionais. Cando se crean programacións de facturas na fase **Oferta**, cópianse no contrato do proxecto que se crea cando se gaña unha oferta do proxecto.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Cambios da oferta de Dynamics 365 Sales:
 

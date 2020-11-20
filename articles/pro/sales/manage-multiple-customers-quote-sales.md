@@ -1,21 +1,21 @@
 ---
-title: Xestión de varios clientes en ofertas de proxecto
+title: Xestionar varios clientes en ofertas de proxecto - lite
 description: Este tema ofrece información sobre o traballo en ofertas con varios clientes que financiarán o proxecto. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 656418ab99db46455195f70c38b6f5fa13c30755
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bdda1a940e733270399d092e543c3982c47174d0
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076032"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181595"
 ---
-# <a name="managing-multiple-customers-on-project-quotes-sales"></a>Xestión de varios clientes en ofertas de proxecto (Vendas)
+# <a name="manage-multiple-customers-on-project-quotes---lite"></a>Xestionar varios clientes en ofertas de proxecto - lite
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
@@ -31,13 +31,13 @@ Poden engadirse, actualizarse ou eliminarse clientes de oferta e clientes de li�
 
 O cliente que está no separador de resumo da oferta de proxecto como cliente potencial é o cliente principal da oferta. Cando intenta eliminar o cliente principal da lista de clientes da oferta, verá un erro de que non se pode eliminar un rexistro de cliente principal nunha oferta.
 
-Non se debe actualizar o cliente principal desde a lista de clientes da oferta. Non obstante, pode influír no cliente principal cambiando o cliente potencial no separador **Resumo** da oferta. Cando se actualiza este campo no **Resumo da oferta** , o cliente potencial que se acaba de seleccionar engádese como novo cliente da oferta co indicador **Principal** activado. O antigo cliente potencial seguirá sendo un cliente na oferta.
+Non se debe actualizar o cliente principal desde a lista de clientes da oferta. Non obstante, pode influír no cliente principal cambiando o cliente potencial no separador **Resumo** da oferta. Cando se actualiza este campo no **Resumo da oferta**, o cliente potencial que se acaba de seleccionar engádese como novo cliente da oferta co indicador **Principal** activado. O antigo cliente potencial seguirá sendo un cliente na oferta.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Crear, actualizar ou eliminar un rexistro de cliente de oferta
 
 Pódese crear, actualizar ou eliminar un cliente de oferta desde o separador **Clientes de oferta** na páxina **Oferta**. Os campos indicados na táboa seguinte están no rexistro de clientes de oferta dunha oferta de proxecto.
 
-| **Campo** | **Localización** | **Relevancia, finalidade e orientación** | **Impacto descendente** |
+| **Campo** | **Localización** | **Descrición** | **Impacto descendente** |
 | --- | --- | --- | --- |
 | Conta | Grade editable no separador **Clientes de oferta** e os formularios **Principal** e **Creación rápida** para un cliente da oferta. | Indica todas as contas activas. Este campo bloquéase despois de que se crea o rexistro. Se quere actualizalo, elimine o rexistro e créeo de novo. Se rexistrou algún dato real ou se o rexistro do cliente da oferta é un cliente principal, poderá eliminar o rexistro. | Os clientes da oferta cópianse como clientes de liña de oferta cando se crea unha liña de oferta. Os clientes da oferta tamén se copian aos clientes do contrato do proxecto cando se gaña unha oferta. |
 | Porcentaxe de división de facturación | Grade editable no separador **Clientes de oferta** e os formularios **Principal** e **Creación rápida** para un cliente da oferta. | Representa a porcentaxe de cada transacción de vendas non facturada que se atribuirá a este cliente da oferta. | Copiado ás novas liñas de oferta e aos clientes de contrato de proxecto. |
@@ -51,4 +51,4 @@ Pódese crear, actualizar ou eliminar un cliente de oferta desde o separador **C
 
 Pode editar as porcentaxes divididas de facturación usando a experiencia de edición de grade en liña. Cando as porcentaxes de división de facturación non totalicen o 100 %, producirase un erro. Despois de actualizar as porcentaxes de división de facturación, actualice a páxina para eliminar o erro.
 
-Tamén pode probar a seleccionar **Distribución uniforme** na subgrade dos clientes da oferta Esta acción asigna divisións de facturación a todos os clientes da oferta. Se hai algún factor de redondeo, engadirase ao cliente de redondeo. Un dos clientes da oferta sempre está etiquetado como o cliente de redondeo. Isto significa que o rexistro do cliente da oferta ten o indicador **Redondeo** establecido como **Si**. Normalmente este é o principal cliente da oferta, pero se pode cambiar.
+Tamén pode probar a seleccionar **Distribución uniforme** na subgrade dos clientes da oferta. Esta acción asigna divisións de facturación a todos os clientes da oferta. Se hai algún factor de redondeo, engadirase ao cliente de redondeo. Un dos clientes da oferta sempre está etiquetado como o cliente de redondeo. Isto significa que o rexistro do cliente da oferta ten o indicador **Redondeo** establecido como **Si**. Normalmente este é o principal cliente da oferta, pero se pode cambiar.

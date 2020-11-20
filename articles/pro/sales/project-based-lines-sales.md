@@ -1,21 +1,21 @@
 ---
-title: Liñas de oportunidade baseadas en proxecto (Pro)
+title: Liñas de oportunidade baseada en proxecto - lite
 description: Este tema ofrece información sobre as liñas de oportunidade baseadas en proxecto. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076057"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181000"
 ---
-# <a name="project-based-opportunity-lines-pro"></a>Liñas de oportunidade baseadas en proxecto (Pro)
+# <a name="project-based-opportunity-lines---lite"></a>Liñas de oportunidade baseada en proxecto - lite
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
@@ -25,7 +25,7 @@ As liñas de oportunidade baseada en proxecto son os elementos de liña que se e
 
 Abaixo amósanse os campos dunha liña de oportunidade baseada en proxecto:
 
-| **Campo** | **Localización** | **Relevancia, finalidade e orientación** | **Impacto descendente** |
+| **Campo** | **Localización** | **Descrición** | **Impacto descendente** |
 | --- | --- | --- | --- |
 | Tipo de produto | Separador Xeral (oculto) | Pode seleccionar unha das seguintes opcións:</br>- Servizo baseado en proxecto (dispoñible só cando está instalada Dynamics 365 Project Operations)</br>- Produto (dispoñible só cando Project Operations e Dynamics 365 Sales están instaladas) | O valor deste campo establécese en **Servizo baseado en proxecto** cando crea unha liña de oportunidade baseada en proxecto desde a grade de liñas baseadas en proxecto na Oportunidade. <br> Se cambia ou anula este valor, a funcionalidade do proxecto non se activará nos seus elementos de liña baseada en proxecto. |
 | Oportunidade | Separador Xeral | Este campo é de só lectura e fai referencia ao rexistro principal de Oportunidade ao que pertence este elemento de liña. | Non hai ningún impacto descendente deste campo. |

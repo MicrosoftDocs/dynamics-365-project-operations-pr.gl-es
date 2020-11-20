@@ -1,21 +1,21 @@
 ---
-title: Visión xeral de liñas de contrato baseado en produto
+title: Visión xeral de liñas de contrato baseado en produto - lite
 description: Este tema fornece información sobre liñas de contrato baseado en produtos.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 794a80b0dd6b8717b43e712b96b9ac077517c226
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076059"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177869"
 ---
-# <a name="product-based-contract-lines-overview"></a>Visión xeral de liñas de contrato baseado en produto
+# <a name="product-based-contract-lines-overview---lite"></a>Visión xeral de liñas de contrato baseado en produto - lite
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
@@ -43,6 +43,6 @@ Se unha liña de contrato está baseada nun catálogo de produtos, pode anular o
 - **Anular prezos**
 - **Usar predefinido**
 
-Se definiu o campo **Prezos** en **Anular prezos** , non se establece un prezo por defecto. Introduza un prezo do produto da liña de contrato. Se configura o campo en **Usar predefinido** , úsase o prezo de venda predefinido e o campo non se pode editar.
+Se definiu o campo **Prezos** en **Anular prezos**, non se establece un prezo por defecto. Introduza un prezo do produto da liña de contrato. Se configura o campo en **Usar predefinido**, úsase o prezo de venda predefinido e o campo non se pode editar.
 
 Despois de instalar Project Operations, os prezos de venda por defecto introdúcense nas liñas baseadas en produtos nun contrato. O campo **Prezos** defínese como **Anular prezos** para que poida editar o prezo por defecto nas liñas de contrato. Trátase dunha anulación específica de Project Operations para o comportamento das liñas baseadas en produto en Dynamics 365 Sales.

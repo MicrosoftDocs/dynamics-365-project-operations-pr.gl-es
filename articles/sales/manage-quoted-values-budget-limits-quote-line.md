@@ -1,21 +1,21 @@
 ---
-title: Liñas de oferta baseadas en proxecto
+title: Visión xeral de liñas de oferta baseada en proxecto
 description: Este tema ofrece información sobre como liñas de oferta baseada en proxecto para o traballo do proxecto.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ea54d83b1e26d1ee3520dbfab9ba56ffd1191dc9
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075999"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181855"
 ---
-# <a name="project-based-quote-lines"></a>Liñas de oferta baseadas en proxecto
+# <a name="project-based-quote-lines-overview"></a>Visión xeral de liñas de oferta baseada en proxecto
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
@@ -31,7 +31,7 @@ As liñas de oferta baseada en proxecto están deseñadas para axudar a estimar 
 
 A seguinte táboa ofrece información sobre os campos do separador **Xeral** da liña de oferta baseada en proxecto. Estes campos axudan a establecer as bases para unha estimación detallada e completa do traballo do proxecto.
 
-| **Campo** | **Relevancia, finalidade e orientación** | **Impacto descendente** |
+| **Campo** | **Descrición** | **Impacto descendente** |
 | --- | --- | --- |
 | Nome | O nome da liña de oferta que debería axudarlle a identificar o compoñente discreto da oferta que se estima. | Copiado á liña de contrato de proxecto que se crea a partir desta liña de oferta cando se gaña a oferta. |
 | Método de facturación | Nunha oferta creada a partir dunha oportunidade, este valor copiase desde campo correspondente na liña de oferta. Este campo inclúe os dous modelos de contratación principais admitidos por Dynamics 365 Project Operations:</br>- Prezo fixo</br>- Tempo e material.| Este valor de campo se copia á liña de contrato de proxecto que se crea a partir desta liña de oferta cando se gaña a oferta. |
@@ -47,11 +47,11 @@ A seguinte táboa ofrece información sobre os campos do separador **Xeral** da 
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Regras de validación para campos do separador Xeral das liñas de oferta baseada en proxecto
 
-**Regra 1** : Unha determinada clase de transacción no proxecto seleccionado só se pode incluír nunha liña de oferta baseada en proxecto dunha oferta.
+**Regra 1**: Unha determinada clase de transacción no proxecto seleccionado só se pode incluír nunha liña de oferta baseada en proxecto dunha oferta.
 
-**Regra 2** : Se unha oportunidade ten varias ofertas, pode haber liñas de oferta de diferentes ofertas que fan referencia ao mesmo proxecto e inclúen a mesma clase de transacción.
+**Regra 2**: Se unha oportunidade ten varias ofertas, pode haber liñas de oferta de diferentes ofertas que fan referencia ao mesmo proxecto e inclúen a mesma clase de transacción.
 
-**Regra 3** : Se as ofertas non pertencen á mesma oportunidade, non poden incluír o mesmo proxecto e clase de transacción.
+**Regra 3**: Se as ofertas non pertencen á mesma oportunidade, non poden incluír o mesmo proxecto e clase de transacción.
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>

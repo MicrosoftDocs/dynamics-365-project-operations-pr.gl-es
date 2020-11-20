@@ -1,21 +1,21 @@
 ---
-title: Información resumida sobre unha oferta de proxecto
+title: Configuración de oferta de proxecto
 description: Este tema ofrece información sobre a información e a configuración que se aplican e afectan ás ofertas do proxecto.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde5305f179e9a4454bf97c44f1ebdf9986dd43
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075978"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180235"
 ---
-# <a name="summary-information-on-a-project-quote"></a>Información resumida sobre unha oferta de proxecto
+# <a name="project-quote-settings"></a>Configuración de oferta de proxecto
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
@@ -24,7 +24,7 @@ Este artigo explica a información que se aplica a unha oferta de proxecto. Isto
 
 A seguinte táboa indica os campos de información resumida nunha oferta de proxecto que son exclusivos de Dynamics 365 Project Operations ou teñen algúns cambios importantes no comportamento respecto das ofertas de Dynamics 365 Sales.
 
-| **Campo** | **Localización** | **Relevancia, finalidade e orientación** | **Impacto descendente** |
+| **Campo** | **Localización** | **Descrición** | **Impacto descendente** |
 | --- | --- | --- | --- |
 | Tipo | Separador Resumo (oculto) | Este campo de conxunto de opcións ten as seguintes opcións:</br>- Baseado en traballo (dispoñible só cando Project Operations están instalada)</br>- Baseado en elementos (dispoñible só cando Project Operations e Sales están instaladas)</br>- Baseado en mantemento de servizo (dispoñible cando se instala Dynamics 365 Field Service) | Cando usa a aplicación Project Operations, o valor deste campo configúrase automaticamente en **Baseado en traballo**. Isto clasifica a oferta como unha oferta baseada en proxecto. Unha oferta debería basearse no proxecto para activar todas as extensións e funcionalidades específicas do proxecto. |
 | Empresa propietaria | Resumo | A entidade legal que contabilizará os custos e ingresos que derivados deste proxecto ou proxectos asociados a esta oferta. Cando se crea unha oferta a partir dunha oportunidade, este campo copiase desde campo correspondente na oportunidade. | A empresa propietaria equivale ao concepto de entidade legal no módulo **Xestión e contabilidade de proxectos** de Project Operations. Todos os custos e ingresos derivados deste proxecto contabilizaranse no libro maior da empresa propietaria. |
@@ -38,7 +38,7 @@ A seguinte táboa indica os campos de información resumida nunha oferta de prox
 
 Abaixo amósanse os separadores e os KPI dispoñibles nunha oferta de proxecto que son exclusivos de Project Operations ou que teñen algúns cambios importantes no comportamento respecto ás ofertas de Sales:
 
-| **Campo** | **Localización** | **Relevancia, finalidade e orientación** |
+| **Campo** | **Localización** | **Descrición** |
 | --- | --- | --- |
 | Análise da rendibilidade | Separador na oferta | O separador mostra os seguintes indicadores:</br>- Custo imputable total</br></br>- Custo non imputable total</br>- Ingresos totais</br>- Ingresos totais (base)</br>- Marxe bruto</br>- Marxe bruto axustado|
 | Comparación coas expectativas do cliente | Separador na oferta | Este separador mostra os seguintes indicadores:</br>- Finalización estimada</br>- Finalización solicitada</br>- Orzamento do cliente</br>- Valor da oferta |

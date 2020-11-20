@@ -1,21 +1,21 @@
 ---
-title: Liñas de oferta baseadas en proxecto (Pro)
+title: Visión xeral de liñas de oferta baseada en proxecto - lite
 description: Este tema ofrece información sobre como liñas de oferta baseada en proxecto para o traballo do proxecto. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: be1663c0d226fa19fe4b9df566e16d215f1fc08e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076062"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181090"
 ---
-# <a name="project-based-quote-lines-pro"></a>Liñas de oferta baseadas en proxecto (Pro)
+# <a name="project-based-quote-lines-overview---lite"></a>Visión xeral de liñas de oferta baseada en proxecto - lite
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
@@ -31,12 +31,12 @@ As liñas de oferta baseada en proxecto están deseñadas para axudar a estimar 
 
 A seguinte táboa ofrece información sobre os campos do separador **Xeral** da liña de oferta baseada en proxecto. Estes campos axudan a establecer as bases para unha estimación detallada e completa do traballo do proxecto.
 
-| **Campo** | **Relevancia, finalidade e orientación** | **Impacto descendente** |
+| **Campo** | **Descrición** | **Impacto descendente** |
 | --- | --- | --- |
 | Nome | O nome da liña de oferta que debería axudarlle a identificar o compoñente discreto da oferta que se estima. | Copiado á liña de contrato de proxecto que se crea a partir desta liña de oferta cando se gaña a oferta. |
 | Método de facturación | Nunha oferta creada a partir dunha oportunidade, este valor copiase desde campo correspondente na liña de oferta. Este campo inclúe os dous modelos de contratación principais admitidos por Dynamics 365 Project Operations:</br>- Prezo fixo</br>- Tempo e material.| Este valor de campo se copia á liña de contrato de proxecto que se crea a partir desta liña de oferta cando se gaña a oferta. |
 | Project | Use este campo opcional para identificar o proxecto que se usará para entregar o traballo neste compromiso. Cando un proxecto está asignado a unha liña de oferta, axuda a configurar tarefas imputables e tamén a traer unha estimación baseada no proxecto á liña de oferta como detalles da liña de oferta. Cando un proxecto non está asignado a unha liña de oferta baseada en proxecto, a estimación debe crearse manualmente creando cada detalle da liña de oferta. | Este valor de campo se copia á liña de contrato de proxecto que se crea a partir desta liña de oferta cando se gaña a oferta.|
-| Tarefas incluídas | Indica se esta liña de oferta se usa para todas ou algunhas das tarefas do proxecto seleccionado. Este campo ten os seguintes valores posibles:</br>- Todas as tarefas do proxecto</br>- Só tarefas do proxecto seleccionadas</br>Un valor en branco neste campo equivale á opción **Todas as tarefas do proxecto**. | Cando se selecciona **Só as tarefas do proxecto seleccionadas** , na páxina do proxecto, o separador **Configuración da facturación das tarefas** permítelle seleccionar tarefas específicas para asocialas a esta liña de oferta. Este valor de campo se copia á liña de contrato de proxecto que se crea a partir desta liña de oferta cando se gaña a oferta. |
+| Tarefas incluídas | Indica se esta liña de oferta se usa para todas ou algunhas das tarefas do proxecto seleccionado. Este campo ten os seguintes valores posibles:</br>- Todas as tarefas do proxecto</br>- Só tarefas do proxecto seleccionadas</br>Un valor en branco neste campo equivale á opción **Todas as tarefas do proxecto**. | Cando se selecciona **Só as tarefas do proxecto seleccionadas**, na páxina do proxecto, o separador **Configuración da facturación das tarefas** permítelle seleccionar tarefas específicas para asocialas a esta liña de oferta. Este valor de campo se copia á liña de contrato de proxecto que se crea a partir desta liña de oferta cando se gaña a oferta. |
 | Incluír tempo | O indicador **Si**/**Non** indica se as transaccións de tempo ou os custos laborais do proxecto seleccionado se incluirán na estimación nesta liña de oferta. O valor **Non** indica que as transaccións de tempo ou o custo laboral do proxecto seleccionado non se incluirán na estimación nesta liña de oferta. O valor **Si** indica que as transaccións de tempo ou o custo laboral do proxecto seleccionado se incluirán na estimación nesta liña de oferta. | Este valor de campo se copia á liña de contrato de proxecto que se crea a partir desta liña de oferta cando se gaña a oferta. |
 | Incluír gasto | O indicador **Si**/**Non** indica se os custos de gastos do proxecto seleccionado se incluirán na estimación nesta liña de oferta. O valor **Non** indica que os custos de gastos do proxecto seleccionado non se incluirán na estimación nesta liña de oferta. O valor **Si** indica que os custos de gastos do proxecto seleccionado se incluirán na estimación nesta liña de oferta. | Este valor de campo se copia á liña de contrato de proxecto que se crea a partir desta liña de oferta cando se gaña a oferta. |
 | Incluír taxa | O indicador **Si**/**Non** indica se as taxas do proxecto seleccionado se incluirán na estimación nesta liña de oferta. O valor **Non** indica que as taxas do proxecto seleccionado non se incluirán na estimación nesta liña de oferta. O valor **Si** indica que as taxas do proxecto seleccionado se incluirán na estimación nesta liña de oferta. | Este valor de campo se copia á liña de contrato de proxecto que se crea a partir desta liña de oferta cando se gaña a oferta. |
@@ -49,15 +49,15 @@ A seguinte táboa ofrece información sobre os campos do separador **Xeral** da 
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Regras de validación para campos do separador Xeral das liñas de oferta baseada en proxecto
 
-**Regra 1** : Se o campo **Tarefas incluídas** está en branco ou se está definido como **Todas as tarefas do proxecto** , inclúese un proxecto na liña de oferta.
+**Regra 1**: Se o campo **Tarefas incluídas** está en branco ou se está definido como **Todas as tarefas do proxecto**, inclúese un proxecto na liña de oferta.
 
-**Regra 2** : Se o campo **Tarefas incluídas** campo está en branco ou se está definido como **Todas as tarefas do proxecto** , un proxecto e unha clase de transacción determinada só se poden incluír nunha liña de oferta baseada en proxecto dunha oferta.
+**Regra 2**: Se o campo **Tarefas incluídas** campo está en branco ou se está definido como **Todas as tarefas do proxecto**, un proxecto e unha clase de transacción determinada só se poden incluír nunha liña de oferta baseada en proxecto dunha oferta.
 
-**Regra 3** : Se o campo **Tarefas incluídas** campo está en branco ou se está definido como **Só as tarefas do proxecto seleccionadas** , un proxecto e unha clase de transacción determinada só se poden incluír en varias liñas de oferta baseada en proxecto dunha oferta.
+**Regra 3**: Se o campo **Tarefas incluídas** campo está en branco ou se está definido como **Só as tarefas do proxecto seleccionadas**, un proxecto e unha clase de transacción determinada só se poden incluír en varias liñas de oferta baseada en proxecto dunha oferta.
 
-**Regra 4** : Se unha oportunidade ten varias ofertas, pode haber liñas de oferta de diferentes ofertas que fan referencia ao mesmo proxecto e inclúen a mesma clase de transacción.
+**Regra 4**: Se unha oportunidade ten varias ofertas, pode haber liñas de oferta de diferentes ofertas que fan referencia ao mesmo proxecto e inclúen a mesma clase de transacción.
 
-**Regra 5** : Se as ofertas non pertencen á mesma oportunidade, non poden incluír o mesmo proxecto e clase de transacción.
+**Regra 5**: Se as ofertas non pertencen á mesma oportunidade, non poden incluír o mesmo proxecto e clase de transacción.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>

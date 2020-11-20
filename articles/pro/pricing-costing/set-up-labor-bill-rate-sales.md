@@ -1,33 +1,33 @@
 ---
-title: Configuración de taxas de factura laboral
+title: Configurar taxas de factura laboral - lite
 description: Este tema ofrece información sobre como configurar as taxas de facturación de man de obra en Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e6294895857442f3a24a9d73ee07d2b90926a4fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076194"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181179"
 ---
-# <a name="setting-up-bill-rates-for-labor-rate-billing"></a>Configuración das taxas de facturación para a facturación da man de obra 
+# <a name="set-up-labor-bill-rates---lite"></a>Configurar taxas de factura laboral - lite
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
 Cada lista de prezos ten un conxunto de prezos de rol ou taxas de man de obra que son efectivos para o contexto e a data de vixencia incluídos na cabeceira da lista de prezos. As taxas de facturación por tempo en Dynamics 365 Project Operations pódense configurar só nunha moeda, que é a moeda da cabeceira da lista de prezos.
 
 1. Para configurar as taxas de facturación de man de obra para unha lista de prezos de vendas, cree unha lista de prezos baseada na cabeceira da lista de prezos. 
-2. No separador **Prezos de rol** , na subgrade, seleccione **+ Novo prezo de rol**. 
-3. No panel **Creación rápida** , introduza a combinación de rol e unidade de organización para a que precisa configurar a taxa de facturación.
+2. No separador **Prezos de rol**, na subgrade, seleccione **+ Novo prezo de rol**. 
+3. No panel **Creación rápida**, introduza a combinación de rol e unidade de organización para a que precisa configurar a taxa de facturación.
 
   A seguinte táboa inclúe os campos do separador **Xeral** e o panel **Creación rápida** dunha liña de prezos de rol que debe ter en conta ao crear prezos de rol nunha lista de prezos de vendas:
 
-  | Campo | Localización | Relevancia, finalidade e orientación | Impacto descendente |
+  | Campo | Localización | Descripción | Impacto descendente |
   | --- | --- | --- | --- |
   | Rol | Separador **Xeral** e panel **Creación rápida** | Seleccione o rol para o que está a configurar a taxa de facturación. | O rol na estimación ou dato real entrante compararase con esta liña para predefinir a taxa de facturación do rol. |
   | Unidade de recursos | Separador **Xeral** e panel **Creación rápida** | Seleccione a unidade organizativa ou división da empresa á que pertence o rol. Por exemplo, un programador da división de robótica de Fabrikam India ou un programador da división de software de Fabrikam USA. | A unidade de recursos na estimación ou dato real entrante compararase con esta liña para predefinir a taxa de facturación do rol. |

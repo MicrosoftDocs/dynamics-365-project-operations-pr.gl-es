@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d17f266b6e34fc2a2743fe19fd18b15fb992ceef
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076029"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180595"
 ---
 # <a name="set-up-labor-cost-rates"></a>Configurar taxas de custo laboral
 
@@ -22,13 +22,13 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 
 Cada lista de prezos ten un conxunto de taxas de man de obra (prezos de rol) que se aliñan co contido e a data de vixencia da lista de prezos.
 
-1. Cree unha lista de prezos no separador **Prezo de rol** , na subgrade, seleccione **Novo rol**.
-2. Na páxina **Creación rápida** , seleccione o rol e a unidade organizativa.
+1. Cree unha lista de prezos e no separador **Prezo de rol**, na subgrade, seleccione **Novo rol**.
+2. Na páxina **Creación rápida**, seleccione o rol e a unidade organizativa.
 3. Introduza calquera outra información de campo necesaria.
 
 A seguinte táboa inclúe algúns dos campos que son importantes á hora de crear taxas de man de obra nunha lista de prezos de custo.
 
-| Campo | Localización | Relevancia, finalidade e orientación | Impacto descendente |
+| Campo | Localización | Descripción | Impacto descendente |
 | --- | --- | --- | --- |
 | Rol | Separador **Xeral** e páxinas de **Creación rápida** | Seleccione o rol á que se aplica a taxa de custo. | O rol na estimación ou dato real entrante compararase con esta liña para predefinir o custo do rol. |
 | Empresa de recursos | Separador **Xeral** e páxinas de **Creación rápida** | Seleccione a entidade legal á que está atribuído o rol. Por exemplo, un programador de Fabrikam India ou un programador de Fabrikam USA. | A empresa de recursos na estimación ou dato real entrante compararase con esta liña para predefinir a taxa de custo do rol. |

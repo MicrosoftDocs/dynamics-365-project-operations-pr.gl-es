@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 56892a134c0c739958f7f939214930631dea7420
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076036"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180370"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Estimación dunha liña de oferta baseada en proxecto
 
@@ -30,9 +30,9 @@ Para estimar unha liña de oferta baseada en proxecto, na liña de oferta basead
 
 Para crear unha estimación nunha liña de oferta baseada en proxecto, seleccione o separador **Detalle da liña de oferta**. O elementos de liña que cree neste separador resumirá o valor ofertado para esta liña de oferta. 
 
-Para crear detalles da liña de oferta, seleccione **+ Novo detalle da liña de oferta** na subgrade **Detalles da liña de oferta**. Abrirase un control deslizante de creación rápida. Os campos seguintes no formulario **Liña de oferta** :
+Para crear detalles da liña de oferta, seleccione **+ Novo detalle de liña de oferta** na subgrade **Detalles de liña de oferta**. Abrirase un control deslizante de creación rápida. Os campos seguintes no formulario **Liña de oferta**:
 
-| **Campo** | **Localización** | **Relevancia, finalidade e orientación** | **Impacto descendente** |
+| **Campo** | **Localización** | **Descrición** | **Impacto descendente** |
 | --- | --- | --- | --- |
 | Descripción | Creación rápida | Unha descrición da estimación específica. | Este campo é por defecto o detalle da liña de oferta relacionada para o custo que se crea automaticamente. |
 | Clase de transacción | Creación rápida | Esta lista despregable proporciona as clases de transaccións incluídas no separador **Xeral** da liña de oferta baseada en proxecto.  | Este campo é por defecto o detalle da liña de oferta relacionada para o custo que se crea automaticamente. |
@@ -50,11 +50,11 @@ Para crear detalles da liña de oferta, seleccione **+ Novo detalle da liña de 
 
 ## <a name="update-prices-on-quote-line-details"></a>Actualizar os prezos nos detalles da liña de oferta
 
-Se cambiou os prezos na lista de prezos do proxecto que se xunta á oferta ou na lista de prezos de custo da unidade de contratación, pode seleccionar **Recalcular** na páxina **Oferta** , para actualizar os prezos nos detalles da liña de oferta individual para reflectir este cambio. Cando selecciona **Recalcular** , aparece unha advertencia que informa de que se restablecerán os prezos nos detalles da liña de oferta para todas as liñas de oferta desta oferta. Seleccione **Si** para actualizar os prezos dos detalles da liña de oferta de vendas e custo.
+Se cambiou os prezos na lista de prezos do proxecto que se xunta á oferta ou na lista de prezos de custo da unidade de contratación, pode seleccionar **Recalcular** na páxina **Oferta**, para actualizar os prezos nos detalles da liña de oferta individual para reflectir este cambio. Cando selecciona **Recalcular**, aparece unha advertencia que informa de que se restablecerán os prezos nos detalles da liña de oferta para todas as liñas de oferta desta oferta. Seleccione **Si** para actualizar os prezos dos detalles da liña de oferta de vendas e custo.
 
 ## <a name="access-quote-line-details-for-cost"></a>Acceder aos detalles da liña de oferta para custo
 
-No separador **Detalles da liña de oferta** , seleccione unha fila na grade para activar algunhas accións na barra de ferramentas da subgrade. A primeira acción na barra de ferramentas da subgrade cando se selecciona un detalle de liña de oferta é **Abrir detalle de custo**. Seleccione **Abrir detalle de custo** para ver a taxa de custo relacionada e o importe desta liña de oferta.
+No separador **Detalles de liña de oferta**, seleccione unha fila na grade para activar algunhas accións na barra de ferramentas da subgrade. A primeira acción na barra de ferramentas da subgrade cando se selecciona un detalle de liña de oferta é **Abrir detalle de custo**. Seleccione **Abrir detalle de custo** para ver a taxa de custo relacionada e o importe desta liña de oferta.
 
 > [!NOTE]
 > Ao cambiar a unidade de recursos, a cantidade, as datas, o rol ou os valores da categoría no detalle da liña de oferta para custo cambiaranse os valores correspondentes nos detalles da liña de oferta para vendas.

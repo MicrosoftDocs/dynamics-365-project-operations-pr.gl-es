@@ -1,33 +1,33 @@
 ---
-title: Configuración de taxas de custo laboral
+title: Configurar taxas de custo laboral - lite
 description: Este tema ofrece información sobre como configurar as taxas de custo para man de obra en Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66a254ce4e7c7f25ac3ea303b73a01625988b0d9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076043"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180710"
 ---
-# <a name="setting-up-labor-cost-rates"></a>Configuración de taxas de custo laboral 
+# <a name="set-up-labor-cost-rates---lite"></a>Configurar taxas de custo laboral - lite
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
 Cada lista de prezos ten un conxunto de taxas de man de obra (prezos de rol) que se aliñan co contido e a data de vixencia da lista de prezos.
 
-1. Cree unha lista de prezos no separador **Prezo de rol** , na subgrade, seleccione **Novo rol**.
-2. Na páxina **Creación rápida** , seleccione o rol e a unidade organizativa.
+1. Cree unha lista de prezos e no separador **Prezo de rol**, na subgrade, seleccione **Novo rol**.
+2. Na páxina **Creación rápida**, seleccione o rol e a unidade organizativa.
 3. Introduza calquera outra información de campo necesaria.
 
 A seguinte táboa inclúe algúns dos campos que son importantes á hora de crear taxas de man de obra nunha lista de prezos de custo.
 
-| Campo | Localización | Relevancia, finalidade e orientación | Impacto descendente |
+| Campo | Localización | Descripción | Impacto descendente |
 | --- | --- | --- | --- |
 | Rol | Separador **Xeral** e páxinas de **Creación rápida** | Seleccione o rol á que se aplica a taxa de custo. | O rol na estimación ou dato real entrante compararase con esta liña para predefinir o custo do rol. |
 | Unidade de recursos | Separador **Xeral** e páxinas de **Creación rápida** | Seleccione a unidade organizativa ou división da empresa desde a que se usará este rol. Por exemplo, un programador da división de robótica de Fabrikam India ou un programador da división de software de Fabrikam USA. | A unidade de recursos na estimación ou dato real entrante compararase con esta liña para predefinir o custo do rol. |

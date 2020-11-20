@@ -1,21 +1,21 @@
 ---
-title: Facturar unha retención ou un adianto
+title: Facturar unha retención ou un adianto - lite
 description: Este tema ofrece información sobre como facturar unha retención ou un adianto en Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087910"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180550"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Facturar unha retención ou un adianto
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Facturar unha retención ou un adianto - lite
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations admite contratos baseados en retencións e adian
 Complete os pasos seguintes para facturar unha retención ou un adianto.
 
 1. Seleccione **Vendas** > **Facturación** > **Retencións e adiantos**. 
-2. Na páxina **Adiantos e retencións** , use o filtro para seleccionar a retención ou o adianto específico para facturar e márqueo como **Listo para facturar**.
+2. Na páxina **Adiantos e retencións**, use o filtro para seleccionar a retención ou o adianto específico para facturar e márqueo como **Listo para facturar**.
 3. Crea unha factura manualmente desde a lista **Contrato de proxecto** ou a páxina de detalle. A retención ou o adianto móstrase no borrador de factura na sección **Adiantos e retencións** na páxina **Factura**.
 4. Confirme a factura. Isto fará que a retención ou o adianto estean dispoñibles para o seu uso. Pode verificar a factura na páxina de lista **Retencións e adiantos**. Para un adianto ou retención facturado, o importe dispoñible móstrase na grade.
 
@@ -32,8 +32,8 @@ Complete os pasos seguintes para facturar unha retención ou un adianto.
 
 Podes crear unha retención ou un adianto directamente nunha factura.
 
-1. Nun borrador de factura, na subgrade **Adiantos e retencións** , seleccione **Novo** para crear un novo adianto ou retención. 
-2. Na páxina **Creación rápida** , engada a información necesaria e logo seleccione **Gardar**. A retención ou o adianto créase no contrato do proxecto relacionado coa factura. A retención ou o adianto márcase automaticamente como **Listo para facturar** e logo engádese á subgrade **Adiantos e retencións** na páxina **Factura**.
+1. Nun borrador de factura, na subgrade **Adiantos e retencións**, seleccione **Novo** para crear un novo adianto ou retención. 
+2. Na páxina **Creación rápida**, engada a información necesaria e logo seleccione **Gardar**. A retención ou o adianto créase no contrato do proxecto relacionado coa factura. A retención ou o adianto márcase automaticamente como **Listo para facturar** e logo engádese á subgrade **Adiantos e retencións** na páxina **Factura**.
 
 ## <a name="reconcile-an-invoiced-retainer-or-advance"></a>Conciliar unha retención ou un adianto facturado
 
@@ -43,7 +43,7 @@ En cada factura que se xera para un contrato de proxecto que facturou retención
 
 Isto pódese ver na grade **Retencións e adiantos aplicados** na páxina **Factura**. A seguinte táboa ofrece información sobre os campos da grade **Retencións e adiantos aplicados** da páxina **Factura do proxecto**.
 
-| Campo | Localización | Relevancia, finalidade e orientación | Impacto descendente |
+| Campo | Localización | Descripción | Impacto descendente |
 | --- | --- | --- | --- |
 | Descripción | Grade **Retencións e adiantos aplicados** na páxina **Factura do proxecto**. |Este campo de só lectura ofrece unha descrición da retención ou o adianto utilizado nesta factura. Este valor non se pode cambiar na factura. Este valor pódese actualizar na subgrade da páxina **Contrato do proxecto**. | Este campo pódese mostrar ao cliente na factura impresa para indicar que a retención ou o adianto se aplica na factura. |
 | Data de entrega | Grade **Retencións e adiantos aplicados** na páxina **Factura do proxecto**.  | Este campo de só lectura indica a data da factura da retención ou o adianto utilizado nesta factura. Este valor non se pode cambiar na factura. Este valor pódese actualizar na subgrade da páxina **Contrato do proxecto**. | Este campo pódese mostrar ao cliente na factura impresa para indicar a data na que a retención ou o adianto se facturou por primeira vez ao cliente. |

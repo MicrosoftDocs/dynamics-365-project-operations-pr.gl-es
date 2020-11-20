@@ -1,28 +1,28 @@
 ---
-title: Importación de estimacións para un proxecto a unha liña de oferta baseada en proxecto
+title: Importar estimacións para un proxecto a unha liña de oferta baseada en proxecto - lite
 description: Este tema ofrece información sobre como importar estimacións dun proxecto a unha liña de oferta.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 224c2265cfcc38dfc2ed74664d38c095feefaca7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 607ccaeb61b12458f8b0e9d7230c000e7ff0501a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076034"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177734"
 ---
-# <a name="importing-estimates-for-a-project-to-a-project-based-quote-line"></a>Importación de estimacións para un proxecto a unha liña de oferta baseada en proxecto
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Importar estimacións para un proxecto a unha liña de oferta baseada en proxecto - lite
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
 Se se crea un proxecto durante a fase de prevenda, pode seleccionar importar a estimación financeira do proxecto á liña de oferta baseada en proxecto.
 
 1. Asegúrese de que a liña de oferta baseada en proxecto conteña a información do proxecto no campo **Proxecto**.
-2. No separador **Detalles de liña de oferta** , seleccione **Importar desde estimación de proxecto**.
+2. No separador **Detalles de liña de oferta**, seleccione **Importar desde estimación de proxecto**.
 3. Na páxina de diálogo que se abre, seleccione unha das seguintes opcións de resumo.
 
   - **Clase de transacción**
@@ -30,7 +30,7 @@ Se se crea un proxecto durante a fase de prevenda, pode seleccionar importar a e
   - **Rol** 
   - **Tarefa do proxecto**
 
-En función da súa selección, cópianse as estimacións do proxecto para todas as clases de transaccións incluídas nesta liña de oferta. Para comprobar que clases de transacción se inclúen, seleccione o separador **Xeral** na liña de oferta baseada en proxecto e comprobe os valores de **Incluír tempo** , **Incluír gastos** , e **Incluír taxas**.  Para comprobar que tarefas están incluídas, seleccione o separador **Tarefas imputables** na liña de oferta.
+En función da súa selección, cópianse as estimacións do proxecto para todas as clases de transaccións incluídas nesta liña de oferta. Para comprobar que clases de transacción se inclúen, seleccione o separador **Xeral** na liña de oferta baseada en proxecto e comprobe os valores de **Incluír tempo**, **Incluír gastos**, e **Incluír taxas**.  Para comprobar que tarefas están incluídas, seleccione o separador **Tarefas imputables** na liña de oferta.
 
 Segundo as tarefas asociadas que e as clases de transaccións incluídas, as estimacións para esas combinacións de tarefas e clases de transaccións impórtanse á liña de oferta.
 

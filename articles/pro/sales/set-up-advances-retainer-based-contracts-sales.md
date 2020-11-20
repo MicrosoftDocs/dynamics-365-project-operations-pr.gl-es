@@ -1,21 +1,21 @@
 ---
-title: Contratos baseados en adiantos e retencións
+title: Contratos baseados en adiantos e retencións - lite
 description: Este tema ofrece información sobre modelos de contratación baseados en retencións e adiantos en Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087907"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180865"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Contratos baseados en adiantos e retencións 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Contratos baseados en adiantos e retencións - lite
 
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
@@ -33,7 +33,7 @@ Ademais dunha programación baseada en retencións periódicas, Project Operatio
 
 A retención en Project Operations non está dispoñible para o seu uso ata que non se factura ao cliente. Isto está indicado nos seguintes campos da subgrade para adiantos e retencións.
 
-| Campo | Relevancia, finalidade e orientación | Impacto descendente |
+| Campo | Descripción | Impacto descendente |
 | --- | --- | --- |
 | Importe dispoñible | O importe que está dispoñible para o seu uso no rexistro de retención ou adianto. | Ata que non se facture o adianto ou retención, non estará dispoñible para o seu uso, o que significa que o importe dispoñible será cero. |
 | Importe usado | O importe que xa se utiliza na retención ou o adianto. | Un adianto ou retención pódese conciliar parcialmente nunha factura cos custos reais, que terán marcada algunha parte como xa usada ou consumida. O resto do importe do adianto ou retención está dispoñible para conciliar nunha factura futura cos custos reais. |

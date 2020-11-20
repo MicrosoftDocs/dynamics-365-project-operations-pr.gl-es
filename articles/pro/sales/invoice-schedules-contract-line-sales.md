@@ -1,74 +1,76 @@
 ---
-title: Creación de programacións de facturas nunha liña de contrato baseado en proxecto
-description: Este tema ofrece información sobre a creación de programacións de facturas e fitos nas liñas de contrato.
+title: Crear programacións de facturas nunha liña de contrato baseado en proxecto - lite
+description: Este tema ofrece información sobre a creación de programacións e fitos de facturación.
 author: rumant
 manager: Annbe
-ms.date: 10/17/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2183b915dd2f67e03964246cb0689003e48363f7
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 728a35b2b69fb63a2b20f218c250365c5068370f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4076366"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180325"
 ---
-# <a name="creating-invoice-schedules-on-a-project-based-contract-line"></a>Creación de programacións de facturas nunha liña de contrato baseado en proxecto
+# <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Crear programacións de facturas nunha liña de contrato baseado en proxecto - lite
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
+Pode anexar unha programación de facturas nunha liña de contrato baseado en proxecto. A facturación só se permite despois de gañar o contrato para crear un contrato de proxecto. As programacións de facturas permiten crear borradores de facturas dunha liña de contrato baseado en proxecto automaticamente. Se ten previsto crear sempre facturas manualmente, pode omitir a creación de programacións de facturas nunha liña de contrato baseado en proxecto ou nunha liña de contrato.
 
-Pode crear unha programación de facturas nunha liña de contrato baseado en proxecto. A facturación só se permite despois de gañar o contrato e crear un contrato de proxecto. Unha programación de facturas permite crear automaticamente borradores de facturas para unha liña de contrato baseado en proxecto. Non obstante, se só crea facturas manualmente, pode omitir a creación de programacións de facturas nas liñas de contrato.
-
-## <a name="create-a-time-and-material-invoice-schedule-for-a-contract-line"></a>Crear unha programación de facturas de tempo e material para unha liña de contrato
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-contract-line"></a>Crear unha programación de facturas de tempo e material nunha liña de contrato baseado en proxecto
 
 Cando a liña de contrato baseado en proxecto ten un método de facturación de tempo e material, pode crear una programación de facturas baseada en datas. Para xerar automaticamente unha programación de facturas baseada en datas, complete os seguintes pasos.
 
-1. Vaia a **Configuración** > **Frecuencias de facturas** e configure unha frecuencia de facturas.
-2. Vaia ao rexistro do contrato do proxecto e no separador **Resumo** , no campo **Data de entrega solicitada** , seleccione unha data.
-3. Abra a liña de contrato **Tempo e material** para a que vai crear unha programación de facturas baseada en datas. 
-4. No separador **Programación de facturas** , seleccione a data de inicio da facturación e a frecuencia das facturas.
-5. Na subgrade, seleccione **Xerar unha programación de facturas**. A programación de facturas xérase cos campos **Data de execución da factura** , **Data de corte da transacción** , e **Estado de execución** configurados do seguinte xeito:
+1. Vaia a **Configuración** > **Frecuencias de facturas** para configurar a frecuencia das facturas.
+2. Abra o contrato do proxecto e no separador **Resumo** e estableza a data de entrega solicitada.
+3. Abra a liña de contrato de tempo e material para a que desexa crear unha programación de facturas baseada na data. 
+4. No separador **Programación de facturas**, seleccione unha data de inicio de facturación e a frecuencia das facturas. 
+5. Na subgrade, seleccione **Xerar unha programación de facturas**.
 
-    - **Data de execución da factura** : Esta data depende da frecuencia da factura.
-    - **Data de corte da transacción** : O día anterior á data de execución da factura.
-    - **Estado de execución** : Configúrase automaticamente en **Non executar**. Cando a tarefa de creación automática de facturas se execute durante unha determinada data de execución da factura, actualiza este campo a **Execución correcta** ou **Erro na execución**.
+    O sistema xera a programación das facturas coa seguinte información de campo:
 
+    - **Data de execución da factura** establécese na data segundo a frecuencia das facturas.
+    - **Data de corte da transacción** establécese o día anterior á **Data de execución da factura**.
+    - **Estado de execución** configúrase automaticamente en **Non executar**. Cando a tarefa de creación automática de facturas se execute durante unha determinada **Data de execución da factura**, actualiza este campo a **Execución correcta** ou **Erro na execución**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-contract-line"></a>Crear unha programación de facturas de prezo fixo para unha liña de contrato
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-contract-line"></a>Crear unha programación de facturas de prezo fixo para unha liña de contrato baseado en proxecto
 
-Cando a liña de contrato o ten un método de facturación fixo, pode crear unha programación de facturas baseada en fitos. Complete os seguintes pasos para xerar unha programación de facturas baseada en fitos para un conxunto fixo de fitos que se distribúen igualmente para o período do calendario.
+Cando unha liña de contrato baseada en proxecto ten un método de facturación a prezo fixo, pode crear unha programación de facturas baseada en fitos. Complete os seguintes pasos para xerar automaticamente unha programación de facturas baseada en fitos para un conxunto fixo de fitos que se distribúen por igual durante o período do calendario.
 
-1. Vaia a **Configuración** > **Frecuencias de facturas** e configure unha frecuencia de facturas.
-2. Vaia ao rexistro do contrato do proxecto e no separador **Resumo** , no campo **Data de entrega solicitada** , seleccione unha data.
-3. Abra a liña de contrato de **Prezo fixo** para a que esta a crear unha programación de fitos. No separador **Fitos de facturación** , seleccione a data de inicio da facturación e a frecuencia das facturas. 
-4. Na subgrade, seleccione **Xerar fitos periódicos**. A programación de facturas xérase cos campos **Nome do fito** , **Data do Fito** e **Cantidade de fitos** configurados do seguinte xeito:
+1. Vaia a **Configuración** > **Frecuencias de facturas** para configurar a frecuencia das facturas.
+2. Abra o contrato do proxecto e no separador **Resumo** e estableza a data de entrega solicitada.
+3. Abra a liña de contrato de prezo fixo na que necesita crear un calendario de fitos. 
+4. No separador **Programación de facturas (fitos de facturación)**, seleccione unha data de inicio de facturación e a frecuencia das facturas. 
+5. Na subgrade, seleccione **Xerar fitos periódicos**.
 
-    - **Nome do fito** : Esta data depende da frecuencia da factura.
-    - **Data do fito** : Esta data depende da frecuencia da factura.
-    - **Importe do fito** : Este importe calcúlase dividindo o importe do contrato na liña de contrato polo número de fitos obrigado pola frecuencia e o inicio da facturación e as datas de entrega solicitadas.
+    O sistema xera a programación das facturas coa seguinte información de fitos.
 
-    Se a liña de contrato ten un valor no campo **Importe estimado do imposto** , este campo tamén se reparte a cada fito por igual cando se xeran fitos periódicos.
+    - **Nome do fito** establécese na data que se dita en función da frecuencia das facturas.
+    - **Data do fito** establécese na data que se dita en función da frecuencia das facturas.
+    - **Importe de fito** calcúlase dividindo o importe do contrato na liña de contrato baseado en proxecto polo número de fitos ditados pola frecuencia, o inicio da facturación e as datas de entrega solicitadas.
+    - Se a liña de contrato ten un valor no campo **Importe estimado do imposto**, este campo tamén se reparte a cada fito por igual cando se xeran fitos periódicos.
 
-Os fitos de facturación deben ser iguais ao valor contratado da liña de contrato. Se non o son, recibirá un erro na páxina **Liña de contrato**. Pode corrixir o erro comprobando que os fitos de facturación totalizan o valor contratado da liña creando, editando ou eliminando fitos. Despois de realizados os cambios, actualice a páxina para eliminar o erro.
+Os fitos de facturación deberían ser iguais ao valor contratado da liña de contrato baseado en proxecto. Se non son iguais, prodúcese un erro. Pode corrixir ese erro comprobando que os fitos de facturación totalizan o valor contratado da liña creando, editando ou eliminando fitos. Despois de facer os cambios, actualice a páxina.
 
 ### <a name="manually-create-milestones"></a>Crear fitos manualmente
 
-Pode xerar fitos de prezo fixo manualmente cando non se dividen periodicamente. Complete os seguintes pasos para crear manualmente un fito.
+Os fitos de prezo fixo pódense xerar manualmente cando non se dividen periodicamente. Para crear un fito manualmente, complete os seguintes pasos.
 
-1. Abra a liña de contrato de prezo fixo para a que está a crear un fito e, no separador **Programación de facturas** , na subgrade, seleccione **+ Crear un novo fito de liña de contrato**. 
-2. Na páxina **Creación de fitos** , introduza a información requirida baseándose na seguinte táboa.
+1. Abra a liña de contrato de prezo fixo na que quere crear un fito. 
+2. No separador **Programación de facturas**, na subgrade, seleccione **+ Crear un novo fito de liña de contrato**.
+3. No formulario **Creación de fito**, introduza a información requirida baseándose na seguinte táboa. 
 
-| Campo | Localización | Relevancia, finalidade e orientación | Impacto descendente |
+| Campo | Localización | Descripción | Impacto descendente |
 | --- | --- | --- | --- |
-| Nome do fito | Creación rápida | Campo de texto para o nome do fito. | Isto trasládase ao fito da liña de contrato do proxecto e á factura. |
-| Tarefa do proxecto | Creación rápida | Se o fito está ligado á tarefa do proxecto, use esta referencia para engadir unha lóxica personalizada para establecer o estado do fito en función do estado da tarefa. | A aplicación non ten ningún impacto descendente desta referencia a unha tarefa. |
-| Data do fito | Creación rápida | Estableza a data na que o proceso de creación automática de facturas debería buscar o estado deste fito para consideralo para a facturación. | Isto trasládase ao fito da liña de contrato do proxecto e á factura. |
-| Estado da factura | Creación rápida | Cando se crea un fito, este estado sempre se define como **Non está preparado para a facturación** ou **Non iniciado**. | Isto trasládase ao fito da liña de contrato do proxecto e á factura. |
-| Cantidade da liña | Creación rápida | Importe ou valor do fito que se facturará ao cliente. | Isto trasládase ao fito da liña de contrato do proxecto e á factura. |
-| Impostos | Creación rápida | O importe do imposto aplicado no fito. | Isto trasládase ao fito da liña de contrato do proxecto e á factura. |
+| Nome do fito | Creación rápida | Campo de texto para o nome do fito. | Este campo inclúese no fito da liña de contrato do proxecto e na factura. |
+| Tarefa do proxecto | Creación rápida | Se o fito está ligado a unha tarefa do proxecto, use esta referencia para engadir lóxica personalizada e establecer o estado do fito en función do estado da tarefa. | Non hai ningún impacto descendente desta referencia a unha tarefa. |
+| Data do fito | Creación rápida | A data na que o proceso de creación automática de facturas debería buscar o estado deste fito para consideralo para a facturación. | Isto inclúese no fito da liña de contrato do proxecto e na factura. |
+| Estado da factura | Creación rápida | Cando se crea o fito, este estado sempre se define como **Non está listo para facturar** ou **Non iniciado**. | Isto inclúese no fito da liña de contrato do proxecto e na factura. |
+| Cantidade da liña | Creación rápida | O importe ou o valor do fito que se facturará ao cliente. | Este campo inclúese no fito da liña de contrato do proxecto e na factura, |
+| Impostos | Creación rápida | O importe do imposto aplicado no fito. | Isto inclúese no fito da liña de contrato do proxecto e na factura. |
 
-3. Seleccione **Gardar e pechar**.
-| Cantidade de iña | Creación rápida | Importe ou valor do fito que se facturará ao cliente | Isto propágase ao fito da liña de contrato de proxecto e á factura | | Imposto | Creación rápida | Importe do imposto que se aplicará no fito | Isto propágase ao fito da liña de contrato do proxecto e á factura |
+4. Seleccione **Gardar e pechar**.
