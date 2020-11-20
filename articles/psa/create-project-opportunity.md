@@ -3,7 +3,7 @@ title: Crear unha oportunidade de proxecto
 description: Como crear unha oportunidade de proxecto en Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d822f37b5bb13f9f55355e65be591e7861a64a1f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c51ff895780085ed9f2723da8f505e666af90c42
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076324"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133231"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Crear unha oportunidade de proxecto (Project Service)
 
@@ -35,15 +35,15 @@ As oportunidades son clientes potenciais en quente que están interesados en con
   
 2.  Prema **Novo**.  
   
-3.  Na área **Resumo** , introduza a empresa da oportunidade e outra información.  
+3.  Na área **Resumo**, introduza a empresa da oportunidade e outra información.  
   
 4.  Engada notas e actividades (por exemplo, chamadas telefónicas ou correos) relacionadas con este cliente potencial. Para obter máis información sobre como engadir notas e actividades, consulte [Realizar un seguimento de notas, tarefas, chamadas ou correo con actividades](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
-5.  Para engadir interesados, na área de **Interesados** , prema **+**.  
+5.  Para engadir interesados, na área de **Interesados**, prema **+**.  
   
-6.  Para engadir membros do equipo de vendas, na área de **Equipo de Vendas** , prema **+**.  
+6.  Para engadir membros do equipo de vendas, na área de **Equipo de Vendas**, prema **+**.  
   
-7.  Para engadir competidores, na área de **Competidores** , prema **+**.  
+7.  Para engadir competidores, na área de **Competidores**, prema **+**.  
   
 8.  Para engadir un produto á oportunidade, prema **Novo** en **Liñas baseadas en Produto** na área **Liñas de oportunidade**. Seleccione un elemento en **Nome do Produto** e, a seguir, especifique a cantidade, prezo de venda e orzamento do cliente.  
   

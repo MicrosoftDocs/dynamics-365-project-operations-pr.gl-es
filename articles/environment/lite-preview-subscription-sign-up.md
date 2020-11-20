@@ -1,21 +1,21 @@
 ---
-title: Rexistrarse para unha subscrición de previsualización
+title: Rexistrarse para unha subscrición de previsualización - lite
 description: Este tema ofrece información sobre como subscribirse e despregar o despregamento de Project Operations lite - de acordo a facturación proforma.
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075995"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175889"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Rexístrese para obter unha subscrición de previsualización do despregamento lite - de acordo a facturación proforma
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Rexistrarse para unha subscrición de previsualización - lite 
 
 Este tema explica como subscribirse á oferta de previsualización e despregar o despregamento de Dynamics 365 Project Operations lite - de acordo a facturación proforma.
 
@@ -67,7 +67,7 @@ Repita os mesmos pasos que co primeiro código de oferta. Asegúrese de engadir 
 
 ![Páxina de inicio do centro de administración](./media/14AdminPortal.png)
 
-2. Na páxina **Usuarios activos** , seleccione os usuarios aos que desexa atribuír unha licenza.
+2. Na páxina **Usuarios activos**, seleccione os usuarios aos que desexa atribuír unha licenza.
 
 ![Atribuír licenzas](./media/15AssignLicenses.png)
 

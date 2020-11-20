@@ -1,29 +1,23 @@
 ---
-title: Visión xeral dos procesos de vendas
+title: Visión xeral do proceso de vendas
 description: Este tema fornece información sobre os procesos básicos de vendas.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
-ms.custom:
-- dyn365-projectservice
-ms.date: 09/23/2019
+manager: Annbe
+ms.date: 10/29/2020
 ms.topic: article
-ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
 ms.author: rumant
-audience: Admin
-search.audienceType:
-- admin
-- customizer
-- enduser
-search.app: ''
-ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076331"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177599"
 ---
-# <a name="sales-processes-overview"></a>Visión xeral dos procesos de vendas
+# <a name="sales-process-overview"></a>Visión xeral do proceso de vendas
+
+_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
 Os procesos de vendas que se utilizan nunha organización baseada en proxectos difiren dos procesos de vendas que se utilizan nunha organización baseada en produtos. Isto prodúcese porque os ciclos de vendas das organizacións baseadas en proxectos son máis longos e requiren técnicas de estimación personalizadas para analizar e crear ofertas para cada operación. Dynamics 365 Project Operations utiliza unha parte da seguinte funcionalidade que se emprega nun proceso de vendas:
 
@@ -38,7 +32,7 @@ O valor dunha venda pódese estimar en función dos proxectos entregados anterio
 
 Pode crear unha estimación de alto nivel da oferta. Finalmente, esta estimación de alto nivel substituirase por unha estimación máis detallada baseada nun plan de proxecto que cree usando os modelos de proxecto normalizados. Estes modelos axúdanlle a crear un programa e a determinar os valores monetarios na oferta e os seus compoñentes (liñas de oferta). 
 
-Pode crear varias ofertas para un proxecto e agrupalas baixo un único rexistro de oportunidade. Finalmente, unha das ofertas márcase **Pechado como gañada** , e créase un contrato de proxecto ou unha declaración de traballo (SOW). Un contrato de proxecto contén o valor contratado para cada compoñente (liña de contrato) que é aceptado polo cliente para a súa entrega. Normalmente créase unha SOW como documento de Microsoft Word. Todas as facturas que se envían ao cliente ao longo da entrega do proxecto fan referencia ao contrato do proxecto ou ña SOW.
+Pode crear varias ofertas para un proxecto e agrupalas baixo un único rexistro de oportunidade. Finalmente, unha das ofertas márcase **Pechado como gañada**, e créase un contrato de proxecto ou unha declaración de traballo (SOW). Un contrato de proxecto contén o valor contratado para cada compoñente (liña de contrato) que é aceptado polo cliente para a súa entrega. Normalmente créase unha SOW como documento de Microsoft Word. Todas as facturas que se envían ao cliente ao longo da entrega do proxecto fan referencia ao contrato do proxecto ou ña SOW.
 
 Tamén pode crear ofertas alternativas baixo un rexistro de oportunidade ou configurar o sistema para que se cree un contrato de proxecto cando se gaña unha oferta. Neste caso, pode anexar un documento de Word que representa a SOW no rexistro do contrato do proxecto.
 
@@ -56,12 +50,12 @@ Por exemplo, a súa empresa podería ter as seguintes seis fases no proceso de v
  
 A súa organización podería usar entidades diferentes para representar a mesma operación a medida que evoluciona. Ao comezo do proceso de vendas, unha operación está representada pola entidade Oportunidade. A medida que pasa o tempo e aparecen máis detalles, pode usar estimacións de alto nivel para crear unha ou varias ofertas. Se unha destas ofertas é revisada por partes interesadas internas e de clientes, a entidade Oferta representa a operación. Despois de que o cliente acepte a oferta, un contrato de proxecto ou SOW representa a operación. Para apoiar este comportamento, as BPF estrutúranse de xeito que cada fase do proceso estea ligada a unha táboa de base de datos diferente.
 
-A fase **Cualificar** do proceso de vendas pode estar apoiada por unha entidade Oportunidade. As fases **Estimación** e **Revisión interna** etapas poden estar apoiadas por unha entidade Oferta. As fases **Contrato** , **Entrega** e **Pechar** poden estar apoiadas por unha entidade Contrato de proxecto.
+A fase **Cualificar** do proceso de vendas pode estar apoiada por unha entidade Oportunidade. As fases **Estimación** e **Revisión interna** etapas poden estar apoiadas por unha entidade Oferta. As fases **Contrato**, **Entrega** e **Pechar** poden estar apoiadas por unha entidade Contrato de proxecto.
 
 A medida que fai avanzar as operacións polas fases, solicitaráselle que cree o rexistro de entidade adecuado para axudar e guiar no proceso. As fases poden ser condicionais. Por exemplo, se precisa unha revisión interna dunha oferta só se a oferta usa unha lista de prezos personalizada, pode configurar esa condición na fase adecuada do proceso de negocio. A fase **Revisión interna** móstrase só para ofertas que usan unha lista de prezos personalizada. Para o resto de operacións e ofertas, a fase **Estimación** vai seguida pola fase **Contrato**.
 
 > [!NOTE]
-> Project Operations ten páxinas específicas para rexistros das entidades Oportunidade, Oferta, Pedido e Factura. Debe crear estes rexistros empregando as páxinas de información do proxecto para estas entidades. Se non o fai, non poderá abrir os rexistros desde a páxina **Información do proxecto**. Se quere abrir un rexistro desde a páxina **Información do proxecto** , ten que eliminar o rexistro e recrealo usando a páxina **Información do proxecto** onde a lóxica empresarial de cada un destes tipos de entidade garante que o campo **Tipo** do rexistro se defina correctamente e se inicien correctamente todos os conceptos obrigatorios.
+> Project Operations ten páxinas específicas para rexistros das entidades Oportunidade, Oferta, Pedido e Factura. Debe crear estes rexistros empregando as páxinas de información do proxecto para estas entidades. Se non o fai, non poderá abrir os rexistros desde a páxina **Información do proxecto**. Se quere abrir un rexistro desde a páxina **Información do proxecto**, ten que eliminar o rexistro e recrealo usando a páxina **Información do proxecto** onde a lóxica empresarial de cada un destes tipos de entidade garante que o campo **Tipo** do rexistro se defina correctamente e se inicien correctamente todos os conceptos obrigatorios.
 
 
 ## <a name="track-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Rastrexar as revisións de ofertas e plans de proxecto no ciclo de vendas

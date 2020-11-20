@@ -3,7 +3,7 @@ title: Grupos de unidades e unidades
 description: Este tema fornece información sobre os grupos de unidades e as unidades.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076148"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130576"
 ---
 # <a name="unit-groups-and-units"></a>Grupos de unidades e unidades
 
@@ -33,16 +33,16 @@ Os grupos de unidades e as unidades son entidades básicas en Microsoft Dynamics
 
 Este son algúns exemplos de unidades e grupos de unidades:
  
-- **Grupo de unidades** : Distancia 
-    - **Unidades** : Milla, quilómetro, etc.
-- **Grupo de unidades** : Tempo
-    - **Unidades** : Hora, día, semana, etc. 
+- **Grupo de unidades**: Distancia 
+    - **Unidades**: Milla, quilómetro, etc.
+- **Grupo de unidades**: Tempo
+    - **Unidades**: Hora, día, semana, etc. 
 
 Cando configure varias unidades nun grupo de unidades, tamén debe configurar un factor de conversión entre elas designando a primeira unidade que configurou como unidade predefinida ou principal para o grupo de unidades. 
 
-Por exemplo, no grupo de unidades **Tempo** , se configura **Hora** como primeira unidade, o sistema designa **Hora** como unidade predefinida. Se a seguinte unidade que configurou é **Día** , debe configurar un factor de conversión para **Día** a **Hora**. Se logo engade **Semana** como terceira unidade, ten que configurar un factor de conversión para **Semana** en termos de **Día** ou **Hora**. 
+Por exemplo, no grupo de unidades **Tempo**, se configura **Hora** como primeira unidade, o sistema designa **Hora** como unidade predefinida. Se a seguinte unidade que configurou é **Día**, debe configurar un factor de conversión para **Día** a **Hora**. Se logo engade **Semana** como terceira unidade, ten que configurar un factor de conversión para **Semana** en termos de **Día** ou **Hora**. 
 
-A seguinte imaxe mostra un exemplo de configuración para a unidade **Día** , onde o campo **Cantidade** mostra o número de horas que hai nun día e **Semana** , onde o campo **Cantidade** mostra o número de días que están nunha semana.
+A seguinte imaxe mostra un exemplo de configuración para a unidade **Día**, onde o campo **Cantidade** mostra o número de horas que hai nun día e **Semana**, onde o campo **Cantidade** mostra o número de días que están nunha semana.
 
 > ![Grupo de unidades: Páxina de información](media/advanced-2.png)
 
@@ -52,7 +52,7 @@ Dynamics 365 Project Service Automation usa unidades e grupos de unidades para p
 
 Para gastos, cada categoría de gasto ten un grupo de unidades e unha unidade por defecto. Estes valores introdúcense como valores predefinidos nas entradas de lista de prezos para categorías de gasto. 
 
-Por exemplo, ten unha categoría de gasto que leva o nome **Quilometraxe**. Ten un grupo de unidades que leva o nome **Distancia** e unha unidade predefinida co nome **Milla**. Se configura o grupo de unidades **Distancia** para que teña dúas unidades ( **Milla** e **Quilómetro** ), pode establecer dous prezos para a categoría **Quilometraxe** nunha lista de prezos: prezo por milla e prezo por quilómetro.
+Por exemplo, ten unha categoría de gasto que leva o nome **Quilometraxe**. Ten un grupo de unidades que leva o nome **Distancia** e unha unidade predefinida co nome **Milla**. Se configura o grupo de unidades **Distancia** para que teña dúas unidades ( **Milla** e **Quilómetro**), pode establecer dous prezos para a categoría **Quilometraxe** nunha lista de prezos: prezo por milla e prezo por quilómetro.
 
 | Categoría de gasto  | Grupo de unidades  | Unidade      | Método de cálculo de prezos  | Prezo por unidade  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -72,17 +72,17 @@ As liñas de estimación para o campo **Tempo na oferta** pódense expresar en c
 O seguinte exemplo mostra como PSA usa o grupo de unidades, as unidades e os factores de conversión.
 - Unidades
 
-   - **Grupo de unidades** : Tempo 
-   - **Unidades** : Hora 
+   - **Grupo de unidades**: Tempo 
+   - **Unidades**: Hora 
     
     - **Día** - Factor de conversión: 8 horas       
     - **Semana** - Factor de conversión: 40 horas  
         
 - Configuración da lista de prezos no proxecto A:
 
-    - **Nome** : Prezos de vendas do Reino Unido 2016 
-    - **Unidade de tempo predefinida** : Día 
-    - **Moeda** : GBP
+    - **Nome**: Prezos de vendas do Reino Unido 2016 
+    - **Unidade de tempo predefinida**: Día 
+    - **Moeda**: GBP
 
 | Rol      | Grupo de unidades | Unidade | Unidade organizativa | Prezo   |
 |-----------|------------|------|---------------------|---------|
@@ -109,4 +109,4 @@ Nalgúns países ou rexións, hai un requisito legal de que as taxas de facturac
 Non. Actualmente a estimación do programa está restrinxida ás horas e non se pode cambiar.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Pódense editar, eliminar e engadir unidades e grupos de unidades?
-Si. Con excepción do grupo de unidades **Tempo** e a unidade **Hora** , pódense eliminar ou editar todas as unidades e pódense engadir novas unidades. En PSA, o grupo de unidades **Tempo** e a unidade **Hora** non se poden eliminar. Non obstante, pódense actualizar cun texto traducido para o campo **Nome**.
+Si. Con excepción do grupo de unidades **Tempo** e a unidade **Hora**, pódense eliminar ou editar todas as unidades e pódense engadir novas unidades. En PSA, o grupo de unidades **Tempo** e a unidade **Hora** non se poden eliminar. Non obstante, pódense actualizar cun texto traducido para o campo **Nome**.

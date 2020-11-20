@@ -2,7 +2,7 @@
 title: Enviar unha solicitude de recurso
 description: Este tema fornece información sobre o envío dunha solicitude dun recurso de proxecto.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bcea3d640d7e9ee2b071c55bff9ade3268edb319
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50f076b89c5ac7fee4866534cbd47d81f92f3ab3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076225"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131263"
 ---
 # <a name="submitting-a-resource-request"></a>Enviar unha solicitude de recurso
 
@@ -38,4 +38,4 @@ Pode enviar un requisito de recurso xerado como solicitude de recurso. A solicit
 
 O estado da solicitude de membro xenérico do equipo cambiará a **Enviado**.
 
-Despois de que o xestor de recursos cumpra a solicitude, o recurso xenérico substituirase por un recurso nomeado se o xestor de recursos cumpre a solicitude coa reserva dun recurso nomeado. Se non, o recurso xenérico permanecerá no equipo e o estado da solicitude cambiará a **Necesita revisión** , se o xestor de recursos propuxo un recurso nomeado.
+Despois de que o xestor de recursos cumpra a solicitude, o recurso xenérico substituirase por un recurso nomeado se o xestor de recursos cumpre a solicitude coa reserva dun recurso nomeado. Se non, o recurso xenérico permanecerá no equipo e o estado da solicitude cambiará a **Necesita revisión**, se o xestor de recursos propuxo un recurso nomeado.

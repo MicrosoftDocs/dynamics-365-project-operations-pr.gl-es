@@ -3,7 +3,7 @@ title: Crear unha oferta de proxecto
 description: Como crear unha oferta de proxecto en Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: efa18faffc6b5e97e8fbc21352688874d07e906f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a28bafed6fa76e21e3edb890da04f105b2b2a3c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076240"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133141"
 ---
 # <a name="create-a-project-quote-project-service"></a>Crear unha oferta de proxecto (Project Service)
 
@@ -35,7 +35,7 @@ Crear unha oferta é similar a crear unha oportunidade. Cando unha oportunidade 
   
 2. Prema **Seguinte Fase** á dereita da barra de proceso logo seleccione unha oferta existente ou prema **Crear** para crear unha nova oferta.  
   
-3. Na área **Resumo** , modifique a información segundo considere necesario.  
+3. Na área **Resumo**, modifique a información segundo considere necesario.  
   
 4. Prema **Gardar** para crear a oferta e poder editala.  
   
@@ -49,7 +49,7 @@ Crear unha oferta é similar a crear unha oportunidade. Cando unha oportunidade 
   
 9. Se o cliente acepta oferta, prema en **Pechar como Gañada** na parte superior da pantalla **Oferta**. Se o cliente desexa modificar algúns elementos, siga todo este proceso para crear unha nova oferta. Se o cliente decida non utilizar os seus servizos neste momento, prema en **Pechar como perdida** na parte superior da pantalla **Oferta**.  
   
-   Ao pechar unha oferta como gañada, o proxecto móvese á fase **Contrato** , e a pantalla **Contrato de proxecto** solicitaralle que cree un contrato para este proxecto.  
+   Ao pechar unha oferta como gañada, o proxecto móvese á fase **Contrato**, e a pantalla **Contrato de proxecto** solicitaralle que cree un contrato para este proxecto.  
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía de xestor de contas](../psa/account-manager-guide.md)

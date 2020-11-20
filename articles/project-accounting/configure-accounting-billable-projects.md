@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 32031742b1a9580b9ebdbaf6952a998733be5e8f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076046"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131971"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Configurar a contabilidade para proxectos facturables
 
@@ -21,8 +21,8 @@ _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fo
 
 Dynamics 365 Project Operations admite varias opcións de contabilidade para proxectos facturables que inclúen transaccións de tempo e material e prezo fixo.
 
-- **Transaccións de tempo e material** : Estas transaccións factúranse a medida que avanza o traballo en función do consumo de horas, gastos, elementos ou taxas do proxecto. Estes custos de transacción poden combinarse cos ingresos de cada transacción e o proxecto factúrase a medida que avanza o traballo. Os ingresos do proxecto tamén se poden acumular no momento en que se produce a transacción. Durante a facturación, recoñécense os ingresos e, se é o caso, revértense os ingresos acumulados.
-- **Transaccións de prezo fixo** : Estas transaccións factúranse segundo un programa de facturación baseado nun contrato de proxecto.. Os ingresos por transaccións a prezo fixo pódense recoñecer na facturación ou calcularse e contabilizarse periodicamente, segundo os métodos de **Contrato completado** ou **Porcentaxe completada**.
+- **Transaccións de tempo e material**: Estas transaccións factúranse a medida que avanza o traballo en función do consumo de horas, gastos, elementos ou taxas do proxecto. Estes custos de transacción poden combinarse cos ingresos de cada transacción e o proxecto factúrase a medida que avanza o traballo. Os ingresos do proxecto tamén se poden acumular no momento en que se produce a transacción. Durante a facturación, recoñécense os ingresos e, se é o caso, revértense os ingresos acumulados.
+- **Transaccións de prezo fixo**: Estas transaccións factúranse segundo un programa de facturación baseado nun contrato de proxecto.. Os ingresos por transaccións a prezo fixo pódense recoñecer na facturación ou calcularse e contabilizarse periodicamente, segundo os métodos de **Contrato completado** ou **Porcentaxe completada**.
 
 Un proxecto considérase facturable cando está asociado a unha ou máis liñas de contrato. Unha liña de contrato de proxecto define por si mesma que método de facturación e tipos de transaccións están permitidos.
 
@@ -42,50 +42,50 @@ Complete os seguintes pasos para crear un novo perfil de custo e ingresos do pro
 
 1. Vaia a **Xestión e contabilidade do proxecto** > **Configuración** > **Publicación** > **Perfís de custo e ingresos do proxecto**. 
 2. Seleccione **Novo** para crear un novo perfil de custo e ingresos do proxecto.
-3. No campo **Nome** , introduza o nome e unha breve descrición do perfil.
-4. No campo **Método de facturación** , seleccione **Tempo e material** ou **Prezo fixo**.
+3. No campo **Nome**, introduza o nome e unha breve descrición do perfil.
+4. No campo **Método de facturación**, seleccione **Tempo e material** ou **Prezo fixo**.
 5. Expanda o separador rápido **Libro maior**. Os campos deste separador definen os principios de contabilidade que se utilizan cando as transaccións do proxecto se rexistran mediante o diario de integración de Project Operations e logo se facturan a través da proposta de factura do proxecto.
-6. Seleccione a información adecuada nos campos seguintes no separador rápido **Libro maior** :
+6. Seleccione a información adecuada nos campos seguintes no separador rápido **Libro maior**:
 
-    - **Contabilizar custos - hora** :
+    - **Contabilizar custos - hora**:
 
-       - *Sen libro maior* : O custo das transaccións por tempo non se contabilizará no libro maior cando se contabilice o diario de integración de Project Operations. Non obstante, o contable pode contabilizar custos utilizando a función Contabilizar custos máis tarde.
-       - **Saldo** : O custo das transaccións de tempo cargarase no tipo de conta de libro maior, *WIP - Valor de custo* e na *Conta de asignación de nóminas* na configuración de contabilización do libro maior. O contable utilizará a función de contabilizar custos para mover periodicamente este custo dunha conta de saldo a unha conta de resultados.
-       - **Resultados** : Ao publicar o diario de integración de Project Operations, o custo da transacción de tempo cargarase no tipo de conta de libro maior *Custo* e na *Conta de asignación de nóminas* definida no separador **Custo** na páxina **Configuración contabilización de libro maior** ( **Xestión e contabilidade de proxectos** \> **Configuración** \> **Contabilización** \> **Configuración de contabilización de libro maior** ). Esta é a configuración máis frecuente para transaccións de tempo e material.
-        - *Nunca libro maior* : O custo das transaccións de tempo nunca se contabilizará no libro maior.
+       - *Sen libro maior*: O custo das transaccións por tempo non se contabilizará no libro maior cando se contabilice o diario de integración de Project Operations. Non obstante, o contable pode contabilizar custos utilizando a función Contabilizar custos máis tarde.
+       - **Saldo**: O custo das transaccións de tempo cargarase no tipo de conta de libro maior, *WIP - Valor de custo* e na *Conta de asignación de nóminas* na configuración de contabilización do libro maior. O contable utilizará a función de contabilizar custos para mover periodicamente este custo dunha conta de saldo a unha conta de resultados.
+       - **Resultados**: Ao publicar o diario de integración de Project Operations, o custo da transacción de tempo cargarase no tipo de conta de libro maior *Custo* e na *Conta de asignación de nóminas* definida no separador **Custo** na páxina **Configuración contabilización de libro maior** (**Xestión e contabilidade de proxectos** \> **Configuración** \> **Contabilización** \> **Configuración de contabilización de libro maior**). Esta é a configuración máis frecuente para transaccións de tempo e material.
+        - *Nunca libro maior*: O custo das transaccións de tempo nunca se contabilizará no libro maior.
 
-    - **Contabilizar custos – gasto** :
+    - **Contabilizar custos – gasto**:
 
-         - **Saldo** : Ao publicar o diario de integración de Project Operations, o custo da transacción do gasto cargarase no tipo de conta de libro maior *WIP - Valor de custo* como se define no separador **Custo** na páxina **Configuración de contabilización de libro maior** e na acreditada na conta de compensación na liña de diario. As contas compensadas predefinidas para gastos defínense en **Xestión e contabilidade de proxectos** > **Configuración** \> **Contabilización** \> **Conta compensada por defecto para gastos**. O contable utilizará a función de **Contabilizar custos** para mover periodicamente este custo dunha conta de saldo a unha conta de resultados.
-        - **Resultados** : Ao publicar o diario de integración de Project Operations, o custo da transacción do gasto cargarase no tipo de conta de libro maior *Custo* como se define no separador **Custo** na páxina **Configuración de contabilización de libro maior** e na acreditada na conta de compensación na liña de diario. As contas compensadas predefinidas para gastos defínense en **Xestión e contabilidade de proxectos** \> **Configuración** \> **Contabilización** \> **Conta compensada por defecto para gastos**.
+         - **Saldo**: Ao publicar o diario de integración de Project Operations, o custo da transacción do gasto cargarase no tipo de conta de libro maior *WIP - Valor de custo* como se define no separador **Custo** na páxina **Configuración de contabilización de libro maior** e na acreditada na conta de compensación na liña de diario. As contas compensadas predefinidas para gastos defínense en **Xestión e contabilidade de proxectos** > **Configuración** \> **Contabilización** \> **Conta compensada por defecto para gastos**. O contable utilizará a función de **Contabilizar custos** para mover periodicamente este custo dunha conta de saldo a unha conta de resultados.
+        - **Resultados**: Ao publicar o diario de integración de Project Operations, o custo da transacción do gasto cargarase no tipo de conta de libro maior *Custo* como se define no separador **Custo** na páxina **Configuración de contabilización de libro maior** e na acreditada na conta de compensación na liña de diario. As contas compensadas predefinidas para gastos defínense en **Xestión e contabilidade de proxectos** \> **Configuración** \> **Contabilización** \> **Conta compensada por defecto para gastos**.
        
-    - **Facturación en conta** :
+    - **Facturación en conta**:
 
-        - **Saldo** : Ao contabilizar a proposta de factura do proxecto, pagarase unha transacción na conta (fito de facturación) no tipo de conta de libro maior *WIP facturado - en conta* como se define no separador **Ingresos** na páxina **Configuración de contabilización de libro maior** e cargarase na conta de saldo do cliente.
-         - **Resultados** : Ao contabilizar a proposta de factura do proxecto, pagarase unha transacción na conta (fito de facturación) no tipo de conta de libro maior *Ingresos facturados - en conta* como se define no separador **Ingresos** na páxina **Configuración de contabilización de libro maior** e cargarase na conta de saldo do cliente. As contas de saldo de clientes defínense en **Contas pendentes de cobro** \> **Configuración** \> **Perfís de contabilización de clientes**.
+        - **Saldo**: Ao contabilizar a proposta de factura do proxecto, pagarase unha transacción na conta (fito de facturación) no tipo de conta de libro maior *WIP facturado - en conta* como se define no separador **Ingresos** na páxina **Configuración de contabilización de libro maior** e cargarase na conta de saldo do cliente.
+         - **Resultados**: Ao contabilizar a proposta de factura do proxecto, pagarase unha transacción na conta (fito de facturación) no tipo de conta de libro maior *Ingresos facturados - en conta* como se define no separador **Ingresos** na páxina **Configuración de contabilización de libro maior** e cargarase na conta de saldo do cliente. As contas de saldo de clientes defínense en **Contas pendentes de cobro** \> **Configuración** \> **Perfís de contabilización de clientes**.
 
-   Cando define os perfís de contabilización para os métodos de facturación de tempo e material, ten a opción de acumular ingresos por tipo de transacción (hora, gasto e tarifa). Se a opción **Acumular ingresos** a opción está definida como **Si** , as transaccións de vendas sen facturar no diario de integración de Project Operations rexistraranse no libro maior. O valor de vendas cárgase en **WIP - conta de valor de vendas** e págase na conta **Ingresos acumulados - valor de vendas** que se configurou na páxina **Configuración de contabilización de libro maior** , no separador **Ingresos**. 
+   Cando define os perfís de contabilización para os métodos de facturación de tempo e material, ten a opción de acumular ingresos por tipo de transacción (hora, gasto e tarifa). Se a opción **Acumular ingresos** a opción está definida como **Si**, as transaccións de vendas sen facturar no diario de integración de Project Operations rexistraranse no libro maior. O valor de vendas cárgase en **WIP - conta de valor de vendas** e págase na conta **Ingresos acumulados - valor de vendas** que se configurou na páxina **Configuración de contabilización de libro maior**, no separador **Ingresos**. 
   
   > [!NOTE]
   > A opción **Acumular ingresos** está dispoñible só cando o tipo de transacción respectivo **Custo** contabilízase na conta de resultados.
     
 7. Expanda o separador rápido **Estimaciónr**. Os campos deste separador definen a configuración de cálculo para estimacións de ingresos de prezo fixo. Os campos deste separador só se aplican aos perfís de custos e ingresos do proxecto cun método de facturación de **Prezo fixo**.
-8. Seleccione a información adecuada nos campos seguintes no separador rápido **Estimación** :
+8. Seleccione a información adecuada nos campos seguintes no separador rápido **Estimación**:
 
-    - **Principio empregado para os cálculos de finalización do proxecto** :
+    - **Principio empregado para os cálculos de finalización do proxecto**:
 
-        - **Contrato finalizado** : A correspondencia de custos e o recoñecemento de ingresos non se producen ata o final do proxecto. Os custos reflíctense como WIP no saldo ata que o proxecto estea completo.
-        - **Porcentaxe finalizada** : Os ingresos acumulados calcúlanse e contabilízanse no libro maior cada período en función da porcentaxe de finalización do proxecto. Hai varios métodos dispoñibles para calcular a porcentaxe de finalización. Estes métodos poden ser automáticos en función da configuración ou manuais.
-        - **Sen WIP** : Esta configuración úsase para proxectos de prezo fixo cun período de tempo curto e onde a factura e os custos se producen no mesmo período. Neste caso, o valor do campo **Facturación en conta** no separador rápido **Libro maior** configúrase automaticamente en **Resultados** para garantir que os ingresos se recoñecen na facturación. O proceso de estimación de ingresos non se utilizará para este perfil de custos e ingresos do proxecto.
+        - **Contrato finalizado**: A correspondencia de custos e o recoñecemento de ingresos non se producen ata o final do proxecto. Os custos reflíctense como WIP no saldo ata que o proxecto estea completo.
+        - **Porcentaxe finalizada**: Os ingresos acumulados calcúlanse e contabilízanse no libro maior cada período en función da porcentaxe de finalización do proxecto. Hai varios métodos dispoñibles para calcular a porcentaxe de finalización. Estes métodos poden ser automáticos en función da configuración ou manuais.
+        - **Sen WIP**: Esta configuración úsase para proxectos de prezo fixo cun período de tempo curto e onde a factura e os custos se producen no mesmo período. Neste caso, o valor do campo **Facturación en conta** no separador rápido **Libro maior** configúrase automaticamente en **Resultados** para garantir que os ingresos se recoñecen na facturación. O proceso de estimación de ingresos non se utilizará para este perfil de custos e ingresos do proxecto.
 
-    - **Principio de correspondencia** : Este campo determina como se contabilizará no libro maior o valor de vendas calculado (ingresos acumulados).
+    - **Principio de correspondencia**: Este campo determina como se contabilizará no libro maior o valor de vendas calculado (ingresos acumulados).
 
-        - Usando o principio de **Valor das vendas** , o sistema calculará o valor das vendas facendo coincidir os custos e os ingresos e logo contabilizándoo como un importe único.
-        - Usando o principio de **Produción e beneficio** , o sistema dividirá o valor das vendas en custos realizados e beneficio calculado. Estes contabilízanse por separado.
+        - Usando o principio de **Valor das vendas**, o sistema calculará o valor das vendas facendo coincidir os custos e os ingresos e logo contabilizándoo como un importe único.
+        - Usando o principio de **Produción e beneficio**, o sistema dividirá o valor das vendas en custos realizados e beneficio calculado. Estes contabilízanse por separado.
 
-    - **Modelos de custos** : Permitir agrupar as transaccións do proxecto en función do tipo de transacción e a categoría do proxecto e definir as regras de cálculo de finalización porcentual para estes grupos.
-    - **Códigos de período** : Definir a frecuencia coa que se calculan as estimacións de ingresos para un determinado perfil de custos e ingresos de proxecto.
-    - **Categorías para estimación** : Úsase para contabilizar o valor das vendas (ingresos acumulados) nas transaccións do proxecto. Primeiro, configure a categoría de proxecto dedicado para un tipo de transacción **Taxa** e logo configure o indicador **Estimación** para esta categoría de proxecto. A seguir, dependendo do principio de coincidencia seleccionado, escolla esta categoría de proxecto no valor **Vendas** ou o campo **Beneficio** no perfil de custos e ingresos do proxecto.
+    - **Modelos de custos**: Permitir agrupar as transaccións do proxecto en función do tipo de transacción e a categoría do proxecto e definir as regras de cálculo de finalización porcentual para estes grupos.
+    - **Códigos de período**: Definir a frecuencia coa que se calculan as estimacións de ingresos para un determinado perfil de custos e ingresos de proxecto.
+    - **Categorías para estimación**: Úsase para contabilizar o valor das vendas (ingresos acumulados) nas transaccións do proxecto. Primeiro, configure a categoría de proxecto dedicado para un tipo de transacción **Taxa** e logo configure o indicador **Estimación** para esta categoría de proxecto. A seguir, dependendo do principio de coincidencia seleccionado, escolla esta categoría de proxecto no valor **Vendas** ou o campo **Beneficio** no perfil de custos e ingresos do proxecto.
 
 ### <a name="sample-configurations-for-project-cost-and-revenue-profiles"></a>Exemplos de configuracións para perfís de custos e ingresos do proxecto
 

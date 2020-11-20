@@ -3,7 +3,7 @@ title: Xestionar recursos
 description: Este tema fornece información sobre como pode xestionar recursos.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b34ad66750dba9459d551a2527c13111196511e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 548595e3951f824e1c79a641d3f336e381fcaaf9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076333"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132331"
 ---
 # <a name="manage-resources"></a>Xestionar recursos
 
@@ -44,11 +44,11 @@ Os xestores de proxectos poden usar o panel de xestor de recursos para xestionar
 
 ### <a name="add-a-team-member-directly-to-a-project"></a>Engadir un membro do equipo directamente a un proxecto
 
-Para engadir un membro do equipo directamente a un proxecto, na páxina **Proxectos** , no separador **Equipo** , seleccione **Novo**. Aparecerá a caixa de diálogo **Creación rápida: Membro de equipo de proxecto**. Nesta caixa de diálogo, pode realizar estas tarefas:
+Para engadir un membro do equipo directamente a un proxecto, na páxina **Proxectos**, no separador **Equipo**, seleccione **Novo**. Aparecerá a caixa de diálogo **Creación rápida: Membro de equipo de proxecto**. Nesta caixa de diálogo, pode realizar estas tarefas:
 
-- **Reservar un recurso nomeado** - No campo **Recurso reservable** , seleccione o nome do recurso. A seguir, seleccione o rol, estableza o período e seleccione un método de asignación. O recurso nomeado que seleccionou engádese ao proxecto mediante o método de asignación seleccionado e o calendario de recursos.
+- **Reservar un recurso nomeado** - No campo **Recurso reservable**, seleccione o nome do recurso. A seguir, seleccione o rol, estableza o período e seleccione un método de asignación. O recurso nomeado que seleccionou engádese ao proxecto mediante o método de asignación seleccionado e o calendario de recursos.
 - **Engadir un recurso xenérico** - Deixe o campo **Recurso reservable** en branco e, a seguir, seleccione o rol, estableza o período e seleccione o método de asignación preferido. Un recurso xenérico engádese ao equipo como marcador de posición para manter o padrón de demanda empregado para reservar recursos nomeados no equipo. O requisito faise segundo o calendario do proxecto.
-- **Engadir un recurso nomeado ao equipo sen consumir capacidade do recurso** - No capo **Recurso reservable** , seleccione un recurso. A seguir, seleccione o período e seleccione **Ningún** como método de asignación. O recurso engádese ao equipo, pero a capacidade do recurso non se consume a través dunha reserva.
+- **Engadir un recurso nomeado ao equipo sen consumir capacidade do recurso** - No capo **Recurso reservable**, seleccione un recurso. A seguir, seleccione o período e seleccione **Ningún** como método de asignación. O recurso engádese ao equipo, pero a capacidade do recurso non se consume a través dunha reserva.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Reservar un membro do equipo para cumprir os requisitos dun recurso xenérico
 
@@ -56,23 +56,23 @@ En PSA, pode reservar un recurso xenérico nun equipo de proxecto e pode especif
 
 Siga estes pasos para especificar as habilidades necesarias nun recurso xenérico para un programador.
 
-1. Na páxina **Proxectos** , no separador **Equipo** , seleccione **Novo** para reservar un recurso xenérico.
+1. Na páxina **Proxectos**, no separador **Equipo**, seleccione **Novo** para reservar un recurso xenérico.
 
     ![Recurso xenérico reservado no equipo](media/Resource-Management-image9.png)
 
-2. Na vista **Todos os membros do equipo** , na columna **Requisito de recurso** , seleccione a ligazón para engadir as habilidades necesarias para o recurso xenérico.
+2. Na vista **Todos os membros do equipo**, na columna **Requisito de recurso**, seleccione a ligazón para engadir as habilidades necesarias para o recurso xenérico.
 
     ![Ligazón de requisito](media/Resource-Management-image10.png)
 
-3. Na páxina **Requisito de recurso** que aparece, na grade **Habilidades** , seleccione os puntos suspensivos ( **...** ) e, a seguir, seleccione **Engadir unha nova característica de requisito** para engadir as habilidades necesarias para o seu programador.
+3. Na páxina **Requisito de recurso** que aparece, na grade **Habilidades**, seleccione os puntos suspensivos (**...**) e, a seguir, seleccione **Engadir unha nova característica de requisito** para engadir as habilidades necesarias para o seu programador.
 
     ![Engadir comando de nova característica de requisito](media/Resource-Management-image11.png)
 
-4. Na caixa de diálogo **Creación rápida: característica de requisito** que aparece no campo **Característica** , seleccione a habilidade requirida. Despois, no campo **Valor de clasificación** , seleccione o nivel de competencia para esa habilidade. Finalmente, no campo **Requisito de recurso** , estableza o requisito para obter recursos orixe de unidades organizativas ou incluso recursos nomeados. Ao concluír, seleccione **Gardar**.
+4. Na caixa de diálogo **Creación rápida: característica de requisito** que aparece no campo **Característica**, seleccione a habilidade requirida. Despois, no campo **Valor de clasificación**, seleccione o nivel de competencia para esa habilidade. Finalmente, no campo **Requisito de recurso**, estableza o requisito para obter recursos orixe de unidades organizativas ou incluso recursos nomeados. Ao concluír, seleccione **Gardar**.
 
     ![Caixa de diáñogo Creación rápida: Característica de requisito](media/Resource-Management-image12.png)
 
-5. Na páxina **Requisito de recurso** , seleccione **Reservar** para cumprir o requisito de recurso.
+5. Na páxina **Requisito de recurso**, seleccione **Reservar** para cumprir o requisito de recurso.
 
     ![Botón de reserva na páxina Requisito de recurso](media/Resource-Management-image13.png)
 
@@ -120,11 +120,11 @@ Siga estes pasos para especificar as habilidades necesarias nun recurso xenéric
 
 En PSA, pode crear tarefas e despois asignarlles recursos xenéricos. Deste xeito, a demanda de recursos pode ser representada polos marcadores de posición mentres estima a súa programación e cifras financeiras. Pode xerar requisitos de recursos para os recursos xenéricos e cumprilos.
 
-1. Na páxina **Proxectos** , no separador **Programación** , seleccione **Engadir** para crear unha tarefa.
+1. Na páxina **Proxectos**, no separador **Programación**, seleccione **Engadir** para crear unha tarefa.
 
     ![Nova tarefa creada](media/Resource-Management-image21.png)
 
-2. No campo **Recursos** , seleccione o símbolo de **Selector de recursos**. O Selector de recursos aparece e amosa aos membros do equipo existentes para o proxecto.
+2. No campo **Recursos**, seleccione o símbolo de **Selector de recursos**. O Selector de recursos aparece e amosa aos membros do equipo existentes para o proxecto.
 
     ![Selector de recursos](media/Resource-Management-image22.png)
 
@@ -132,7 +132,7 @@ En PSA, pode crear tarefas e despois asignarlles recursos xenéricos. Deste xeit
 
     ![Nomee o novo recurso xenérico introducido](media/Resource-Management-image23.png)
 
-4. Na caixa de diálogo **Creación rápida: membro do equipo de proxecto** que aparece, no campo **Rol** , seleccione o recurso requirido. No campo **Unidade de recursos** , seleccione a unidade organizativa para o recurso xenérico. Seleccione **Gardar**.
+4. Na caixa de diálogo **Creación rápida: membro do equipo de proxecto** que aparece, no campo **Rol**, seleccione o recurso requirido. No campo **Unidade de recursos**, seleccione a unidade organizativa para o recurso xenérico. Seleccione **Gardar**.
 
     ![Caixa de diálogo Creación rápida: membro de equipo de proxecto.](media/Resource-Management-image24.png)
 
@@ -140,7 +140,7 @@ En PSA, pode crear tarefas e despois asignarlles recursos xenéricos. Deste xeit
 
     ![Membro do equipo xenérico atribuído á tarefa](media/Resource-Management-image25.png)
 
-    No separador **Equipo** , verá o novo membro xenérico do equipo. Teña en conta que só ten atribuídas horas. Estas horas son a suma de todas as tarefas atribuídas ao membro do equipo xenérico. O membro do equipo xenérico aínda non necesita horas ou un requisito de recurso.
+    No separador **Equipo**, verá o novo membro xenérico do equipo. Teña en conta que só ten atribuídas horas. Estas horas son a suma de todas as tarefas atribuídas ao membro do equipo xenérico. O membro do equipo xenérico aínda non necesita horas ou un requisito de recurso.
 
     ![Membro xenérico do equipo no separador Equipo](media/Resource-Management-image26.png)
 
@@ -150,7 +150,7 @@ En PSA, pode crear tarefas e despois asignarlles recursos xenéricos. Deste xeit
 
     Cando termine de atribuír o recurso xenérico a tarefas, pode xerar un requisito de recurso para o recurso xenérico.
 
-5. No separador **Equipo** , seleccione o recurso xenérico e, a seguir, seleccione **Xerar requisito**.
+5. No separador **Equipo**, seleccione o recurso xenérico e, a seguir, seleccione **Xerar requisito**.
 
     ![Comando Xerar requisito](media/Resource-Management-image28.png)
 
@@ -162,7 +162,7 @@ En PSA, pode crear tarefas e despois asignarlles recursos xenéricos. Deste xeit
 
     ![Recurso xenérico substituído polo recurso nomeado](media/Resource-Management-image30.png)
 
-    No separador **Programación** , elimínanse as atribucións do recurso xenérico e substitúense polo recurso nomeado.
+    No separador **Programación**, elimínanse as atribucións do recurso xenérico e substitúense polo recurso nomeado.
 
     ![Atribucións do recurso xenérico substituídas polo recurso nomeado no separador de programación](media/Resource-Management-image31.png)
 
@@ -181,11 +181,11 @@ En PSA, pode crear tarefas e despois asignarlles recursos xenéricos. Deste xeit
 
     ![Segundo recurso](media/Resource-Management-image35.png)
 
-    No separador **Equipo** , agora pode ver que o recurso xenérico non ten horas requiridas, pero as horas atribuídas aínda aparecen xunto cos dous recursos nomeados encargados do cumprimento.
+    No separador **Equipo**, agora pode ver que o recurso xenérico non ten horas requiridas, pero as horas atribuídas aínda aparecen xunto cos dous recursos nomeados encargados do cumprimento.
 
     ![Dous recursos nomeados no separador Equipo](media/Resource-Management-image36.png)
 
-    No separador **Programación** , o recurso xenérico permanece asignado á tarefa.
+    No separador **Programación**, o recurso xenérico permanece asignado á tarefa.
 
     ![Recursos xenéricos no separador Programación](media/Resource-Management-image37.png)
 
@@ -197,7 +197,7 @@ Por iso, nestes escenarios, o responsable do proxecto é o responsable de analiz
 
 Despois de que se crease un requisito de recurso, un xestor de proxectos ou xestor de recursos pode querer editar os detalles para refinar os criterios de busca cando se emprega o panel de programación. Para editar o requisito de recurso, siga estes pasos.
 
-1. Na páxina **Proxectos** , no separador **Equipo** , seleccione a ligazón a calquera requisito nun recurso xenérico.
+1. Na páxina **Proxectos**, no separador **Equipo**, seleccione a ligazón a calquera requisito nun recurso xenérico.
 2. Na páxina **Requisito de recurso** que aparece, pode actualizar varios atributos. Aquí van algúns exemplos:
 
     - Nome
@@ -206,7 +206,7 @@ Despois de que se crease un requisito de recurso, un xestor de proxectos ou xest
     - Duración
     - Tipo de recurso
 
-Na páxina **Requisito de recursos** , o xestor de proxectos ou o xestor de recursos tamén pode definir a seguinte información:
+Na páxina **Requisito de recursos**, o xestor de proxectos ou o xestor de recursos tamén pode definir a seguinte información:
 
 - Habilidades
 - Roles
@@ -217,7 +217,7 @@ Na páxina **Requisito de recursos** , o xestor de proxectos ou o xestor de recu
 
 Despois de engadir un recurso xenérico ou nomeado a un equipo de proxecto, pode cambiar as reservas do recurso.
 
-1. Na páxina **Proxecto** , no separador **Equipo** , seleccione un membro do equipo e, a seguir, seleccione **Manter reservas**.
+1. Na páxina **Proxecto**, no separador **Equipo**, seleccione un membro do equipo e, a seguir, seleccione **Manter reservas**.
 
     ![Panel de programación aberto para o membro do equipo seleccionado](media/Resource-Management-image40.png)
 
@@ -286,7 +286,7 @@ Seleccione **Aceptar todas as propostas** para aceptar todos os recursos propost
 
 Ás veces, un xestor de proxectos debe substituír un membro reservado dun equipo nun proxecto.
 
-1. Na páxina **Proxectos** , no separador **Equipo** , seleccione un recurso que necesita un substituto e, a seguir, seleccione **Manter reservas**.
+1. Na páxina **Proxectos**, no separador **Equipo**, seleccione un recurso que necesita un substituto e, a seguir, seleccione **Manter reservas**.
 2. Expanda o recurso para ver os proxectos aos que está asignado.
 
     ![Recurso expandido para mostrar os proxectos asignados](media/Resource-Management-image50.png)
@@ -337,7 +337,7 @@ Cando vexa o tempo a niveis máis altos, as celas do separador **Conciliación**
 
 ![Indicador de diferenzas](media/Resource-Management-image57.png)
 
-Se ten atribucións de tarefas para un recurso pero non ten reservas, na páxina **Proxectos** , no separador **Conciliación** , seleccione a escaseza de reservas e logo seleccione **Estender a reserva**. Aparece a caixa de diálogo **Estender reserva** e mostra a reserva que é necesaria para resolver a escaseza do recurso. Tamén amosa as reservas existentes do recurso en todos os proxectos ou outras entidades programables. Se selecciona **Aceptar** para crear a reserva para o recurso, independentemente da dispoñibilidade dese recurso, pode causar un exceso de reservas.
+Se ten atribucións de tarefas para un recurso pero non ten reservas, na páxina **Proxectos**, no separador **Conciliación**, seleccione a escaseza de reservas e logo seleccione **Estender a reserva**. Aparece a caixa de diálogo **Estender reserva** e mostra a reserva que é necesaria para resolver a escaseza do recurso. Tamén amosa as reservas existentes do recurso en todos os proxectos ou outras entidades programables. Se selecciona **Aceptar** para crear a reserva para o recurso, independentemente da dispoñibilidade dese recurso, pode causar un exceso de reservas.
 
 ![Caixa de diálogo de Estender reserva](media/Resource-Management-image58.png)
 

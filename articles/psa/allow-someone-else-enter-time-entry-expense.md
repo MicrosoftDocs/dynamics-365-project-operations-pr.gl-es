@@ -3,7 +3,7 @@ title: Permitir que outra persoa introduza o seu horario de entrada ou gastos
 description: Como permitir que outras persoas introduzan a entrada de tempo ou gasto en Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076105"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130364"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Permitir que outra persoa especifique a entrada de tempo ou gasto (Project Service)
 
@@ -37,13 +37,13 @@ Defina un delegado para permitir que outra persoa realice entradas de tempo ou g
   
 2.  Na barra de comandos, prema en **Novo**.  
   
-3. **Nome** : Escriba un nome para o rexistro.  
+3. **Nome**: Escriba un nome para o rexistro.  
   
-4. **Tipo** : Seleccione se o delegado pode escribir entradas de hora ou gastos no seu nome.  
+4. **Tipo**: Seleccione se o delegado pode escribir entradas de hora ou gastos no seu nome.  
   
-5. **Delegado** : Seleccione o nome da persoa que quere que sexa o delegado.  
+5. **Delegado**: Seleccione o nome da persoa que quere que sexa o delegado.  
   
-6. **Datas de inicio e fin** : Escolla as datas de inicio e fin da delegación.  
+6. **Datas de inicio e fin**: Escolla as datas de inicio e fin da delegación.  
   
 7.  Cando finalice, prema **Gardar e Pechar**.  
   
@@ -55,7 +55,7 @@ Defina un delegado para permitir que outra persoa realice entradas de tempo ou g
   
 3.  Na barra de comandos, prema **Desactivar**.  
   
-4.  Na caixa de diálogo **Confirmar desactivación** , prema **Desactivar**.  
+4.  Na caixa de diálogo **Confirmar desactivación**, prema **Desactivar**.  
   
 ## <a name="enter-time-for-someone-else"></a>Escribir a hora para outra persoa  
   

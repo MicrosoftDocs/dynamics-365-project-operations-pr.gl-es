@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e589465eb98723b3b49c5d96e263eb3abf15eb2c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 920388b622eaace1787428facbd12a0608615fe0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076172"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130981"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Engadir campos personalizados requiridos á configuración de prezos e ás entidades transaccionais
 
@@ -33,7 +33,7 @@ Este tema supón que completou os procedementos do tema, [Crear campos e entidad
 Neste tema, os procedementos amosaranlle como engadir as referencias de campo personalizadas necesarias ás entidades e aos elementos de interface de usuario (IU) como formularios e vistas.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Engadir campos de dimensión de prezos personalizados 
-Despois de que se crearon campos e entidades personalizadas, o seguinte paso é facer que a configuración de prezos e as entidades transaccionais coñezan as entidades personalizadas ou conxuntos de opcións creando campos de referencia. Dependendo de se a lista de dimensións de prezos inclúe dimensións de conxunto de opcións ou dimensións de entidade ou ambas, siga só os pasos de **Dimensións de prezos personalizados baseadas en conxunto de opcións** ou **Dimensións dos prezos personalizados baseadas na entidade** , ou ambos, respectivamente.
+Despois de que se crearon campos e entidades personalizadas, o seguinte paso é facer que a configuración de prezos e as entidades transaccionais coñezan as entidades personalizadas ou conxuntos de opcións creando campos de referencia. Dependendo de se a lista de dimensións de prezos inclúe dimensións de conxunto de opcións ou dimensións de entidade ou ambas, siga só os pasos de **Dimensións de prezos personalizados baseadas en conxunto de opcións** ou **Dimensións dos prezos personalizados baseadas na entidade**, ou ambos, respectivamente.
 
 ### <a name="option-set-based-custom-pricing-dimensions"></a>Dimensións de prezos personalizadas baseadas en conxunto de opcións
 Cando unha dimensión de prezos personalizada estea baseada en conxuntos de opcións, engádaa como campo ás entidades clave. No seguinte procedemento, **Localización do traballo de recurso** e **Horas de traballo de recurso** úsanse como dimensións de prezos baseadas en conxunto de opcións. Estas deben engadirse primeiro como campos ás entidades de prezos, **Prezo de rol** e **Sobreprezo de rol**.
@@ -42,31 +42,31 @@ Cando unha dimensión de prezos personalizada estea baseada en conxuntos de opci
 2. No explorador de solucións, no panel de navegación da esquerda, seleccione **Entidades > Prezo de rol**.
 3. Expanda a entidade **Prezo de rol** e seleccione **Campos**.
 4. Seleccione **Novo** para crear un novo campo chamado **Localización de traballo de recurso** e seleccione **Conxunto de opcións** como tipo de campo. 
-5. Seleccione **Usar un conxunto de opcións existente** , seleccione o conxunto de opcións **Localización do traballo de recurso** e, a seguir, seleccione **Gardar**.
+5. Seleccione **Usar un conxunto de opcións existente**, seleccione o conxunto de opcións **Localización do traballo de recurso** e, a seguir, seleccione **Gardar**.
 6. Repita os pasos 1 - 5 para engadir este campo á entidade **Sobreprezo de rol**. 
 7. Repita os pasos 1-5 para o conxunto de opcións **Horas de traballo de recurso**.
 
 > [!IMPORTANT]
 > Cando engada un campo a máis dunha entidade, use o mesmo nome de campo en todas as entidades. 
 
-Nas fases de vendas e estimación dun proxecto, as estimacións do esforzo laboral que se precisa para completar o traballo **Local** e **No sitio** , en **Horario normal** e **Horas extraordinarias** úsanse para estimar o valor da oferta/proxecto. Os campos **Localización de traballo de recurso** e **Horas de traballo de recurso** engadiranse ás entidades de estimación, **Detalle da liña de oferta** , **Detalle da liña de contrato** , **Membro do equipo de proxecto** e **Liña de estimación**.
+Nas fases de vendas e estimación dun proxecto, as estimacións do esforzo laboral que se precisa para completar o traballo **Local** e **No sitio**, en **Horario normal** e **Horas extraordinarias** úsanse para estimar o valor da oferta/proxecto. Os campos **Localización de traballo de recurso** e **Horas de traballo de recurso** engadiranse ás entidades de estimación, **Detalle da liña de oferta**, **Detalle da liña de contrato**, **Membro do equipo de proxecto** e **Liña de estimación**.
 
 1. En Project Operations, seleccione **Configuración** > **Solucións** e logo prema dúas veces **\<your organization name> dimensións de prezos**. 
 2. No explorador de solucións, no panel de navegación da esquerda, seleccione **Entidades > Detalle de liña de oferta**.
 3. Expanda a entidade **Detalle de liña de oferta** e seleccione **Campos**.
 4. Seleccione **Novo** para crear un novo campo chamado **Localización de traballo de recurso** e seleccione o tipo de campo **Conxunto de opcións**. 
 5. Seleccione **Usar un conxunto de opcións existente** e **Localización do traballo de recurso** e, a seguir, seleccione **Gardar**.
-6. Repita os pasos 1 - 5 para engadir este campo ás entidades **Detalle de liña de contrato de proxecto** , **Membro do equipo de proxecto** e **Liña de estimación**.
+6. Repita os pasos 1 - 5 para engadir este campo ás entidades **Detalle de liña de contrato de proxecto**, **Membro do equipo de proxecto** e **Liña de estimación**.
 7. Repita os pasos 1-6 para o conxunto de opcións **Horas de traballo de recurso**. 
 
-Para a entrega e facturación, o traballo finalizado debe ter un prezo preciso para seleccionar se se realizou **Local** ou **No sitio** e se se completou durante o **Horario normal** ou en **Horas extra** nos datos reais do proxecto. Os campos **Localización de traballo de recurso** e **Horas de traballo de recurso** deben engadirse ás entidades **Entrada de tempo** , **Dato real** , **Detalle de liña de factura** , e **Liña de diario**.
+Para a entrega e facturación, o traballo finalizado debe ter un prezo preciso para seleccionar se se realizou **Local** ou **No sitio** e se se completou durante o **Horario normal** ou en **Horas extra** nos datos reais do proxecto. Os campos **Localización de traballo de recurso** e **Horas de traballo de recurso** deben engadirse ás entidades **Entrada de tempo**, **Dato real**, **Detalle de liña de factura**, e **Liña de diario**.
 
 1. Seleccione **Configuración** > **Solucións** e logo prema dúas veces **\<your organization name> dimensións de prezos**.
 2. No explorador de solucións, no panel de navegación da esquerda, seleccione **Entidades > Entrada de tempo**.
 3. Expanda a entidade **Detalle de liña de oferta** e, a seguir, seleccione **Campos**.
 4. Seleccione **Novo** para crear un novo campo chamado **Localización de traballo de recurso** e seleccione **Conxunto de opcións** como tipo de campo. 
-5. Seleccione **Usar un conxunto de opcións existente** , seleccione o conxunto de opcións **Localización do traballo de recurso** e, a seguir, seleccione **Gardar**.
-6. Repita os pasos 1 - 5 para engadir este campo ás entidades **Dato real** , **Detalle de liña de factura** , e **Liña de diario**.
+5. Seleccione **Usar un conxunto de opcións existente**, seleccione o conxunto de opcións **Localización do traballo de recurso** e, a seguir, seleccione **Gardar**.
+6. Repita os pasos 1 - 5 para engadir este campo ás entidades **Dato real**, **Detalle de liña de factura**, e **Liña de diario**.
 7. Repita os pasos 1-6 para o conxunto de opcións **Horas de traballo de recurso**. 
 
 Isto completa os cambios de esquema necesarios para as dimensións personalizadas baseadas en conxunto de opcións.
@@ -94,18 +94,18 @@ Nas fases de vendas e estimación do proxecto, para o prezo da oferta/proxecto, 
 - **Membro do equipo do proxecto**
 - **Liña de estimación**
 
-5. Repita os pasos 1-5 para crear relacións 1:N desde **Título estándar** ata **Detalle de liña de oferta** , **Detalle da liña de contrato de proxecto** , **Membro do equipo de proxecto** e **Liña de estimación**.
+5. Repita os pasos 1-5 para crear relacións 1:N desde **Título estándar** ata **Detalle de liña de oferta**, **Detalle da liña de contrato de proxecto**, **Membro do equipo de proxecto** e **Liña de estimación**.
 
-  Nas fases de Entrega e Facturación, o traballo completado por cada título estándar deberá ter un prezo exacto nos datos reais do proxecto. Isto significa que ten que haber relacións 1:N desde **Título estándar** ata **Entrada de tempo** , **Dato real** , **Detalle de liña de factura** e **Entidades de liña de diario**.
+  Nas fases de Entrega e Facturación, o traballo completado por cada título estándar deberá ter un prezo exacto nos datos reais do proxecto. Isto significa que ten que haber relacións 1:N desde **Título estándar** ata **Entrada de tempo**, **Dato real**, **Detalle de liña de factura** e **Entidades de liña de diario**.
 
-6. Repita os pasos 1 - 6 para crear relacións 1:N desde **Título estándar** ata **Entrada de tempo** , **Dato real** , **Detalle de liña de factura** e **Entidades de liña de diario**.
+6. Repita os pasos 1 - 6 para crear relacións 1:N desde **Título estándar** ata **Entrada de tempo**, **Dato real**, **Detalle de liña de factura** e **Entidades de liña de diario**.
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Configurar o valor de dimensión predefinido utilizando as funcionalidades de asignacións da plataforma
 Para a entrada de tempo, sería útil facer o sistema utilizase o título estándar por defecto na entrada de tempo do recurso reservable que está a rexistrar a entrada de tempo. Siga os seguintes pasos para engadir asignacións de campo na relación 1:N desde **Recurso reservable** ata **Entrada de tempo**.
 
 1. No explorador de solucións, no panel de navegación da esquerda, seleccione **Entidades > Título estándar**.
 2. Expanda a entidade **Título estándar** e seleccione **Relacións 1:N**.
-3. Prema dás veces en **Recurso reservable a entrada de tempo**. Na páxina **Relación** , seleccione **Usar asignacións de campo**. 
+3. Prema dás veces en **Recurso reservable a entrada de tempo**. Na páxina **Relación**, seleccione **Usar asignacións de campo**. 
 4. Seleccione **Novo** para crear unha nova asignación de campo entre o campo **Título estándar** na entidade **Recurso reservable** ao campo de referencia **Título estándar** na entidade **Entrada de tempo**. 
 
 Isto completa os cambios de esquema necesarios para as dimensións personalizadas baseadas en entidades.
@@ -115,7 +115,7 @@ Isto completa os cambios de esquema necesarios para as dimensións personalizada
 Despois de facer todos os cambios de esquema necesarios, o seguinte paso é facer visibles os campos na IU engadindo os campos aos formularios e ás visualizacións.
 
 1. Abra o formulario ou a visualización. No panel de navegación dereito, seleccione o campo e arrástreo ao lenzo do formulario. 
-2. Se está editando unha visualización, use o panel de navegación dereito, seleccione **Engadir campos** e, na caixa de diálogo **Listado de campos** , seleccione os campos que necesite e seleccione **Aceptar**.
+2. Se está editando unha visualización, use o panel de navegación dereito, seleccione **Engadir campos** e, na caixa de diálogo **Listado de campos**, seleccione os campos que necesite e seleccione **Aceptar**.
 
 A seguinte táboa fornece unha lista completa de formularios listos para usar, listados por entidade, que terán que ser actualizados cos novos campos. Se ten vistas ou formularios adicionais nas súas personalizacións nestas entidades, engada os novos campos a eles tamén.
 

@@ -3,7 +3,7 @@ title: Programar recursos para un proxecto
 description: Como programar recursos para un proxecto en Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db69348aac96cbfaaa865228c9230cbda4b1e784
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1479bf920be897a6ee3498aada7a6c36692a01fc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076338"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132133"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Programar recursos para un proxecto (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4076338"
 
 Pode comprobar a dispoñibilidade de recursos para obter unha vista xeral de como están reservados os seus recursos, ou pode filtrar a visualización por cualificacións, equipo, localización e outras opcións.  
   
-O panel de programación mostra a lista de recursos e a súa dispoñibilidade. Seleccionar un modo de visualización para mostrar dispoñibilidade por **Horas** , **Día** , **Semana** ou **Mes**.  
+O panel de programación mostra a lista de recursos e a súa dispoñibilidade. Seleccionar un modo de visualización para mostrar dispoñibilidade por **Horas**, **Día**, **Semana** ou **Mes**.  
   
 Antes de utilizar o panel de programación, é importante definilo. Para obter máis información, consulte [Configurar o panel de programación (Field Service ou Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
   
@@ -43,13 +43,13 @@ Se está a usar unha versión máis antiga, para obter información sobre a disp
 > 1. No menú principal, seleccione **Programación de recursos** > **Administración**.  
 > 2. Prema **Parámetros de programación**.  
 > 3. Abra o rexistro e desprácese cara abaixo ata a sección **Resource Scheduling Optimization**.  
-> 4. No campo **Conectar a asignacións** , escolla **Si**.  
+> 4. No campo **Conectar a asignacións**, escolla **Si**.  
 > 5. Acepte os termos e garde o rexistro.  
 > 6. No menú principal, seleccione **Project Service** > **Panel de Programación**. Existen varias maneiras de programar manualmente un requisito de reserva. Elixa o método que mellor lle convén.
   
 ## <a name="find-available-resources"></a>Atopar recursos dispoñibles
 
-1.  Na lista de **Requisitos da reserva** , prema co botón secundario nunha reserva sen programar e escolla unha das seguintes opcións:  
+1.  Na lista de **Requisitos da reserva**, prema co botón secundario nunha reserva sen programar e escolla unha das seguintes opcións:  
   
 - Elixa **Localizar dispoñibilidade-Recursos Actuais** para localizar un recurso dispoñible na lista do panel de programación.  
 - Elixa **Elixa Localizar dispoñibilidade-Todos os recursos** para localizar un recurso dispoñible nos recursos do sistema  
@@ -67,7 +67,7 @@ Se está a usar unha versión máis antiga, para obter información sobre a disp
   
 2.  Prema no nome do recurso que desexa reservar e, a seguir, seleccione **Reservar**.  
   
-3.  Na caixa de diálogo **Reserva de Recurso (crear)** , escolla o proxecto para o que desexa reservar o recurso xunto co método de reserva e horas de inicio e fin.  
+3.  Na caixa de diálogo **Reserva de Recurso (crear)**, escolla o proxecto para o que desexa reservar o recurso xunto co método de reserva e horas de inicio e fin.  
   
 4.  Cando finalice, seleccione **Reservar**.  
   

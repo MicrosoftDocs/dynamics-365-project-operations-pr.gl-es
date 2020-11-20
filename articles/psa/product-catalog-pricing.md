@@ -3,7 +3,7 @@ title: Prezos do catálogo de produtos
 description: Este tema fornece información sobre como funcionan os prezos do catálogo de produtos en Dynamics 365 Project Service Automation (PSA).
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e6d9266cfee996b68608c99f77d1b0c053985b3d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11f1d237be4540a64f1854fbed4e5c72ebbce18d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076163"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132286"
 ---
 # <a name="product-catalog-pricing"></a>Prezos do catálogo de produtos 
 
@@ -46,11 +46,11 @@ PSA admite varias opcións de redondeo cando os prezos están configurados en fu
 
 > ![Engadir produtos dun catálogo a diferentes listas de prezos.](media/basic-guide-16.png)
 
-Ao crear unha nova lista de prezos personalizados para unha oferta, seleccione **Crear prezos personalizados** na páxina **Oferta de proxecto** , PSA fai unha copia da lista de prezos e o campo **Entidade** da cabeceira da nova lista de prezos establécese en **Entidade de vendas** O nome da nova lista de prezos engádese co nome da oferta e unha marca de tempo. Tamén pode usar o nome da nova lista de prezos e o nome da oferta en fluxos de traballo personalizados para activar revisións e aprobacións adicionais para ofertas que usan prezos personalizados.
+Ao crear unha nova lista de prezos personalizados para unha oferta, seleccione **Crear prezos personalizados** na páxina **Oferta de proxecto**, PSA fai unha copia da lista de prezos e o campo **Entidade** da cabeceira da nova lista de prezos establécese en **Entidade de vendas** O nome da nova lista de prezos engádese co nome da oferta e unha marca de tempo. Tamén pode usar o nome da nova lista de prezos e o nome da oferta en fluxos de traballo personalizados para activar revisións e aprobacións adicionais para ofertas que usan prezos personalizados.
 
  
 ## <a name="default-product-price-list"></a>Lista de prezos de produtos predefinida
-Cada rexistro de clientes ten un campo **Lista de prezos por defecto** , onde pode especificar unha lista de prezos que coincida coa moeda do cliente. En PSA, este valor por defecto non se introduce automaticamente neste campo. Cando existe un acordo de prezos personalizado cun cliente específico, pode usar este campo para asociar unha lista de prezos a ese cliente.
+Cada rexistro de clientes ten un campo **Lista de prezos por defecto**, onde pode especificar unha lista de prezos que coincida coa moeda do cliente. En PSA, este valor por defecto non se introduce automaticamente neste campo. Cando existe un acordo de prezos personalizado cun cliente específico, pode usar este campo para asociar unha lista de prezos a ese cliente.
 
 As entidades Oportunidade, Oferta e Contrato de proxecto usan a seguinte orde para introducir listas de prezos de produtos por defecto. A mesma orde úsase para listas de prezos de proxecto.
 

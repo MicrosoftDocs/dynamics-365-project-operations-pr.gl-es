@@ -1,21 +1,21 @@
 ---
-title: Xestionar listas de prezos de proxecto nas ofertas de proxecto
+title: Xestionar listas de prezos de proxecto nas ofertas de proxecto - lite
 description: Este tema ofrece información sobre como traballar con listas de prezos de proxecto nas ofertas. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076055"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175979"
 ---
-# <a name="manage-project-price-lists-on-project-quotes-sales"></a>Xestionar listas de prezos de proxecto nas ofertas de proxecto (Vendas)
+# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Xestionar listas de prezos de proxecto nas ofertas de proxecto - lite
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
@@ -48,8 +48,8 @@ As listas de prezos de proxecto pódense configurar por defecto nunha oferta de 
 ### <a name="set-up-organizational-default-for-project-price-lists"></a>Configurar os valores organizativos por defecto para listas de prezos de proxecto
 
 1. Vaia a **Configuración** > **Xeral** > **Parámetros**.
-2. Na páxina de lista **Parámetros activos** , localice o rexistro e prema dúas veces para abrilo. 
-3. Na páxina **Parámetros** , seleccione o separador **Lista de prezos**. Pode ver que se mostra a lista de listas de prezos por defecto. Esta é unha lista de listas de prezos estándar de custo e vendas. Se ten asociada aquí unha lista de prezos de venda para cada moeda na que vende, asegurarase de que esta lista de prezos de venda está por defecto en calquera oferta que cree para os clientes que fagan transaccións nesta moeda.
+2. Na páxina de lista **Parámetros activos**, localice o rexistro e prema dúas veces para abrilo. 
+3. Na páxina **Parámetros**, seleccione o separador **Lista de prezos**. Pode ver que se mostra a lista de listas de prezos por defecto. Esta é unha lista de listas de prezos estándar de custo e vendas. Se ten asociada aquí unha lista de prezos de venda para cada moeda na que vende, asegurarase de que esta lista de prezos de venda está por defecto en calquera oferta que cree para os clientes que fagan transaccións nesta moeda.
 
 ### <a name="set-up-customer-specific-project-price-lists"></a>Configurar listas de prezos de proxecto específicas do cliente
 
@@ -57,13 +57,13 @@ Tamén se poden configurar listas de prezos de proxecto específicas para o clie
 
 Para configurar unha lista de prezos de proxecto específica do cliente, complete os seguintes pasos.
 
-1. Na área **Vendas** , seleccione **Clientes**.
+1. Na área **Vendas**, seleccione **Clientes**.
 2. Na lista das súas contas activas, seleccione e abra o rexistro do cliente para o que ten unha lista de prezos especial.
-3. No separador **Listas de prezos de proxecto** , pode crear unha nova asociación de lista de prezos para ter a lista de prezos de proxecto específica para este cliente.
+3. No separador **Listas de prezos de proxecto**, pode crear unha nova asociación de lista de prezos para ter a lista de prezos de proxecto específica para este cliente.
 
 ## <a name="create-custom-pricing-on-a-project-quote"></a>Crear prezos personalizados nunha oferta de proxecto
 
 Despois de ter listas de prezos de proxecto por defecto organizativas e específicas do cliente, as súas ofertas de proxecto crearanse automaticamente con estas asociacións de listas de prezos de proxecto. Non obstante, en certos casos, pode que teña que crear prezos personalizados para unha oferta de proxecto específica. 
 
-1. En **Oferta de proxecto** , no separador **Lista de prezos de proxecto** , verifique na subgrade que non hai ningún rexistro de lista de prezos específica seleccionada.
+1. En **Oferta de proxecto**, no separador **Lista de prezos de proxecto**, verifique na subgrade que non hai ningún rexistro de lista de prezos específica seleccionada.
 2. Seleccione **Crear prezos personalizados**. Isto fará copias de todas as listas de prezos estándar asociadas actualmente á oferta e asociará estas copias á oferta. Eliminaranse as asociacións existentes ás listas de prezos estándar. O comercial pode entón comezar a facer modificacións nos prezos destas copias. Estes prezos modificados só serán aplicables a esta oferta de proxecto.

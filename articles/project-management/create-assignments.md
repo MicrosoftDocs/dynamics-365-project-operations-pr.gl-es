@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 20eb3880b17fb1f765ad79bd720520b0c8004c0a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076045"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131746"
 ---
 # <a name="create-resource-assignments"></a>Crear atribucións de recursos
 
@@ -37,7 +37,7 @@ Cando crea un membro do equipo xenérico mediante a atribución de tarefas, crea
 
 ## <a name="assign-a-named-resource-from-the-list-of-all-bookable-resources"></a>Atribuír un recurso denominado da lista de todos os recursos que se poden reservar.
 
-Pode utilizar a caixa de busca no **Selector de recursos** para buscar todos os recursos que se poden reservar activos en Project Service e atribuílos a calquera tarefa nó folla. Os recursos atribuídos deste xeito engádense ao equipo sen reservas. Isto é similar a engadir un membro do equipo e seleccionar **Ningún** como método de asignación. O recurso móstrase nos separadores **Equipo** , **Atribución de recursos** e **Conciliación** como recursos co só atribucións e sen reserva. Reservaos se desexas utilizar a súa dispoñibilidade.
+Pode utilizar a caixa de busca no **Selector de recursos** para buscar todos os recursos que se poden reservar activos en Project Service e atribuílos a calquera tarefa nó folla. Os recursos atribuídos deste xeito engádense ao equipo sen reservas. Isto é similar a engadir un membro do equipo e seleccionar **Ningún** como método de asignación. O recurso móstrase nos separadores **Equipo**, **Atribución de recursos** e **Conciliación** como recursos co só atribucións e sen reserva. Reservaos se desexas utilizar a súa dispoñibilidade.
 
 1. Desde a grade de tarefas, panel ou liña de tempo, desprácese ata o a cela **Atribuído a**.
 2. Na caixa de busca, comece a escribir un nome. Os resultados de busca para o nome móstranse no **Selector de recursos** en **Outros recursos**.

@@ -3,7 +3,7 @@ title: Instalación dos datos de exemplo
 description: Este tema ofrece información sobre a instalación de datos de exemplo en Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076197"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132421"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalación de datos de exemplo para a aplicación Project Service
 
@@ -43,15 +43,15 @@ O paquete de datos de **demostración** máis recente é:
 Os paquetes de datos de exemplo só están dispoñibles en inglés.
 
 > [!IMPORTANT]
-> **Non hai forma de desinstalar os datos de exemplo.** Só debe instalar estes paquetes en sistemas de demostración, avaliación, formación ou probas. Teña en conta tamén que non se admite instalar un paquete individual e, a seguir, instalar outro paquete individual. (É dicir, non pode instalar **FSMasterData** seguido de **PSMasterData** , ou viceversa). Se ve que necesita datos de exemplo para ambas aplicacións en calquera momento no futuro, debe instalar o paquete **v902FPSMasterData**.
+> **Non hai forma de desinstalar os datos de exemplo.** Só debe instalar estes paquetes en sistemas de demostración, avaliación, formación ou probas. Teña en conta tamén que non se admite instalar un paquete individual e, a seguir, instalar outro paquete individual. (É dicir, non pode instalar **FSMasterData** seguido de **PSMasterData**, ou viceversa). Se ve que necesita datos de exemplo para ambas aplicacións en calquera momento no futuro, debe instalar o paquete **v902FPSMasterData**.
 
 Ao instalar calquera dos paquetes de datos de exemplo, o proceso de instalación realiza as seguintes accións:
 
 - Crea ou define parámetros predefinidos para usar Project Service, Field Service, ou ambas aplicacións (se corresponde).
 
-- Importa datos de exemplo para as aplicacións, como recursos reservables, os roles específicos da aplicación, vendas e listas de prezos de custo, unidades organizativas, rexistros de proceso de ventas e outras entidades para mostrar as capacidades clave.  
+- Importa datos de exemplo para as aplicacións, como recursos reservables, os roles específicos da aplicación, vendas e listas de prezos de custo, unidades organizativas, rexistros de proceso de ventas e outras entidades para mostrar as capacidades clave.  
 
-Co paquete de **datos de demostración** , vostede obtén os datos anteriores e datos transaccionais adicionais como pedidos de traballo e proxectos.
+Co paquete de **datos de demostración**, vostede obtén os datos anteriores e datos transaccionais adicionais como pedidos de traballo e proxectos.
 
 Quere saber que capacidades pode demostrar cos datos de exemplo? Consulte o a situación ficticia de Fabrikam Robotics en [Notas técnicas](#technical-notes).
 
@@ -80,7 +80,7 @@ O protocolo de instalación asume o seguinte sobre a súa instancia de destino (
 
 Debe executar o instalador nun equipo cunha versión de Windows recente (Windows 10 preferiblemente).
 
-Debe planificar que o equipo siga conectado a unha rede, e que a instalación se execute nun máximo de **1 hora** para **datos de configuración/referencia**. (Normalmente a instalación tarda aproximadamente 30 minutos para **FPSMasterData** , que inclúe datos de exemplo para ambas as aplicacións.) Para **FPSDemoData** , a instalación tardará aproximadamente **3 horas**.
+Debe planificar que o equipo siga conectado a unha rede, e que a instalación se execute nun máximo de **1 hora** para **datos de configuración/referencia**. (Normalmente a instalación tarda aproximadamente 30 minutos para **FPSMasterData**, que inclúe datos de exemplo para ambas as aplicacións.) Para **FPSDemoData**, a instalación tardará aproximadamente **3 horas**.
 
 O equipo debe ter a función de protector de pantalla desactivada. Do contrario, as credenciais de sesión para a instalación se poden perder cando se active o protector de pantalla (a menos que manteña a sesión activa todo o tempo).
 
@@ -114,13 +114,13 @@ O paquete **FPSMasterData** está deseñado para a instalación cun usuario cham
 
 Para crear ou configurar usuarios, vaia a **Configuración** > **Seguranza** > **Usuarios** e faga o seguinte:
 
-1. Estableza UserFullname=”Spencer Low” co nome de usuario “spencerl” ( **minúsculas** ) nos roles de Administrador de proxecto e Director de prácticas.
+1. Estableza UserFullname=”Spencer Low” co nome de usuario “spencerl” (**minúsculas**) nos roles de Administrador de proxecto e Director de prácticas.
 
 2. Seleccione o usuario **Spencer Low** e despois seleccione **Administrar roles**. Busque e seleccione o rol **Administrador do sistema** e, a seguir, seleccione **Aceptar** para conceder dereitos completos de administración a Spencer Low. Este paso é necesario para garantir que os rexistros de exemplo se crean coa propiedade do usuario correcto e por tanto encher as vistas correctamente.
 
 3. Desde o paquete descargado, necesita actualizar un ficheiro de asignación de datos con enderezos de correo electrónico do contexto do usuario predefinido. Para facelo, abra **PkgFolder** e, a seguir, busque y abra o ficheiro **ImportUserMapFile.xml** en Caderno de notas (ou Visual Studio ou outro editor de XML). Estableza o campo **DefaultUserToMapTo=** no enderezo de correo electrónico do usuario Spencer Low.
 
-4. Se non está a usar Spencer Low co nome de usuario **spencerl** , necesita actualizar un ficheiro adicional. Abra o ficheiro **DemoDataPreImportConfig.xml** e, a seguir, busque a etiqueta **userstocreateandconfigure**. Actualice a etiqueta **\<login\>** co nome de usuario do seu usuario Spencer Low. Para obter máis información, consulte as [Notas técnicas](#technical-notes).
+4. Se non está a usar Spencer Low co nome de usuario **spencerl**, necesita actualizar un ficheiro adicional. Abra o ficheiro **DemoDataPreImportConfig.xml** e, a seguir, busque a etiqueta **userstocreateandconfigure**. Actualice a etiqueta **\<login\>** co nome de usuario do seu usuario Spencer Low. Para obter máis información, consulte as [Notas técnicas](#technical-notes).
 
 ## <a name="create-or-configure-users---demo-data-package"></a>Crear ou configurar usuarios - paquete de datos de demostración
 
@@ -143,9 +143,9 @@ O paquete de datos de demostración require seis usuarios. Para que o paquete se
    > [!div class="mx-imgBorder"]
    > ![Captura de pantalla de UserMapFile](media/sample-data-7.png)
 
-4. O usuario con nome completo "Spencer Low" ten un ID de usuario diferente de **"spencerl"** , polo que ten que actualizar un ficheiro adicional. Abra **DemoDataPreImportConfig.xml** e busque a etiqueta **userstocreateandconfigure**. Actualice a etiqueta **\<login\>** con loginId (distingue maiúsculas e minúsculas). 
+4. O usuario con nome completo "Spencer Low" ten un ID de usuario diferente de **"spencerl"**, polo que ten que actualizar un ficheiro adicional. Abra **DemoDataPreImportConfig.xml** e busque a etiqueta **userstocreateandconfigure**. Actualice a etiqueta **\<login\>** con loginId (distingue maiúsculas e minúsculas). 
 
-5. O primeiro calendario do usuario (na etiqueta **userstocreateandconfigure** ) utilízase para encher as horas de traballo para todos os recursos reservables ao importar os datos de demostración. Navegue a **Configuración** > **Seguranza** > **Usuarios** , busque o usuario "Spencer Low" e abra a opción "Horas Laborables". Edite as horas laborables existentes seleccionando a opción **Toda a programación periódica semanal de principio a fin**. Asegúrese de que as **Horas laborables están definidas como 8 AM - 5 PM (9 horas), de luns a venres, e co fuso horario en hora do Pacífico (Estados Unidos e Canadá)**. Isto é necesario para garantir que o panel Proxecto e Programación se mostran como está previsto.
+5. O primeiro calendario do usuario (na etiqueta **userstocreateandconfigure**) utilízase para encher as horas de traballo para todos os recursos reservables ao importar os datos de demostración. Navegue a **Configuración** > **Seguranza** > **Usuarios**, busque o usuario "Spencer Low" e abra a opción "Horas Laborables". Edite as horas laborables existentes seleccionando a opción **Toda a programación periódica semanal de principio a fin**. Asegúrese de que as **Horas laborables están definidas como 8 AM - 5 PM (9 horas), de luns a venres, e co fuso horario en hora do Pacífico (Estados Unidos e Canadá)**. Isto é necesario para garantir que o panel Proxecto e Programación se mostran como está previsto.
 
 **Recomendación:** Considere crear unha copia de seguranza da súa organización agora, en acaso de que necesite volver ao punto de partida se algo sae mal durante a instalación dos datos de exemplo. Para obter máis información, vexa [Copia de seguranza e restauración de instancias](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
@@ -241,7 +241,7 @@ Hai varios outros compoñentes de configuración neste ficheiro de configuració
 
 ### <a name="fabrikam-robotics-fictitious-scenario"></a>Escenario ficticio Fabrikam Robotics
 
-Os paquetes de datos de referencia de Field Service e Project Service instalan a **Solución de datos Fabrikam Manufacturing Master Data (v3.0.0.0)** , xunto con aproximadamente 4000 rexistros e aproximadamente 40 entidades distintas. Los paquetes separados de datos de exemplo para Field Service ou Project Service conteñen un subconxunto dos datos de exemplo **v902FPSMasterData** desa aplicación. O paquete de **Datos de demostración** instala a **solución Fabrikam Manufacturing Demo Data (v3.0.0.7)** con aproximadamente 22 000 rexistros de 148 entidades.
+Os paquetes de datos de referencia de Field Service e Project Service instalan a **Solución de datos Fabrikam Manufacturing Master Data (v3.0.0.0)**, xunto con aproximadamente 4000 rexistros e aproximadamente 40 entidades distintas. Los paquetes separados de datos de exemplo para Field Service ou Project Service conteñen un subconxunto dos datos de exemplo **v902FPSMasterData** desa aplicación. O paquete de **Datos de demostración** instala a **solución Fabrikam Manufacturing Demo Data (v3.0.0.7)** con aproximadamente 22 000 rexistros de 148 entidades.
 
 A empresa ficticia Fabrikam Robotics é fabricante de robots de liña de montaxe de dispositivos electrónicos e é coñecida pola calidade dos seus produtos, a innovación e a sólida atención ao cliente, incluídos servizos de planificación de instalación, implementación e mantemento continuo. Fabrikam ten a súa sede en Estados Unidos (Fabrikam Estados Unidos) e ten operacións de servizo baseadas en proxectos en Francia, India, Reino Unido e Suíza.
 
@@ -291,7 +291,7 @@ Por defecto, todos os recursos reservables teñen un calendario de 24 horas labo
 
 Se necesita cambiar as horas laborables dos recursos reservables de exemplo, vaia a **Universal Resource Scheduling** > **Programación** > **Recursos**.
 
-Seleccione un usuario (por exemplo, Spencer Low) e cambie as horas laborables de Spencer polas horas que desexe aplicar a varios usuarios. Vaia a **Universal Resource Scheduling** > **Configuración** > **Modelos de horas laborables** e edite o rexistro **Modelo de traballo predeterminado**. No campo **Recurso de modelo** , seleccione un usuario coas horas laborables que desexe aplicar a outros recursos. Vaia a **Universal Resource Scheduling** > **Programación** > **Recursos** > **Recursos reservables activos**. Seleccione os recursos que desexe cambiar e, a seguir, seleccione **Establecer calendario**. Na lista despregable **Modelo de traballo** , seleccione o modelo **Hora laborable predefinida** ou outro modelo co recurso de modelo correcto. Cando vaia ao panel de programación, verá que os recursos agora teñen horas laborables actualizadas.
+Seleccione un usuario (por exemplo, Spencer Low) e cambie as horas laborables de Spencer polas horas que desexe aplicar a varios usuarios. Vaia a **Universal Resource Scheduling** > **Configuración** > **Modelos de horas laborables** e edite o rexistro **Modelo de traballo predeterminado**. No campo **Recurso de modelo**, seleccione un usuario coas horas laborables que desexe aplicar a outros recursos. Vaia a **Universal Resource Scheduling** > **Programación** > **Recursos** > **Recursos reservables activos**. Seleccione os recursos que desexe cambiar e, a seguir, seleccione **Establecer calendario**. Na lista despregable **Modelo de traballo** , seleccione o modelo **Hora laborable predefinida** ou outro modelo co recurso de modelo correcto. Cando vaia ao panel de programación, verá que os recursos agora teñen horas laborables actualizadas.
 
 > [!div class="mx-imgBorder"]
 > ![Captura de pantalla de recursos reservables activos](media/sample-data-6.png)

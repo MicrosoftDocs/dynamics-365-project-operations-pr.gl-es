@@ -1,21 +1,21 @@
 ---
-title: Xestión de varios clientes en liñas de oferta baseada en proxecto
+title: Xestionar varios clientes en liñas de oferta baseada en proxecto - lite
 description: Este tema describe como xestionar varios clientes en liñas de oferta baseada en proxecto.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6a509fcf8d1fa11b4ce1ba1493d9c3cc64b4f22f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076033"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176474"
 ---
-# <a name="managing-multiple-customers-on-project-based-quote-lines"></a>Xestión de varios clientes en liñas de oferta baseada en proxecto
+# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Xestionar varios clientes en liñas de oferta baseada en proxecto - lite
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
@@ -33,10 +33,10 @@ A seguinte táboa mostra os campos do rexistro de cliente de liña de oferta dun
 
 | Campo | Localización | Descrición e orientación | Impacto descendente |
 | --- | --- | --- | --- |
-| **Conta** | Unha grade editable no separador **Clientes de liña de oferta** , o formulario principal e os formularios de creación rápida para un cliente de liña de oferta. | Indica todas as contas activas. Este campo bloquéase despois de que se crea o rexistro. Se precisa actualizar o campo, elimine e cree de novo o rexistro. Se gravou algún dato real, non pode eliminar o rexistro. | Cando escolle unha conta da lista principal de contas para engadir, o cliente da liña de oferta tamén se engade como cliente da oferta ao gardalo. Cando se gaña unha oferta, os clientes de liña de oferta tamén se copian aos clientes de liña de contrato do proxecto. |
-| **Porcentaxe de división de facturación** | Unha grade editable no separador **Clientes de liña de oferta** , o formulario principal e os formularios de creación rápida para un cliente de liña de oferta. | Representa a porcentaxe de cada transacción de vendas non facturada que se atribuirá a este cliente de liña de oferta. | Copiado aos clientes de liña de contrato de proxecto. |
-| **Límite non superable** | Unha grade editable no separador **Clientes de liña de oferta** , o formulario principal e os formularios de creación rápida para un cliente de liña de oferta. | Indica se hai un límite negociado ou tope para o importe total que se facturará a este cliente por esta liña ofertada. | Copiado aos clientes de liña de contrato do proxecto cando se gaña unha oferta. |
-| **É arredondamento** | Unha grade editable no separador **Clientes de liña de oferta** , o formulario principal e os formularios de creación rápida para un cliente de liña de oferta. | Indica se este cliente é un cliente de redondeo predefinido para esta liña de oferta baseada en proxecto. | Copiado aos clientes de contrato do proxecto cando se gaña unha oferta. |
+| **Conta** | Unha grade editable no separador **Clientes de liña de oferta**, o formulario principal e os formularios de creación rápida para un cliente de liña de oferta. | Indica todas as contas activas. Este campo bloquéase despois de que se crea o rexistro. Se precisa actualizar o campo, elimine e cree de novo o rexistro. Se gravou algún dato real, non pode eliminar o rexistro. | Cando escolle unha conta da lista principal de contas para engadir, o cliente da liña de oferta tamén se engade como cliente da oferta ao gardalo. Cando se gaña unha oferta, os clientes de liña de oferta tamén se copian aos clientes de liña de contrato do proxecto. |
+| **Porcentaxe de división de facturación** | Unha grade editable no separador **Clientes de liña de oferta**, o formulario principal e os formularios de creación rápida para un cliente de liña de oferta. | Representa a porcentaxe de cada transacción de vendas non facturada que se atribuirá a este cliente de liña de oferta. | Copiado aos clientes de liña de contrato de proxecto. |
+| **Límite non superable** | Unha grade editable no separador **Clientes de liña de oferta**, o formulario principal e os formularios de creación rápida para un cliente de liña de oferta. | Indica se hai un límite negociado ou tope para o importe total que se facturará a este cliente por esta liña ofertada. | Copiado aos clientes de liña de contrato do proxecto cando se gaña unha oferta. |
+| **É arredondamento** | Unha grade editable no separador **Clientes de liña de oferta**, o formulario principal e os formularios de creación rápida para un cliente de liña de oferta. | Indica se este cliente é un cliente de redondeo predefinido para esta liña de oferta baseada en proxecto. | Copiado aos clientes de contrato do proxecto cando se gaña unha oferta. |
 
 ## <a name="edit-billing-split-percentages"></a>Editar porcentaxes divididas de facturación
 

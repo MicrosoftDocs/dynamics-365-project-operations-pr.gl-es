@@ -1,21 +1,21 @@
 ---
-title: Xestión de unidades complexas como por usuario, por mes para as liñas de oferta baseadas en produto
+title: Xestión de unidades complexas como por usuario, por mes para as liñas de oferta baseadas en produto - lite
 description: Este tema ofrece información sobre a xestión de unidades complexas para liñas de oferta baseadas en produto.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ee46da2f663ef4f5f8fc7f9f89b6fcfd09a1798
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076064"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175574"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Xestión de unidades complexas como por usuario, por mes para as liñas de oferta baseadas en produto
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Xestión de unidades complexas como por usuario, por mes para as liñas de oferta baseadas en produto - lite
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
@@ -29,8 +29,8 @@ Project Operations valida que só as propiedades numéricas ou propiedades de pr
 
 Por exemplo, Dynamics 365 Sales pode ter as seguintes propiedades:
 
-- **N.º de usuarios** : O número de usuarios
-- **Nº de meses** : O número de meses de subscrición
+- **N.º de usuarios**: O número de usuarios
+- **Nº de meses**: O número de meses de subscrición
 - **SKU de produto**
 
 Pode marcar as propiedades **N.º de Usuarios** e **N.º de meses** como factores de cantidade editando as propiedades da liña de produtos.

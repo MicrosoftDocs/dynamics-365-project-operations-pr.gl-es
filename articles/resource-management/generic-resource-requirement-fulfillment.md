@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 6bb7c185656ff87bb3ca24209594c07d25862d70
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076077"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130306"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Cumprimento dos requisitos de recursos xenéricos
 
@@ -21,9 +21,9 @@ _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fo
 
 Pode reservar un recurso nomeado para substituír un recurso xenérico que teña un requisito de recursos.
 
-1. Na páxina **Proxectos** , seleccione o separador **Equipo**.
+1. Na páxina **Proxectos**, seleccione o separador **Equipo**.
 2. Seleccione o recurso xenérico que ten un requisito de recursos da lista e logo seleccione **Reservar**. Ou abra o requisito de recursos e logo seleccione **Reservar**.
-3. Na páxina **Asistente de programación** , seleccione un recurso nomeado para reservar no seu equipo de proxecto e logo seleccione **Reservar**.
+3. Na páxina **Asistente de programación**, seleccione un recurso nomeado para reservar no seu equipo de proxecto e logo seleccione **Reservar**.
 
 Cando a reserva está completa e cumprida por un recurso nomeado, o recurso xenérico substitúese polo recurso nomeado.
 

@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f5b36628e90896c9fe6570de71c95eab83a44ebd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075998"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131521"
 ---
 # <a name="maintain-team-members"></a>Manter os membros do equipo
 
@@ -22,13 +22,13 @@ _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fo
 Pode engadir un recurso nomeado ao seu equipo de proxectos reservándoo directamente ao equipo.
 
 1. En Dynamics 365 Project Operations, vaia a **Proxectos** e seleccione abrir o proxecto para o que vai reservar.
-2. Na páxina **Proxecto** , no separador **Equipo** , seleccione **Novo**. 
-3. Na caixa de diálogo **Creación rápida de membro do equipo de proxecto** , seleccione o recurso reservable. O campo **Rol** encherase co rol predefinido do recurso se ten un atribuído. Pode modificar o rol. 
+2. Na páxina **Proxecto**, no separador **Equipo**, seleccione **Novo**. 
+3. Na caixa de diálogo **Creación rápida de membro do equipo de proxecto**, seleccione o recurso reservable. O campo **Rol** encherase co rol predefinido do recurso se ten un atribuído. Pode modificar o rol. 
 4. Seleccione as datas desde e ata nas que se necesitará o recurso e seleccione o método de atribución da capacidade do recurso. 
-5. No campo **Responsable de aprobación do proxecto** , seleccione **Si** se desexa que o membro do equipo sexa o responsable da a probación do proxecto. O membro do equipo pode aprobar as entradas de tempo e gastos presentadas para este proxecto. 
+5. No campo **Responsable de aprobación do proxecto**, seleccione **Si** se desexa que o membro do equipo sexa o responsable da a probación do proxecto. O membro do equipo pode aprobar as entradas de tempo e gastos presentadas para este proxecto. 
 6. Seleccione **Gardar**.
 
-Agora pode atribuír o recurso reservado a tarefas do proxecto. Na páxina **Proxecto** , no separador **Programación** , atribúa tarefas ao novo recurso. O selector de recursos que se inicia desde o campo **Recursos** na grada de tarefas amosará os membros do equipo que pode seleccionar.
+Agora pode atribuír o recurso reservado a tarefas do proxecto. Na páxina **Proxecto**, no separador **Programación**, atribúa tarefas ao novo recurso. O selector de recursos que se inicia desde o campo **Recursos** na grada de tarefas amosará os membros do equipo que pode seleccionar.
 
 
 En Project Operations, as reservas de recursos e as tarefas non están ben emparelladas. Cando utiliza o selector de recursos na programación, pode atribuír tarefas aos membros do equipo durante máis horas das que cobren as súas reservas no proxecto.

@@ -3,7 +3,7 @@ title: Estimacións
 description: Este tema fornece información sobre as estimacións en Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e21511f78d92ff672e462f63f0dd0d098578516a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 95f739f0c724ff93c4d588776f9e49687bac2035
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076334"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132722"
 ---
 # <a name="estimates"></a>Estimacións
 
@@ -90,11 +90,11 @@ Se engadiu un campo personalizado no detalle de liña de oferta e quere que o si
 
     ![Selección dun paso no complemento](media/basic-guide-20.png)
 
-5. Na caixa de diálogo **Actualizar o paso existente** , no campo **Atributos de filtrado** , seleccione o botón de puntos suspensivos ( **...** ):
+5. Na caixa de diálogo **Actualizar o paso existente**, no campo **Atributos de filtrado**, seleccione o botón de puntos suspensivos (**...**):
  
     ![Actualizar a caixa de diálogo de Paso existente](media/basic-guide-21.png)
 
-6. Na caixa de diálogo **Seleccionar atributos** , seleccione as caixas de verificación dos atributos personalizados.
+6. Na caixa de diálogo **Seleccionar atributos**, seleccione as caixas de verificación dos atributos personalizados.
 
     ![Seleccionar a caixa de diálogo Atributos](media/basic-guide-22.png)
 

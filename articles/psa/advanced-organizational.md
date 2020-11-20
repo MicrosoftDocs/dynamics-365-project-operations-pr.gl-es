@@ -3,7 +3,7 @@ title: Unidades organizativas
 description: Este tema fornece información sobre as unidades organizativas en Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 454d9a4c4d139f493adf4604f8ba40a0211f0eec
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 755eee6ab9993c72ff1db46e0993527ac0826bfe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076244"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130621"
 ---
 # <a name="organizational-units"></a>Unidades organizativas 
 
@@ -50,7 +50,7 @@ Ademais, hai un atributo para a unidade organizativa na entidade Recurso. Cada r
 
 A unidade organizativa desempeña dous roles en PSA:
 
-- **Unidade contratante** - A unidade organizativa que representa ao grupo ou división da empresa que é o principal responsable de gañar a venda e xestionar a entrega de traballos e servizos ao cliente. A unidade contratante identifícase no campo **Unidade contratante** na sección de cabeceira das páxinas **Oportunidade** , **Oferta** , **Contrato do proxecto** e **Proxecto**.
+- **Unidade contratante** - A unidade organizativa que representa ao grupo ou división da empresa que é o principal responsable de gañar a venda e xestionar a entrega de traballos e servizos ao cliente. A unidade contratante identifícase no campo **Unidade contratante** na sección de cabeceira das páxinas **Oportunidade**, **Oferta**, **Contrato do proxecto** e **Proxecto**.
 - **Unidade de recursos** - A unidade organizativa á que pertence ou se atribúe un recurso. Esta unidade organizativa pode fornecer os seus recursos para algúns roles en declaracións de traballo (SOW) e proxectos que son propiedade da unidade contratante.
 
 > ![Unidades contratantes e unidades de recursos](media/advanced-1.png)
