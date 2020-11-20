@@ -5,100 +5,100 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ff624a13ec88ae64dba18715fbe9b94353b070e8
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: deedfe0c6601fd09e09460034c9a0db936b6566e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076050"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127516"
 ---
-# <a name="navigating-the-user-interface"></a><span data-ttu-id="9d597-103">Navegar na interface de usuario</span><span class="sxs-lookup"><span data-stu-id="9d597-103">Navigating the user interface</span></span>
+# <a name="navigating-the-user-interface"></a><span data-ttu-id="826dc-103">Navegar na interface de usuario</span><span class="sxs-lookup"><span data-stu-id="826dc-103">Navigating the user interface</span></span>
 
-<span data-ttu-id="9d597-104">_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_</span><span class="sxs-lookup"><span data-stu-id="9d597-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="826dc-104">_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_</span><span class="sxs-lookup"><span data-stu-id="826dc-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-## <a name="overview"></a><span data-ttu-id="9d597-105">Visión xeral</span><span class="sxs-lookup"><span data-stu-id="9d597-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="826dc-105">Visión xeral</span><span class="sxs-lookup"><span data-stu-id="826dc-105">Overview</span></span>
 
-<span data-ttu-id="9d597-106">O formulario principal do proxecto está separado en varios separadores.</span><span class="sxs-lookup"><span data-stu-id="9d597-106">The main project form is separated into several tabs.</span></span> <span data-ttu-id="9d597-107">Cada separador representa un nivel de detalle diferente dentro do proxecto.</span><span class="sxs-lookup"><span data-stu-id="9d597-107">Each tab represents a different level of detail within the project.</span></span>
+<span data-ttu-id="826dc-106">O formulario principal do proxecto está separado en varios separadores.</span><span class="sxs-lookup"><span data-stu-id="826dc-106">The main project form is separated into several tabs.</span></span> <span data-ttu-id="826dc-107">Cada separador representa un nivel de detalle diferente dentro do proxecto.</span><span class="sxs-lookup"><span data-stu-id="826dc-107">Each tab represents a different level of detail within the project.</span></span>
 
-- <span data-ttu-id="9d597-108">**Resumo** : Ofrece unha descrición do proxecto e engade o rendemento do proxecto planificado e real.</span><span class="sxs-lookup"><span data-stu-id="9d597-108">**Summary** : Provides a description of the project and aggregates both the planned and actual project performance.</span></span>
+- <span data-ttu-id="826dc-108">**Resumo**: Ofrece unha descrición do proxecto e engade o rendemento do proxecto planificado e real.</span><span class="sxs-lookup"><span data-stu-id="826dc-108">**Summary**: Provides a description of the project and aggregates both the planned and actual project performance.</span></span>
 
     ![Separador e campos de resumo](media/navigation7.png)
 
-- <span data-ttu-id="9d597-110">**Tarefas** : Ofrece os detalles relativos á estrutura de subdivisión do traballo representada por unha vista de grade, vista de panel e unha gráfica de Gantt.</span><span class="sxs-lookup"><span data-stu-id="9d597-110">**Tasks** : Provides the details regarding the work breakdown structure represented by a grid view, board view, and a gantt.</span></span>
+- <span data-ttu-id="826dc-110">**Tarefas**: Ofrece os detalles relativos á estrutura de subdivisión do traballo representada por unha vista de grade, vista de panel e unha gráfica de Gantt.</span><span class="sxs-lookup"><span data-stu-id="826dc-110">**Tasks**: Provides the details regarding the work breakdown structure represented by a grid view, board view, and a gantt.</span></span>
 
     ![Separador e campos de tarefa](media/navigation8.png)
 
-- <span data-ttu-id="9d597-112">**Equipo** : Ofrece detalles sobre os participantes no proxecto.</span><span class="sxs-lookup"><span data-stu-id="9d597-112">**Team** : Provides details regarding the project participants.</span></span> <span data-ttu-id="9d597-113">Nesta vista tamén se resume o esforzo atribuído de cada membro do equipo.</span><span class="sxs-lookup"><span data-stu-id="9d597-113">The assigned effort of each team member is also summarized in this view.</span></span>
+- <span data-ttu-id="826dc-112">**Equipo**: Ofrece detalles sobre os participantes no proxecto.</span><span class="sxs-lookup"><span data-stu-id="826dc-112">**Team**: Provides details regarding the project participants.</span></span> <span data-ttu-id="826dc-113">Nesta vista tamén se resume o esforzo atribuído de cada membro do equipo.</span><span class="sxs-lookup"><span data-stu-id="826dc-113">The assigned effort of each team member is also summarized in this view.</span></span>
 
     ![Separador e campos de equipo](media/navigation9.png)
 
-- <span data-ttu-id="9d597-115">**Atribucións de recursos** : Ofrece unha vista de fases de tempo do esforzo de cada recurso nun proxecto.</span><span class="sxs-lookup"><span data-stu-id="9d597-115">**Resource assignments** : Provides a time-phased view of the effort for each resource on a project.</span></span>
+- <span data-ttu-id="826dc-115">**Atribucións de recursos**: Ofrece unha vista de fases de tempo do esforzo de cada recurso nun proxecto.</span><span class="sxs-lookup"><span data-stu-id="826dc-115">**Resource assignments**: Provides a time-phased view of the effort for each resource on a project.</span></span>
 
     ![Separador e campos de atribucións de recursos](media/navigation10.png)
 
-- <span data-ttu-id="9d597-117">**Conciliación de recursos** : Ofrece unha vista de fases de tempo das diferenzas entre as atribucións de cada recurso nomeado e as súas reservas.</span><span class="sxs-lookup"><span data-stu-id="9d597-117">**Resource reconciliation** : Provides a time-phased view of the differences between the assignments of each named resource and their bookings.</span></span>
+- <span data-ttu-id="826dc-117">**Conciliación de recursos**: Ofrece unha vista de fases de tempo das diferenzas entre as atribucións de cada recurso nomeado e as súas reservas.</span><span class="sxs-lookup"><span data-stu-id="826dc-117">**Resource reconciliation**: Provides a time-phased view of the differences between the assignments of each named resource and their bookings.</span></span>
 
     ![Separador e campos de conciliación de recursos](media/navigation11.png)
 
-- <span data-ttu-id="9d597-119">**Estimacións** : Ofrece unha vista de fases de tempo do custo e as estimacións de vendas dun proxecto.</span><span class="sxs-lookup"><span data-stu-id="9d597-119">**Estimates** : Provides a time-phased view of the cost and sales estimates of a project.</span></span>
+- <span data-ttu-id="826dc-119">**Estimacións**: Ofrece unha vista de fases de tempo do custo e as estimacións de vendas dun proxecto.</span><span class="sxs-lookup"><span data-stu-id="826dc-119">**Estimates**: Provides a time-phased view of the cost and sales estimates of a project.</span></span>
 
     ![Separador e campos de estimacións](media/navigation12.png)
 
-- <span data-ttu-id="9d597-121">**Rastrexo** : Ofrece unha vista que mostra o progreso das tarefas na estrutura de subdivisión do traballo para esforzo, custo e vendas.</span><span class="sxs-lookup"><span data-stu-id="9d597-121">**Tracking** : Provides a view that shows the progress of tasks in the work breakdown structure for effort, cost, and sales.</span></span>
+- <span data-ttu-id="826dc-121">**Rastrexo**: Ofrece unha vista que mostra o progreso das tarefas na estrutura de subdivisión do traballo para esforzo, custo e vendas.</span><span class="sxs-lookup"><span data-stu-id="826dc-121">**Tracking**: Provides a view that shows the progress of tasks in the work breakdown structure for effort, cost, and sales.</span></span>
 
     ![Separador e campos de rastrexo](media/navigation13.png)
 
-- <span data-ttu-id="9d597-123">**Vendas** : Ofrece ligazóns profundas a ofertas e contratos asociados ao proxecto.</span><span class="sxs-lookup"><span data-stu-id="9d597-123">**Sales** : Provides deep links to quotes and contracts associated with the project.</span></span>
+- <span data-ttu-id="826dc-123">**Vendas**: Ofrece ligazóns profundas a ofertas e contratos asociados ao proxecto.</span><span class="sxs-lookup"><span data-stu-id="826dc-123">**Sales**: Provides deep links to quotes and contracts associated with the project.</span></span>
 
-- <span data-ttu-id="9d597-124">**Estimacións de gastos** : Ofrece unha grade que define os gastos do proxecto en función das categorías de gastos organizativos.</span><span class="sxs-lookup"><span data-stu-id="9d597-124">**Expense Estimates** : Provides a grid that defines project expenses based upon organizational expense categories.</span></span>
+- <span data-ttu-id="826dc-124">**Estimacións de gastos**: Ofrece unha grade que define os gastos do proxecto en función das categorías de gastos organizativos.</span><span class="sxs-lookup"><span data-stu-id="826dc-124">**Expense Estimates**: Provides a grid that defines project expenses based upon organizational expense categories.</span></span>
 
     ![Separador e campos de estimacións de gastos](media/navigation14.png)
 
-## <a name="grid-controls"></a><span data-ttu-id="9d597-126">Controis de grade</span><span class="sxs-lookup"><span data-stu-id="9d597-126">Grid controls</span></span>
+## <a name="grid-controls"></a><span data-ttu-id="826dc-126">Controis de grade</span><span class="sxs-lookup"><span data-stu-id="826dc-126">Grid controls</span></span>
 
-<span data-ttu-id="9d597-127">O seguinte é unha breve visión xeral dos controis típicos que se atopan nos distintos separadores de planificación do proxecto.</span><span class="sxs-lookup"><span data-stu-id="9d597-127">The follow is a brief overview of the typical controls found on the various project planning tabs.</span></span>
+<span data-ttu-id="826dc-127">O seguinte é unha breve visión xeral dos controis típicos que se atopan nos distintos separadores de planificación do proxecto.</span><span class="sxs-lookup"><span data-stu-id="826dc-127">The follow is a brief overview of the typical controls found on the various project planning tabs.</span></span>
 
-### <a name="refresh"></a><span data-ttu-id="9d597-128">Actualizar</span><span class="sxs-lookup"><span data-stu-id="9d597-128">Refresh</span></span>
+### <a name="refresh"></a><span data-ttu-id="826dc-128">Actualizar</span><span class="sxs-lookup"><span data-stu-id="826dc-128">Refresh</span></span>
 
-<span data-ttu-id="9d597-129">**Actualizar** : Recupera os últimos datos do servidor se se produciron cambios despois de cargar a grade.</span><span class="sxs-lookup"><span data-stu-id="9d597-129">**Refresh** : Retrieves the latest data from the server if any changes occurred after the grid was loaded.</span></span>
+<span data-ttu-id="826dc-129">**Actualizar**: Recupera os últimos datos do servidor se se produciron cambios despois de cargar a grade.</span><span class="sxs-lookup"><span data-stu-id="826dc-129">**Refresh**: Retrieves the latest data from the server if any changes occurred after the grid was loaded.</span></span>
 
 ![Botón Actualizar](media/navigation7.png)
 
-### <a name="group-by"></a><span data-ttu-id="9d597-131">Agrupar por</span><span class="sxs-lookup"><span data-stu-id="9d597-131">Group by</span></span>
+### <a name="group-by"></a><span data-ttu-id="826dc-131">Agrupar por</span><span class="sxs-lookup"><span data-stu-id="826dc-131">Group by</span></span>
 
-<span data-ttu-id="9d597-132">**Agrupar por** : Actualiza a agrupación das filas da grade para reflectir recursos, roles ou categorías en función das necesidades do usuario.</span><span class="sxs-lookup"><span data-stu-id="9d597-132">**Group by** : Updates the grouping of the rows in the grid to reflect either resources, roles, or categories based on the user's needs.</span></span>
+<span data-ttu-id="826dc-132">**Agrupar por**: Actualiza a agrupación das filas da grade para reflectir recursos, roles ou categorías en función das necesidades do usuario.</span><span class="sxs-lookup"><span data-stu-id="826dc-132">**Group by**: Updates the grouping of the rows in the grid to reflect either resources, roles, or categories based on the user's needs.</span></span>
 
 ![Agrupar por botón](media/navigation6.png)
 
-### <a name="previousnext"></a><span data-ttu-id="9d597-134">Anterior/Seguinte</span><span class="sxs-lookup"><span data-stu-id="9d597-134">Previous/Next</span></span>
+### <a name="previousnext"></a><span data-ttu-id="826dc-134">Anterior/Seguinte</span><span class="sxs-lookup"><span data-stu-id="826dc-134">Previous/Next</span></span>
 
-<span data-ttu-id="9d597-135">**Anterior**/**Seguinte** : Actualice os períodos de tempo visibles nas grades de fases de tempo.</span><span class="sxs-lookup"><span data-stu-id="9d597-135">**Previous**/**Next** : Update the visible time periods on the time-phased grids.</span></span>
+<span data-ttu-id="826dc-135">**Anterior**/**Seguinte**: Actualice os períodos de tempo visibles nas grades de fases de tempo.</span><span class="sxs-lookup"><span data-stu-id="826dc-135">**Previous**/**Next**: Update the visible time periods on the time-phased grids.</span></span>
 
 ![Botóns Anterior e Seguinte](media/navigation2.png)
 
-### <a name="timescale"></a><span data-ttu-id="9d597-137">Escala temporal</span><span class="sxs-lookup"><span data-stu-id="9d597-137">Timescale</span></span>
+### <a name="timescale"></a><span data-ttu-id="826dc-137">Escala temporal</span><span class="sxs-lookup"><span data-stu-id="826dc-137">Timescale</span></span>
 
-<span data-ttu-id="9d597-138">**Escala de tempo** : Cambia a agregación dos datos de fases de tempo entre días, semanas, meses e anos.</span><span class="sxs-lookup"><span data-stu-id="9d597-138">**Timescale** : Change the aggregation of the time-phased data between days, weeks, months, and years.</span></span>
+<span data-ttu-id="826dc-138">**Escala de tempo**: Cambia a agregación dos datos de fases de tempo entre días, semanas, meses e anos.</span><span class="sxs-lookup"><span data-stu-id="826dc-138">**Timescale**: Change the aggregation of the time-phased data between days, weeks, months, and years.</span></span>
 
 ![Botón de escala de tempo](media/navigation3.png)
 
-### <a name="expand"></a><span data-ttu-id="9d597-140">Expandir</span><span class="sxs-lookup"><span data-stu-id="9d597-140">Expand</span></span>
+### <a name="expand"></a><span data-ttu-id="826dc-140">Expandir</span><span class="sxs-lookup"><span data-stu-id="826dc-140">Expand</span></span>
 
-<span data-ttu-id="9d597-141">**Expandir** : Representa a grade visible a pantalla completa que ofrece máis capacidade para ver roles adicionais.</span><span class="sxs-lookup"><span data-stu-id="9d597-141">**Expand** : Render the visible grid to full screen providing more ability to see additional roles.</span></span>
+<span data-ttu-id="826dc-141">**Expandir**: Representa a grade visible a pantalla completa que ofrece máis capacidade para ver roles adicionais.</span><span class="sxs-lookup"><span data-stu-id="826dc-141">**Expand**: Render the visible grid to full screen providing more ability to see additional roles.</span></span>
 
 ![botón Expandir](media/navigation4.png)
 
-### <a name="time-phase-by"></a><span data-ttu-id="9d597-143">Fase de tempo por</span><span class="sxs-lookup"><span data-stu-id="9d597-143">Time-phase by</span></span>
+### <a name="time-phase-by"></a><span data-ttu-id="826dc-143">Fase de tempo por</span><span class="sxs-lookup"><span data-stu-id="826dc-143">Time-phase by</span></span>
 
-<span data-ttu-id="9d597-144">**Fase de tempo por** : Actualice a agrupación das filas da grade para reflectir as estimacións de custos para as estimacións de vendas.</span><span class="sxs-lookup"><span data-stu-id="9d597-144">**Time-phase by** : Update the grouping of the rows in the grid to reflect cost estimates for sales estimates.</span></span> <span data-ttu-id="9d597-145">Este control tamén se aplica ao script de estimación e á grade de rastrexo.</span><span class="sxs-lookup"><span data-stu-id="9d597-145">This control also applies to the estimate script and the tracking grid.</span></span>
+<span data-ttu-id="826dc-144">**Fase de tempo por**: Actualice a agrupación das filas da grade para reflectir as estimacións de custos para as estimacións de vendas.</span><span class="sxs-lookup"><span data-stu-id="826dc-144">**Time-phase by**: Update the grouping of the rows in the grid to reflect cost estimates for sales estimates.</span></span> <span data-ttu-id="826dc-145">Este control tamén se aplica ao script de estimación e á grade de rastrexo.</span><span class="sxs-lookup"><span data-stu-id="826dc-145">This control also applies to the estimate script and the tracking grid.</span></span>
 
 ![Fase de tempo por botón](media/navigation0.png)
 
-### <a name="add-column"></a><span data-ttu-id="9d597-147">Engadir columna</span><span class="sxs-lookup"><span data-stu-id="9d597-147">Add column</span></span>
+### <a name="add-column"></a><span data-ttu-id="826dc-147">Engadir columna</span><span class="sxs-lookup"><span data-stu-id="826dc-147">Add column</span></span>
 
-<span data-ttu-id="9d597-148">**Engadir columna** : Permite ao usuario definir as columnas visibles na grade.</span><span class="sxs-lookup"><span data-stu-id="9d597-148">**Add column** : Allows the user to define the visible columns in the grid.</span></span> <span data-ttu-id="9d597-149">Só se poden engadir columnas listas para usar ás grades do formulario **Planificación do proxecto**.</span><span class="sxs-lookup"><span data-stu-id="9d597-149">Only out-of-the-box columns can be added to the grids in the **Project Planning** form.</span></span>
+<span data-ttu-id="826dc-148">**Engadir columna**: Permite ao usuario definir as columnas visibles na grade.</span><span class="sxs-lookup"><span data-stu-id="826dc-148">**Add column**: Allows the user to define the visible columns in the grid.</span></span> <span data-ttu-id="826dc-149">Só se poden engadir columnas listas para usar ás grades do formulario **Planificación do proxecto**.</span><span class="sxs-lookup"><span data-stu-id="826dc-149">Only out-of-the-box columns can be added to the grids in the **Project Planning** form.</span></span>
 
 ![Engadir botón de columna](media/navigation5.png)
