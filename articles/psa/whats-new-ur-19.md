@@ -3,7 +3,7 @@ title: Novidades ou cambios na versión 19 de actualización de Project Service 
 description: Este tema mostra as funcionalidades e correccións que están dispoñibles la versión 19 de actualización de Project Service Automation, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ecc923cccfad21985025ab9d8006aaff16afc25f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e116bcbb8e9d184b7b894709c893aaf1dadefc2f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076085"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126838"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Versión 19 de actualización de Project Service Automation, V3
 

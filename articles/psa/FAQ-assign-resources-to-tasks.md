@@ -3,7 +3,7 @@ title: Atribuír un recurso a unha tarefa
 description: Este tema fornece información sobre como atribuír recursos a tarefas.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076321"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125131"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Atribuír un recurso a unha tarefa
 
@@ -33,9 +33,9 @@ Hai tres formas de atribuír un recurso a unha tarefa en Microsoft Dynamics 365 
 
 Pode engadir un recurso ao equipo de proxecto e, a seguir, atribuír o recurso ás tarefas na programación do proxecto.
 
-1. No separador **Membro do equipo** , engada un novo membro do equipo seleccionando **Novo**. 
+1. No separador **Membro do equipo**, engada un novo membro do equipo seleccionando **Novo**. 
 
-2. Iso abre o panel **Creación rápida de membro do equipo** , onde pode seleccionar o nome do recurso reservable e defina un rol. 
+2. Iso abre o panel **Creación rápida de membro do equipo**, onde pode seleccionar o nome do recurso reservable e defina un rol. 
 
     Seleccione un dos seguintes métodos de atribución para a reserva do recurso:
 
@@ -45,10 +45,10 @@ Pode engadir un recurso ao equipo de proxecto e, a seguir, atribuír o recurso �
     - **Por horas: carga frontal** reserva o recurso para un número de horas especificado, con carga frontal das horas por día sobre as datas desde e para especificadas.
     - **Ningún** engade o recurso ao equipo, pero non crea ningunha reserva que absorba a capacidade do recurso.
 
-3. Na grade de **Programación** para unha tarefa, seleccione a icona de **Recurso** na cela de recursos e, a seguir, baixo **Membros do equipo** , seleccione o membro do equipo que acaba de engadir. 
+3. Na grade de **Programación** para unha tarefa, seleccione a icona de **Recurso** na cela de recursos e, a seguir, baixo **Membros do equipo**, seleccione o membro do equipo que acaba de engadir. 
 
 > [!NOTE]
-> Nos separadores **Membro do equipo** e **Conciliación** , o recurso mostra as horas reservadas e as horas atribuídas. As horas deberían ser as mesmas, pero non é necesario, xa que as reservas e as atribucións non están totalmente emparelladas. O separador **Conciliación** ofrece detalles cando son diferentes, como por exemplo se atribúe a un recurso máis horas de traballo das que ten reservadas. Se é necesario, pode corrixir a información, ben estendendo as reservas do recurso ou modificando a atribución.
+> Nos separadores **Membro do equipo** e **Conciliación**, o recurso mostra as horas reservadas e as horas atribuídas. As horas deberían ser as mesmas, pero non é necesario, xa que as reservas e as atribucións non están totalmente emparelladas. O separador **Conciliación** ofrece detalles cando son diferentes, como por exemplo se atribúe a un recurso máis horas de traballo das que ten reservadas. Se é necesario, pode corrixir a información, ben estendendo as reservas do recurso ou modificando a atribución.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Crear un membro do equipo xenérico a través da atribución de tarefas
 

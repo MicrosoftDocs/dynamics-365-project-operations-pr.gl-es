@@ -3,7 +3,7 @@ title: Configurar axustes de parámetros adicionais
 description: Como configurar os parámetros adicionais en Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24a4fe83471da916fb91cfe20e739279c08d8e5e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5ce7ffd635b10689c8295d9349966450f11282d1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076132"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129361"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Configurar os parámetros adicionais (Project Service Automation)
 
@@ -54,9 +54,9 @@ Para definir parámetros do proxecto:
   
 2. Prema na configuración de parámetros que desexa configurar (a que creou cando instalou por primeira vez [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]), ou prema **Nova** para crear unha nova.  
   
-3. Na área **Xeral** , defina todas as opcións para os parámetros do proxecto.  
+3. Na área **Xeral**, defina todas as opcións para os parámetros do proxecto.  
   
-4. Na área **Lista de prezos** , prema en **+** para engadir unha lista de prezos, seleccione unha lista de prezos na lista despregable **Lista de prezos dos parámetros do proxecto** e, a seguir, prema **Gardar**.  
+4. Na área **Lista de prezos**, prema en **+** para engadir unha lista de prezos, seleccione unha lista de prezos na lista despregable **Lista de prezos dos parámetros do proxecto** e, a seguir, prema **Gardar**.  
   
 5. Prema no botón **Gardar** na parte inferior dereita da pantalla.  
 

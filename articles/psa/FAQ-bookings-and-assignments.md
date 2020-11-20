@@ -3,7 +3,7 @@ title: Reservas de recursos e como se relacionan coas atribucións de tarefas
 description: Este tema proporciona información sobre como xestionar os recursos nomeados, as reservas de recursos e as atribucións de tarefas e como se relacionan entre si.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 03285d324e855ecf933b155559e5a4826420ab25
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c4b976b49bd643bc7a774a86b1ba89bd76d7c916
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076319"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124996"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>Reservas de recursos e como se relacionan coas atribucións de tarefas
 

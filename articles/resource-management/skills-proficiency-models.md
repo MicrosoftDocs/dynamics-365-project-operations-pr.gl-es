@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4c814754e68b3a1a8bf8784434d45010bf8d0123
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076049"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128866"
 ---
 # <a name="skills-and-certifications"></a>Habilidades e certificacións
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
@@ -32,14 +32,14 @@ Engadir características aos requisitos de recursos permítelle documentar os co
 
 1. No menú principal, seleccione **Recursos** > **Recursos reservables**. Ábrese a páxina **Recursos activos reservables** e pode ver unha lista de todos os recursos dispoñibles no sistema.
 2. Seleccione o nome dun recurso reservable na lista.
-3. Na sección **Servizo de proxecto** , seleccione **+Engadir rexistro de características de recursos reservables**.
+3. Na sección **Servizo de proxecto**, seleccione **+Engadir rexistro de características de recursos reservables**.
 4. Na ventá emerxente que se abre, busque e seleccione as características necesarias e engada un **Valor de clasificación** para o recurso.
 5. Seleccione **Gardar e pechar**.
 
 ## <a name="assign-characteristics-to-resource-requirements"></a>Atribuír características a requisitos de recursos
 
 1. Na grade de membros do equipo, busque e prema dúas veces no membro xenérico do equipo coas características que hai que actualizar.
-2. En **Detalle do membro do equipo do proxecto** , seleccione o separador **Requisito de recursos**.
-3. Na subgrade **Habilidades** , seleccione **+ Engadir nova característica de requisito.**
+2. En **Detalle do membro do equipo do proxecto**, seleccione o separador **Requisito de recursos**.
+3. Na subgrade **Habilidades**, seleccione **+ Engadir nova característica de requisito.**
 4. No panel de creación rápida, busque e seleccione as características requiridas e engada un **Valor de clasificación**.
 5. Seleccione **Gardar e pechar**.

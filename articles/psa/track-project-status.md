@@ -3,7 +3,7 @@ title: Rastrexar o estado dun proxecto
 description: Como rastrexar o estado dun proxecto en Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 70d07c98bd9432712e939445dbf867b96642f5ba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00b6d874b42a415fe567d17e49c0ea319d8952a0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076218"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127831"
 ---
 # <a name="track-a-projects-status-project-service"></a>Rastrexar o estado dun proxecto (Project Service)
 
@@ -37,10 +37,10 @@ A medida que o compromiso progresa, as fases do proxecto actualízanse para refl
 |              |                                                                                                                                                                                                                                                                                                  |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   **Novo**    | Ao crear un proxecto, a fase está definida en **Nova**. Se creou o proxecto a partir dun modelo, nesta fase o proxecto pode ter unha programación, estimacións e datos de equipo. En caso contrario, será o esquema do proxecto e terá que introducir o resto dos compoñentes do proxecto manualmente. |
-|  **Oferta**   |      Cando asocia un proxecto a unha oferta ou crea un proxecto a partir dunha oferta, a fase de proxecto está definida en **Oferta** , e as datas de inicio e fin estimadas tamén se actualizan. Cando o proxecto está en fase de oferta, móstranse detalles da oferta no separador **Sales** na páxina **Proxecto**.      |
+|  **Oferta**   |      Cando asocia un proxecto a unha oferta ou crea un proxecto a partir dunha oferta, a fase de proxecto está definida en **Oferta**, e as datas de inicio e fin estimadas tamén se actualizan. Cando o proxecto está en fase de oferta, móstranse detalles da oferta no separador **Sales** na páxina **Proxecto**.      |
 |   **Planificar**   |                                     Cando gaña unha oferta asociada a un proxecto, e cando o compromiso progresa á fase de contrato, a fase de proxecto actualízase a **Planificar**. A información do contrato aparece no separador **Sales** na páxina **Proxecto**.                                      |
 | **Completada** |                    Cando conclúa o traballo de proxecto, pode cambiar a fase a **Concluído**. Cando a fase de proxecto está definida en concluído, enténdese que o traballo está o 100% concluído pero o proxecto queda aberto para entradas de tempo ou gastos pendentes de ser rexistradas.                     |
-|  **Pechar**   |           Cando todas as transaccións están rexistradas no proxecto e non espera máis, pode manualmente configurar a fase a **Pechar**. Cando o proxecto está definido como **Pechar** , non pode rexistrar máis transaccións no proxecto e o proxecto será só de lectura.           |
+|  **Pechar**   |           Cando todas as transaccións están rexistradas no proxecto e non espera máis, pode manualmente configurar a fase a **Pechar**. Cando o proxecto está definido como **Pechar**, non pode rexistrar máis transaccións no proxecto e o proxecto será só de lectura.           |
 
 ## <a name="to-track-a-projects-status"></a>Para rastrexar o estado dun proxecto  
 

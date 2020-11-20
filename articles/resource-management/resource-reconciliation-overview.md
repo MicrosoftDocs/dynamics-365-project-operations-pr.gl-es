@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e2b16a6e1c48769ed4d903e546804ba1c4e1c4fa
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 574afac3bf5d1f6e5e13d8c61aa1ace6188f4008
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076074"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125716"
 ---
 # <a name="resource-reconciliation-overview"></a>Visión xeral da conciliación de recursos
 
@@ -46,7 +46,7 @@ Nalgúns casos, cando ve o tempo a un nivel superior ao nivel de día (por exemp
 Cando vexa o tempo a niveis máis altos, as celas do separador **Conciliación** ten un indicador para informar de que hai diferenzas a niveis máis baixos. Ao premer dúas veces nunha cela, pode facer zoom para ver a diferenza. A seguir, pode premer co botón dereito para facer zoom. Ao seleccionar un recurso e despois usar o control **Seguinte diferenza** na barra de ferramentas da rede, pode ir á seguinte diferenza entre reservas e atribucións para ese recurso. Pode entón usar o control **Diferencia anterior** para volver. Tamén pode desactivar o indicador de diferenzas e o comportamento de navegación en **Configuración**.
 
 
-Se ten atribucións de tarefas para un recurso pero non ten reservas, na páxina **Proxectos** , no separador **Conciliación** , seleccione a escaseza de reservas e logo seleccione **Estender a reserva**. Aparece a caixa de diálogo **Estender reserva** e mostra a reserva que é necesaria para resolver a escaseza do recurso. Tamén amosa as reservas existentes do recurso en todos os proxectos ou outras entidades programables. Se selecciona **Aceptar** para crear a reserva para o recurso, independentemente da dispoñibilidade dese recurso, pode causar un exceso de reservas.
+Se ten atribucións de tarefas para un recurso pero non ten reservas, na páxina **Proxectos**, no separador **Conciliación**, seleccione a escaseza de reservas e logo seleccione **Estender a reserva**. Aparece a caixa de diálogo **Estender reserva** e mostra a reserva que é necesaria para resolver a escaseza do recurso. Tamén amosa as reservas existentes do recurso en todos os proxectos ou outras entidades programables. Se selecciona **Aceptar** para crear a reserva para o recurso, independentemente da dispoñibilidade dese recurso, pode causar un exceso de reservas.
 
 O xestor de proxectos ou xestor de recursos pode utilizar o panel de programación para xestionar calquera situación na que un recurso estea sobrecargado fóra da súa capacidade.
 

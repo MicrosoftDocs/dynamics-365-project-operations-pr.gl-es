@@ -3,7 +3,7 @@ title: Ofertas e liñas de oferta
 description: Este tema fornece información sobre as ofertas e as liñas de oferta.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076247"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129451"
 ---
 # <a name="quotes-and-quote-lines"></a>Ofertas e liñas de oferta
 
@@ -35,7 +35,7 @@ En Dynamics 365 Project Service Automation, hai dous tipos de ofertas: ofertas d
 - Unha oferta de vendas admite a activación e as revisións. Unha oferta de proxecto non admite eses procesos.
 - Podes anexar varios pedidos a unha oferta de vendas. Podes anexar só un contrato de proxecto a unha oferta de proxecto.
 - Pode gañar unha oferta de vendas e manter aberta a oportunidade relacionada. Despois de gañar unha oferta de proxecto, a oportunidade relacionada péchase.
-- Unha oferta de vendas non inclúe algúns campos e conceptos que se inclúen nunha oferta de proxecto. Os campos inclúen **Unidade contratante** , **Xestor de conta** e **Facturar ao nome de contacto**.  
+- Unha oferta de vendas non inclúe algúns campos e conceptos que se inclúen nunha oferta de proxecto. Os campos inclúen **Unidade contratante**, **Xestor de conta** e **Facturar ao nome de contacto**.  
 - As ofertas de vendas e as ofertas de proxecto tamén se identifican por un campo baseado en conxunto de opcións que leva o nome **Tipo**. Para unha oferta de vendas, este campo ten o valor **Baseado en elementos**. Para unha oferta de proxecto, ten o valor **Baseado en traballo**.
 
 Este tema centrarase nos detalles das ofertas de proxecto.
@@ -91,7 +91,7 @@ Por exemplo, unha oferta podería conter as dúas liñas de oferta seguintes:
 - Gastos de viaxe relacionados que empregan un método de facturación de prezo fixo. Por exemplo, todos os gastos de viaxe para o exemplo de proxecto **Aplicación de Dynamics AX** factúranse a un valor monetario fixo.
 
 > [!NOTE]
-> A combinación de clasificacións de proxectos e transaccións de **Tempo** , **Gasto** , e **Tarifa** asociados a unha liña de oferta ou liña de contrato debe ser única. Se a mesma combinación de clase de proxecto e transacción está asociada a máis dunha liña de contrato ou liña de oferta, PSA non funcionará correctamente.
+> A combinación de clasificacións de proxectos e transaccións de **Tempo**, **Gasto**, e **Tarifa** asociados a unha liña de oferta ou liña de contrato debe ser única. Se a mesma combinación de clase de proxecto e transacción está asociada a máis dunha liña de contrato ou liña de oferta, PSA non funcionará correctamente.
 
 ## <a name="billing-types"></a>Tipos de facturación
 

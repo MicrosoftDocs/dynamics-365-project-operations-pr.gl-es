@@ -3,7 +3,7 @@ title: Novidades ou cambios na versión 20 de actualización de Project Service 
 description: Este tema mostra as funcionalidades e correccións que están dispoñibles la versión 20 de actualización de Project Service Automation, V3
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12edae76dbc6de63d3e2d36058c4092f80ede77d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ef24c20f3fa520b25a14773a15363a0f04f98d36
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076081"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126751"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Versión 20 de actualización de Project Service Automation, V3
 
@@ -48,7 +48,7 @@ Resolvéronse os seguintes problemas:
 
 Resolvéronse os seguintes problemas:
 
-- No formulario **Contrato** , ao premer dúas veces **Crear factura** créanse dúas facturas para un único rexistro de datos reais.
+- No formulario **Contrato**, ao premer dúas veces **Crear factura** créanse dúas facturas para un único rexistro de datos reais.
 - En Internet Explorer 11, os usuarios non poden crear entradas de gastos.
 - A inversión do custo e a inversión dos datos reais de vendas non facturadas non están ligadas.
 - O botón **Actualizar datos reais** no formulario **Proxecto** non actualiza **Horario real da tarefa**.
@@ -59,4 +59,4 @@ Resolvéronse os seguintes problemas:
 - Os valores de unidade e grupos de unidades non aparecen de forma predeterminada correctamente para as categorías de gasto nos formularios **Detalles da liña de contrato** e **Detalles da liña de oferta**.
 - As listas de **Prezo de custo da unidade organizativa** permiten solapamentos na data de validez.
 - Os usuarios non teñen permiso para cambiar **OrgUnit** cando o tipo de pedido non está baseado en traballo, porque levará a un erro de excepción de referencia nula.
-- Ao intentar navegar desde o formulario **Detalles da liña de oferta** , ao volver ao separador **Oferta** , o formulario actualízase e mostra o separador **Resumo**.
+- Ao intentar navegar desde o formulario **Detalles da liña de oferta**, ao volver ao separador **Oferta**, o formulario actualízase e mostra o separador **Resumo**.

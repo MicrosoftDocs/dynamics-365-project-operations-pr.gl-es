@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076023"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127426"
 ---
 # <a name="project-team-members"></a>Membros do equipo do proxecto
 
@@ -47,16 +47,16 @@ A seguinte táboa indica os atributos clave dun membro do equipo do proxecto.
 
 Desde a grade dos membros do equipo pódense realizar as seguintes accións:
 
-- **Reservar** : Para as organizacións que executan aproveitando a metodoloxía de reservas híbridas, a acción de reservar permitirá aos usuarios reservar un recurso nomeado en función dos requisitos requiridos xerados polo membro do equipo xenérico.
-- **Xerar requisito** : Esta acción xera o requisito.
-- **Especificar patrón** : Permite aos xestores de proxectos axustar os contornos do requisito de recursos a un nivel granular. Os xestores de proxectos poden axustarse ás necesidades específicas do proxecto nos casos en que a distribución predefinida non se axuste.
-- **Enviar solicitude** : Para organizacións que utilizan a metodoloxía de reservas centrais.
-- **Editar** : Os atributos dos membros do equipo pódense editar incluíndo a unidade organizativa, o rol e o nome do posto.
-- **Manter reservas** : Cando hai que actualizar as reservas de recursos, manter as reservas permítelle ao xestor de proxectos axustar a:
+- **Reservar**: Para as organizacións que executan aproveitando a metodoloxía de reservas híbridas, a acción de reservar permitirá aos usuarios reservar un recurso nomeado en función dos requisitos requiridos xerados polo membro do equipo xenérico.
+- **Xerar requisito**: Esta acción xera o requisito.
+- **Especificar patrón**: Permite aos xestores de proxectos axustar os contornos do requisito de recursos a un nivel granular. Os xestores de proxectos poden axustarse ás necesidades específicas do proxecto nos casos en que a distribución predefinida non se axuste.
+- **Enviar solicitude**: Para organizacións que utilizan a metodoloxía de reservas centrais.
+- **Editar**: Os atributos dos membros do equipo pódense editar incluíndo a unidade organizativa, o rol e o nome do posto.
+- **Manter reservas**: Cando hai que actualizar as reservas de recursos, manter as reservas permítelle ao xestor de proxectos axustar a:
 
     - Iniciar
     - Final
     - Asignación total do esforzo
 
-- **Novo** : Ademais de engadir recursos directamente desde a programación, os xestores de proxectos poden engadir novos membros do equipo nomeados ou xenéricos desde a grade dos membros do equipo.
-- **Eliminar** : Ao seleccionar un ou varios membros do equipo, o xestor do proxecto pode eliminar recursos que xa non van participar no proxecto. Se se elimina un membro do equipo, tamén se eliminarán todas as atribucións de recursos asociadas e se cancelarán todas as reservas existentes.
+- **Novo**: Ademais de engadir recursos directamente desde a programación, os xestores de proxectos poden engadir novos membros do equipo nomeados ou xenéricos desde a grade dos membros do equipo.
+- **Eliminar**: Ao seleccionar un ou varios membros do equipo, o xestor do proxecto pode eliminar recursos que xa non van participar no proxecto. Se se elimina un membro do equipo, tamén se eliminarán todas as atribucións de recursos asociadas e se cancelarán todas as reservas existentes.

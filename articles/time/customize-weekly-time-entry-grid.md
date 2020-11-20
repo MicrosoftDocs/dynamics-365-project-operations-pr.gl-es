@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076031"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124636"
 ---
 # <a name="extending-time-entries"></a>Ampliación das entradas de tempo
 
@@ -33,7 +33,7 @@ Dynamics 365 Project Operations inclúe un control personalizado de entradas de 
 
 ## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Engadir entradas de tempo personalizadas para o seu propio uso
 
-As entradas de tempo son unha entidade básica utilizada en varias situacións. Na onda 1 de abril de 2020, introduciuse a solución básica de TESA. TESA ofrece unha entidade de **Configuración** e un novo rol de seguranza **Usuario de entrada de tempo**. Os novos campos, **msdyn_start** e **msdyn_end** , que teñen unha relación directa con **msdyn_duration** , tamén se incluíron. A nova entidade, rol de seguranza, e os campos permiten un enfoque máis unificado do tempo en múltiples produtos.
+As entradas de tempo son unha entidade básica utilizada en varias situacións. Na onda 1 de abril de 2020, introduciuse a solución básica de TESA. TESA ofrece unha entidade de **Configuración** e un novo rol de seguranza **Usuario de entrada de tempo**. Os novos campos, **msdyn_start** e **msdyn_end**, que teñen unha relación directa con **msdyn_duration**, tamén se incluíron. A nova entidade, rol de seguranza, e os campos permiten un enfoque máis unificado do tempo en múltiples produtos.
 
 
 ### <a name="time-source-entity"></a>Entidade de orixe de tempo
@@ -103,28 +103,28 @@ Personalice a vista **As miñas entradas de tempo semanal** e engádalle o campo
 
 #### <a name="create-a-new-default-custom-time-entry"></a>Crear unha nova entrada de tempo personalizada por defecto
 
-Esta vista debería conter os campos **Descrición** e **Comentarios externos** , ademais das columnas que desexa ter na grade. 
+Esta vista debería conter os campos **Descrición** e **Comentarios externos**, ademais das columnas que desexa ter na grade. 
 
 1. Escolla a posición, o tamaño e a orde de clasificación por defecto da grade editando esas propiedades na vista. 
 2. Configure o control personalizado para esta vista para que sexa un control de **Grade de entrada de tempo**. 
 3. Engada este control á vista e seleccióneo para web, teléfono e tableta. 
 4. Configure os parámetros para a grade de entrada de tempo semanal. 
-5. Configure o campo **Data de inicio** en **msdyn_date** , configure o campo **Duración** en **msdyn_duration** e configure o campo **Estado** en **msdyn_entrystatus**. 
+5. Configure o campo **Data de inicio** en **msdyn_date**, configure o campo **Duración** en **msdyn_duration** e configure o campo **Estado** en **msdyn_entrystatus**. 
 6. Para a vista predefinida, o campo **Lista de estado de só lectura** está definido como **192350002,192350003,192350004**. O campo **Fluxo de tarefas de edición de filas** está definido como **msdyn_timeentryrowedit**. O campo **Fluxo de tarefas de edición de celas** está definido como **msdyn_timeentryedit**. 
 7. Pode personalizar estes campos para engadir ou eliminar o estado de só lectura ou para empregar unha experiencia baseada en tarefas (TBX) diferente para a edición de filas ou celas. Estes campos agora están vencellados a un valor estático.
 
 
 > [!NOTE] 
-> Ambas opcións eliminarán algún filtro listo para usar nas entidades **Proxecto** e **Tarefa do proxecto** , de xeito que todas as vistas de busca das entidades serán visibles. Ao principio, só son visibles as vistas de busca relevantes.
+> Ambas opcións eliminarán algún filtro listo para usar nas entidades **Proxecto** e **Tarefa do proxecto**, de xeito que todas as vistas de busca das entidades serán visibles. Ao principio, só son visibles as vistas de busca relevantes.
 
-Determine o fluxo de tarefas adecuado para o campo personalizado. Se engadiu o campo á grade, debería ir no fluxo de tarefas de edición de filas que se usa para campos que se aplican a toda a fila de entradas de tempo. Se o campo personalizado ten un valor único todos os días, como un campo personalizado para **Hora de finalización** , debería ir no fluxo de tarefas de edición de celas.
+Determine o fluxo de tarefas adecuado para o campo personalizado. Se engadiu o campo á grade, debería ir no fluxo de tarefas de edición de filas que se usa para campos que se aplican a toda a fila de entradas de tempo. Se o campo personalizado ten un valor único todos os días, como un campo personalizado para **Hora de finalización**, debería ir no fluxo de tarefas de edición de celas.
 
 Para engadir un campo personalizado a un fluxo de tarefas, arrastre o elemento **Campo** á posición adecuada na páxina e logo estableza as propiedades do campo. Estableza a propiedade **Fonte** en **Entrada horaria** e estableza a propiedade **Campo de datos** no campo personalizado. A propiedade **Campo** especifica o nome en pantalla na páxina de TBX. Seleccione **Aplicar** para gardar os cambios no campo e logo seleccione **Actualizar** para gardar os cambios na páxina.
 
-Para usar unha nova páxina de TBX personalizada, cree un novo proceso. Estableza a categoría en **Fluxo do proceso de negocio** , configure a entidade en **Entrada de tempo** e configure o tipo de proceso de negocio en **Executar o proceso como fluxo de tarefas**. En **Propiedades** , a propiedade **Nome da páxina** debería configurarse segundo o nome en pantalla da páxina. Engada todos os campos relevantes á páxina de TBX. Garde e active o proceso. Actualice a propiedade de control personalizado para o fluxo de tarefas correspondente ao valor de **Nome** no proceso.
+Para usar unha nova páxina de TBX personalizada, cree un novo proceso. Estableza a categoría en **Fluxo do proceso de negocio**, configure a entidade en **Entrada de tempo** e configure o tipo de proceso de negocio en **Executar o proceso como fluxo de tarefas**. En **Propiedades**, a propiedade **Nome da páxina** debería configurarse segundo o nome en pantalla da páxina. Engada todos os campos relevantes á páxina de TBX. Garde e active o proceso. Actualice a propiedade de control personalizado para o fluxo de tarefas correspondente ao valor de **Nome** no proceso.
 
 ### <a name="add-new-option-set-values"></a>Engadir valores de novo conxunto de opcións
-Para engadir valores de conxunto de opcións a un campo listo para usar, abra a páxina de edición do campo e en **Tipo** , seleccione **Editar** xunto ao conxunto de opcións. Engada unha nova opción que teña unha etiqueta e unha cor personalizadas. Se desexa engadir un novo estado de entrada de tempo, o campo listo para usar denomínase **Estado de entrada** , non **Estado**.
+Para engadir valores de conxunto de opcións a un campo listo para usar, abra a páxina de edición do campo e en **Tipo**, seleccione **Editar** xunto ao conxunto de opcións. Engada unha nova opción que teña unha etiqueta e unha cor personalizadas. Se desexa engadir un novo estado de entrada de tempo, o campo listo para usar denomínase **Estado de entrada**, non **Estado**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Designe un novo estado de entrada de tempo como só de lectura
 Para designar un novo estado de entrada de tempo como só de lectura, engada o novo valor de entrada de tempo á propiedade **Lista de estado de só lectura**. A parte editable da grade de entrada de tempo bloquearase para as filas que teñan o novo estado.

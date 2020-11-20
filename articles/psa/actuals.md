@@ -3,7 +3,7 @@ title: Visión xeral dos datos reais
 description: Neste tema se proporciona información sobre datos reais do proxecto.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076330"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129766"
 ---
 # <a name="actuals-overview"></a>Visión xeral dos datos reais
 
@@ -39,7 +39,7 @@ En PSA, cando se envía unha entrada de tempo para un proxecto que está asignad
 
 A lóxica para especificar prezos predefinidos reside na liña de diario. Todos os valores de campo dunha entrada de tempo cópianse á liña de diario. Estes campos inclúen a data da transacción, a liña de contrato á que está asignado o proxecto e o resultado da moeda na lista de prezos correspondente. 
 
-Os campos que afectan aos prezos predefinidos, por exemplo, **Rol** e **Unidade organizativa** , fan que se introduza o prezo adecuado por defecto na liña de diario. Se engade un campo personalizado na entrada de tempo e desexa que o valor de campo se propague aos datos reais, cree o campo na entidade Datos reais e utilice as asignacións de campos para copiar o campo da entrada de tempo aos datos reais.
+Os campos que afectan aos prezos predefinidos, por exemplo, **Rol** e **Unidade organizativa**, fan que se introduza o prezo adecuado por defecto na liña de diario. Se engade un campo personalizado na entrada de tempo e desexa que o valor de campo se propague aos datos reais, cree o campo na entidade Datos reais e utilice as asignacións de campos para copiar o campo da entrada de tempo aos datos reais.
 
 ## <a name="submitting-an-expense-entry"></a>Envío dunha entrada de gasto
 

@@ -3,7 +3,7 @@ title: Engadir roles de recursos
 description: Como atribuír un rol de recurso a Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 47bb6bc5e52553db77d6fe0eda2181069ddcbc2b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 378c43e206f9295d445b1323b1c67f9d573df713
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076328"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129586"
 ---
 # <a name="add-resource-roles-project-service"></a>Engadir roles de recurso (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4076328"
 
 Definir as taxas de utilization de destino para cada rol. Estes axustes determinan a dispoñibilidade e utilización de recursos cando está a prover de persoal os proxectos e a analizar datos reais.  
   
-1.  Vaia ao rol de recurso que no que desexa configurar a utilización ( **Project Service > Rol de Recurso** ).  
+1.  Vaia ao rol de recurso que no que desexa configurar a utilización (**Project Service > Rol de Recurso**).  
   
 2.  Prema a frecha descendente xunto ao rol de recurso na parte superior da pantalla.  
   
@@ -39,7 +39,7 @@ Definir as taxas de utilization de destino para cada rol. Estes axustes determin
   
 4.  Prema **Engadir nova utilización de rol**.  
   
-5.  Na área **Xeral** , encha os campos conforme sexa necesario.  
+5.  Na área **Xeral**, encha os campos conforme sexa necesario.  
   
 6.  Prema **Gardar** ou **Gardar e pechar**.  
   

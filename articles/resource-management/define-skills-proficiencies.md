@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 24538ed1d610a0cae4c2badc0fd33c2f738a8338
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8738a4743554704ef76807c81fdefcd74e668e1b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076076"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124771"
 ---
 # <a name="define-skills-and-proficiencies"></a>Definir habilidades e destrezas
 
@@ -38,7 +38,7 @@ As habilidades dos recursos clasifícanse por modelos de competencia. As clasifi
 
 1. Para crear un modelo de competencia, vaia a **Recursos** \> **Modelos de competencia** e logo seleccione **Novo**.
 2. No novo modelo de clasificación, especifique o valor mínimo de clasificación, o valor máximo de clasificación e a entidade que se está clasificando.
-3. Na subgrade **Valores de clasificación** , pode definir os diferentes valores de clasificación, desde o mínimo ata o máximo.
+3. Na subgrade **Valores de clasificación**, pode definir os diferentes valores de clasificación, desde o mínimo ata o máximo.
 
 
-Estes valores de clasificación móstranse nos filtros **Requisitos dos recursos** , **Panel de programación** e **Asistente de programación**.
+Estes valores de clasificación móstranse nos filtros **Requisitos dos recursos**, **Panel de programación** e **Asistente de programación**.

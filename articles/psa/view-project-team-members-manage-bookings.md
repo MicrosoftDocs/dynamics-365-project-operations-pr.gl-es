@@ -3,7 +3,7 @@ title: Visualizar membros do equipo de proxecto e xestionar reservas
 description: Como ver os membros do equipo de proxecto e xestionar reservas en Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f7fae8a4e8821b7983112ffa46c1879c97b9589
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f9607614b0b5cbc5a2d65abe5b72f40c6099d83c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076207"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127764"
 ---
 # <a name="view-project-team-members-and-manage-bookings-project-service"></a>Ver membros do equipo de proxecto e xestionar reservas (Project Service)
 
@@ -41,11 +41,11 @@ Pode ver unha lista dos membros do equipo de proxecto e, a partir de aí, pode m
   
 5.  Para facer unha reserva dura dun recurso, seleccione o rol de e, a seguir, prema en **Realizar reserva dura**. Mostra unha visualización de calendario de todos os recursos e a súa dispoñibilidade, con codificación de cor que fornece unha visualización visual do estado de rexistro dun recurso. Realice unha das seguintes accións para optimizar a busca:  
   
-    -   Seleccione unha visualización ou ordenación na parte superior da pantalla. Tamén pode seleccionar se se vai mostrar dispoñibilidades para **Día** , **Semana** ou **Mes** , e utilizar as frechas para ver o período de tempo anterior ou seguinte. Utilice a caixa de busca para buscar un recurso específico.  
+    -   Seleccione unha visualización ou ordenación na parte superior da pantalla. Tamén pode seleccionar se se vai mostrar dispoñibilidades para **Día**, **Semana** ou **Mes**, e utilizar as frechas para ver o período de tempo anterior ou seguinte. Utilice a caixa de busca para buscar un recurso específico.  
   
     -   Prema **Opcións** para modificar o que se mostra. Por exemplo, pode mostrar unha lenda que mostra a cor de deseño para diferentes tipos de reservas ou pode seleccionar que se mostren só certos tipos de rexistro (por exemplo, reserva dura ou reserva branda).  
   
-    -   Prema **Filtro** para mostrar o panel **Filtro** , que permite filtrar os resultados por unidade da organización, rol, cualificacións ou outros atributos.  
+    -   Prema **Filtro** para mostrar o panel **Filtro**, que permite filtrar os resultados por unidade da organización, rol, cualificacións ou outros atributos.  
   
     -   No calendario do recurso que desexa reservar, seleccione o período de tempo para o reservar o recurso e, a seguir, prema en **Reservar** para reservar o recurso ou **Propoñer reserva** para propor a reserva e que o solicitante a aprobe.  
   

@@ -3,7 +3,7 @@ title: Crear unidades organizativas
 description: Como crear unidades organizativas en Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4c653f5bd066fd174c8fb0996820628c1b281519
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebb00b9838773560404a9e3f7a19cc83408d7889
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076181"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125085"
 ---
 # <a name="create-organizational-units-project-service"></a>Crear unidades organizativas (Project Service)
 
@@ -38,13 +38,13 @@ A súa empresa probablemente organice o seu negocio de consultoría por xeograf�
   
 2.  Prema **Novo**.  
   
-3.  Na área **Xeral** , introduza un nome para a unidade de organización en **Nome** e encha os demais campos segundo sexa necesario.  
+3.  Na área **Xeral**, introduza un nome para a unidade de organización en **Nome** e encha os demais campos segundo sexa necesario.  
   
 4.  Prema **Gardar** para crear o rexistro e poder editalo.  
   
-5.  En **Listas de prezos de custo** , prema **+** para engadir unha lista de prezos. Só pode engadir listas de prezos co contexto de **Custo** aquí.  
+5.  En **Listas de prezos de custo**, prema **+** para engadir unha lista de prezos. Só pode engadir listas de prezos co contexto de **Custo** aquí.  
   
-6.  No campo **Nome** , prema o botón **Buscar** e seleccione a lista de prezos que desexa que estea dispoñible para a unidade da organización. Continúe a engadir listas de prezos, segundo sexa necesario.  
+6.  No campo **Nome**, prema o botón **Buscar** e seleccione a lista de prezos que desexa que estea dispoñible para a unidade da organización. Continúe a engadir listas de prezos, segundo sexa necesario.  
   
 7.  Ao acabar, prema **Gardar** na parte inferior dereita da pantalla.  
   

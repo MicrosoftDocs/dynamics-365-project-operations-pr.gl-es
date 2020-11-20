@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f2b9cbb4cce1691f262c85d95849e01f1a812d51
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 6dde924c24dcffe2a8fb690e6eb429e4c3d9fb28
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4076367"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126391"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Importar unha estimación a unha liña de contrato baseado en proxecto
 
@@ -22,8 +22,8 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 En Dynamics 365 Project Operations, pode importar estimacións dun proxecto a unha liña de contrato baseado en proxecto.
 
 1. Verifique que o campo **Proxecto** da liña de contrato baseado en proxecto está enchido.
-2. No separador **Detalles de liña de contrato** , na subgrade, seleccione **Importar desde a estimación do proxecto**. Ábrese unha páxina de diálogo con opcións de resumo. As opcións de resumo dispoñibles son **Clase de transacción** , **Categoría** , **Función** e **Tarefa de proxecto**. En función das selección para o resumo, cópianse as estimacións do proxecto para todas as clases de transaccións incluídas nesta liña de contrato. 
-3. Para comprobar que clases de transacción se inclúen, seleccione o separador **Xeral** na liña de contrato baseada en proxecto e comprobe os valores dos campos **Incluír tempo** , **Incluír gastos** , e **Incluír taxas**.
+2. No separador **Detalles de liña de contrato**, na subgrade, seleccione **Importar desde a estimación do proxecto**. Ábrese unha páxina de diálogo con opcións de resumo. As opcións de resumo dispoñibles son **Clase de transacción**, **Categoría**, **Función** e **Tarefa de proxecto**. En función das selección para o resumo, cópianse as estimacións do proxecto para todas as clases de transaccións incluídas nesta liña de contrato. 
+3. Para comprobar que clases de transacción se inclúen, seleccione o separador **Xeral** na liña de contrato baseada en proxecto e comprobe os valores dos campos **Incluír tempo**, **Incluír gastos**, e **Incluír taxas**.
 
 Cando importe estimacións, a aplicación predefine os prezos en función das listas de prezos do proxecto anexas ao contrato e do tipo de facturación configurado na liña de contrato. Se un rol ou categoría está configurado na liña de contrato como non imputable, a liña de estimación importada para ese rol ou categoría non é imputable e non se sumará ao valor contratado da liña de contrato.
 
@@ -39,20 +39,20 @@ Por exemplo, se o proxecto tiña as seguintes liñas de estimación de gastos:
 | Tarefa B | Hotel | 10/1/2020 | 4 | 200 | 800 |
 | Tarefa C | Hotel | 11/1/2020 | 2 | 200 | 400 |
 
-Cando o usuario selecciona resumir por **Clase de transacción** , importarase a seguinte información:
+Cando o usuario selecciona resumir por **Clase de transacción**, importarase a seguinte información:
 
 | Tarefa | Categoría | Data | Importe | Prezo por unidade | Importe  |
 | --- | --- | --- | --- | --- | --- |
 | &nbsp;  | &nbsp;  | 10/1/2020 | 3.34 | 840 | 2800 |
 
-Cando o usuario selecciona resumir por **Clase de transacción** e **Categoría** , importarase a seguinte información:
+Cando o usuario selecciona resumir por **Clase de transacción** e **Categoría**, importarase a seguinte información:
 
 | Tarefa | Categoría | Data | Importe | Prezo por unidade | Importe  |
 | --- | --- | --- | --- | --- | --- |
 | Tarefa A | Tarifas aéreas | 10/1/2020 | 4 | 400 | 1600 |
 | &nbsp;  | Hotel | 10/1/2020 | 6 | 200 | 1200 |
 
-Cando o usuario selecciona resumir por **Clase de transacción** , **Categoría** e **Tarefa nó folla** , importarase o seguinte. Teña en conta que este resultado é o mesmo que no proxecto:
+Cando o usuario selecciona resumir por **Clase de transacción**, **Categoría** e **Tarefa nó folla**, importarase o seguinte. Teña en conta que este resultado é o mesmo que no proxecto:
 
 | Tarefa | Categoría | Data | Importe | Prezo por unidade | Importe  |
 | --- | --- | --- | --- | --- | --- |

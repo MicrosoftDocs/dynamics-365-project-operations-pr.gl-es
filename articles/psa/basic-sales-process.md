@@ -3,7 +3,7 @@ title: Procesos de vendas
 description: Este tema fornece información sobre os procesos básicos de vendas.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f09b30fe6d842faaf896cb97f44b060ec4049213
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38e02018e46943f53680babd12c7bede0a5d19de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076246"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129316"
 ---
 # <a name="sales-processes"></a>Procesos de vendas
 
@@ -46,7 +46,7 @@ O valor dunha venda pódese estimar en función dos proxectos entregados anterio
 
 Pode crear unha estimación de alto nivel da oferta. Finalmente, esta estimación de alto nivel substituirase por unha estimación máis detallada baseada nun plan de proxecto que cree usando os modelos de proxecto normalizados. Estes modelos axúdanlle a crear un programa e a determinar os valores monetarios na oferta e os seus compoñentes (liñas de oferta). 
 
-Pode crear varias ofertas para un proxecto e agrupalas baixo un tipo de entidade de oportunidade única. Finalmente, unha desas ofertas márcase **Pechado como gañada** , e créase un contrato de proxecto ou unha declaración de traballo (SOW). Un contrato de proxecto contén o valor contratado para cada compoñente (liña de contrato) que é aceptado polo cliente para a súa entrega. Normalmente créase unha SOW como documento de Microsoft Word. Todas as facturas que se envían ao cliente ao longo da entrega do proxecto fan referencia ao contrato do proxecto ou ña SOW.
+Pode crear varias ofertas para un proxecto e agrupalas baixo un tipo de entidade de oportunidade única. Finalmente, unha desas ofertas márcase **Pechado como gañada**, e créase un contrato de proxecto ou unha declaración de traballo (SOW). Un contrato de proxecto contén o valor contratado para cada compoñente (liña de contrato) que é aceptado polo cliente para a súa entrega. Normalmente créase unha SOW como documento de Microsoft Word. Todas as facturas que se envían ao cliente ao longo da entrega do proxecto fan referencia ao contrato do proxecto ou ña SOW.
 
 Tamén pode crear ofertas alternativas baixo un tipo de entidade de oportunidade ou configurar o sistema para que se cree un contrato de proxecto cando se gaña unha oferta. Neste caso, pode anexar un documento de Word que representa a SOW no rexistro do contrato do proxecto.
 
@@ -70,12 +70,12 @@ Estas seis fases están representadas por comiñas angulares (\>) que selecciona
  
 A súa organización podería usar entidades diferentes para representar a mesma operación a medida que evoluciona. Ao comezo do proceso de vendas, unha operación está representada pola entidade Oportunidade. A medida que pasa o tempo e aparecen máis detalles, pode usar estimacións de alto nivel para crear unha ou varias ofertas. Se unha destas ofertas é revisada por partes interesadas internas e de clientes, a entidade Oferta representa a operación. Despois de que o cliente acepte a oferta, un contrato de proxecto ou SOW representa a operación. Para apoiar este comportamento, as BPF estrutúranse de xeito que cada fase do proceso estea ligada a unha táboa de base de datos diferente.
 
-A fase **Cualificar** do proceso de vendas pode estar apoiada por unha entidade Oportunidade. As fases **Estimación** e **Revisión interna** etapas poden estar apoiadas por unha entidade Oferta. As fases **Contrato** , **Entrega** e **Pechar** poden estar apoiadas por unha entidade Contrato de proxecto.
+A fase **Cualificar** do proceso de vendas pode estar apoiada por unha entidade Oportunidade. As fases **Estimación** e **Revisión interna** etapas poden estar apoiadas por unha entidade Oferta. As fases **Contrato**, **Entrega** e **Pechar** poden estar apoiadas por unha entidade Contrato de proxecto.
 
 A medida que fai avanzar as operacións polas fases, solicitaráselle que cree o rexistro de entidade adecuado para axudar e guiar no proceso. As fases poden ser condicionais. Por exemplo, se precisa unha revisión interna dunha oferta só se a oferta usa unha lista de prezos personalizada, pode configurar esa condición na fase adecuada do proceso de negocio. A fase **Revisión interna** móstrase só para ofertas que usan unha lista de prezos personalizada. Para o resto de operacións e ofertas, a fase **Estimación** vai seguida pola fase **Contrato**.
 
 > [!NOTE]
-> PSA ten páxinas específicas para as entidades Oportunidade, Oferta, Pedido e Factura. Debe crear oportunidades de servizo de proxecto, ofertas, pedidos e facturas usando as páxinas de información do proxecto para estas entidades. Se usa outra páxina para crear un rexistro, non poderá abrir o rexistro desde a páxina **Información do proxecto**. Se desexa abrir un rexistro desde a páxina **Información do proxecto** , ten que eliminar o rexistro e recrealo usando a páxina **Información do proxecto**. Na páxina **Información do proxecto** , a lóxica de negocio para cada un destes tipos de entidades asegura que o campo **Tipo** campo do rexistro está configurado correctamente e todos os conceptos obrigatorios están iniciados adecuadamente.
+> PSA ten páxinas específicas para as entidades Oportunidade, Oferta, Pedido e Factura. Debe crear oportunidades de servizo de proxecto, ofertas, pedidos e facturas usando as páxinas de información do proxecto para estas entidades. Se usa outra páxina para crear un rexistro, non poderá abrir o rexistro desde a páxina **Información do proxecto**. Se desexa abrir un rexistro desde a páxina **Información do proxecto**, ten que eliminar o rexistro e recrealo usando a páxina **Información do proxecto**. Na páxina **Información do proxecto**, a lóxica de negocio para cada un destes tipos de entidades asegura que o campo **Tipo** campo do rexistro está configurado correctamente e todos os conceptos obrigatorios están iniciados adecuadamente.
 
 > ![Información do proxecto para un novo pedido](media/basic-guide-4.png)
  

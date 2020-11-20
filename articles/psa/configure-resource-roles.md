@@ -3,7 +3,7 @@ title: Configurar roles de recursos
 description: Como configurar roles de recurso en Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f899d17980df16602c964bab4bbab1e976b3ebf
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b573bec395217e105cc8d9c669343e37ff6662e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076130"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129136"
 ---
 # <a name="configure-resource-roles-project-service"></a>Configurar roles de recurso (Project Service)
 
@@ -41,13 +41,13 @@ Os roles teñen un papel importante na planificación dun proxecto, ao determina
   
 2.  Prema **Novo**.  
   
-3.  Na área **Xeral** , introduza un nome para o rol en **Nome** e, a seguir, encha os demais campos segundo sexa necesario.  
+3.  Na área **Xeral**, introduza un nome para o rol en **Nome** e, a seguir, encha os demais campos segundo sexa necesario.  
   
 4.  Prema **Gardar** para crear o rexistro e poder editalo.  
   
-5.  Na área **Cualificacións** , prema en **+** para engadir unha cualificación.  
+5.  Na área **Cualificacións**, prema en **+** para engadir unha cualificación.  
   
-6.  No panel **Requisitos de competencia do rol** , prema no campo **Cualificacións** , prema o botón **Buscar** e, a seguir, seleccione unha cualificación.  
+6.  No panel **Requisitos de competencia do rol**, prema no campo **Cualificacións**, prema o botón **Buscar** e, a seguir, seleccione unha cualificación.  
   
 7.  Seleccione un coñecemento para esa cualificación e, a seguir, prema en **Gardar**.  
   

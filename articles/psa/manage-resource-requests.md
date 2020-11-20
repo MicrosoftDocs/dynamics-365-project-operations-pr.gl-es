@@ -3,7 +3,7 @@ title: Xestionar solicitudes de recursos
 description: Como xestionar solicitudes de recursos en Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076131"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129001"
 ---
 # <a name="manage-resource-requests-project-service"></a>Xestionar solicitudes de recursos (Project Service)
 
@@ -37,11 +37,11 @@ Os xestores de contas e os xestores de proxectos solicitan regularmente recursos
   
     Realice unha das seguintes accións para optimizar a busca:  
   
-   -   Seleccione unha visualización ou ordenación na parte superior da pantalla. Tamén pode seleccionar se se vai mostrar dispoñibilidades para **Día** , **Semana** ou **Mes** , e utilizar as frechas para ver o período de tempo anterior ou seguinte. Utilice a caixa de busca para buscar un recurso específico.  
+   -   Seleccione unha visualización ou ordenación na parte superior da pantalla. Tamén pode seleccionar se se vai mostrar dispoñibilidades para **Día**, **Semana** ou **Mes**, e utilizar as frechas para ver o período de tempo anterior ou seguinte. Utilice a caixa de busca para buscar un recurso específico.  
   
    -   Prema **Opcións** para modificar o que se mostra. Por exemplo, pode mostrar unha lenda que mostra a cor de deseño para diferentes tipos de reservas ou pode seleccionar que se mostren só certos tipos de rexistro (por exemplo, reserva dura ou reserva branda).  
   
-   -   Prema **Filtro** para mostrar o panel **Filtro** , que permite filtrar os resultados por unidade da organización, rol, cualificacións ou outros atributos.  
+   -   Prema **Filtro** para mostrar o panel **Filtro**, que permite filtrar os resultados por unidade da organización, rol, cualificacións ou outros atributos.  
   
        ![Pantalla de solicitude de recursos en Project Service](../psa/media/project-service-resource-request-screen.png "Pantalla de solicitude de recursos en Project Service.").  
   

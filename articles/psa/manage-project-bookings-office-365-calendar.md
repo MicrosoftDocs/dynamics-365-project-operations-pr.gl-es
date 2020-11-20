@@ -3,7 +3,7 @@ title: Xestionar proxectos e reservas no seu calendario de Office 365
 description: Como xestionar proxectos e reservas no seu calendario de Office 365
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fd4119693875fb851c7bd3f34287db7d81237140
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31ff541f5b817c29b162c38c282df8cfd866e375
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076166"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129046"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Xestionar proxectos e reservas no seu calendario (Project Service)
 
@@ -60,7 +60,7 @@ Ver os compromisos persoais, as reservas de traballo nos proxectos e as atribuci
   
 3.  Prema o separador **Sincronización**.  
   
-4.  En **Seleccione se desexa activar a sincronización da reserva de recursos con** , marque **Sincronizar a reserva de recursos con Outlook**.  
+4.  En **Seleccione se desexa activar a sincronización da reserva de recursos con**, marque **Sincronizar a reserva de recursos con Outlook**.  
   
 ## <a name="turn-on-synchronization-for-your-user-profile-user-task"></a>Activar a sincronización para o seu perfil de usuario (tarefa de usuario)  
   
@@ -70,7 +70,7 @@ Ver os compromisos persoais, as reservas de traballo nos proxectos e as atribuci
   
 3.  Prema o separador **Sincronización**.  
   
-4.  En **Sincronización da reserva de recursos con Outlook** , marque **Sincronización da reserva de recursos con Outlook**.  
+4.  En **Sincronización da reserva de recursos con Outlook**, marque **Sincronización da reserva de recursos con Outlook**.  
   
 ## <a name="import-your-personal-appointments-user-task"></a>Importar os seus compromisos persoais (tarefa de usuario)  
  Pode importar os compromisos persoais desde calendario á visualización de entrada de tempo en Project Service Automation.  
@@ -83,7 +83,7 @@ Ver os compromisos persoais, as reservas de traballo nos proxectos e as atribuci
   
 4. Seleccione o compromiso que desexe engadir á visualización de entrada de tempo en Project Service Automation.  
   
-5. Na caixa emerxente **Entrada de tempo** , seleccione as opcións apropiadas para converter o compromiso nunha visualización de entrada de tempo en Project Service Automation.  
+5. Na caixa emerxente **Entrada de tempo**, seleccione as opcións apropiadas para converter o compromiso nunha visualización de entrada de tempo en Project Service Automation.  
   
 6. Prema **Gardar**.  
   

@@ -3,7 +3,7 @@ title: Programar un proxecto coa estrutura de subdivisión do traballo
 description: Como programar un proxecto coa estrutura de subdivisión do traballo (Project Service)
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076314"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127876"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Programar un proxecto coa estrutura de subdivisión do traballo (Project Service)
 
@@ -86,14 +86,14 @@ Usará os seguintes tipos de tarefas ao crear a estrutura de subdivisión do tra
   
 ### <a name="schedule-attributes"></a>Programar atributos
 
- - Atribuír valores a **Horas de esforzo** , **Número de recursos** , **Data de Inicio** , **Data de Fin** e **Duración** para determinar a programación para a tarefa. 
+ - Atribuír valores a **Horas de esforzo**, **Número de recursos**, **Data de Inicio**, **Data de Fin** e **Duración** para determinar a programación para a tarefa. 
  - **Esforzo** é a estimación de horas que leva concluír a tarefa.
  - **Número de recursos** é unha estimación que o xestor de proxecto pon na tarefa para axudar a crear a mellor programación posible. 
  - **Duración** (en días) indica o número de días laborables que levará concluír a tarefa.  
   
 ### <a name="staffing-attributes"></a>Atributos de persoal
 
- - **Rol** , **Unidade da organización de recursos** , **Número de recursos** e **Recursos** describen os requisitos de persoal da tarefa. 
+ - **Rol**, **Unidade da organización de recursos**, **Número de recursos** e **Recursos** describen os requisitos de persoal da tarefa. 
  - **Rol** describe o tipo de recurso necesario para realizar a tarefa. 
  - **Unidade de organización de recursos** indica a unidade da organización da que vén o persoal dos recursos para esa tarefa; isto tamén afecta a estiamción de vendas e custo, xa que se ten en conta para determinar o prezo de venda da unidade para o recurso. 
  - **Recursos** mantén un recurso xenérico ou un recurso con nome cando se atopa un.  

@@ -2,7 +2,7 @@
 title: Como podo personalizar o fluxo do proceso de negocio nas fases do proxecto?
 description: Unha visión xeral de como personalizar o fluxo do proceso de negocio de Project Stages.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076318"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125035"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Como podo personalizar o fluxo do proceso de negocio nas fases do proxecto?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-Existe unha limitación coñecida en versións anteriores da aplicación Project Service que consiste en que os nomes das fases no fluxo do proceso de negocio de fases dos proxecto deben coincidir exactamente cos nomes en inglés previstos ( **Quote** , **Plan** , **Close** ). En caso contrario, a lóxica empresarial, que depende dos nomes de fase en inglés, non funciona conforme o esperado. Por eso non ve accións familiares como **Mudar proceso** ou **Editar proceso** dispoñibles no formulario do proxecto, e non se recomienda a personalización do fluxo do proceso de negocio. 
+Existe unha limitación coñecida en versións anteriores da aplicación Project Service que consiste en que os nomes das fases no fluxo do proceso de negocio de fases dos proxecto deben coincidir exactamente cos nomes en inglés previstos (**Quote**, **Plan**, **Close**). En caso contrario, a lóxica empresarial, que depende dos nomes de fase en inglés, non funciona conforme o esperado. Por eso non ve accións familiares como **Mudar proceso** ou **Editar proceso** dispoñibles no formulario do proxecto, e non se recomienda a personalización do fluxo do proceso de negocio. 
 
 Esta limitación abordouse na versión 2.4.5.48 e posteriores. Este artigo suxire solucións para versións anteriores se ten que personalizar o fluxo do proceso de negocio para versións anteriores.  
 
@@ -38,7 +38,7 @@ Esta limitación abordouse na versión 2.4.5.48 e posteriores. Este artigo suxir
 O fluxo do proceso de negocio de fases dos proxecto inclúe unha lóxica empresarial que dirixe os comportamentos seguintes na aplicación:
 - Cando o proxecto está asociada a unha oferta, o código define o fluxo do proceso de negocio á fase **Quote**.
 - Cando o proxecto está asociada a un contrato, o código define o fluxo do proceso de negocio á fase **Plan**.
-- Cando o fluxo do proceso de negocio avanza á fase **Close** , o rexistro de proxecto está desactivado. Cando o proxecto se desactiva, o formulario de proxecto e a estrutura de subdivisión do traballo (WBS) están definidas a só lectura, libéranse as reservas de recursos denominados e as listas de prezos asociadas desactívanse.
+- Cando o fluxo do proceso de negocio avanza á fase **Close**, o rexistro de proxecto está desactivado. Cando o proxecto se desactiva, o formulario de proxecto e a estrutura de subdivisión do traballo (WBS) están definidas a só lectura, libéranse as reservas de recursos denominados e as listas de prezos asociadas desactívanse.
 
 Esta lóxica empresarial depende dos nomes en inglés para as fases do proxecto. Este dependencia nos nomes de fase en inglés é o principal motivo polo que non se recomenda a personalización do fluxo do proceso de negocio nas fases do proxecto, e tamén pola que non ve accións de fluxo do proceso de negocio como **Cambiar proceso** ou **Editar proceso** na entidade do proxecto.
 
@@ -48,7 +48,7 @@ Na versión da aplicación Project Service 1.x na plataforma 8.2, cando os nomes
 
 Na versión da aplicación Project Service 2.4.4.30 ou anterior na plataforma 9.0, houbo un cambio arquitectónico considerable no fluxo do proceso de negocio que requeríu unha reescritura la lóxica empresarial do fluxo do proceso de negocio. Como resultado, se os nomes de fase de proceso non coinciden cos nomes en inglés previstos, recibirá unha mensaxe de erro. 
 
-Por tanto, se desexa personalizar o fluxo do proceso de negocio de fases de proxecto para a entidade de proxecto, só pode engadir fases novas para o fluxo do proceso de negocio predefinido para a entidade de proxecto, mantendo as fases **Quote** , **Plan** e **Close** tal cual. Esta restrición garante que non reciba erros da lóxica empresarial que esperen os nomes de fase no fluxo do proceso de negocio en inglés.
+Por tanto, se desexa personalizar o fluxo do proceso de negocio de fases de proxecto para a entidade de proxecto, só pode engadir fases novas para o fluxo do proceso de negocio predefinido para a entidade de proxecto, mantendo as fases **Quote**, **Plan** e **Close** tal cual. Esta restrición garante que non reciba erros da lóxica empresarial que esperen os nomes de fase no fluxo do proceso de negocio en inglés.
 
 Na versión 2.4.5.48 ou posteriores, a lóxica empresarial descrita neste artigo eliminouse do fluxo do proceso de negocio predefinido para o proxecto. Actualizar a esa versión ou posteriores permitiralle personalizar ou substituir o fluxo do proceso de negocio predefinido por un dos seus propios. 
 
@@ -56,12 +56,12 @@ Na versión 2.4.5.48 ou posteriores, a lóxica empresarial descrita neste artigo
 
 Se actualizar non é unha opción, pode personalizar o fluxo do proceso de negocio das fases do proxecto para a entidade de proxecto dunha das seguintes dúas maneiras:
 
-1. Engada fases adicionais á configuración predefinida, e manteña os nomes de fase en inglés para **Quote** , **Plan** e **Close**.
+1. Engada fases adicionais á configuración predefinida, e manteña os nomes de fase en inglés para **Quote**, **Plan** e **Close**.
 
 
 ![Captura de engadir fases á configuración predefinida](media/FAQ-Customize-BPF-1.png)
  
-2. Cree o seu propio fluxo do proceso de negocio e convirtao en fluxo do proceso de negocio principal para a entidade de proxecto, que lle permite ter os nomes de fase que desexe. No entanto, se desexa utilizar as mesmas fases de proxecto estándar **Quote** , **Plan** e **Close** , ten que facer algunhas personalizacións alonxadas dos nomes de fase personalizados. A lóxica máis complexa está no proceso de peche do proxecto, que pode activar simplemente desactivando o rexistro de proxecto.
+2. Cree o seu propio fluxo do proceso de negocio e convirtao en fluxo do proceso de negocio principal para a entidade de proxecto, que lle permite ter os nomes de fase que desexe. No entanto, se desexa utilizar as mesmas fases de proxecto estándar **Quote**, **Plan** e **Close**, ten que facer algunhas personalizacións alonxadas dos nomes de fase personalizados. A lóxica máis complexa está no proceso de peche do proxecto, que pode activar simplemente desactivando o rexistro de proxecto.
 
 ![Personalización de BPF](media/FAQ-Customize-BPF-2.png)
 
@@ -81,7 +81,7 @@ Para crear o seu propio fluxo do proceso de negocio para a entidade de proxecto,
 
   ![Crear proceso](media/FAQ-Customize-BPF-3.png)
 
-2. Utilice o Deseñador de procesos para crear os nomes de fase que desexe. Se desexa a mesma funcionalidade que as fases predefinidas para **Quote** , **Plan** e **Close** , ten que creala baseándose nos seus nomes de fase do fluxo do proceso de negocio personalizado.
+2. Utilice o Deseñador de procesos para crear os nomes de fase que desexe. Se desexa a mesma funcionalidade que as fases predefinidas para **Quote**, **Plan** e **Close**, ten que creala baseándose nos seus nomes de fase do fluxo do proceso de negocio personalizado.
 
    ![Captura do Deseñador de procesos utilizado para personalizar BPF](media/FAQ-Customize-BPF-4.png) 
 

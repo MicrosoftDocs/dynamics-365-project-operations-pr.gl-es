@@ -3,7 +3,7 @@ title: Reservar recursos nomeados a partir de requisitos de recursos
 description: Este tema proporciona información sobre a reserva de recursos nomeados para un requisito de recursos xenérico.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 20e3a904bc33360b194c0c53e58430c80d1ff55f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d7ff58ec08661adc702867c6c26805a74a3637c9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076337"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125896"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Reservar recursos nomeados a partir de requisitos de recursos
 
@@ -38,7 +38,7 @@ Pode reservar un recurso nomeado para substituír un recurso xenérico que teña
 ![Reserva dun membro xenérico do equipo](media/RM-how-to-14.png)
 
 
-3. Na páxina **Asistente de programación** , seleccione un recurso nomeado para reservar no seu equipo de proxecto e logo prema en **Reservar**.
+3. Na páxina **Asistente de programación**, seleccione un recurso nomeado para reservar no seu equipo de proxecto e logo prema en **Reservar**.
 
 ![Reserva dun membro xenérico do equipo usando o asistente de programación](media/RM-how-to-15.png)
 

@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c8ac11d45c1d28967eaf5d76b326950ebd0c8eb3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075985"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128776"
 ---
 # <a name="edit-a-resource-requirement"></a>Editar un requisito de recurso
 
@@ -26,7 +26,7 @@ Despois de que o requisito de recursos sexa definido pola acción **Xerar requis
 Como xestor de proxectos, complete os seguintes pasos para editar o requisito de recursos dun membro do equipo.
 
 1. Vaia á grade dos membros do equipo, localice o membro do equipo na lista e seleccione a ligazón aos requisitos de recursos asociados.
-2. No formulario **Detalles do requisito** , actualice os seguintes atributos segundo sexa necesario.
+2. No formulario **Detalles do requisito**, actualice os seguintes atributos segundo sexa necesario.
 
 - Coñecementos
 - Funcións
@@ -36,4 +36,4 @@ Como xestor de proxectos, complete os seguintes pasos para editar o requisito de
 
 ## <a name="edit-resource-assignment-contours"></a>Editar contornos de atribución de recursos
 
-Ademais de editar os detalles dos requisitos de recursos, un xestor de proxectos pode actualizar os contornos individuais do requisitos de recursos usando a funcionalidade **Especificar padrón**. Cando se selecciona **Especificar padrón** , ábrese unha páxina e pode ver os contornos na escala de día, semana ou mes. Cada contorno pódese axustar para a hora de inicio, hora de finalización e esforzo total nun período determinado.
+Ademais de editar os detalles dos requisitos de recursos, un xestor de proxectos pode actualizar os contornos individuais do requisitos de recursos usando a funcionalidade **Especificar padrón**. Cando se selecciona **Especificar padrón**, ábrese unha páxina e pode ver os contornos na escala de día, semana ou mes. Cada contorno pódese axustar para a hora de inicio, hora de finalización e esforzo total nun período determinado.

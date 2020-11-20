@@ -3,7 +3,7 @@ title: Utilizar o complemento Project Service para planificar o traballo en Micr
 description: Este tema fornece información sobre como engadir, configurar e usar o complemento Microsoft Project para Microsoft Project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076262"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129676"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Utilice o complemento de Project Service Automation para planificar o seu traballo en Project Microsoft
 
@@ -59,7 +59,7 @@ ms.locfileid: "4076262"
 ## <a name="read-from-a-template"></a>Ler a partir dun modelo  
  Lea desde un modelo creado en [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] e copiado en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] para iniciar a a planificación do proxecto. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Crear un modelo de proxecto (Project Service Automation)](../psa/create-project-template.md)  
 
-1.  No separador **Project Service** , prema en **Ler** > **Modelo de proxecto de Project Service Automation**.  
+1.  No separador **Project Service**, prema en **Ler** > **Modelo de proxecto de Project Service Automation**.  
 
 2.  Elixa un modelo de proxecto da lista e, a seguir, prema en **Abrir**.  
 
@@ -78,7 +78,7 @@ ms.locfileid: "4076262"
 
 1.  No separador Project Service, seleccione unha fila e prema **Localizar Recursos**.  
 
-2.  Na pantalla **Reservar recurso** , seleccione o recurso que desexa utilizar para o proxecto.  
+2.  Na pantalla **Reservar recurso**, seleccione o recurso que desexa utilizar para o proxecto.  
 
 3.  Prema **Reservar** e, a seguir, prema **Aceptar**.  
 
@@ -95,9 +95,9 @@ O proxecto importarase en [!INCLUDE[pn_project_service_auto](../includes/pn-proj
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Utilización de uso**    |    Impórtase na [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] pantalla **Estimacións de Proxecto**.     |
 
 **Para importar e publicar o seu proxecto**  
-1. No separador **Project Service** , prema en **Publicar** > **Novo proxecto de Project Service Automation**.  
+1. No separador **Project Service**, prema en **Publicar** > **Novo proxecto de Project Service Automation**.  
 
-2. Na caixa de diálogo **Publicar nun novo proxecto en Project Service** , introduza o **Nome do proxecto** e seleccione o **Cliente**.  
+2. Na caixa de diálogo **Publicar nun novo proxecto en Project Service**, introduza o **Nome do proxecto** e seleccione o **Cliente**.  
 
 3. Tamén pode marcar **Ligar o plan do proxecto a Project Service Automation** para ligar o ficheiro do plan do proxecto a Project Service Automation.  
 
@@ -139,9 +139,9 @@ O proxecto importarase en [!INCLUDE[pn_project_service_auto](../includes/pn-proj
 
 2. Seleccione **Documentos de proxecto Project Service Automation**.  
 
-3. Na caixa de diálogo **Activar Abrir en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** , seleccione **Si** ou **Non**.  
+3. Na caixa de diálogo **Activar Abrir en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, seleccione **Si** ou **Non**.  
 
-   - Se preme en **Si** , poderá seleccionar o botón **Abrir en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** en Project Service Automation, iniciar [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] e cargar o ficheiro de proxecto desde a biblioteca de documentos de SharePoint.  
+   - Se preme en **Si**, poderá seleccionar o botón **Abrir en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** en Project Service Automation, iniciar [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] e cargar o ficheiro de proxecto desde a biblioteca de documentos de SharePoint.  
 
    - Se preme en **Non** non funciona a ligazón para o botón **Abrir en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**.  
 
@@ -153,9 +153,9 @@ O proxecto importarase en [!INCLUDE[pn_project_service_auto](../includes/pn-proj
 
 2. Seleccione **Documentos de proxecto Project Service Automation**.  
 
-3. Na caixa de diálogo **Activar Abrir en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** , seleccione **Si** ou **Non**.  
+3. Na caixa de diálogo **Activar Abrir en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, seleccione **Si** ou **Non**.  
 
-   - Se preme en **Si** , poderá seleccionar o botón **Abrir en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** en Project Service Automation, iniciar [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] e cargar o ficheiro de proxecto desde a biblioteca de documentos de SharePoint.  
+   - Se preme en **Si**, poderá seleccionar o botón **Abrir en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** en Project Service Automation, iniciar [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] e cargar o ficheiro de proxecto desde a biblioteca de documentos de SharePoint.  
 
    - Se preme en **Non** non funciona a ligazón para o botón **Abrir en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**.  
 
@@ -164,9 +164,9 @@ O proxecto importarase en [!INCLUDE[pn_project_service_auto](../includes/pn-proj
 ## <a name="publish--your-project-as-a-template"></a>Publicar o proxecto como modelo  
  Pode gardar o seu proxecto e reutilizalo se o garda como modelo de proxecto en [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  Os modelos de proxecto son plans de proxecto reutilizables en [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Crear un modelo de proxecto (Project Service Automation)](../psa/create-project-template.md)  
 
-1. No separador **Project Service** , prema en **Publicar** > **Novo modelo de proxecto de Project Service Automation**.  
+1. No separador **Project Service**, prema en **Publicar** > **Novo modelo de proxecto de Project Service Automation**.  
 
-2. Na caixa de diálogo **Publicar nun novo modelo de proxecto en Project Service** , introduza o **Nome do modelo de proxecto**.  
+2. Na caixa de diálogo **Publicar nun novo modelo de proxecto en Project Service**, introduza o **Nome do modelo de proxecto**.  
 
 3. Tamén pode marcar **Ligar o plan do proxecto a Project Service Automation** para ligar o ficheiro do proxecto a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
