@@ -1,4 +1,4 @@
-- name: "Dynamics\_365 Project Operations"
+- name: Dynamics 365 Project Operations
   href: index.md
 - name: Introdución
   items:
@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Novidades
       items:
+        - name: Decembro de 2020 - Project Operations para situacións baseadas en recursos/sen fornecemento
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: Novembro de 2020 - Project Operations para situacións baseadas en recursos/sen fornecemento
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Proceso de vendas de proxecto
@@ -87,7 +89,7 @@
                 - name: Xestionar varios clientes en liñas de oferta baseada en proxecto
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Configurar os compoñentes imputables dunha liña de oferta de proxecto
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Crear estimacións nunha liña de oferta
                   href: sales/create-estimate-quote-line.md
                 - name: Importar estimacións desde un proxecto a unha liña de oferta baseada en proxecto
@@ -109,7 +111,7 @@
             - name: Xestionar listas de prezos de proxecto nos contratos de proxecto
               href: sales/contracts-manage-project-price-lists.md
             - name: Xestionar varios clientes nunha en contratos de proxecto
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Liñas de contrato baseado en proxecto
               items:
                 - name: Visión xeral de liñas de contrato baseado en proxecto
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Copiar un contrato de proxecto
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Anticipos e retencións
+              items:
+                - name: Contratos baseados en adiantos e retencións - lite
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Configurar un programa de retencións - lite
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Crear un adianto ad hoc nun contrato - lite
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Prezos e custos
       items:
         - name: Configuración de listas de prezos
@@ -158,18 +168,28 @@
           items:
             - name: Visión xeral das dimensións de prezos
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Crear unha solución para as dimensións de prezos personalizadas
+              href: sales/create-solution-custompd.md
             - name: Usar campos existentes como dimensións de prezos
               items:
                 - name: Campos de Project Operations como dimensións de prezos
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Usar un recurso reservable como dimensión de prezos
+                  href: sales/use-br-as-pd.md
+                - name: Usar a categoría de transacción como dimensión de prezos
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Recurso reservable con múltiples roles nun proxecto
+                  href: sales/br-playing-multiple-roles.md
             - name: Campos personalizados como dimensións de prezos
               items:
                 - name: Crear campos e entidades personalizados como dimensións de prezos
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Engadir campos personalizados á configuración de prezos e ás entidades transaccionais
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Configurar campos personalizados como dimensións de prezos
+                - name: 'Configurar campos personalizados como dimensións de prezos '
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Actualizar os atributos do complemento para incluír novas dimensións de prezos
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Desactivar unha dimensión de prezos
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Xestión de proxectos
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Administración de recursos
           items:
+            - name: Crear recursos
+              href: resource-management/create-resources.md
             - name: Definir habilidades e destrezas
               href: resource-management/define-skills-proficiencies.md
+            - name: Define funcións
+              href: resource-management/define-roles.md
             - name: Definir calendarios de recursos
               href: resource-management/define-resource-calendars.md
         - name: Métodos de atribución de reservas
           href: resource-management/booking-allocation-methods.md
+        - name: Estados de reservas
+          href: resource-management/booking-status.md
         - name: Modelos de habilidades e competencias
           href: resource-management/skills-proficiency-models.md
         - name: Conciliación de recursos
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Xestionar unha factura proforma de proxecto
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Facturar unha retención ou un adianto
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Confirmar unha factura proforma de proxecto
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Configurar automatización de facturas de proxecto
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Diario de integración en Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: Facturación entre empresas
+          items:
+            - name: Visión xeral da facturación entre empresas
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Configurar a facturación entre empresas
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Crear facturas entre empresas de clientes e fornecedores
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Crea transaccións entre empresas
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Recoñecemento de ingresos
+      items:
+        - name: Visión xeral do recoñecemento de ingresos
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Configurar o recoñecemento de ingresos
+          items:
+            - name: Configurar os tipos de período
+              href: project-accounting/period-types.md
+            - name: Configurar os modelos de custo
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Xestionar estimacións de ingresos
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Proxectos de estimación de ingresos a prezo fixo
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Custo para completar métodos
+          href: revenue-recognition/cost-complete-methods.md
 - name: 'Despregamento de Lite: acordo para facturación proforma'
   items:
     - name: Introdución
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: Novidades
       items:
+        - name: Novidades de decembro de 2020 - despregamento de Lite - acordo para facturación proforma
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: Novidades de novembro de 2020 - despregamento de Lite - acordo para facturación proforma
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Proceso de vendas de proxecto
@@ -538,18 +594,28 @@
           items:
             - name: Visión xeral das dimensións de prezos
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Crear unha solución para as dimensións de prezos personalizadas
+              href: sales/create-solution-custompd.md
             - name: Usar campos existentes como dimensións de prezos
               items:
-                - name: Usar un campo existente como dimensión de prezos
+                - name: Campos de Project Operations como dimensións de prezos
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Usar un recurso reservable como dimensión de prezos
+                  href: sales/use-br-as-pd.md
+                - name: Usar a categoría de transacción como dimensión de prezos
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Recurso reservable con múltiples roles nun proxecto
+                  href: sales/br-playing-multiple-roles.md
             - name: Campos personalizados como dimensións de prezos
               items:
                 - name: Crear campos e entidades personalizados como dimensións de prezos
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Engadir campos personalizados á configuración de prezos e ás entidades transaccionais
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Configurar campos personalizados como dimensións de prezos
+                - name: 'Configurar campos personalizados como dimensións de prezos '
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Actualizar os atributos do complemento para incluír novas dimensións de prezos
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Desactivar unha dimensión de prezos
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Xestión de proxectos
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Administración de recursos
           items:
+            - name: Crear recursos
+              href: resource-management/create-resources.md
             - name: Definir habilidades e destrezas
               href: resource-management/define-skills-proficiencies.md
+            - name: Define funcións
+              href: resource-management/define-roles.md
             - name: Definir calendarios de recursos
               href: resource-management/define-resource-calendars.md
         - name: Métodos de atribución de reservas
           href: resource-management/booking-allocation-methods.md
+        - name: Estados de reservas
+          href: resource-management/booking-status.md
         - name: Modelos de habilidades e competencias
           href: resource-management/skills-proficiency-models.md
         - name: Conciliación de recursos
@@ -834,6 +906,8 @@
       items:
         - name: Programación de versións de actualización para Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novidades ou cambios na versión 26 de actualización, V3'
+          href: psa/whats-new-ur-26.md
         - name: 'Novidades ou cambios na versión 25 de actualización, V3'
           href: psa/whats-new-ur-25.md
         - name: 'Novidades ou cambios na versión 24 de actualización, V3'
