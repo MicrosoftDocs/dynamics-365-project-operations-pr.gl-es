@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180775"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513922"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Crear unha programación de facturas nunha liña de contrato baseado en proxecto 
 
@@ -49,7 +49,7 @@ Complete os seguintes pasos para xerar unha programación de facturas baseada en
 3. Abra a liña de contrato de **Prezo fixo** para a que esta a crear unha programación de fitos. No separador **Fitos de facturación**, seleccione a data de inicio da facturación e a frecuencia das facturas. 
 4. Na subgrade, seleccione **Xerar fitos periódicos**. A programación de facturas xérase cos campos **Nome do fito**, **Data do Fito** e **Cantidade de fitos** configurados do seguinte xeito:
 
-    - **Nome do fito**: Esta data depende da frecuencia da factura.
+    - **Nome do fito**: Este nome está ditado pola frecuencia da factura.
     - **Data do fito**: Esta data depende da frecuencia da factura.
     - **Importe do fito**: Este importe calcúlase dividindo o importe do contrato na liña de contrato polo número de fitos obrigado pola frecuencia e o inicio da facturación e as datas de entrega solicitadas.
 

@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121171"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642967"
 ---
 # <a name="provision-a-new-environment"></a>Fornecer un novo ambiente
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Este tema ofrece información sobre como fornecer un novo ambiente de Dynamics 365 Project Operations para situacións baseadas en recursos/sen fornecemento.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Este tema ofrece información sobre como proporcionar un novo ambiente de Dynamics 365 Project Operations para situacións baseadas en recursos/sen fornecemento.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Activar o fornecemento automatizado de Project Operations nun proxecto de LCS
 
@@ -120,7 +122,7 @@ O servizo do ambiente levará algún tempo. Despois de completalo, o ambiente vo
 
 ![Aplicar solucións](./media/13ApplySolutions.png)
 
-5. Seleccione ambas solucións, **Mapa de entidades de escrita dual de Dynamics 365 Finance and Operations** e **Mapas de entidades de escrita dual de Dynamics 365 Project Operations** e, a seguir, seleccione **Aplicar**.
+5. Seleccione ambas solucións, **Mapa de entidade de escrita dual de Dynamics 365 Finance and Operations** e **Mapas de entidades de escrita dual de Dynamics 365 Project Operations** e, a seguir, seleccione **Aplicar**.
 
 ![Confirmar solucións](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ A actualización tardará aproximadamente 20 minutos. Recibirá unha alerta cand
 | --- | --- | --- | --- | --- | --- |
 | **Roles de recursos do proxecto para todas as empresas (bookableresourcecategories)** | No | Si | Common Data Service | No | N\A |
 | **Entidades legais (cdm\_companies)** | No | Si | Aplicacións de Finance and Operations | No | N\A |
+| **Libro maior (msdyn_ledgers)** | No | Si | Aplicacións de Finance and Operations | Si | Si, aplicacións de Finance and Operations |
 | **Datos reais de integración de Project Operations (msdyn\_actuals)** | No | No | N\A | Si | No |
 | **Liñas de contrato de proxecto (salesorderdetails)** | No | No | N\A | No | No |
 | **Entidade de integración para as relacións de transaccións do proxecto (msdyn\_transactionconnections)** | No | No | N\A | No | N\A |

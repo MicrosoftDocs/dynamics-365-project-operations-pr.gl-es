@@ -1,5 +1,5 @@
 ---
-title: Facturar unha retención ou un adianto - lite
+title: Facturar unha retención ou un adianto
 description: Este tema ofrece información sobre como facturar unha retención ou un adianto en Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180550"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596190"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Facturar unha retención ou un adianto - lite
+# <a name="invoice-a-retainer-or-an-advance"></a>Facturar unha retención ou un adianto
 
-_**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
+_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Dynamics 365 Project Operations admite contratos baseados en retencións e adiantos puntuais. Nun contrato de proxecto, pode rexistrar unha programación de retencións ou un adianto único. Non obstante, o rexistro a nivel de contrato do proxecto non pon de inmediato dispoñible unha retención nin un adianto para o seu uso. Para usar unha retención ou un adianto nunha factura que realmente cobra ao cliente, primeiro debe facturarse a retención ou o adianto.
+Dynamics 365 Project Operations admite contratos baseados en retencións e adiantos únicos. Nun contrato de proxecto, pode rexistrar unha programación de retencións ou un adianto único. Non obstante, o rexistro a nivel de contrato do proxecto non pon de inmediato dispoñible unha retención nin un adianto para o seu uso. Para usar unha retención ou un adianto nunha factura que realmente cobra ao cliente, primeiro debe facturarse a retención ou o adianto.
 
 Complete os pasos seguintes para facturar unha retención ou un adianto.
 

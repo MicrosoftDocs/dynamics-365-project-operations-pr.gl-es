@@ -1,5 +1,5 @@
 ---
-title: Creación dun adianto ad hoc nun contrato - lite
+title: Creación dun adianto ad hoc nun contrato
 description: Este tema ofrece información sobre como crear un adianto nun contrato segundo sexa necesario.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181360"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4595968"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Creación dun adianto ad hoc nun contrato - lite
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Creación dun adianto ad hoc nun contrato
 
-_**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
+_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
 Microsoft Dynamics 365 Project Operations admite escenarios de facturación que implican pagamentos anticipados e adiantos. O proceso para usar **Adiantos** en **Project Operations** é semellante aos contratos de **Retención**. 
 

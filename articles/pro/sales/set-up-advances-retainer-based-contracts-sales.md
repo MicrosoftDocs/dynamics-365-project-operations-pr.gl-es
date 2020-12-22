@@ -1,5 +1,5 @@
 ---
-title: Contratos baseados en adiantos e retencións - lite
+title: Contratos baseados en adiantos e retencións
 description: Este tema ofrece información sobre modelos de contratación baseados en retencións e adiantos en Project Operations.
 author: rumant
 manager: Annbe
@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180865"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596100"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Contratos baseados en adiantos e retencións - lite
+# <a name="advances-and-retainer-based-contracts"></a>Contratos baseados en adiantos e retencións
 
 
-_**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
+_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
 Dynamics 365 Project Operations admite contratos baseados en retencións. Un contrato baseado en retencións é un conxunto negociado de pagamentos distribuídos igualmente para os que se facturará ao cliente durante un proxecto. Este tipo de contrato úsase normalmente para modelos de facturación baseados no tempo e no material ou no consumo, onde é necesario ofrecerlle ao cliente unha programación previsible de facturación e pagamento. Os datos reais de ingresos acumulados cada período concílianse co pagamento recibido do cliente ao comezo do período. De acordo co concepto de modelo de facturación de tempo e material, os valores de ingresos acumulados en cada período poden variar cos custos incorridos. Se os ingresos acumulados son superiores á cantidade recibida ao comezo do período, a empresa de entrega do proxecto podería:
 

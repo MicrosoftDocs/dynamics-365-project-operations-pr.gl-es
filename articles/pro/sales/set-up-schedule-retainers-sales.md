@@ -1,5 +1,5 @@
 ---
-title: Configurar un programa de retencións - lite
+title: Configurar unha programación de retención
 description: Este tema ofrece información sobre como configurar unha programación de retencións en Project Operations.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181270"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596370"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>Configurar un programa de retencións - lite
+# <a name="set-up-a-retainer-schedule"></a>Configurar unha programación de retención
 
-_**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
+_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
 As programacións de retencións configúranse na páxina **Contrato de proxecto** en Dynamics 365 Project Operations.
 

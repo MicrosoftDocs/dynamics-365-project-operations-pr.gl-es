@@ -3,26 +3,18 @@ title: Visión xeral das dimensións de prezos
 description: Este tema fornece información sobre as dimensións de prezos en Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128461"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650187"
 ---
 # <a name="pricing-dimensions-overview"></a>Visión xeral das dimensións de prezos
 
@@ -40,9 +32,21 @@ Por iso, hai dous tipos de valores de dimensión de prezos dispoñibles:
 
 ## <a name="pricing-dimensions"></a>Dimensións de prezos
 
-Dynamics 365 Project Operations inclúese cun conxunto predefinido de dimensións de prezos. Pode ver estas dimensións de prezos indo a **Project Operations** > **Parámetros**. No rexistro de parámetros, no separador **Dimensións de prezos baseados na cantidade**, verifique que o rol, **msdyn_resourcecategory**, e a unidade organizativa de recursos, **msdyn_organizationalunit** teñan os campos **Aplicable a vendas** e **Aplicable a custo** establecidos en **Si**. Con estes campos activados, pode establecer o prezo e o custo para cada combinación de roles e unidades organizativas.
+Dynamics 365 Project Operations envíase cun conxunto predefinido de dimensións de prezos. Pode ver estas dimensións de prezos indo a **Project Operations** > **Parámetros**. No rexistro de parámetros, no separador **Dimensións de prezos baseados na cantidade**, verifique que o rol, **msdyn_resourcecategory**, e a unidade organizativa de recursos, **msdyn_organizationalunit** teñan os campos **Aplicable a vendas** e **Aplicable a custo** establecidos en **Si**. Con estes campos activados, pode establecer o prezo e o custo para cada combinación de roles e unidades organizativas.
 
-Se precisa un prezo ou custo para os seus recursos usando atributos adicionais, pode crear campos, entidades e dimensións personalizados.
+![Captura de pantalla dos parámetros de Project Service con "Aplicable a vendas" resaltado](media/PS-OOB-parameters.png)
+
+Se precisa un prezo ou custo para os seus recursos usando atributos adicionais, pode crear campos, entidades e dimensións personalizados. Para obter máis información, consulte os temas seguintes. 
+  
+  > [!NOTE]
+  > Os procedementos deben completarse na orde na que aparecen.
+
+1. [Crear unha solución para as dimensións de prezos personalizadas](../sales/create-solution-custompd.md)
+2. [Crear campos e entidades personalizados](create-custom-fields-entities-pricing-dimensions.md)
+3. [Engadir campos personalizados á configuración de prezos e ás entidades transaccionais ](add-custom-fields-price-setup-transactional-entities.md)
+4. [Configurar campos personalizados como dimensións de prezos ](set-up-custom-fields-pricing-dimensions.md)
+5. [Actualizar os atributos do complemento para incluír novas dimensións de prezos](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>Prezos do tempo de recursos humanos
 Como unha organización valora o tempo dos recursos humanos é moitas veces unha consideración estratéxica importante que afecta directamente á rendibilidade da organización. Traballe cos equipos financeiros e os responsables de prácticas cando a súa organización estea preparada para identificar como quere configurar os tipos de factura e custos para o tempo de recursos humanos.

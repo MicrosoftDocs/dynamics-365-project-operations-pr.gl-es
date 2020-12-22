@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119416"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650206"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurar campos personalizados como dimensións de prezos
 
@@ -41,9 +41,15 @@ Este tema fornece información sobre a configuración de dimensións de prezos p
 Para que un campo se converta nunha dimensión de prezos, debe:
 
 - Crearse como campo nas entidades **Prezo de rol** e **Sobreprezo de rol**. Para obter máis información sobre como facer isto, consulte [Engadir campos personalizados á configuración de prezos e ás entidades transaccionais](add-custom-fields-price-setup-transactional-entities.md).
+
 - Crearse como unha fila na táboa **Dimensión de prezos**. Por exemplo, engada filas de dimensións de prezos como se mostra no gráfico seguinte. 
 
+![Filas de dimensións de prezos baseadas en importe](media/Amt-based-PD.png)
+
 As horas de traballo dos recursos (**msdyn_resourceworkhours**) engádense como dimensión baseada en sobreprezo e engadíronse á grade no separador **Dimensión de prezos baseada en sobre prezo**.
+
+![Filas de dimensión de prezos baseada en sobreprezo](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > Calquera cambio nos datos da dimensión de prezos desta táboa, xa existente ou nova, propágase á lóxica de negocio de prezos de só despois de actualizar a caché. A actualización da caché pode tardar ata 10 minutos. Agarde ese período de tempo ver os cambios na lóxica de establecemento de prezos predefinidos que debe resultar dos cambios nos datos da dimensión de prezos.

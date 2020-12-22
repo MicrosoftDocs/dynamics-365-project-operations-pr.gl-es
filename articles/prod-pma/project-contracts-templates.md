@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076266"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642631"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar contratos de proxectos e proxectos directamente desde Project Service Automation a Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tema describe o modelo e as tarefas subxacentes que se usan para sincronizar os contratos do proxecto e os proxectos directamente desde Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 
@@ -133,9 +135,9 @@ Se debe usar Power Query, siga estas pautas:
 ## <a name="template-mapping-in-data-integration"></a>Asignación de modelos na integración de datos
 
 > [!NOTE] 
-> Os campos **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** e **AddressZipCode** non están incluídos na asignación predefinida para contratos de proxectos. Pode engadir as asignacións se precisa que estes datos se sincronicen para contratos de proxectos.
+> Os campos **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState** e **AddressZipCode** non están incluídos na asignación predefinida para contratos de proxectos. Pode engadir as asignacións se precisa que estes datos se sincronicen para contratos de proxectos.
 >
-> Os campos **Description** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** e **ProjectType** non están incluídos na asignación predefinida para proxectos. Pode engadir as asignacións se precisa que estes datos se sincronicen para proxectos.
+> Os campos **Description**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber** e **ProjectType** non están incluídos na asignación predefinida para proxectos. Pode engadir as asignacións se precisa que estes datos se sincronicen para proxectos.
 
 As seguintes ilustracións mostran exemplos das asignacións de tarefas do modelo en integración de datos. A asignación mostra a información de campo que se sincronizará de Project Service Automation a Finanzas.
 

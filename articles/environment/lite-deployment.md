@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0633585fcef91d9218d6140764addb7cf96ab31d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d4ef905f875ac8af7b2d70c3e64506558bdea1ed
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175664"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642181"
 ---
 # <a name="deploy-project-operations---lite"></a>Despregar Project Operations - lite
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Project Operations admite varios modelos de despregamento. Para determinar o mellor modelo de despregamento, consulte [Tipos de despregamento](determine-deployment-type.md).
 
@@ -39,6 +41,6 @@ Project Operations admite varios modelos de despregamento. Para determinar o mel
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Instalar Project Operations nun ambiente de CDS existente
 
 1. Como o [Administrador global ou Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) cunha licenza de Project Operations, localice o ambiente no [Centro de administración de PowerPlatform](https://admin.powerplatform.com) onde desexa instalar Project Operations.
-2. Instale **Microsoft Dynamics 365 Project Operations** desde a lista de despregamento de aplicacións de Dynamics 365. Para obter máis información, consulte [Xestionar aplicacións de Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps)
+2. Instale **Microsoft Dynamics 365 Project Operations** na lista de despregamento de aplicacións de Dynamics 365. Para obter máis información, consulte [Xestionar aplicacións de Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps)
 
 

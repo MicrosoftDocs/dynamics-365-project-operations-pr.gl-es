@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129676"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642766"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Utilice o complemento de Project Service Automation para planificar o seu traballo en Project Microsoft
 
@@ -85,7 +85,7 @@ ms.locfileid: "4129676"
 ## <a name="publish-your-project"></a>Publicar o proxecto  
 Cando a planificación do proxecto estea concluída, o seguinte paso é importar e publicar o proxecto en [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-O proxecto importarase en [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Aplícase o proceso de xeración de prezos e equipo. Abra o proxecto en [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] para ver que o equipo, estimación do proxecto e estrutura de subdivisión do traballo xa se xerou. A táboa seguinte mostra onde buscar os resultados:
+O proxecto importarase en [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Aplícase o proceso de xeración de prezos e equipo. Abra o proxecto en [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] para ver que o equipo, as estimacións do proxecto e estrutura de subdivisión do traballo xa se xeraron. A táboa seguinte mostra onde buscar os resultados:
 
 
 |                                                                                          |                                                                                                                                   |
@@ -173,6 +173,59 @@ O proxecto importarase en [!INCLUDE[pn_project_service_auto](../includes/pn-proj
 4. Prema **Publicar**.  
 
 Ligar o ficheiro do Proxecto a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] converte o ficheiro do proxecto en principal e define a estrutura de subdivisión do traballo no modelo de [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] a só de lectura.  Para modificar a planificación do proxecto é necesario facelas en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] e publicalas como actualizacións en [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
+
+## <a name="read-a-resource-loaded-schedule"></a>Ler unha programación cargada de recursos
+
+Ao ler un proxecto desde Project Service Automation, o calendario do recurso non está sincronizado co cliente de escritorio. Se hai diferenzas na duración, esforzo ou fin da tarefa, é probablemente porque os recursos e o cliente de escritorio non teñen o mesmo calendario de modelo de horas de traballo aplicado ao proxecto.
+
+
+## <a name="data-synchronization"></a>Sincronización de datos
+
+A seguinte táboa describe como se sincronizan os datos entre Project Service Automation e o complemento de escritorio Microsoft Project.
+
+| **Entidade** | **Campo** | **De Microsoft Project a Project Service Automation** | **De Project Service Automation a Microsoft Project** |
+| --- | --- | --- | --- |
+| Tarefa do proxecto | Data de vencemento | ● | - |
+| Tarefa do proxecto | Esforzo estimado | ● | - |
+| Tarefa do proxecto | ID do cliente de MS Project | ● | - |
+| Tarefa do proxecto | Tarefa primaria | ● | - |
+| Tarefa do proxecto | Project | ● | - |
+| Tarefa do proxecto | Tarefa do proxecto | ● | - |
+| Tarefa do proxecto | Nome da tarefa do proxecto | ● | - |
+| Tarefa do proxecto | Unidade de recursos (desfasado en v3.0) | ● | - |
+| Tarefa do proxecto | Duración programada | ● | - |
+| Tarefa do proxecto | Data de inicio | ● | - |
+| Tarefa do proxecto | Identificador de WBS | ● | - |
+
+| **Entidade** | **Campo** | **De Microsoft Project a Project Service Automation** | **De Project Service Automation a Microsoft Project** |
+| --- | --- | --- | --- |
+| Membro do equipo | ID do cliente de MS Project | ● | - |
+| Membro do equipo | Nome da posición | ● | - |
+| Membro do equipo | proxecto | ● | ● |
+| Membro do equipo | Equipo do proxecto | ● | ● |
+| Membro do equipo | Unidade de recursos | - | ● |
+| Membro do equipo | Rol | - | ● |
+| Membro do equipo | Horario laboral | Non sincronizado | Non sincronizado |
+
+| **Entidade** | **Campo** | **De Microsoft Project a Project Service Automation** | **De Project Service Automation a Microsoft Project** |
+| --- | --- | --- | --- |
+| Atribución do recurso | Data de inicio | ● | - |
+| Atribución do recurso | horas | ● | - |
+| Atribución do recurso | ID do cliente de MS Project | ● | - |
+| Atribución do recurso | Traballo planificado | ● | - |
+| Atribución do recurso | Project | ● | - |
+| Atribución do recurso | Equipo do proxecto | ● | - |
+| Atribución do recurso | Atribución do recurso | ● | - |
+| Atribución do recurso | Tarefa | ● | - |
+| Atribución do recurso | Até o presente | ● | - |
+
+| **Entidade** | **Campo** | **De Microsoft Project a Project Service Automation** | **De Project Service Automation a Microsoft Project** |
+| --- | --- | --- | --- |
+| Dependencias da tarefa do proxecto | Dependencia da tarefa do proxecto | ● | - |
+| Dependencias da tarefa do proxecto | Tipo de ligazón | ● | - |
+| Dependencias da tarefa do proxecto | Tarefa predecesora | ● | - |
+| Dependencias da tarefa do proxecto | Project | ● | - |
+| Dependencias da tarefa do proxecto | Tarefa sucesora | ● | - |
 
 ### <a name="see-also"></a>Consulte tamén  
  [Guía do xestor de proxectos](../psa/project-manager-guide.md)
