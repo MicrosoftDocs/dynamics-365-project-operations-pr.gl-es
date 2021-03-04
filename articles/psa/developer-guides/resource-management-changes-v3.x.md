@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076323"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148641"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Cambios de xestión de recursos (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 As seccións deste tema proporcionan información sobre os cambios realizados na área de xestión de recursos de Dynamics 365 Project Service Automation versión 3.x.
 
 ## <a name="project-estimates"></a>Estimacións do proxecto
 
-En vez de basearse na entidade **msdyn\_projecttask** ( **Tarefa do proxecto** ), as estimacións do proxecto baséanse na entidade **msdyn\_resourceassignement** ( **Atribución de recursos** ). As atribucións de recursos convertéronse na "fonte de verdade" para a programación de tarefas e os prezos.
+En vez de basearse na entidade **msdyn\_projecttask** (**Tarefa do proxecto**), as estimacións do proxecto baséanse na entidade **msdyn\_resourceassignement** (**Atribución de recursos**). As atribucións de recursos convertéronse na "fonte de verdade" para a programación de tarefas e os prezos.
 
 ## <a name="line-tasks"></a>Tarefas de liña
 
@@ -65,7 +67,7 @@ En PSA 3.x, unha atribución non atribuída é unha tarefa que se atribúe a un 
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Campos de programación na entidade Tarefa de proxecto
 
-Os campos da entidade **msdyn\_projecttask** quedaron desfasados ou movéronse á entidade **msdyn\_resourceassignment** , ou agora faise referencia a eles dende a entidade **msdyn \_projectteam** ( **Membro do equipo de proxecto** ).
+Os campos da entidade **msdyn\_projecttask** quedaron desfasados ou movéronse á entidade **msdyn\_resourceassignment**, ou agora faise referencia a eles dende a entidade **msdyn \_projectteam** (**Membro do equipo de proxecto**).
 
 | Campo desfasado en en msdyn\_projecttask (Tarefa de proxecto) | Novo campo en msdyn\_resourceassignment (Asignación de recursos) | Comentario |
 |---|---|---|
@@ -77,7 +79,7 @@ Os campos da entidade **msdyn\_projecttask** quedaron desfasados ou movéronse �
 
 ## <a name="schedule-contour"></a>Contorno de programación
 
-O contorno de programación almacénase no campo **Traballo previsto** ( **msdyn\_plannedwork** ) de cada entidade **Atribución de recursos** ( **msdyn \_resourceassignment** ).
+O contorno de programación almacénase no campo **Traballo previsto** (**msdyn\_plannedwork**) de cada entidade **Atribución de recursos** (**msdyn \_resourceassignment**).
 
 ### <a name="structure"></a>Estrutura
 
@@ -139,7 +141,7 @@ Neste exemplo, a tarefa está asignada a dous recursos e está programada automa
 
 ## <a name="pricing-dimensions"></a>Dimensións de prezos
 
-En PSA 3.x, os campos de dimensión de prezos específicos dos recursos (como **Rol** e **Unidade organizativa** ) elimináronse da entidade **msdyn \_projecttask**. Estes campos pódense recuperar dende o membro do equipo de proxecto correspondente ( **msdyn \_projectteam** ) da asignación de recursos ( **msdyn \_resourceassignment** ) cando se xeran estimacións do proxecto. Un novo campo, **msdyn\_organizationalunit** , engadiuse á entidade **msdyn\_projectteam**.
+En PSA 3.x, os campos de dimensión de prezos específicos dos recursos (como **Rol** e **Unidade organizativa**) elimináronse da entidade **msdyn \_projecttask**. Estes campos pódense recuperar dende o membro do equipo de proxecto correspondente (**msdyn \_projectteam**) da asignación de recursos (**msdyn \_resourceassignment**) cando se xeran estimacións do proxecto. Un novo campo, **msdyn\_organizationalunit**, engadiuse á entidade **msdyn\_projectteam**.
 
 | Campo desfasado en en msdyn\_projecttask (Tarefa de proxecto) | Campo de msdyn\_projectteam (membro do equipo de proxecto) que se utiliza no seu lugar |
 |---|---|
@@ -155,12 +157,12 @@ Os campos de contorno de prezos e estimacións quedaron desfasadas na entidade *
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
-Engadíronse os seguintes campos á entidade **msdyn\_resourceassignment** :
+Engadíronse os seguintes campos á entidade **msdyn\_resourceassignment**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
 
-Non se modifican os seguintes campos para o custo e as vendas planificadas, reais e restantes na entidade **msdyn\_projecttask** :
+Non se modifican os seguintes campos para o custo e as vendas planificadas, reais e restantes na entidade **msdyn\_projecttask**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
