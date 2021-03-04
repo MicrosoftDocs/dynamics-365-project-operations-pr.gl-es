@@ -3,19 +3,19 @@ title: Adianto en efectivo
 description: Este tema fornece información sobre adiantos de efectivo.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 02/01/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 58864790720824cecad8ce1ff7ff0a335a42cc03
+ms.sourcegitcommit: 7aa0b7fb22213d8baa2d69efece9a636d9f62493
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122747"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5098882"
 ---
 # <a name="cash-advance"></a>Adianto en efectivo
 
@@ -24,8 +24,9 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 Un adianto de efectivo permite aos empregados pedir diñeiro prestado á súa empresa antes de incorrer en gastos. Cando se aproba e paga un adianto de efectivo solicitado, o empregado pode usar o diñeiro para os gastos empresariais nos que estea a piques de incorrer. 
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Crear e enviar unha solicitude de adianto de efectivo
+Para crear un novo adianto en efectivo e enviar unha solicitude de adianto en efectivo, faga o seguinte: 
 
-1. En **Os meus gastos**, seleccione **Adiantos de efectivo** > **Novo** para crear un novo adianto de efectivo. 
+1. En **Os meus gastos**, seleccione **Adiantos en efectivo** > **Novo**. 
 2. Na páxina **Nova solicitude de adianto de efectivo**, introduza a finalidade do gasto e seleccione o lugar onde se incorrerá no gasto.
 3. Introduza o importe solicitado e a moeda e seleccione **Gardar**. 
 4. Cando estea listo para enviar a solicitude de adianto de efectivo, na páxina **Solicitude de adianto de efectivo**, seleccione **Fluxo de traballo** > **Enviar**.
@@ -34,7 +35,7 @@ Un adianto de efectivo permite aos empregados pedir diñeiro prestado á súa em
 
 Pode modificar unha solicitude de adianto de efectivo se non se enviou para a súa aprobación.
 
-1. En **Os meus gastos: adiantos de efectivo** localice e seleccione o adianto de efectivo que queira editar.
+1. En **Os meus gastos: adiantos en efectivo** localice e seleccione o adianto en efectivo que quere editar.
 2. Seleccione **Editar** e faga os cambios necesarios na solicitude de adianto de efectivo. 
 3. Seleccione **Gardar e pechar**.
 
@@ -57,7 +58,8 @@ O seguinte procedemento normalmente complétano un contable ou un usuario con pe
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Enviar un informe de gastos cun adianto de efectivo pagado 
 
-Cando cree e envíe un informe de gastos para o adianto de efectivo que xa recibiu, os gastos axustaranse automaticamente con respecto a ese adianto. Se o seu adianto de efectivo é superior ao importe gastado, deberá devolver o saldo á empresa mediante a categoría de gasto **Devolución de efectivo**. Se o adianto de efectivo pagado pola empresa é inferior ao importe que gastou, a empresa deberá reembolsarlle o saldo. 
+Cando cree e envíe un informe de gastos para o adianto en efectivo que xa recibiu, os gastos axustaranse automaticamente con ese adianto. Se o seu adianto de efectivo é superior ao importe gastado, deberá devolver o saldo á empresa mediante a categoría de gasto **Devolución de efectivo**. Se o adianto en efectivo pagado pola empresa é inferior ao importe que gastou, a empresa deberá reembolsarlle o saldo. 
 
 ### <a name="example"></a>Exemplo
-Ten pensado viaxar a unha conferencia desde Seattle ata Nova York. Crea unha solicitude de adianto de efectivo para 3000,00 USD, xa que estimou que o custo do billete de conferencia, voos, hotel, comidas e taxis será de aproximadamente esta cantidade. Non se lle pagará a menos que o seu xestor aprobase esta solicitude. Despois de que o xestor o aprobe, o adianto de efectivo solicitado págase como 3000,00 USD na súa conta bancaria. Despois asistirá á conferencia. Ao finalizar a viaxe, atopa que o gasto total foi de só 2790.00 USD. Seleccione **Efectivo** no campo **Modo de pagamento** e envíe o seu gasto por 2790,00 USD. O importe do gasto enviado axústase automaticamente co adianto de efectivo de 3000,00 USD que lle foi prestado. Agora debe un saldo de 210,00 USD (3000,00-2790,00) á empresa, que pode devolver á empresa usando a categoría de gasto **Devolución de efectivo**. 
+Vostede ten previsto viaxar de Seattle a Nova York para unha conferencia. Crea unha solicitude de adianto en efectivo para 3000,00 USD en función do custo estimado da entrada da conferencia, voos, hotel, comidas e taxi. Non se lle pagará a menos que o seu xestor aprobe esta solicitude. Despois de que o xestor o aprobe, o adianto de efectivo solicitado págase como 3000,00 USD na súa conta bancaria. Despois asistirá á conferencia. Ao finalizar a viaxe, atopa que o gasto total foi de só 2790.00 USD. Seleccione **Efectivo** no campo **Método de pagamento** e envíe o seu gasto por 2790,00 USD. O importe do gasto enviado axústase automaticamente co adianto de efectivo de 3000,00 USD que lle foi prestado. Agora debe un saldo de 210,00 USD (3000,00 - 2790,00), que pode devolver á empresa mediante a categoría de gasto **Devolución de efectivo**.
+

@@ -1,6 +1,6 @@
 ---
 title: Gastos entre empresas
-description: Un traballador empregado por unha entidade legal nunha organización pode realizar traballos para outra entidade legal da mesma organización. Nesta situación, pode utilizar a función de gasto entre empresas para atribuír os gastos do traballador á entidade legal para a que se realizou o traballo.
+description: Este tema ofrece información sobre como usar os gastos entre empresas para atribuír os gastos dun traballador á entidade legal para a que se realizou o traballo.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/20/2020
@@ -16,24 +16,22 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0967f23e4e1f8e0431c55d4d54554e7e90e2451c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 553ddbe622210169db8de4aa506dcf1ea1e9d5ef
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076283"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960830"
 ---
 # <a name="intercompany-expenses"></a>Gastos entre empresas
 
-[!include [banner](../includes/banner.md)]
+Un traballador empregado por unha entidade legal nunha organización pode realizar traballos para outra entidade legal da mesma organización. Pode usar os gastos entre empresas para atribuír os gastos do traballador á entidade legal para a que se realizou o traballo. A entidade legal que emprega ao traballador denomínase entidade legal prestamista. A entidade legal pola que o traballador incorre en gastos chámase entidade xurídica prestameira. 
 
-Un traballador empregado por unha entidade legal nunha organización pode realizar traballos para outra entidade legal da mesma organización. Nesta situación, pode utilizar a función de gasto entre empresas para atribuír os gastos do traballador á entidade legal para a que se realizou o traballo. A entidade legal que emprega ao traballador denomínase entidade legal prestamista. A entidade legal pola que o traballador incorre en gastos chámase entidade xurídica prestameira. 
-
-Antes de que un traballador poida crear e enviar gastos por traballos que se realicen para unha entidade legal diferente, na entidade legal prestamista, na páxina **Parámetros de xestión de gastos** , seleccione a opción **Permitir liñas de gasto entre empresas**. 
+Antes de que un traballador poida crear e enviar gastos entre empresas, ten que activar as liñas de gastos entre empresas. Na entidade legal prestamista, na páxina **Parámetros de xestión de gastos**, seleccione **Permitir liñas de gasto entre empresas**. 
 
 ## <a name="tax-posting-for-intercompany-expenses"></a>Contabilización de impostos por gastos entre empresas
 
 [!include [banner](../includes/banner.md)]
 
-Se desexa usar grupos fiscais asociados á entidade legal prestamista (orixe) no canto da entidade legal prestameira (destino) no seu informe de gastos, deberá configuralo no imposto sobre vendas do libro maior. Cando o parámetro do libro maior **Entidade para a contabilización de impostos entre empresas** está establecido en **Orixe** e **Aplicar normas de tributación do imposto sobre as vendas** está establecido en **Non** , empregarase a combinación fiscal para a entidade legal prestamista. Cando o mesmo parámetro está configurado en **Destino** , utilizarase a combinación fiscal para a entidade legal prestameira. Para as entidades legais dos Estados Unidos, cando o parámetro está establecido en **Orixe** , o campo **Imposto sobre as vendas pendente de cobro** tamén debe configurarse na nova páxina **Grupos de contabilización de libro maior**. O motor de contabilidade utilizará a información deste campo para a entrada contable relacionada cos impostos.   
+Antes de poder empregar no seu informe de gastos os grupos fiscais asociados á entidade legal prestamista (orixe) en lugar da entidade legal prestameira (destino), debe activar a funcionalidade na configuración do imposto sobre as vendas do libro maior. Cando o parámetro **Entidade legal para a contabilización de impostos entre empresas** está definido como **Orixe** e **Aplicar regras de tributación do imposto sobre as vendas** está fixado en **Non**, úsase a combinación de impostos para a entidade legal prestamista. Cando o mesmo parámetro está configurado en **Destino**, utilizarase a combinación fiscal para a entidade legal prestameira. Para as entidades legais dos Estados Unidos, cando o parámetro está establecido en **Orixe**, o campo **Imposto sobre as vendas pendente de cobro** tamén debe configurarse na nova páxina **Grupos de contabilización de libro maior**. O motor de contabilidade utilizará a información deste campo para a entrada contable relacionada cos impostos.   
 O comportamento é coherente para as liñas de gastos contabilizadas con ou sen proxecto.  

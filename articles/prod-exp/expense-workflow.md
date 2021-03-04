@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5207be92cb58d8ab2658096b3e0f3fc81d73d91e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bbee90450749c89f643d96e4d41a387c45e9abc5
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076287"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960560"
 ---
 # <a name="expense-management-workflow"></a>Fluxo de traballo de xestión de gastos
-
-[!include [banner](../includes/banner.md)]
 
 Pode usar o sistema de fluxo de traballo para configurar un proceso de revisión dos informes de gastos na xestión de gastos. Pode configurar un fluxo de traballo que use os seguintes criterios para determinar quen aproba os informes de gastos:
 

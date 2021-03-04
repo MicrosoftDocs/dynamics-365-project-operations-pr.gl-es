@@ -3,17 +3,17 @@ title: Aplicar datos de instalación e configuración da demostración - lite
 description: Este tema ofrece información sobre como aplicar os datos de instalación e configuración da demostración para Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 11/04/2020
+ms.date: 01/27/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 421c9d28088c92617687641d93b3ad5d6bfea73c
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 762b0cf317d442565a033f56033a53a5b5cc435c
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642091"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089117"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Aplicar a configuración de demostración e os datos de configuración para Project Operations - lite 
 
@@ -32,47 +32,45 @@ Antes de comezar a configuración, debe ter un ambiente de Common Data Service (
 2. Vaia ao cartafol *ProjOpsDemoDataSetupAndMaster - Integrated CMT* e execute o ficheiro executable, *DataMigrationUtility*.
 3. Na páxina 1 do Asistente de migración de configuración (CMT) de Common Data Service, seleccione **Importar datos** e logo seleccione **Continuar**.
 
-![Migración da configuración](./media/1ConfigurationMigration.png)
+    ![Migración da configuración](./media/1ConfigurationMigration.png)
 
 4. Na páxina 2 do asistente de CMT, seleccione **Microsoft 365** como o **Tipo de despregamento**.
 5. Seleccione as caixas de verificación **Mostrar unha lista das organizacións dispoñibles** e **Mostrar avanzado**.
 6. Seleccione a rexión do seu arrendatario, introduza as súas credenciais e logo seleccione **Iniciar sesión**.
 
-![Inicio de sesión de configuración](./media/2ConfigurationSignin.png)
+   ![Inicio de sesión de configuración](./media/2ConfigurationSignin.png)
 
 7. Na páxina 3, na lista de organizacións do arrendatario, seleccione a que organización desexa importar os datos de demostración e logo seleccione **Iniciar sesión**.
 8. Na páxina 4, seleccione o ficheiro zip *MasterAndSetupData* desde o cartafol desempaquetado, *ProjOpsDemoDataSetupAndMaster - Integrated CMT*.
 
-![Ficheiro ZIP](./media/3ZipFile.png)
+   ![Ficheiro ZIP](./media/3ZipFile.png)
 
-![Seleccionar un ficheiro](./media/4SelectAFile.png)
+   ![Seleccionar un ficheiro](./media/4SelectAFile.png)
 
 9. Despois de seleccionar o ficheiro zip, seleccione **Importar datos**.
 
-![Importar datos](./media/5ImportData.png)
+   ![Importar datos](./media/5ImportData.png)
 
 10. A importación executarase durante aproximadamente de dous a dez minutos segundo a velocidade da rede. Cando finalice, saia do asistente de CMT. 
 11. Comprobe se a súa organización ten datos nas seguintes 20 entidades:
 
--   Moeda
--   Conta
--   Unidade organizativa
--   Contacto
--   Grupo fiscal
--   Grupo de clientes
--   Unidade
--   Grupo de unidades
--   Lista de prezos
--   Lista de prezos do parámetro do proxecto 
--   Frecuencia da factura
--   Categoría de recursos reservables
--   Categoría da transacción
--   Categoría de gasto
--   Prezo do rol
--   Prezo da categoría da transacción
--   Característica
--   Recurso reservable
--   Asociación de categorías de recursos reservables
--   Característica de recursos reservables
+    -   Moeda
+    -   Conta
+    -   Unidade organizativa
+    -   Contacto
+    -   Unidade
+    -   Grupo de unidades
+    -   Lista de prezos
+    -   Lista de prezos do parámetro do proxecto 
+    -   Frecuencia da factura
+    -   Categoría de recursos reservables
+    -   Categoría da transacción
+    -   Categoría de gasto
+    -   Prezo do rol
+    -   Prezo da categoría da transacción
+    -   Característica
+    -   Recurso reservable
+    -   Asociación de categorías de recursos reservables
+    -   Característica de recursos reservables
 
-![Completar importación](./media/6CompleteImport.png)
+    ![Completar importación](./media/6CompleteImport.png)

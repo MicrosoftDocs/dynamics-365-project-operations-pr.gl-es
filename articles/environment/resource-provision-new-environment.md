@@ -3,17 +3,18 @@ title: Fornecer un novo ambiente
 description: Este tema ofrece información sobre como fornecer un novo ambiente de Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642967"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727788"
 ---
 # <a name="provision-a-new-environment"></a>Fornecer un novo ambiente
 
@@ -60,17 +61,15 @@ Siga os pasos seguintes para activar o fluxo de fornecemento automatizado de Pro
 
 ![Consentimento de despregamento](./media/2DeploymentConsent.png)
 
-7. Complete os restantes campos obrigatorios no asistente e confirme o despregamento. O tempo de subministración do ambiente varía segundo o tipo de ambiente. A subministración pode levar ata seis horas.
+7. Opcional - Aplique datos de demostración ao ambiente. Vaia a **Configuración avanzada**, seleccione **Personalizar a configuración da base de datos SQL** e estableza **Especificar un conxunto de datos para a base de datos de aplicacións** en **Demostración**.
+
+8. Complete os restantes campos obrigatorios no asistente e confirme o despregamento. O tempo para fornecer o ambiente varía segundo o tipo de ambiente. A subministración pode levar ata seis horas.
 
   Despois de completar correctamente o despregamento, o ambiente mostrarase como **Despregado**.
 
-8. Para confirmar que o ambiente se implantou correctamente, seleccione **Iniciar sesión** e inicie sesión no ambiente para confirmar.
+9. Para confirmar que o ambiente se despregou correctamente, seleccione **Iniciar sesión** e inicie sesión no ambiente para confirmar.
 
 ![Detalles do ambiente de ](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Aplicar datos de demostración de Project Operations Finance (paso opcional)
-
-Aplique os datos de demostración de Project Operations Finance á versión de servizo 10.0.13 do ambiente aloxado na nube como se describe [neste artigo](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Aplicar actualizacións ao ambiente de Finance
 
@@ -151,6 +150,21 @@ Despois de aplicar as entidades, todas as asignacións dispoñibles aparecen no 
 A actualización tardará aproximadamente 20 minutos. Recibirá unha alerta cando remate.
 
 ![Actualizar confirmación](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Actualizar a configuración de seguridade en Project Operations en Dataverse
+
+1. Vaia a Project Operations no seu Dataverse ambiente. 
+2. Vaia a **Configuración** > **Seguranza** > **Roles de seguranza**. 
+3. Na páxina **Roles de seguranza**, na lista de roles, seleccione **usuario de aplicación de escritura dual** e seleccione o separador **Entidades personalizadas**.  
+4. Comprobe que o rol ten os permisos de **Ler** e **Anexar a** para:
+      
+      - **Tipo de taxa de cambio de divisas**
+      - **Gráfica de contas**
+      - **Calendario fiscal**
+      - **Libro maior**
+
+5. Despois de actualizar o rol de seguranza, vaia a **Configuración** > **Seguridade** > **Equipos** e seleccione o equipo predefinido na vista de equipo **Propietario de empresa local**.
+6. Seleccione **Xestionar roles** e comprobe que o privilexio de seguranza **usuario de aplicación de escritura dual** se aplica a este equipo.
 
 ## <a name="run-project-operations-dual-write-maps"></a>Executar mapas de escrita dual en Project Operations
 

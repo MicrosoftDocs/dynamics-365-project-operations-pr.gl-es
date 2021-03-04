@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 87ef090454b2a7ab997e7c21d8d10badc31c8235
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5a924de6efc377e28a20e038e7deac04616b95aa
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176384"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764501"
 ---
 # <a name="create-a-manual-proforma-invoice---lite"></a>Crear unha factura proforma manual - lite
 
@@ -31,6 +32,6 @@ Todas as facturas do proxecto creado están dispoñibles na páxina **Factura** 
 
 ## <a name="project-contract-details-page"></a>Páxina de detalles de Contrato de proxecto
 
-Tamén se pode crear unha factura proforma desde a páxina de detalles **Contrato de proxecto**, que crea a factura dese contrato de proxecto específico. O sistema verifica que o contratos do proxecto ten un traballo pendente **Listo para facturar** con data anterior á data de hoxe. A partir destes contratos, o sistema crea borradores de facturas proforma en función do número de clientes en cada liña de contrato.
+Tamén se pode crear unha factura proforma desde a páxina de detalles **Contrato do proxecto**. O sistema verifica que o contrato do proxecto seleccionado ten un traballo pendente **Listo para facturar** con data anterior á data de hoxe. A partir destes contratos, o sistema crea borradores de facturas proforma en función do número de clientes en cada liña de contrato.
 
-Cando se crea unha única factura proforma, ábrese a páxina **Factura**. Se hai varias facturas creadas para ese contrato de proxecto, ábrese a páxina de lista **Facturas** para amosar todas as facturas creadas.
+Cando se crea unha única factura proforma, ábrese a páxina **Factura**. Se se crean varias facturas para ese contrato de proxecto, a páxina de lista **Facturas** ábrese para amosar todas as facturas creadas.
