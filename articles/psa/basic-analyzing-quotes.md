@@ -18,43 +18,45 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6ed900620f92e76d293f6b533b101be94b25cff3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 361a940261811467c46222c3d58c9504434ec882
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127021"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145221"
 ---
-# <a name="analysis-of-project-quotes"></a><span data-ttu-id="af169-103">Análise de ofertas de proxecto</span><span class="sxs-lookup"><span data-stu-id="af169-103">Analysis of project quotes</span></span>
+# <a name="analysis-of-project-quotes"></a><span data-ttu-id="9cf11-103">Análise de ofertas de proxecto</span><span class="sxs-lookup"><span data-stu-id="9cf11-103">Analysis of project quotes</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="af169-104">Dynamics 365 Project Service Automation analiza as ofertas de proxectos para estimar a rendibilidade.</span><span class="sxs-lookup"><span data-stu-id="af169-104">Dynamics 365 Project Service Automation analyzes project quotes to estimate profitability.</span></span> <span data-ttu-id="af169-105">Tamén analiza o axuste da oferta ás expectativas dos clientes sobre a data de entrega ou a data de finalización e sobre o orzamento.</span><span class="sxs-lookup"><span data-stu-id="af169-105">It also analyzes how well the quote is aligned with customer expectations about the delivery date or completion date, and about the budget.tions.</span></span>
+<span data-ttu-id="9cf11-104">Dynamics 365 Project Service Automation analiza as ofertas de proxectos para estimar a rendibilidade.</span><span class="sxs-lookup"><span data-stu-id="9cf11-104">Dynamics 365 Project Service Automation analyzes project quotes to estimate profitability.</span></span> <span data-ttu-id="9cf11-105">Tamén analiza o axuste da oferta ás expectativas dos clientes sobre a data de entrega ou a data de finalización e sobre o orzamento.</span><span class="sxs-lookup"><span data-stu-id="9cf11-105">It also analyzes how well the quote is aligned with customer expectations about the delivery date or completion date, and about the budget.tions.</span></span>
 
-## <a name="profitability-analysis"></a><span data-ttu-id="af169-106">Análise da rendibilidade</span><span class="sxs-lookup"><span data-stu-id="af169-106">Profitability analysis</span></span>
+## <a name="profitability-analysis"></a><span data-ttu-id="9cf11-106">Análise da rendibilidade</span><span class="sxs-lookup"><span data-stu-id="9cf11-106">Profitability analysis</span></span>
 
-<span data-ttu-id="af169-107">Project Service Automation analiza a rendibilidade empregando a marxe bruta e a marxe bruta axustada.</span><span class="sxs-lookup"><span data-stu-id="af169-107">Project Service Automation analyzes profitability by using the gross margin and the adjusted gross margin.</span></span>
+<span data-ttu-id="9cf11-107">Project Service Automation analiza a rendibilidade empregando a marxe bruta e a marxe bruta axustada.</span><span class="sxs-lookup"><span data-stu-id="9cf11-107">Project Service Automation analyzes profitability by using the gross margin and the adjusted gross margin.</span></span>
 
-- <span data-ttu-id="af169-108">A marxe bruta calcúlase mediante a seguinte fórmula:</span><span class="sxs-lookup"><span data-stu-id="af169-108">Gross margins are calculated by using the following formula:</span></span>
+- <span data-ttu-id="9cf11-108">A marxe bruta calcúlase mediante a seguinte fórmula:</span><span class="sxs-lookup"><span data-stu-id="9cf11-108">Gross margins are calculated by using the following formula:</span></span>
 
   `
     (Sum of estimated chargeable sales value – Sum of estimated chargeable costs) x 100
   `
-- <span data-ttu-id="af169-109">A marxe bruta axustada calcúlase mediante a seguinte fórmula:</span><span class="sxs-lookup"><span data-stu-id="af169-109">The adjusted gross margin is calculated by using the following formula:</span></span>
+- <span data-ttu-id="9cf11-109">A marxe bruta axustada calcúlase mediante a seguinte fórmula:</span><span class="sxs-lookup"><span data-stu-id="9cf11-109">The adjusted gross margin is calculated by using the following formula:</span></span>
 
   `
     (Sum of estimated chargeable sales value – Sum of all estimated costs) x 100
   `
 
-<span data-ttu-id="af169-110">Se os valores da marxe bruta e da marxe bruta axustada difiren por unha ampla marxe, gran parte do traballo da oferta clasifícase como non impoñible.</span><span class="sxs-lookup"><span data-stu-id="af169-110">If the values for gross margin and adjusted gross margin differ by a wide margin, much of the work in the quote is classified as non-chargeable.</span></span>
+<span data-ttu-id="9cf11-110">Se os valores da marxe bruta e da marxe bruta axustada difiren por unha ampla marxe, gran parte do traballo da oferta clasifícase como non impoñible.</span><span class="sxs-lookup"><span data-stu-id="9cf11-110">If the values for gross margin and adjusted gross margin differ by a wide margin, much of the work in the quote is classified as non-chargeable.</span></span>
 
-## <a name="analysis-of-customer-expectations"></a><span data-ttu-id="af169-111">Análise das expectativas do cliente</span><span class="sxs-lookup"><span data-stu-id="af169-111">Analysis of customer expectations</span></span>
+## <a name="analysis-of-customer-expectations"></a><span data-ttu-id="9cf11-111">Análise das expectativas do cliente</span><span class="sxs-lookup"><span data-stu-id="9cf11-111">Analysis of customer expectations</span></span>
 
-<span data-ttu-id="af169-112">Pode analizar ofertas e xerar gráficos para as expectativas dos clientes sobre a programación e o orzamento se introduce valores para os seguintes campos:</span><span class="sxs-lookup"><span data-stu-id="af169-112">You can analyze quotes and generate charts for customer expectations about the schedule and budget if you enter values for the following fields:</span></span>
+<span data-ttu-id="9cf11-112">Pode analizar ofertas e xerar gráficos para as expectativas dos clientes sobre a programación e o orzamento se introduce valores para os seguintes campos:</span><span class="sxs-lookup"><span data-stu-id="9cf11-112">You can analyze quotes and generate charts for customer expectations about the schedule and budget if you enter values for the following fields:</span></span>
 
-- <span data-ttu-id="af169-113">O campo **Data de entrega solicitada** no encabezado da oferta.</span><span class="sxs-lookup"><span data-stu-id="af169-113">The **Requested delivery date** field on the quote header.</span></span>
-- <span data-ttu-id="af169-114">O campo **Orzamento do cliente** para cada liña da oferta (para liñas baseadas en proxectos e liñas baseadas en produtos).</span><span class="sxs-lookup"><span data-stu-id="af169-114">The **Customer budget** field for each quote line (for project-based lines and product-based lines).</span></span>
+- <span data-ttu-id="9cf11-113">O campo **Data de entrega solicitada** no encabezado da oferta.</span><span class="sxs-lookup"><span data-stu-id="9cf11-113">The **Requested delivery date** field on the quote header.</span></span>
+- <span data-ttu-id="9cf11-114">O campo **Orzamento do cliente** para cada liña da oferta (para liñas baseadas en proxectos e liñas baseadas en produtos).</span><span class="sxs-lookup"><span data-stu-id="9cf11-114">The **Customer budget** field for each quote line (for project-based lines and product-based lines).</span></span>
 
-<span data-ttu-id="af169-115">A análise das expectativas dos clientes sobre a programación realízase comparando a última data final do detalle da liña de oferta coa data de entrega solicitada en todas as liñas de oferta da oferta.</span><span class="sxs-lookup"><span data-stu-id="af169-115">Analysis of customer expectations about the schedule is done by comparing the latest end date of the quote line detail with the requested delivery date across all quote lines in the quote.</span></span>
+<span data-ttu-id="9cf11-115">A análise das expectativas dos clientes sobre a programación realízase comparando a última data final do detalle da liña de oferta coa data de entrega solicitada en todas as liñas de oferta da oferta.</span><span class="sxs-lookup"><span data-stu-id="9cf11-115">Analysis of customer expectations about the schedule is done by comparing the latest end date of the quote line detail with the requested delivery date across all quote lines in the quote.</span></span>
 
-<span data-ttu-id="af169-116">A análise das expectativas dos clientes sobre o orzamento realízase comparando a suma do orzamento total do cliente co importe ofertado en todas as liñas da oferta.</span><span class="sxs-lookup"><span data-stu-id="af169-116">Analysis of customer expectations about the budget is done by comparing the sum of the total customer budget with the quoted amount across all quote lines.</span></span>
+<span data-ttu-id="9cf11-116">A análise das expectativas dos clientes sobre o orzamento realízase comparando a suma do orzamento total do cliente co importe ofertado en todas as liñas da oferta.</span><span class="sxs-lookup"><span data-stu-id="9cf11-116">Analysis of customer expectations about the budget is done by comparing the sum of the total customer budget with the quoted amount across all quote lines.</span></span>
