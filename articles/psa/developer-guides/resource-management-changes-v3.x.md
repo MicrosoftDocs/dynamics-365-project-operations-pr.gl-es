@@ -170,3 +170,6 @@ Non se modifican os seguintes campos para o custo e as vendas planificadas, reai
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

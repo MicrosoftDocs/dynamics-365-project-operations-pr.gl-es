@@ -72,3 +72,6 @@ Resolvéronse os seguintes problemas:
 - O peche do presuposto como gañado non navega ata o contrato creado se un BPF anexado á oferta está na fase final.
 - A inversión de **Vendas sen facturar** está ligada ao custo orixinal cando se recupera unha entrada de tempo.
 - Despois de seleccionar o botón **Confirmar**, o estado da factura non cambia a **Confirmada** a menos que se actualice a factura.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

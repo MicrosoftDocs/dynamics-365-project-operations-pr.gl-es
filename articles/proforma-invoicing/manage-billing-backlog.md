@@ -38,3 +38,6 @@ Os datos reais de vendas sen facturar que teñen un estado **Non superable** de 
 No caso das liñas de contratos con varios clientes que teñan un método de facturación de tempo e material, cando se aproban o tempo e os gastos, créanse vendas reais non facturadas para cada cliente na liña de contrato segundo a división da porcentaxe de facturación definida para cada cliente na liña de contrato. Na vista **Traballo pendente de facturación de tempo e material**, verá estes datos de vendas sen facturar específicos do cliente individual. Cada un destes rexistros de datos reais sen facturar pódese marcar como **Listo para facturar** separadamente desta vista.
 
 Nesta vista móstrase un dato real de vendas sen facturar nun borrador de factura cun **Estado de facturación** de **Factura do cliente creada**. Cando se confirma o borrador da factura, o estado de facturación deste rexistro actualízase a **Factura de cliente contabilizada**. Non se recomenda actualizar este valor de estado cando está neste estado usando código personalizado. Project Operations non funcionará correctamente cando estes valores de estado se actualicen con código personalizado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Pode comprobar o uso dos recursos para determinar os niveis de uso para os recur
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía para o xestor de recursos](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

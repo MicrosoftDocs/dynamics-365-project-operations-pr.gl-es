@@ -131,3 +131,6 @@ Do mesmo xeito que as taxas de facturación, as taxas de custos dos recursos hum
     1. A lista de prezos de custos que se anexa á unidade organizativa.
     2. A lista de prezos de custos que se anexa aos parámetros de Project Service. Debido a que se poden anexar listas de prezos en moitas moedas diferentes aos parámetros de Project Service, PSA fai unha equivalencia entre a moeda da unidade organizativa contratante do proxecto, o contrato ou a oferta e a moeda da lista de prezos de custos.
     3. Para os gastos, os métodos de prezos a custo e de sobreprezo sobre custo non se aplican ás listas de prezos de custos. Aínda que se utilicen estes métodos de prezos nas liñas de lista de prezos de custos para configurar os custos da categoría de transaccións, o sistema non os ignora e non se introduce ningún prezo de custo por defecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

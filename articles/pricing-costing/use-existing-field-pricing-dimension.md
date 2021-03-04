@@ -31,3 +31,6 @@ _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fo
 A entidade **Datos reais** ten moitos campos que se poden usar como dimensións de prezos para os prezos baseados en recursos. Por exemplo, un campo común é **Recurso reservable**. As empresas máis pequenas que teñen menos de 20-30 recursos facturables poden considerar que ter unha taxas de facturación e custos específicas para cada recurso é un enfoque máis sinxelo. Non obstante, a medida que medra o persoal facturable, podería ser pouco realista manter as taxas específicas dos recursos. O custo dos recursos e as taxas de facturación comezan a variar a medida que os recursos ascenden, gañan máis experiencia ou adquiren un conxunto diferente de habilidades. 
 
 Outro exemplo é o da categoría de transaccións. Os clientes e implementadores utilizaron a categoría de transaccións para clasificar o traballo e usan o campo para prezo e custo en función da categoría de traballo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

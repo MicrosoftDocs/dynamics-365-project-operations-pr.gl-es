@@ -61,3 +61,6 @@ Este tema mostra as funcionalidades e correccións que son novas ou modificadas 
     - Corrixido: Os ID de obxecto duplicados atopados no formulario **Principal do contrato**.
     - Corrixido: A lóxica actualizouse para facer que o separador **Análise de ofertas** sexa visible e mostre a configuración de metadatos do separador.
     - Corrixido: A data de contabilidade do rexistro real agora procede da data da entrada de tempo/gasto e non da data de aprobación.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

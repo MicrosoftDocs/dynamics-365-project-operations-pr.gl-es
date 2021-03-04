@@ -57,3 +57,6 @@ O panel de filtros mostra opcións relacionadas co traballo, incluídas:
 -   Empresa de recursos
 -   Tipos de recursos
 -   Recursos preferidos
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -125,3 +125,6 @@ As seguintes actualizacións dos privilexios de seguridade para entidades son ne
  
  ![Sincronización de mapa de libro maior](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

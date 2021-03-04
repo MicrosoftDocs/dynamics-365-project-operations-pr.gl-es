@@ -125,3 +125,6 @@ Prezo fixo - porcentaxe de finalización
 As regras do perfil de custos e ingresos do proxecto determinan o perfil de custos e ingresos do proxecto que se deben empregar ao procesar calquera transacción facturable do proxecto. Defina as regras indo a **Xestión e contabilidade de proxectos** \> **Configuración** \> **Contabilización** \> **Regras do perfil de custos e ingresos do proxecto**.
 
 As regras poden definirse por contrato de proxecto, grupo de proxectos ou por un proxecto específico. O sistema sempre escollerá a regra de granularidade máis alta primeiro.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

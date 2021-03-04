@@ -41,3 +41,6 @@ Os recursos son o activo máis importante dunha organización baseada en servizo
 - [Requisitos da reserva branda](resource-management-softbook-requirements.md)
 - [Modelos de habilidades e competencias](resource-management-skills-proficiency.md)
 - [Preguntas frecuentes sobre xestión de recursos.](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

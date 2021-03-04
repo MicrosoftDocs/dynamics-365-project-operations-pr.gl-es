@@ -67,3 +67,6 @@ Resolvéronse os seguintes problemas:
 Resolvéronse os seguintes problemas:
 
 - Ao premer dúas veces **Obter todas as categorías de transaccións** créanse varias liñas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

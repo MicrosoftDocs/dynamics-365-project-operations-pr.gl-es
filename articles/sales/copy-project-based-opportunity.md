@@ -34,3 +34,6 @@ As oportunidades do proxecto pódense copiar facilmente para crear novas oportun
     | Copiar prezos | Un valor Si/Non que indica se se deben copiar os prezos da oportunidade da oportunidade de orixe. | Se se selecciona **Si**, as listas de prezos cópianse desde a oportunidade de orixe ata a oportunidade de destino. Se se selecciona **Non**, as listas de prezos predefínense en función das últimas listas de prezos que se configuraron. |
 
 3. Seleccione **Aceptar**. O sistema crea unha copia da oportunidade de proxecto en función dos parámetros seleccionados e ábrese a nova oportunidade de proxecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

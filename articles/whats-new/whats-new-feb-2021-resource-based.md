@@ -54,3 +54,6 @@ Para obter máis información sobre a xestión e contabilidade de pproxectos en 
 ## <a name="regulatory-updates"></a>Actualizacións normativas
 
 Para obter información sobre actualizacións normativas para aplicacións de Finance and Operations, vexa [Actualizacións normativas](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Outra forma de aprender sobre as actualizacións normativas é iniciar sesión en Lifecycle Services (LCS) e ver as actualizacións regulamentarias planificadas mediante a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

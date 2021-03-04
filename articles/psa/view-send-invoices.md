@@ -58,3 +58,6 @@ Ao crear un proxecto, vostede define a frecuencia para xerar facturas. Pode ver 
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía do xestor de proxectos](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

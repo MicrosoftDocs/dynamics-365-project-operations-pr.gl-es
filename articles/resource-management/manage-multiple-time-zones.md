@@ -68,3 +68,6 @@ Despois de que se empregou a funcionalidade de ampliación de reservas para cada
 Teña en conta que unha ollada máis atenta aos detalles das reservas mostra diferenzas na hora de inicio das reservas. As reservas comezan non antes da hora de inicio do contorno da atribución nin antes da hora de inicio dispoñible do recurso.
 
 ![Novas reservas dos recursos no panel de programación](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

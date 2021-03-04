@@ -26,3 +26,6 @@ A diferenza das reservas, as atribucións son o compromiso de recursos para as t
 Normalmente, a suma das reservas dun recurso igualará a suma das atribucións do recurso nunha ou varias tarefas. Non obstante, Project Operations non fai cumprir este acordo. A vista **Conciliación** mostra ao xestor de proxectos lugares onde as reservas e atribucións dun recurso non coinciden.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

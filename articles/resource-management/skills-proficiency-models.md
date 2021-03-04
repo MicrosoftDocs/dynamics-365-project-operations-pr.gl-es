@@ -43,3 +43,5 @@ Engadir características aos requisitos de recursos permítelle documentar os co
 3. Na subgrade **Habilidades**, seleccione **+ Engadir nova característica de requisito.**
 4. No panel de creación rápida, busque e seleccione as características requiridas e engada un **Valor de clasificación**.
 5. Seleccione **Gardar e pechar**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

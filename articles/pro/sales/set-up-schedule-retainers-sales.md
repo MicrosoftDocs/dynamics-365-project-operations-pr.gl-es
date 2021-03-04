@@ -32,3 +32,6 @@ As programacións de retencións configúranse na páxina **Contrato de proxecto
 | Número de retencións que se van crear | Cando introduce o número de retencións para crear, o sistema usa a data e a frecuencia de inicio para crear o número neste campo. | Cando este campo se actualiza manualmente, o sistema ignora o valor do campo **Fin da programación de retencións** e no seu lugar crea o número específico de retencións ou adiantos. |
 | Frecuencia da factura | Frecuencia coa que a aplicación creará retencións e adiantos. | Este valor inflúe directamente no número de retencións e adianto e nas datas de creación. |
 | Cantidade total | O importe total é o importe que se divide nos pagamentos individuais de retencións ou adiantos que se crearán. | Non hai ningún impacto descendente para este campo. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

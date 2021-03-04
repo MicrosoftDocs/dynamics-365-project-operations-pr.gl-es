@@ -127,3 +127,6 @@ Para crear unha nova estrutura de subdivisión do traballo usando Microsoft Proj
 8.  Seleccione o **Calendario** que se usará para os recursos.
 
 11. Prema **Aceptar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

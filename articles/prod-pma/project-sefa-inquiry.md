@@ -104,3 +104,6 @@ A programación de gastos de investigación de subvencións federais inclúe as 
 - Catálogo de asistencia doméstica federal
 - Recibos
 - Gastos
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

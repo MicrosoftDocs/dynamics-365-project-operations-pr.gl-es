@@ -71,3 +71,6 @@ O seguinte exemplo mostra os tipos de facturación que se configuran en función
 | ----------------|-------------|----------|----------:|----------|
 | A miña empresa_Banda1 | Contoso EUA  |Hour | 145|USD     |
 | A miña empresa_Banda2 | Contoso India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

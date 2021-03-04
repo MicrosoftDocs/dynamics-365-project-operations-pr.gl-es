@@ -81,3 +81,6 @@ Resolvéronse os seguintes problemas:
 - Cando Dynamics 365 Field Service e Project Service Automation están instalados, as opcións **Bloquear prezos** e **Usar os prezos actual** non se amosan ao mesmo tempo na páxina **Factura**.
 - Para o idioma xaponés, hai tradución incoherente con outras páxinas baseadas en calendario.
 - **Activar** e **Desactivar** elimináronse das entidades **Asociación e lista de prezos** en Project Service Automation.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

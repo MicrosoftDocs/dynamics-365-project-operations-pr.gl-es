@@ -38,3 +38,6 @@ Seleccione **Iniciar sesión** > **Iniciar sesión no ambiente** para navegar at
 
 > [!NOTE]
 > Pode acceder a Project Operations en Common Data Service e o módulo **Xestión e contabilidade de proxectos** directamente usando os seus respectivos URL. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

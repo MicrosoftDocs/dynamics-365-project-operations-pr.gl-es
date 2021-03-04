@@ -79,3 +79,6 @@ Isto tarda un par de minutos en completarse. Debería recibir unha mensaxe de co
 18. Peche a sesión de escritorio remoto e use a páxina **Detalles do ambiente** para iniciar sesión no ambiente e confirmar que funciona como se esperaba.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

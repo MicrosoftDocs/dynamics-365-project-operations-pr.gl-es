@@ -34,3 +34,6 @@ ms.locfileid: "5145716"
 Rexístranse todas as transaccións financeiras que se producen durante un proxecto. Estas transaccións rexístranse como **datos reais**. Na seguinte táboa móstranse os diferentes tipos de datos reais que se crean, dependendo de se o proxecto é un proxecto temporal, de prezo fixo ou interno, ou se está en fase de prevenda.
 
 > ![Táboa que mostra como se rexistran os datos reais](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -104,3 +104,6 @@ Durante a reserva de recursos, os xestores de proxectos poden filtrar os recurso
 
 3. Seleccione **Gardar** e logo peche a páxina.
 4. No separador **Competencias** , engada a habilidade **ProjectMgmt** e o certificado **PMP**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

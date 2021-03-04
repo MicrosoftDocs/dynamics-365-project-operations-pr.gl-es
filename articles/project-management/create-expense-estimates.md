@@ -38,3 +38,6 @@ Defínense os seguintes atributos para cada partida de gasto:
 - **Prezo de custo unitario**: O prezo unitario usado para calcular o custo do gasto.
 - **Prezo de venda unitario**: O prezo unitario usado para calcular o prezo de venda do gasto.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Project Operations admite varios modelos de despregamento. Para determinar o mel
 2. Instale **Microsoft Dynamics 365 Project Operations** na lista de despregamento de aplicacións de Dynamics 365. Para obter máis información, consulte [Xestionar aplicacións de Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

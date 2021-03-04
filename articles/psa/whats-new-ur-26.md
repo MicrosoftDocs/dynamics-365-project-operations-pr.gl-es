@@ -74,3 +74,6 @@ Resolvéronse os seguintes problemas:
 - Ao seleccionar unha liña baseada en proxecto en oferta ou contrato, o botón **Suxestión** só debería ser visible cando se selecciona unha liña baseada en produto asociada a un produto existente.
 - Separe o privilexio **Create_Product** do privilexio **Create_ProjectContract**.
 - A eliminación dunha liña de factura provoca un fallo de referencia nula en **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

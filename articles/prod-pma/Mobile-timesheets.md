@@ -62,3 +62,6 @@ Android será compatible coa actualización 16 da plataforma, cando estea dispo�
 13. Opcional: Introduza as liñas de folla de control horario adicionais.
 
 14. Despois de completar a introdución das liñas da folla de control horario, seleccione a acción **Fluxo de traballo** \> **Enviar** para enviar a súa folla de control horario ao proceso de aprobación do fluxo de traballo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

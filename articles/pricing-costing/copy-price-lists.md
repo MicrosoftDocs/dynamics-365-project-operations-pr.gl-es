@@ -43,3 +43,6 @@ Para facer unha copia da lista de prezos, complete os seguintes pasos.
 1. Nos separadores **Rol**, **Categoría** e **Elemento da lista de prezos** dunha lista de prezos, pode seleccionar **Actualizar prezos** para aplicar un sobreprezo para todos os prezos da subgrade. 
 2. Na páxina de diálogo que se abre, introduza un aumento. Tamén pode introducir unha porcentaxe de aumento negativa para reducir os prezos nunha porcentaxe determinada. 
 3. Seleccione **Aceptar** na páxina de diálogo e logo verifique que os prezos da subgrade reflicten os cambios que realizou.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

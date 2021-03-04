@@ -63,3 +63,6 @@ Pode usar o mesmo método para cancelar unha reserva dura ou unha reserva branda
 Para converter un recurso con reserva branda en reserva dura no separador **Equipo** do proxecto, seleccione o recurso e logo seleccione **Confirmar**.
 
 ![Comando Confirmar](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

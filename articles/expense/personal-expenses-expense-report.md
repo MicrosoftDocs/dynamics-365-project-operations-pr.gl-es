@@ -28,3 +28,6 @@ Hai dous métodos que pode usar para traballar cos gastos persoais dun empregado
   - **Pagado pola empresa**: A súa organización paga a factura completa da tarxeta de crédito corporativa e, a continuación, carga á conta do traballador os gastos persoais.
 
 Pode seleccionar o método que usa a súa organización na páxina **Parámetros de xestión de gastos**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

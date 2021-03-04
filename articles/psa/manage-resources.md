@@ -344,3 +344,6 @@ Se ten atribucións de tarefas para un recurso pero non ten reservas, na páxina
 ![Caixa de diálogo de Estender reserva](media/Resource-Management-image58.png)
 
 O xestor de proxectos ou xestor de recursos pode utilizar o panel de programación para xestionar calquera situación na que un recurso estea sobrecargado fóra da súa capacidade.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

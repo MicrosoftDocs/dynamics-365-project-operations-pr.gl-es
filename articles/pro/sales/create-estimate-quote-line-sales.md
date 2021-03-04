@@ -67,3 +67,6 @@ A moeda no detalle da liña de oferta para custo é por defecto a da lista de pr
 Os cálculos de rendibilidade converten o importe dos detalles da liña de oferta para custo e vendas na moeda base do ambiente para informar da marxe global estimada na oferta.
 
 Isto podería producir erros de redondeo de divisas e cambios de marxes debido á falta de taxas de cambio vixentes. Use estes cálculos nas ofertas do proxecto só como aproximacións e non informes legais ou doutro tipo que requiran maior precisión de redondeo e coñecemento da vixencia das datas para as taxas de cambio.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

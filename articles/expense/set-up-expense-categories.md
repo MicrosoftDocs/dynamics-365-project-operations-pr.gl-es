@@ -61,3 +61,6 @@ Antes de comezar o proceso de configuración, deben tomarse as seguintes decisi�
 
     - Está excluída algunha das subcategorías da recuperación de impostos?
     - Cal é o grupo do imposto sobre as vendas das subcategorías?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

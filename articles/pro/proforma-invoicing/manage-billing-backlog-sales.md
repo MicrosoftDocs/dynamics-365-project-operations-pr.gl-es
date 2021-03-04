@@ -60,3 +60,6 @@ Os datos reais de vendas non facturadas cun estado **Non exceder** de **Erro** n
 Se as liñas de contrato de varios clientes teñen un método de facturación de tempo e material, cando se aproban o tempo e os gastos, créase un dato real vendas non facturadas para cada cliente na liña de contrato segundo a porcentaxe de facturación dividida definida para cada un dos clientes. Na vista **Traballo pendente de facturación de tempo e material**, verá estes datos de vendas sen facturar específicos para cada cliente. Cada un destes rexistros de datos reais sen facturar pódese marcar como **Listo para facturar** separadamente desta vista.
 
 Un dato real de vendas sen facturar que figura nun borrador de factura cun estado de facturación de **Factura de cliente creada**. Cando se confirma o borrador da factura, o estado de facturación deste rexistro actualízase a **Factura de cliente contabilizada**. Non actualice este valor de estado usando código personalizado. Project Operations non funciona correctamente cando estes valores de estado se actualizan con código personalizado.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

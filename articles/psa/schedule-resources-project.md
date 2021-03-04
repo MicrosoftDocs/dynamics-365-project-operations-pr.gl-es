@@ -83,3 +83,6 @@ Se está a usar unha versión máis antiga, para obter información sobre a disp
   
 ### <a name="additional-resources"></a>Recursos adicionais  
  [Guía do xestor de recursos](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ A autorización xa está completa.
 Conectou correctamente a súa subscrición a Azure. Agora pode despregar ambientes aloxados na nube de Dynamics 365 Finance.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

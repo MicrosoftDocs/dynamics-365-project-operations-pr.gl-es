@@ -33,3 +33,6 @@ ms.locfileid: "5148956"
 
 Project Service Automation (PSA) non lle permite eliminar os datos reais porque serven como fonte de verdade para transaccións que teñen implicacións financeiras para os sistemas descendentes, como o libro de contabilidade xeral. Se se puidesen eliminar os datos reais, poderíase poñer en cuestión a integridade das transaccións dos informes financeiros. Para establecer un rexistro de auditoría, os clientes deberán usar diarios para crear transaccións compensatorias.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

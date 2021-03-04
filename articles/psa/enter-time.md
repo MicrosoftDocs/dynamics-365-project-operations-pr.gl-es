@@ -61,3 +61,6 @@ Introduza as horas como mínimo semanalmente, ou na frecuencia solicitada polo s
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía de tempo, gasto e colaboración](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

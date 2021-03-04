@@ -44,3 +44,6 @@ Despois de asignar un orzamento ou unha revisión do orzamento, pode revisar os 
 10. Cando a asignación sexa a que desexe, prema Enviar na páxina de orzamento do proxecto para enviar o orzamento ou as revisións do orzamento ao fluxo de traballo de aprobación.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

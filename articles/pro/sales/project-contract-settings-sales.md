@@ -57,3 +57,6 @@ Os seguintes KPI están dispoñibles no separador **Execución do contrato** dun
 | Custo incorrido | Liñas baseadas en produto | A suma de todos os datos reais de custo para a liña de contrato baseado en produto. |
 | Marxe bruta | Liñas baseadas en proxecto | Importe facturado - Custo incorrido ata a data/importe facturado |
 | Marxe prevista | Liñas baseadas en produto | (Valor da liña de contrato - Custos estimados para a liña de contrato) / Valor da liña de contrato |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

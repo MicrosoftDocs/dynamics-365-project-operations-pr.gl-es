@@ -97,3 +97,6 @@ Tanto na vista de grade como na visualización de fase de tempo, pode selecciona
 ## <a name="expense-estimates"></a>Estimacións de gastos
 
 O botón **Engadir unha nova estimación de gasto** da vista de grade permítelle rexistrar todos os gastos que se produzan no proxecto, pero que non están directamente relacionados co traballo. Pode rexistrar as estimacións de gastos para unha tarefa específica ou para todo o proxecto. Seleccione as categorías de gastos e a data na que ten previsto incorrer no gasto. Se a lista de prezos de custo e a lista de prezos de vendas asociadas teñen os prezos predefinidos (ou porcentaxes de sobreprezo definidos para categorías de gastos), introdúcense automaticamente na liña de estimación en asociación cando se produce a asociación.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

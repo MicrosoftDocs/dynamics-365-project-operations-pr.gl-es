@@ -37,3 +37,5 @@ Como xestor de proxectos, complete os seguintes pasos para editar o requisito de
 ## <a name="edit-resource-assignment-contours"></a>Editar contornos de atribución de recursos
 
 Ademais de editar os detalles dos requisitos de recursos, un xestor de proxectos pode actualizar os contornos individuais do requisitos de recursos usando a funcionalidade **Especificar padrón**. Cando se selecciona **Especificar padrón**, ábrese unha páxina e pode ver os contornos na escala de día, semana ou mes. Cada contorno pódese axustar para a hora de inicio, hora de finalización e esforzo total nun período determinado.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ Pódese ver unha lista de todos os contratos de proxecto na páxina de lista **C
 2. Seleccione o **Conmutador de vistas** (a frecha despregable situada ao lado do nome da vista) para seleccionar outras vistas filtradas. Podes crear as túas propias vistas con criterios de filtro personalizados.
 
 Os contratos pódense crear ou eliminar desta páxina de lista ou das páxinas de detalles.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

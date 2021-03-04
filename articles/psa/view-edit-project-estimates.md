@@ -45,3 +45,6 @@ Coas capacidades do [!INCLUDE[pn_project_service_auto](../includes/pn-project-se
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía do xestor de proxectos](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

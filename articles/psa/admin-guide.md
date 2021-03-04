@@ -52,3 +52,6 @@ Esta guía serviralle de axuda no proceso de instalación e configuración:
  [Guía do Xestor de contas](../psa/account-manager-guide.md) [Guía do Xestor de Proxectos](../psa/project-manager-guide.md)   
  [Guía para o xestor de recursos](../psa/resource-manager-guide.md)   
  [Guía de tempo, gasto e colaboración](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

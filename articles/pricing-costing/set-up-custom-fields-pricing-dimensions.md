@@ -96,3 +96,6 @@ Establecer a prioridade de dimensión axuda a que os prezos produzan un prezo in
 
 - **Prioridade de custos**: O valor da prioridade de custos dunha dimensión indicará o peso desa dimensión ao comparalo coa configuración dos prezos de custo. O valor de **Prioridade de custos** ten que ser único en todas as dimensións que sexan **Aplicables ao custo**.
 - **Prioridade de vendas**: O valor da prioridade de vendas da dimensión indicará o peso desa dimensión ao comparalo coa configuración dos prezos de vendas ou taxas de facturación. O valor de **Prioridade de vendas** ten que ser único en todas as dimensións que sexan **Aplicables a vendas**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

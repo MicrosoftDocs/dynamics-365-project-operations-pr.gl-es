@@ -48,3 +48,6 @@ Abaixo amósase un resumo dos campos que se poden actualizar nun proxecto despoi
 - **Estado xeral do proxecto**: A saúde xeral do proxecto proporcionada polo xestor do proxecto.
 - **Comentarios**: Unha narración sobre a saúde actual do proxecto proporcionada polo xestor do proxecto.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

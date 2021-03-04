@@ -231,3 +231,6 @@ A seguinte táboa describe como se sincronizan os datos entre Project Service Au
 
 ### <a name="see-also"></a>Consulte tamén  
  [Guía do xestor de proxectos](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

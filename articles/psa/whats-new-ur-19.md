@@ -66,3 +66,6 @@ Resolvéronse os seguintes problemas:
 - Os clientes poden experimentar un rendemento degradado ao crear un proxecto porque **GetBookableResourceIdFromUser** recupera todas as columnas de recursos reservables en vez de só o ID principal.
 - Na entidade **Tipo de transacción** falta o complemento de actualización de validación previa para evitar que os usuarios introduzan **Unidades** e **Grupos de unidades** que non sexan válidos para os tipos de transacción.
 - O paso **Eliminar** non funciona para a importación de entradas de tempo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

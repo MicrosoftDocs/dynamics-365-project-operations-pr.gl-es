@@ -36,3 +36,6 @@ Hai dous xeitos de que un xestor de proxecto poida volver a proxectar o esforzo 
 - Anular a porcentaxe de progreso predefinida cunha nova estimación do progreso real da tarefa.
 
 Cada un destes enfoques provoca un novo cálculo do ETC, a estimación ao completar (EAC) e a porcentaxe de progreso da tarefa, e a varianza de esforzo proxectado nunha tarefa. Calcúlanse de novo o EAC, ETC e a porcentaxe de progreso nas tarefas resumo, e producen unha nova proxección da varianza do esforzo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

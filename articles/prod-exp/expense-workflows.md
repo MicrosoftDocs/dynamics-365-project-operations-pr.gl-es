@@ -50,3 +50,6 @@ A seguinte táboa mostra os tipos de fluxos de traballo que pode crear **Gastos*
 |      <strong>Solicitude de adianto de efectivo</strong>      |         Cree fluxos de traballo de aprobación para solicitudes de adianto de efectivo.          |
 |        <strong>Recuperación do IVE</strong>        | Cree fluxos de traballo de aprobación para a recuperación do imposto sobre o valor engadido (IVE).  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

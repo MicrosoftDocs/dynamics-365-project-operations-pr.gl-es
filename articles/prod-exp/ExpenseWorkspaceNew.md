@@ -78,3 +78,6 @@ As seguintes funcionalidades están presentes na páxina existente pero aínda n
 - Fluxo de traballo a nivel de liña
 - Apoio provisional para responsables de aprobacións…
 - Itemización avanzada
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

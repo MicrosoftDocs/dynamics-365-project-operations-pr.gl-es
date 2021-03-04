@@ -107,3 +107,6 @@ A seguinte ilustración mostra os cambios que se producen para as entradas de te
 A seguinte ilustración mostra os cambios que se producen para as entradas de gasto aprobadas cando se recuperan.
 
 ![Transicións de estado de entradas de gasto](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Este tema aplícase aos seguintes compoñentes e versións de Dynamics 365 Proje
 | **Xestión de oportunidades** | 2040713 | Corrixiuse o erro de script que se producía ao crear unha factura a partir dun contrato e está instalado Field Service. |
 | **Planificación e rastrexo de proxectos** | 2090202 | Regras de negocio marcadas que xa non se usan como **Obsoleto**. |
 | **Tempo e gasto** | 2091249 | Reforzáronse os controis para que os usuarios non poidan cambiar a tarefa nunha entrada de tempo aprobada ou enviada. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

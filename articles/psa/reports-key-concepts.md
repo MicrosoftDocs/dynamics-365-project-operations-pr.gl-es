@@ -48,3 +48,6 @@ Na seguinte táboa defínense conceptos clave empregados na aplicación Dynamics
 | Contorno                    | Horas de tarefa, requisito ou atribución tal como se descompoñen nunha distribución diaria. Por exemplo, unha tarefa de cinco días e 40 horas pódese moldear en oito horas ao día durante cinco días. |
 | Vista de conciliación        | Unha vista que mostra as reservas e atribucións para cada membro do equipo do proxecto. Esta vista permite que o xestor de proxectos busque calquera desaxuste entre reservas e atribucións e tome medidas correctivas se ocorre algún desaxuste. |
 | Horas de traballo                 | Entidade que se emprega para identificar a capacidade dos recursos e as horas laborables e non laborables. Esta entidade tamén se denomina calendario de recursos. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

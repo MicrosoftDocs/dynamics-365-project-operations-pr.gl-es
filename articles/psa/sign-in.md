@@ -56,3 +56,6 @@ Cando inicie sesión nas aplicacións de Dynamics 365, debe ter a seguinte infor
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía de tempo, gasto e colaboración](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

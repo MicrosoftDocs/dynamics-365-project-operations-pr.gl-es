@@ -42,3 +42,6 @@ Pode utilizar a caixa de busca no **Selector de recursos** para buscar todos os 
 1. Desde a grade de tarefas, panel ou liña de tempo, desprácese ata o a cela **Atribuído a**.
 2. Na caixa de busca, comece a escribir un nome. Os resultados de busca para o nome móstranse no **Selector de recursos** en **Outros recursos**.
 3. Seleccione o recurso que desexa asignar á tarefa ou seleccione o nome do recurso en **Outros recursos do equipo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

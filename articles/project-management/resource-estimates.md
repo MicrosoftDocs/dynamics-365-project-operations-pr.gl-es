@@ -34,3 +34,6 @@ Os prezos de vendas aplícanse unha vez por acordo. A xerarquía da lista de pre
 1. Organización
 2. Cliente
 3. Oferta/contrato
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

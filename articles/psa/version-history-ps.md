@@ -73,3 +73,6 @@ Para obter información sobre outras actualizacións de Project Service, consult
 >[!Note]
 > - As datas en todas as rexións agás Government Community Cloud (CCG) indican o momento da próxima actualización automática. As datas en CCG indican a dispoñibilidade da versión; neste momento, non hai actualización automática para estas rexións.
 > - Para o resto de rexións, aínda que a maioría das actualizacións deberían completarse durante a noite programada, as actualizacións que requiran máis tempo poden completarse durante as horas sen luz da fin de semana indicadas na columna **Data programada**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

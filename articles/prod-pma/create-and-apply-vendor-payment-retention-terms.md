@@ -65,3 +65,6 @@ Despois de crear os termos de retención para un fornecedor, pode aplicar os ter
 6. Se o proxecto tamén ten configurados os termos de pagar ao recibir o pagamento (PWP) para o fornecedor, escriba a porcentaxe limiar para o proxecto no campo **Porcentaxe de limiar de PWP**.
 
 Os termos de retención do fornecedor tamén se mostran nos pedidos de compra que cree para o fornecedor.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

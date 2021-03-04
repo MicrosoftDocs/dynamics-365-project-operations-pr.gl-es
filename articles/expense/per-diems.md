@@ -31,3 +31,6 @@ A dieta é un subsidio que se paga a un traballador que viaxa por traballo. En x
     
 ## <a name="submit-expenses-using-per-diem"></a>Enviar os gastos usando as dietas
 Para enviar gastos utilizando dietas, use a categoría de gasto **Dietas** cando cree un informe de gastos. Introduza a **Dietas desde a data**, **Dietas ata a data** e **Localización de dietas**. A cantidade calcularase en función das taxas de dietas para a localización seleccionada e a redución de comidas calcularase en función dos niveis de taxas de dietas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

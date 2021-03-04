@@ -47,3 +47,6 @@ Agora que ten gañada a oferta para o seu proxecto, é o momento de crear un con
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía de xestor de contas](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Esta guía fornece información necesaria para crear e xestionar proxectos:
  [Guía para o xestor de recursos](../psa/resource-manager-guide.md)   
  [Guía de tempo, gasto e colaboración](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

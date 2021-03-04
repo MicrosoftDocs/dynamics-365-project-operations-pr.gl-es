@@ -68,3 +68,6 @@ A **Vista de conciliación** permite ao xestor de proxecto ver as reservas e atr
 > [!NOTE]
 > Se move unha tarefa que contornou vostede mesmo, estes contornos non se manteñen. O contornos rexenéranse segundo o calendario de proxecto para dar conta das modificacións en horas de traballo e vacacións. Isto é por deseño porque o sistema non coñece a intención do contorno orixinal e non pode determinar se ten sentido manter ese contorno nun período de tempo novo. Posto que as reservas e as atribucións está desconectadas, as reservas conservan os contornos da reserva orixinal. Neste caso, deberá cancelar e volver a reservar no contorno da nova atribución.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

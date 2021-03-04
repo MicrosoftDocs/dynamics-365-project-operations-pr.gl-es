@@ -63,3 +63,6 @@ Este tema mostra as funcionalidades e correccións que son novas ou modificadas 
 **Sales**
 
 - Corrixido: Cando se aproban de novo as entradas de tempo (**Aprobar > Cancelar >** aprobar de novo), créase un duplicado real non imputable.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

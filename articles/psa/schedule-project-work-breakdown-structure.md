@@ -152,3 +152,6 @@ Usará os seguintes tipos de tarefas ao crear a estrutura de subdivisión do tra
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía do xestor de proxectos](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

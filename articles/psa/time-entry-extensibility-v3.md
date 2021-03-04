@@ -132,3 +132,6 @@ Debe usar as validacións de complementos para calquera validación que requira 
 
 > [!IMPORTANT] 
 > Na actualidade, un problema coñecido nas páxinas de TBX impide aos usuarios corrixir información e volver a seleccionar Feito cando unha actualización mostra un erro nunha validación de complemento. Como solución, configure as validacións de regras de negocio para evitar o máximo posible esta situación.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

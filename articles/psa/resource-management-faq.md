@@ -54,3 +54,6 @@ Despois de reservar os recursos, seleccione **Manter reservas** para facer os ca
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Que diferenza hai entre unha atribución e unha reserva?
 
 As atribucións son a atribución de recursos ás tarefas do proxecto na programación do proxecto. Os recursos poden ser recursos reais ou xenéricos. As reservas son a atribución branda o dura de recursos a un proxecto. As reservas duras consumen a capacidade dun recurso. O ideal sería que, para os recursos reais, as reservas e as atribucións coincidisen, porque non difiren. Non obstante, PSA non fai cumprir este acordo. A vista Conciliación mostra a un xestor de proxectos lugares onde as reservas e atribucións dun recurso non coinciden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

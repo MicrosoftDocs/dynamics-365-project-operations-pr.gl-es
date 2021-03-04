@@ -90,3 +90,6 @@ Realice os seguintes pasos para corrixir unha ou varias entradas de gasto.
 8. Na páxina do proxecto, no separador **Datos reais**, revise a **Visualización asociada dos datos reais**. Aparecerán as entradas orixinais e as entradas corrixidas. O seguinte gráfico mostra os importes orixinais das entradas de gastos e os correspondentes importes corrixidos das entradas de gastos. 
 
 ![Datos reais de gastos](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -29,3 +29,6 @@ A sección **Estado** da páxina **Entidade do proxecto** ofrece un resumo da sa
 - O campo **Comentarios** permítelle ao xestor de proxectos introducir comentarios específicos sobre o estado. 
 - O campo **Estado actualizado o** non é editable. O valor deste campo é unha marca de tempo que indica cando se actualizou por última vez o estado.
 - Os campos **Rendemento de programación** e **Rendemento de custos** defínense a partir da grade de rastrexo. Cando a varianza de programación e custo para o nó raíz na vista **Rastrexo do esforzo** é positiva, estes campos actualízanse a **Adiantado**. Cando o calendario e a varianza de custos para o nó raíz son negativos, estes campos configúranse en **Atrasado**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

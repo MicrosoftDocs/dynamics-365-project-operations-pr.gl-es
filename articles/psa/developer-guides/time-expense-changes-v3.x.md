@@ -32,3 +32,6 @@ Na versión 3.0 de Dynamics 365 Project Service Automation, actualizáronse as v
 Anteriormente, as vistas do calendario e da grade de tempo e gasto implantáronse como controis DHTMLX. Os artefactos relacionados coa implantación das vistas de calendario e grade agora están obsoletos (desfasados).
 
 Para ver a lista completa de recursos desfasados, consulte [Recursos web desfasados en Project Service Automation v3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

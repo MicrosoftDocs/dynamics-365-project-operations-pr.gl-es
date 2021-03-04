@@ -45,3 +45,6 @@ O traballo de proceso por lotes para crear facturas é un traballo recorrente. S
 
 > [!NOTE]
 > A facturación por lotes só se executa para as liñas de contrato do proxecto que están configuradas por programacións de facturas. Unha liña de contrato cun método de facturación de prezos fixos debe ter configurados os fitos. Unha liña de contrato de proxecto cun método de facturación de tempo e material necesitará unha programación de facturas baseado na data configurada. O mesmo se aplica a unha liña de contrato baseada nun proxecto.     
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

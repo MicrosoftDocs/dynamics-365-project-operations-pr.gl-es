@@ -106,3 +106,6 @@ Cando se fai unha ou máis actualizacións na estrutura de subdivisión do traba
   - Sistema de Project Operations
   - Sistema do proxecto
   - Sistema de escritura dual de Project Operations (Este rol é necesario se está a despregar o escenario baseado en recursos/sen fornecemento de Project Operations).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

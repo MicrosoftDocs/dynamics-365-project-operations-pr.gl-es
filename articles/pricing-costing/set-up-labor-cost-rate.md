@@ -84,3 +84,6 @@ Na lista de prezos de custo de Fabrikam UK-Robotics, as taxas de custo pódense 
 | Programador | Fabrikam UK | 115 GBP |
 
 A lista de prezos de custo pode proporcionar taxas de man de obra en moedas múltiples. Ao xerar unha estimación do custo do proxecto, Project Operations converterá estas taxas de custo na moeda do proxecto e mostrarana ao usuario. Cando se aproba unha entrada de tempo e se crea un dato real de custo, o dato real de custo ten un prezo na moeda desa liña de prezo de rol coincidente na lista de prezos de custo. Os datos reais de custo por tempo nun mesmo proxecto pódense rexistrar en varias moedas. Non obstante, ao acumular ou resumir os custos reais de man de obra a nivel de proxecto, as Project Operations converterá todos os custos de man de obra na moeda do proxecto que o usuario pode ver.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

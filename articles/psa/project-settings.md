@@ -68,3 +68,6 @@ Cada organización debe configurar estes roles na páxina **Categorías de recur
 ## <a name="price-lists"></a>Listas de prezos
 
 As listas de prezos permítenlle establecer o custo e os prezos de vendas para roles de recursos, categorías de gasto, produtos e outros elementos dunha organización. Antes de establecer estimacións financeiras para o traballo que se deben entregar para un proxecto, debería crear unha lista de custos e prezos de vendas de seguridade. Na sección de parámetros, tamén debe configurar unha lista de custos e prezos de vendas predefinida que se aplica a todos os proxectos creados na organización. Na páxina **Parámetros do proxecto activos**, asegúrese de configurar unha lista de prezos de vendas e custos predefinida.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -143,3 +143,6 @@ Para ver a factura antes de publicar, borre a caixa de verificación **Publicaci
 Ademais da páxina **Proposta de factura**, as propostas de factura tamén se poden publicar executando a tarefa periódica **Publicar propostas de factura**. Para atopar esta tarefa, vaia a **Xestión e contabilidade de proxectos** > **Periódico** > **Facturas do proxecto** > **Publicar propostas de factura**.
 
 Esta páxina mostra todas as propostas de factura que están listas para publicar. Pode programar a publicación de propostas de factura seleccionando **Lote**. Configure o **Parámetro de procesamento por lotes** a **Si** e configure a repetición do procesamento por lotes seleccionando **Periodicidade**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

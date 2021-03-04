@@ -96,3 +96,6 @@ Para garantir unha actualización correcta, deben manterse correctamente as segu
 
 - Todas as dependencias das tarefas do proxecto deben estar relacionadas co mesmo proxecto.
 - Unha tarefa non pode facer referencia á mesma dependencia máis dunha vez.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

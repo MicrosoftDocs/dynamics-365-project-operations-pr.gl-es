@@ -440,3 +440,6 @@ Despois de calcular a declaración, pode ver a seguinte información nos distint
 -   **Consumo** - Información sobre o consumo de horas, artigos, gastos e transaccións de nómina.
 -   **Factura** - Información sobre facturas e facturación en conta.
 -   **Tarifa horaria** - As tarifas horarias das horas que se contabilizan nas contas de ingresos e custos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Cando fai unha selección, o recurso engádese ao equipo do proxecto e atribúes
 Pode usar a capacidade de extensión de recursos no separador **Reconciliación** ou o **Panel de programación** para reservar a capacidade do recurso para o proxecto.
 
 Despois de que un membro do equipo estea reservado no seu proxecto, pode usar **Manter reservas** ou o **Panel de programación** directamente para xestionar as súas reservas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

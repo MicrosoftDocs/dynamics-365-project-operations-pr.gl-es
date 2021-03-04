@@ -58,3 +58,6 @@ Para poder usar os recursos de automatización de [!INCLUDE[pn_project_service_a
  [Guía do xestor de proxectos](../psa/project-manager-guide.md)   
  [Guía para o xestor de recursos](../psa/resource-manager-guide.md)   
  [Guía de tempo, gasto e colaboración](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -429,3 +429,6 @@ A entrada dunha categoría de proxecto predefinida nas entradas de folla de cont
 1. A aplicación tenta poñer a categoría predefinida do recurso do proxecto. Esta categoría predefinida establécese nos métodos **getCurrentUserResource** e **getDelegatedResourcesForCurrentUser** na clase **TSTimesheetSettingsService**.
 2. Se a categoría predefinida non se proporciona no nivel de recursos do proxecto, a aplicación tenta tomala da actividade do proxecto. Esta categoría predefinida establécese no método **getActivitiesForProject** na clase **TSTimesheetProjectService**.
 3. Se a categoría predefinida non se proporciona no nivel de actividade do proxecto, a categoría predefinida tómase dos parámetros do proxecto. Esta categoría predefinida establécese no método **getProjectDetailsbyRule** na clase **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

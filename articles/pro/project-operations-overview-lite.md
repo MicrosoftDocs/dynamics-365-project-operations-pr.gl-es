@@ -37,3 +37,6 @@ Utilice este tipo de despregamento se a súa expectativa de Project Operations �
 - Un sistema integrado que xestiona proxectos internos e facturables para programacións e finanzas desde as vendas ata a facturación do proxecto.
 - Unha planificación de recursos empresariais de terceiros (ERP/sistema de contabilidade financeira para integrar con Project Operations.
 - Un sistema de terceiros para traballar con impostos sobre as vendas, taxas de cambio, reembolsos de gastos e gastos que non son do proxecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

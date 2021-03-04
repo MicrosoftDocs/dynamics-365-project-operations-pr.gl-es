@@ -46,3 +46,6 @@ O asistente de programación aparece e é filtrado polos requisitos. Seleccione 
 > ![Recurso seleccionados](media/Resource-Management-image61.png)
 
 O membro do equipo xenérico substitúese polo recurso nomeado con reserva dura no equipo do proxecto e as atribucións de tarefas na programación do proxecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

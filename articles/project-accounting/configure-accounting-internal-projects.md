@@ -32,3 +32,6 @@ Calquera proxecto non asociado a un contrato en Dynamics 365 Project Operations 
 Despois de que as transaccións se contabilicen no proxecto, se o proxecto está asociado a un contrato de proxecto, o sistema inverte todas as transaccións acumuladas e crea novas transaccións facturables. As transaccións facturables seguen as regras de contabilidade definidas no perfil de ingresos e custos do proxecto respectivo.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

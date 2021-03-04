@@ -76,3 +76,6 @@ Podes usar un dos seguintes métodos para crear un pedido de compra en Xestión 
 
 Para obter máis información, consulte [Recibir artigos do pedido de compra a partir do requisito do artigo](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

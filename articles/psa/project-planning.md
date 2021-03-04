@@ -52,3 +52,6 @@ Os temas seguintes proporcionan información que axudará aos xestores de proxec
 - [Modelos de proxecto](project-templates.md)
 - [Fases do proxecto](project-stages.md)
 - [Configuración de proxecto](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

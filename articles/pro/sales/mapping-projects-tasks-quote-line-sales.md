@@ -90,3 +90,6 @@ Tamén pode desvincular as tarefas do proxecto das liñas de oferta desde o sepa
 
 >[!NOTE]
 > Este procedemento non elimina a tarefa do proxecto. Só elimina a asociación de tarefas da liña de oferta baseada en proxecto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

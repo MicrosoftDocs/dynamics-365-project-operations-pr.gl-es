@@ -55,3 +55,6 @@ Pódense eliminar os gastos que aínda non se enviaron. Para eliminar un gasto x
 ## <a name="see-also"></a>Consulte tamén
 
 - [Visión xeral das aprobacións](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

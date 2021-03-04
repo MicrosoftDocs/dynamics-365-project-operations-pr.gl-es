@@ -44,3 +44,6 @@ Os temas seguintes fornecen máis información sobre as funcións de ofertas, pr
 - [Grupos de unidades e unidades](advanced-units.md)
 - [Moeda multiunidade](advanced-currency.md)
 - [Rexistro de datos reais](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

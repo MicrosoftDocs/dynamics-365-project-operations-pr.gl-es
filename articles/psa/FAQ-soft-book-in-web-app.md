@@ -87,3 +87,6 @@ Cando esté listo para modificar un recurso de membro de equipo con reserva bran
 2. Cando abre o panel de programación, expanda o recurso para mostrar as súas reservas. Verá a reserva marcada como Branda.
 3. Prema co botón secundario na reserva, en Cambiar estado, seleccione Reserva dura e, a seguir, Dura. O estado da reserva é Duro.
 4. Despois de pechar o panel de programación, verá que as horas do recurso cambiaron de Branda a Dura na grade de membro do equipo. Agora pode atribuir o recurso a tarefas (sempre que haxa aliñación entre as horas con reserva dura e as horas de esforzo da tarefa de atribución). Teña en conta que se seguiron os pasos de realización de recurso xenérico no punto #3 anterior, cando se modifica o estado do recurso reservado con reserva branda a dura, o membro do equipo xenérico é eliminado do equipo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

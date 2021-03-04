@@ -53,3 +53,6 @@ Para configurar as competencias dun traballador, pode empregar a páxina de list
 5. No campo **Data de nivel** , seleccione **1-/14/2014**.
 6. No campo **Anos de experiencia** , introduza **10**.
 7. Seleccione **Gardar** e logo peche a páxina.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -170,3 +170,6 @@ As seguintes ilustracións mostran exemplos das asignacións de tarefas do model
 [![Asignación de modelos de transaccións de estimación de gastos](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Asignación de modelos de estimacións de gastos](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

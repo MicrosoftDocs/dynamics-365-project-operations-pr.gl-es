@@ -28,3 +28,6 @@ As liñas baseadas en produto poden ser elementos de catálogo ou produtos fóra
 
 Cando o método de ingresos do resumo de oportunidade é **Calculado polo sistema**, resúmense os valores do orzamento do cliente nas liñas de oportunidade para calcular os ingresos estimados. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -20,3 +20,6 @@ ms.locfileid: "4514521"
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
 Pode usar Dynamics 365 Field Service para crear recursos reservables para usar no seu ambiente de Dynamics 365 Project Operations. Para crear estes recursos, consulte [Configura recursos reservables](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

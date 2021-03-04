@@ -52,3 +52,6 @@ A súa empresa probablemente organice o seu negocio de consultoría por xeograf�
   
 ### <a name="see-also"></a>Consulte tamén  
  [Configurar Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

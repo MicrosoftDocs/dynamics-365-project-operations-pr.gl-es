@@ -68,3 +68,6 @@ Os pasos seguintes explican o proceso de rexistro dos complementos.
 
 9. Peche a ferramenta de rexistro de complementos.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ Cando un fornecedor completa o seu traballo nun proxecto e lle envía unha factu
 2. Na páxina **Facturas do fornecedor que se pagan ao recibir o pagamento** , no campo de busca, introduza valores para atopar a factura do fornecedor que desexa revisar e logo seleccione **Buscar**.
 3. No separador rápido **Liñas de factura do fornecedor** , seleccione as liñas que quere cambiar.
 4. Se as condicións de **Pagar ao recibir o pagamento** se cumpren para a liña de factura, seleccione **Liberar o pagamento do fornecedor**. A opción **Pagar ao recibir o pagamento** está borrada e o valor do campo **Listo para o pagamento** cambia a **Si**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

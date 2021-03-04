@@ -52,3 +52,6 @@ Pódese crear, actualizar ou eliminar un cliente de contrato no separador **Clie
 As porcentaxes de división de facturación poden editarse mediante a experiencia de edición da grade en liña. Cando as porcentaxes de división de facturación non totalicen o 100 por cento, recibirá un erro. Despois de editar as porcentaxes de facturación, actualice a páxina para rexeitar o erro.
 
 Tamén pode seleccionar **Distribución uniforme** na subgrade **Clientes contratados** para asignar divisións de facturación uniformemente a todos os clientes do contrato. Se hai un factor de redondeo, engadirase ao cliente de redondeo. Un dos clientes do contrato sempre está etiquetado como cliente de **redondeo**, o que significa que o rexistro de cliente de contrato ten definida a marca de redondeo en **Si**. Normalmente, este é o cliente principal do contrato, pero tamén se pode cambiar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

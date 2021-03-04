@@ -41,3 +41,6 @@ Se o cliente aproba a oferta do proxecto, pode copiar a información da oferta d
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

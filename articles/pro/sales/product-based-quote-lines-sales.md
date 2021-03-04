@@ -46,3 +46,6 @@ Cando unha liña de oferta está baseada nun catálogo de produtos, pode anular 
 Se selecciona **Anular prezos**, o prezo por defecto non está definido. En lugar diso, debe introducir un prezo para o produto na liña de oferta. Se selecciona **Usar predefinido**, úsase o prezo de venda por defecto e o campo está bloqueado para a súa edición.
 
 Os prezos de venda por defecto introdúcense nas liñas baseadas en produtos dunha oferta. O campo **Prezos** defínese como **Anular prezos** para que poida editar o prezo por defecto nas liñas de oferta. Trátase dunha anulación específica de Project Operations do comportamento das liñas baseadas en produto en Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

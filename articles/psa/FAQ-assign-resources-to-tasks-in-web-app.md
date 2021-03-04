@@ -116,3 +116,6 @@ Seleccione **Reservar** para o recurso xenérico e, a seguir, pode utilizar o pa
 Cando o recurso xenérico cumple cun recurso denominado, o recurso xenérico elimínase do equipo e as atribucións de tarefa para o recurso xenérico atribúense ao recurso denominado que cumplíu o requisitos de recurso do recurso xenérico.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

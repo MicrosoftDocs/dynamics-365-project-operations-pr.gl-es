@@ -33,3 +33,6 @@ Pódese ver unha lista de todas as ofertas de proxecto na páxina de lista **Ofe
 2. Use o **Conmutador de visualizacións** para seleccionar outras visualizacións filtradas das ofertas. Usando criterios de filtro personalizados, pode configurar as súas propias visualizacións e opcións de navegación.
 
 As ofertas pódense crear ou eliminar desta páxina de lista ou das páxinas de detalles.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

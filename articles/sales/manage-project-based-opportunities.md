@@ -65,3 +65,6 @@ O proceso de venda de oportunidades en Project Operations é unha extensión ao 
 > Se o acordo baseado en proxecto comezou cunha oportunidade, prevalecerá o proceso de vendas de oportunidade.
 
 Pode editar o fluxo do proceso de negocio do produto ou crear os seus propios fluxos do proceso de negocio para rastrexar o seu proceso de vendas segundo sexa necesario. Para obter máis información sobre o fluxos do proceso de negocio, consulte [Información xeral sobre fluxos do proceso de negocio](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

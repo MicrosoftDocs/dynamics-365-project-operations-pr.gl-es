@@ -48,3 +48,6 @@ Se ten atribucións de tarefas para un recurso pero non ten reservas, seleccione
 As reservas que se crean a través da acción **Estender reserva** está asociada ao requisito principal do proxecto. Cando se inicia unha extensión, non se pode determinar o requisito específico que debe estenderse, porque o recurso pode estar asociado a máis dun requisito para o proxecto.
 
 O xestor de proxectos ou xestor de recursos pode utilizar o panel de programación para xestionar calquera situación na que un recurso estea sobrecargado fóra da súa capacidade.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

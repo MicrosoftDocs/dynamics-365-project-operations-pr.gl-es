@@ -198,3 +198,6 @@ Un dato real de vendas facturadas polo importe do fito no fito orixinal da liña
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Cando engadiu roles de recursos, seguramente xa lle asociou algunhas cualificaci
   
 ### <a name="see-also"></a>Consulte tamén  
  [Configurar recursos reservables](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

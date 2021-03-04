@@ -145,3 +145,6 @@ Este tema aplícase aos seguintes compoñentes e versións de Dynamics 365 Proje
 
 ### <a name="regulatory-updates"></a>Actualizacións normativas
 Para obter información sobre actualizacións normativas para aplicacións de Finance and Operations, vexa [Actualizacións normativas](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Este tema mostra as funcionalidades e correccións que son novas ou modificadas 
      - Fixado: O prezo total de vendas non se calcula ata que o usuario tamén introduza un prezo de custo para estimacións de gastos nun proxecto.
      - Corrixido: Pechar unha oferta como **Gañada** falla se o contrato do proxecto asociado non está nun estado de **Borrador**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

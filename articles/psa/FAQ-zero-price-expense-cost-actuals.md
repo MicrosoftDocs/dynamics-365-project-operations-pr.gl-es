@@ -38,3 +38,6 @@ Estas Preguntas máis frecuentes aplícanse a gastos reais onde a clase de trans
 Vaia a entrada de gastos relacionados e asegúrese de que hai unha cantidade no campo de entrada de gastos. Se a entrada de gastos orixinal non se ten o campo de importe enchido, xa identificou o problema.
  
 Para solucionar este problema, cree novamente a entrada de gastos cunha cantidade válida e apróbea.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

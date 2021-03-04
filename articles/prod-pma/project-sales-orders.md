@@ -41,3 +41,6 @@ Pode crear pedidos de venda baseados en proxectos de dous xeitos:
 - Vaia ao propio proxecto. No panel Acción, seleccione **Xestionar > Tarefas do artigo > Pedido de venda**. A información do proxecto será o pedido de venda predefinido do proxecto. Se o contrato do proxecto ten máis dunha fonte de financiamento, deberá seleccionar a fonte de financiamento para configurar o cliente para o pedido de venda. Se só hai unha fonte de financiamento para o proxecto, o cliente configurarase automaticamente.
 - Vaia á páxina de lista **Todos os pedidos de venda** e cree un novo pedido de venda. Deberá seleccionar o proxecto para o pedido de venda. Despois de seleccionar o proxecto, configurarase o cliente desde a fonte de financiamento ou deberá seleccionar a fonte de financiamento se o contrato do proxecto ten varias fontes de financiamento.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

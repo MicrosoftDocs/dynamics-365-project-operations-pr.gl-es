@@ -56,3 +56,6 @@ Seleccione a solicitude de viaxe que desexa aprobar e logo seleccione **Fluxo de
 
 > [!NOTE]
 > Cando asigna un informe de gastos a unha solicitude de viaxe aprobada, o importe da transacción non pode ser superior ao importe autorizado. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

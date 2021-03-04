@@ -35,3 +35,6 @@ Para revisar os proxectos de estimación de ingresos a prezo fixo, complete os s
 
   O custo do proxecto, o perfil de ingresos, o modelo de custo e o código do período pódense configurar manualmente. Se non se configuran manualmente, os valores son os predefinidos durante o primeiro cálculo de estimación do proxecto empregando as regras configuradas para os perfís de custos e ingresos do proxecto.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

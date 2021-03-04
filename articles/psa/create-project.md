@@ -48,3 +48,6 @@ Logo creará unha estrutura de subdivisión de traballo para o seu proxecto para
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía do xestor de proxectos](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

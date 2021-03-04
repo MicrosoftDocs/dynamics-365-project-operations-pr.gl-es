@@ -67,3 +67,6 @@ Cando esté listo para modificar un recurso de membro de equipo con reserva bran
 2. Prema co botón secundario na reserva, en **Cambiar estado**, seleccione **Reserva dura** \> **Dura**. O estado da reserva é agora **Dura**.
 3. Despois de pechar o panel de programación, volver ao proxecto e abrir o separador **Equipo**, verá que as horas para o recurso movéronse desde a columna **Horas con reserva branda** á columna **Horas con reserva** dura na grade do separador **Equipo**, ao visualizar **Membros do equipo nomeados**. Se o recurso se atribuíu a tarefas, xa non mostrará unha falta de reserva no separador **Conciliación**, xa que as súas reservas agora son duras.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

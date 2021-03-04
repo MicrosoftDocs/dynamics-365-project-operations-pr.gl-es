@@ -79,3 +79,6 @@ Para crear modelos de custo, siga estes pasos:
 7. No separador **Categorías**, seleccione as categorías do proxecto para incluír na liña do modelo de custo.
 8. No separador **Xeral**, seleccione se se incluirá esta liña na porcentaxe de cálculo de finalización.
 9. Seleccione o método de custo para completar que se empregará ao calcular a porcentaxe de finalización.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

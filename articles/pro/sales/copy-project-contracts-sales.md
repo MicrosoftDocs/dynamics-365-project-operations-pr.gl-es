@@ -45,3 +45,6 @@ A seguinte información non se copia de **Contrato de orixe** a **Contrato de de
   - Información de orzamento de cliente
 
 Debido a que esta información é moi específica para cada contrato, estes campos e rexistros non se copian. Cópianse as liñas de contrato para proxectos e produtos, as estimacións sobre os detalles da liña de contrato e os valores non superables a nivel de contrato. Os valores por defecto do prezo e do custo dependen da selección no campo **Copiar prezos** da páxina de diálogo **Copiar parámetros**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

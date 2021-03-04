@@ -85,3 +85,6 @@ Despois de que se creen algunhas entradas de tempo, os usuarios poden crear vari
 
 ## <a name="import"></a>Importar
 O mesmo proceso básico úsase para importar desde reservas, atribucións e intercambios. Pode especificar o intervalo de datas do que se importan as reservas e, a seguir, seleccionar explicitamente as reservas deben copiarse como borradores de entradas de tempo. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

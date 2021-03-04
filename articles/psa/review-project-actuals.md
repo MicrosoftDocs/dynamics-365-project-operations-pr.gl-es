@@ -35,3 +35,6 @@ Navegue até os datos reais do proxecto e asegúrese de que as vendas non factur
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía do xestor de proxectos](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

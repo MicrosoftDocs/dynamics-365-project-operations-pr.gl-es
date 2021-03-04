@@ -79,3 +79,6 @@ Pode crear unha subvención introducindo todos os detalles nun novo rexistro ou 
 2. Seleccione a subvención que quere modificar.
 3. No panel Acción, no separador **Subvención** , no grupo **Manter** , seleccione **Editar**.
 4. Revise os detalles da subvención e faga os cambios que sexan necesarios.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

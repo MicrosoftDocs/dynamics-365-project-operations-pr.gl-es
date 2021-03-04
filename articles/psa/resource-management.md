@@ -53,3 +53,6 @@ Pode dotar de persoal o seu proxecto cun equipo de recursos xenéricos ou nomead
 - [Reservar recursos nomeados a partir de requisitos de recursos](book-named-resource.md)
 - [Enviar unha solicitude de recurso](submit-resource-request.md)
 - [Aceptar ou rexeitar un recurso de proxecto proposto desde unha solicitude de recurso](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -149,3 +149,6 @@ Por defecto, se un nó folla non ten predecesores, a súa data de inicio establ�
 ### <a name="manual-scheduling"></a>Programación manual
 
 Se as regras de programación automática non cumpren os seus requisitos, pode configurar o modo de tarefa para a tarefa **Programado manualmente**. Este axuste fai que o motor de programación non calcule os valores para outros atributos de programación. Independentemente do modo de tarefa, se establece predecesores en tarefas, sempre afectará á data de inicio da tarefa dependente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

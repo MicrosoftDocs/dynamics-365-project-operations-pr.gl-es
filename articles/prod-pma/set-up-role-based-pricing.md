@@ -34,3 +34,6 @@ Pódense configurar todos os custos, vendas e prezos de transferencia para roles
 1. Na páxina **Prezo de venda (hora)** , seleccione **Novo** e introduza unha data de entrada en vigor.
 2. Na columna **Rol** , seleccione un rol.
 3. Na columna **Prezos** , introduza un prezo para o rol de recurso seleccionado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

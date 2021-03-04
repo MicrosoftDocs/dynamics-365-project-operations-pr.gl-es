@@ -52,3 +52,6 @@ Para obter máis información sobre os informes en PSA, consulte os seguintes te
 - [Traballo co modelo de datos de Project Service Automation](reports-working-project-service-data-model.md)
 - [Paneis](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

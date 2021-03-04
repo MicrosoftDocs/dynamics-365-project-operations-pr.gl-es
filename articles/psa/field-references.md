@@ -150,3 +150,6 @@ A seguinte táboa fornece unha lista completa de formularios listos para usar, l
 |  Real|• Información<br>• Datos reais activos|• Visualización asociada dos datos reais|
 
 Os campos personalizados tamén poden ter que engadirse nas regras de negocio segundo o que definira. Un exemplo listo para usar é a regra do negocio **Editabilidade de entrada de tempo en función do estado**. Esta regra define os campos que deben ser bloqueados cando a entrada de tempo está nun estado non editable como **Aprobado**. Engada campos a esta regra de negocio para que os campos estean bloqueados para a súa edición cando a entrada de tempo está nun estado distinto de **Borrador** ou **Devolto**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Resolvéronse os seguintes problemas:
 - Xérase unha excepción de referencia nula cando se invoca o complemento **GetEstimatesForProject**.
 - **Marcar como listo para facturar** na grade de fitos só actualiza parcialmente os atributos, agás o atributo **InvoiceStatus**, que se actualiza.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ As propiedades **N.º de Usuarios** e **N.º de meses** pódense marcar como fac
 
 > ![Marcado de n.º de usuarios e n.º de meses como factores de calidade](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Os modelos de proxecto afórranlle tempo se a súa empresa realiaza ofertas con 
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía do xestor de proxectos](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

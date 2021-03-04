@@ -66,3 +66,6 @@ Se aínda non ve un prezo válido no valor real de vendas por custo despois de r
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

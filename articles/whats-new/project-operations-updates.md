@@ -77,3 +77,6 @@ As datas de lanzamento obxectivo están suxeitas a cambios. Para obter máis inf
 | --- | --- |
 | 10.0.17 | 19 de marzo de 2021 |
 | 10.0.18 | 16 de abril de 2021 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

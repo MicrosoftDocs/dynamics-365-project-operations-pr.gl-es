@@ -69,3 +69,6 @@ Cando copia entre liñas de estimación do proxecto, as listas de prezos actual�
 ### <a name="copying-a-project-team"></a>Copiar un equipo de proxecto
 
 Ao copiar o equipo de proxecto a partir do modelo de proxecto, os recursos xenéricos está tamén se copian, xunto cos coñecementos e habilidades definidos no modelo. As atribucións de recursos xenéricas tamén se manteñen igual que no modelo de proxecto. Os recursos nomeados non son compatibles cos modelos de proxecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

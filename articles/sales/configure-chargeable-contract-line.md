@@ -58,3 +58,6 @@ Unha estimación ou dato real creada para gasto só se considerará imputable se
 | No | Si | Non se pode configurar | Non imputable | Facturación nun dato real de tempo: Non dispoñible </br>Tipo de facturación nun dato real de gasto: Non imputable |
 | Si | No | Imputable | Non se pode configurar | Facturación nun dato real de tempo: Imputable </br>Tipo de facturación nun dato real de gasto: Non dispoñible |
 | Si | No | Non imputable | Non se pode configurar | Facturación nun dato real de tempo: Non imputable </br> Tipo de facturación nun dato real de gasto: Non dispoñible |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

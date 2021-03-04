@@ -37,3 +37,6 @@ A seguinte táboa mostra as actualizacións de Project Operations en ambiente de
 | Entrada rápida de tempo e gasto | 2047499          | O botón **Novo** da páxina de entrada de tempo abre a páxina **Nova sinatura de correo electrónico**.                                                                                               |
 | Entrada rápida de tempo e gasto | 2059859          | Ábrese unha ventá emerxente inesperada ao crear unha entrada de gasto.                                                                                                                         |
 | Outras                        | 2044181          | [Desinstalación de PO] - O erro "O rexistro non está dispoñible" prodúcese cando tenta desinstalar **msdyn_ProjectServiceCore_Patch** e solucións básicas de msdyn Project Service.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

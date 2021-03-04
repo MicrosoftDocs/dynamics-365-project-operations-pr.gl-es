@@ -37,3 +37,6 @@ Debido a que Nancy traballou en dous proxectos distintos mentres estaba en Frank
 |Hotel         |725 EUR              |557 EUR                        |168 EUR                          |
 |Comidas         |346 EUR              |284 EUR                        |62 EUR                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

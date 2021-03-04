@@ -54,3 +54,6 @@ Pode definir o esforzo de traballo e programar estimacións mediante os campos d
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Importación de estimacións dun proxecto a unha oferta
 
 Despois de definir as estimacións do proxecto, pode importalas na liña de oferta. Na páxina **Detalles de liña de oferta**, seleccione **Importación das estimacións** na fita para resumir as estimacións do proxecto por tipo de transacción, rol ou nivel de tarefa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

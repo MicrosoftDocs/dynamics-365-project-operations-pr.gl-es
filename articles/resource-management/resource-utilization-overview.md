@@ -45,3 +45,6 @@ Ademais, debe atribuírse un rol predefinido a cada recurso reservable. Vaia a *
 No separador **Project Service**, tamén pode configurar unha utilización obxectivo individual para o recurso. A seguir, o cálculo de utilización usa esa utilización obxectivo para avaliar o obxectivo do recurso no canto do obxectivo do rol predefinido do recurso.
 
 A utilización móstrase só para un recurso só se ese recurso ten un tempo imputable acordado durante o período que se amosa na grade.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

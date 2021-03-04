@@ -26,3 +26,6 @@ As ferramentas de xestión de proxectos en Dynamics 365 Project Operations axúd
 - Usar estimacións do proxecto durante o proceso de vendas.
 - Facer previsións dos requisitos de recursos para proxectos que están na canle.
 - Entregar con éxito os proxectos rastrexando o progreso e o consumo de custos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

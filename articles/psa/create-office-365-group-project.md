@@ -43,3 +43,6 @@ Forneza un espazo onde os membros do equipo de proxecto poidan colaborar en docu
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía do xestor de proxectos](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

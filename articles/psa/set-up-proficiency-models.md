@@ -53,3 +53,6 @@ Unha vez engadidas as cualificacións para os proxectos dos seus clientes, neces
   
 ### <a name="see-also"></a>Consulte tamén  
  [Configurar recursos reservables](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

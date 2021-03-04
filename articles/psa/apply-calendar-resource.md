@@ -45,3 +45,6 @@ Unha vez que cree un modelo de horas de traballo, necesita atribuílo aos recurs
   
 ### <a name="see-also"></a>Consulte tamén  
  [Configurar recursos reservables](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

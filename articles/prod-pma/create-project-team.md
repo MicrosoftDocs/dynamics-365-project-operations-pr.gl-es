@@ -62,3 +62,6 @@ O seguinte procedemento explica como crear un equipo de proxecto:
 ## <a name="monitor-project-teams"></a>Supervisar os equipos do proxecto
 1. Na páxina **Todos os proxectos** , seleccione a ligazón **ID de proxecto** para o proxecto **Fase 2 de actualización de XYZ**.
 2. No separador rápido **Equipo do proxecto e programación** , verifique que os recursos do proxecto que aparecen na lista son correctos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Antes de crear programaciones de proxecto, ten que configurar un calendario de p
   
 ### <a name="see-also"></a>Consulte tamén  
  [Configurar recursos reservables](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

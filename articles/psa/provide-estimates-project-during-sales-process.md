@@ -54,3 +54,6 @@ Durante o proceso de vendas, pode calcular estimacións de vendas desde o princi
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía do xestor de proxectos](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

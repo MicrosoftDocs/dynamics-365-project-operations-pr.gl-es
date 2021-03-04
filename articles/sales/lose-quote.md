@@ -45,3 +45,6 @@ Cando selecciona **Aceptar** na páxina de diálogo, o sistema crea unha copia d
 > - Referencia do proxecto nas liñas de oferta baseada en proxecto -Información sobre o orzamento do cliente
 >
 >Debido a que esta información é moi específica para cada oferta, estes campos e rexistros non se copian. Cópianse as liñas de oferta para proxectos e produtos, as estimacións sobre os detalles da liña de oferta e os valores que no deben superar o nivel da oferta. Os valores por defecto do prezo e do custo dependen da opción de **Copiar prezos** seleccionada na páxina de diálogo **Copiar parámetros**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

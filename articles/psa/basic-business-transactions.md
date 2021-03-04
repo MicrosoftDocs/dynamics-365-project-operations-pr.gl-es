@@ -149,3 +149,6 @@ Na seguinte táboa móstranse os rexistros da entidade de Conexión da transacci
 | Corrección de borrador de factura       | GUID de transacción da liña de factura | Substitución          | msdyn_invoicelinetransaction | GUID de vendas facturadas            | Orixinal           | msdyn_actual       |
 | Confirmar corrección de factura     | GUID de reversión de vendas facturadas    | Reversión          | msdyn_actual                 | GUID de vendas facturadas            | Orixinal           | msdyn_actual       |
 | GUID de dato real de novas vendas sen facturar | Substitución                     | msdyn_actual       | GUID de vendas facturadas            | Orixinal                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

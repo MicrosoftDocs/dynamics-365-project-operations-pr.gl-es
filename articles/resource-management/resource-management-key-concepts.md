@@ -35,3 +35,6 @@ Os recursos son o activo máis importante dunha organización baseada en servizo
 
 
 Pode dotar de persoal o seu proxecto cun equipo de recursos xenéricos ou nomeados en Project Operations. Pode empregar varios métodos para engadir e atribuír membros do equipo e para xestionar as súas reservas e atribucións. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

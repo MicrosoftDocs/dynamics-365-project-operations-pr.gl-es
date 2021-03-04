@@ -98,3 +98,6 @@ Cando procesa os importes do orzamento restantes, pode crear transaccións no li
 5. Para cada proxecto que desexe procesar, seleccione a opción ao comezo da liña do proxecto. 
 6. Seleccione **Proceso** para transferir os importes do orzamento restantes para os proxectos seleccionados ao ano fiscal seleccionado.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

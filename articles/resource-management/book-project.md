@@ -66,3 +66,6 @@ Como xestor de proxectos, é posible que necesite reservar un recurso para un pr
 
 > [!NOTE]
 > Este método non crea ningunha reserva para o recurso. No seu lugar, engade o recurso ao equipo. Despois de engadir o membro do equipo ao proxecto, o xestor do proxectos pode usar manter as reservas ou ampliar as reservas para engadir as reservas requiridas ao recurso.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

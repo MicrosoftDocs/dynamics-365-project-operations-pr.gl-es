@@ -273,3 +273,6 @@ Un dato real de vendas facturadas para a liña de produto coa cantidade e import
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

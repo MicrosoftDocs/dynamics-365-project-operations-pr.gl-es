@@ -77,3 +77,6 @@ Pode crear datos para as dimensións baseadas na entidade manualmente ou mediant
 5. Repita os pasos 1 - 3 para crear outro título estándar para "Enxeñeiro principal de sistemas".
 
 > ![Datos de exemplo para a entidade Título estándar](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

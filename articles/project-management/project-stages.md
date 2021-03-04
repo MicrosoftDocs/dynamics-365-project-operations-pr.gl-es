@@ -63,3 +63,6 @@ Cando o traballo para o proxecto estea rematado, o xestor de proxectos pode actu
 
 Cando todas as transaccións do proxecto estean rexistradas, o xestor de proxectos pode actualizar a fase a **Pechar**. Nese momento, non se poden rexistrar transaccións e o proxecto configúrase como só de lectura.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

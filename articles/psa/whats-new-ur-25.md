@@ -70,3 +70,6 @@ Resolvéronse os seguintes problemas:
 - Mellorouse a xestión de erros para tratar excepcións de referencia nula xeradas a partir de **Copiar proxecto: Xestión de recursos Axuda de estimacións**.
 - **Non está listo para facturar** no **Traballo pendente de facturación de tempo e material** non borra o estado de facturación.
 - Corrixiuse o etiquetado incorrecto dos botóns de **Prezos** do separador **Prezo de rol** e **Artigos de catálogo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

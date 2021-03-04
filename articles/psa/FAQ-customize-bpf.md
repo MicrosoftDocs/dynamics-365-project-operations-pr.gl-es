@@ -107,3 +107,6 @@ Para crear o seu propio fluxo do proceso de negocio para a entidade de proxecto,
 
    ![Captura de modificación de visualizacións na entidade de proxecto](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

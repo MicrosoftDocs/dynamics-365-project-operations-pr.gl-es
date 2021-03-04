@@ -101,3 +101,6 @@ Se non está a ver a utilización imputable, ofrecémoslle algunhas cousas pode 
   - O rol na liña de contrato do proxecto que fai de copia de seguranza do proxecto está definido en non imputable.
   - O proxecto non ten unha liña de contrato asociada.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

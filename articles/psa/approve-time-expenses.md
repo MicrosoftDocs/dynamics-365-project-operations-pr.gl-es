@@ -47,3 +47,6 @@ Despois de que os consultores introduzan os tempo e gastos dun proxecto, vostede
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía do xestor de proxectos](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

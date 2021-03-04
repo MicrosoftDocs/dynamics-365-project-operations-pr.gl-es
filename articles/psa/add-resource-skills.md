@@ -47,3 +47,6 @@ Está claro que os proxectos dos seus clientes requiren diversas cualificacións
   
 ### <a name="see-also"></a>Consulte tamén  
  [Configurar recursos reservables](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

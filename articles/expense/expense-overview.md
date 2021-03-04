@@ -44,3 +44,6 @@ Para obter máis información, consulte [Entrada de gasto (lite)](basic-expense.
 
 ## <a name="determine-your-expense-deployment"></a>Determinar o seu despregamento de gasto
 Para determinar se está a executar o despregamento de xestión de gastos básicos, verifique que o enderezo URL remate con **. crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

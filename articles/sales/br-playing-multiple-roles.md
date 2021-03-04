@@ -106,3 +106,6 @@ Cando expande a fila dese rexistro de membro do equipo, pode ver distintas taref
 ### <a name="estimates-grid"></a>Grade de estimacións 
 
 Na grade **Estimacións**, as dúas tarefas para o mesmo recurso teñen un prezo diferente. A atribución do recurso na **Tarefa A** ten un prezo empregando o valor do atributo **Rol** de **Xefe de consultoría**. A atribución do mesmo recurso na **Tarefa B** ten un prezo empregando o valor do atributo **Rol** de **Técnico de rede**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

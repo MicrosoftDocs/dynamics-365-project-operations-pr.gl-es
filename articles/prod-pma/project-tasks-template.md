@@ -83,3 +83,6 @@ Se debe usar Power Query, siga esta pauta:
 A seguinte ilustración mostra un exemplo das asignacións de tarefas do modelo en integración de datos. A asignación mostra a información de campo que se sincronizará de Project Service Automation a Finanzas.
 
 [![Asignación de modelos](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Para usar o asistente, siga estes pasos.
 1. Vaia a **Xestión e contabilidade de proxectos** > **Ofertas** > **Ofertas de proxecto.**
 2. Seleccione a oferta que desexa transferir e no separador **Seguimento** , no grupo **Modificar** , seleccione **Transferir a proxecto**.
 3. Siga o asistente **Transferir oferta a proxecto** para asociar e transferir a oferta a un proxecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

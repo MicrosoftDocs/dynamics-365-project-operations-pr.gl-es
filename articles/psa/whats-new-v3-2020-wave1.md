@@ -43,3 +43,6 @@ Ademais, se ten módulos de aplicación personalizados que inclúan todos os for
 
 ### <a name="currently-extended-time-entry-changes"></a>Cambios de entrada de tempo ampliado actualmente
 Para minimizar o impacto para os usuarios actuais de entrada de tempo, este cambio de rol é o único requisito básico necesario para continuar utilizando a entrada de tempo. Se creou vistas personalizadas ou experiencias de entrada de tempo independentes, ten que configurar os campos de **Configuración de entrada de tempo** co valor de PSA correcto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

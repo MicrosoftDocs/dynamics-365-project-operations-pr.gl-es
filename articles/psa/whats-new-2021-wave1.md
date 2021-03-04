@@ -43,3 +43,6 @@ Resolvéronse os seguintes problemas:
 
 - As datas de finalización énchense automaticamente cando se crea unha entrada de tempo se a duración é nula.
 - Os usuarios poden cambiar a tarefa nunha entrada de tempo aprobada ou enviada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

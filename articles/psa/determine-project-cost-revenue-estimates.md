@@ -81,3 +81,6 @@ Calquera gasto do proxecto que non está directamente relacionado co traballo qu
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía do xestor de proxectos](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

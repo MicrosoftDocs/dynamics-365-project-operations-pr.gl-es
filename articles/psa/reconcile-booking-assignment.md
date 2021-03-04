@@ -101,3 +101,6 @@ Despois de executar a función Estender reserva en cada recurso, as reservas est
 
 Non obstante, unha ollada máis atenta aos detalles das reservas mostra diferenzas na hora de inicio das reservas. As reservas non comezarán antes da hora de inicio do contorno de asignación nin antes da hora de inicio dispoñible do recurso.
  ![Novas reservas dos recursos no panel de programación](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

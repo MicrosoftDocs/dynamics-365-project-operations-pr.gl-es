@@ -81,3 +81,6 @@ En resumen, os seguintes métodos de atribución conducen a saturación se o rec
 - Horas de distribución uniforme
 
 Ao utilizar un destes tres métodos de atribución, non será notificado de que o recurso está saturado. Para corrixir a saturación, ten que utilizar o panel de programación.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

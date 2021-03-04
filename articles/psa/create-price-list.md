@@ -71,3 +71,6 @@ As listas de prezos dependen das categorías de gastos e roles, polo que antes d
   
 ### <a name="see-also"></a>Consulte tamén  
  [Configurar Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

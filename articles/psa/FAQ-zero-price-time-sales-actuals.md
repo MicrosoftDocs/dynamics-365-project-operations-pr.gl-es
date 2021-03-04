@@ -57,3 +57,6 @@ Se non hai ningunha fila na grade de prezos de rol para as dimensións de prezos
 
 Se aínda non ve un prezo válido no valor real de vendas por tempo despois de realizar as tres comprobacións anteriores, rexistre o tícket de asistencia. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

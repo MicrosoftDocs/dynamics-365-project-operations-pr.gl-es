@@ -74,3 +74,6 @@ Antes de comezar a configuración, debe ter un ambiente de Common Data Service (
     -   Característica de recursos reservables
 
     ![Completar importación](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

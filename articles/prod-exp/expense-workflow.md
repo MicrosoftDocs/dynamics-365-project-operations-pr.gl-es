@@ -55,3 +55,6 @@ O seguinte proceso é un exemplo do fluxo de traballo de xestión de gastos para
 Despois de verificar estes requisitos, contabilízase o informe de gastos.
 
 Despois de publicar o informe de gastos, autorízase o pagamento do informe de gastos e reembolsaráselle ao empregado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

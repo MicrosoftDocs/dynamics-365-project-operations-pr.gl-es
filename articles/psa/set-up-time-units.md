@@ -47,3 +47,6 @@ Configurar as unidades de tempo no catálogo de produtos que vai utilizar como b
   
 ### <a name="see-also"></a>Consulte tamén  
  [Configurar Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

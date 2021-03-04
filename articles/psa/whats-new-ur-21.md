@@ -77,3 +77,6 @@ Resolvéronse os seguintes problemas:
 - A lóxica de **Resolución da lista de prezos de venda** trata inadecuadamente os fusos horarios, o que produce unha selección incorrecta das listas de prezos.
 - O **Custo real total** dun proxecto pódese desactivar por unha cantidade fraccionada despois de aprobar unha entrada de tempo única.
 - A lóxica de **Resolución de prezos** non fornece unha mensaxe de erro fácil de entender se **Prezo de rol recuperado** non ten valores nos campos **"Unidade Primaria"** e **"Prezo na unidade primaria"**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

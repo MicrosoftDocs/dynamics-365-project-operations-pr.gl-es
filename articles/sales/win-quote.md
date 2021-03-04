@@ -43,3 +43,6 @@ Se a oferta proxecto pechada como Perdida ten un proxecto referenciado nalgunha 
 
 > [!NOTE]
 > En Project Operations, pechar unha oferta como Gañada ou Perdida non afectará a ese estado da Oportunidade, que permanecerá aberta ata que se peche manualmente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

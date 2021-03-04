@@ -51,3 +51,6 @@ As frecuencias de factura do [!INCLUDE[pn_project_service_auto](../includes/pn-p
   
 ### <a name="see-also"></a>Consulte tamén  
  [Configurar Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

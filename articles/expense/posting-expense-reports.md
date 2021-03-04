@@ -31,3 +31,6 @@ Se os gastos derivados dun informe de gastos se impoñen a unha empresa distinta
 Para contabilizar un informe de gastos, na páxina **Informes de gastos aprobados**, seleccione o informe de gastos e, a seguir, no panel de acción, seleccione **Contabilizar**.
 
 Tamén pode contabilizar todos os informes de gastos da lista ao mesmo tempo. Seleccione todos os informes de gastos e logo seleccione **Contabilizar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

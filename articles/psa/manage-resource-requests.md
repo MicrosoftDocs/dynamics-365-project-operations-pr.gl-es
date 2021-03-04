@@ -51,3 +51,6 @@ Os xestores de contas e os xestores de proxectos solicitan regularmente recursos
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía para o xestor de recursos](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

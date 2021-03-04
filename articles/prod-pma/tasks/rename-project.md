@@ -35,3 +35,6 @@ As fases do proxecto poden servir de guía para o ciclo de vida do proxecto. Pod
 4. Na lista, seleccione a fase predefinida ou definida polo usuario que desexa modificar. 
 5. No campo Fase do proxecto, escriba o novo nome.
 6. Prema Gardar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

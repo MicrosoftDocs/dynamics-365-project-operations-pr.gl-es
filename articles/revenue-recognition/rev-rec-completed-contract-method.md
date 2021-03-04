@@ -90,3 +90,6 @@ A estimación cambia o estado a **Eliminado**.
 Use esta páxina para reverter todas as eliminacións cunha data de estimación especificada e cun estado de estimación de **Eliminado**. O estado da transacción cambia despois de seleccionar os campos apropiados.
 
 Isto tamén cambia automaticamente o estado do proxecto a **En proceso** se a fase do proxecto está configurada como finalizada. O estado da estimación do período do proxecto volve a **Contabilizado**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

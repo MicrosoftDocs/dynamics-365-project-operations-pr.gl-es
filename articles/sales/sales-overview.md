@@ -63,3 +63,6 @@ En Project Operations, non pode rastrexar as revisións feitas a unha oferta. No
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Rastrexar comentarios e aprobacións de ofertas e contratos de proxecto
 Podes xestionar a revisión e aprobación de ofertas e contratos de proxecto empregando o taboleiro de información e as publicacións. A súa organización pode crear fluxos de traballo personalizados e complementos para atribuír, redirixir, escalar e xestionar as notificacións de revisión e a aprobación de elementos de traballo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

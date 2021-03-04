@@ -83,3 +83,6 @@ Este tema describe os parámetros que controlan o comportamento xeral na xestió
 | Mostrar un certificado anticorrupción   | Seleccione esta opción para amosar o texto anticorrupción cando se crea un informe de gastos. Pódense habilitar categorías de gastos específicas que requirirán que se seleccione o certificado anticorrupción no informe de gastos. Por exemplo, unha categoría de agasallo relacionada cun gasto oficial do goberno pode requirir que o empregado confirme que o gasto cumpre coa política da empresa relacionada cos funcionarios do goberno. |
 | Mensaxe anticorrupción para o remitente | Introduza o texto que se debe mostrar a un empregado que está a crear un informe de gastos. Para inserir texto específico do idioma que se mostrará, en función do idioma do usuario, seleccione **Traducións**. |
 | Mensaxe anticorrupción para o responsable de aprobacións  | Introduza o texto que se debe mostrar ao responsable de aprobacións cando se crea un informe de gastos. Para inserir texto específico do idioma que se mostrará, en función do idioma do usuario, seleccione **Traducións**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

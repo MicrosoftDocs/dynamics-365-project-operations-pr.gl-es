@@ -55,3 +55,6 @@ Os seguintes temas ofrecen información sobre as tarefas que deben realizarse ca
 - [Rendemento de programación de recursos de proxecto](project-scheduling-performance.md)
 - [Configurar funcións nos modelos de estrutura de subdivisión do traballo](set-up-roles-wbs-template.md)
 - [Cumprimento de recursos para os recursos planificados](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ As habilidades dos recursos clasifícanse por modelos de competencia. As clasifi
 > ![Definición de clasificación mínima e máxima](media/Resource-Management-image85.png)
 
 Estes valores de clasificación móstranse nos filtros **Requisitos dos recursos**, **Panel de programación** e **Asistente de programación**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

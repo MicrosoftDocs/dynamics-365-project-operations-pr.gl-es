@@ -42,3 +42,6 @@ Este tema mostra as funcionalidades e correccións que son novas ou modificadas 
 Resolvéronse os seguintes problemas:
 
 - Degradación do rendemento da busca de asistencia de programación
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

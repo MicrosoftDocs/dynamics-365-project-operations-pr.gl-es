@@ -35,3 +35,6 @@ Se o contrato de proxecto pechado como perdido fai referencia a un proxecto nas 
 
 > [!NOTE]
 > En Dynamics 365 Project Operations, pechar un contrato de proxecto como perdido non afectará a ese estado da oportunidade asociada. A oportunidade permanecerá aberta e debe pecharse manualmente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

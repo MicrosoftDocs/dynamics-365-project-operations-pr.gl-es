@@ -28,3 +28,6 @@ ms.locfileid: "4960020"
 Unha *dieta* é un subsidio que se paga a un traballador que viaxa por traballo. En xestión de gastos, pode crear regras de dietas para varias situacións de viaxe. As taxas das dietas poden basearse na época do ano, na localización da viaxe ou en ambas. Cando crea unha regra de dietas, pode especificar que se reterá unha porcentaxe da taxa de dietas se un traballador recibe comidas ou servizos de cortesía. Tamén pode establecer un número mínimo e máximo de horas que a taxa de dietas se pode aplicar ás viaxes dun traballador.
 
 O cálculo dun importe de dieta total baséase nas datas de inicio e de finalización que pode establecer na páxina **Dietas**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

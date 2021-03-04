@@ -26,3 +26,6 @@ A configuración de prezos para elementos do catálogo de produtos en Dynamics 3
 En Project Operations, os produtos non se poden estimar nin usar en proxectos, polo que non é preciso fixar os prezos do catálogo de produtos nas listas de prezos do proxecto para ofertas e contratos.
 
 Use o campo **Prezo do produto** dunha oferta, contrato ou conta para configurar os prezos do catálogo de produtos. Non configure os prezos do catálogo de produtos nas listas de prezos do proxecto. As listas de prezos do proxecto son exclusivas de Project Operations. A lóxica empresarial específica da aplicación copia as listas de prezos dunha oferta a un contrato. O resultado é unha lista de prezos específica para o contrato. A operación de copia pode retrasar o proceso de gañar a oferta se a lista de prezos do proxecto da oferta é demasiado grande. As listas de prezos de produtos non se copian para crear listas de prezos personalizadas nos contratos. Debido a que non hai copia, o rendemento do proceso da oferta non se ve afectado.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

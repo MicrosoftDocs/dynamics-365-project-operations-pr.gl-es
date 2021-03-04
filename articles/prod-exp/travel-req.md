@@ -32,3 +32,6 @@ A *solicitude de viaxe* é un documento de orixe que recolle os gastos nos que s
 As solicitudes e as políticas de viaxes pódense empregar para axudar ao control do orzamento. Por exemplo, se a súa organización está a traballar nun proxecto de prezo fixo que require viaxes, os gastos de viaxe dos membros do equipo do proxecto deben axustarse ao orzamento para o proxecto. Ao requirir que se aproben os gastos de viaxe antes de que se incorra neles, a organización pode axudar a asegurarse de que o proxecto permanece dentro do orzamento.
 
 Pode configurar políticas para solicitudes de viaxes desde a páxina **Solicitude de viaxe**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Pode analizar ofertas e xerar gráficos para as expectativas dos clientes sobre 
 A análise das expectativas dos clientes sobre a programación realízase comparando a última data final do detalle da liña de oferta coa data de entrega solicitada en todas as liñas de oferta da oferta.
 
 A análise das expectativas dos clientes sobre o orzamento realízase comparando a suma do orzamento total do cliente co importe ofertado en todas as liñas da oferta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

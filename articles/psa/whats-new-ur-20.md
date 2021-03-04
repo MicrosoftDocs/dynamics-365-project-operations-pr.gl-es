@@ -62,3 +62,6 @@ Resolvéronse os seguintes problemas:
 - As listas de **Prezo de custo da unidade organizativa** permiten solapamentos na data de validez.
 - Os usuarios non teñen permiso para cambiar **OrgUnit** cando o tipo de pedido non está baseado en traballo, porque levará a un erro de excepción de referencia nula.
 - Ao intentar navegar desde o formulario **Detalles da liña de oferta**, ao volver ao separador **Oferta**, o formulario actualízase e mostra o separador **Resumo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

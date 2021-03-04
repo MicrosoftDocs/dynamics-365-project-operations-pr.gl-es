@@ -103,3 +103,6 @@ As categorías de orzamento utilízanse para calcular automaticamente os importe
 8. Opcional: Atribúa a regra de facturación a proxectos adicionais. No separador rápido **Proxecto** , na sección **Proxectos dispoñibles** , seleccione un proxecto e, a seguir, seleccione o botón de frecha dereita para engadir o proxecto á sección **Proxectos seleccionados**.
 9. Opcional: Calcule a cantidade porcentual que o cliente retén dos pagamentos dunha factura. No separador rápido **Termos de retención do pagamento** , seleccione a fonte de financiamento e, a seguir, no campo **Porcentaxe de retención** , introduza a porcentaxe de retención.
 10. Repita estes pasos para crear regras de facturación adicionais para o contrato do proxecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -105,3 +105,6 @@ Introduza os gastos como mínimo semanalmente, ou na frecuencia solicitada polo 
  [Información xeral de Project Service](../psa/overview.md)   
  [Guía de tempo, gasto e colaboración](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

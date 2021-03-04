@@ -49,3 +49,6 @@ Para crear unha programación de proxecto, créase un modelo de calendario de pr
 8. Na caixa de diálogo **Modelo de traballo**, introduza un nome para o modelo de traballo e, a seguir, seleccione **Aplicar**. 
 
 Agora pode asociar o modelo de traballo a un modelo de calendario de proxecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

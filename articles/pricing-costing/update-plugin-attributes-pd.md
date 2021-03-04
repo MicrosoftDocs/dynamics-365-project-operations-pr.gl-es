@@ -52,3 +52,6 @@ Complete os seguintes pasos para actualizar e volver rexistrar os complementos.
 7. Seleccione **Aceptar** para pechar a páxina e logo seleccione **Actualizar paso**.
 8. Repita os pasos do 2 ao 7 para o segundo complemento, **PreOperationQuoteLineDetail**. Para este complemento, debe actualizar o paso **Actualización de msdyn_quotelinetransaction**.
 9. Peche **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

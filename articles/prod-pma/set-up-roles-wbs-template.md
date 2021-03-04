@@ -107,3 +107,6 @@ Engadíronse opcións adicionais na WBS para utilizar mellor a funcionalidade de
     > Non recibe un aviso de que o recurso especificado é agora 2, porque o número de recursos segue a ser 1.
 
 14. Na páxina **Estrutura de subdivisión do traballo** , valide a asignación de recursos na WBS e logo seleccione **Gardar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

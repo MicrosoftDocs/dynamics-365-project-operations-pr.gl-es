@@ -47,3 +47,6 @@ Definir as taxas de utilization de destino para cada rol. Estes axustes determin
   
 ### <a name="see-also"></a>Consulte tamén  
  [Configurar recursos reservables](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

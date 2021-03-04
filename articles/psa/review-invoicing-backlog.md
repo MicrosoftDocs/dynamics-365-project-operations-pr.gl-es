@@ -59,3 +59,6 @@ Cada liña de contrato de proxecto que teña un método de facturación de prezo
 Para revisar os fitos de facturación, vaia a **Vendas** \> **Facturación** \> **Fitos de prezo fixo**. Seleccione todos os fitos listos para ser facturados e logo seleccione **Listo para facturar**. O estado de facturación destes fitos cambia a **Listo para facturar**.
 
 ![Fitos de prezo fixo](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

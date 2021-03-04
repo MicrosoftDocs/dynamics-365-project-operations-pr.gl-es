@@ -73,3 +73,6 @@ Pode realizar un reavaliación masiva do estado de non superable. A reavaliació
 Para reavaliar o estado de non superable, seleccione un ou máis datos reais da vista **Traballo pendente de facturación de tempo e material** ou **Datos reais** e logo seleccione **Reavaliar o estado de non superable**.
 
 Todos os datos relevantes seleccionados cun límite non superable serán avaliados en comparación coa configuración do límite non superable. Os datos reais que son relevantes para reavaliar o estado de non superable son os datos reais de vendas sen facturar que non están facturados, non están nun borrador de factura e están marcados como imputables. Calquera outro dato real seleccionado.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

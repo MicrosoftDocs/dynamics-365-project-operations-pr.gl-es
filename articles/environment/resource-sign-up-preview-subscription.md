@@ -98,3 +98,6 @@ Siga as indicacións do tema [Proporcionar un novo ambiente](resource-provision-
 
 Instale os datos configuración do CDS como se describe no tema [Configurar e aplicar os datos de configuración en Common Data Service](resource-apply-pro-setup-config-data.md).
 Complete este paso só despois de que se despregue o ambiente de demostración de Finance e os datos de demostración en FO estean listos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -160,3 +160,6 @@ Ao crear políticas de informes de gastos, pode axudar á súa organización a a
 - Cando caduca a política?
 - Cal é a regra da política?
 - Cal é o resultado da regra da política?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

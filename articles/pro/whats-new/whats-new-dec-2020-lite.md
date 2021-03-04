@@ -57,3 +57,6 @@ A seguinte táboa mostra as actualizacións de Project Operations en ambiente de
 | Tempo e gasto | 2034882 | O botón **Novo** amósase dúas veces na barra de comandos para as entradas de tempo cando Dynamics 365 Field Service está instalado. |
 | Tempo e gasto | 2056028 | Actualice a páxina **Edición de tempo** para incluír a liña do tempo. |
 | Tempo e gasto | 1983747 | O gráfico de entrada de tempo mostra datos adicionais. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

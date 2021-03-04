@@ -49,3 +49,6 @@ My timesheets (optimizada para móbiles) e Timesheets for my review (optimizada 
 - [Entrada de tempo do proxecto]( project-time-entry-mobile-workspace.md)
 - [Follas de control horario do proxecto nun dispositivo móbil](Mobile-timesheets.md)
 - [Implementar campos personalizados para a aplicación móbil Microsoft Dynamics 365 Project Timesheet en iOS e Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

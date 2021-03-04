@@ -68,3 +68,6 @@ Abra a liña de oferta de prezo fixo na que necesita crear un fito. No separador
 | Estado da factura | Creación rápida | Cando se crea un fito, este estado sempre se define como **Non está preparado para a facturación**. | Isto propágase ao fito da liña de contrato do proxecto e á factura. |
 | Cantidade da liña | Creación rápida | Importe ou valor do fito que se facturará ao cliente. | Isto propágase ao fito da liña de contrato do proxecto e á factura. |
 | Impostos | Creación rápida | Importe do imposto que se aplicará ao fito. | Isto propágase ao fito da liña de contrato do proxecto e á factura. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ En PSA, non pode rastrexar as revisións feitas a unha oferta. No seu lugar, ten
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Rastrexo de comentarios e aprobacións de ofertas e contratos de proxecto
 Podes xestionar a revisión e aprobación de ofertas e contratos de proxecto empregando o taboleiro de información e as publicacións. A súa organización pode crear fluxos de traballo personalizados e complementos para atribuír, redirixir, escalar e xestionar as notificacións de elementos de traballo de revisión e aprobación.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

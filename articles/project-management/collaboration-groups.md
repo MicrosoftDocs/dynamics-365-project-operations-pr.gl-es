@@ -26,3 +26,6 @@ Office Groups permítenlle compartir un proxecto con outros membros do equipo en
 > [!NOTE] 
 > Os usuarios só se engaden ao grupo se preme **Grupos** e os engade. Isto é diferente do comportamento de Project for the Web. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

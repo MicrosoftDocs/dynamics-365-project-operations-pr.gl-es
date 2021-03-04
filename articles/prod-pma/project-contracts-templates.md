@@ -153,3 +153,6 @@ As seguintes ilustracións mostran exemplos das asignacións de tarefas do model
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Asignación de fitos da liña de contrato de proxecto nos proxectos e contratos (PSA 3.x a Dynamics) - modelo v2:
 
 [![Asignación de fitos de liñas de contrato de proxecto coa versión dúas do modelo](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

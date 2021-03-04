@@ -44,3 +44,6 @@ Esta guía de tarefas amosa como axustar unha transacción nun proxecto. Non obs
 13. Na lista, marque a fila seleccionada. 
 14. No campo Prezo de custo, introduza un número. 
 15. Prema Publicar. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

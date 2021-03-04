@@ -57,3 +57,6 @@ Pode ver unha lista dos membros do equipo de proxecto e, a partir de aí, pode m
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía do xestor de proxectos](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

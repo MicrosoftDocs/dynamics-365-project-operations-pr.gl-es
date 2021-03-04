@@ -56,3 +56,6 @@ Unha oferta existente pódese vincular a unha oportunidade. Complete os seguinte
    Cando traslade unha oportunidade a esta fase, pode seleccionar esta oferta nunha lista de ofertas asociadas a esta oportunidade. Se selecciona esta oferta, indica que seguirá adiante con ela.
 
    Todas as outras ofertas asociadas á oportunidade aínda estarán dispoñibles e estarán activas ata que se gañe unha delas. Pode mover o proceso de venda á etapa anterior **Cualificar** e escoller outra cita para seguir adiante con ela.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

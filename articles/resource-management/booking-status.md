@@ -20,3 +20,6 @@ ms.locfileid: "4514522"
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
 Pode usar a funcionalidade fornecida en Universal Resource Scheduling para Dynamics 365 Field Service para configurar os estados de reservas para a súa organización. Para obter información sobre como completar esta configuración, consulte [Configura estados de reservas](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

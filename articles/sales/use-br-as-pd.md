@@ -78,3 +78,6 @@ O rexistro da dimensión de prezos para **msydn_bookableresource** debe recibir 
 5. Engada **msdyn_bookableresourceid** a **Nome do campo**.
 
  ![Novo formulario de nome de campo de dimensión de prezos](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

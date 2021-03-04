@@ -257,3 +257,6 @@ O seguinte gráfico é de despois de que se creasen listas de prezos personaliza
 
 > [!NOTE]
 > Pode producirse un pequeno retraso entre cando preme en **Crear prezos personalizados** e cando se crea a lista de prezos personalizada. Recomendamos actualizar a grade en lugar de premer varias veces. Creouse unha lista de prezos personalizada se o nome da lista de prezos asociada ten o nome de oferta ou o nome do contrato do proxecto anexo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

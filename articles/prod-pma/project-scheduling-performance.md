@@ -69,3 +69,6 @@ Para activar a mellora do rendemento da programación de recursos, complete os s
 
 > [!NOTE]
 > Isto distribuirá datos xerais á táboa **ResRollup** entre todas as empresas do seu ambiente, polo que o traballo por lotes só precisa executarse nunha entidade legal. Este traballo por lotes é necesario para todas as vistas de **Dispoñibilidade de recursos**. Se non se executa este traballo por lotes, os datos de **Resrollup** os datos xeraranse sobre a marcha, o que pode levar algún tempo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

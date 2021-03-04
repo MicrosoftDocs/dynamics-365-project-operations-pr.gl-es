@@ -140,3 +140,6 @@ As seguintes ilustracións mostran exemplos das asignacións de tarefas do model
 [![Asignación de modelos - Actualización de datos reais](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Asignación de modelos - Actualización de transaccións](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

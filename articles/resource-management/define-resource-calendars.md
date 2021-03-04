@@ -43,3 +43,6 @@ Cada recurso reservable que traballa nun proxecto debe ter un calendario de hora
 2. Na vista de grade, seleccione ata 25 **Recursos reservables** para actualizar.
 3. Seleccione **Establecer calendario** e un diálogo solicitaralle unha lista de modelos de horas de traballo dispoñibles.
 4. Seleccione o modelo que desexe usar e, a seguir, seleccione **Aplicar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

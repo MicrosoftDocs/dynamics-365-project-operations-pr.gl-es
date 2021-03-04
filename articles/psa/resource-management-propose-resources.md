@@ -113,3 +113,6 @@ Debido a que Dynamics 365 Project Service Automation usa o motor de Universal Re
 Para ver máis detalles sobre un recurso individual, prema co botón dereito sobre el para abrir a tarxeta do recurso.
 
 ![Tarxeta de recurso](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

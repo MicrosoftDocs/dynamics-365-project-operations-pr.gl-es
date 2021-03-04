@@ -46,3 +46,6 @@ Para crear factores de cantidade a partir das propiedades do produto, complete o
 7. Repita os pasos 2-6 para todas as propiedades que xuntas constituirán a cantidade da liña de contrato baseado en produto.
 
 Con factores de cantidade configurados, cando o usuario crea unha liña de contrato para este produto, a cantidade da liña de contrato está bloqueada. A cantidade calcúlase como produto dos valores da propiedade para esa liña de contrato.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

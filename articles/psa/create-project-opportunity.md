@@ -55,3 +55,6 @@ As oportunidades son clientes potenciais en quente que están interesados en con
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía de xestor de contas](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

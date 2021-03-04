@@ -40,3 +40,6 @@ A visualización de rastrexamento do esforzo mostra o rastrexamento do progreso 
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía do xestor de proxectos](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

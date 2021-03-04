@@ -72,3 +72,6 @@ O proceso de negocio de cliente potencial a oportunidade admite as seguintes fas
 | Desenvolver | Oportunidade | Desenvolva a oportunidade de engadir máis información sobre o traballo involucrado, as partes interesadas e a competencia. |
 | Propor | Oportunidade | Desenvolva a proposta e obteña a aprobación do equipo de revisión interno. |
 | Pechar | Oportunidade | Gañe a oportunidade para pechar o acordo. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -101,3 +101,6 @@ No seguinte exemplo, Contoso Robotics USA (USPM) é a entidade legal prestameira
           - **Empresa de recursos** = **Contoso Robotics UK**
           - **Taxa de facturación** = **200 USD**
       9. Vaia a **Vendas** > **Contratos de proxecto** e achega a lista de prezos **Taxas de factura de Adventure Works** á lista de prezos do proxecto Adventure Works do contrato do proxecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Este tema mostra as funcionalidades e correccións que son novas ou modificadas 
 - Corrixido: Cando a clase de transacción é **Tempo**, **UnitGroup** é non editable para todas as entidades, incluidas **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** e **ContractLineDetails**. Non obstante, **Unidade** é non editable só para **JournalLine** e **InvoiceLineDetails**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

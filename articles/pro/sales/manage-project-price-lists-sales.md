@@ -67,3 +67,6 @@ Despois de ter listas de prezos de proxecto por defecto organizativas e específ
 
 1. En **Oferta de proxecto**, no separador **Lista de prezos de proxecto**, verifique na subgrade que non hai ningún rexistro de lista de prezos específica seleccionada.
 2. Seleccione **Crear prezos personalizados**. Isto fará copias de todas as listas de prezos estándar asociadas actualmente á oferta e asociará estas copias á oferta. Eliminaranse as asociacións existentes ás listas de prezos estándar. O comercial pode entón comezar a facer modificacións nos prezos destas copias. Estes prezos modificados só serán aplicables a esta oferta de proxecto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Abaixo amósanse os campos do rexistro de cliente de liña de **Contrato** dunha
 As porcentaxes de división de facturación poden editarse na grade. Cando as porcentaxes de división de facturación non totalicen o 100 por cento, producirase un erro. Despois de editar as porcentaxes de facturación, actualice a páxina para eliminar o erro.
 
 Tamén pode seleccionar **Distribución uniforme** na subgrade dos clientes da liña de contrato. Esta acción distribúe uniformemente as divisións de facturación a todos os clientes da liña de contrato. Se hai algún factor de redondeo, engadirase ao cliente de redondeo. Un cliente de liña de contrato sempre está etiquetado como cliente de **Redondeo** coa marca **Redondeo** definida como **Si**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

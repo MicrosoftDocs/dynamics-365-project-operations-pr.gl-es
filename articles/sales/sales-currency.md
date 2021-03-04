@@ -71,3 +71,6 @@ Antes de comezar este procedemento, verifique que o seu rol de seguranza inclúe
 
 > [!IMPORTANT]
 >  Non pode eliminar as moedas que están a ser utilizadas por outros rexistros, só pode desactivalas. A desactivación dos rexistros de moeda non elimina a información monetaria almacenada nos rexistros existentes, tales como oportunidades ou pedidos. No entanto, non poderá seleccionar a moeda desactivada para novas transaccións.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

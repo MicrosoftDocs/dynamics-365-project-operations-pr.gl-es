@@ -55,3 +55,6 @@ Unha vez gañado un contrato de proxecto, precisará persoal para o seu proxecto
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía do xestor de proxectos](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

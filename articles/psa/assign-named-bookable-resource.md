@@ -68,3 +68,6 @@ Pode usar a capacidade de extensión de recursos no separador **Reconciliación*
 ![Extensión das reservas para un membro do equipo no separador de reconciliación de recursos](media/RM-how-to-7.png)
 
 Despois de que un membro do equipo estea reservado no seu proxecto, pode manter as reservas ou usar o panel de programación para xestionar as súas reservas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Cando se copia un equipo do proxecto dese o proxecto de orixe, cópianse os recu
 Cando se copia o proxecto, as liñas de estimación de recursos e gastos copianse desde o proxecto de orixe. 
 
 Para obter información sobre como acceder por programación a Copiar proxecto, consulte[Desenvolver modelos de proxecto con Copiar proxecto](dev-copy-project.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

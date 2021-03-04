@@ -131,3 +131,6 @@ Para unha liña de oferta de prezo fixo, pode empregar a grade **Programa de fac
 - Para crear fitos de facturación divididos equitativamente, seleccione unha frecuencia de facturas, insira a data de inicio da facturación na liña de oferta e seleccione **Data de finalización solicitada** para a oferta na sección **Resumo** do encabezado da oferta. A continuación, seleccione **Xerar fitos periódicos** para crear fitos divididos equitativamente en función da frecuencia de facturas seleccionada. 
 - Para crear un fito de facturación de cantidade global, cree un fito e, a seguir, introduza o valor da liña de oferta como importe do fito.
 - Para crear fitos de facturación baseados en tarefas específicas no plan do proxecto, cree un fito e asígneo ao elemento de programación do proxecto na IU de fitos de facturación.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

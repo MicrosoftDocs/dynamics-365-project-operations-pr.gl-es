@@ -144,3 +144,6 @@ Use as validacións de complementos para calquera validación que requira máis 
 
 ### <a name="copying-time-entries"></a>Copiar as entradas de tempo
 Use a vista **Copiar columnas de entrada de tempo** para definir a lista de campos para copiar durante a entrada de tempo. **Data** e **Duración** son campos obrigatorios e non se deben eliminar da vista.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

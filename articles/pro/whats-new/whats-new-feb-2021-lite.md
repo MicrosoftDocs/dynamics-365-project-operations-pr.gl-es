@@ -38,3 +38,6 @@ Este tema aplícase aos seguintes compoñentes e versións de Dynamics 365 Proje
 | **Planificación e rastrexo de proxectos** | 2164035 | Solucionáronse problemas coa función **Copiar proxecto**. |
 | **Entrada de tempo** | 2129161 | Aplícanse restricións máis estritas para garantir que os usuarios non poidan cambiar e actualizar unha entrada de tempo que se enviou ou aprobou. |
 | **Entrada de tempo** | 2103572 | A aprobación do tempo para as entradas de tempo fóra do proxecto non debe buscar o rol de responsable de aprobación do proxecto. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

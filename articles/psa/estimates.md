@@ -106,3 +106,6 @@ Se engadiu un campo personalizado no detalle de liña de oferta e quere que o si
 
 8. Repita os pasos do 1 ao 7 para o segundo complemento.
 9. Peche PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

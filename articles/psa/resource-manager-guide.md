@@ -73,3 +73,6 @@ As capacidades de [!INCLUDE[pn_project_service_auto](../includes/pn-project-serv
  [Guía do xestor de contas](../psa/account-manager-guide.md)   
  [Guía do xestor de proxectos](../psa/project-manager-guide.md)   
  [Guía de tempo, gasto e colaboración](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

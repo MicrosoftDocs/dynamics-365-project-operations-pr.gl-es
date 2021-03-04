@@ -43,3 +43,6 @@ Seleccione este tipo de despregamento para usar Dynamics 365 Project Operations 
 - Un rico motor de impostos sobre vendas e tipo de cambio de clase empresarial para xerar facturas orientadas ao cliente.
 - Un sistema de contabilidade de proxectos e recoñecemento de ingresos compatible coas Normas Internacionais de Información Financeira (NIIF).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -24,3 +24,6 @@ As oportunidades de proxecto pódense pechar como gañadas ou perdidas. A caixa 
 Non se lle permitirá pechar a oportunidade se hai ofertas activas asociadas a ela. Pode pechar todas as ofertas activas e borradores de ofertas asociados a unha oportunidade ao mesmo tempo. Despois poderá pechar a oportunidade.
 
 Para obter información xeral acerca de como pechar oportunidades, consulte [Pechar oportunidades como gañadas ou perdidas](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

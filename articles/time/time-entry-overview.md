@@ -27,3 +27,6 @@ Os membros do equipo do proxecto crean e envían entradas de tempo para a súa a
 
 Para obter información sobre como crear, enviar ou recuperar unha entrada e outras ferramentas para axudar a cumprimentar os seus informes, consulte [Comportamento do usuario de entrada de tempo](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

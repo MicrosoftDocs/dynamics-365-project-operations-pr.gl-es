@@ -59,3 +59,6 @@ Tamén pode premer a ligazón **Requisito do recurso** na grade do equipo para a
 
 ![Requisito do recurso](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

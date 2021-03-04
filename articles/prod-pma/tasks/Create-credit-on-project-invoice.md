@@ -39,3 +39,6 @@ ms.locfileid: "4076109"
 10. Prema Aceptar. 
 
 Despois deste paso, a nota de crédito estará dispoñible para a proposta de factura.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

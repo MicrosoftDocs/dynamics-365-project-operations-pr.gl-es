@@ -117,3 +117,6 @@ Cando se confirma unha factura correctora, invértese o datos real de vendas fac
 
 - Un dato real de vendas facturadas de seis horas.
 - Un dato real de vendas sen facturar das dúas horas restantes. Esta transacción pódese facturar posteriormente ou marcarse como non imputable, dependendo das negociacións co cliente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

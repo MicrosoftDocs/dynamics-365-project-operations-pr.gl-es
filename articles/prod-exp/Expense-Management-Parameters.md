@@ -89,3 +89,6 @@ Os parámetros controlan o comportamento xeral na xestión de gastos.
 | <strong>Mensaxe anticorrupción para o remitente</strong> |                                                                                             Introduza o texto que se lle mostrará ao empregado ao crear un novo informe de gastos. Prema o botón <strong>Traducións</strong> para inserir texto específico do idioma que se mostrará, en función do idioma do usuario.                                                                                             |
 | <strong>Mensaxe anticorrupción para o responsable de aprobacións</strong>  |                                                                                             Introduza o texto que se lle mostrará ao responsable de aprobacións ao crear un novo informe de gastos. Prema o botón <strong>Traducións</strong> para inserir texto específico do idioma que se mostrará, en función do idioma do usuario.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

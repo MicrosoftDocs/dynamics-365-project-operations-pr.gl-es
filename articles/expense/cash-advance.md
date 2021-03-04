@@ -63,3 +63,6 @@ Cando cree e envíe un informe de gastos para o adianto en efectivo que xa recib
 ### <a name="example"></a>Exemplo
 Vostede ten previsto viaxar de Seattle a Nova York para unha conferencia. Crea unha solicitude de adianto en efectivo para 3000,00 USD en función do custo estimado da entrada da conferencia, voos, hotel, comidas e taxi. Non se lle pagará a menos que o seu xestor aprobe esta solicitude. Despois de que o xestor o aprobe, o adianto de efectivo solicitado págase como 3000,00 USD na súa conta bancaria. Despois asistirá á conferencia. Ao finalizar a viaxe, atopa que o gasto total foi de só 2790.00 USD. Seleccione **Efectivo** no campo **Método de pagamento** e envíe o seu gasto por 2790,00 USD. O importe do gasto enviado axústase automaticamente co adianto de efectivo de 3000,00 USD que lle foi prestado. Agora debe un saldo de 210,00 USD (3000,00 - 2790,00), que pode devolver á empresa mediante a categoría de gasto **Devolución de efectivo**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

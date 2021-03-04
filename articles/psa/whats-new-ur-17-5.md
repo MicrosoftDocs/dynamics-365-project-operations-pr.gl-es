@@ -44,3 +44,6 @@ Este tema mostra as funcionalidades e correccións que son novas ou foron modifi
 - Corrixido: Modelos de horario de traballo 24 horas que engaden de xeito erróneo un día adicional ás tarefas.
 - Corrixido: Modelos de horario de traballo GMT +13 que cambian de xeito impreciso as tarefas un día antes.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

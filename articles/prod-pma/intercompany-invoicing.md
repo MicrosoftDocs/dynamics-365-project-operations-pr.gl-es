@@ -113,3 +113,6 @@ Cando a persoa xurídica prestamista, USSI, publica a factura de cliente entre e
 Para obter máis información, consulte [Configurar a facturación de proxectos entre empresas](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

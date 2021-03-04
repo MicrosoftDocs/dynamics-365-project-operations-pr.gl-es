@@ -73,3 +73,6 @@ Pode crear datos para as dimensións baseadas na entidade manualmente ou mediant
 > ![Datos de exemplo para a entidade Título estándar ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

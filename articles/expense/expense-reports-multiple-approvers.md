@@ -41,3 +41,6 @@ Se decide requirir varios responsables de aprobación de informes de gastos, pod
 
     1. O superior do empregado aproba o informe de gastos.
     2. O responsable do orzamento aproba o informe de gastos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

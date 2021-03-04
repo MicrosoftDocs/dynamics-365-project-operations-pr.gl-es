@@ -55,3 +55,6 @@ Só se poden actualizar os seguintes atributos de contabilidade nas liñas do di
 Pódense eliminar as liñas do diario de Integration, con todo as liñas non publicadas inseriranse no diario de novo despois de volver executar o proceso periódico **Importar desde a transición**.
 
 Ao contabilizar diario de Integration, créanse transaccións de libro auxiliar e libro maior do proxecto. Estas úsanse na facturación posterior aos clientes, no recoñecemento de ingresos e na presentación de informes financeiros.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

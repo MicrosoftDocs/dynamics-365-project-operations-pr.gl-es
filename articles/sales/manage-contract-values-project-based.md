@@ -57,3 +57,6 @@ Regra: Un proxecto e unha clase de transacción determinada só se poden incluí
 | C1       | CL2           | P1      | No           | Si             | No          | Válido           | O tempo e as taxas do proxecto P1 están incluídos en CL1. O gasto no proxecto P1 está incluído en CL2. </br>   Non hai solapamento no que se inclúe en cada liña de contrato e, polo tanto, é válido.  |
 | C1       | CL1           | P1      | Si          | Si             | Si         | Non válido       | Infrinxe a regra. O tempo, os gastos e as taxas do proxecto P1 inclúense nas liñas de dous contratos.                                                                                               |
 | CL2      | CL2           | P1      | Si          | Si             | Si         | Non válido       | Infrinxe a regra. O tempo, os gastos e as taxas do proxecto P1 inclúense nas liñas de dous contratos.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

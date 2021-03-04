@@ -47,3 +47,6 @@ Cree unha conta para cada cliente co que está a traballar, tanto se está cunha
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía de xestor de contas](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

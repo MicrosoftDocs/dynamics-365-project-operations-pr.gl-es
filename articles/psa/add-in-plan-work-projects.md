@@ -242,3 +242,6 @@ A seguinte táboa describe como se sincronizan os datos da entidade de dependenc
 
 ### <a name="additional-resources"></a>Recursos adicionais
  [Guía do xestor de proxectos](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

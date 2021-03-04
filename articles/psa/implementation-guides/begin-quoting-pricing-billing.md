@@ -52,3 +52,6 @@ Eliminouse a ligazón en formato PDF que antes había neste tema e o contido tra
 
 > [!NOTE]
 > Este tema eliminarase nunha futura actualización da documentación. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Para modificar unha oferta de proxecto existente, o estado da oferta debe ser **
 
 > [!NOTE]
 > Non pode modificar unha oferta de proxecto despois de que o estado cambie a **Enviado**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

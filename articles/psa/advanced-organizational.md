@@ -167,3 +167,6 @@ Se a súa empresa opera como unha unidade que ten unha lista de prezos de custo,
 Cando un proxecto se crea por si só, a unidade contratante predefinida do proxecto baséase no usuario que o crea. Ese usuario tamén é o xestor de proxectos por defecto. Se o proxecto se asigna a unha entidade de vendas como oferta ou contrato de proxecto, a unidade contratante do proxecto baséase na entidade de vendas no seu lugar. Neste caso, as estimacións do proxecto poderían recalcularse porque se utiliza a lista de prezos de custo para calcular os cambios de estimación de custos se cambia a unidade contratante. A lista de prezos de vendas úsase para calcular as estimacións de vendas que se cambiarán de xeito que estean en sincronía coa lista de prezos do proxecto na oferta.
 
 Os campos **Unidade contratante** e **Moeda** do proxecto están bloqueados para a súa edición, porque deben estar en sincronía cos valores da entidade de vendas (oferta ou contrato de proxecto) á que se asigna o proxecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Os seus recursos poden utilizar a aplicación Project Finder Mobile nos seus tel
   
 ### <a name="see-also"></a>Consulte tamén  
  [Configurar recursos reservables](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

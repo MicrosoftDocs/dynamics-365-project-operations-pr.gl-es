@@ -116,3 +116,6 @@ O modo de tarefa non ten efecto nas actualizacións que se realizan ás datas de
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Atallos de teclado e accesibilidade
 
 A grade **Programación** é totalmente accesible e pode usarse con lectores de pantalla como Narrator, JAWS ou NVDA. Pode moverse pola área da grade mediante as teclas de frecha (como en Microsoft Excel), pode usar a tecla TAB para avanzar nos elementos interactivos da interface de usuario e pode usar a tecla de frecha cara abaixo, a tecla Intro ou a barra espazadora para seleccionar e abrir os menús despregables.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

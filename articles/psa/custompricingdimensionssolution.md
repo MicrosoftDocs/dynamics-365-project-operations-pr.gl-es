@@ -68,3 +68,6 @@ Terá que engadir as seguintes entidades de Project Service á súa solución de
 > ![Non incluír todos os compoñentes relacionados](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

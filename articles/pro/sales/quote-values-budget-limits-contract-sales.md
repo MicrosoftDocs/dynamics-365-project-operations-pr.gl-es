@@ -41,3 +41,6 @@ Abaixo amósanse os separadores e os KPI dispoñibles nunha oferta de proxecto q
 | Análise da rendibilidade | Separador na oferta | O separador mostra os seguintes indicadores:</br>- Custo imputable total</br></br>- Custo non imputable total</br>- Ingresos totais</br>- Ingresos totais (base)</br>- Marxe bruto</br>- Marxe bruto axustado|
 | Comparación coas expectativas do cliente | Separador na oferta | Este separador mostra os seguintes indicadores:</br>- Finalización estimada</br>- Finalización solicitada</br>- Orzamento do cliente</br>- Valor da oferta |
 | Análise da oferta | Separador na oferta | Este separador resume os seguintes KPI principais para unha oferta de proxecto</br>- Comparación coas expectativas dos clientes respecto ao orzamento e á programación</br>- Marxe bruto</br>- Marxe bruto axustado |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

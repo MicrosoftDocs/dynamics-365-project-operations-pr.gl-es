@@ -33,3 +33,6 @@ Dende a grade **Membro do equipo**, un xestor de proxectos pode resaltar un recu
 ## <a name="schedule-board"></a>Panel de programación
 
 Dende o **Panel de programación**, o xestor de recursos ten unha vista de carteira de todas as reservas dunha organización. Dende esta visión, o xestor de recursos pode ampliar, acurtar ou mover as reservas existentes similares ás capacidades ofrecidas en **Manter reservas**. O xestor de recursos tamén pode substituír os recursos existentes asignados a unha reserva específica premendo o botón dereito na reserva e seleccionando **Substituír recurso**. Os xestores de recursos tamén poden editar os contornos das reservas existentes premendo o botón dereito na reserva e seleccionando **Editar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

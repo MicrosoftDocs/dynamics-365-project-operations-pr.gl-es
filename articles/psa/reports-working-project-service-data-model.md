@@ -123,3 +123,6 @@ Cando estea a traballar coa entidade **Dato real**, é importante que entenda qu
 A entidade **Orixe da transacción** rexistra a orixe do rexistro **Dato real** e a entidade **Conexión de transaccións** rexistra os rexistros relacionados para o rexistro **Dato real**. Adicionalmente, o rexistro **Dato real** contén referencias ao proxecto, contrato de proxecto (pedido), recurso reservable e cliente.
 
 ![Diagrama que mostra a conexión da transacción, a orixe e as relacións reais](media/PS-Reporting-image6.png "Diagrama que mostra a conexión da transacción, a orixe e as relacións reais")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

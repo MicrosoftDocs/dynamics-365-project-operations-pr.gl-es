@@ -344,3 +344,6 @@ Durante o primeiro mes, os consultores do proxecto rexistran un total de 800 hor
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

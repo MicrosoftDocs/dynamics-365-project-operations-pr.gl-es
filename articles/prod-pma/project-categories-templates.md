@@ -124,3 +124,6 @@ A seguinte ilustración mostra un exemplo da asignación de tarefas do modelo en
 > A asignación mostra a información de campo que se sincronizará de Project Service Automation a Finanzas.
 
 [![Asignación de modelos de Project Service Automation a Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

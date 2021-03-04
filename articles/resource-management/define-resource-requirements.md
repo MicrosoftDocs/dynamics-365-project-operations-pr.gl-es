@@ -26,3 +26,5 @@ Os requisitos de recursos son definidos polo xestor de proxectos para establecer
 3.  No separador **Membro do equipo**, seleccione o membro do equipo e, a seguir, seleccione **Xerar requisito**.
 
 Para obter información sobre como modificar o requisito de recursos, consulte [Actualizar os detalles do requisito de recursos](define-resource-requirements.md) para modificar o requisito de recursos.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

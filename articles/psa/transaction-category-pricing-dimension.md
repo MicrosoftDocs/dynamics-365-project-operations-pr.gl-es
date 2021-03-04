@@ -53,3 +53,6 @@ A seguinte táboa é unha lista completa de formularios listos para usar, listad
 2. Na páxina **Parámetros**, no separador **Dimensións de prezos baseados na cantidade**, observe que a grade do separador mostra os rexistros da entidade **Dimensións de prezos**.
 3. Engada **Categoría de transaccións** a esta lista e configure os campos **Aplicable ao custo** e **Aplicable á venda** en **Si**.
 4. No capo **Tipo de dimensión**, seleccione **Baseado na cantidade** e, seguir, seleccione a prioridade para a **Categoría de transacción** relacionada co custo e as vendas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

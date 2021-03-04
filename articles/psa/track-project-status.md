@@ -58,3 +58,6 @@ A medida que o compromiso progresa, as fases do proxecto actualízanse para refl
 
 ### <a name="see-also"></a>Consulte tamén  
  [Guía do xestor de proxectos](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

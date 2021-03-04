@@ -63,3 +63,6 @@ Este tema mostra as funcionalidades e correccións que son novas ou modificadas 
   - Corrixido: Xa non se recibe unha mensaxe de erro en **Busca de proxectos** no formulario **Liña de oferta** cando hai máis de 1000 proxectos.
   - Corrixido: A grade **Estimacións** para estimacións laborais e estimacións de gastos agora mostra o símbolo monetario correcto.
   - Corrixido: Despois de que unha organización actualice PSA desde a versión 14 de actualización á versión 15 de actualización, o separador **Programación** xa non aparece en branco no formulario **Proxecto**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

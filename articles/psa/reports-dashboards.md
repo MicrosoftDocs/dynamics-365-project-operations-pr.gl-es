@@ -40,3 +40,6 @@ O panel **Xestor de prácticas** proporciona aos xestores de prácticas unha exp
 ## <a name="resource-manager"></a>Xestor de recursos 
 
 O panel **Xestor de recursos** ofrece aos xestores de recursos unha experiencia de panel gráfico para supervisar as solicitudes de recursos e a demanda e utilización de recursos. Tamén permite que os xestores de recursos segmentes a información supervisada en varias dimensións.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

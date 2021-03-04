@@ -102,3 +102,6 @@ O seguinte é unha breve visión xeral dos controis típicos que se atopan nos d
 **Engadir columna**: Permite ao usuario definir as columnas visibles na grade. Só se poden engadir columnas listas para usar ás grades do formulario **Planificación do proxecto**.
 
 ![Engadir botón de columna](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

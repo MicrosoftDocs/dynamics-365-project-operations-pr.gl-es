@@ -60,3 +60,6 @@ En Dynamics 365 Project Operations, os principios de recoñecemento de ingresos 
 [Xestionar estimacións de ingresos](rev-rec-completed-contract-method.md)
 
 [Métodos de custo para completar](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

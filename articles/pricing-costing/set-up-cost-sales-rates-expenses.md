@@ -55,3 +55,6 @@ Cando se selecciona este método de fixación de prezos nunha liña de prezos de
 
 ### <a name="markup-over-cost"></a>Sobreprezo sobre o custo
 Cando se selecciona este método de fixación de prezos nunha liña de prezos de categoría ligada a unha lista de prezos de vendas, os valores predefinidos da combinación de categoría e unidade só para un dato real de gasto. Por exemplo, os datos reais de vendas non facturadas para a clase de transacción de gastos. Este prezo de unidade establécese no dato real de vendas sen facturar ata un valor calculado a partir do prezo de unidade so dato real de custo dese gasto despois de que se aplique a porcentaxe de sobreprezo definida. O prezo por defecto baseado no custo non se define nas estimacións do proxecto para gastos ou nos detalles da liña de oferta e a liña de contrato para gastos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

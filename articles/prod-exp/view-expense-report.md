@@ -32,3 +32,6 @@ Para os informes de gastos, pode facer unha busca detallada desde unha transacci
 Para detallar o informe de gastos orixinal no que apareceu unha transacción, seleccione a transacción e logo seleccione **Documento orixinal**.
 
 Cando vexa transaccións individuais, tamén pode ver calquera dato adicional que se anexe a unha transacción. Por exemplo, para un gasto de hotel detallado, pode ver unha lista detallada de gastos como acceso a Internet, chamadas telefónicas e servizo de habitacións.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

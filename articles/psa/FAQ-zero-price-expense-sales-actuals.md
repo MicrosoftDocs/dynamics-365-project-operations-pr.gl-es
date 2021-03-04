@@ -72,3 +72,6 @@ Se o axuste de prezo para a categoría de gasto non é válida, xa identificou o
 Se aínda non ve un prezo válido no valor real de vendas por gastos despois de realizar as tres comprobacións anteriores, rexistre un tícket de asistencia.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

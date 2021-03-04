@@ -96,3 +96,6 @@ Prema **Enviar** para enviar a folla de control horario ao fluxo de traballo de 
 ## <a name="review-timesheets"></a>Revisar follas de control horario
 
 No menú está dispoñible unha lista das follas de control horario que hai que revisar. Esta opción só está dispoñible se foi designado como responsable de aprobación de fluxo de traballo. Admítese a aprobación de cabeceira e de liña. A aprobación a nivel de liña ofrece a posibilidade de marcar unha ou máis liñas para a súa aprobación. Despois de revisar a información da folla de control horario, prema **Aprobar** , **Delegar** ou **Retornar** para continuar o fluxo de traballo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

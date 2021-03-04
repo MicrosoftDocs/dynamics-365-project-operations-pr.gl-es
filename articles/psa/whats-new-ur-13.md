@@ -59,3 +59,6 @@ Este tema mostra as funcionalidades e correccións que son novas ou modificadas 
      - Resolto: Os botóns adicionais para **Nova oportunidade**, **Oferta**, **Liña de pedido** e **Engadir produto** son visibles nos comandos de Oportunidades, Ofertas, Pedir produtos e a subgrade Liñas baseadas en proxectos.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

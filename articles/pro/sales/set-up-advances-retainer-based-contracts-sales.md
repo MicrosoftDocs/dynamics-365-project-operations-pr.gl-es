@@ -37,3 +37,6 @@ A retención en Project Operations non está dispoñible para o seu uso ata que 
 | --- | --- | --- |
 | Importe dispoñible | O importe que está dispoñible para o seu uso no rexistro de retención ou adianto. | Ata que non se facture o adianto ou retención, non estará dispoñible para o seu uso, o que significa que o importe dispoñible será cero. |
 | Importe usado | O importe que xa se utiliza na retención ou o adianto. | Un adianto ou retención pódese conciliar parcialmente nunha factura cos custos reais, que terán marcada algunha parte como xa usada ou consumida. O resto do importe do adianto ou retención está dispoñible para conciliar nunha factura futura cos custos reais. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

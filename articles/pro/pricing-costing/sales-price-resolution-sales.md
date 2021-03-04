@@ -54,3 +54,6 @@ Despois de resolverse unha lista de prezos para vendas, o sistema completa os se
     | &nbsp; | Sobreprezo sobre o custo | Aplicar un sobreprezo como se define na liña de prezo da categoría na taxa de custo unitario do dato real de custo relacionado |
 
 4. Se o sistema non pode facer coincidir os valores dos campos **Categoría** e **Unidade** valores, a taxa de vendas é cero (0) por defecto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

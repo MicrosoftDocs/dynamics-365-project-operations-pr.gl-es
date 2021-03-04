@@ -105,3 +105,6 @@ Dynamics 365 xestiona automaticamente os agrupamentos de importes en diferentes 
 | Gasto           | Vendas sen facturar   | 17-xun | Henrique  | Aluguer de coche           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Para calcular o valor total de vendas sen facturar no proxecto, pode crear un campo de agrupamento para o campo **Cantidade** en todos os datos reais de vendas sen facturar. O campo de agrupamento é unha construción de Dynamics 365 que permite fórmulas rápidas sobre rexistros relacionados.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Os roles teñen un papel importante na planificación dun proxecto, ao determina
   
 ### <a name="see-also"></a>Consulte tamén  
  [Configurar recursos reservables](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

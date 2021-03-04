@@ -43,3 +43,6 @@ Configurar categorías de transacción para definir un superconxunto de categor�
   
 ### <a name="see-also"></a>Consulte tamén  
  [Configurar Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

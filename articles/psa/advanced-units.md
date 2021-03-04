@@ -112,3 +112,6 @@ Non. Actualmente a estimación do programa está restrinxida ás horas e non se 
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Pódense editar, eliminar e engadir unidades e grupos de unidades?
 Si. Con excepción do grupo de unidades **Tempo** e a unidade **Hora**, pódense eliminar ou editar todas as unidades e pódense engadir novas unidades. En PSA, o grupo de unidades **Tempo** e a unidade **Hora** non se poden eliminar. Non obstante, pódense actualizar cun texto traducido para o campo **Nome**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

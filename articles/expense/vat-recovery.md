@@ -66,3 +66,6 @@ Cando Arnie estea listo para enviar os datos do informe de gastos ao fornecedor 
 Arnie debe verificar que as transaccións do informe de gastos son aptas para a recuperación do IVE e que os recibos dixitais están anexados aos informes. Para comezar a tramitar os gastos elixibles para a recuperación nacional, Arnie abre a páxina **Recuperación de impostos de gastos** e selecciona o informe de gastos que require a verificación. Verifica que os recibos están a nome da empresa en lugar do empregado. (Para a recuperación de IVE, os recibos debe estar a nome da empresa). Arnie verifica entón que se anexan todos os recibos requiridos e que se introduciron os códigos fiscais de vendas específicos correctos.
 
 Cando Arnie recibe os recibos en papel, cambia o estado do informe de gastos a **Listo para a recuperación**. Despois pode presentar a declaración ante a autoridade fiscal competente. Neste caso, a autoridade fiscal apropiada nos Estados Unidos é o Internal Revenue Service (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

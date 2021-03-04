@@ -35,3 +35,6 @@ Despois de resolver unha lista de prezos de custo, o sistema utiliza os campos *
 As liñas de estimacións para o gasto refírense aos detalles da liña de oferta e contrato para gastos e as liñas de estimación de gasto nun proxecto.
 
 Despois de resolver unha lista de prezos de custo, o sistema utiliza unha combinación dos campos **Categoría** e **Unidade** da liña de estimación para que un gasto coincida coas liñas de **Prezo de categoría** na lista de prezos resolta. Se o sistema atopa unha liña de prezo de categoría que ten unha taxa de custo para a combinación de **Categoría** e **Unidades**, esa é a taxa de custo predefinida. Se o sistema non pode coincidir cos valores de **Categoría** e **Unidade** ou se é capaz de atopar unha liña de prezo de categoría coincidente, pero o método de fixación de prezos non o é **Prezo por unidade**, a taxa de custo está predefinida en cero (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

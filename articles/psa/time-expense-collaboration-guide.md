@@ -73,3 +73,6 @@ Prema na ligazón seguinte para obter máis información sobre que pode facer co
  [Guía do xestor de contas](../psa/account-manager-guide.md)   
  [Guía do xestor de proxectos](../psa/project-manager-guide.md)   
  [Guía para o xestor de recursos](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

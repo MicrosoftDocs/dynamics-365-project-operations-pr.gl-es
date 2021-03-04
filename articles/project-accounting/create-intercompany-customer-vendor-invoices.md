@@ -61,3 +61,6 @@ Pode crear varias facturas entre empresas ao mesmo tempo para todas as entidades
 ## <a name="post-the-intercompany-vendor-invoice"></a>Contabilizar factura de fornecedor entre empresas
 
 Un contable do proxecto da entidade legal prestameira pode revisar as facturas de fornecedor pendentes entre empresas cando se contabilice a correspondente factura de cliente entre empresas. En Finance, na entidade legal prestameira, vaia a **Contas pendentes de pago** > **Facturas** > **Factura de fornecedor pendente**. O número de factura pendente coincidirá co número de factura de cliente entre empresas. Comprobe que a factura é correcta e logo contabilícea. A contabilización da factura de fornecedor entre empresas crea un subprograma de proxecto e unha transacción de libro maior que reflicte os custos de transacción na entidade legal prestameira.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

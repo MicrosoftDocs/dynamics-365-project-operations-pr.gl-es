@@ -43,3 +43,6 @@ Este despregamento debe escollerse se a expectativa de Project Operations é uti
 - Require un rico motor de impostos sobre vendas e tipo de cambio de clase empresarial para xerar facturas orientadas ao cliente.
 - Un sistema de contabilidade de proxectos e recoñecemento de ingresos compatible coas Normas Internacionais de Información Financeira (NIIF).
 - Aplicacións Finance ou Supply Chain Management e integración de transaccións baseadas en proxectos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

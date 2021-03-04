@@ -53,3 +53,6 @@ Aquí ten algunhas suxestións que poden axudarlle á hora de crear novas polít
 ## <a name="when-to-evaluate-policies"></a>Cando avaliar as políticas
 
 Nos parámetros de xestión de gastos, pode seleccionar avaliar as políticas de xestión de gastos cando se garda unha liña ou cando se envía un informe de gastos. Se elixe avaliar cando se garda unha liña, os usuarios terán unha visibilidade previa do que deben facer para completar o seu informe de gastos á vez. Se non o fai, pode atrasar a avaliación da política e aforrar tempo validándoa ao final, durante o envío ao fluxo de traballo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

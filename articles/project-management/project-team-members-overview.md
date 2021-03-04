@@ -60,3 +60,6 @@ Desde a grade dos membros do equipo pódense realizar as seguintes accións:
 
 - **Novo**: Ademais de engadir recursos directamente desde a programación, os xestores de proxectos poden engadir novos membros do equipo nomeados ou xenéricos desde a grade dos membros do equipo.
 - **Eliminar**: Ao seleccionar un ou varios membros do equipo, o xestor do proxecto pode eliminar recursos que xa non van participar no proxecto. Se se elimina un membro do equipo, tamén se eliminarán todas as atribucións de recursos asociadas e se cancelarán todas as reservas existentes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

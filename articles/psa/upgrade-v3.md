@@ -110,3 +110,6 @@ Para tarefas atribuídas a un rol cunha unidade organizativa que difira da unida
  
 O cambio das diferentes unidades organizativas de recursos predefinidas en membros do equipo non xerados é o motivo polo que recomendamos que xere ou volva xerar o equipo en cada proxecto que conteña recursos xenéricos antes da actualización para que non se perdan as atribucións de unidades organizativas.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

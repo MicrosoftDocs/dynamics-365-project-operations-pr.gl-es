@@ -88,3 +88,6 @@ As programacións de facturas son específicas de cada liña de contrato e son n
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Cambios de pedidos de Dynamics 365 Sales
 
 Os contratos en Project Operations baséanse nos pedidos en Dynamics 365 Sales. Non obstante, hai importantes desviacións e diferenzas na funcionalidade. Os contratos teñen os seus propios elementos de formulario e IU regras de negocio, lóxica empresarial nos complementos e scripts do cliente que as diferencian das ofertas de pedidos. Por estes motivos, non empregue indistintamente un contrato de pedido de vendas e de Project Operations.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

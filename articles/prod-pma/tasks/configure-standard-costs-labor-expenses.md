@@ -54,3 +54,6 @@ Este tema explica como configurar os custos estándar de man de obra e gastos pa
 22. No campo **Prezos** , introduza un número. O prezo de venda real, que se aplica cando un traballador introduce trasaccións no diario de gastos, é o prezo de venda co maior nivel de detalle. Por exemplo, se se establecen tanto un prezo de venda xeral como un prezo de venda específico para o traballador, úsase o prezo de venda específico para o traballador.  
 23. Seleccione **Gardar**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

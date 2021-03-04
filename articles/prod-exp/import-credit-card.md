@@ -50,3 +50,6 @@ Para obter máis información sobre entidades de datos, consulte [Entidades de d
 Despois de concluír un rexistro de empregado, desactívase a conta de Active Directory Domain Services (AD DS) do empregado. Non obstante, pode haber transaccións con tarxeta de crédito activas que aínda se deben gastar e reembolsar. Desde a páxina **Transaccións con tarxeta de crédito**, pode reatribuír ao empregado para calquera transacción con tarxeta de crédito na que o empregado asociado fose cesado.
 
 Seleccione unha ou máis transaccións con tarxeta de crédito e logo seleccione **Reatribuír transaccións**. Despois pode seleccionar outro empregado ao que atribuír as transaccións con tarxeta de crédito. Despois de reatribuír as transaccións con tarxeta de crédito, pódense seleccionar para un informe de gastos e pagarse mediante o proceso habitual de reembolso do informe de gastos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

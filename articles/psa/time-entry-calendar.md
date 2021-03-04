@@ -42,3 +42,6 @@ O calendario non admite accións con elementos de calendario individuais e non p
 ## <a name="extensibility"></a>Extensibilidade
 
 Na páxina **Entradas de tempo** que ten a grade de entrada de tempo, pode engadir campos personalizados, configurar campos de busca e crear vistas personalizadas. Tamén pode configurar unha lóxica de negocio personalizada que estea baseada nos valores seleccionados ou introducidos en campos personalizados.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

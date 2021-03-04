@@ -46,3 +46,6 @@ Para completar os pasos deste tema, asegúrese de que se lle atribuíu o rol de 
 3. No campo **Cantidade**, introduza a cantidade que conterá a unidade. Por exemplo, se unha caixa contén dúas pezas, introduza "2". 
 4. No campo **Unidade base**, seleccione unha unidade base para establecer a unidade de medida máis baixa para a unidade. Por exemplo, podería seleccionar "peza".
 5. Seleccione **Gardar**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

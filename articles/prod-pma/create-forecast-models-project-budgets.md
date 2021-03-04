@@ -57,3 +57,6 @@ Este tema describe como crear un modelo de previsión para os orzamentos restant
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

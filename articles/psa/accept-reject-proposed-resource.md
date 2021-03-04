@@ -45,3 +45,6 @@ Para rexeitar a proposta, prema **Rexeitar recurso**.
 ![Aceptar unha proposta de recurso](media/RM-how-to-20.png) 
 
 De xeito similar a cumprir directamente unha solicitude de recurso xenérico cun recurso nomeado, substituirase o recurso xenérico e as tarefas atribuídas actualizaranse co membro do equipo nomeado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

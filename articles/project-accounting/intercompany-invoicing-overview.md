@@ -43,3 +43,6 @@ O seguinte diagrama ilustra a facturación entre empresas relacionada con evento
 - [Configurar a facturación entre empresas](configure-intercompany-invoicing.md)
 - [Rexistrar transaccións entre empresas](create-intercompany-transactions.md)
 - [Crear facturas entre empresas de clientes e fornecedores](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

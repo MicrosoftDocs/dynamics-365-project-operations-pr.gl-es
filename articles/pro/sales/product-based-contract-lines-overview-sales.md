@@ -46,3 +46,6 @@ Se unha liña de contrato está baseada nun catálogo de produtos, pode anular o
 Se definiu o campo **Prezos** en **Anular prezos**, non se establece un prezo por defecto. Introduza un prezo do produto da liña de contrato. Se configura o campo en **Usar predefinido**, úsase o prezo de venda predefinido e o campo non se pode editar.
 
 Despois de instalar Project Operations, os prezos de venda por defecto introdúcense nas liñas baseadas en produtos nun contrato. O campo **Prezos** defínese como **Anular prezos** para que poida editar o prezo por defecto nas liñas de contrato. Trátase dunha anulación específica de Project Operations para o comportamento das liñas baseadas en produto en Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

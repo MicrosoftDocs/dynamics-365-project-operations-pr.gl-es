@@ -45,3 +45,6 @@ No paso anterior, xa asociou algúns coñecementos cun novo recurso. Pode que de
   
 ### <a name="see-also"></a>Consulte tamén  
  [Configurar recursos reservables](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Recomendámoslle que use un lote. As opcións están dispoñibles durante a sinc
     | Data de finalización    | Introduza a data de finalización do proceso de sincronización para os agrupamentos de capacidade de recursos. |
 
 [![Proceso de sincronización](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

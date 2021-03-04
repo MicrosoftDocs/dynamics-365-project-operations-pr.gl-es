@@ -45,3 +45,6 @@ Manter documentos relacionados con proxectos organizados engadíndoos ao seu pro
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía do xestor de proxectos](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

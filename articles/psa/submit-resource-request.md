@@ -41,3 +41,6 @@ Pode enviar un requisito de recurso xerado como solicitude de recurso. A solicit
 O estado da solicitude de membro xenérico do equipo cambiará a **Enviado**.
 
 Despois de que o xestor de recursos cumpra a solicitude, o recurso xenérico substituirase por un recurso nomeado se o xestor de recursos cumpre a solicitude coa reserva dun recurso nomeado. Se non, o recurso xenérico permanecerá no equipo e o estado da solicitude cambiará a **Necesita revisión**, se o xestor de recursos propuxo un recurso nomeado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

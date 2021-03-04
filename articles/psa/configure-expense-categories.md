@@ -55,3 +55,6 @@ Cada categoría de gastos pode ter o seu propio grupo de unidades e a súa propi
   
 ### <a name="see-also"></a>Consulte tamén  
  [Configurar Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

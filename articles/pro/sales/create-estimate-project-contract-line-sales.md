@@ -68,3 +68,6 @@ Os cálculos de rendibilidade converten os importes dos detalles da liña de con
 
 > [!NOTE]
 > Os erros de redondeo de moeda e as marxes modificadas poden producirse debido á falta de tipos de cambio con data efectiva. Utilice estes cálculos nos contratos de proxecto só como aproximacións e non para informes legais ou doutro tipo que requiran maior precisión de redondeo e coñecemento da efectividade da data para os tipos de cambio.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

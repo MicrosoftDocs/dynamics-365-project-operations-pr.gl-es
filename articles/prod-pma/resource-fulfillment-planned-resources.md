@@ -40,3 +40,6 @@ Un xestor de proxectos pode planificar os roles de recursos necesarios para un p
 7. Seleccione un traballador e, a seguir, seleccione **Atribuír**.
 8. Verifique que a liña para **Programador de software 1** se eliminou para o proxecto **Fase 2 de actualización de XYZ**.
 9. No separador **Equipo do proxecto e programación** , para o proxecto **Fase 2 de actualización de XYZ** , verifique que o traballador que seleccionou no paso anterior se engadiu como **Programador de software**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

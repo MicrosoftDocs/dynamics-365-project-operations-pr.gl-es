@@ -52,3 +52,6 @@ Pódese crear, actualizar ou eliminar un cliente de oferta desde o separador **C
 Pode editar as porcentaxes divididas de facturación usando a experiencia de edición de grade en liña. Cando as porcentaxes de división de facturación non totalicen o 100 %, producirase un erro. Despois de actualizar as porcentaxes de división de facturación, actualice a páxina para eliminar o erro.
 
 Tamén pode probar a seleccionar **Distribución uniforme** na subgrade dos clientes da oferta. Esta acción asigna divisións de facturación a todos os clientes da oferta. Se hai algún factor de redondeo, engadirase ao cliente de redondeo. Un dos clientes da oferta sempre está etiquetado como o cliente de redondeo. Isto significa que o rexistro do cliente da oferta ten o indicador **Redondeo** establecido como **Si**. Normalmente este é o principal cliente da oferta, pero se pode cambiar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

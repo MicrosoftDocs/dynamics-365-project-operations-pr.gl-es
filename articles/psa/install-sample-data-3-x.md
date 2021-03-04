@@ -297,3 +297,6 @@ Seleccione un usuario (por exemplo, Spencer Low) e cambie as horas laborables de
 
 > [!div class="mx-imgBorder"]
 > ![Captura de pantalla de recursos reservables activos](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

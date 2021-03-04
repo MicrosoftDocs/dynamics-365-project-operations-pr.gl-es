@@ -30,3 +30,6 @@ O xestor de proxectos pode revisar as transaccións de vendas sen facturar empre
 Pode [crear manualmente unha factura proforma](../proforma-invoicing/create-manual-proforma-invoice.md) ou usar un [proceso periódico](../proforma-invoicing/configure-automated-invoice-creation.md). O xestor de proxecto pode [axustar un borrador de factura proforma](../proforma-invoicing/manage-proforma-invoice.md) segundo sexa necesario e logo confirmalo.
 
 A factura proforma confirmada envíase ao módulo **Xestión de proxectos e contabilidade** en Finance. O contable do proxecto dá formato e actualiza a proposta de factura do proxecto e, a seguir, publica e imprime o documento. As facturas do proxecto publicadas rexístranse no libro maior, así como nas contas do cliente e do proxecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

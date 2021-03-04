@@ -74,3 +74,6 @@ Os fitos de prezo fixo pódense xerar manualmente cando non se dividen periodica
 | Impostos | Creación rápida | O importe do imposto aplicado no fito. | Isto inclúese no fito da liña de contrato do proxecto e na factura. |
 
 4. Seleccione **Gardar e pechar**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

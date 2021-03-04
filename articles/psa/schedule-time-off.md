@@ -57,3 +57,6 @@ Programar as vacacións ou tempo libre da mesma forma en que especifica o tempo 
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía de tempo, gasto e colaboración](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

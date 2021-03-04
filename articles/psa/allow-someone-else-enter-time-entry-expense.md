@@ -93,3 +93,6 @@ Defina un delegado para permitir que outra persoa realice entradas de tempo ou g
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía de tempo, gasto e colaboración](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

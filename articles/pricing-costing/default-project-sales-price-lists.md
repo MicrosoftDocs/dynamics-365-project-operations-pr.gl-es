@@ -57,3 +57,6 @@ As listas de prezos de custo non están predefinidas en ningunha entidade en Pro
 5. A seguir, o sistema analiza a data de efectividade das listas de prezos que coinciden coa data da estimación entrante ou da liña real. 
 6. Se hai varias listas de prezos efectivas para a data na estimación entrante ou o dato real, selecciónase a lista de prezos creada máis recentemente.
 7. Se non hai listas de prezos de custo anexas aos parámetros do proxecto que coincidan coa moeda e a data de efectividade, o sistema predefinirá a taxa de custo a cero (0) na estimación entrante ou na liña real.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
