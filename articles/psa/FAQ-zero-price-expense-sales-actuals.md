@@ -3,6 +3,7 @@ title: Por que o prezo por defecto é cero nas vendas de gastos reais?
 description: As tres seguintes comprobacións axudaranlle a solucionar por que os prezos son por defecto 0 nos valores reais de vendas por gastos.
 author: rumant
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8c2270b07b6f8765a6ec1f506fe1767a1841950b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d4910d3727085a45036f3b438ecd69abc3e99836
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122071"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146301"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>Por que o prezo por defecto é cero nas vendas de gastos reais?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -35,7 +38,7 @@ Estas Preguntas máis frecuentes aplícanse a gastos reais onde a clase de trans
 
 Busque o proxecto no campo de proxectos do valor real e vaia á páxina de proxecto. A seguir, vaia ao separador Vendas. Na grade de liñas de contrato do proxecto, prema na ligazón no campo Contrato do proxecto. Abrirase a páxina Contrato do proxecto. Na páxina Contrato do proxecto, vaia ao separador Listas de prezos do proxecto. Comprobe se hai polo menos unha lista de prezos anexada aquí.
 
-Se non hai ningunha lista de prezos anexada na grade Listas de prezos de proxecto en Contrato do proxecto, faga o seguinte:
+Se non hai ningunha lista de prezos anexada na grade Listas de prezos de proxecto en Contrato do proxecto:
 
 - Anexe unha lista de prezos á grade de Listas de prezos de proxecto. As listas de prezos que se poden anexar aquí deben ter o campo de contexto definido en Vendas e o campo de moeda na lista de prezos debe coincidir co campo de moneda no Contrato do proxecto. Cando faga as correccións necesarias, cree novamente unha entrada de gasto, apróbea e verifique que o valor real de vendas sen facturar mostra un prezo válido.
 - Se ten unha ou varias listas de prezos anexadas na grade Listas de prezos de proxecto do Contrato do proxecto, vaia a Verificación 2.
@@ -47,7 +50,7 @@ Para que Project Service considere unha lista de prezos como prezo por defecto, 
 - Comece por comprobar se as datas de inicio e fin no separador xeral para as listas de prezos anexada non están baleiras. Se as datas de inicio e fin nas listas de prezos identificadas enriba está baleiras, xa identificou o problema. 
 - Anote o campo de data de inicio no seu valor real de vendas por gastos e comprobe se algunha das listas de prezos identificadas é aplicable para esa data. Por exemplo, a data do valor real de gasto debería estar entre a data de inicio e a data de fin na lista de prezos. 
     - Se non hai ningunha lista de prezos que cubra esa data no valor real de vendas por gastos, xa identificou o problema. Modificar as datas de inicio e fin da lista de prezos para asegurar que a lista de prezos cubra a data do valor real de gasto. 
-    - Se hai máis dunha lista de prezos que cubra a data no valor real de vendas por gastos, xa identificou o problema. Pode corrixir isto editando as datas de inicio e fin das listas de prezos, de forma que haxa só unha lista de prezos que cubra a data do valor real de gasto. 
+    - Se hai máis dunha lista de prezos que cubra a data no valor real de vendas por gastos, xa identificou o problema. Edite as datas de inicio e fin das listas de prezos, de forma que haxa só unha lista de prezos que cubra a data do valor real de gasto. 
     - Se só hai unha lista de prezos que cubra esa data do valor real de gasto, vaia á Verificación 3.
 Cando faga as correccións necesarias, cree novamente unha entrada de gasto, apróbea e verifique que o valor real de vendas sen facturar mostra un prezo válido.
 
@@ -55,7 +58,7 @@ Cando faga as correccións necesarias, cree novamente unha entrada de gasto, apr
 
 Se concluíu correctamente as Verificacións 1 e 2, agora debe ter só unha lista de prezos do proxecto é aplicable para a data do valor real de vendas por gastos. Abra esta Lista de prezos do proxecto e vaia ao separador Prezos de categoría. Asegúrese de que hai unha liña na grade para a categoría de gasto específica no valor real de gasto.
  
-- Se non hai ningunha fila, xa identificou o problema. Cree unha liña na grade de prezos Categoría para a categoría no seu valor real de gasto. Cando termine, cree novamente unha entrada de gasto, apróbea e verifique que o valor real de vendas sen facturar mostra un prezo válido. 
+- Se non hai ningunha fila, xa identificou o problema. Cree unha liña na grade de prezos Categoría para a categoría no seu valor real de gasto. A seguir, cree novamente unha entrada de gasto, apróbea e verifique que o valor real de vendas sen facturar mostra un prezo válido. 
 - Se hai unha fila para a categoría de gasto na grade de prezos de categoría, comprobe se ten un prezo válido.
 
 Para comprender que é un prezo válido, utilice estos métodos:
@@ -66,6 +69,6 @@ Para comprender que é un prezo válido, utilice estos métodos:
 
 Se o axuste de prezo para a categoría de gasto non é válida, xa identificou o problema. A solución é editar a liña de prezos de categoría cun prezo válido para a categoría de gasto segundo as regras de arriba. Cando termine, cree novamente unha entrada de gasto, apróbea e verifique que o valor real de vendas sen facturar ten un prezo válido.
 
-Se aínda non ve un prezo válido no valor real de vendas por gastos despois de realizar as tres comprobacións anteriores, rexistre o tícket de asistencia.
+Se aínda non ve un prezo válido no valor real de vendas por gastos despois de realizar as tres comprobacións anteriores, rexistre un tícket de asistencia.
 
 
