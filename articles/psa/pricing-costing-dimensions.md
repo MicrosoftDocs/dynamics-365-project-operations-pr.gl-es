@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 515a2e2e518614884b414ca43702e8bfea2c6919
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076173"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151296"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Páxina de inicio de dimensións de prezos e custos
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 As dimensións empregadas para fixar os prezos e os custos da man de obra en organizacións baseadas en proxectos están influenciadas polos seguintes atributos:
 
@@ -33,12 +35,12 @@ As dimensións empregadas para fixar os prezos e os custos da man de obra en org
 
 Dada a natureza típica destes atributos do traballo e das persoas necesarias para realizar o traballo, hai dous tipos de valores de dimensión de prezos dispoñibles en Project Service Automation: 
 
-- **Conxuntos de opcións** : Atributos que son enumeracións fixas para un conxunto de valores.
-- **Valores baseados en entidades** : Atributos que poden ter un conxunto variado de valores que son finitos pero que poden cambiar co paso do tempo.
+- **Conxuntos de opcións**: Atributos que son enumeracións fixas para un conxunto de valores.
+- **Valores baseados en entidades**: Atributos que poden ter un conxunto variado de valores que son finitos pero que poden cambiar co paso do tempo.
 
 ## <a name="pricing-dimensions"></a>Dimensións de prezos
 
-PSA envíase cun conxunto predefinido de dimensións de prezos. Podes velas indo a **Project Service** > **Parámetros**. No rexistro de parámetros, no separador **Dimensións de prezos baseados na cantidade** , verifique que o rol, **msdyn_resourcecategory** , e a unidade organizativa de recursos, **msdyn_organizationalunit** teñan os campos **Aplicable a vendas** e **Aplicable a custo** establecidos en **Si**. Isto permitirá establecer o prezo e o custo para cada combinación de roles e unidades organizativas.
+PSA envíase cun conxunto predefinido de dimensións de prezos. Podes velas indo a **Project Service** > **Parámetros**. No rexistro de parámetros, no separador **Dimensións de prezos baseados na cantidade**, verifique que o rol, **msdyn_resourcecategory**, e a unidade organizativa de recursos, **msdyn_organizationalunit** teñan os campos **Aplicable a vendas** e **Aplicable a custo** establecidos en **Si**. Isto permitirá establecer o prezo e o custo para cada combinación de roles e unidades organizativas.
 
 ![Captura de pantalla dos parámetros de Project Service con "Aplicable a vendas" resaltado](media/PS-OOB-parameters.png)
 
@@ -55,7 +57,7 @@ Se precisa un prezo ou custo para os seus recursos usando atributos adicionais, 
 ## <a name="pricing-human-resource-time"></a>Prezos do tempo de recursos humanos
 Como unha organización valora o tempo dos recursos humanos é moitas veces unha consideración estratéxica importante que afecta directamente á rendibilidade da organización. Traballe cos equipos financeiros e os responsables de prácticas cando a súa organización estea preparada para identificar como quere configurar os tipos de factura e custos para o tempo de recursos humanos.
 
-Outras consideracións para fixar os prezos inclúen se hai que volver usar campos ou entidades que actualmente non teñen dimensións de prezos pero que se aplican como dimensión de prezos para a súa organización. Campos como **Categoría de transacción** ( **msdyn_transactioncategory** ) e **Recurso reservable** ( **bookableresource** ) son exemplos de dimensións do candidato. 
+Outras consideracións para fixar os prezos inclúen se hai que volver usar campos ou entidades que actualmente non teñen dimensións de prezos pero que se aplican como dimensión de prezos para a súa organización. Campos como **Categoría de transacción** (**msdyn_transactioncategory**) e **Recurso reservable** ( **bookableresource**) son exemplos de dimensións do candidato. 
 
 Considere se a súa dimensión de prezos debe ser unha táboa ou un conxunto de opcións. Se prevé cambios nos valores dunha dimensión que serán máis de 10 ou 12 e necesita atributos adicionais nestes valores, podería crear unha entidade en lugar dun conxunto de opcións. Manter un conxunto de opcións, como engadir ou eliminar valores, require un administrador ou programador, mentres que a adición de novas filas a unha táboa pode facelo a maioría dos usuarios empresariais.
 

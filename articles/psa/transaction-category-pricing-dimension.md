@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0019571a1d37d3b6a503e7221db3c3b51365c236
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076216"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150756"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Use a categoría de transacción como dimensión de prezos
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Este tema mostra como usar a categoría de transacción como dimensión de prezos. Antes de comezar, se aínda non creou unha solución de dimensión de prezos, necesitará crear unha nova. Se xa ten unha solución de dimensión de prezos, pode facer os seus cambios nesa solución. Se non creou unha nova solución de dimensión de prezos para a súa organización, complete os procedementos do tema [Crear campos e entidades personalizados](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Engadir a categoría de transacción a formularios e vistas
@@ -47,6 +50,6 @@ A seguinte táboa é unha lista completa de formularios listos para usar, listad
 ## <a name="set-up-transaction-category-as-a-pricing-dimension"></a>Configurar unha categoría de transacción como dimensión de prezos
 
 1. Na interface web, vaia a **Project Service** > **Configuración** > **Parámetros**. 
-2. Na páxina **Parámetros** , no separador **Dimensións de prezos baseados na cantidade** , observe que a grade do separador mostra os rexistros da entidade **Dimensións de prezos**.
+2. Na páxina **Parámetros**, no separador **Dimensións de prezos baseados na cantidade**, observe que a grade do separador mostra os rexistros da entidade **Dimensións de prezos**.
 3. Engada **Categoría de transaccións** a esta lista e configure os campos **Aplicable ao custo** e **Aplicable á venda** en **Si**.
-4. No capo **Tipo de dimensión** , seleccione **Baseado na cantidade** e, seguir, seleccione a prioridade para a **Categoría de transacción** relacionada co custo e as vendas.
+4. No capo **Tipo de dimensión**, seleccione **Baseado na cantidade** e, seguir, seleccione a prioridade para a **Categoría de transacción** relacionada co custo e as vendas.
