@@ -2,6 +2,7 @@
 title: Consideracións sobre a actualización - Microsoft Dynamics 365 Project Service Automation versión 2.x ou 1.x a versión 3
 description: Este tema proporciona información sobre as consideracións que debe ter en conta ao actualizar da versión 2.x ou 1.x á versión 3 de Project Service Automation.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -17,20 +18,23 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121711"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144158"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Consideracións sobre a actualización - PSA versión 2.x ou 1.x a versión 3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## <a name="project-service-automation-and-field-service"></a>Project Service Automation e Field service
-Tanto Dynamics 365 Project Service Automation como Dynamics 365 Field Service usan a solución Universal Resourcing Scheduling (URS) para a planificación de recursos. Se ten na súa instancia tanto Project Service Automation como Field Service, debe planificar a actualización de ambas solucións á versión máis recente (versión 3.x para Project Service Automation, versión 8.x para Field Service). A actualización de Project Service Automation e Field Service instalará a última versión de URS, o que significa que é posible un comportamento incoherente se as solucións Project Service Automation e Field Service da mesma instancia non se actualizan á última versión.
+Tanto Dynamics 365 Project Service Automation como Dynamics 365 Field Service usan a solución Universal Resourcing Scheduling (URS) para a planificación de recursos. Se ten Project Service Automation e Field Service na súa instancia, actualice ambas solucións á última versión. Para Project Service Automation, é a versión 3.x. Para Field Service, é a versión 8.x. A actualización de Project Service Automation ou Field Service instalará a última versión de URS. Se as solucións de Project Service Automation e Field Service da mesma instancia non se actualizan á última versión, pode haber algún comportamento irregular.
 
-## <a name="resource-assignments"></a>Atribucións de recursos
+## <a name="resource-assignments"></a>Asignacións de recursos
 En Project Service Automation versión 2 e versión 1, as tarefas almacenábanse como tarefas secundarias (tamén chamadas tarefas de liña) na **Entidade tarefa**, e indirectamente relacionadas coa entidade **Atribución de recursos**. A tarefa de liña era visible na ventá emerxente de atribución en Work Breakdown Structure (WBS).
 
 ![Tarefas de liña no WBS en Project Service Automation versión 2 e versión 1](media/upgrade-line-task-01.png)
@@ -42,7 +46,7 @@ Estes cambios afectan á actualización de calquera proxecto existente que teña
 ### <a name="tasks-assigned-to-named-resources"></a>Tarefas atribuídas a recursos nomeados
 Ao usar a entidade de tarefas subxacente, as tarefas da versión 2 e a versión 1 permitían aos membros do equipo retratar un rol distinto do seu rol definido por defecto. Por exemplo, a Beatriz Fervenza, a quen por defecto se atribuíu o rol de xestor de programas, podería atribuírselle unha tarefa co rol de programador. Na versión 3, o rol dun membro nomeado é sempre o predefinido, polo que calquera tarefa que se lle atribúa a Beatriz Fervenza usa o seu rol predefinido de xestor de programas.
 
-Se atribuíu un recurso a unha tarefa fóra do seu rol predefinido na versión 2 e na versión 1, ao actualizar, atribuirase ao recurso nomeado o rol predefinido para todas as atribucións de tarefas, independentemente da atribución de roles na versión 2. Isto producirá diferenzas nas estimacións calculadas da versión 2 ou a versión 1 á versión 3 porque as estimacións calcúlanse en función do rol do recurso e non da atribución de tarefas de liña. Por exemplo, na versión 2, atribuíronse dúas tarefas a Rita Caramés. O rol na tarefa de liña para a tarefa 1 é programador e para a tarefa 2, xestor de programas. Rita Caramés ten o rol predefinido como xestor de programas.
+Se atribuíu un recurso a unha tarefa fóra do seu rol predefinido na versión 2 e na versión 1, ao actualizar, atribuirase ao recurso nomeado o rol predefinido para todas as atribucións de tarefas, independentemente da atribución de roles na versión 2. Esta atribución produce diferenzas nas estimacións calculadas da versión 2 ou a versión 1 á versión 3 porque as estimacións calcúlanse en función do rol do recurso e non da atribución de tarefas de liña. Por exemplo, na versión 2, atribuíronse dúas tarefas a Rita Caramés. O rol na tarefa de liña para a tarefa 1 é programador e para a tarefa 2, xestor de programas. Rita Caramés ten o rol predefinido como xestor de programas.
 
 ![Varios roles atribuídos a un recurso](media/upgrade-multiple-roles-02.png)
 
@@ -56,12 +60,12 @@ Cando actualice á versión 3, as tarefas de liña substitúense por atribución
 
 ![Atribucións de recursos](media/resource-assignment-v2-05.png)
 
-Debido a que as estimacións están baseadas no rol predefinido do recurso, as estimacións de vendas e custos poden cambiar. Teña en conta que no seguinte gráfico xa non ve o rol **Programador** porque o rol se toma do rol predefinido do recurso reservable.
+Debido a que as estimacións están baseadas no rol predefinido do recurso, as estimacións de vendas e custos poden cambiar. No seguinte gráfico xa non ve o rol **Programador** porque o rol se toma do rol predefinido do recurso reservable.
 
 ![Estimacións de custos dos roles predefinidos](media/resource-assignment-cost-estimate-06.png)
 ![Estimación de vendas dos roles predefinidos](media/resource-assignment-sales-estimate-07.png)
 
-Despois de completar a actualización, pode editar o rol dun membro do equipo para que sexa distinto do asignado por defecto. Non obstante, se cambia un rol dos membros do equipo, cambiarase en todas as súas tarefas atribuídas porque aos membros do equipo xa non se lles poden atribuír varios roles na versión 3.
+Despois de completar a actualización, pode editar o rol dun membro do equipo para que sexa distinto do asignado por defecto. Non obstante, se cambia un rol dos membros do equipo, cambiarase en todas as súas tarefas atribuídas porque aos membros do equipo non se lles poden atribuír varios roles na versión 3.
 
 ![Actualización dun rol de recurso](media/resource-role-assignment-08.png)
 
@@ -102,7 +106,7 @@ Pode ver a unidade organizativa na vista de estimacións.
  
 Cando a actualización está completa, a unidade organizativa da tarefa de liña que corresponde ao membro xenérico do equipo engádese ao membro xenérico do equipo e elimínase a tarefa de liña. Por iso recomendamos que antes de actualizar, xere ou xere de novo o equipo en cada proxecto que conteña recursos xenéricos.
 
-Para tarefas atribuídas a un rol cunha unidade organizativa que difira da unidade organizativa do proxecto de contratación e non se xerou un equipo, a actualización creará un membro xenérico do equipo para o rol, pero usará a unidade de contratación do proxecto para a unidade organizativa do membro do equipo. Volvendo ao exemplo co Proxecto Z, isto significa que a unidade organizativa contratante Contoso EUA e as tarefas de proba do plan de proxecto dentro da fase de implantación foron atribuídas ao rol de asesor técnico e coa unidade organizativa atribuída a Contoso India. A tarefa de proba de integración que se completa despois da fase de implantación foi atribuída ao rol de asesor técnico. A unidade organizativa é Contoso EUA e non se xerou un equipo. A actualización creará un membro xenérico do equipo, un asesor técnico que teña as horas atribuídas das tres tarefas e unha unidade organizativa de Contoso EUA, a unidade organizativa contratante do proxecto.   
+Para tarefas atribuídas a un rol cunha unidade organizativa que difira da unidade organizativa do proxecto de contratación e non se xerou un equipo, a actualización creará un membro xenérico do equipo para o rol, pero usará a unidade de contratación do proxecto para a unidade organizativa do membro do equipo. Volvendo ao exemplo co Proxecto Z, a unidade organizativa contratante Contoso EUA e as tarefas de proba do plan de proxecto dentro da fase de implantación foron atribuídas ao rol de asesor técnico e coa unidade organizativa atribuída a Contoso India. A tarefa de proba de integración que se completa despois da fase de implantación foi atribuída ao rol de asesor técnico. A unidade organizativa é Contoso EUA e non se xerou un equipo. A actualización creará un membro xenérico do equipo, un asesor técnico que teña as horas atribuídas das tres tarefas e unha unidade organizativa de Contoso EUA, a unidade organizativa contratante do proxecto.   
  
 O cambio das diferentes unidades organizativas de recursos predefinidas en membros do equipo non xerados é o motivo polo que recomendamos que xere ou volva xerar o equipo en cada proxecto que conteña recursos xenéricos antes da actualización para que non se perdan as atribucións de unidades organizativas.
 

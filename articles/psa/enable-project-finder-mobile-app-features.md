@@ -3,6 +3,7 @@ title: Activar as funcionalidades da aplicación Project Finder Mobile
 description: Como activar as funcionalidades de Project Finder Mobile para Project Service
 author: JohnPBurrows
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,22 +19,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132961"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144546"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Activar as funcionalidades da aplicación Project Finder Mobile (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Os seus recursos poden utilizar a apl. Project Finder Mobile nos seus teléfonos con [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] para localizar proxectos novos nos que traballar e actualizar os seus conxuntos de cualificacións.  
+Os seus recursos poden utilizar a aplicación Project Finder Mobile nos seus teléfonos con [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] para localizar proxectos novos nos que traballar e actualizar os seus conxuntos de cualificacións.  
   
  A aplicación está dispoñible para teléfonos [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)] e [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)].  
-  
- Debe definir un par de opcións na configuración de parámetros para a unidade de organización que permitan aos usuarios ver os requisitos de recurso dos proxectos e actualizar os seus coñecementos.  
+    
+ Para permitir que os usuarios vexan os requisitos de recursos e actualicen as habilidades, deben seleccionarse opcións na configuración de parámetros da súa unidade organizativa.
   
 > [!NOTE]
 >  A aplicación Project Finder Mobile só funciona con [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], non con instalacións locais.  
@@ -57,8 +60,8 @@ Os seus recursos poden utilizar a apl. Project Finder Mobile nos seus teléfonos
   
 |Destinatario|Evento|  
 |---------------|-----------|  
-|Xestor de proxectos|-   Cando un recurso se rexistra para un proxecto coa aplicación Project Finder Mobile.|  
-|Recurso|-  Cando o traballo do proxecto para o que o recurso se rexistrou xa foi realizado por outro recurso.<br />-  Cando as súas solicitudes de aprobación de coñecementos están aprobadas ou rexeitadas.<br />-  Cando as súas solicitudes de rexistro de proxecto están aprobadas ou rexeitadas.|  
+|Xestor de proxectos|- Un recurso se rexistra para un proxecto coa aplicación Project Finder Mobile.|  
+|Recurso|- O traballo do proxecto para o que o recurso se rexistrou xa foi realizado por outro recurso.<br />- A solicitude de aprobación de coñecementos están aprobadas ou rexeitadas.<br />- A súa solicitude de rexistro de proxecto está aprobadas ou rexeitada.|  
   
 ## <a name="privacy-notice"></a>Aviso de privacidade  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  

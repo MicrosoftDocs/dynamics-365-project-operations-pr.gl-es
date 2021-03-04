@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076326"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144591"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Engadir novos formularios de entidade personalizada (Project Service Automation 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Campo Tipo 
 
-Dynamics 365 Project Service Automation utiliza o campo **Tipo** ( **msdyn\_ordertype** ) das entidades Oportunidade, Oferta, Pedido e Factura para distinguir as versións **baseadas en traballos** destas entidades das versións **baseadas en elementos** e **baseadas en servizos**. PSA trata as versións baseadas en traballos destas entidades. Moitas lóxicas empresariais do lado do cliente e do lado do servidor da solución dependo do campo **Tipo**. Por iso, é importante que o campo se inicie cun valor correcto cando se crean as entidades. Un valor incorrecto pode causar comportamentos incorrectos e é posible que algunhas lóxicas empresariais non funcionen correctamente.
+Dynamics 365 Project Service Automation utiliza o campo **Tipo** (**msdyn\_ordertype**) das entidades Oportunidade, Oferta, Pedido e Factura para distinguir as versións **baseadas en traballos** destas entidades das versións **baseadas en elementos** e **baseadas en servizos**. PSA trata as versións baseadas en traballos destas entidades. Moitas lóxicas empresariais do lado do cliente e do lado do servidor da solución dependo do campo **Tipo**. Por iso, é importante que o campo se inicie cun valor correcto cando se crean as entidades. Un valor incorrecto pode causar comportamentos incorrectos e é posible que algunhas lóxicas empresariais non funcionen correctamente.
 
 ## <a name="automatic-form-switching"></a>Cambio automático de formulario
 
@@ -37,7 +39,7 @@ A lóxica de cambio automático de formulario depende do da asignación entre o 
 
 ## <a name="add-custom-forms-and-turn-on-the-form-switching-logic"></a>Engada formularios personalizados e active a lóxica de cambio de formularios
 
-O seguinte exemplo mostra como engadir un formulario personalizado, **Información do meu proxecto** , para que funcione con oportunidades baseadas en traballos. O mesmo proceso úsase para engadir formularios personalizados para que funcionen con ofertas, pedidos e facturas.
+O seguinte exemplo mostra como engadir un formulario personalizado, **Información do meu proxecto**, para que funcione con oportunidades baseadas en traballos. O mesmo proceso úsase para engadir formularios personalizados para que funcionen con ofertas, pedidos e facturas.
 
 Siga estes pasos para crear unha versión personalizada do formulario **Información do proxecto**.
 
@@ -47,7 +49,7 @@ Siga estes pasos para crear unha versión personalizada do formulario **Informac
     > [!IMPORTANT]
     > Non elimine os scripts. En caso contrario, algúns datos poderían iniciarse incorrectamente.
 
-3. Asegúrese de que o campo **Tipo** ( **msdyn\_ordertype** ) estea presente no formulario. 
+3. Asegúrese de que o campo **Tipo** (**msdyn\_ordertype**) estea presente no formulario. 
 
     > [!IMPORTANT]
     > Non elimine este campo. En caso contrario, os scripts de inicio fallarán.

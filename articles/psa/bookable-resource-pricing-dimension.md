@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076231"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144996"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Usar o recurso reservable como dimensión de prezos
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Este tema fornece información sobre o uso dun recurso reservable como dimensión de prezos. Antes de comezar, se aínda non creou unha solución de dimensión de prezos, necesitará crear unha nova. Se xa ten unha solución de dimensión de prezos, pode facer os seus cambios nesa solución. Se non creou unha nova solución de dimensión de prezos para a súa organización, complete os procedementos do tema [Crear campos e entidades personalizados](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Engadir un recurso reservable a formularios e vistas
@@ -48,18 +51,18 @@ Abra o explorador de solucións para a solución de dimensión de prezos e logo 
 
 ## <a name="set-up-bookable-resource-as-a-pricing-dimension"></a>Configurar o recurso reservable como dimensión de prezos
 
-1. Na interface web, vaia a **Project Service** > **Configuración** > **Parámetros**. Na páxina **Parámetro** , no separador **Dimensións de prezos baseados na cantidade** , observe que a grade do separador mostra os rexistros da entidade de dimensións de prezos. 
+1. Na interface web, vaia a **Project Service** > **Configuración** > **Parámetros**. Na páxina **Parámetro**, no separador **Dimensións de prezos baseados na cantidade**, observe que a grade do separador mostra os rexistros da entidade de dimensións de prezos. 
 2. Engada **Recurso reservable** a esta lista de dimensións de prezos como **msdyn_bookableresource**. 
 3. Indique o contexto no que o recurso reservable funciona como dimensión de prezos e estableza os valores de **Aplicable ao custo** e **Aplicable ás vendas**.
-4. No campo **Tipo de dimensión** , seleccione **Baseado na cantidade**. 
+4. No campo **Tipo de dimensión**, seleccione **Baseado na cantidade**. 
 5. Seleccione a prioridade de custo e vendas para o recurso reservable. Normalmente, cando se inclúe como unha dimensión de prezos, un recurso reservable ten a prioridade máis alta, polo que establecer isto como **1** (ou **0** dependendo de como conte a prioridade) aseguraría ese comportamento.
 
 ## <a name="set-up-pricing-dimension-field-names"></a>Configurar nomes de campo de dimensións de prezos
 
 Cando o nome de campo dunha dimensión de prezos na táboa **Prezo de rol** é diferente do seu nome de campo en calquera das outras entidades onde ten que funcionar a fixación de prezos predefinidos, o rexistro de dimensión de prezos debe ser informado dos diferentes nomes.    
-Para o recurso reservable, a entidade **Membros do equipo do proxecto** ten un nome de campo lixeiramente diferente ( **msdyn_bookableresourceid** ) do da entidade **Prezo de rol** ( **msdyn_bookableresource** ). O rexistro da dimensión de prezos para **msydn_bookableresource** debe ser informado disto. 
+Para o recurso reservable, a entidade **Membros do equipo do proxecto** ten un nome de campo lixeiramente diferente (**msdyn_bookableresourceid**) do da entidade **Prezo de rol** (**msdyn_bookableresource**). O rexistro da dimensión de prezos para **msydn_bookableresource** debe ser informado disto. 
 1. Para facelo, prema dúas veces na fila na grade **Dimensións dos prezos** para abrir a páxina de dimensións de **msdyn_bookableresource**.
-2. Na páxina de dimensión, no separador **Relacionado** , prema **Nomes de campo da dimensión de prezos**.
+2. Na páxina de dimensión, no separador **Relacionado**, prema **Nomes de campo da dimensión de prezos**.
 
  ![Separador de nomes de campo de dimensión de prezos](media/PD-fieldname.png)
 

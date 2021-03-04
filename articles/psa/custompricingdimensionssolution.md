@@ -17,20 +17,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3e437fce5b9f1fb330a713788e24100a4fe02948
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076141"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144637"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Crear solucións personalizadas para as dimensións de prezos
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!IMPORTANT]
 > Todos os cambios de dimensións de prezos personalizadas deberían estar nunha solución separada. Esta importante boa práctica proporciona flexibilidade no futuro para actualizar ou eliminar os cambios segundo sexa necesario, axudará á reutilización do seu traballo e facilita levar estes cambios a outra instancia. Despois de facer os cambios necesarios, exporte esta solución como **Solución xestionada** e impórtea a outras instancias para reutilizar a súa configuración de prezos.
 
 1. Seleccione **Configuración** > **Solucións** e logo seleccione **Nova**. 
-2. Poña nome á solución, **\<your organization name> dimensións de prezos** , introduza a información restante necesaria e logo seleccione **Gardar**.
+2. Poña nome á solución, **\<your organization name> dimensións de prezos**, introduza a información restante necesaria e logo seleccione **Gardar**.
 
 > ![Creación dunha solución personalizada para as dimensións de prezos](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
@@ -39,7 +41,7 @@ Terá que engadir as seguintes entidades de Project Service á súa solución de
 
 1. Seleccione **Configuración** > **Solucións** e logo prema dúas veces **\<your organization name> dimensións de prezos**. 
 2. No explorador de solucións, no panel de navegación da esquerda, seleccione **Engadir existente** > **Entidades**.
-3. Na caixa de diálogo **Compoñentes da solución** , seleccione as seguintes entidades:
+3. Na caixa de diálogo **Compoñentes da solución**, seleccione as seguintes entidades:
 
 - Dato real
 - Recurso reservable
