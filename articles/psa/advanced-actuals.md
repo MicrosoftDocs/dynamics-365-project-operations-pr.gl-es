@@ -18,17 +18,19 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a52e0f57f36d535b746e5379eb3910a2368355fb
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e417a24d5291fa88dee6583f11439eac0a44a574
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129406"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145716"
 ---
-# <a name="recording-actuals"></a><span data-ttu-id="2c2a7-103">Rexistro de datos reais</span><span class="sxs-lookup"><span data-stu-id="2c2a7-103">Recording actuals</span></span> 
+# <a name="recording-actuals"></a><span data-ttu-id="397db-103">Rexistro de datos reais</span><span class="sxs-lookup"><span data-stu-id="397db-103">Recording actuals</span></span> 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="2c2a7-104">Rexístranse todas as transaccións financeiras que se producen durante un proxecto.</span><span class="sxs-lookup"><span data-stu-id="2c2a7-104">All financial transactions that occur during a project are recorded.</span></span> <span data-ttu-id="2c2a7-105">Estas transaccións rexístranse como **datos reais**.</span><span class="sxs-lookup"><span data-stu-id="2c2a7-105">These transactions are recorded as **actuals**.</span></span> <span data-ttu-id="2c2a7-106">Na seguinte táboa móstranse os diferentes tipos de datos reais que se crean, dependendo de se o proxecto é un proxecto temporal, de prezo fixo ou interno, ou se está en fase de prevenda.</span><span class="sxs-lookup"><span data-stu-id="2c2a7-106">The following table shows the different types of actuals that are created, depending on whether the project is a time-and-material, fixed-price, or internal project, or whether it's in the presales stage.</span></span>
+<span data-ttu-id="397db-104">Rexístranse todas as transaccións financeiras que se producen durante un proxecto.</span><span class="sxs-lookup"><span data-stu-id="397db-104">All financial transactions that occur during a project are recorded.</span></span> <span data-ttu-id="397db-105">Estas transaccións rexístranse como **datos reais**.</span><span class="sxs-lookup"><span data-stu-id="397db-105">These transactions are recorded as **actuals**.</span></span> <span data-ttu-id="397db-106">Na seguinte táboa móstranse os diferentes tipos de datos reais que se crean, dependendo de se o proxecto é un proxecto temporal, de prezo fixo ou interno, ou se está en fase de prevenda.</span><span class="sxs-lookup"><span data-stu-id="397db-106">The following table shows the different types of actuals that are created, depending on whether the project is a time-and-material, fixed-price, or internal project, or whether it's in the presales stage.</span></span>
 
 > ![Táboa que mostra como se rexistran os datos reais](media/advanced-table2.png)
