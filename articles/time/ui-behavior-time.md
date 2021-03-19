@@ -3,17 +3,17 @@ title: Comportamento da IU de entrada de tempo
 description: Este tema ofrece información sobre o comportamento da IU para a entrada de tempo.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124501"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499612"
 ---
 # <a name="time-entry-ui-behavior"></a>Comportamento da IU de entrada de tempo
 
@@ -21,6 +21,19 @@ _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fo
 
 
 A nova grade de **Entrada de tempo semanal** é un control personalizado que ten dúas seccións principais, **Dimensións** e **Duración**.
+
+## <a name="keyboard-shortcuts"></a>Atallos de teclado
+| Acción        | Atallo                  |
+|------------   |------------------------   |
+| Nova           | Alt + Maiús + n           |
+| Copiar fila      | Alt + Maiús + c           |
+| Editar entrada    | Alt + Maiús + e           |
+| Editar fila      | Alt + Maiús + Ctrl + e    |
+| Abrir entrada    | Alt + Maiús + o           |
+| Enviar        | Alt + Maiús + s           |
+| Recuperar        | Alt + Maiús + r           |
+| Delete        | Alt + Maiús + d           |
+| Copiar semana     | Alt + Maiús + w           |
 
 ## <a name="dimensions"></a>Dimensións
 A sección **Dimensións** mostra as dimensións coas que se pode introducir o tempo. Admítense as seguintes dimensións listas para usar:

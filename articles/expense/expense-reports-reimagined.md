@@ -1,9 +1,9 @@
 ---
 title: Os informes de gastos reinventáronse
-description: Este tema ofrece información sobre a experiencia redeseñada e reinventada para a entrada do informe de gastos.
+description: Este tema explica a experiencia redeseñada e reinterpretada para a entrada do informe de gastos.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122791"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499714"
 ---
 # <a name="expense-reports-reimagined"></a>Os informes de gastos reinventáronse
 
@@ -59,25 +59,22 @@ O vídeo [Experiencia en gastos en Dynamics 365 for Finance and Operations](http
 | Redución de mensaxes na barra de mensaxes| Reduciuse o número de mensaxes de Infolog e fíxxose un esforzo para evitar que aparezan mensaxes duplicadas en moitos casos. |
 | Accións comúns agrupadas | A interface limpouse coa adición dun novo botón de accións para a maioría das accións comúns a nivel de liña e a adición dun botón de puntos suspensivos (...) para a cabeceira e outras accións menos frecuentes. |
 | Nova área de traballo para aumentar a visibilidade | A nova área de traballo unifica funcións e ligazóns que permiten aos usuarios moverse a diferentes áreas. |
-| Engadir os gastos e recibos existentes durante a creación de gastos | Cando crea informes de gastos, pode engadir todos os gastos e recibos ou algúns seleccionados. |
+| Engadir os gastos e recibos existentes durante a creación de gastos | Cando crea informes de gastos, pode engadir todos os gastos ou seleccionar os gastos non anexados. Os gastos non anexados son gastos que se importaron da fonte da tarxeta de crédito corporativa ou gastos creados manualmente polo usuario pero que non se anexaron a un informe de gastos.|
 | Calculadora de taxa de cambio | Engádese unha calculadora de taxas de cambio que lle permite calcular a taxa de cambio das transaccións multimoeda. |
 | Gardar e engadir novas liñas de gasto | Os botóns **Gardar** e **Novo** están dispoñibles cando se introducen novos gastos para axudarlle a introducir rapidamente as liñas de gastos. |
 | Mellor visibilidade en liñas divididas e detalladas | As liñas detalladas e divididas engádense directamente á lista de gastos para aumentar a visibilidade e axudarlle a determinar facilmente se hai algún erro. |
 | Amosar recibos durante a itemización | Os recibos pódense mostrar durante a itemización. |
+| Selección de adianto en efectivo | Seleccione un ou máis adiantos en efectivo para realizar unha única transacción de gasto. |
+| Saldo de adiantos en efectivo | Revise o saldo de adiantos en efectivo en tempo real cando cree unha entrada de gasto fronte a adiantos en efectivo aprobados e pagados. |
 
 A versión inicial céntrase en situacións de entrada de gastos. Calquera situación de revisión ou aprobación do informe de gastos seguirá utilizando a páxina de entrada de gastos existente.
 
-As seguintes funcionalidades están presentes na páxina existente pero aínda non están na nova páxina. Estas funcións volveranse introducir nas próximas versións:
+As seguintes funcionalidades non son compatibles na área de traballo de gastos reinterpretada:
 
-- Aprobacións
-- Aprobacións de contas pendentes de pagamento e capacidade para editar a contabilidade
-- Varios puntos de entrada
 - Integración de solicitude de viaxe
-- Entidade de datos para a visibilidade do campo de gasto
-- Entrada para gastos de dietas
-- Fluxo de traballo a nivel de liña
+- Entrada de gastos de dietas
 - Apoio provisional para responsables de aprobacións…
-- Itemización avanzada
+- Capacidade para ver o historial do fluxo de traballo
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

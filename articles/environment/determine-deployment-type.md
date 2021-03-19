@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401216"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479562"
 ---
 # <a name="determine-your-deployment-type"></a>Determinar o seu tipo de despregamento
 
@@ -31,6 +31,9 @@ Project Operations inclúe as capacidades que se fornecen con Project Service Au
 
 Os clientes existentes de Finance que empregan a funcionalidade de xestión e contabilidade de proxectos poden seguir empregándoa tal como está. Consulte [Project Operations para situacións baseadas en recursos/sen fornecemento](#pma).
 
+
+## <a name="deployment-regions"></a>Rexións de despregamento
+Para determinar que rexións admiten o despregamento de Project Operations, consulte [Dispoñibilidade xeográfica para Dynamics 365 e informe de Power Platform](https://dynamics.microsoft.com/en-us/geographic-availability/). Seleccione **Ver informe** e expanda **Dynamics 365> Aplicacións de operacións > Dynamics 365 Project Operations** para ver as rexións admitidas.
 
 ## <a name="deployment-types"></a>Tipos de despregamento
 Project Operations admite varias opcións de despregamento para adaptarse ás súas necesidades. Se vostede é un cliente novo ou existente de Dynamics 365, Project Operations pode atender ás súas necesidades.
