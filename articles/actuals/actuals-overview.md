@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126302"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291797"
 ---
 # <a name="actuals"></a>Datos reais 
 
@@ -70,7 +70,7 @@ A especificación de prezos predeterminados por entrada segundo a categoría nas
 Pode usar diarios de entradas para rexistrar os custos ou ingresos nas clases de material, tarifa, tempo, gasto ou transacción de impostos. Os diarios pódense usar para os seguintes fins:
 
 - Rexistra o custo real dos materiais e as vendas nun proxecto.
-- Mover os datos reais de transaccións doutro sistema a Microsoft Dynamics 365 Project Operations.
+- Mova os datos reais de transaccións doutro sistema a Microsoft Dynamics 365 Project Operations.
 - Rexistrar os custos que se produciron noutro sistema. Estes custos poden incluír gastos de adquisición ou subcontratación.
 
 > [!IMPORTANT]

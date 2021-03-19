@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175889"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290042"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Rexistrarse para unha subscrición de previsualización - lite 
 
-Este tema explica como subscribirse á oferta de previsualización e despregar o despregamento de Dynamics 365 Project Operations lite - de acordo a facturación proforma.
+Este tema explica como subscribirse á oferta de versión preliminar para socios e o despregamento de Dynamics 365 Project Operations lite: de acordo a facturación proforma.
 
 > [!NOTE]
 > Este proceso cambiará nas próximas versións de Project Operations.
@@ -32,13 +32,13 @@ Este tema explica como subscribirse á oferta de previsualización e despregar o
 
 Cando reciba unha aprobación de [solicitude de previsualización](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), recibirá dúas ofertas de Microsoft por correo electrónico. Estas ofertas permítenlle despregar a previsualización de Project Operations:
 
-- Dynamics 365 Project Operations (CRM) – Proba de previsualización
+- Dynamics 365 Project Operations (CRM) - Proba de previsualización
 - Office 365 Project Operations - Proba de previsualización
 
 > [!IMPORTANT]
 > Só unha persoa, o administrador do arrendatario, dunha organización precisa realizar esta tarefa. Se non es o subscritor desta versión, agarde a que a súa organización estea rexistrada e reciba as súas credenciais de usuario.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – Proba de previsualización 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - Proba de previsualización 
 
 Antes de comezar, asegúrese de iniciar sesión nun explorador coa conta de traballo do usuario no arrendatario onde desexa a previsualización de Project Operations.
 
@@ -71,7 +71,7 @@ Repita os mesmos pasos que co primeiro código de oferta. Asegúrese de engadir 
 
 ![Atribuír licenzas](./media/15AssignLicenses.png)
 
-3. Verifique que as licenzas de **Previsualización de Dynamics 365 Project Operations (CRM)** e **Office 365 Project Operations - Previsualización** están seleccionadas. 
+3. Verifique que están seleccionadas as licenzas de **Versión preliminar de Dynamics 365 Project Operations (CRM)** e **Office 365 Project Operations - Versión preliminar**. 
 4. Seleccione **Gardar as modificacións**.
 
 ## <a name="create-a-new-cds-environment"></a>Crear un novo ambiente de CDS
