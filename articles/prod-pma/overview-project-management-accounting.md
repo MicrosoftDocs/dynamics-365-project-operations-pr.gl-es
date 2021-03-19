@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076275"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289772"
 ---
 # <a name="project-management-and-accounting-overview"></a>Visión xeral de xestión de proxectos e contabilidade
 
@@ -205,7 +205,7 @@ Pode pedir elementos do inventario da empresa para o consumo nun proxecto. Como 
 
 A forma en que solicita os artigos depende de desde onde os solicite:
 
--   Para pedir artigos do inventario da empresa, debe introducir o pedido como un requisito de artigos. Se usa a páxina **Requisitos de artigos** , pode configurar o requisito para que poida recibir artigos como entregas parciais. Polo tanto, pode aprazar o consumo dunha cantidade dos artigos ata que se requiran.
+-   Para pedir artigos do inventario da empresa, debe introducir o pedido como un requisito de artigos. Se usa a páxina **Requisitos de artigos**, pode configurar o requisito para que poida recibir artigos como entregas parciais. Polo tanto, pode aprazar o consumo dunha cantidade dos artigos ata que se requiran.
 -   Para pedir artigos a un fornecedor externo, debe crear o pedido como pedido de compra na páxina **Pedido de compra**.
 
 > [!NOTE] 
@@ -232,7 +232,7 @@ Para obter máis información sobre como procesar as facturas do proxecto, consu
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Calcular o custo para completar un proxecto
 
-Cando crea unha estimación, pode escoller o método que se usa para calcular o custo para completar o proxecto. Seleccione un método no campo **Método de custo para completar** na páxina **Crear estimación**. O método que escolla aplícase por separado a cada liña de custo na estimación de custos. Mentres unha liña teña o estado de **Creada** , pode cambiar o método que se lle aplica na páxina **Estimación de custos**. 
+Cando crea unha estimación, pode escoller o método que se usa para calcular o custo para completar o proxecto. Seleccione un método no campo **Método de custo para completar** na páxina **Crear estimación**. O método que escolla aplícase por separado a cada liña de custo na estimación de custos. Mentres unha liña teña o estado de **Creada**, pode cambiar o método que se lle aplica na páxina **Estimación de custos**. 
 
 A seguinte táboa describe os métodos para calcular o custo para completar un proxecto.
 
@@ -300,12 +300,12 @@ En función da súa configuración, pode prever as entradas de efectivo para un 
 -   **Data do proxecto:** 5 de marzo de 2012.
 -   **Data da factura:** 31 de marzo de 2012. Esta data determínase en función da frecuencia da factura. Para este exemplo, vostede establece a frecuencia da factura no mes actual. Polo tanto, todas as transaccións que se contabilicen no mes de marzo factúranse o último día do mes.
 -   **Data de vencemento:** 14 de abril de 2012. Esta data determínase en función dos prazos de pagamento establecidos para o proxecto. Para este exemplo, seleccionou prazos de pagamento de 14 días. Polo tanto, engádense 14 días á data da factura para chegar á data de vencemento do 14 de abril de 2012.
--   **Data prevista de pagamento de vendas:** 27 de abril de 2012. Esta data calcúlase engadindo o número de días no campo **Días de reserva xerais** na páxina **Parámetros de xestión de proxectos e contabilidade** ao número de días no campo **Días de reserva individuais** na páxina **Contratos de proxecto** e engadindo o total ao número de días no campo **Data de vencemento**. Para este exemplo, introduciu **3** no campo **Días de reserva xerais** e **10** no campo **Días de reserva individuais**. Polo tanto, engádense 13 días á data de vencemento da factura para chegar á data prevista de pagamento das vendas de 27 de abril de 2012.
+-   **Data prevista de pagamento de vendas:** 27 de abril de 2012. Esta data calcúlase engadindo o número de días no campo **Días de reserva xerais** na páxina **Parámetros de xestión de proxectos e contabilidade** ao número de días no campo **Días de reserva individuais** na páxina **Contratos de proxecto** e engadindo o total ao número de días no campo **Data de vencemento**. Para este exemplo, introduciu **3** no campo **Días de reserva xerais** e **10** no campo **Días de reserva individuais**. Polo tanto, engádense 13 días á data de vencemento da factura para chegar á data prevista de pagamento das vendas de 27 de abril de 2012.
 
 Os días de reserva xerais poden substituír aos días de reserva individuais ou engadirse aos días de reserva individuais:
 
 -   Para usar os días de reserva xerais como substitutos dos días de reserva individuais, introduza o número medio de días entre a data de vencemento e a data de pagamento real dos clientes.
--   Para engadir os días de reserva xerais aos días de reserva individuais, no campo **Días de reserva xerais** , introduza a súa estimación para o número de días entre o día en que o cliente envía o pagamento e o día en que a súa organización recibe o pagamento.
+-   Para engadir os días de reserva xerais aos días de reserva individuais, no campo **Días de reserva xerais**, introduza a súa estimación para o número de días entre o día en que o cliente envía o pagamento e o día en que a súa organización recibe o pagamento.
 
 Configure os días de reserva individuais no contrato do proxecto. Os días calcúlanse en función da data de vencemento da factura de venda e da experiencia da súa organización co patrón de pagamento dun cliente.
 
@@ -323,9 +323,9 @@ En función dos días definidos, a data de pagamento do custo pode diferir da da
 
 Por exemplo, a data do proxecto da transacción é o 5 de marzo de 2012 e establécense os seguintes prazos de pagamento:
 
--   **Horas:** Mes actual ( **M** )
--   **Gastos:** 14 días ( **D14** )
--   **Artigos:** 30 días ( **D30** )
+-   **Horas:** Mes actual (**M**)
+-   **Gastos:** 14 días (**D14**)
+-   **Artigos:** 30 días (**D30**)
 
 Segundo estes axustes, aquí ten a data de pagamento do custo para cada tipo de transacción:
 
@@ -364,14 +364,14 @@ Pode supervisar os custos nos que incorre a súa organización durante un proxec
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Ver os importes orzamentados restantes
 
-Se **Orzamento restante** está seleccionado como método de control de custos na páxina **Parámetros de xestión de proxectos e contabilidade** , a páxina **Control de custos** calcula os custos que non se contabilizaron como reais nin se marcaron como comprometidos. Especificamente, as cantidades do separador **Xeral** no panel inferior da páxina **Control de custos** calcúlanse das seguintes formas:
+Se **Orzamento restante** está seleccionado como método de control de custos na páxina **Parámetros de xestión de proxectos e contabilidade**, a páxina **Control de custos** calcula os custos que non se contabilizaron como reais nin se marcaron como comprometidos. Especificamente, as cantidades do separador **Xeral** no panel inferior da páxina **Control de custos** calcúlanse das seguintes formas:
 
 -   **Custo real** - A cantidade total que se gastou no proxecto para a liña de custos seleccionada. O importe do custo real calcúlase na páxina **Actualizacións de libro maior**.
 -   **Custo comprometido** - A cantidade adicional de gastos que a persoa xurídica se comprometeu a pagar. Os importes específicos do custo comprometido calcúlanse na páxina **Custos comprometidos**.
 -   **Orzamento restante** - O importe do importe orzamentado orixinal que aínda está dispoñible para a liña de custos seleccionada. O importe do orzamento restante calcúlase na páxina **Previsualización do libro maior xeral**.
 -   **Custo total** - A suma dos importes do custo real, o custo comprometido e o orzamento restante.
 
-Na páxina **Control de custos** , no separador **Desviación** , pode ver unha comparación do custo total esperado co orzamento orixinal. Esta comparación mostra as diferenzas entre estas cantidades. Polo tanto, pode ver onde non coinciden os datos. As cantidades de desviación calcúlanse dos seguintes xeitos:
+Na páxina **Control de custos**, no separador **Desviación**, pode ver unha comparación do custo total esperado co orzamento orixinal. Esta comparación mostra as diferenzas entre estas cantidades. Polo tanto, pode ver onde non coinciden os datos. As cantidades de desviación calcúlanse dos seguintes xeitos:
 
 -   **Orzamento orixinal** - A cantidade que se orzamentou inicialmente para a liña de custos seleccionada. O importe do orzamento orixinal calcúlase na páxina **Previsualización do libro maior xeral**.
 -   **Custo total** - A suma do custo real, o custo comprometido e o orzamento restante, como aparece no separador **Xeral**.
@@ -381,14 +381,14 @@ Na páxina **Control de custos** , no separador **Desviación** , pode ver unha 
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Ver os importes orzamentados totais
 
-Se **Orzamento total** está seleccionado como método de control de custos na páxina **Parámetros de xestión de proxectos e contabilidade** , a páxina **Control de custos** calcula os custos reais e os custos totais do proxecto para axudarlle a detectar calquera diferenza entre os dous. Especificamente, na páxina **Control de custos** , os importes das columnas do panel inferior do separador **Xeral** calcúlanse das seguintes formas:
+Se **Orzamento total** está seleccionado como método de control de custos na páxina **Parámetros de xestión de proxectos e contabilidade**, a páxina **Control de custos** calcula os custos reais e os custos totais do proxecto para axudarlle a detectar calquera diferenza entre os dous. Especificamente, na páxina **Control de custos**, os importes das columnas do panel inferior do separador **Xeral** calcúlanse das seguintes formas:
 
 -   **Custo orzamentado total** - O importe orzamentado total para a liña de custos seleccionada.
 -   **Custo real** - A cantidade total de custos nos que se incorreu no proxecto ata a data para as liñas de custos seleccionadas.
 -   **Custo comprometido** - A cantidade total que se comprometeu para a liña de custos seleccionada.
 -   **Variación** - A diferenza entre a suma dos custos reais e comprometidos e o custo total. A variación mostra se hai que especificar custos adicionais para o orzamento total.
 
-Na páxina **Control de custos** , no separador **Desviación** , pode ver a diferenza entre o orzamento total e o orzamento orixinal consultando os seguintes campos:
+Na páxina **Control de custos**, no separador **Desviación**, pode ver a diferenza entre o orzamento total e o orzamento orixinal consultando os seguintes campos:
 
 -   **Orzamento orixinal** - A cantidade que se orzamentou inicialmente para a liña de custos. O orzamento orixinal calcúlase na páxina **Previsualización do libro maior xeral**.
 -   **Custo orzamentado total** - O custo total que se orzamentou inicialmente para a liña de custos. O custo orzamentado total calcúlase na páxina **Previsualización do libro maior xeral**.
@@ -414,7 +414,7 @@ As taxas de utilización calcúlanse na páxina **Utilización de horas**. Os c�
 -   **Segundo a propiedade da liña** - As propiedades da liña dunha transacción horaria específica determinan se as horas se consideran para a utilización facturable ou de eficiencia.
 -   **Non incluídas** - As horas non se inclúen no cálculo da utilización facturable ou de eficiencia.
 
-Na páxina **Utilización de horas** , ademais da porcentaxe da taxa de utilización global para un traballador ou un proxecto, pode ver o número de horas que se empregaron para os cálculos da taxa de utilización para cada un dos seguintes tipos de horas:
+Na páxina **Utilización de horas**, ademais da porcentaxe da taxa de utilización global para un traballador ou un proxecto, pode ver o número de horas que se empregaron para os cálculos da taxa de utilización para cada un dos seguintes tipos de horas:
 
 -   **Horas non incluídas** - Estas horas non están incluídas na taxa de utilización de horas.
 -   **Horas incluídas** - Estas horas calcúlanse engadindo as horas de utilización e as horas de carga. Estas horas están incluídas na taxa de utilización.
@@ -432,7 +432,7 @@ Podes crear unha declaración de proxecto para ver unha instantánea rápida do 
 -   Data do proxecto/data do libro maior
 -   Datos
 
-Despois de calcular a declaración, pode ver a seguinte información nos distintos separadores da páxina **Declaracións do proxecto** :
+Despois de calcular a declaración, pode ver a seguinte información nos distintos separadores da páxina **Declaracións do proxecto**:
 
 -   **Xeral** - Información xeral sobre a estrutura básica de resultados do proxecto.
 -   **Beneficios e perdas** - Información sobre os ingresos acumulados.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6a8363c1f94a974881df984869ee56bfc198ac5c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076112"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288647"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Configurar roles nos modelos de estrutura de subdivisión do traballo
 
@@ -33,7 +33,7 @@ Os xestores de proxectos poden configurar modelos de estrutura de subdivisión d
 
 1. Seleccione **Xestión e contabilidade de proxectos** > **Configurar** > **Proxectos** > **Modelos de estruturas de subdivisión do traballo**.
 2. Seleccione **Detalles** para ver un modelo de WBS seleccionado.
-3. Seleccione unha tarefa na lista e, a seguir, no campo **Rol** , seleccione un rol para atribuír á tarefa.
+3. Seleccione unha tarefa na lista e, a seguir, no campo **Rol**, seleccione un rol para atribuír á tarefa.
 
 ## <a name="work-with-a-wbs"></a>Traballar cunha formularios
 
@@ -79,7 +79,7 @@ Engadíronse opcións adicionais na WBS para utilizar mellor a funcionalidade de
 </tbody>
 </table>
 
-1. Na páxina **Todos os proxectos** , seleccione o proxecto **Fase 2 de actualización de XYZ**.
+1. Na páxina **Todos os proxectos**, seleccione o proxecto **Fase 2 de actualización de XYZ**.
 2. Seleccione **Planificar** > **Actividades** > **Estrutura de subdivisión do traballo**.
 3. Seleccione **Nova** para engadir as seguintes actividades de primeiro nivel á WBS:
 
@@ -93,20 +93,20 @@ Engadíronse opcións adicionais na WBS para utilizar mellor a funcionalidade de
 
     [![Establecemento de datas e esforzo](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
-5. Seleccione a liña da tarefa **Inicio** e, a seguir, no campo **Rol** , seleccione **Xestor de proxectos principal**.
+5. Seleccione a liña da tarefa **Inicio** e, a seguir, no campo **Rol**, seleccione **Xestor de proxectos principal**.
 6. Seleccione **Publicar**.
-7. Na mesma liña, no campo **Recurso** , seleccione **Daniel Goldschmidt** e, a seguir, seleccione **Aceptar**.
-8. Seleccione a liña da tarefa **Planificación** e, a seguir, no campo **Rol** , seleccione **Analista empresarial**.
+7. Na mesma liña, no campo **Recurso**, seleccione **Daniel Goldschmidt** e, a seguir, seleccione **Aceptar**.
+8. Seleccione a liña da tarefa **Planificación** e, a seguir, no campo **Rol**, seleccione **Analista empresarial**.
 9. Seleccione **Publicar** e, a seguir, seleccione **Xerar equipo automaticamente**.
 10. Na caixa de mensaxe que aparece, seleccione **Si**.
 11. No campo **Recurso** verifique que o valor é **Analista empresarial 1**.
-12. Para o recurso **Analista empresarial 1** , abra a busca e seleccione **Iniciar asignacións de recursos**. A seguir, seleccione un traballador para a tarefa.
+12. Para o recurso **Analista empresarial 1**, abra a busca e seleccione **Iniciar asignacións de recursos**. A seguir, seleccione un traballador para a tarefa.
 13. Seleccione **Atribución branda** &gt; **Capacidade total**.
 
     > [!NOTE] 
     > Non recibe un aviso de que o recurso especificado é agora 2, porque o número de recursos segue a ser 1.
 
-14. Na páxina **Estrutura de subdivisión do traballo** , valide a asignación de recursos na WBS e logo seleccione **Gardar**.
+14. Na páxina **Estrutura de subdivisión do traballo**, valide a asignación de recursos na WBS e logo seleccione **Gardar**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 23a5a9f25cfdd6df74257b3500c7a035d711b5f6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076113"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288872"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Área de traballo móbil de entrada de tempo do proxecto
 
@@ -36,7 +36,7 @@ Esta área de traballo móbil está pensada para ser usada xunto coa aplicación
 ## <a name="overview"></a>Visión xeral
 Como parte do seu traballo diario, os recursos do proxecto adoitan estar no sitio ou viaxando. A área de traballo móbil **Entrada do tempo do proxecto** permite aos usuarios introducir o seu tempo facturable ou non facturable dun proxecto no dispositivo móbil que elixan. Polo tanto, os recursos do proxecto poden rexistrar as entradas de tempo en calquera momento e en calquera lugar. Tamén poden ver as entradas de tempo que xa se rexistraron. 
 
-Especificamente, na área de traballo móbil **Entrada de tempo do proxecto** , os usuarios poden realizar estas tarefas:
+Especificamente, na área de traballo móbil **Entrada de tempo do proxecto**, os usuarios poden realizar estas tarefas:
 
 -   Para calquera data seleccionada, introducir o número de horas que dedicou a unha tarefa específica.
 -   Buscar por nome do proxecto ou cliente para atopar o proxecto para o que se introduce o tempo.

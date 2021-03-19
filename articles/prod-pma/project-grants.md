@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfd91e859244cc03b9b358b057bded79eeea0182
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076313"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289367"
 ---
 # <a name="project-grants"></a>Subvencións do proxecto
 
@@ -42,9 +42,9 @@ Pode crear unha subvención introducindo todos os detalles nun novo rexistro ou 
 
 1. Vaia a **Xestión e contabilidade de proxectos** \> **Subvencións** \> **Subvencións**.
 2. Seleccione **Nova** \> **Subvención**.
-3. Na páxina de detalles da subvención, no separador rápido **Xeral** , no campo **ID de subvención** , introduza un identificador alfanumérico para a subvención.
-4. No campo **Nome da subvención** , introduza un nome único para a subvención.
-5. No campo **Descrición** , engada detalles sobre a nova subvención.
+3. Na páxina de detalles da subvención, no separador rápido **Xeral**, no campo **ID de subvención**, introduza un identificador alfanumérico para a subvención.
+4. No campo **Nome da subvención**, introduza un nome único para a subvención.
+5. No campo **Descrición**, engada detalles sobre a nova subvención.
 
     A maioría dos outros campos da páxina son opcionais e pode introducir a tan pouca ou tanta información como queira.
 
@@ -59,7 +59,7 @@ Pode crear unha subvención introducindo todos os detalles nun novo rexistro ou 
         - **Engadir contrato de proxecto** - Engada ou actualice a información do contrato do proxecto.
         - **Engadir proxecto** - Engada ou actualice os detalles do proxecto.
 
-    - **Configurar** - Introduza detalles sobre os fondos coincidentes, se se precisa esta información. Moitas organizacións que conceden subvencións requiren que os destinatarios gasten unha cantidade específica do seu propio diñeiro ou recursos, para igualar a cantidade que se concede na subvención. No campo **Proxecto local ou identificador de rastrexo** , pode introducir un identificador diferente do identificador do proxecto.
+    - **Configurar** - Introduza detalles sobre os fondos coincidentes, se se precisa esta información. Moitas organizacións que conceden subvencións requiren que os destinatarios gasten unha cantidade específica do seu propio diñeiro ou recursos, para igualar a cantidade que se concede na subvención. No campo **Proxecto local ou identificador de rastrexo**, pode introducir un identificador diferente do identificador do proxecto.
 
         > [!NOTE]
         > Se parte da subvención se concederá a unha organización diferente, configure a opción **Beneficiario secundario** en **Si**. Para as subvencións que se concedan nos Estados Unidos, pode especificar se se concederá unha subvención baixo un mandato estatal ou federal.
@@ -77,7 +77,7 @@ Pode crear unha subvención introducindo todos os detalles nun novo rexistro ou 
 
 1. Vaia a **Xestión e contabilidade de proxectos** \> **Subvencións** \> **Subvencións**.
 2. Seleccione a subvención que quere modificar.
-3. No panel Acción, no separador **Subvención** , no grupo **Manter** , seleccione **Editar**.
+3. No panel Acción, no separador **Subvención**, no grupo **Manter**, seleccione **Editar**.
 4. Revise os detalles da subvención e faga os cambios que sexan necesarios.
 
 

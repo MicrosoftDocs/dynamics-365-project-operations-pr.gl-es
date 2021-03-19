@@ -20,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70dff12c106723dda801668412cfd084c462db4b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076116"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288962"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Lista de gastos de investigación de subvencións federais
 
@@ -52,23 +52,23 @@ Debe configurar os números de CFDA que se poidan engadir ás subvencións e inc
 
 1. Vaia a **Xestión e contabilidade de proxectos \> Configurar \> Subvencións \> Catálogo de números de asistencia doméstica federal**.
 2. Seleccione **Novo** para crear un número de CFDA.
-3. Na columna **Número** , introduza o número de CFDA.
+3. Na columna **Número**, introduza o número de CFDA.
 4. Prema a tecla **Separador**.
-5. Na columna **Descrición** , introduza o título de CFDA.
+5. Na columna **Descrición**, introduza o título de CFDA.
 6. Prema a tecla **Separador**.
-7. Opcional: No campo **Clúster de programas** , engada o clúster de CFDA axeitado.
+7. Opcional: No campo **Clúster de programas**, engada o clúster de CFDA axeitado.
 8. Seleccione **Gardar** para gardar as modificacións.
 
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Configurar subvencións para a programación de gastos de investigación de subvencións federais
 
 1. Vaia a **Xestión e contabilidade de proxectos \> Subvencións \> Subvencións** e seleccione unha subvención existente.
-2. No separador rápido **Configurar** , no campo  **Catálogo de asistencia doméstica federal** , atribúa o número CFDA. O número CFDA da subvención determina o clúster de CFDA para a presentación de informes.
-3. No separador rápido **Información de contacto** , introduza a información do outorgante seguindo estes pasos:
+2. No separador rápido **Configurar**, no campo **Catálogo de asistencia doméstica federal**, atribúa o número CFDA. O número CFDA da subvención determina o clúster de CFDA para a presentación de informes.
+3. No separador rápido **Información de contacto**, introduza a información do outorgante seguindo estes pasos:
 
-    1. No campo **Cliente da subvención** , introduza o cliente responsable da subvención. Para unha subvención existente, é posible que esta información xa estea introducida.
+    1. No campo **Cliente da subvención**, introduza o cliente responsable da subvención. Para unha subvención existente, é posible que esta información xa estea introducida.
     2. Indique se o cliente da subvención é o financiador. Se o cliente da subvención é o financiador, deixe a caixa de verificación **Intermediario** sen marcar. Se outro cliente é o financiador e o cliente da subvención é responsable do gasto e rastrexo do diñeiro, seleccione a caixa de verificación **Intermediario**.
 
-4. Se seleccionou a caixa de verificación **Intermediario** no paso anterior, no campo **Axencia outorgante** , introduza o cliente que proporcionou a subvención. A axencia outorgante e o cliente outorgante non poden ser o mesmo cliente.
+4. Se seleccionou a caixa de verificación **Intermediario** no paso anterior, no campo **Axencia outorgante**, introduza o cliente que proporcionou a subvención. A axencia outorgante e o cliente outorgante non poden ser o mesmo cliente.
 
 Aquí ten un exemplo de subvención a través de intermediario:
 
@@ -79,16 +79,16 @@ O goberno federal financiou un proxecto de infraestrutura para un estado. O gobe
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Excluír as subvencións dos informes SEFA en función do tipo de subvención
 
-1. Vaia a  **Xestión e contabilidade de proxectos \> Configurar \> Subvencións \> Tipos de subvencións**.
-2. No separador rápido  **Información predefinida** , seleccione a caixa de verificación  **Excluír da programación de gastos de subvencións federais**.
+1. Vaia a **Xestión e contabilidade de proxectos \> Configurar \> Subvencións \> Tipos de subvencións**.
+2. No separador rápido **Información predefinida**, seleccione a caixa de verificación **Excluír da programación de gastos de subvencións federais**.
 3. Seleccione **Gardar** para gardar as modificacións.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Execute a programación gastos de investigación de subvencións federais
 
 1. Vaia a **Xestión e contabilidade de proxectos \> Investigacións e informes \> Investigación de subvención \> Programación de gastos de subvencións federais**.
-2. Na sección **Parámetros** , siga estes pasos:
+2. Na sección **Parámetros**, siga estes pasos:
 
-    1. No campo **Intervalo de datas** , seleccione o código para o intervalo de datas. Alternativamente, nos campos **A partir da data** e **Ata a data** , defina o intervalo de datas.
+    1. No campo **Intervalo de datas**, seleccione o código para o intervalo de datas. Alternativamente, nos campos **A partir da data** e **Ata a data**, defina o intervalo de datas.
     2. Opcional: Para incluír só as transaccións facturadas como ingresos na investigación, configure a opción **Incluír só os ingresos facturados** en **Si**.
 
 ## <a name="columns"></a>Columnas

@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128056"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287776"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>Crear unha factura proforma manual
 
@@ -30,7 +30,7 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 
 Facturación proporciona aos xestores de proxectos un segundo nivel de aprobación antes de que creen facturas para os clientes. O primeiro nivel de aprobación complétase cando se aproban as entradas de tempo e gasto que envían os membros do equipo do proxecto.
 
-Dynamics 365 Project Operations non se deseñou para xerar facturas orientadas ao cliente polas seguintes razóns:
+Dynamics 365 Project Operations non se deseñou para xerar facturas orientadas ao cliente polos seguintes motivos:
 
 - Non contén información fiscal.
 - Non pode converter outras moedas á moeda de facturación mediante tipos de cambio configurados correctamente.

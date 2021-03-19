@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076264"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289682"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronizar os datos reais do proxecto directamente desde Project Service Automation ao diario de integración do proxecto para publicalos en Finance and Operations
 
@@ -88,7 +88,7 @@ No modelo de datos reais do proxecto, debe usar Microsoft Power Query for Excel 
 #### <a name="contract-organizational-unit"></a>Unidade organizativa do contrato
 Para actualizar a columna condicional inserida no modelo, prema a frecha de **Asignar** para abrir a asignación. Seleccione a ligazón **Consulta e filtrado avanzados** para abrir Power Query.
 
-- Se está a usar o modelo predefinido de datos reais do proxecto (PSA a Fin e Ops), en Power Query, seleccione a última **Condición inserida** desde a sección **Pasos aplicados**. Na entrada **Función** , substitúa **USSI** polo nome da persoa xurídica que se debería empregar coa integración. Engada condicións adicionais á entrada **Función** que precise e actualice a condición **else** de **USMF** á persoa xurídica correcta.
+- Se está a usar o modelo predefinido de datos reais do proxecto (PSA a Fin e Ops), en Power Query, seleccione a última **Condición inserida** desde a sección **Pasos aplicados**. Na entrada **Función**, substitúa **USSI** polo nome da persoa xurídica que se debería empregar coa integración. Engada condicións adicionais á entrada **Función** que precise e actualice a condición **else** de **USMF** á persoa xurídica correcta.
 - Se está a crear un novo modelo, debe engadir a columna para admitir o tempo e os gastos entre empresas. Seleccione **Engadir columna condicional** e escriba un nome para a columna, como **LegalEntity**. Introduza unha condición para a columna, onde, se **msdyn\_contractorganizationalunitid.msdyn\_name** é \<organizational unit\>, entón \<enter the legal entity\>; senón nulo.
 
 ### <a name="template-mapping-in-data-integration"></a>Asignación de modelos na integración de datos

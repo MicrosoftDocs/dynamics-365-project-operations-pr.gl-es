@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076193"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289322"
 ---
 # <a name="microsoft-project-client-integration"></a>Integración de Microsoft Project Client
 
@@ -42,7 +42,7 @@ Para activar a integración con Microsoft Project Client, é necesario instalar 
 • Prema **Abrir** e, a seguir, prema **Executar** cando se lle solicite.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Abrir e editar un borrador de estrutura de subdivisión do traballo existente en Microsoft Project Client
-Se un proxecto en Dynamics 365 Finance xa ten unha estrutura de subdivisión do traballo creada, a estrutura de subdivisión do traballo pódese abrir na aplicación Microsoft Project Client se a estrutura de subdivisión de traballo está nun estado de borrador. Para abrir desde a páxina **Proxecto** , prema a ligazón **Abrir en Microsoft Project** desde o separador **Planificar**. Esta páxina tamén se pode abrir desde a aplicación Microsoft Project Client premendo **Abrir** no separador **Microsoft Dynamics 365**. Seleccione **Persoa xurídica** e **Proxecto** na lista.
+Se un proxecto en Dynamics 365 Finance xa ten unha estrutura de subdivisión do traballo creada, a estrutura de subdivisión do traballo pódese abrir na aplicación Microsoft Project Client se a estrutura de subdivisión de traballo está nun estado de borrador. Para abrir desde a páxina **Proxecto**, prema a ligazón **Abrir en Microsoft Project** desde o separador **Planificar**. Esta páxina tamén se pode abrir desde a aplicación Microsoft Project Client premendo **Abrir** no separador **Microsoft Dynamics 365**. Seleccione **Persoa xurídica** e **Proxecto** na lista.
 
 > [!NOTE]
 > Se está a usar Internet Explorer como explorador, terá que premer **Gardar** para abrir manualmente desde a localización á que se descargou o ficheiro. Ou prema **Gardar e abrir** para abrir o ficheiro en Microsoft Project Client. Non cambie o nome do ficheiro cando o garde.
@@ -82,7 +82,7 @@ Para crear unha nova estrutura de subdivisión do traballo usando Microsoft Proj
 
 1.  Abra Microsoft Project Client.
 
-2.  No separador **Microsoft Dynamics 365** , prema **Abrir**.
+2.  No separador **Microsoft Dynamics 365**, prema **Abrir**.
 
 3.  Seleccione a **Persoa xurídica** para o proxecto.
 
@@ -99,7 +99,7 @@ Para crear unha nova estrutura de subdivisión do traballo usando Microsoft Proj
 
 2.  Crear o programa en Microsoft Project Client.
 
-3.  No separador **Microsoft Dynamics 365** , prema **Gardar cambios** > **Substituír o proxecto existente**.
+3.  No separador **Microsoft Dynamics 365**, prema **Gardar cambios** > **Substituír o proxecto existente**.
 
 4.  Seleccione a **Persoa xurídica** para o proxecto.
 
@@ -114,15 +114,15 @@ Para crear unha nova estrutura de subdivisión do traballo usando Microsoft Proj
 
 2.  Crear o programa en Microsoft Project Client.
 
-3.  No separador **Microsoft Dynamics 365** , prema **Gardar cambios** > **Gardar a novo proxecto**.
+3.  No separador **Microsoft Dynamics 365**, prema **Gardar cambios** > **Gardar a novo proxecto**.
 
 4.  Seleccione a **Persoa xurídica** para o proxecto.
 
-5.  Introduza o **ID do proxecto** , se é necesario.
+5.  Introduza o **ID do proxecto**, se é necesario.
 
 6.  Introduza o **nome de proxecto**.
 
-7.  Seleccione o **Tipo de proxecto** , **Grupo do proxecto** e o **ID do contrato do proxecto**. Como alternativa, pode crear un novo contrato de proxecto premendo **Novo**.
+7.  Seleccione o **Tipo de proxecto**, **Grupo do proxecto** e o **ID do contrato do proxecto**. Como alternativa, pode crear un novo contrato de proxecto premendo **Novo**.
 
 8.  Seleccione o **Calendario** que se usará para os recursos.
 

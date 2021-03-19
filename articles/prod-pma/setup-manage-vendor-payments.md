@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076111"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288592"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Configurar e usar pagamentos de fornecedores que se pagan ao recibir o pagamento
 
@@ -49,27 +49,27 @@ Cando configura os termos de PWP para un proxecto, debe especificar, como porcen
 
 1. Vaia a **Xestión e contabilidade de proxectos** \> **Proxectos** \> **Todos os proxectos**.
 2. Busque e abra o proxecto para o que desexa configurar os termos de PWP.
-3. No separador rápido **Acordos de fornecedores** , seleccione **Engadir liña**.
-3. No campo **Código de conta** , seleccione unha das seguintes opcións:
+3. No separador rápido **Acordos de fornecedores**, seleccione **Engadir liña**.
+3. No campo **Código de conta**, seleccione unha das seguintes opcións:
 
     - **Táboa** – Os termos de PWP aplícanse a un único fornecedor.
     - **Grupo** – Os termos de PWP aplícanse a todos os fornecedores dun grupo de fornecedores.
     - **Todos** – Os termos de PWP aplícanse a todos os fornecedores.
 
-4. Se seleccionou **Táboa** ou **Grupo** no paso anterior, no campo **Fornecedor/Grupo de Fornecedores** , seleccione o fornecedor ou grupo de fornecedores aos que se aplican os termos de PWP. Se seleccionou **Todos** no paso anterior, o campo **Fornecedor/Grupo de fornecedores** non se pode editar.
-5. Se se configuran os termos de retención do provedor para o fornecedor no proxecto, no campo **Termos de retención do fornecedor** , seleccione o ID da regra para os termos de retención.
-6. No campo **Porcentaxe limiar de PWP** , introduza a porcentaxe limiar para o proxecto. A porcentaxe que introduza para o proxecto define a cantidade mínima que o cliente debe pagarlle antes de pagarlle ao fornecedor.
+4. Se seleccionou **Táboa** ou **Grupo** no paso anterior, no campo **Fornecedor/Grupo de Fornecedores**, seleccione o fornecedor ou grupo de fornecedores aos que se aplican os termos de PWP. Se seleccionou **Todos** no paso anterior, o campo **Fornecedor/Grupo de fornecedores** non se pode editar.
+5. Se se configuran os termos de retención do provedor para o fornecedor no proxecto, no campo **Termos de retención do fornecedor**, seleccione o ID da regra para os termos de retención.
+6. No campo **Porcentaxe limiar de PWP**, introduza a porcentaxe limiar para o proxecto. A porcentaxe que introduza para o proxecto define a cantidade mínima que o cliente debe pagarlle antes de pagarlle ao fornecedor.
 
 ## <a name="create-a-po-that-has-pwp-terms"></a>Crear un PO que teña termos de PWP
 
 Cando contabiliza unha factura dun fornecedor, se o fornecedor está suxeito a termos de PWP, eses termos móstranse nas liñas do PO. Para crear un PO que teña termos de PWP, siga estes pasos.
 
 1. Vaia a **Adquisición e abastecemento** \> **Pedidos de compra** \> **Todos os pedidos de compra**.
-2. No panel Acción, seleccione **Novo**. Despois, na caixa de diálogo **Crear pedido de compra** , introduza a información requirida e seleccione **Aceptar**.
+2. No panel Acción, seleccione **Novo**. Despois, na caixa de diálogo **Crear pedido de compra**, introduza a información requirida e seleccione **Aceptar**.
 
     Como alternativa, abra un PO existente na páxina de lista **Todos os pedidos de compra**.
 
-4. Na páxina **Pedido de compra** , no separador rápido **Liñas de pedido de compra** , revise os detalles da liña de PO para o fornecedor. A opción **Pagar ao recibir o pagamento** seleccionase automaticamente e o valor do campo **Porcentaxe limiar de PWP** se copia automaticamente do campo **Porcentaxe limiar de PWP** da páxina **Proxectos**.
+4. Na páxina **Pedido de compra**, no separador rápido **Liñas de pedido de compra**, revise os detalles da liña de PO para o fornecedor. A opción **Pagar ao recibir o pagamento** seleccionase automaticamente e o valor do campo **Porcentaxe limiar de PWP** se copia automaticamente do campo **Porcentaxe limiar de PWP** da páxina **Proxectos**.
 6. Se non quere aplicar os termos de PWP ao fornecedor dunha liña de PO, borre a opción **Pagar ao recibir o pagamento**. Neste caso, a **Porcentaxe limiar de PWP** da liña de PO restablecerase a 0 (cero).
 
 ## <a name="update-a-customer-payment-and-pay-the-vendor"></a>Actualizar o pagamento dun cliente e pagar ao fornecedor
@@ -77,8 +77,8 @@ Cando contabiliza unha factura dun fornecedor, se o fornecedor está suxeito a t
 Cando un fornecedor completa o seu traballo nun proxecto e lle envía unha factura, debe revisar o estado do proxecto e as facturas do cliente para determinar se se cumpriron os termos de PWP para o proxecto. Se se cumpriron os termos de PWP para o fornecedor, pode determinar que liñas da factura do provedor se pagan, en función dos pagamentos dos clientes polo proxecto. Se decide pagar ao fornecedor aínda que non se cumpriron as condicións de PWP, pode anular os termos de PWP na páxina **Factura do fornecedor que se paga ao recibir o pagamento**.
 
 1. Vaia a **Xestión e contabilidade de proxectos** \> **Consultas e informes** \> **Consultas de retención** \> **Factura do fornecedor que se paga ao recibir o pagamento**.
-2. Na páxina **Facturas do fornecedor que se pagan ao recibir o pagamento** , no campo de busca, introduza valores para atopar a factura do fornecedor que desexa revisar e logo seleccione **Buscar**.
-3. No separador rápido **Liñas de factura do fornecedor** , seleccione as liñas que quere cambiar.
+2. Na páxina **Facturas do fornecedor que se pagan ao recibir o pagamento**, no campo de busca, introduza valores para atopar a factura do fornecedor que desexa revisar e logo seleccione **Buscar**.
+3. No separador rápido **Liñas de factura do fornecedor**, seleccione as liñas que quere cambiar.
 4. Se as condicións de **Pagar ao recibir o pagamento** se cumpren para a liña de factura, seleccione **Liberar o pagamento do fornecedor**. A opción **Pagar ao recibir o pagamento** está borrada e o valor do campo **Listo para o pagamento** cambia a **Si**.
 
 

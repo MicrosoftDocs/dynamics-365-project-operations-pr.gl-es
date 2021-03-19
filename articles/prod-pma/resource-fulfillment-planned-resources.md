@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d849e7bdd020b0a2f5f35a627e28434ea77e5fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4200d74a18c706a492ebd0e5383d5957ce6ab6c8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076303"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288782"
 ---
 # <a name="resource-fulfillment-for-planned-resources"></a>Cumprimento de recursos para os recursos planificados
 
@@ -31,15 +31,15 @@ ms.locfileid: "4076303"
 
 Un xestor de proxectos pode planificar os roles de recursos necesarios para un proxecto. O xestor de recursos verá estes recursos planificados como solicitudes na páxina **Cumprimento de recursos** e pode atribuír recursos reais.
 
-1. Na páxina **Todos os proxectos** , seleccione o proxecto **Fase 2 de actualización de XYZ**.
+1. Na páxina **Todos os proxectos**, seleccione o proxecto **Fase 2 de actualización de XYZ**.
 2. Seleccione **Proxecto** e, a seguir, seleccione **Editar**.
-3. No separador **Equipo do proxecto e programación** , seleccione **Engadir**.
-4. Na caixa de diálogo **Engadir roles** , seleccione o rol **Programador de software**.
+3. No separador **Equipo do proxecto e programación**, seleccione **Engadir**.
+4. Na caixa de diálogo **Engadir roles**, seleccione o rol **Programador de software**.
 5. Seleccione **Crear** e logo peche a páxina do proxecto.
-6. Na páxina **Cumprimento de recursos** , seleccione **Programador de software 1** para o proxecto **Fase 2 de actualización de XYZ**.
+6. Na páxina **Cumprimento de recursos**, seleccione **Programador de software 1** para o proxecto **Fase 2 de actualización de XYZ**.
 7. Seleccione un traballador e, a seguir, seleccione **Atribuír**.
 8. Verifique que a liña para **Programador de software 1** se eliminou para o proxecto **Fase 2 de actualización de XYZ**.
-9. No separador **Equipo do proxecto e programación** , para o proxecto **Fase 2 de actualización de XYZ** , verifique que o traballador que seleccionou no paso anterior se engadiu como **Programador de software**.
+9. No separador **Equipo do proxecto e programación**, para o proxecto **Fase 2 de actualización de XYZ**, verifique que o traballador que seleccionou no paso anterior se engadiu como **Programador de software**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc4575f5b4b80e257e34e21980b0516e7c546e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076107"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287956"
 ---
 # <a name="work-breakdown-structures-overview"></a>Visión xeral de estruturas de subdivisión do traballo
 
@@ -49,8 +49,8 @@ Para crear unha WBS, ten que ser capaz de crear un programa de traballo e estima
 Para utilizar as capacidades de programación completas das funcionalidades de WBS, complete a seguinte configuración:
 
 1.  Configure un calendario predefinido e un calendario do proxecto:
-    1.  Prema **Xestión de proxectos e contabilidade** &gt; **Configuración** &gt; **Parámetros de xestión de proxectos e contabilidade** &gt; **Programación**. No campo **Calendario de traballo predefinido** , especifique un calendario predefinido. Este será o calendario de traballo predefinido para calquera proxecto novo que se cree.
-    2.  Pode cambiar o calendario predefinido para un proxecto específico. Prema na páxina de detalles do proxecto e, a seguir, no separador rápido **Equipo do proxecto e programación** , actualice o campo **Calendario de programación** seleccionando outro calendario.
+    1.  Prema **Xestión de proxectos e contabilidade** &gt; **Configuración** &gt; **Parámetros de xestión de proxectos e contabilidade** &gt; **Programación**. No campo **Calendario de traballo predefinido**, especifique un calendario predefinido. Este será o calendario de traballo predefinido para calquera proxecto novo que se cree.
+    2.  Pode cambiar o calendario predefinido para un proxecto específico. Prema na páxina de detalles do proxecto e, a seguir, no separador rápido **Equipo do proxecto e programación**, actualice o campo **Calendario de programación** seleccionando outro calendario.
 
 2.  Configure os días e horas de traballo estándar. O calendario que estableza como calendario de traballo para o seu proxecto utilizarase na WBS para determinar a seguinte información:
 
@@ -98,11 +98,11 @@ Actualmente, non se pode personalizar a numeración de WBS.
 
 **Eliminar sangría de tarefa** Cando se elimina a sangría dunha tarefa, xa non é unha tarefa dependente da súa tarefa principal. O número WBS desta tarefa recálculase automaticamente para reflectir o novo nivel da tarefa na xerarquía. O esforzo, custo e datas da tarefa principal anterior da tarefa calcúlanse de novo para excluír esa tarefa. 
 
-**Mover cara arriba e abaixo** Ao premer **Mover cara arriba** e **Mover cara abaixo** , cambia a posición dunha tarefa dentro da xerarquía das súas tarefas principais. A posición dunha tarefa non afecta ao esforzo, o custo, as datas ou a duración da tarefa. Non obstante, o número WBS da tarefa recálculase automaticamente para reflectir a nova posición da tarefa.
+**Mover cara arriba e abaixo** Ao premer **Mover cara arriba** e **Mover cara abaixo**, cambia a posición dunha tarefa dentro da xerarquía das súas tarefas principais. A posición dunha tarefa non afecta ao esforzo, o custo, as datas ou a duración da tarefa. Non obstante, o número WBS da tarefa recálculase automaticamente para reflectir a nova posición da tarefa.
 
 ### <a name="schedule-estimation"></a>Estimación de programación
 
-A estimación da programación adoita ser o segundo paso para crear unha WBS. Como mellor práctica, debería completar a estimación da programación despois de crear as tarefas. A páxina **Estrutura de subdivisión do traballo** en Finanzas ten dúas seccións. O panel superior está destinado á estimación de programación e o panel inferior inclúe un separador de **Custos e ingresos estimados** que pode empregar para a estimación de custos. 
+A estimación da programación adoita ser o segundo paso para crear unha WBS. Como mellor práctica, debería completar a estimación da programación despois de crear as tarefas. A páxina **Estrutura de subdivisión do traballo** en Finance ten dúas seccións. O panel superior está destinado á estimación de programación e o panel inferior inclúe un separador de **Custos e ingresos estimados** que pode empregar para a estimación de custos. 
 **Dependencias de tarefas** Nunha WBS, pode crear unha relación predecesora entre tarefas. Cando atribúe tarefas predecesoras a unha tarefa, esa tarefa só pode iniciarse despois de que conclúan todas as súas tarefas predecesoras. A data de inicio planificada da tarefa establécese automaticamente na data máis recente de todas as súas predecesoras. 
 
 **Programación de tarefas** Os seguintes factores determinan a programación das tarefas do nó folla:
@@ -253,7 +253,7 @@ Finanzas usa a regra de ganancia 0:100 cando representa graficamente o valor ga�
 Cando se calcula o valor gañado, considérase a porcentaxe de progreso de cada tarefa. Segundo a regra de ganancia 0:100, só se consideran as tarefas que se realizan nun período determinado para o cálculo do valor obtido a partir do final dese período. O valor gañado no proxecto calcúlase para todas as tarefas que se completaron cando se crea o gráfico. 
 
 > [!NOTE] 
-> Actualmente, o sistema de rastrexo de WBS non ten estruturas de datos para almacenar porcentaxes de progreso histórico en cada tarefa. Polo tanto, o valor obtido só se pode informar no momento en que se procesa o cubo. Procese o cubo regularmente para actualizar os datos do valor obtido que se amosan no centro de roles. 
+> Actualmente, o sistema para WBS non ten estruturas de datos para almacenar porcentaxes de progreso histórico en cada tarefa. Polo tanto, o valor obtido só se pode informar no momento en que se procesa o cubo. Procese o cubo regularmente para actualizar os datos do valor obtido que se amosan no centro de roles. 
 
 **Custo real** A teoría de EVM afirma que a representación gráfica do custo real representa a velocidade coa que se gasta o diñeiro no proxecto. 
 

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076265"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289727"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Transferir orzamentos de proxecto ao finalizar o ano fiscal
 
@@ -36,12 +36,12 @@ Ao traballar nun proxecto de varios anos, pode que teña un orzamento restante a
 Complete os seguintes pasos para revisar os importes do orzamento de fin de ano para os proxectos, pero non transfira os importes.
 
 1. Vaia a **Xestión e contabilidade de proxectos** > **Periódico** > **Orzamentos** > **Transferir orzamentos**. 
-2. Na páxina **Proceso de transferencia do orzamento do proxecto** , no separador **Opcións de fin de ano** , verifique que a opción **Transferir os importes restantes do orzamento do proxecto** non está activada.
-3. No separador **Parámetros** , no campo **Ano do orzamento do proxecto** , seleccione o ano fiscal para o que desexa ver o importe do orzamento restante. 
-4. No campo **Ano fiscal de apertura** , seleccione o ano fiscal para o que desexa ver o importe do orzamento restante. 
-5. No campo **A partir do modelo de previsión** , seleccione **Orzamento restante**. 
+2. Na páxina **Proceso de transferencia do orzamento do proxecto**, no separador **Opcións de fin de ano**, verifique que a opción **Transferir os importes restantes do orzamento do proxecto** non está activada.
+3. No separador **Parámetros**, no campo **Ano do orzamento do proxecto**, seleccione o ano fiscal para o que desexa ver o importe do orzamento restante. 
+4. No campo **Ano fiscal de apertura**, seleccione o ano fiscal para o que desexa ver o importe do orzamento restante. 
+5. No campo **A partir do modelo de previsión**, seleccione **Orzamento restante**. 
 6. Para incluír proxectos que cumpran os criterios seleccionados e que non teñan orzamento restante, seleccione **Mostrar cero restante**.  
-7. No separador **Seleccionar orzamentos** , seleccione **Recuperar todos os orzamentos** para cargar todos os orzamentos que coincidan cos criterios seleccionados e logo seleccione **Procesar**. 
+7. No separador **Seleccionar orzamentos**, seleccione **Recuperar todos os orzamentos** para cargar todos os orzamentos que coincidan cos criterios seleccionados e logo seleccione **Procesar**. 
 8. Para deseñar unha consulta de base de datos que cargue un conxunto específico de orzamentos no panel, seleccione **Recuperar os orzamentos seleccionados**.
 
 Para obter máis información sobre unha liña específica no panel, seleccione a liña e logo seleccione **Ver detalles do orzamento** ou **Ver contas**.
@@ -56,27 +56,27 @@ Cando procesa os importes do orzamento restantes, pode crear transaccións no li
 ## <a name="carry-forward-budget-amounts-and-create-general-ledger-transactions"></a><a name="carry-forward"></a>Transferir importes orzamentarios e crear transaccións de libro maior
 
 1.  Seleccione **Xestión e contabilidade de proxectos** > **Periódico** > **Orzamentos** > **Transferir orzamentos**. 
-2. Na páxina **Proceso de transferencia orzamento do proxecto** , seleccione **Fin de ano** e, a seguir, active **Transferir os importes restantes do orzamento do proxecto** e **Crea entradas de rexistro de orzamento no libro maior**. 
-3. No separador **Parámetros** , no grupo de campos **Parámetros do proxecto** , seleccione o seguinte:
+2. Na páxina **Proceso de transferencia orzamento do proxecto**, seleccione **Fin de ano** e, a seguir, active **Transferir os importes restantes do orzamento do proxecto** e **Crea entradas de rexistro de orzamento no libro maior**. 
+3. No separador **Parámetros**, no grupo de campos **Parámetros do proxecto**, seleccione o seguinte:
 
-   - **Ano do orzamento do proxecto** : Seleccione o ano fiscal para o que desexa ver os importes do orzamento restante. 
-   - **Beneficios e perdas** : Cree transaccións de resultados no libro maior. 
-   -  **WIP** : Cree transaccións de traballo en curso (WIP) no libro maior.
-   -  **Nómina** : Cree transaccións de asignación de nóminas no libro maior. 
+   - **Ano do orzamento do proxecto**: Seleccione o ano fiscal para o que desexa ver os importes do orzamento restante. 
+   - **Beneficios e perdas**: Cree transaccións de resultados no libro maior. 
+   -  **WIP**: Cree transaccións de traballo en curso (WIP) no libro maior.
+   -  **Nómina**: Cree transaccións de asignación de nóminas no libro maior. 
 
-5. No grupo de campos **Libro maior** , forneza a seguinte información: 
+5. No grupo de campos **Libro maior**, forneza a seguinte información: 
 
-   - No campo **Ano fiscal de apertura** , seleccione o ano fiscal ao que desexa transferir os importes do orzamento restante para os proxectos. O valor predefinido é un ano despois do valor no campo **Ano do orzamento do proxecto**.
-   -  No campo **Período de transferencia** , seleccione o período para o que desexa crear os detalles do rexistro de orzamento no libro maior. Este é normalmente o primeiro período do ano fiscal de apertura.
+   - No campo **Ano fiscal de apertura**, seleccione o ano fiscal ao que desexa transferir os importes do orzamento restante para os proxectos. O valor predefinido é un ano despois do valor no campo **Ano do orzamento do proxecto**.
+   -  No campo **Período de transferencia**, seleccione o período para o que desexa crear os detalles do rexistro de orzamento no libro maior. Este é normalmente o primeiro período do ano fiscal de apertura.
 
-6. No grupo de campos **Copiar de/a** , forneza a seguinte información:
+6. No grupo de campos **Copiar de/a**, forneza a seguinte información:
 
-   - No campo **A partir do modelo de previsión** , seleccione o modelo de previsión do orzamento do proxecto asociado cos importes orzamentarios restantes que desexa transferir para os proxectos. 
-   - No campo **Ao modelo de orzamento de libro maior** , seleccione o modelo de orzamento do libro maior asociado aos importes orzamentarios que desexa transferir ao libro maior. 
+   - No campo **A partir do modelo de previsión**, seleccione o modelo de previsión do orzamento do proxecto asociado cos importes orzamentarios restantes que desexa transferir para os proxectos. 
+   - No campo **Ao modelo de orzamento de libro maior**, seleccione o modelo de orzamento do libro maior asociado aos importes orzamentarios que desexa transferir ao libro maior. 
    -  Seleccione **Transferir moeda de vendas** para usar a moeda de vendas do proxecto para as transaccións de libro maior que se crean ao transferir os importes orzamentarios dos proxectos. Cando a opción non está seleccionada, as transaccións utilizan a moeda de contabilidade. 
    -  Seleccione **Mostrar cero restante** para incluír proxectos que non teñan cantidades orzamentarias restantes, pero que cumpran os outros criterios que seleccione nos proxectos que se amosan no panel inferior.
 
-7. No separador **Seleccionar orzamentos** , seleccione **Recuperar todos os orzamentos** para cargar todos os orzamentos que coincidan cos criterios seleccionados. Se prefire deseñar unha consulta de base de datos que cargue un conxunto específico de orzamentos do proxecto no panel, seleccione **Recuperar os orzamentos seleccionados**.
+7. No separador **Seleccionar orzamentos**, seleccione **Recuperar todos os orzamentos** para cargar todos os orzamentos que coincidan cos criterios seleccionados. Se prefire deseñar unha consulta de base de datos que cargue un conxunto específico de orzamentos do proxecto no panel, seleccione **Recuperar os orzamentos seleccionados**.
 8. Para cada proxecto que desexe procesar, seleccione a opción ao comezo da liña do proxecto.
 
     > [!TIP]
@@ -87,13 +87,13 @@ Cando procesa os importes do orzamento restantes, pode crear transaccións no li
 ## <a name="carry-forward-budget-amounts-without-creating-general-ledger-transactions"></a>Transferir importes orzamentarios sen crear transaccións de libro maior
 
 1. Vaia a **Xestión e contabilidade de proxectos** > **Periódico** > **Orzamentos** > **Transferir orzamentos**.
-2. Na páxina **Proceso de transferencia do orzamento do proxecto** , no separador **Opcións de fin de ano** , seleccione **Transferir os importes restantes do orzamento do proxecto**.
-3. No grupo **Parámetros** , no campo **Ano do orzamento do proxecto** , seleccione o ano fiscal para o que desexa ver os importes do orzamento restante.
-4. No grupo **Copiar de/a** , forneza a seguinte información:
+2. Na páxina **Proceso de transferencia do orzamento do proxecto**, no separador **Opcións de fin de ano**, seleccione **Transferir os importes restantes do orzamento do proxecto**.
+3. No grupo **Parámetros**, no campo **Ano do orzamento do proxecto**, seleccione o ano fiscal para o que desexa ver os importes do orzamento restante.
+4. No grupo **Copiar de/a**, forneza a seguinte información:
 
-   - No campo **A partir do modelo de previsión** , seleccione o modelo de previsión do orzamento do proxecto asociado aos importes orzamentarios restantes que desexa transferir para os proxectos. 
+   - No campo **A partir do modelo de previsión**, seleccione o modelo de previsión do orzamento do proxecto asociado aos importes orzamentarios restantes que desexa transferir para os proxectos. 
    - Seleccione **Mostrar cero restante** ara incluír proxectos que non teñan importes de orzamento restante, pero que cumpran os outros criterios que seleccionou.
-   - No grupo **Seleccionar orzamentos** , seleccione **Recuperar todos os orzamentos** para cargar todos os orzamentos que coincidan cos criterios seleccionados. Para deseñar unha consulta de base de datos que cargue un conxunto específico de orzamentos de proxecto no panel, seleccione **Recuperar os orzamentos seleccionados**.
+   - No grupo **Seleccionar orzamentos**, seleccione **Recuperar todos os orzamentos** para cargar todos os orzamentos que coincidan cos criterios seleccionados. Para deseñar unha consulta de base de datos que cargue un conxunto específico de orzamentos de proxecto no panel, seleccione **Recuperar os orzamentos seleccionados**.
 
 5. Para cada proxecto que desexe procesar, seleccione a opción ao comezo da liña do proxecto. 
 6. Seleccione **Proceso** para transferir os importes do orzamento restantes para os proxectos seleccionados ao ano fiscal seleccionado.
