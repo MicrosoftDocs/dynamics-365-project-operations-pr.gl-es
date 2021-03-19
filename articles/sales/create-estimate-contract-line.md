@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24299d997074efcff3776168652809d490c81b17
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cdc8984e080d995e3a0b667fe662291b499235b2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180460"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278506"
 ---
 # <a name="estimate-a-projectbased-contract-line"></a>Estimar unha liña de contrato baseado en proxecto
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_ 
 
-En Dynamics 365 Project Operations,, unha liña de contrato baseado en proxecto ten detalles que axudan a estimar o custo e os ingresos potenciais do traballo implicado para entregar a liña de contrato.
+En Dynamics 365 Project Operations, unha liña de contrato baseado en proxecto ten detalles que axudan a estimar o custo e os ingresos potenciais do traballo implicado para entregar a liña de contrato.
 
 Para estimar unha liña de contrato baseado en proxecto, vaia ao separador **Detalle da liña de contrato** na **Liña de contrato** baseado en proxecto.  Hai dúas formas de crear unha estimación nunha liña de contrato baseado en proxecto:
 

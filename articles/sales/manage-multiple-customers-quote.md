@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181990"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277876"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Xestionar varios clientes nunha oferta de proxecto
 
@@ -23,7 +23,7 @@ As ofertas de proxecto admiten a situación na que a proposta implica varios cli
 
 Todos os clientes da oferta no separador **Clientes** da oferta do proxecto son por defecto os clientes de liña da oferta en calquera **nova** liña de oferta baseada en proxecto creada para a oferta. Calquera liña de oferta baseada en proxecto existente non herdará os novos rexistros de clientes da oferta creados despois dela.
 
-Poden engadirse, actualizarse ou eliminarse clientes de oferta e clientes de liña de oferta en calquera momento antes de gañar a oferta. Un cliente válido na oferta debe establecerse como cliente na empresa propietaria ou entidade legal na páxina **Clientes**. As entidades legais créanse no módulo **Xestión e contabilidade de proxectos** de Dynamics 365 Project Operations e están dispoñibles como empresas nos módulos **Vendas e entrega de proxectos** de Project Operations.
+Poden engadirse, actualizarse ou eliminarse clientes de oferta e clientes de liña de oferta en calquera momento antes de gañar a oferta. Un cliente válido na oferta debe establecerse como cliente na empresa propietaria ou entidade legal na páxina **Clientes**. As entidades legais configúranse no módulo **Xestión e contabilidade de proxectos** de Dynamics 365 Project Operations e están dispoñibles como empresas nos módulos de **Vendas e entrega de proxectos** de Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Concepto de cliente principal
 

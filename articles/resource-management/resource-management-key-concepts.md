@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bcdfc7296ec09421668673d8502e7103c887d667
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123871"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279496"
 ---
 # <a name="resource-management-key-concepts"></a>Conceptos clave de xestión de recursos
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Os recursos son o activo máis importante dunha organización baseada en servizos. A capacidade de atopar os recursos axeitados no momento adecuado, reservar eses recursos nos proxectos e mantelos utilizados axuda á organización a cumprir os obxectivos de ingresos e os obxectivos de satisfacción do cliente. Pode empregar a funcionalidade de recursos de proxectos en Dynamics 365 Project Operations para realizar as seguintes tarefas:
+Os recursos son o activo máis importante dunha organización baseada en servizos. A capacidade de atopar os recursos axeitados no momento adecuado, reservar eses recursos nos proxectos e mantelos utilizados axuda á organización a cumprir os obxectivos de ingresos e os obxectivos de satisfacción do cliente. Pode empregar a funcionalidade de recursos de proxectos en Dynamics 365 Project Operations para facer as seguintes tarefas:
 
 - Formar equipos de proxecto reservando recursos dispoñibles e cualificados.
 - Crear rexistros xenéricos de membros do equipo e definir os seus roles e a unidade de organización de recursos.
