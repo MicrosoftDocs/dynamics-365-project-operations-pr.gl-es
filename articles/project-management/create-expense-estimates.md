@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131701"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287056"
 ---
 # <a name="expense-estimates"></a>Estimacións de gastos
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Xunto coa definición de estimacións baseadas en recursos, Dynamics 365 Project Operations permite aos xestores de proxectos definir gastos baseados en proxectos para cada proxecto. Cada elemento de gasto pode asociarse a unha tarefa ou categoría de gasto específica do proxecto. As categorías de gastos normalmente se definen a nivel organizativo. O prezo de cada categoría de gasto defínese normalmente na seguinte xerarquía:
+Ademais de definir estimacións baseadas en recursos, Dynamics 365 Project Operations permite aos xestores de proxectos definir gastos baseados en proxectos para cada proxecto. Cada elemento de gasto pode asociarse a unha tarefa ou categoría de gasto específica do proxecto. As categorías de gastos normalmente se definen a nivel organizativo. O prezo de cada categoría de gasto defínese normalmente na seguinte xerarquía:
 
 - Organización
 - Cliente

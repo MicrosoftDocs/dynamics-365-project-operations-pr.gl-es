@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ffe3373184c8cd776bf3705fd674bedf221d9b77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133336"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287236"
 ---
 # <a name="integration-journal-in-project-operations"></a>Diario de integración en Project Operations
 
@@ -30,7 +30,7 @@ Os rexistros no diario de Project Operations Integration créanse mediante un pr
 Cando se executa o proceso periódico, atoparanse os datos reais que aínda non se engadiron a Project Operations Integration. Créase unha liña de diario para cada transacción real.
 O sistema agrupa as liñas de diario en diarios separados en función do valor seleccionado no campo **Unidade de período no diario de Project Operations Integration** (**Finance** > **Xestión e contabilidade de proxectos** > **Configuración** > **Parámetros de xestión e contabilidade de proxectos**, **Project Operations en Dynamics 365 Customer Engagement**). Os valores posibles para este campo inclúen:
 
-  - _*Días**: Os datos reais agrúpanse por data de transacción. Créase un diario separado para cada día.
+  - **Días**: Os datos reais agrúpanse por data de transacción. Créase un diario separado para cada día.
   - **Meses**: Os datos reais agrúpanse por mes natural. Créase un diario separado para cada mes.
   - **Anos**: Os datos reais agrúpanse por ano natural. Créase un diario separado para cada ano.
   - **Todas**: Todas as transaccións reais están incluídas no mesmo diario de integración. Se o diario non está dispoñible cando se executa o proceso periódico, por exemplo, se o diario está en proceso de contabilizar transaccións, créase un novo diario.

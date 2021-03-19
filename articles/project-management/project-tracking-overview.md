@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127345"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286606"
 ---
 # <a name="project-tracking-overview"></a>Visión xeral do rastrexo de proxectos
 
@@ -23,7 +23,7 @@ A necesidade de rastrexar o progreso cunha programación varía segundo o sector
 
 ## <a name="effort-tracking-view"></a>Visualización de rastrexamento do esforzo
 
-A vista **Rastrexo do esforzo** rastrexa o progreso das tarefas de programación comparando as horas de esforzo real dedicadas a unha tarefa coas horas de esforzo planificadas da tarefa. Dynamics 365 Project Operations usa as seguintes fórmulas para calcular as métricas de rastrexo:
+A vista **Rastrexo do esforzo** rastrexa o progreso das tarefas de programación comparando as horas de esforzo real dedicadas a unha tarefa coas horas de esforzo planificadas da tarefa. Dynamics 365 Project Operations usa as seguintes fórmulas para calcular as métricas de seguimento:
 
 - **Porcentaxe de progreso**: Esforzo real realizado ata a data ÷ Estimación ao completar (EAC) 
 - **Estimación para completar (ETC)**: Esforzo previsto - Esforzo real realizado ata a data 
