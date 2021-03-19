@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 605bf2a578528117a6ef70614a8e5ff5a3fc300c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180595"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274771"
 ---
 # <a name="set-up-labor-cost-rates"></a>Configurar taxas de custo laboral
 
@@ -40,7 +40,7 @@ A seguinte táboa inclúe algúns dos campos que son importantes á hora de crea
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Transferir prezos e custos para recursos fóra da súa división ou entidade legal
 
-As empresas baseadas en proxectos é frecuente usar empregados de diferentes entidades legais ou divisións en proxectos. Un proxecto pode ser executado por unha entidade legal, pero os empregados ou consultores que traballan no proxecto poderían proceder da mesma entidade legal e división ou doutra diferente, ou pode haber unha combinación de ambas. En Dynamics 365 Project Operations, a entidade legal propietaria da entrega do proxecto é a **Empresa propietaria** e a división propietaria da entrega é a **Unidade de Contratación**. Outras entidades legais que proporcionan recursos son as **Empresas de recursos** e as divisións que proporcionan recursos son as **Unidades de recursos**. Na maioría dos países, as empresas están obrigadas a garantir que a entidade legal ou a división de recursos cobran á empresa propietaria e á unidade contratante polo uso dos recursos.
+As empresas baseadas en proxectos é frecuente usar empregados de diferentes entidades legais ou divisións en proxectos. Un proxecto pode ser executado por unha entidade legal, pero os empregados ou consultores que traballan no proxecto poderían proceder da mesma entidade legal e división ou doutra diferente, ou pode haber unha combinación de ambas. En Dynamics 365 Project Operations, a entidade legal propietaria da entrega do proxecto é a **Empresa propietaria** e a división propietaria da entrega é a **Unidade de contratación**. Outras entidades legais que proporcionan recursos son as **Empresas de recursos** e as divisións que proporcionan recursos son as **Unidades de recursos**. Na maioría dos países, as empresas están obrigadas a garantir que a entidade legal ou a división de recursos cobran á empresa propietaria e á unidade contratante polo uso dos recursos.
 
 Por exemplo, a corporación Fabrikam debe asegurarse de que Fabrikam India-Robotics negocie unha taxa de custo con Fabrikam US-Robotics ou Fabrikam UK-Robotics.
 

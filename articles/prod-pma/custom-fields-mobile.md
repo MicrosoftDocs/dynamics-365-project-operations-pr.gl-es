@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076186"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270991"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementar campos personalizados para a aplicación móbil Microsoft Dynamics 365 Project Timesheet en iOS e Android
 
@@ -61,11 +61,11 @@ A propiedade **FieldBaseType** no obxecto **TsTimesheetCustom** determina o tipo
 | 15          | GUID              | |
 | 16          | Int64             | |
 
-- Se a propiedade **stringOptions** non se fornece no obxecto **TSTimesheetCustomField** , fornécese ao usuario un campo de texto libre.
+- Se a propiedade **stringOptions** non se fornece no obxecto **TSTimesheetCustomField**, fornécese ao usuario un campo de texto libre.
 
     A propiedade **stringLength** pode usarse para establecer a lonxitude máxima da cadea que poden introducir os usuarios.
 
-- Se a propiedade **stringOptions** se fornece no obxecto **TSTimesheetCustomField** , eses elementos da lista son os únicos valores que os usuarios poden seleccionar usando os botóns de opción.
+- Se a propiedade **stringOptions** se fornece no obxecto **TSTimesheetCustomField**, eses elementos da lista son os únicos valores que os usuarios poden seleccionar usando os botóns de opción.
 
     Neste caso, o campo de cadea pode actuar como un valor inicial para os fins da entrada do usuario. Para gardar o valor na base de datos como unha enumeración, asigne manualmente o valor da cadea ao valor enumerado antes de gardalo na base de datos empregando a cadea de comando (consulte a sección "Usar a cadea de comando na clase TSTimesheetEntryService para gardar unha entrada de folla de control horario da aplicación de novo na base de datos" máis adiante neste tema para ver un exemplo).
 
@@ -125,31 +125,31 @@ Esta propiedade controla a orde na que se mostran os campos personalizados na ap
 
 ### <a name="booleanvalue-boolean"></a>booleanValue (boolean)
 
-Para campos do tipo **Booleano** , esta propiedade pasa o valor booleano do campo entre o servidor e a aplicación.
+Para campos do tipo **Booleano**, esta propiedade pasa o valor booleano do campo entre o servidor e a aplicación.
 
 ### <a name="guidvalue-guid"></a>guidValue (guid)
 
-Para campos do tipo **GUID** , esta propiedade pasa o valor de identificador único global (GUID) do campo entre o servidor e a aplicación.
+Para campos do tipo **GUID**, esta propiedade pasa o valor de identificador único global (GUID) do campo entre o servidor e a aplicación.
 
 ### <a name="int64value-int64"></a>int64Value (int64)
 
-Para campos do tipo **Int64** , esta propiedade pasa o valor de int64 do campo entre o servidor e a aplicación.
+Para campos do tipo **Int64**, esta propiedade pasa o valor de int64 do campo entre o servidor e a aplicación.
 
 ### <a name="intvalue-int"></a>intValue (int)
 
-Para campos do tipo **Int** , esta propiedade pasa o valor de int do campo entre o servidor e a aplicación.
+Para campos do tipo **Int**, esta propiedade pasa o valor de int do campo entre o servidor e a aplicación.
 
 ### <a name="realvalue-real"></a>realValue (real)
 
-Para campos do tipo **Real** , esta propiedade pasa o valor real do campo entre o servidor e a aplicación.
+Para campos do tipo **Real**, esta propiedade pasa o valor real do campo entre o servidor e a aplicación.
 
 ### <a name="stringvalue-str"></a>stringValue (str)
 
-Para campos do tipo **Cadea** , esta propiedade pasa o valor de cadea do campo entre o servidor e a aplicación. Tamén se usa para campos do tipo **Real** que teñen o formato de moeda. Para eses campos, a propiedade úsase para pasar o código de moeda á aplicación.
+Para campos do tipo **Cadea**, esta propiedade pasa o valor de cadea do campo entre o servidor e a aplicación. Tamén se usa para campos do tipo **Real** que teñen o formato de moeda. Para eses campos, a propiedade úsase para pasar o código de moeda á aplicación.
 
 ### <a name="datevalue-date"></a>dateValue (data)
 
-Para campos do tipo **Data** , esta propiedade pasa o valor de data do campo entre o servidor e a aplicación.
+Para campos do tipo **Data**, esta propiedade pasa o valor de data do campo entre o servidor e a aplicación.
 
 ## <a name="show-and-save-a-custom-field-in-the-timesheet-entry-section"></a>Mostrar e gardar un campo personalizado na sección de entrada de folla de control horario
 
@@ -179,9 +179,9 @@ Debaixo móstrase unha captura de pantalla de Visual Studio da árbore de obxect
 
 Este código controla a configuración de visualización do campo na aplicación. Por exemplo, controla o tipo de campo, a etiqueta, se o campo é obrigatorio e en que sección aparece o campo.
 
-O seguinte exemplo mostra un campo de cadea nas entradas de tempo. Este campo ten dúas opcións, **Primeira opción** e **Segunda opción** , que están dispoñibles a través dos botóns de opción. O campo da aplicación está asociado ao campo **TestLineString** que se engade á táboa TSTimesheetLine.
+O seguinte exemplo mostra un campo de cadea nas entradas de tempo. Este campo ten dúas opcións, **Primeira opción** e **Segunda opción**, que están dispoñibles a través dos botóns de opción. O campo da aplicación está asociado ao campo **TestLineString** que se engade á táboa TSTimesheetLine.
 
-Teña en conta o uso do método **TSTimesheetCustomField::newFromMetatdata()** para simplificar a inicialización das propiedades do campo personalizado: **fieldBaseType** , **tableName** , **filedname** , **label** , **isEditable** , **isMandatory** , **stringLength** e **numberOfDecimals**. Tamén pode configurar estes parámetros manualmente, como prefira.
+Teña en conta o uso do método **TSTimesheetCustomField::newFromMetatdata()** para simplificar a inicialización das propiedades do campo personalizado: **fieldBaseType**, **tableName**, **filedname**, **label**, **isEditable**, **isMandatory**, **stringLength** e **numberOfDecimals**. Tamén pode configurar estes parámetros manualmente, como prefira.
 
 ```xpp
 ...
@@ -248,7 +248,7 @@ Para gardar un campo personalizado de novo na base de datos no uso normal, debe 
 - O método **populateTimesheetWeekFromEntry** tamén se pode estender se o campo personalizado que está asignado ao obxecto de **TSTimesheetEntry** escribir de novo na táboa de base de datos TSTimesheetLineweek.
 
 > [!NOTE]
-> O seguinte exemplo garda o valor **firstOption** ou **secondOption** que o usuario selecciona na base de datos como un valor de cadea en bruto. Se o campo da base de datos é un campo do tipo **Enum** , eses valores pódense asignar manualmente a un valor enum e despois gardalos nun campo enum da táboa da base de datos.
+> O seguinte exemplo garda o valor **firstOption** ou **secondOption** que o usuario selecciona na base de datos como un valor de cadea en bruto. Se o campo da base de datos é un campo do tipo **Enum**, eses valores pódense asignar manualmente a un valor enum e despois gardalos nun campo enum da táboa da base de datos.
 
 ```xpp
 ...
@@ -410,7 +410,7 @@ A lóxica existente para a funcionalidade da folla de control horario a nivel de
 
 - Se **validateWrite** na táboa TSTimesheetLine mostra **false** durante unha operación de gardado para unha liña de folla de control horario, móstrase unha mensaxe de erro na aplicación móbil.
 - Se **validateSubmit** na táboa TSTimesheetTable mostra **false** durante o envío da folla de control horario na aplicación, móstrase unha mensaxe de erro ao usuario.
-- A lóxica que enche campos (por exemplo, **Propiedade de liña** ) durante o método **inserir** na táboa TSTimesheetLine aínda se executará.
+- A lóxica que enche campos (por exemplo, **Propiedade de liña**) durante o método **inserir** na táboa TSTimesheetLine aínda se executará.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Ocultar e marcar campos listos para usar como de só lectura mediante configuración
 

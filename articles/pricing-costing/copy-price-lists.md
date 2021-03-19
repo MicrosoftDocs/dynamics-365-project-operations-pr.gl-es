@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e49a95a04e9506e983d920c49d4c504d9f944c88
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181495"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275716"
 ---
 # <a name="copy-price-lists"></a>Copiar listas de prezos
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Pode crear copias de listas de prezos en Dynamics 365 Project Operations. Por exemplo, pode crear listas de prezos para o próximo ano usando unha lista de prezos do ano actual.  Ou pode copiar unha lista de prezos para as taxas de factura e os prezos de venda a partir das listas de prezos para custo. 
+Podes crear copias das listas de prezos en Dynamics 365 Project Operations. Por exemplo, pode crear listas de prezos para o próximo ano usando unha lista de prezos do ano actual.  Ou pode copiar unha lista de prezos para as taxas de factura e os prezos de venda a partir das listas de prezos para custo. 
 
 Para facer unha copia da lista de prezos, complete os seguintes pasos.
 

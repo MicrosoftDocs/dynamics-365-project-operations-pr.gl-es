@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4c04ff004febf3a07b329bf375e38acb43d19887
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181135"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277606"
 ---
 # <a name="project-contract-settings"></a>Configuración de contrato de proxecto
 
@@ -21,7 +21,7 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 
 Este tema ofrece información sobre campos que se aplican a todo o contrato do proxecto, incluídos os axustes que afectan a todas as liñas de contrato. Tamén se inclúe información sobre o contrato que se resume en todos os elementos de liña para impulsar os KPIs do contrato do proxecto.
 
-A seguinte táboa indica os campos de información resumida nun contrato de proxecto que son exclusivos de Dynamics 365 Project Operations ou teñen algúns cambios importantes no comportamento respecto dos pedidos de vendas de Dynamics 365 Sales.
+A seguinte táboa indica os campos dun contrato de proxecto que son exclusivos de Dynamics 365 Project Operations ou teñen algúns cambios importantes no comportamento dos pedidos de vendas en Dynamics 365 Sales.
 
 | Campo | Localización | Descripción | Impacto descendente |
 | --- | --- | --- | --- |

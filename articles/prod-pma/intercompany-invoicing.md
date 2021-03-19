@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076158"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270766"
 ---
 # <a name="intercompany-invoicing"></a>Facturación entre empresas
 
@@ -71,14 +71,14 @@ Para este exemplo, FRSI debe ser un cliente da persoa xurídica USSI e USSI debe
 
 3. Prema **Xestión de proxectos e contabilidade** &gt; **Configurar** &gt; **Prezos** &gt; **Prezo de transferencia**.
 4. Seleccione unha moeda, un tipo de transacción e un modelo de prezo de transferencia. A moeda que se usa na factura é a moeda que está configurada no rexistro do cliente para a persoa xurídica prestameira na persoa xurídica prestamista. A moeda úsase para facer coincidir as entradas da táboa de prezos de transferencia.
-5. Prema **Libro maior xeral** &gt; **Configuración de publicación** &gt; **Contabilidade entre empresas** , e configure unha relación para USSI e FRSI.
+5. Prema **Libro maior xeral** &gt; **Configuración de publicación** &gt; **Contabilidade entre empresas**, e configure unha relación para USSI e FRSI.
 
 ## <a name="example-2-create-and-post-an-intercompany-timesheet"></a>Exemplo 2: Crear e publicar unha folla de control horario entre empresas
 USSI, a persoa xurídica prestamista, debe crear e publicar a folla de control horario para un proxecto de FRSI, a persoa xurídica prestameira. Hai dous puntos de entrada para os pasos que son necesarios para esta tarefa.
 
 | Paso | Punto de entrada                                                                       | Descripción                                                                                                                                                                                       |
 |------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A    | **Xestión de proxectos e contabilidade** &gt; **Follas de control horario** &gt; **Todas as follas de control horario** | Cree unha folla de control horario nova Na liña da folla de control horario, no campo **Persoa xurídica** , seleccione **FRSI**. No campo **ID do proxecto** , seleccione o proxecto en FRSI. Introduza as horas de cada día da semana. |
+| A    | **Xestión de proxectos e contabilidade** &gt; **Follas de control horario** &gt; **Todas as follas de control horario** | Cree unha folla de control horario nova Na liña da folla de control horario, no campo **Persoa xurídica**, seleccione **FRSI**. No campo **ID do proxecto**, seleccione o proxecto en FRSI. Introduza as horas de cada día da semana. |
 | N    | Páxina **Folla de control horario**                                                                | Despois de executarse o fluxo de traballo, publique a folla de control horario e anote o número do vale.                                                                                                               |
 
 ## <a name="example-3-create-and-post-an-intercompany-vendor-invoice"></a>Exemplo 3: Crear e publicar unha factura de fornecedor entre empresas
@@ -87,7 +87,7 @@ USSI, a persoa xurídica prestamista, debe crear e publicar factura de fornecedo
 | Paso | Punto de entrada                                                                                      | Descripción                                                                                                                                                                                                                                                                          |
 |------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **Contas pendentes de pago** &gt; **Facturas** &gt; **Abrir facturas de fornecedor** &gt; **Nova factura de fornecedor** | Cree unha nova factura de fornecedor e introduza os servizos que se adquiriron en nome do proxecto de FRSI.                                                                                                                                                                                  |
-| N    | A páxina **Factura de fornecedor**                                                                      | Introduza liñas que representen os servizos subcontratados en nome de FRSI. No separador rápido **Detalles da liña** , no separador **Proxecto** para a liña de factura, no campo **Empresa do proxecto** , introduza **FRSI**. Introduza o proxecto e a información correspondente. A seguir, publique a factura do fornecedor. |
+| N    | A páxina **Factura de fornecedor**                                                                      | Introduza liñas que representen os servizos subcontratados en nome de FRSI. No separador rápido **Detalles da liña**, no separador **Proxecto** para a liña de factura, no campo **Empresa do proxecto**, introduza **FRSI**. Introduza o proxecto e a información correspondente. A seguir, publique a factura do fornecedor. |
 
 ## <a name="example-4-create-and-post-the-intercompany-invoice"></a>Exemplo 4: Crear e publicar a factura entre empresas
 USSI, a persoa xurídica prestamista, debe crear e publicar a factura entre empresas. Hai dous puntos de entrada para os pasos que son necesarios para esta tarefa.
@@ -95,7 +95,7 @@ USSI, a persoa xurídica prestamista, debe crear e publicar a factura entre empr
 | Paso | Punto de entrada                                                                                             | Descripción                                                                                                                                      |
 |------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **Xestión de proxectos e contabilidade** &gt; **Facturas do proxecto** &gt; **Factura de cliente entre empresas**  | Prema **Nova** para abrir a páxina **Crear factura entre empresas**.                                                                                  |
-| N    | **Xestión de proxectos e contabilidade** &gt; **Facturas do proxecto** &gt; **Facturas de cliente entre empresas** | Na páxina **Crear factura entre empresas** , introduza a persoa xurídica, especifique a transacción que se debería incluír e prema **Buscar**. |
+| N    | **Xestión de proxectos e contabilidade** &gt; **Facturas do proxecto** &gt; **Facturas de cliente entre empresas** | Na páxina **Crear factura entre empresas**, introduza a persoa xurídica, especifique a transacción que se debería incluír e prema **Buscar**. |
 | C    | **Xestión de proxectos e contabilidade** &gt; **Facturas do proxecto** &gt; **Facturas de cliente entre empresas** | Seleccione as transaccións que desexa facturar ou prema **Seleccionar todas** para facturar todas as transaccións da lista e prema en **Aceptar**.                  |
 | D    | A páxina **Factura entre empresas**                                                                       | Amósase a proposta de factura de cliente entre empresas.                                                                                             |
 | E    | A páxina **Factura entre empresas**                                                                       | Prema **Publicar**.                                                                                                                                  |

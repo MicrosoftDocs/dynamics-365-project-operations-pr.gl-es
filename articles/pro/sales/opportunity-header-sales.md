@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c34817181b75b1b0079974f536e4d7b032ae87dd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b84b1831abaf6c428f9b8da959abe2541c788db6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181034"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272701"
 ---
 # <a name="opportunity-header---lite"></a>Cabeceira de oportunidade - lite
 
@@ -21,7 +21,7 @@ _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
 A cabeceira Oportunidade recolle a información xeral sobre un acordo baseado en proxecto que se aplica a todas as liñas da oportunidade baseada en proxecto.
 
-As oportunidades baseadas en proxecto en Dynamics 365 Project Operations son extensións de oportunidades en Dynamics 365 Sales. Estas extensións proporcionan unha funcionalidade adicional específica e necesaria para oportunidades baseadas en proxecto. Estas extensións poden incluír novos campos e accións de banda dispoñibles en oportunidades baseadas en proxecto. Pode atopar que algúns campos, funcionalidade e lóxica predefinida que están dispoñibles en Vendas non están dispoñibles en Project Operations.
+As oportunidades baseadas en proxectos en Dynamics 365 Project Operations son extensións de oportunidades en Dynamics 365 Sales. Estas extensións proporcionan unha funcionalidade adicional específica e necesaria para oportunidades baseadas en proxecto. Estas extensións poden incluír novos campos e accións de banda dispoñibles en oportunidades baseadas en proxecto. Pode atopar que algúns campos, funcionalidade e lóxica predefinida que están dispoñibles en Vendas non están dispoñibles en Project Operations.
 
 A seguinte táboa inclúe os campos dunha oportunidade baseada en proxecto que son exclusivos de Project Operations ou teñen algúns cambios importantes no comportamento das oportunidades en vendas.
 

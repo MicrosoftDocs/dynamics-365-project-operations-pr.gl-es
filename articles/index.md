@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Project Operations
+title: Dynamics 365 Project Operations
 description: Neste tema se proporciona información sobre Dynamics 365 Project Operations.
 author: stsporen
 manager: AnnBe
@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7fce84c9cc1f9c1beda73f403c052f779d10559f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2b6a34e6c744e4b8ad9400f05844fefa005536a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120811"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275896"
 ---
-# <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
+# <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
-Microsoft Dynamics 365 Project Operations conecta equipos de vendas, recursos, xestión de proxectos e finanzas nunha única aplicación para gañar máis ofertas, acelerar a entrega do proxecto e maximizar a rendibilidade.
+Microsoft Dynamics 365 Project Operations conecta equipos de vendas, recursos, xestión de proxectos e finanzas nunha única aplicación para gañar máis ofertas, acelerar a entrega de proxectos e maximizar a rendibilidade.
 
 -   **Os líderes obteñen información de negocio** para aumentar a visibilidade en todos os equipos, datos e procesos, ademais de capacidades de IA para tomar decisións de negocio mellores e máis rápidas.
 -   **Sales está capacitada** para gañar máis ofertas e acelerar o ciclo de vendas con ofertas rápidas e precisas, prezos flexibles e transicións sen interrupcións da estimación á execución.
@@ -40,7 +40,7 @@ Project Operations é potente por si mesmo, pero pode ser ampliado polos nosos c
 Para obter máis información, consulte:
 
 - [Visión xeral de Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Visión xeral da onda 1 de lanzamento de Dynamics 365 Project Operations 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
+- [Visión xeral da onda 1 do lanzamento de Dynamics 365 Project Operations 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
 
 

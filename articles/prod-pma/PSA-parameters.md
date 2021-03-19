@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a0cee090e0ecb306aa3bda62c79a57dfade93c0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b8faba1d799e360e58d47a02dc8b46e09fa0d393
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076272"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270901"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Parámetros de integración de Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-Na páxina **Parámetros de integración de Project Service Automation** , pode configurar como se introducen os datos predefinidos cando se integra Dynamics 365 Project Service Automation con Dynamics 365 Finance. Para que os proxectos se sincronicen con éxito de Project Service Automation a Finanzas, debe configurar os seguintes campos.
+Na páxina **Parámetros de integración de Project Service Automation**, pode configurar como se introducen os datos predefinidos cando se integra Dynamics 365 Project Service Automation con Dynamics 365 Finance. Para que os proxectos se sincronicen con éxito de Project Service Automation a Finanzas, debe configurar os seguintes campos.
 
-Para abrir a páxina **Parámetros de integración de Project Service Automation** , vaia a **Xestión de proxectos e contabilidade** \> **Configurar** \> **Parámetros de integración de Dynamics 365 for Project Service Automation**. 
+Para abrir a páxina **Parámetros de integración de Project Service Automation**, vaia a **Xestión de proxectos e contabilidade** \> **Configurar** \> **Parámetros de integración de Dynamics 365 for Project Service Automation**. 
 
 > [!NOTE]
 > - A integración de tarefas do proxecto, categorías de transaccións de gastos, estimacións de horas, estimacións de gastos e bloqueo de funcionalidades están dispoñibles na versión 8.0.

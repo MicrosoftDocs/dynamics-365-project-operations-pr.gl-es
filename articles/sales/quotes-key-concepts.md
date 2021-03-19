@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121306"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277516"
 ---
 # <a name="quotes---key-concepts"></a>Ofertas - Conceptos clave
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-En Dynamics 365 Project Operations, hai dous tipos de ofertas: de proxecto e de vendas. Os dous tipos de ofertas difiren das seguintes formas:
+En Dynamics 365 Project Operations, hai dous tipos de ofertas: ofertas de proxecto e ofertas de vendas. Os dous tipos de ofertas difiren das seguintes formas:
 
 - **Grades para os elementos de liña**: Na oferta de vendas, só hai unha grade para elementos de liña. Nunha oferta de proxecto, hai dúas grades para os elementos de liña. Unha grade é para liñas de proxectos e a outra é para liñas de produtos.
 - **Activación e revisións**: As ofertas de vendas admiten a activación e revisións. Estes procesos non se admiten nunha oferta de proxecto.

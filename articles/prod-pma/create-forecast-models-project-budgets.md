@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 32a436d240f5535ff15f8bc3b8ba9be2d1d4da17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a3b9d3c154a85b50536a67ae0eb45d9b4f25f15
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076268"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271036"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Crear modelos de previsión para orzamentos de proxecto 
 
@@ -39,11 +39,11 @@ Este tema describe como crear un modelo de previsión para os orzamentos restant
 3. Configure a opción **Detido** en **Si** para evitar cambios nas liñas de previsión do modelo de previsión. 
 4. Se as liñas de previsión coas que se asocia o modelo deberían xerar previsións de fluxo de efectivo no libro maior, configure **Incluír nas previsións de fluxo de caixa** en **Si.** 
 5. Para usar a data do proxecto como data de factura, configure **Previsión da data da factura** en **Si**. 
-6. No campo **Tipo de orzamento** , seleccione un dos seguintes tipos de modelos:
+6. No campo **Tipo de orzamento**, seleccione un dos seguintes tipos de modelos:
 
-   - **Orzamento orixinal** : Use os importes do orzamento orixinal confirmados cando se crea e aproba o orzamento inicial.
-   - **Orzamento restante** : Use os importes do orzamento restante durante a vida do proxecto. Os saldos deste modelo de previsión redúcense por transaccións reais e aumentan ou diminúen por revisións orzamentarias.
-   - **Transferir** : Use os importes do orzamento transferidos para o proxecto. A transferencia é un proceso opcional que se pode executar para transferir cantidades orzamentarias non utilizadas dun ano fiscal a outro.
+   - **Orzamento orixinal**: Use os importes do orzamento orixinal confirmados cando se crea e aproba o orzamento inicial.
+   - **Orzamento restante**: Use os importes do orzamento restante durante a vida do proxecto. Os saldos deste modelo de previsión redúcense por transaccións reais e aumentan ou diminúen por revisións orzamentarias.
+   - **Transferir**: Use os importes do orzamento transferidos para o proxecto. A transferencia é un proceso opcional que se pode executar para transferir cantidades orzamentarias non utilizadas dun ano fiscal a outro.
 
 7. Defina as seguintes opcións segundo sexa necesario:
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a2c752ba6395ed4bf025092219350dc245f7428f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124681"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277246"
 ---
 # <a name="close-a-quote"></a>Pechar unha oferta
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Unha oferta de proxecto pódese pechar como gañada ou perdida. Como as operacións de activar e revisar non se admiten en ofertas en Microsoft Dynamics 365 Project Operations, pode pechar un borrador de oferta.
+Unha oferta de proxecto pódese pechar como gañada ou perdida. Debido a que as funcións Activar e Revisar non se admiten nas ofertas en Microsoft Dynamics 365 Project Operations, pode pechar un borrador de oferta.
 
 ## <a name="close-a-quote-as-won"></a>Pechar unha oferta como gañada
 

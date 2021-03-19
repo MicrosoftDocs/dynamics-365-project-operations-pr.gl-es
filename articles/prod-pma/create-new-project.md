@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 727d287c571b2a64bf10b2393a87567093a420d2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076267"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270721"
 ---
 # <a name="create-a-new-project"></a>Crear un novo proxecto
 
@@ -31,7 +31,7 @@ ms.locfileid: "4076267"
 
 Complete os seguintes pasos para crear un novo proxecto.
 
-1. Na páxina **Xestión de proxectos** , seleccione **Novo proxecto** e introduza os seguintes valores:
+1. Na páxina **Xestión de proxectos**, seleccione **Novo proxecto** e introduza os seguintes valores:
 
     - **Tipo de proxecto:** Tempo e material
     - **Nome do proxecto:** Fase 2 de actualización de XYZ
@@ -42,10 +42,10 @@ Complete os seguintes pasos para crear un novo proxecto.
 
 ## <a name="assign-a-resource-to-a-project"></a>Atribuír un recurso a un proxecto
 
-1. Na páxina **Traballadores** , na lista **Traballadores** , seleccione o rexistro do traballador para o que configurou competencias previamente e abra o rexistro de traballador.
-2. No panel Acción, no separador **Proxecto** , no grupo **Configurar** , seleccione **Atribuír proxectos**.
-3. Na páxina **Atribucións de proxectos de validación de recursos** , no separador **Proxectos** , no campo **Engadir o proxecto aos proxectos seleccionados** , filtre no proxecto **Fase 2 de actualización de XYZ**.
-4. No panel **Proxectos restantes** , seleccione un proxecto e seleccione o botón de frecha para engadilo ao panel **Proxectos seleccionados**.
+1. Na páxina **Traballadores**, na lista **Traballadores**, seleccione o rexistro do traballador para o que configurou competencias previamente e abra o rexistro de traballador.
+2. No panel Acción, no separador **Proxecto**, no grupo **Configurar**, seleccione **Atribuír proxectos**.
+3. Na páxina **Atribucións de proxectos de validación de recursos**, no separador **Proxectos**, no campo **Engadir o proxecto aos proxectos seleccionados**, filtre no proxecto **Fase 2 de actualización de XYZ**.
+4. No panel **Proxectos restantes**, seleccione un proxecto e seleccione o botón de frecha para engadilo ao panel **Proxectos seleccionados**.
 
 Tamén pode atribuír categorías a un recurso segundo o precise. O tipo de categoría é **Custo** ou **Ingresos**. O tipo de categoría está determinado pola súa organización. Se non se atribúen categorías a un recurso, Finanzas busca a categoría predefinida en prezos de hora para custo e ingresos.
 
@@ -59,26 +59,26 @@ Un xestor de proxectos pode usar a funcionalidade de dotación de recursos para 
 
 Os seguintes pasos mostran como o xestor de recursos pode configurar a función de xestor de proxectos principal e asociar as características dos recursos a el. Máis tarde, o rol pódese empregar para buscar recursos dispoñibles que coincidan coas competencias requiridas.
 
-1. Na páxina **Configurar roles** , seleccione **Novo** e introduza os seguintes valores:
+1. Na páxina **Configurar roles**, seleccione **Novo** e introduza os seguintes valores:
 
     - **ID de rol:** Xestor de proxectos principal
     - **Descrición:** Xestor de proxectos principal
 
 2. Seleccione **Crear**.
 3. Seleccione o rol **Xestor de proxectos principal** e seleccione **Configurar características**.
-4. No campo **Tipo de características** , seleccione **Habilidade**.
-5. No campo **Características dispoñibles** , introduza a habilidade para buscar.
-6. No campo **Tipo de característica** , seleccione **Certificado**.
-7. No campo **Características dispoñibles** , introduza o tipo de certificado para buscar.
+4. No campo **Tipo de características**, seleccione **Habilidade**.
+5. No campo **Características dispoñibles**, introduza a habilidade para buscar.
+6. No campo **Tipo de característica**, seleccione **Certificado**.
+7. No campo **Características dispoñibles**, introduza o tipo de certificado para buscar.
 
 ## <a name="assign-a-project-resource-to-a-project"></a>Atribuír un recurso de proxecto a un proxecto
 
-1. Na páxina **Todos os proxectos** , seleccione o proxecto **Fase 2 de actualización de XYZ**.
-2. No separador **Equipo do proxecto e programación** , seleccione **Engadir**.
-3. No campo **Rol** , seleccione **Membro do equipo**.
+1. Na páxina **Todos os proxectos**, seleccione o proxecto **Fase 2 de actualización de XYZ**.
+2. No separador **Equipo do proxecto e programación**, seleccione **Engadir**.
+3. No campo **Rol**, seleccione **Membro do equipo**.
 4. Seleccione **Reservar desde calendario**.
-5. Na páxina **Dispoñibilidade de recursos** , seleccione **Ver configuración**.
-6. Na páxina **Axustar configuración de visualización** , introduza os seguintes valores:
+5. Na páxina **Dispoñibilidade de recursos**, seleccione **Ver configuración**.
+6. Na páxina **Axustar configuración de visualización**, introduza os seguintes valores:
 
     - **Formato para a visualización do intervalo de datas:** Día
     - **Mostrar descricións de dispoñibilidade:** Si
@@ -95,15 +95,15 @@ Durante a reserva de recursos, os xestores de proxectos poden filtrar os recurso
 
 **Escenario:** Comezou un proxecto aprobado e reservouse a función de xestor de proxectos principal como recurso planificado durante a fase de planificación do proxecto. O xestor de recursos agora adquiriu un recurso para cubrir o rol de xestor de proxectos principal.
 
-1. Na páxina **Lista de recursos** , seleccione **Daniel Goldschmidt**.
-2. Na páxina **Rol de recurso** , seleccione **Novo** e introduza os seguintes valores:
+1. Na páxina **Lista de recursos**, seleccione **Daniel Goldschmidt**.
+2. Na páxina **Rol de recurso**, seleccione **Novo** e introduza os seguintes valores:
 
     - **Efectivo:** Introduza a data actual.
     - **Caducidade:** Introduce **Nunca**.
     - **Rol:** Introduza **Xestor de proxectos principal**.
 
 3. Seleccione **Gardar** e logo peche a páxina.
-4. No separador **Competencias** , engada a habilidade **ProjectMgmt** e o certificado **PMP**.
+4. No separador **Competencias**, engada a habilidade **ProjectMgmt** e o certificado **PMP**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

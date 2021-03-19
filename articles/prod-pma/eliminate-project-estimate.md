@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 8bda8a7357e883b948449b2a19bea476996dde3c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 000eabdac41f30a6e7dd37e34b8fd91d7c51f6c4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076185"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270676"
 ---
 # <a name="eliminate-a-project-estimate"></a>Eliminar unha estimación de proxecto
 
@@ -34,18 +34,18 @@ As estimacións de proxecto fornecen a visualización financeira para o traballo
 Para eliminar un proxecto de estimación, debe estar completo. Os seguintes pasos explican como eliminar unha estimación.
 
 1. Vaia a **Xestión e contabilidade de proxectos** > **Todos os proxectos** e abra o proxecto. 
-2. No separador **Xestionar** , seleccione **Estimacións** e na páxina **Estimación** seleccione **Eliminar**.
-3. Na páxina **Eliminar estimación** no separador **Xeral** , configure as seguintes opcións:
+2. No separador **Xestionar**, seleccione **Estimacións** e na páxina **Estimación** seleccione **Eliminar**.
+3. Na páxina **Eliminar estimación** no separador **Xeral**, configure as seguintes opcións:
 
-   - **Código do período** : Seleccione o código do período para escoller os proxectos de estimación axeitados. 
-   - **Data da estimación** : Seleccione a data da estimación axeitada para a eliminación.
-   - **Eliminar con advertencias de WIP** : Active esta opción para proporcionar unha notificación cando se elimine unha estimación asociada a un traballo en curso (WIP). Cando esta opción non está activada, a eliminación non pode continuar se existen transaccións non estimadas. 
+   - **Código do período**: Seleccione o código do período para escoller os proxectos de estimación axeitados. 
+   - **Data da estimación**: Seleccione a data da estimación axeitada para a eliminación.
+   - **Eliminar con advertencias de WIP**: Active esta opción para proporcionar unha notificación cando se elimine unha estimación asociada a un traballo en curso (WIP). Cando esta opción non está activada, a eliminación non pode continuar se existen transaccións non estimadas. 
    > [!NOTE]
-   > Esta opción só está dispoñible cando se aplica a eliminación a un proxecto de estimación. Non está dispoñible se está a usar anotacións periódicas. Esta configuración funciona coa configuración do separador **Estimación** na páxina **Parámetros do proxecto** , no grupo de campos **Permitir a eliminación cando existen transaccións non estimadas**.
-   - **Establecer a fase como Finalizada** : Active esta opción para establecer a fase do proxecto de estimación en **Finalizada** despois de executar a eliminación.
-   - **Imprimir lista de estimacións** : Seleccione a información que se incluirá cando se imprima a lista de estimacións.
-   - **Mostrar Infolog** : Active esta opción para amosar o Infolog.
-   - **Data de contabilización** : Elixa a data de contabilización no libro maior da estimación.
+   > Esta opción só está dispoñible cando se aplica a eliminación a un proxecto de estimación. Non está dispoñible se está a usar anotacións periódicas. Esta configuración funciona coa configuración do separador **Estimación** na páxina **Parámetros do proxecto**, no grupo de campos **Permitir a eliminación cando existen transaccións non estimadas**.
+   - **Establecer a fase como Finalizada**: Active esta opción para establecer a fase do proxecto de estimación en **Finalizada** despois de executar a eliminación.
+   - **Imprimir lista de estimacións**: Seleccione a información que se incluirá cando se imprima a lista de estimacións.
+   - **Mostrar Infolog**: Active esta opción para amosar o Infolog.
+   - **Data de contabilización**: Elixa a data de contabilización no libro maior da estimación.
 
 4.  Seleccione **Aceptar**.
 5. Despois de completar o proceso de eliminación, o proxecto de estimación eliminado móstrase cun valor negativo. 

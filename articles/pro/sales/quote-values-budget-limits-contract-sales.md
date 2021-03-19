@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180949"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272431"
 ---
 # <a name="summary-information-on-a-project-quote---lite"></a>Información resumida sobre unha oferta de proxecto - lite
 
@@ -21,7 +21,7 @@ _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
 Este artigo explica a información que se aplica a unha oferta de proxecto. Isto inclúe a configuración que afecta a todas as liñas de oferta e información sobre a oferta que se resume en todos os elementos de liña para impulsar os KPI da oferta de proxecto.
 
-A seguinte táboa indica os campos de información resumida nunha oferta de proxecto que son exclusivos de Dynamics 365 Project Operations ou teñen algúns cambios importantes no comportamento respecto das ofertas de Dynamics 365 Sales.
+A seguinte táboa indica os campos de información resumida dunha oferta de proxecto que son exclusivos de Dynamics 365 Project Operations ou teñen algúns cambios importantes no comportamento das ofertas de Dynamics 365 Sales.
 
 | **Campo** | **Localización** | **Descrición** | **Impacto descendente** |
 | --- | --- | --- | --- |

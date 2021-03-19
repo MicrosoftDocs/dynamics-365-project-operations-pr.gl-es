@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: be1663c0d226fa19fe4b9df566e16d215f1fc08e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4865c06691fba09eacf5fe6449adfaf542444520
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181090"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272971"
 ---
 # <a name="project-based-quote-lines-overview---lite"></a>Visión xeral de liñas de oferta baseada en proxecto - lite
 
@@ -34,7 +34,7 @@ A seguinte táboa ofrece información sobre os campos do separador **Xeral** da 
 | **Campo** | **Descrición** | **Impacto descendente** |
 | --- | --- | --- |
 | Nome | O nome da liña de oferta que debería axudarlle a identificar o compoñente discreto da oferta que se estima. | Copiado á liña de contrato de proxecto que se crea a partir desta liña de oferta cando se gaña a oferta. |
-| Método de facturación | Nunha oferta creada a partir dunha oportunidade, este valor copiase desde campo correspondente na liña de oferta. Este campo inclúe os dous modelos de contratación principais admitidos por Dynamics 365 Project Operations:</br>- Prezo fixo</br>- Tempo e material.| Este valor de campo se copia á liña de contrato de proxecto que se crea a partir desta liña de oferta cando se gaña a oferta. |
+| Método de facturación | Nunha oferta creada a partir dunha oportunidade, este valor copiase desde campo correspondente na liña de oferta. Este campo inclúe os dous principais modelos de contratación admitidos por Dynamics 365 Project Operations:</br>- Prezo fixo</br>- Tempo e material.| Este valor de campo se copia á liña de contrato de proxecto que se crea a partir desta liña de oferta cando se gaña a oferta. |
 | Project | Use este campo opcional para identificar o proxecto que se usará para entregar o traballo neste compromiso. Cando un proxecto está asignado a unha liña de oferta, axuda a configurar tarefas imputables e tamén a traer unha estimación baseada no proxecto á liña de oferta como detalles da liña de oferta. Cando un proxecto non está asignado a unha liña de oferta baseada en proxecto, a estimación debe crearse manualmente creando cada detalle da liña de oferta. | Este valor de campo se copia á liña de contrato de proxecto que se crea a partir desta liña de oferta cando se gaña a oferta.|
 | Tarefas incluídas | Indica se esta liña de oferta se usa para todas ou algunhas das tarefas do proxecto seleccionado. Este campo ten os seguintes valores posibles:</br>- Todas as tarefas do proxecto</br>- Só tarefas do proxecto seleccionadas</br>Un valor en branco neste campo equivale á opción **Todas as tarefas do proxecto**. | Cando se selecciona **Só as tarefas do proxecto seleccionadas**, na páxina do proxecto, o separador **Configuración da facturación das tarefas** permítelle seleccionar tarefas específicas para asocialas a esta liña de oferta. Este valor de campo se copia á liña de contrato de proxecto que se crea a partir desta liña de oferta cando se gaña a oferta. |
 | Incluír tempo | O indicador **Si**/**Non** indica se as transaccións de tempo ou os custos laborais do proxecto seleccionado se incluirán na estimación nesta liña de oferta. O valor **Non** indica que as transaccións de tempo ou o custo laboral do proxecto seleccionado non se incluirán na estimación nesta liña de oferta. O valor **Si** indica que as transaccións de tempo ou o custo laboral do proxecto seleccionado se incluirán na estimación nesta liña de oferta. | Este valor de campo se copia á liña de contrato de proxecto que se crea a partir desta liña de oferta cando se gaña a oferta. |
