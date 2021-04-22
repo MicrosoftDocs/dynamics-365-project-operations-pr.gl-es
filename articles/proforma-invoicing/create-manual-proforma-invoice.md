@@ -1,42 +1,27 @@
 ---
-title: Crear unha factura proforma manual
-description: Este tema ofrece información sobre a creación dunha factura proforma.
+title: Facturas proforma
+description: Este tema ofrece información sobre as facturas proforma en Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: b143ba286f25ecb23fea09a85bca06543f7f55ff
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287776"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866859"
 ---
-# <a name="create-a-manual-proforma-invoice"></a>Crear unha factura proforma manual
+# <a name="proforma-invoices"></a>Facturas proforma
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Facturación proporciona aos xestores de proxectos un segundo nivel de aprobación antes de que creen facturas para os clientes. O primeiro nivel de aprobación complétase cando se aproban as entradas de tempo e gasto que envían os membros do equipo do proxecto.
+A facturación proforma proporciona aos xestores de proxectos un segundo nivel de aprobación antes de que creen facturas para os clientes. O primeiro nivel de aprobación complétase cando se aproban as entradas de tempo, gasto e material que envían os membros do equipo do proxecto. As facturas proforma confirmadas están dispoñibles no módulo de Contabilidade de proxecto de Project Operations. Os contables do proxecto poden realizar actualizacións adicionais como impostos sobre vendas, contabilidade e deseño de facturas.
 
-Dynamics 365 Project Operations non se deseñou para xerar facturas orientadas ao cliente polos seguintes motivos:
-
-- Non contén información fiscal.
-- Non pode converter outras moedas á moeda de facturación mediante tipos de cambio configurados correctamente.
-- Non pode formatar correctamente as facturas para que poidan imprimirse.
-
-Pola contra, pode utilizar un sistema financeiro ou de contabilidade para crear facturas orientadas ao cliente que usan a información das propostas de facturas xeradas.
 
 ## <a name="creating-project-invoices"></a>Creación de facturas de proxecto
 
@@ -50,7 +35,7 @@ Siga este paso para crear unha factura para un contrato de proxecto específico.
 
 - Na páxina de lista **Contratos de proxecto**, abra un contrato de proxecto e, a seguir, seleccione **Crear factura**.
 
-    Xérase unha factura para todas as transaccións do contrato de proxecto seleccionado que teñan un estado de **Listo para facturar**. Estas transaccións inclúen tempo, gastos, fitos e liñas de contratos baseadas en produtos.
+    Xérase unha factura para todas as transaccións do contrato de proxecto seleccionado que teñan un estado de **Listo para facturar**. Estas transaccións inclúen tempo, gastos, materiais, fitos e outras liñas de diario de vendas non facturadas.
 
 Siga estes pasos para crear facturas en masa.
 
@@ -60,7 +45,7 @@ Siga estes pasos para crear facturas en masa.
 
 2. Seleccione **Aceptar** para pechar a caixa de mensaxe.
 
-    Xérase unha factura para todas as transaccións dunha liña de contrato que teñan un estado de **Listo para facturar**. Estas transaccións inclúen tempo, gastos, fitos e liñas de contratos baseadas en produtos.
+    Xérase unha factura para todas as transaccións dunha liña de contrato que teñan un estado de **Listo para facturar**. Estas transaccións inclúen tempo, gastos, materiais, fitos e outras liñas de diario de vendas non facturadas.
 
 3. Para ver as facturas que se xeran, vaia a **Vendas** \> **Facturación** \> **Facturas**. Verá unha factura por cada contrato do proxecto.
 
@@ -93,11 +78,10 @@ O traballo de proceso por lotes para crear facturas é un traballo recorrente. S
  
 ### <a name="edit-a-draft-invoice"></a>Edita un borrador de factura
 
-Cando se crea un borrador de factura de proxecto, todas as transaccións de vendas non facturadas que se crearon cando se aprobaron as entradas de tempo e gasto son enviadas á factura. Pode realizar os seguintes axustes mentres a factura aínda está en fase de borrador:
+Cando se crea un borrador de factura de proxecto, todas as transaccións de vendas non facturadas que se crearon cando se aprobaron as entradas de tempo, gasto e uso de material son enviadas á factura. Pode realizar os seguintes axustes mentres a factura aínda está en fase de borrador:
 
 - Eliminar ou editar os detalles da liña de factura.
 - Editar e axustar a cantidade e o tipo de facturación.
-- Engadir directamente tempo, gastos e taxas como transaccións na factura. Pode empregar esta funcionalidade se a liña de factura está asignada a unha liña de contrato que permite estas clases de transaccións.
 
 Seleccione **Confirmar** para confirmar unha factura. A acción Confirmar é unha acción unidireccional. Cando seleccione **Confirmar**, o sistema fai a factura só de lectura e crea facturas de vendas facturadas a partir de cada detalle da liña de factura para cada liña de factura. Se o detalle da liña de factura fai referencia a un prezo real de vendas non facturadas, o sistema tamén inverte o dato real de vendas non facturadas. (Calquera detalle de liña de factura que se crease a partir dunha entrada de gasto ou referencia fará referencia a un dato real de vendas non facturadas). Os sistemas de integración de libro de contabilidade xeral poden usar esta inversión para inverter o traballo do proxecto (WIP) para contabilidade.
 

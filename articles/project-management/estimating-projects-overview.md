@@ -1,31 +1,41 @@
 ---
-title: Visión xeral da estimación de proxectos
-description: Este tema fornece información sobre as estimacións en Dynamics 365 Project Operations.
-author: ruhercul
+title: Conceptos de estimación financeira
+description: Este tema ofrece información sobre as estimacións financeiras de proxectos en Project Operations.
+author: rumant
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286876"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701734"
 ---
-# <a name="estimate-projects-overview"></a>Visión xeral da estimación de proxectos
+# <a name="financial-estimation-concepts"></a>Conceptos de estimación financeira
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
+En Dynamics 365 Project Operations, pode estimar financeiramente os seus proxectos en dúas fases: 
+1. Durante a fase de prevenda antes de gañar o acordo. 
+2. Durante a fase de execución despois da creación do contrato do proxecto. 
+
+Pode crear unha estimación financeira para o traballo baseado en proxectos usando calquera das seguintes 3 páxinas:
+- A páxina **Liña de oferta**, usando os detalles da liña de oferta.  
+- A páxina **Liña de contrato de proxecto**, usando os detalles da liña de contrato. 
+- A páxina **Proxecto**, usando as páxinas do separador **Tarefas** ou **Estimacións de gastos**.
+
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Usar unha oferta de proxecto para crear unha estimación
 Nunha oferta baseada en proxectos, pode usar a entidade **Detalle de liña de oferta** para estimar o traballo que é necesario para entregar un proxecto. Despois pode compartir esa estimación co cliente.
 
 As liñas da oferta baseada en proxectos poden ter de cero a moitos detalles de liña de oferta. Os detalles de liña de oferta utilízanse para estimar tempo, gastos ou tarifas. Microsoft Dynamics 365 Project Operations non permite estimacións de materiais sobre os detalles de liña de oferta. Estas se chaman clases de transacción. Os importes de impostos estimados tamén se poden introducir nunha clase de transacción.
 
 Ademais das clases de transacción, os detalles de liña de oferta teñen un tipo de transacción. Admítense dous tipos de transacción para detalles de liña de oferta: **Custo** e **Contrato do proxecto**.
 
-## <a name="estimate-by-using-a-contract"></a>Estimar mediante un contrato
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Usar un contrato de proxecto para crear unha estimación
 
 Se utilizou unha oferta cando creou un contrato baseado en proxectos, a estimación que fixo para cada liña de oferta na oferta cópiase no contrato de proxecto. A estrutura dun contrato de proxecto é como a estrutura da oferta do proxecto que ten liñas, detalles de liña e programas de facturas.
 
@@ -35,27 +45,21 @@ Os detalles de liña de contrato pódense utilizar para estimar tempo, gastos ou
 
 As estimacións de materiais no se permiten nos detalles de liña de contrato.
 
-Os procesos que se admiten nun contrato de proxecto son a creación e confirmación de facturas. A creación de facturas crea un borrador dunha factura baseada en proxecto que inclúe todos os datos reais de vendas sen facturar ata a data actual.
+## <a name="use-a-project-to-create-an-estimate"></a>Empregue un proxecto para crear unha estimación 
 
-A confirmación fai que o contrato sexa só de lectura e cambie o seu estado de **Borrador** a **Confirmado**. Despois de realizar esta acción, non pode desfacela. Dado que esta acción é permanente, é unha mellor práctica manter o contrato nun estado de **Borrador**.
-
-As únicas diferenzas entre os borradores de contrato e os contratos confirmados son o seu estado e o feito de que os borradores de contrato se poden editar mentres que os contratos confirmados non poden editarse. A creación de facturas e o rastrexo de datos reais pódense realizar tanto nos borradores de contrato como nos contratos confirmados.
-
-Project Operations non admite a modificación de pedidos en contratos ou proxectos.
-
-## <a name="estimating-projects"></a>Estimación de proxectos
-
-Pode estimar tempo e gastos en proxectos. Project Operations non permite estimacións de materiais ou tarifas nos proxectos.
+Pode estimar tempo e gastos en proxectos. Project Operations non admite estimacións de materiais ou taxas nos proxectos.
 
 As estimacións de tempo xéranse cando vostede crea unha tarefa e identifica os atributos dun recurso xenérico que se require para realizar a tarefa. As estimacións de tempo xéranse a partir de tarefas de programación. As estimacións de tempo non se crean se vostede crea membros xenéricos do equipo fóra do contexto da programación.
 
-As estimacións de gastos introdúcense na grade na páxina **Estimacións**.
+As estimacións de gastos introdúcense na grade na páxina **Estimacións de gastos**.
 
-## <a name="understanding-estimation"></a>Comprensión da estimación
+Crear unha estimación para un proxecto considérase unha boa práctica porque vostede pode elaborar estimacións detalladas para traballo ou tempo e gastos en cada tarefa do plan do proxecto. A seguir, pode empregar esta estimación detallada para crear estimacións para cada liña de oferta e crear unha oferta máis crible para o cliente. Cando importa ou crea unha estimación detallada na liña de oferta usando o plan do proxecto, Project Operations importa os valores de vendas e os valores de custo destas estimacións. Despois da importación, pode ver as métricas de rendibilidade, marxes e viabilidade na oferta do proxecto.
+
+## <a name="understanding-estimates"></a>Comprensión das estimacións
 
 Utilice a seguinte táboa como guía para comprender a lóxica de negocio na fase de estimación.
 
-| Escenario                                                                                                                                                                                                                                                                                                                                          | Rexistro de entidades                                                                                                                                                                                                       | Tipo de transacción | Clase de transacción | Información adicional                                                            |
+| Escenario                                                                                                                                                                                                                                                                                                                                          | Rexistro da entidade                                                                                                                                                                                                       | Tipo de transacción | Clase de transacción | Información adicional                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-------------|-----------------------------------------------------------------------------------|
 | Cando necesite estimar o valor de vendas de tempo nunha oferta                                                                                                                                                                                                                                                                                    | Créase o rexistro de detalle de liña de oferta (QLD)                                                                                                                                                                               | Contrato do proxecto | Time        | O campo de orixe da transacción na fila QLD de vendas fai referencia a QLD de custo |
 |                                                                                                                                                                                                                                                                                     | O sistema crea un segundo rexistro QLD para almacenar os valores de custo correspondentes. O sistema copia todos os campos non monetarios do QLD de vendas ao QLD de custo.                                                                                                                                                                               | Custo | Time        | O campo de orixe da transacción na fila de detalle de liña de oferta (QLD)de vendas fai referencia ao QLD de custo |

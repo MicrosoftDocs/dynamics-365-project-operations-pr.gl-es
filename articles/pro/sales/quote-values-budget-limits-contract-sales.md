@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0a7fb3419536ca3a595ec339b971e32c11f9671e
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272431"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663991"
 ---
-# <a name="summary-information-on-a-project-quote---lite"></a>Información resumida sobre unha oferta de proxecto - lite
+# <a name="header-details-for-project-quotes"></a>Detalles da cabeceira para ofertas de proxecto
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 

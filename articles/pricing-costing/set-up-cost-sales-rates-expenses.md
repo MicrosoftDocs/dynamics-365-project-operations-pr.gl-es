@@ -3,17 +3,17 @@ title: Configurar taxas de custo e vendas para os gastos
 description: Este tema ofrece información sobre como configurar as taxas de custo e vendas para categorías de transaccións e gastos.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274906"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877218"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Configurar taxas de custo e vendas para os gastos
 
@@ -23,9 +23,10 @@ Pode configurar os prezos de custo e de venda para categorías de transaccións 
 
 Para configurar as taxas de custo e vendas para as categorías de transaccións, complete os seguintes pasos. 
 
-1. Cree unha lista de prezos baseada na cabeceira da lista de prezos. 
-2. En **Prezos de categoría**, no menú da subgrade, seleccione **+ Novo prezo de categoría**. 
-3. Na páxina **Creación rápida**, introduza a categoría de transaccións e a unidade para a que está a crear o novo prezo.
+1. Vaia a **Vendas** > **Clientes** > **Listas de prezos**.
+2. Seleccione **Nova** para crear unha nova lista de prezos. 
+3. En **Prezos de categoría**, no menú da subgrade, seleccione **Novo prezo de categoría**. 
+4. Na páxina **Creación rápida**, introduza a categoría de transaccións e a unidade para a que está a crear o novo prezo.
 
 A seguinte táboa mostra os campos do separador **Xeral** e a páxina **Creación rápida** dunha liña de prezos de categoría que debe ter en conta ao crear prezos de categoría nunha lista de prezos de vendas ou de custo.
 

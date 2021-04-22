@@ -1,39 +1,52 @@
 ---
-title: Estimacións de recursos
-description: Este tema ofrece información sobre como se calculan as estimacións de recursos en Project Operations.
-author: ruhercul
+title: Estimacións financeiras do tempo de recursos en proxectos
+description: Este tema ofrece información sobre como se calculan as estimacións financeiras para o tempo.
+author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/19/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 98a61746f172b50bf6fa29cb0d21462cd616f417
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: 91156c5cf79af8c66c12b84a6d2b17aa7fe09ed1
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286516"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701824"
 ---
-# <a name="resource-estimates"></a>Estimacións de recursos
+# <a name="financial-estimates-for-resource-time-on-projects"></a>Estimacións financeiras do tempo de recursos en proxectos
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-As estimacións de recursos proceden dun esforzo de fases de tempo que se define na estrutura de subdivisión do traballo xunto coas dimensións de prezos aplicables. Normalmente, o cálculo é **taxa/hora para cada rol x horas.** O esforzo de fases de tempo para cada recurso almacénase no rexistro de atribución de recursos. Os prezos almacénanse nunha lista de prezos predefinida. A conversión de unidades aplícase en función da lista de prezos aplicable.
+As estimacións financeiras para o tempo calcúlanse en función de tres factores: 
+
+- O tipo de membro xenérico ou nomeado do equipo atribuído a cada tarefa de nó folla no plan do proxecto. 
+- O tipo ou complexidade do traballo.
+- A extensión do esforzo para a atribución do recurso na tarefa. 
+
+Os dous primeiros factores inflúen no custo unitario ou na taxa de facturación da atribución dun recurso. O custo unitario ou a taxa de facturación dunha atribución de recursos está determinado polos atributos do recurso atribuído. Estes atributos inclúen a unidade organizativa á que pertence o recurso e o rol estándar do recurso. Tamén pode engadir atributos personalizados relevantes para a súa empresa para o recurso, como o título estándar ou o nivel de experiencia, e que inflúan no custo unitario ou na taxa de facturación da tarefa.
+Ademais dos atributos do recurso, os atributos do traballo, como a tarefa, tamén poden influír na taxa de facturación unitaria ou na taxa de custos da atribución. Por exemplo, cando certas tarefas son máis complexas, a atribución do recurso a esas tarefas específicas dá lugar a un custo unitario ou unha taxa de facturación superiores aos das tarefas menos complexas.   
+
+O terceiro factor proporciona a cantidade de horas a esa taxa. Nos casos en que unha tarefa abrangue dous períodos de prezos, é probable que a primeira parte da atribución de recursos para esa tarefa teña un custo e un prezo diferentes dos da segunda parte da tarefa. A estimación do esforzo en cada atribución de recursos é un valor complexo almacenado coa distribución diaria do esforzo por día.
+
+Para obter instrucións detalladas sobre como configurar atributos de traballo e recursos personalizados como dimensións de prezos e custos, consulte [Descrición xeral das dimensións de prezos](../pricing-costing/pricing-dimensions-overview.md).
+
+A estimación financeira de cada atribución de recursos calcúlase como **taxa/hora para a tarefa multiplicada polo número de horas.**  De modo semellante á estimación do esforzo, a estimación financeira de custos e ingresos para cada atribución de recursos é un valor complexo almacenado coa distribución diaria de importe monetario por día. 
+
+## <a name="summarizing-financial-estimates-for-time"></a>Resumo das estimacións financeiras para o tempo
+Unha estimación financeira do tempo nunha tarefa de nó folla é a suma das estimacións financeiras de todas as atribucións de recursos para esa tarefa.
+
+Unha estimación financeira do tempo nunha tarefa resumo ou principal é a suma das estimacións financeiras en todas as súas tarefas secundarias. Este é o custo laboral estimado no proxecto. 
 
 ![Estimacións de recursos](./media/navigation12.png)
 
 ## <a name="default-cost-price-and-cost-currency"></a>Prezo de custo e moeda de custos por defecto
 
-Os prezos de custo son por defecto os da unidade organizativa.
+O prezo de custo predefinido procede das listas de prezos anexas á unidade contratante do proxecto. A moeda de custo dun proxecto é sempre a moeda da unidade contratante do proxecto. Nunha atribución de recursos, a estimación financeira do custo almacénase na moeda de custos do proxecto. Ás veces, a moeda na que se establece a taxa de custo na lista de prezos é diferente da moeda de custos do proxecto. Nestes casos, a aplicación converte a moeda na que se establece o prezo de custo para a moeda do proxecto. Na grade **Estimacións**, todas as estimacións de custos móstranse e resúmense na moeda de custos do proxecto. 
 
 ## <a name="default-bill-rate-and-sales-currency"></a>Taxa de facturación de gastos e moeda de vendas por defecto
 
-Os prezos de vendas aplícanse unha vez por acordo. A xerarquía da lista de prezos de venda predefinida é a seguinte:
-
-1. Organización
-2. Cliente
-3. Oferta/contrato
-
+O prezo de venda predefinido procede das listas de prezos do proxecto anexas ao contrato de proxecto relacionado se se gaña o negocio, ou da oferta do proxecto relacionado se o negocio aínda está en fase de prevenda. A moeda de vendas do proxecto é sempre a moeda da oferta do proxecto ou do contrato do proxecto. Nunha atribución de recursos, a estimación financeira das vendas almacénase na moeda de vendas do proxecto. A diferenza do custo, o prezo de venda establecido na lista de prezos nunca pode ser diferente da moeda de vendas do proxecto. Non hai ningunha situación na que sexa necesaria a conversión de moeda. Na grade **Estimacións**, todas as estimacións de vendas móstranse e resúmense na moeda de vendas do proxecto. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

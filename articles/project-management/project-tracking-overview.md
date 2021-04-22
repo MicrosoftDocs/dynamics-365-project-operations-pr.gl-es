@@ -1,21 +1,21 @@
 ---
-title: Visión xeral do rastrexo de proxectos
-description: Este tema ofrece información sobre como rastrexar o progreso do proxecto e o consumo de custos.
+title: Rastrexo de esforzo de proxectos
+description: Este tema ofrece información sobre como rastrexar o esforzo do proxecto e o progreso do traballo.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ead8821c8861ded1e7afd5c192af414f758edef9
+ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286606"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "5710938"
 ---
-# <a name="project-tracking-overview"></a>Visión xeral do rastrexo de proxectos
+# <a name="project-effort-tracking"></a>Rastrexo de esforzo de proxectos
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
@@ -26,50 +26,28 @@ A necesidade de rastrexar o progreso cunha programación varía segundo o sector
 A vista **Rastrexo do esforzo** rastrexa o progreso das tarefas de programación comparando as horas de esforzo real dedicadas a unha tarefa coas horas de esforzo planificadas da tarefa. Dynamics 365 Project Operations usa as seguintes fórmulas para calcular as métricas de seguimento:
 
 - **Porcentaxe de progreso**: Esforzo real realizado ata a data ÷ Estimación ao completar (EAC) 
-- **Estimación para completar (ETC)**: Esforzo previsto - Esforzo real realizado ata a data 
+- **Esforzo restante**: Esforzo estimado ao finalizar – Esforzo real realizado ata a data 
 - **EAC**: Esforzo restante + Esforzo real realizado ata a data 
 - **Varianza de esforzo proxectado**: Esforzo planificado - EAC
 
 Project Operations mostra unha proxección da varianza de esforzo na tarefa. Se a EAC supón un esforzo superior ao previsto, proxéctase que a tarefa levará máis tempo do que estaba previsto inicialmente e está atrasada. Se a EAC supón un esforzo inferior ao previsto, proxéctase que a tarefa levará menos tempo do que estaba previsto inicialmente e está adiantada.
 
-## <a name="reprojecting-effort"></a>Proxectar de novo o esforzo
+## <a name="reprojecting-effort-on-leaf-node-tasks"></a>Reproxección de esforzo en tarefas de nó folla
 
-Os xestores de proxectos revisan con frecuencia as estimacións orixinais dunha tarefa. As novas proxeccións de proxectos son a percepción das estimacións do xestor dun proxecto, segundo o estado actual dun proxecto. Non obstante, non recomendamos que os xestores de proxectos cambien os números da liña base. Isto é porque a liña base a fonte de verdade establecida para a as estimacións de custo e programación do proxecto que todos os implicados no proxecto acordaron.
+Os xestores de proxectos revisan con frecuencia as estimacións orixinais dunha tarefa. As novas proxeccións de proxectos son a percepción das estimacións do xestor dun proxecto, segundo o estado actual dun proxecto. Non obstante, non recomendamos que os xestores de proxectos cambien os números de esforzo planificados. Isto débese a que o esforzo planificado do proxecto representa a orixe da verdade establecida para o programa do proxecto e a estimación de custos, e todos os interesados do proxecto estiveron de acordo.
 
-Hai dous xeitos de que un xestor de proxecto poida volver a proxectar o esforzo das tarefas:
-
-- Anular o ETC predefinido cunha nova estimación do esforzo restante real da tarefa. 
-- Anular a porcentaxe de progreso predefinida cunha nova estimación do progreso real da tarefa.
-
-Cada enfoque provoca un novo cálculo do ETC, EAC e a porcentaxe de progreso da tarefa, e a varianza de esforzo proxectado nunha tarefa. Tamén se calculan de novo o EAC, ETC e a porcentaxe de progreso nas tarefas resumo, e producen unha nova proxección da varianza do esforzo.
+Un xestor de proxectos pode reproxectar o esforzo nas tarefas actualizando o valor predefinido do **Esforzo restante** cunha nova estimación na tarefa. Esta actualización provoca un novo cálculo da estimación da tarefa ao finalizar (EAC), a porcentaxe de progreso e a variación do esforzo proxectada nunha tarefa. Tamén se calculan de novo o EAC, ETC e a porcentaxe de progreso nas tarefas resumo, e producen unha nova proxección da varianza do esforzo.
 
 ## <a name="reprojection-of-effort-on-summary-tasks"></a>Nova proxección do esforzo en tarefas resumo
 
-Pódese proxectar de novo o esforzo en tarefas resumo ou en tarefas contedor. Independentemente de que o usuario volva proxectar empregando o esforzo restante ou a porcentaxe de progreso nas tarefas resumo, comeza o seguinte conxunto de cálculos:
+Pódese proxectar de novo o esforzo en tarefas resumo ou en tarefas contedor. Os xestores de proxectos poden actualizar o esforzo restante nas tarefas resumo. A actualización do esforzo restante desencadea o seguinte conxunto de cálculos na aplicación:
 
-- Calcúlanse o EAC, ETC e a porcentaxe progreso da tarefa.
+- Calcúlanse o EAC e a porcentaxe progreso da tarefa.
 - O nova EAC distribúese nas tarefas dependentes na mesma proporción que o EAC orixinal estaba na tarefa.
 - Calcúlase o novo EAC en cada unha das tarefas individuais ata as tarefas do nó folla. 
-- As tarefas dependentes afectadas ata os nós folla teñen a súa ETC e a porcentaxe de progreso calculada de novo en función do valor de EAC. Isto da lugar a unha nova proxección para a varianza de esforzo da tarefa. 
+- As tarefas dependentes afectadas ata os nós folla teñen o seu esforzo restante e a porcentaxe de progreso calculada de novo en función do valor de EAC. Isto da lugar a unha nova proxección para a varianza de esforzo da tarefa. 
 - Calcúlanse de novo os EAC das tarefas resumo ata o nó raíz.
 
-### <a name="cost-tracking-view"></a>Vista de rastrexo de custo 
-
-A vista **Seguimento de custos** compara o custo real que se gastou nunha tarefa co custo planificado dunha tarefa. 
-
-> [!NOTE]
-> Esta vista mostra só os custos laborais e non inclúe os custos das estimacións de gastos. Project Operations usa as seguintes fórmulas para calcular as métricas de rastrexo:
-
-- **Porcentaxe do custo consumido**: Custo real gastado ata a data ÷ Custo estimado ao completar
-- **Custo para completar (CTC)**: Custo planificado - Custo real gastado ata a data
-- **EAC**: custo restante + custo real gastado ata a data
-- **Varianza do custo proxectado**: Custo planificado - EAC
-
-A proxección da varianza de custo móstrase na tarefa. Se o EAC supón un esforzo superior ao custo previsto, proxéctase que a tarefa custará máis do que estaba previsto inicialmente. Polo tanto, tende a superar o orzamento. Se o EAC supón un esforzo inferior ao custo previsto, proxéctase que a tarefa custará menos do que estaba previsto inicialmente. Polo tanto, tende a estar por debaixo do orzamento.
-
-## <a name="project-managers-reprojection-of-cost"></a>Nova proxección de custos do xestor de proxectos
-
-Cando se proxecta de novo o esforzo, todos os CTC, EAC, porcentaxe de custo consumido e varianza de custo proxectado calcúlanse de novo na vista **Rastrexo de custos**.
 
 ## <a name="project-status-summary"></a>Resumo do estado do proxecto
 

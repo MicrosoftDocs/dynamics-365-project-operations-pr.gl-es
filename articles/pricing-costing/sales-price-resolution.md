@@ -3,17 +3,17 @@ title: Resolver prezos de vendas para estimacións e datos reais
 description: Este tema ofrece información sobre como se resolven as taxas de vendas para as estimacións e os datos reais.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274951"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877443"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Resolver prezos de vendas para estimacións e datos reais
 
@@ -54,6 +54,17 @@ Despois de resolverse unha lista de prezos para vendas, o sistema completa os se
     | &nbsp; | Sobreprezo sobre o custo | Ao aplicar un sobreprezo como se define na liña de prezo da categoría na taxa de custo unitario do dato real de custo relacionado |
 
 4. Se o sistema non pode facer coincidir os valores dos campos **Categoría** e **Unidade** valores, a taxa de vendas é cero (0) por defecto.
+
+## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Resolver as taxas de vendas nas liñas de datos reais e estimacións para material
+
+En Project Operations, as liñas de estimación para material refírense aos detalles da liña de oferta e de contrato para os materiais e as liñas de estimación de material do proxecto.
+
+Despois de resolverse unha lista de prezos para vendas, o sistema completa os seguintes pasos para predefinir o prezo de vandas da unidae.
+
+1. O sistema usa a combinación dos campos **Produto** e **Unidade** na liña de estimación para que o material coincida coas liñas de elementos da lista de prezos da lista de prezos que se resolveu.
+2. Se o sistema atopa unha liña de elementos de lista de prezos que ten unha taxa de vendas para a combinación dos campos **Produto** e **Unidade** e o método de fixación de prezos é **Importe da moeda** úsase o prezo de vendas especificado na liña da lista de prezos.
+3. Se os valores dos campos **Produto** e **Unidade** non coinciden, a taxa de vendas por defecto é cero.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

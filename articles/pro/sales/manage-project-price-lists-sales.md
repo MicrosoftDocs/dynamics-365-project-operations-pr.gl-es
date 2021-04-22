@@ -1,27 +1,27 @@
 ---
-title: Xestionar listas de prezos de proxecto nas ofertas de proxecto - lite
-description: Este tema ofrece información sobre como traballar con listas de prezos de proxecto nas ofertas. (Sales)
+title: Xestionar listas de prezos de proxecto nas ofertas de proxecto
+description: Este tema ofrece información sobre como traballar con listas de prezos de proxecto nas ofertas.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273016"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858606"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Xestionar listas de prezos de proxecto nas ofertas de proxecto - lite
+# <a name="manage-project-price-lists-on-project-quotes"></a>Xestionar listas de prezos de proxecto nas ofertas de proxecto 
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
 As ofertas de proxecto están deseñadas para admitir listas de prezos de vendas vixentes en varias datas. Con Dynamics 365 Project Operations, engádese unha nova entidade asociada chamada **Listas de prezos do proxecto**. Esta entidade ten unha relación de un a moitos cunha oferta de proxecto.
 
-As listas de prezos de proxecto úsanse para fixar o prezo das transaccións de tempo e gasto nun proxecto. Cando unha oferta ten unha ou máis listas de prezos de proxecto, estas listas de prezos utilízanse para as estimacións e datos reais de tempo e gasto en proxectos asociados á oferta a través da liña de oferta.
+As listas de prezos do proxecto úsanse para calcular as transaccións de tempo, material e gasto nun proxecto. Cando unha oferta ten unha ou máis listas de prezos do proxecto, estas listas de prezos úsanse para fixar o prezo das estimacións de tempo, material e gasto, e os datos reais dos proxectos asociados ao oferta a través da liña de oferta.
 
 Cando non haxa listas de prezos do proxecto nunha oferta de proxecto, recibirá unha mensaxe de advertencia. A mensaxe indica que, debido a que non hai listas de prezos do proxecto, o traballo e os gastos do proxecto estimados e reais non terán un prezo. Pola contra, terán un prezo cero (0) para os valores de venda.
 

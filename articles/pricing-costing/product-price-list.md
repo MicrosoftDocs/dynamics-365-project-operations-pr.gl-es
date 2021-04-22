@@ -3,7 +3,7 @@ title: Listas de prezos de produtos
 description: Este tema ofrece información sobre as listas de prezos nos prezos do catálogo empregados para ofertas e contratos de proxectos.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -14,23 +14,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0f30bec159254c078024549b7b0dd0c048ef65d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e37f0bf9eef946ab4ebd658cef4e1269cbaf686d
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275356"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877488"
 ---
 # <a name="product-price-lists"></a>Listas de prezos de produtos
 
-_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
+_**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
-As entidades listas de prezos e elemento de lista de prezos admiten os prezos do catálogo de produtos. Na súa maior parte, esta funcionalidade úsase para liñas baseadas en catálogo en ofertas de proxecto e contratos de proxecto.
-
-Para liñas baseadas en proxectos, un contrato representa o acordo despois gañalo. Debido a que o proceso de negociación normalmente precede á ganancia, o prezo que se anexa á oferta cópiase sempre tal como está nunha lista de prezos nova e anexa ao contrato. Esta nova lista de prezos non se pode cambiar fóra do ámbito do contrato. Esta limitación axuda a protexer a tarxeta de tarifas que se negociaba fronte a calquera cambio de prezo que se produza na lista de prezos.
+ En Project Operations, **Listas de prezos dos produtos** e as entidades relacionadas cos elementos da lista de prezos admiten a funcionalidade para fixar o prezo dos produtos en liñas de oferta e contrato baseadas en produtos. Para os produtos utilizados en proxectos, úsanse os rexistros de elementos da lista de prezos para as listas de prezos do proxecto. 
 
 Os produtos deben configurarse de xeito que teñan listas de custos e prezos por defecto no catálogo de produtos. Use o prezo da lista, o custo estándar e o custo actual para configurar o custo predeterminado e os prezos da lista. Os prezos da lista por defecto úsanse nunha liña de presupostos ou nunha liña de contratos de proxecto só cando o sistema non atopa unha liña de prezos para ese produto na lista de prezos do produto para a oferta ou contrato de proxecto.
 
@@ -40,9 +38,7 @@ O prezo de custo das liñas de catálogo de produtos pódese cambiar entre ofert
 
 Pode engadir produtos dun catálogo de produtos a diferentes listas de prezos. As liñas de lista prezos dos produtos fan referencia sempre a unha unidade específica. Os prezos dun produto dos elementos da lista de prezos pódense configurar como cantidade de moeda. Alternativamente, pódese configurar en función do prezo da lista, do custo actual ou do custo estándar.
 
-PSA admite varias opcións de redondeo cando os prezos están configurados en función do prezo de lista, do custo estándar ou do custo actual. Ademais de aproveitar múltiples métodos de prezos e opcións de redondeo, pode asociar listas de descontos con elementos da lista de prezos. 
-
-Ao crear unha nova lista de prezos personalizados para unha oferta, seleccione **Crear prezos personalizados** na páxina **Oferta de proxecto**, faise unha copia da lista de prezos e o campo **Entidade** da cabeceira da nova lista de prezos establécese en **Entidade de vendas** O nome da nova lista de prezos engádese co nome da oferta e unha marca de tempo. Tamén pode usar o nome da nova lista de prezos e o nome da oferta en fluxos de traballo personalizados para activar revisións e aprobacións adicionais para ofertas que usan prezos personalizados.
+A funcionalidade de fixación de prezos admite varias opcións de redondeo cando os prezos dos produtos están configurados en función do prezo de lista, do custo estándar ou do custo actual. Ademais de aproveitar múltiples métodos de prezos e opcións de redondeo, pode asociar listas de descontos con elementos da lista de prezos. 
 
  
 ## <a name="default-product-price-list"></a>Lista de prezos de produtos predefinida
@@ -57,7 +53,7 @@ As entidades Oportunidade, Oferta e Contrato de proxecto usan a seguinte orde pa
 
 Por defecto, o campo **Produto** da liña de oferta indica todos os produtos activos na lista de prezos do produto. Se un produto foi inactivado ou se é un produto borrador, non aparece na lista, aínda que estea na lista de prezos. 
 
-As liñas de catálogo de produtos engádense como liñas de factura na primeira factura que se crea para un contrato de proxecto. Nun borrador de factura, pódense eliminar esas liñas de factura. Nese caso, as liñas aparecerán nunha factura posterior ata a facturación ou ata que a factura se envíe ao cliente. Non pode facturar unha cantidade parcial dunha liña de factura de produto. Cando se facturan as liñas de produto do contrato do proxecto, créanse datos reais. Non obstante, eses datos reais non están ligados á entidade de proxecto relacionada. Noutras palabras, as liñas de contrato de proxecto baseadas en produtos son independentes de calquera uso baseado en proxectos. Non se rastrexa o consumo de material nos proxectos.
+As liñas de catálogo de produtos engádense como liñas de factura na primeira factura que se crea para un contrato de proxecto. Nun borrador de factura, pódense eliminar esas liñas de factura. Nese caso, as liñas aparecerán nunha factura posterior ata a facturación ou ata que a factura se envíe ao cliente. Non pode facturar unha cantidade parcial dunha liña de factura de produto. Cando se facturan as liñas de produto do contrato do proxecto, créanse datos reais. Non obstante, eses datos reais non están ligados á entidade de proxecto relacionada. Noutras palabras, as liñas de contrato de proxecto baseadas en produtos son independentes de calquera uso baseado en proxectos. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

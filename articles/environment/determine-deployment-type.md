@@ -3,17 +3,17 @@ title: Determinar o seu tipo de despregamento
 description: Este tema ofrece información para axudarlle a determinar o tipo de despregamento correcto das operacións do proxecto para a súa empresa.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479562"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663592"
 ---
 # <a name="determine-your-deployment-type"></a>Determinar o seu tipo de despregamento
 
@@ -44,7 +44,7 @@ O noso [Cuestionario de despregamento](https://aka.ms/provisionprojectoperations
 - [Project Operations para escenarios baseados en recursos ou sen existencias](#integrated)
 - [Project Operations para situacións baseadas en recursos/sen fornecemento](#pma)
 
-Project Operations admite situacións de pedidos de produción/con fornecemento e situacións baseadas en recursos/sen fornecemento no mesmo ambiente a través de configuracións a nivel de entidade legal. Por exemplo, Contoso pode usar as capacidades de pedidos de fornecemento/produción na súa fábrica de Estados Unidos (entidade legal = Contoso Manufacturing United States). Contoso pode usar as capacidades sen fornecemento/baseadas en recursos na súa instalación de servizo de Contoso Robotics Arms no Reino Unido (entidade legal = Contoso Robotics United Kingdom).
+Project Operations admite situacións de pedidos de produción/con fornecemento e situacións baseadas en recursos/sen fornecemento no mesmo ambiente a través de configuracións a nivel de entidade legal. Por exemplo, Contoso pode utilizar as capacidades de pedido baseadas en produción/con fornecemento na súa fábrica estadounidense (entidade legal = Contoso Manufacturing Estados Unidos). Contoso pode empregar as capacidades baseadas en recursos/sen fornecemento na súa instalación de servizo de Contoso Robotic Arms no Reino Unido (entidade legal = Contoso Robotics Reino Unido).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Despregamento de Lite: acordo para facturación proforma
 
@@ -56,7 +56,7 @@ O despregamento lite inclúe as seguintes capacidades:
 - Xestión de recursos unificada
 - Rastrexo de tempo
 - Gasto básico
-- Facturación proforma e orientada ao cliente 
+- Facturación proforma para revisión e edicións do xestor de proxectos 
 
 #### <a name="deployment-steps"></a>Pasos de despregamento
 Determine o mellor modelo de despregamento de Project Operations usando o [Cuestionario de despregamento](https://aka.ms/provisionprojectoperations).
@@ -94,7 +94,7 @@ Para este despregamento, consulte [Rexistro para subscricións de previsualizaci
 - Facturación completa
 - Recoñecemento de ingresos
 - Pedidos de produción
-- Asistencia técnica para materiais
+- Asistencia de materiais con existencias e con inventario
 
 #### <a name="deployment-steps"></a>Pasos de despregamento
 Determine o mellor modelo de despregamento de Project Operations usando o [Cuestionario de despregamento](https://aka.ms/provisionprojectoperations).

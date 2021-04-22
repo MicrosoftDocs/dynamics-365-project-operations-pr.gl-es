@@ -1,29 +1,27 @@
 ---
-title: Configurar creación automática de facturas - lite
-description: Este tema ofrece información sobre a configuración da creación automática de facturas proforma.
+title: Configurar creación automática de facturas
+description: Este tema ofrece información sobre como configurar a creación automática de facturas proforma.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274321"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866815"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Configurar creación automática de facturas - lite
+# <a name="set-up-automatic-invoice-creation"></a>Configurar creación automática de facturas 
  
-_**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
+_**Aplícase a:** Despregamento Lite - factura proforma, Project Operations para situacións baseadas en recursos/sen fornecemento_
 
 Pode configurar creación automática de facturas en Dynamics 365 Project Operations. O sistema crea un borrador de factura proforma baseado na programación de facturas de cada contrato de proxecto e liña de contrato. As programacións de facturas configúranse a nivel de liña de contrato. Cada liña dun contrato pode ter unha programación de facturas distinta ou pode incluírse a mesma programación de facturas en cada liña do contrato.
 
-Cando crea unha factura, o sistema sempre crea polo menos unha factura por contrato de proxecto. Nalgúns casos, pode haber varias facturas creadas.
-
-Por exemplo, se o contrato ten varios clientes, crearase o mesmo número de facturas que o número de clientes que teñen que facturar transaccións facturables nese contrato do proxecto.
+Cando crea unha factura, o sistema sempre crea polo menos unha factura por contrato de proxecto. Nalgúns casos, pode haber varias facturas creadas. Por exemplo, se o contrato ten varios clientes, crearase o mesmo número de facturas que o número de clientes que teñen que facturar transaccións facturables nese contrato do proxecto.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Comprender como se inclúen as transaccións nunha factura 
 

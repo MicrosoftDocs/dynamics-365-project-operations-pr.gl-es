@@ -3,17 +3,17 @@ title: Xestionar o estado de non superar e as validacións
 description: Este tema ofrece información sobre as comprobacións de límite non superable realizadas en Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c491d4014ffc2568d7df72b542761ec9b1a90b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7026ff654a9db8e8a22bcef544b043af39865559
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274016"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866725"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Xestionar o estado de non superar e as validacións 
 
@@ -21,7 +21,7 @@ _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fo
 
 ## <a name="not-to-exceed-on-approvals"></a>Non superable nas aprobacións
 
-Cando se envía unha entrada de tempo ou gasto, créase un rexistro de aprobación. Se a aprobación é imputable e se asigna a unha liña de contrato de tempo e material, o sistema realiza unha comprobación de validación de non superable nos seguintes niveis:
+Cando se envía unha entrada de tempo, gasto ou uso de material, créase un rexistro de aprobación. Se a aprobación é imputable e se asigna a unha liña de contrato de tempo e material, o sistema realiza unha comprobación de validación de non superable nos seguintes niveis:
 
   - Comprobar o límite establecido para o cliente na liña de contrato do proxecto
   - Comprobar o límite establecido para o cliente na liña de contrato
@@ -34,11 +34,11 @@ Se supera a comprobación, a aprobación recibirá un estado de validación de *
 
 Se non supera a comprobación, a aprobación recibirá un estado de validación de **Erro**. O detalle da validación de non superable informará ao usuario en que nivel fallou a validación.
 
-Cando se considera que a entrada de tempo ou gasto enviada non é imputable, o estado de validación de non superable establécese en **Non aplicable** co detalle de validación igual a **Non aplicable**.
+Cando a entrada, o gasto ou o uso do material enviado considérase non imputable, o estado de validación de non exceder establécese en **Non aplicable** co detalle de validación igual a **Non aplicable**.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>Non superable en datos reais de vendas non facturadas
 
-Cando se aproba unha entrada de tempo ou gasto, créanse rexistros de datos reais de custos e vendas nos facturadas. Se a o dato real de vendas non facturadas creado é imputable e se asigna a unha liña de contrato de tempo e material, a aplicación realiza unha comprobación de validación de non superable nos seguintes niveis:
+Cando se aproba unha entrada de tempo, gasto ou uso de material, créanse rexistros de custo e datos reais de vendas non facturados. Se a o dato real de vendas non facturadas creado é imputable e se asigna a unha liña de contrato de tempo e material, a aplicación realiza unha comprobación de validación de non superable nos seguintes niveis:
 
   - Comprobar o límite establecido para o cliente da liña de contrato do proxecto
   - Comprobar o límite establecido para o cliente na liña de contrato
@@ -55,9 +55,9 @@ Cando o dato real de vendas non facturadas se considera no imputable ou gratuít
 
 ## <a name="reset-the-not-to-exceed-status"></a>Restablecer o estado non superable
 
-Pode realizar un restablecemento masivo do estado non superable. Isto permite aos xestores de proxectos axustar a validación de non superable para priorizar a facturación dun traballo, tempo ou gastos concretos sobre outros que xa están confirmados a partir do importe non superable.
+Pode realizar un restablecemento masivo do estado non superable. Os xestores de proxectos poden axustar a validación de non superable para priorizar a facturación dun traballo, tempo, gasto ou uso de material determinado sobre outros que xa están comprometidos a partir do importe non superable.
 
-Despois de restablecer o estado de non superable nos datos reais de vendas non facturadas, o importe confirmado redúcese. O xestor do proxecto pode seleccionar outro traballo, tempo ou gastos que anteriormente fallaron na validación de non superable e volver avalialos. Coa redución do importe confirmado, estes datos reais pasarán agora a validación. Isto axuda ao xestor de proxectos a exercer unha maior influencia e control sobre as transaccións facturables nese período.
+Despois de restablecer o estado de non superable nos datos reais de vendas non facturadas, o importe confirmado redúcese. O xestor do proxecto pode seleccionar outra entrada de traballo, tempo, gasto ou uso de material que anteriormente fallou na validación de non superable e reavaliar. Coa redución do importe comprometido, estes datos reais pasan a validación, o que axuda ao xestor de proxectos a exercer unha maior influencia e control sobre as transaccións facturables nese período.
 
 Para restablecer o estado de non superable, seleccione un ou máis datos reais da vista **Traballo pendente de facturación de tempo e material** ou **Datos reais** e logo seleccione **Restablecer o estado de non superable**.
 

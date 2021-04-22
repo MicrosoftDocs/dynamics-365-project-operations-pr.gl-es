@@ -3,19 +3,19 @@ title: Adianto en efectivo
 description: Este tema fornece información sobre adiantos de efectivo.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276706"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715558"
 ---
 # <a name="cash-advance"></a>Adianto en efectivo
 
@@ -60,7 +60,22 @@ O seguinte procedemento normalmente complétano un contable ou un usuario con pe
 
 Cando cree e envíe un informe de gastos para o adianto en efectivo que xa recibiu, os gastos axustaranse automaticamente con ese adianto. Se o seu adianto de efectivo é superior ao importe gastado, deberá devolver o saldo á empresa mediante a categoría de gasto **Devolución de efectivo**. Se o adianto en efectivo pagado pola empresa é inferior ao importe que gastou, a empresa deberá reembolsarlle o saldo. 
 
-### <a name="example"></a>Exemplo
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Seleccionar adiantos de efectivo que se aplican aos seus gastos
+Antes de enviar un informe de gastos, pode seleccionar o adianto de efectivo que se axuste ás transaccións de gastos do informe. Para usar esta funcionalidade, as seguintes dúas funcións deben activarse desde a área de traballo **Xestión de funcionalidades**:
+
+  - Os informes de gastos reinventáronse
+  - Capacidade para asignar os adiantos de efectivo ás liñas de gasto
+ 
+ Cando estas funcionalidades están activadas:
+ 
+  - Podes engadir un ou máis adiantos de efectivo por cada liña de gasto.
+  - O saldo dispoñible dun adianto de efectivo é visible en tempo real cando se garda un informe de gasto. Isto permítelle procesar transaccións de gasto e devolver transaccións en efectivo ao mesmo tempo.
+  - Pode seleccionar varios adiantos de efectivo para unha transacción de gasto.
+  - Os datos de conciliación de adiantos de efectivo están dispoñibles mediante unha consulta. 
+ 
+Se non usa estas funcións, a funcionalidade seguirá sendo a mesma, reducíndose automaticamente os adiantos de efectivo existentes despois de enviar un gasto.
+
+### <a name="example"></a>Exemplo 
 Vostede ten previsto viaxar de Seattle a Nova York para unha conferencia. Crea unha solicitude de adianto en efectivo para 3000,00 USD en función do custo estimado da entrada da conferencia, voos, hotel, comidas e taxi. Non se lle pagará a menos que o seu xestor aprobe esta solicitude. Despois de que o xestor o aprobe, o adianto de efectivo solicitado págase como 3000,00 USD na súa conta bancaria. Despois asistirá á conferencia. Ao finalizar a viaxe, atopa que o gasto total foi de só 2790.00 USD. Seleccione **Efectivo** no campo **Método de pagamento** e envíe o seu gasto por 2790,00 USD. O importe do gasto enviado axústase automaticamente co adianto de efectivo de 3000,00 USD que lle foi prestado. Agora debe un saldo de 210,00 USD (3000,00 - 2790,00), que pode devolver á empresa mediante a categoría de gasto **Devolución de efectivo**.
 
 

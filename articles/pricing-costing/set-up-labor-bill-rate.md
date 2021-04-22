@@ -3,17 +3,17 @@ title: Configurar taxas de factura laboral
 description: Este tema ofrece información sobre como configurar as taxas de facturación de man de obra en Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274816"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877398"
 ---
 # <a name="set-up-labor-bill-rates"></a>Configurar taxas de factura laboral
 
@@ -21,8 +21,8 @@ ms.locfileid: "5274816"
 
 Cada lista de prezos ten un conxunto de prezos de rol ou taxas de man de obra que son efectivos para o contexto e a data de vixencia incluídos na cabeceira da lista de prezos. As taxas de facturación por tempo en Dynamics 365 Project Operations pódense configurar só nunha moeda, que é a moeda da cabeceira da lista de prezos.
 
-1. Para configurar as taxas de facturación de man de obra para unha lista de prezos de vendas, cree unha lista de prezos baseada na cabeceira da lista de prezos. 
-2. No separador **Prezos de rol**, na subgrade, seleccione **+ Novo prezo de rol**. 
+1. Para configurar as taxas de facturación laboral para unha lista de prezos de venda, vaia a **Vendas** > **Clientes** > **Listas de prezos** e seleccione **Nova** para crear unha nova lista de prezos. 
+2. No separador **Prezos de rol**, na subgrade, seleccione **Novo prezo de rol**. 
 3. No panel **Creación rápida**, introduza a combinación de rol e unidade de organización para a que precisa configurar a taxa de facturación.
 
    A seguinte táboa inclúe os campos do separador **Xeral** e o panel **Creación rápida** dunha liña de prezos de rol que debe ter en conta ao crear prezos de rol nunha lista de prezos de vendas:

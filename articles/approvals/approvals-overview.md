@@ -3,50 +3,53 @@ title: Visión xeral das aprobacións
 description: Este tema ofrece información sobre como traballar con aprobacións en Project Operations.
 author: stsporen
 manager: Annbe
-ms.date: 10/05/2020
+ms.date: 03/31/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: a7573b95998387453b72dbcb73c3de977ed7d913
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b2da22e10cf6c40a2c84bcd32437b2830f830d07
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290356"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852497"
 ---
 # <a name="approvals-overview"></a>Visión xeral das aprobacións
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Os envíos de tempo e gasto pasan por un fluxo de traballo de aprobación. Despois de que se aproben as entradas, as transaccións rexístranse en datos reais ou o tempo resérvase no programa.
+Os envíos de tempo, gasto e uso de material móvense a través dun fluxo de traballo de aprobación. Despois de que se aproben as entradas, as transaccións rexístranse en datos reais ou o tempo resérvase no programa.
 
 ## <a name="approvals-workflow"></a>Fluxo de traballo de aprobacións
-Cando crea e envía unha entrada de tempo ou gasto, créase unha entrada de aprobación. O responsable de aprobación do proxecto ou o seu xestor revisa e aproba a súa entrada. Se a entrada está relacionada cun proxecto, cando se aprobe, crearanse os datos reais. Isto permite rastrexar o custo e a facturación. 
+Cando crea e envía unha entrada de tempo, gasto ou uso de material, créase un rexistro de aprobación. O responsable de aprobación ou o xestor do proxecto revisa e aproba a entrada. Se a entrada está relacionada cun proxecto, os datos reais crearanse cando se aprobe. Isto permite rastrexar o custo e a facturación.
 
 ## <a name="approve-an-entry"></a>Aprobar unha entrada
-O formulario **Aprobacións** permítelle cambiar entre diferentes vistas para que poida ver os diferentes tipos de aprobacións.
+A páxina **Aprobacións** permite cambiar entre diferentes vistas para que poida ver os diferentes tipos de aprobacións.
   
-1. Vaia ao formulario **Aprobacións** e seleccione **Gastos**, **Tempo** ou **Recuperacións**.
+1. Vaia á páxina **Aprobacións** e seleccione **Gastos**, **Tempo**, **Uso de material** ou **Retiradas**.
 2. Revise cada aprobación e seleccione as que desexa aprobar.
 3. Seleccione **Aprobar** para aprobar as entradas seleccionadas.
-O sistema procesará estas entradas e creará datos reais ou unha reserva.
+O sistema procesa estas entradas e crea datos reais.
 
 ## <a name="reject-an-entry"></a>Rexeitar unha entrada
 Como responsable de aprobación do proxecto, é posible que deba devolver unha entrada a un usuario para a súa corrección.
   
-1. Vaia ao formulario **Aprobacións** e seleccione a entrada para rexeitar. 
+1. Vaia á páxina **Aprobacións** e seleccione a entrada para rexeitar. 
 2. Seleccione **Rexeitar**.
-3. Opcional - Engada un comentario no diálogo **Comentarios de rexeitamento** para informar ao usuario de por que se rexeita a entrada.
+3. Opcionalmente, engada un comentario na caixa de diálogo **Comentarios de rexeitamento** para informar ao usuario por que se rexeita a entrada.
 4. Seleccione **Aceptar**. A entrada devolverase ao usuario.
   
-## <a name="recall-entries"></a>Recuperar entradas
-Nalgún momento, é posible que teña que recuperar unha entrada enviada. Se a entrada non foi aprobada, devolverase inmediatamente. Non obstante, unha entrada aprobada pode ter un impacto substancial. O responsable de aprobacións do proxecto está obrigado a aprobar a recuperación para reverter a transacción en Datos reais.
+## <a name="cancel-approval"></a>Cancelar aprobación
+Nalgúns casos, pode que teña que cancelar unha entrada previamente aprobada. A cancelación dunha entrada previamente aprobada terá un impacto financeiro. 
+
+## <a name="approving-recall-requests"></a>Aprobación de solicitudes de retirada
+Nalgúns casos, un consultor pode ter que retirar unha entrada previamente aprobada. A cancelación dunha entrada previamente aprobada terá un impacto financeiro. O responsable de aprobacións do proxecto está obrigado a aprobar a retirada para reverter a transacción en Datos reais.
 
 ## <a name="specify-project-approvers"></a>Especificar responsables de aprobación de proxectos
 Cada proxecto ten un número de membros do equipo do proxecto. Pode especificar que membros do equipo tamén son responsables de aprobacións do proxecto.
 
-1. Vaia ao formulario **Proxectos** e abra o proxecto desde a lista.
+1. Vaia á páxina **Proxectos** e abra o proxecto da lista.
 2. No separador **Equipo**, seleccione o membro do equipo que aprobará o proxecto e seleccione **Editar**.
 3. Configure o campo **Responsable de aprobación do proxecto** en **Si**.
 4. Seleccione **Gardar**.

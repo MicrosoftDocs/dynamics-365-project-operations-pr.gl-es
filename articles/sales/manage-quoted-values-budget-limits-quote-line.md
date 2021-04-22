@@ -1,6 +1,6 @@
 ---
-title: Visión xeral de liñas de oferta baseada en proxecto
-description: Este tema ofrece información sobre como liñas de oferta baseada en proxecto para o traballo do proxecto.
+title: Visión xeral de liñas de oferta de proxecto
+description: Este tema ofrece información sobre o uso de liñas de oferta de proxecto para o traballo de proxecto.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e61a9fbf357123884397b930662d11f22bfdeaa0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa48a90c275eae1b0c0dbce685ae718dd9674c88
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277786"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858021"
 ---
-# <a name="project-based-quote-lines-overview"></a>Visión xeral de liñas de oferta baseada en proxecto
+# <a name="project-quote-lines-overview"></a>Visión xeral de liñas de oferta de proxecto
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
