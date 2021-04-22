@@ -1,60 +1,60 @@
 ---
-title: Facturas corrixidas - lite
-description: Este tema ofrece información sobre as facturas corrixidas en Project Operations.
+title: Facturas de proxecto correctivas
+description: Este tema ofrece información sobre como crear e confirmar facturas correctivas en Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/15/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eb949ff3a53bcba19d44e1c3d6fe08a6b368108d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274231"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866589"
 ---
-# <a name="corrected-invoices---lite"></a><span data-ttu-id="4ec9f-103">Facturas corrixidas - lite</span><span class="sxs-lookup"><span data-stu-id="4ec9f-103">Corrected invoices - lite</span></span>
+# <a name="corrective-project-invoices"></a><span data-ttu-id="89095-103">Facturas de proxecto correctivas</span><span class="sxs-lookup"><span data-stu-id="89095-103">Corrective project invoices</span></span>
 
-<span data-ttu-id="4ec9f-104">_**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_</span><span class="sxs-lookup"><span data-stu-id="4ec9f-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="89095-104">_**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_</span><span class="sxs-lookup"><span data-stu-id="89095-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="4ec9f-105">Pódese corrixir unha factura de proxecto confirmada para procesar cambios ou créditos segundo se negociaron co cliente e o xestor do proxecto.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-105">A confirmed project invoice can be corrected to process changes or credits as negotiated with the customer and project manager.</span></span>
+<span data-ttu-id="89095-105">Pódese corrixir unha factura de proxecto confirmada para procesar cambios ou créditos segundo se negociaron co cliente e o xestor do proxecto.</span><span class="sxs-lookup"><span data-stu-id="89095-105">A confirmed project invoice can be corrected to process changes or credits as negotiated with the customer and project manager.</span></span>
 
-<span data-ttu-id="4ec9f-106">Para editar unha factura confirmada, abra a factura confirmada e seleccione **Corrixir esta factura**.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-106">To make edits to a confirmed invoice, open the confirmed invoice and select **Correct this Invoice**.</span></span> 
+<span data-ttu-id="89095-106">Para editar unha factura confirmada, abra a factura confirmada e seleccione **Corrixir esta factura**.</span><span class="sxs-lookup"><span data-stu-id="89095-106">To make edits to a confirmed invoice, open the confirmed invoice and select **Correct this Invoice**.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="4ec9f-107">Esta selección non está dispoñible a menos que se confirme unha factura do proxecto.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-107">This selection isn't available unless a project invoice is confirmed.</span></span>
+> <span data-ttu-id="89095-107">Esta selección non está dispoñible a menos que se confirme unha factura do proxecto.</span><span class="sxs-lookup"><span data-stu-id="89095-107">This selection isn't available unless a project invoice is confirmed.</span></span>
 
-<span data-ttu-id="4ec9f-108">A partir da factura confirmada créase un novo borrador de factura.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-108">A new draft invoice is created from the confirmed invoice.</span></span> <span data-ttu-id="4ec9f-109">Todos os detalles da liña de factura da factura confirmada anteriormente copianse no novo borrador.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-109">All invoice line details from the previously confirmed invoice are copied to the new draft.</span></span> <span data-ttu-id="4ec9f-110">Os seguintes son algúns dos puntos clave para comprender os detalles da liña da nova factura corrixida:</span><span class="sxs-lookup"><span data-stu-id="4ec9f-110">The following are some of the key points to understand about the line details on the new corrected invoice:</span></span>
+<span data-ttu-id="89095-108">A partir da factura confirmada créase un novo borrador de factura.</span><span class="sxs-lookup"><span data-stu-id="89095-108">A new draft invoice is created from the confirmed invoice.</span></span> <span data-ttu-id="89095-109">Todos os detalles da liña de factura da factura confirmada anteriormente copianse no novo borrador.</span><span class="sxs-lookup"><span data-stu-id="89095-109">All invoice line details from the previously confirmed invoice are copied to the new draft.</span></span> <span data-ttu-id="89095-110">Os seguintes son algúns dos puntos clave para comprender os detalles da liña da nova factura corrixida:</span><span class="sxs-lookup"><span data-stu-id="89095-110">The following are some of the key points to understand about the line details on the new corrected invoice:</span></span>
 
-- <span data-ttu-id="4ec9f-111">Todas as cantidades actualízanse a cero.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-111">All quantities are updated to zero.</span></span> <span data-ttu-id="4ec9f-112">A aplicación asume que todos os elementos facturados están totalmente aboados.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-112">The application assumes that all invoiced items are fully credited.</span></span> <span data-ttu-id="4ec9f-113">Se é necesario, pode actualizar manualmente estas cantidades para reflectir a cantidade que se está a facturar e non a cantidade que se vai aboar.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-113">If needed, you can manually update these quantities to reflect the quantity that is being invoiced, and not the quantity that is being credited.</span></span> <span data-ttu-id="4ec9f-114">En función da cantidade que introduza, a aplicación calcula a cantidade aboada.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-114">Based on the quantity you enter, the application calculates the credited quantity.</span></span> <span data-ttu-id="4ec9f-115">Este importe reflíctese nos datos reais que se crean cando se confirma a factura corrixida.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-115">This amount is reflected in the actuals that are created when the corrected invoice is confirmed.</span></span> <span data-ttu-id="4ec9f-116">Se está a facer cambios no importe do imposto, debe ingresar o importe do imposto correcto e non o importe do imposto que vai aboar.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-116">If you are making changes to the tax amount, you must enter the correct tax amount and not the tax amount that is being credited.</span></span>
-- <span data-ttu-id="4ec9f-117">Non se copian as liñas de contrato baseado en produto confirmadas anteriormente.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-117">Previously confirmed product-based contract lines are not copied over.</span></span> <span data-ttu-id="4ec9f-118">Non se admite o procesamento de correccións nunha factura dun proxecto baseado en produto.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-118">Processing corrections on a product-based project invoice is not supported.</span></span>
-- <span data-ttu-id="4ec9f-119">As correccións de fitos sempre se procesan como abonos completos.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-119">Milestone corrections are always processed as full credits.</span></span>
-- <span data-ttu-id="4ec9f-120">Os importes de retencións ou adiantos pódense corrixir se se facturou ao cliente un importe incorrecto.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-120">Retainer or advance amounts can be corrected if the customer was invoiced for an incorrect amount.</span></span>
-- <span data-ttu-id="4ec9f-121">As conciliacións de retencións e adiantos pódense corrixir se se utilizou un importe incorrecto para conciliar os cargos dunha factura confirmada previamente.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-121">Reconciliations of retainers and advances can be corrected if an incorrect amount was used to reconcile against the charges on a previously confirmed invoice.</span></span>
+- <span data-ttu-id="89095-111">Todas as cantidades actualízanse a cero.</span><span class="sxs-lookup"><span data-stu-id="89095-111">All quantities are updated to zero.</span></span> <span data-ttu-id="89095-112">A aplicación asume que todos os elementos facturados están totalmente aboados.</span><span class="sxs-lookup"><span data-stu-id="89095-112">The application assumes that all invoiced items are fully credited.</span></span> <span data-ttu-id="89095-113">Se é necesario, pode actualizar manualmente estas cantidades para reflectir a cantidade que se está a facturar e non a cantidade que se vai aboar.</span><span class="sxs-lookup"><span data-stu-id="89095-113">If needed, you can manually update these quantities to reflect the quantity that is being invoiced, and not the quantity that is being credited.</span></span> <span data-ttu-id="89095-114">En función da cantidade que introduza, a aplicación calcula a cantidade aboada.</span><span class="sxs-lookup"><span data-stu-id="89095-114">Based on the quantity you enter, the application calculates the credited quantity.</span></span> <span data-ttu-id="89095-115">Este importe reflíctese nos datos reais que se crean cando se confirma a factura corrixida.</span><span class="sxs-lookup"><span data-stu-id="89095-115">This amount is reflected in the actuals that are created when the corrected invoice is confirmed.</span></span> <span data-ttu-id="89095-116">Se está a facer cambios no importe do imposto, debe ingresar o importe do imposto correcto e non o importe do imposto que vai aboar.</span><span class="sxs-lookup"><span data-stu-id="89095-116">If you are making changes to the tax amount, you must enter the correct tax amount and not the tax amount that is being credited.</span></span>
+- <span data-ttu-id="89095-117">Non se copian as liñas de contrato baseado en produto confirmadas anteriormente.</span><span class="sxs-lookup"><span data-stu-id="89095-117">Previously confirmed product-based contract lines are not copied over.</span></span> <span data-ttu-id="89095-118">Non se admite o procesamento de correccións nunha factura dun proxecto baseado en produto.</span><span class="sxs-lookup"><span data-stu-id="89095-118">Processing corrections on a product-based project invoice is not supported.</span></span>
+- <span data-ttu-id="89095-119">As correccións de fitos sempre se procesan como abonos completos.</span><span class="sxs-lookup"><span data-stu-id="89095-119">Milestone corrections are always processed as full credits.</span></span>
+- <span data-ttu-id="89095-120">Os importes de retencións ou adiantos pódense corrixir se se facturou ao cliente un importe incorrecto.</span><span class="sxs-lookup"><span data-stu-id="89095-120">Retainer or advance amounts can be corrected if the customer was invoiced for an incorrect amount.</span></span>
+- <span data-ttu-id="89095-121">As conciliacións de retencións e adiantos pódense corrixir se se utilizou un importe incorrecto para conciliar os cargos dunha factura confirmada previamente.</span><span class="sxs-lookup"><span data-stu-id="89095-121">Reconciliations of retainers and advances can be corrected if an incorrect amount was used to reconcile against the charges on a previously confirmed invoice.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="4ec9f-122">Os detalles da liña de factura que son correccións doutros cargos xa facturados teñen o campo **Corrección** definido como **Si**.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-122">Invoice line details that are corrections to other already invoiced charges have the field **Correction** set to **Yes**.</span></span> <span data-ttu-id="4ec9f-123">As facturas que corrixiron os detalles da liña de factura teñen un campo chamado **Ten correccións** que tamén está establecido en **Si**.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-123">Invoices that have corrected invoice line details have a field called **Has corrections** that is also set to **Yes**.</span></span>
+> <span data-ttu-id="89095-122">Os detalles da liña de factura que son correccións doutros cargos xa facturados teñen o campo **Corrección** definido como **Si**.</span><span class="sxs-lookup"><span data-stu-id="89095-122">Invoice line details that are corrections to other already invoiced charges have the field **Correction** set to **Yes**.</span></span> <span data-ttu-id="89095-123">As facturas que corrixiron os detalles da liña de factura teñen un campo chamado **Ten correccións** que tamén está establecido en **Si**.</span><span class="sxs-lookup"><span data-stu-id="89095-123">Invoices that have corrected invoice line details have a field called **Has corrections** that is also set to **Yes**.</span></span>
 
-## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a><span data-ttu-id="4ec9f-124">Datos reais creados na confirmación dunha factura correctiva:</span><span class="sxs-lookup"><span data-stu-id="4ec9f-124">Actuals created on Confirmation of a corrective invoice:</span></span>
+## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a><span data-ttu-id="89095-124">Datos reais creados cando se confirma unha factura correctiva</span><span class="sxs-lookup"><span data-stu-id="89095-124">Actuals created when a corrective invoice is confirmed</span></span>
 
-<span data-ttu-id="4ec9f-125">A seguir amósanse os datos reais creados pola aplicación na confirmación dunha corrección baseada nas operacións realizadas no borrador da factura correctiva antes da confirmación.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-125">Below are the actuals created by the application on confirmation of a corrective based on the operations performed on the draft corrective invoice before confirmation.</span></span>
+<span data-ttu-id="89095-125">A seguinte táboa indica os datos reais que se crean cando se confirma unha factura correctiva.</span><span class="sxs-lookup"><span data-stu-id="89095-125">The following table lists the actuals that are created when a corrective invoice is confirmed.</span></span>
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
             <td width="216" valign="top">
-                <p><span data-ttu-id="4ec9f-126">
+                <p><span data-ttu-id="89095-126">
                     <strong>Escenario</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="4ec9f-126">
+                </span><span class="sxs-lookup"><span data-stu-id="89095-126">
                     <strong>Scenario</strong>
                 </span></span></p>
             </td>
             <td width="808" valign="top">
-                <p><span data-ttu-id="4ec9f-127">
+                <p><span data-ttu-id="89095-127">
                     <strong>Datos reais creados na confirmación</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="4ec9f-127">
+                </span><span class="sxs-lookup"><span data-stu-id="89095-127">
                     <strong>Actuals created on confirmation</strong>
                 </span></span></p>
             </td>
@@ -62,233 +62,278 @@ ms.locfileid: "5274231"
         <tr>
             <td width="216" rowspan="4" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-128">Confirme a corrección dun adianto ou retención facturado.<strong></strong>
-                </span><span class="sxs-lookup"><span data-stu-id="4ec9f-128">Confirm the correction of an invoiced advance or retainer.<strong></strong>
+<span data-ttu-id="89095-128">Confirme a corrección dun adianto ou retención facturado.<strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="89095-128">Confirm the correction of an invoiced advance or retainer.<strong></strong>
                 </span></span></p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-129">Unha reversión das vendas sen facturar da retención ou do adianto que se creou para a conciliación.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-129">An unbilled sales reversal of the retainer or advance that was created for reconciliation.</span></span> <span data-ttu-id="4ec9f-130">Este importe é positivo porque está destinado a cancelar o negativo que se creou cando se facturou a retención ou o adianto.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-130">This amount is positive because it is meant to cancel out the negative that was created when the retainer or advance was invoiced.</span></span>
+<span data-ttu-id="89095-129">Unha reversión das vendas sen facturar da retención ou do adianto que se creou para a conciliación.</span><span class="sxs-lookup"><span data-stu-id="89095-129">An unbilled sales reversal of the retainer or advance that was created for reconciliation.</span></span> <span data-ttu-id="89095-130">Este importe é positivo porque está destinado a cancelar o negativo que se creou cando se facturou a retención ou o adianto.</span><span class="sxs-lookup"><span data-stu-id="89095-130">This amount is positive because it is meant to cancel out the negative that was created when the retainer or advance was invoiced.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-131">Créase un dato real de reversión das vendas facturadas polo importe da retención ou o adianto para reverter as vendas facturadas orixinais.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-131">A billed sales reversal actual is created for the amount on the retainer or advance to reverse the original billed sales.</span></span>
+<span data-ttu-id="89095-131">Créase un dato real de reversión das vendas facturadas polo importe da retención ou o adianto para reverter as vendas facturadas orixinais.</span><span class="sxs-lookup"><span data-stu-id="89095-131">A billed sales reversal actual is created for the amount on the retainer or advance to reverse the original billed sales.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-132">Créase un novo dato real de vendas facturadas para o importe corrixido da liña de factura corrixida baseada en retención ou adianto.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-132">A new billed sales actual is created for the corrected amount on the retainer or advance-based corrected invoice line.</span></span>
+<span data-ttu-id="89095-132">Créase un novo dato real de vendas facturadas para o importe corrixido da liña de factura corrixida baseada en retención ou adianto.</span><span class="sxs-lookup"><span data-stu-id="89095-132">A new billed sales actual is created for the corrected amount on the retainer or advance-based corrected invoice line.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-133">Un dato real de vendas non facturadas dun importe negativo da liña de factura corrixida baseada en retención ou adianto, que se utilizará para a conciliación.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-133">An unbilled sales actual of negative amount of the retainer or advance-based corrected invoice line, which will be used for reconciliation.</span></span>
+<span data-ttu-id="89095-133">Un dato real de vendas non facturadas dun importe negativo da liña de factura corrixida baseada en retención ou adianto, que se utilizará para a conciliación.</span><span class="sxs-lookup"><span data-stu-id="89095-133">An unbilled sales actual of negative amount of the retainer or advance-based corrected invoice line, which will be used for reconciliation.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="4" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-134">Unha confirmación da corrección dunha retención ou un adianto conciliado previamente.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-134">A confirmation of the correction of a previously reconciled retainer or advance.</span></span>
+<span data-ttu-id="89095-134">Unha confirmación da corrección dunha retención ou un adianto conciliado previamente.</span><span class="sxs-lookup"><span data-stu-id="89095-134">A confirmation of the correction of a previously reconciled retainer or advance.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-135">Unha reversión das vendas sen facturar da retención ou do adianto que se creou para a conciliación.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-135">An unbilled sales reversal of the retainer or advance that was created for reconciliation.</span></span> <span data-ttu-id="4ec9f-136">Este importe é positivo e está destinado a cancelar o negativo que se creou cando se produciu a conciliación previa.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-136">This amount is positive and is meant to cancel out the negative that was created when the previous reconciliation occurred.</span></span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-<span data-ttu-id="4ec9f-137">Un dato real de inversión das vendas facturadas polo importe da factura previa.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-137">A billed sales reversal actual for the amount on the previous invoice.</span></span>
+<span data-ttu-id="89095-135">Unha reversión das vendas sen facturar da retención ou do adianto que se creou para a conciliación.</span><span class="sxs-lookup"><span data-stu-id="89095-135">An unbilled sales reversal of the retainer or advance that was created for reconciliation.</span></span> <span data-ttu-id="89095-136">Este importe é positivo e está destinado a cancelar o negativo que se creou cando se produciu a conciliación previa.</span><span class="sxs-lookup"><span data-stu-id="89095-136">This amount is positive and is meant to cancel out the negative that was created when the previous reconciliation occurred.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-138">Créase un novo dato real de vendas facturadas para o importe da retención que se aplica na factura corrixida.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-138">A new billed sales actual for the corrected retainer amount that is applied on the corrected invoice.</span></span>
+<span data-ttu-id="89095-137">Un dato real de inversión das vendas facturadas polo importe da factura previa.</span><span class="sxs-lookup"><span data-stu-id="89095-137">A billed sales reversal actual for the amount on the previous invoice.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-139">Un dato real de vendas non facturadas cun importe negativo da retención ou o adianto sobrante corrixido, que se utilizará para a conciliación de facturas posteriores.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-139">An unbilled sales actual with a negative amount from the corrected leftover retainer or advance, which will be used for reconciliation on later invoices.</span></span>
+<span data-ttu-id="89095-138">Créase un novo dato real de vendas facturadas para o importe da retención que se aplica na factura corrixida.</span><span class="sxs-lookup"><span data-stu-id="89095-138">A new billed sales actual for the corrected retainer amount that is applied on the corrected invoice.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="89095-139">Un dato real de vendas non facturadas cun importe negativo da retención ou o adianto sobrante corrixido, que se utilizará para a conciliación de facturas posteriores.</span><span class="sxs-lookup"><span data-stu-id="89095-139">An unbilled sales actual with a negative amount from the corrected leftover retainer or advance, which will be used for reconciliation on later invoices.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-140">Facturación do abono total dunha transacción de tempo facturada previamente.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-140">Invoicing the full credit of a previously invoiced time transaction.</span></span>
+<span data-ttu-id="89095-140">Facturación do abono total dunha transacción de tempo facturada previamente.</span><span class="sxs-lookup"><span data-stu-id="89095-140">Invoicing the full credit of a previously invoiced time transaction.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-141">Unha reversión de vendas facturadas por horas e importe no detalle da liña de factura orixinal para tempo.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-141">A billed sales reversal for the hours and amount on the original invoice line detail for time.</span></span>
+<span data-ttu-id="89095-141">Unha reversión de vendas facturadas por horas e importe no detalle da liña de factura orixinal para tempo.</span><span class="sxs-lookup"><span data-stu-id="89095-141">A billed sales reversal for the hours and amount on the original invoice line detail for time.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-142">Un novo dato real de vendas sen facturar por horas e importe no detalle da liña de factura orixinal para tempo.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-142">A new unbilled sales actual for the hours and amount on the original invoice line detail for time.</span></span>
+<span data-ttu-id="89095-142">Un novo dato real de vendas sen facturar por horas e importe no detalle da liña de factura orixinal para tempo.</span><span class="sxs-lookup"><span data-stu-id="89095-142">A new unbilled sales actual for the hours and amount on the original invoice line detail for time.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="3" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-143">Facturación do abono parcial nunha transacción temporal.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-143">Invoicing the partial credit on a time transaction.</span></span>
+<span data-ttu-id="89095-143">Facturación do abono parcial nunha transacción temporal.</span><span class="sxs-lookup"><span data-stu-id="89095-143">Invoicing the partial credit on a time transaction.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-144">Unha reversión de vendas facturadas por horas e importe facturados no detalle da liña de factura orixinal para tempo.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-144">A billed sales reversal for the hours and amount invoiced on the original invoice line detail for time.</span></span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-<span data-ttu-id="4ec9f-145">Un novo dato real de vendas sen facturar é imputable polas horas e o importe do detalle da liña de factura editada, unha reversión disto e un dato real de vendas facturadas equivalente.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-145">A new unbilled sales actual that is chargeable for the hours and amount on the edited invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+<span data-ttu-id="89095-144">Unha reversión de vendas facturadas por horas e importe facturados no detalle da liña de factura orixinal para tempo.</span><span class="sxs-lookup"><span data-stu-id="89095-144">A billed sales reversal for the hours and amount invoiced on the original invoice line detail for time.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-146">Un novo dato real de vendas sen facturar que é imputable para as horas e o importe restantes despois de deducir as cifras corrixidas no detalle da liña de factura.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-146">A new unbilled sales actual that is chargeable for the remaining hours and amount after deducting the corrected figures on the invoice line detail.</span></span>
+<span data-ttu-id="89095-145">Un novo dato real de vendas sen facturar é imputable polas horas e o importe do detalle da liña de factura editada, unha reversión disto e un dato real de vendas facturadas equivalente.</span><span class="sxs-lookup"><span data-stu-id="89095-145">A new unbilled sales actual that is chargeable for the hours and amount on the edited invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="89095-146">Un novo dato real de vendas sen facturar que é imputable para as horas e o importe restantes despois de deducir as cifras corrixidas no detalle da liña de factura.</span><span class="sxs-lookup"><span data-stu-id="89095-146">A new unbilled sales actual that is chargeable for the remaining hours and amount after deducting the corrected figures on the invoice line detail.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-147">Facturación do abono total dunha transacción de gasto facturada previamente.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-147">Invoicing the full credit of a previously invoiced expense transaction.</span></span>
+<span data-ttu-id="89095-147">Facturación do abono total dunha transacción de gasto facturada previamente.</span><span class="sxs-lookup"><span data-stu-id="89095-147">Invoicing the full credit of a previously invoiced expense transaction.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-148">Unha reversión de vendas facturadas por cantidade e importe facturados no detalle da liña de factura orixinal para o gasto.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-148">A billed sales reversal for the quantity and amount on the original invoice line detail for the expense.</span></span>
+<span data-ttu-id="89095-148">Unha reversión de vendas facturadas por cantidade e importe facturados no detalle da liña de factura orixinal para o gasto.</span><span class="sxs-lookup"><span data-stu-id="89095-148">A billed sales reversal for the quantity and amount on the original invoice line detail for the expense.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-149">Un novo dato real de vendas sen facturar por cantidade e importe facturados no detalle da liña de factura orixinal para o gasto.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-149">A new unbilled sales actual for the quantity and amount on the original invoice line detail for the expense.</span></span>
+<span data-ttu-id="89095-149">Un novo dato real de vendas sen facturar por cantidade e importe facturados no detalle da liña de factura orixinal para o gasto.</span><span class="sxs-lookup"><span data-stu-id="89095-149">A new unbilled sales actual for the quantity and amount on the original invoice line detail for the expense.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="3" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-150">Facturación do abono parcial dunha transacción de gasto facturada previamente.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-150">Invoicing the partial credit of a previously invoiced expense transaction.</span></span>
+<span data-ttu-id="89095-150">Facturación do abono parcial dunha transacción de gasto facturada previamente.</span><span class="sxs-lookup"><span data-stu-id="89095-150">Invoicing the partial credit of a previously invoiced expense transaction.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-151">Unha reversión de vendas facturadas por cantidade e importe facturados no detalle da liña de factura orixinal para un gasto.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-151">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for an expense.</span></span>
+<span data-ttu-id="89095-151">Unha reversión de vendas facturadas por cantidade e importe facturados no detalle da liña de factura orixinal para un gasto.</span><span class="sxs-lookup"><span data-stu-id="89095-151">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for an expense.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-152">Un novo dato real de vendas sen facturar é imputable pola cantidade e o importe do detalle da liña de factura corrixida, unha reversión disto e un dato real de vendas facturadas equivalente.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-152">A new unbilled sales actual that is chargeable for the quantity and amount on the corrected invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+<span data-ttu-id="89095-152">Un novo dato real de vendas sen facturar é imputable pola cantidade e o importe do detalle da liña de factura corrixida, unha reversión disto e un dato real de vendas facturadas equivalente.</span><span class="sxs-lookup"><span data-stu-id="89095-152">A new unbilled sales actual that is chargeable for the quantity and amount on the corrected invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-153">Un novo dato real de vendas sen facturar que é imputable para a cantidade e o importe restantes despois de deducir as cifras corrixidas no detalle da liña de factura.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-153">A new unbilled sales actual that is chargeable for the remaining quantity and amount after deducting the corrected figures on the invoice line detail.</span></span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-<span data-ttu-id="4ec9f-154">Facturación do abono total dunha transacción de taxa facturada previamente.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-154">Invoicing the full credit of a previously invoiced fee transaction.</span></span>
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-<span data-ttu-id="4ec9f-155">Unha reversión de vendas facturadas por cantidade e importe facturados no detalle da liña de factura orixinal para a taxa.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-155">A billed sales reversal for the quantity and amount on the original invoice line detail for the fee.</span></span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-<span data-ttu-id="4ec9f-156">Un novo dato real de vendas sen facturar por cantidade e importe facturados no detalle da liña de factura orixinal para a taxa.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-156">A new unbilled sales actual for the quantity and amount on the original invoice line detail for the fee.</span></span>
+<span data-ttu-id="89095-153">Un novo dato real de vendas sen facturar que é imputable para a cantidade e o importe restantes despois de deducir as cifras corrixidas no detalle da liña de factura.</span><span class="sxs-lookup"><span data-stu-id="89095-153">A new unbilled sales actual that is chargeable for the remaining quantity and amount after deducting the corrected figures on the invoice line detail.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-157">Facturación do abono parcial dunha transacción de taxa facturada previamente.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-157">Invoicing the partial credit of a previously invoiced fee transaction.</span></span>
+<span data-ttu-id="89095-154">Facturación do crédito total dunha transacción de material facturada previamente.</span><span class="sxs-lookup"><span data-stu-id="89095-154">Invoicing the full credit of a previously invoiced material transaction.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-158">Unha reversión de vendas facturadas por cantidade e importe facturados no detalle da liña de factura orixinal para a taxa.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-158">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for fee.</span></span>
+<span data-ttu-id="89095-155">Unha reversión das vendas facturadas para a cantidade e o importe no detalle da liña de factura para material.</span><span class="sxs-lookup"><span data-stu-id="89095-155">A billed sales reversal for the quantity and amount on the original invoice line detail for material.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-159">Un novo dato real de vendas sen facturar é imputable pola cantidade e o importe do detalle da liña de factura correctiva editada, unha reversión disto e un dato real de vendas facturadas equivalente.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-159">A new unbilled sales actual that is chargeable for the quantity and amount on the edited corrective invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+<span data-ttu-id="89095-156">Un novo dato real de vendas sen facturar para a cantidade e o importe no detalle da liña de factura para material.</span><span class="sxs-lookup"><span data-stu-id="89095-156">A new unbilled sales actual for the quantity and amount on the original invoice line detail for material.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+<span data-ttu-id="89095-157">Facturación do crédito parcial dunha transacción de material.</span><span class="sxs-lookup"><span data-stu-id="89095-157">Invoicing the partial credit on a material transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="89095-158">Unha reversión das vendas facturadas para a cantidade e o importe facturados no detalle da liña de factura para material.</span><span class="sxs-lookup"><span data-stu-id="89095-158">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for material.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="89095-159">Un novo dato real de vendas sen facturar que é imputable pola cantidade e o importe do detalle da liña de factura editada, unha reversión desta e un dato real de vendas facturadas equivalente.</span><span class="sxs-lookup"><span data-stu-id="89095-159">A new unbilled sales actual that is chargeable for the quantity and amount on the edited invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="89095-160">Un novo dato real de vendas sen facturar que é imputable para a cantidade e o importe restantes despois de deducir as cifras corrixidas no detalle da liña de factura.</span><span class="sxs-lookup"><span data-stu-id="89095-160">A new unbilled sales actual that is chargeable for the remaining quantity and amount after deducting the corrected figures on the invoice line detail.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="89095-161">Facturación do abono total dunha transacción de taxa facturada previamente.</span><span class="sxs-lookup"><span data-stu-id="89095-161">Invoicing the full credit of a previously invoiced fee transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="89095-162">Unha reversión de vendas facturadas por cantidade e importe facturados no detalle da liña de factura orixinal para a taxa.</span><span class="sxs-lookup"><span data-stu-id="89095-162">A billed sales reversal for the quantity and amount on the original invoice line detail for the fee.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="89095-163">Un novo dato real de vendas sen facturar por cantidade e importe facturados no detalle da liña de factura orixinal para a taxa.</span><span class="sxs-lookup"><span data-stu-id="89095-163">A new unbilled sales actual for the quantity and amount on the original invoice line detail for the fee.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="89095-164">Facturación do abono parcial dunha transacción de taxa facturada previamente.</span><span class="sxs-lookup"><span data-stu-id="89095-164">Invoicing the partial credit of a previously invoiced fee transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="89095-165">Unha reversión de vendas facturadas por cantidade e importe facturados no detalle da liña de factura orixinal para a taxa.</span><span class="sxs-lookup"><span data-stu-id="89095-165">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for fee.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="89095-166">Un novo dato real de vendas sen facturar é imputable pola cantidade e o importe do detalle da liña de factura correctiva editada, unha reversión disto e un dato real de vendas facturadas equivalente.</span><span class="sxs-lookup"><span data-stu-id="89095-166">A new unbilled sales actual that is chargeable for the quantity and amount on the edited corrective invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-160">Facturación do abono total dunha transacción de fito facturada previamente.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-160">Invoicing the full credit of a previously invoiced milestone.</span></span>
+<span data-ttu-id="89095-167">Facturación do abono total dunha transacción de fito facturada previamente.</span><span class="sxs-lookup"><span data-stu-id="89095-167">Invoicing the full credit of a previously invoiced milestone.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-161">Unha reversión de vendas facturadas por horas e importe no detalle da liña de factura orixinal para o fito.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-161">A billed sales reversal for the amount on the original invoice line detail for the milestone.</span></span>
+<span data-ttu-id="89095-168">Unha reversión de vendas facturadas por horas e importe no detalle da liña de factura orixinal para o fito.</span><span class="sxs-lookup"><span data-stu-id="89095-168">A billed sales reversal for the amount on the original invoice line detail for the milestone.</span></span>
                 </p>
                 <p>
-<span data-ttu-id="4ec9f-162">O estado de facturación do fito na liña de contrato do proxecto actualízase a **Listo para facturar**.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-162">The milestone invoice or billing status on the project contract line is updated to **Ready to Invoice**.</span></span>
+<span data-ttu-id="89095-169">O estado da factura do fito actualízase desde <b>Factura do cliente contabilizada</b> a <b>Listo para facturar</b>.</span><span class="sxs-lookup"><span data-stu-id="89095-169">The invoice status of the milestone is updated from <b>Customer Invoice Posted</b> to <b>Ready to Invoice</b>.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-163">Facturación do abono parcial dunha transacción de fito facturada previamente.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-163">Invoicing the partial credit of a previously invoiced milestone.</span></span>
+<span data-ttu-id="89095-170">Facturación do abono parcial dunha transacción de fito facturada previamente.</span><span class="sxs-lookup"><span data-stu-id="89095-170">Invoicing the partial credit of a previously invoiced milestone.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-164">Non compatible</span><span class="sxs-lookup"><span data-stu-id="4ec9f-164">Unsupported</span></span> </p>
+<span data-ttu-id="89095-171">Non compatible</span><span class="sxs-lookup"><span data-stu-id="89095-171">Unsupported</span></span> </p>
             </td>
         </tr>
         <tr>
             <td width="216" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-165">Créditos e correccións dunha liña de contrato baseado en produto previamente facturada.</span><span class="sxs-lookup"><span data-stu-id="4ec9f-165">Credits and corrections of a previously invoiced product-based contract line.</span></span>
+<span data-ttu-id="89095-172">Créditos e correccións dunha liña de contrato baseado en produto previamente facturada.</span><span class="sxs-lookup"><span data-stu-id="89095-172">Credits and corrections of a previously invoiced product-based contract line.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="4ec9f-166">Non compatible</span><span class="sxs-lookup"><span data-stu-id="4ec9f-166">Unsupported</span></span> </p>
+<span data-ttu-id="89095-173">Non compatible</span><span class="sxs-lookup"><span data-stu-id="89095-173">Unsupported</span></span> </p>
             </td>
         </tr>
     </tbody>
