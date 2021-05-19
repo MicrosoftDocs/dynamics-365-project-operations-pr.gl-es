@@ -32,8 +32,24 @@
               href: environment/resource-provision-new-environment.md
             - name: Modelo de seguranza
               href: environment/security-model.md
-            - name: Configurar a integración Project Operations por entidade legal
+            - name: Configurar a integración de Project Operations por entidade legal
               href: environment/resource-configure-integration-per-legal-entity.md
+        - name: Configurar a integración de escrita dual
+          items:
+            - name: Visión xeral da integración de escrita dual
+              href: environment/resource-dual-write-overview.md
+            - name: "Versións do mapa de escrita dual de\_Project Operations"
+              href: environment/resource-dual-write-maps.md
+            - name: Integración de datos de instalación e configuración de Project Operations
+              href: environment/resource-dual-write-setup-integration.md
+            - name: Integración de estimacións e datos reais do proxecto
+              href: environment/resource-dual-write-estimates-actuals.md
+            - name: Integración de facturas do proxecto
+              href: environment/resource-dual-write-project-invoice.md
+            - name: Integración de xestión de gastos
+              href: environment/resource-dual-write-expense.md
+            - name: Integración de facturas do fornecedor
+              href: environment/resource-dual-write-vendor-invoice.md
     - name: Novidades
       items:
         - name: Abril de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
@@ -216,6 +232,8 @@
           href: project-management/understand-project-status.md
         - name: Definir calendarios de proxectos
           href: project-management/define-project-calendars.md
+        - name: Modos de programación
+          href: project-management/scheduling-modes.md
         - name: Actualizar un proxecto
           href: project-management/update-project.md
         - name: Copiar un proxecto
@@ -402,8 +420,14 @@
           href: actuals/linkingactuals.md
         - name: Diarios de correccións
           items:
-            - name: Crear e confirmar diarios de corrección
+            - name: Crear e confirmar diarios de correccións
               href: actuals/create-confirm-correction-journals.md
+    - name: Adquisicións
+      items:
+        - name: Configurar os materiais sen fornecemento e as facturas pendentes do fornecedor
+          href: procurement/configure-materials-nonstocked.md
+        - name: Adquirir materiais sen fornecemento para proxectos mediante facturas pendentes do fornecedor
+          href: procurement/pending-vendor-invoices.md
     - name: Facturación
       items:
         - name: Visión xeral do proceso de facturación
@@ -428,6 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Configurar automatización de facturas baseadas en proxecto
               href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Xestionar propostas de factura de proxecto
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: Contabilidade de proxectos
       items:
         - name: Valores predefinidos das dimensións financeiras
@@ -676,12 +702,14 @@
           href: project-management/project-management-overview.md
         - name: Fases do proxecto
           href: project-management/project-stages.md
-        - name: Navegar na interface de usuario
+        - name: Navegación na interface de usuario
           href: project-management/navigate-ui.md
         - name: Comprender o estado do proxecto
           href: project-management/understand-project-status.md
         - name: Definir calendarios de proxectos
           href: project-management/define-project-calendars.md
+        - name: Modos de programación
+          hreF: project-management/scheduling-modes.md
         - name: Actualizar un proxecto
           href: project-management/update-project.md
         - name: Copiar un proxecto
@@ -824,7 +852,7 @@
           href: actuals/linkingactuals.md
         - name: Diarios de correccións
           items:
-            - name: Crear e confirmar diarios de corrección
+            - name: Crear e confirmar diarios de correccións
               href: actuals/create-confirm-correction-journals.md
     - name: Facturación proforma
       items:
@@ -848,6 +876,8 @@
   items:
     - name: Novidades
       items:
+        - name: Novidades de abril 2021 - Project Operations para situacións baseadas en produción/con fornecemento
+          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Novidades de marzo 2021 - Project Operations para situacións baseadas en produción/con fornecemento
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: Novidades de xaneiro 2021 - Project Operations para situacións baseadas en produción/con fornecemento
@@ -871,9 +901,9 @@
     - name: Configurar e usar pagamentos de fornecedores que se pagan ao recibir o pagamento
       href: prod-pma/setup-manage-vendor-payments.md
     - name: Acumulación de custos do proxecto nos recibos de compra
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
     - name: Facturación de proxectos
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+      href: /dynamics365/finance/accounts-payable/project-invoicing
     - name: Desempeño de proposta de factura de proxecto
       href: prod-pma/project-invoice-proposal-performance.md
     - name: Contratos do proxecto
@@ -998,6 +1028,8 @@
       items:
         - name: Programación de versións de actualización para Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novidades ou cambios na versión 31 de actualización, V3'
+          href: psa/whats-new-ur-31.md
         - name: 'Novidades ou cambios na versión 30 de actualización, V3'
           href: psa/whats-new-ur-30.md
         - name: 'Novidades ou cambios na versión 29.5 de actualización, corrección, V3'
@@ -1327,7 +1359,7 @@
             - name: Ver utilización de recursos
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
-              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
         - name: Guía do xestor de proxectos
           items:
             - name: Guía do xestor de proxectos (Project Service)
