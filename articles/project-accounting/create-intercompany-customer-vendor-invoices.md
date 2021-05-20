@@ -3,17 +3,17 @@ title: Crear facturas entre empresas de clientes e fornecedores
 description: Este tema ofrece información sobre como crear facturas de clientes e fornecedores entre empresas.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287461"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948390"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Crear facturas entre empresas de clientes e fornecedores
 
@@ -25,7 +25,9 @@ O contable do proxecto da entidade legal prestamista pode configurar un proceso 
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Crear manualmente unha factura de cliente entre empresas para as transaccións do proxecto 
 
-Utilice este procedemento para crear manualmente unha factura de cliente entre empresas para as transaccións do proxecto. Busque as horas contabilizadas polos traballadores en proxectos das entidades legais prestameiras e polos gastos nos que a súa entidade legal incorreu en nome das persoas legais prestameiras. Pode buscar por nome da entidade legal, número do contrato do proxecto, número do proxecto, intervalo de datas ou calquera combinación destas opcións. Nos resultados da busca, seleccione as transaccións que desexe engadir a unha factura entre empresas.
+Utilice este procedemento para crear manualmente unha factura de cliente entre empresas para as transaccións do proxecto. Busque as horas contabilizadas polos traballadores en proxectos das entidades legais prestameiras e polos gastos nos que a súa entidade legal incorreu en nome das persoas legais prestameiras. Pode buscar por nome da entidade legal, número do contrato do proxecto, número do proxecto, intervalo de datas ou calquera combinación destas opcións. Nos resultados da busca, seleccione as transaccións que desexe engadir a unha factura entre empresas. 
+
+Os seguintes pasos deben realizarse na entidade legal prestamista. 
 
 1. En Dynamics 365 Finance, vaia a **Xestión e contabilidade de proxectos** > **Facturas do proxecto** > **Facturas de clientes entre empresas**. Na páxina de lista **Facturas de clientes entre empresas**, no Panel de acción, seleccione **Novo.**
 2. Na páxina **Crear factura entre empresas**, no campo **Entidade legal**, seleccione unha entidade legal prestameira.
@@ -35,9 +37,9 @@ Utilice este procedemento para crear manualmente unha factura de cliente entre e
 6. Nos resultados da busca, seleccione as transaccións que desexa incluír na proposta de factura entre empresas e, a continuación, seleccione **Aceptar**.
 7. Na páxina **Factura de cliente entre empresas**, móstranse as transaccións do proxecto entre empresas que seleccionou entre os resultados da busca. Para modificar as transaccións antes de enviar a factura á entidade prestameira, faga o seguinte:
   
-    1. Abra a páxina **Crear proposta de factura**. Seleccione as transaccións entre empresas adicionais para a factura actual e logo seleccione **Engadir liña**.
+    1. Na páxina **Factura de cliente entre empresas**, abra os detalles da factura e logo seleccione **Engadir liña**.
     2. Para eliminar unha liña, selecciónea e logo seleccione **Eliminar**.
-    3. Vexa comentarios, motivos, dimensións financeiras e outra información sobre unha liña seleccionada no separador rápido **Liñas de factura**.
+    3. Consulte comentarios, motivos, dimensións financeiras e outra información sobre unha liña seleccionada nos detalles da liña de factura.
     
 8. Para contabilizar a factura de cliente entre empresas, no Panel de acción seleccione **Contabilizar**.
 
@@ -52,7 +54,7 @@ Pode crear varias facturas entre empresas ao mesmo tempo para todas as entidades
 2. Na páxina **Crear facturas de clientes entre empresas**, no campo **Empresa**, seleccione unha entidade legal para facturar. Se non selecciona unha empresa, mostraranse todas as transaccións que cumpran os criterios de busca para todas as entidades legais prestameiras.
 3. En **Crear unha factura por**, seleccione se desexa crear unha factura para transaccións entre empresas baseada nun proxecto ou baseada nunha entidade legal prestameira.
 4. Opcional: Para seleccionar un proxecto específico e un contrato de proxecto para crear facturas entre empresas, prema **Seleccionar**. Na páxina **Consulta**, no campo **Criterios**, seleccione o contrato do proxecto, o número do proxecto ou ambos e logo seleccione **Aceptar**.
-5. No separador **Lote**, configure un proceso por lotes para crear facturas entre empresas de forma recorrente. Para obter máis información, consulte [Enviar un traballo de procesamento por lotes desde un formulario](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. No separador **Lote**, configure un proceso por lotes para crear facturas entre empresas de forma recorrente. Para obter máis información, consulte [Enviar un traballo de procesamento por lotes desde un formulario](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. Para contabilizar facturas entre empresas, no Panel de acción seleccione **Contabilizar**.
 
 > [!NOTE]

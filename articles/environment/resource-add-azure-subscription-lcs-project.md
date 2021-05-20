@@ -3,17 +3,17 @@ title: Engadir unha subscrición a Azure a un proxecto de LCS
 description: Este tema ofrece información sobre como conectar a súa subscrición a Azure a un proxecto LCS.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ad1ddd69cbb8db7780b8277a7ed7533d3ea3d053
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289907"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880536"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Engadir unha subscrición a Azure a un proxecto de LCS
 
@@ -62,7 +62,7 @@ A autorización xa está completa.
 3. No campo **Configurar para usar Azure Resource Manager**, seleccione **Si**.
 4. Asegúrese de que o dominio do arrendatario AAD da subscrición a Azure coincida coa subscrición a Azure que posúe o dominio que está a usar e seleccione **Seguinte**.
 5. Na pantalla **Configuración de Microsoft Azure**, seleccione **Seguinte** para confirmar. Se recibe un erro nesta pantalla, volva á sección [Proporcionar acceso a Dynamics Deployment Services para a subscrición a Azure](#provide) neste tema e asegúrese de que completou todos os pasos.
-6. Descargue o certificado de xestión de Azure nun cartafol local do seu ordenador e logo cárgueo no portal de xestión de Azure indo a **Configuración** > **Certificados de xestión**. Este certificado permitirá a LCS comunicarse con Azure no seu nome. Podes omitir este paso se o seu usuario ten acceso á subscrición.
+6. Descargue o certificado de xestión de Azure a un cartafol local do seu ordenador. Solicite ao administrador da subscrición a Azure que cargue o certificado no Azure Management Portal seleccionando a subscrición e dirixíndose a **Configuración** > **Certificados de xestión**. Este certificado permite a LCS comunicarse con Azure no seu nome. Podes omitir este paso se o seu usuario ten acceso á subscrición.
 7. Seleccione **Seguinte**.
 8. Seleccione a rexión de Azure na que desexa despregar e seleccione un centro de datos que estea preto do lugar onde desexa usar este sistema.
 9.  Seleccione **Conectar**.

@@ -17,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 189b99c6a4bf18b6063c7b6020dbf1ac372b41e9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fe1e2b2046faeee4e4c71484a976d70e8722e090
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5280936"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949317"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Versión 15 de actualización de Project Service Automation, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Comprácenos anunciar a última actualización para a aplicación Dynamics 365 Project Service Automation (PSA). Esta versión inclúe algunhas melloras importantes na calidade, rendemento e facilidade de uso. Esta versión é compatible con Dynamics 365 9.x. Para actualizar a esta versión, visite o Centro de administración para Dynamics 365 en liña e vaia á páxina de solucións para instalar a actualización. Para obter máis información, consulte [Instalar, actualizar ou eliminar unha solución preferida](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)
+Comprácenos anunciar a última actualización para a aplicación Dynamics 365 Project Service Automation (PSA). Esta versión inclúe algunhas melloras importantes na calidade, rendemento e facilidade de uso. Esta versión é compatible con Dynamics 365 9.x. Para actualizar a esta versión, visite o Centro de administración para Dynamics 365 en liña e vaia á páxina de solucións para instalar a actualización. Para obter máis información, consulte [Instalar, actualizar ou eliminar unha solución preferida](/power-platform/admin/install-remove-preferred-solution)
 
 Este tema mostra as funcionalidades e correccións que son novas ou modificadas para PSA V3, versión 15 de actualización. Esta versión ten un número de compilación de V3.10.5.28 e está dispoñible xeralmente a través dunha autoactualización desde xaneiro de 2020.
 

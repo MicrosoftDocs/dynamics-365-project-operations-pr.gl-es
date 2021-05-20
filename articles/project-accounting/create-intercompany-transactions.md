@@ -3,17 +3,17 @@ title: Crear transaccións entre empresas
 description: Este tema ofrece información sobre como crear transaccións entre empresas.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287416"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880446"
 ---
 # <a name="create-intercompany-transactions"></a>Crear transaccións entre empresas
 
@@ -62,7 +62,7 @@ Molly Clark, programadora empregada en GBPM, rexistra 10 horas de traballo contr
     4. Estableza a moeda en **USD**.
     5. Garde o rexistro.
 3. Vaia a **Vendas** > **Contratos de proxecto** e cree un novo contrato de proxecto para Adventure Works.
-    1. Estableza a empresa propietaria en **USPM** e a unidade contratante en **Contoso Robotics US**.
+    1. Configure a empresa propietaria como **USPM** e a unidade contratante como **Contoso Robotics US**.
     2. Seleccione Adventure Works como cliente.
     3. Seleccione unha lista de prezos de produtos e garde o rexistro.
     4. No separador **Liñas de contrato**, cree unha nova liña de contrato. Estableza calquera nome e seleccione **Tempo e materiais** como método de facturación.
@@ -94,7 +94,7 @@ Molly Clark, programadora empregada en GBPM, rexistra 10 horas de traballo contr
     Esta venda sen facturar xa está lista para a facturación. A factura do cliente Adventure Works pode contabilizarse financeiramente cando sexa necesario.
 
 10. Inicie sesión como contable de **GBPM**. Abra a instancia de Finance de Project Operations e abra a empresa **GBPM**. 
-11. Vaia a **Xestión e contabilidade de proxectos** > **Periódico** > **Project Operations on Customer Engagement** > **Importar desde transición** execute o proceso periódico de encher o diario de integración de Project Operations.
+11. Vaia a **Xestión e contabilidade de proxectos** > **Periódico** > **Integración de Project Operations** > **Importar da táboa de transición** e execute o proceso periódico para encher o diario de integración de Project Operations.
 12. Vaia a **Xestión e contabilidade de proxectos** > **Diarios** > **Diario de integración de Project Operations** e repase as liñas. O sistema crea as seguintes liñas.
 
     | **Tipo de transacción** | **Prezo** | **Moeda da transacción** | **Importe** |

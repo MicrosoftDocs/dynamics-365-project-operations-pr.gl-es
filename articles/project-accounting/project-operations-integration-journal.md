@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287236"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948328"
 ---
 # <a name="integration-journal-in-project-operations"></a>Diario de integración en Project Operations
 
@@ -38,7 +38,7 @@ O sistema agrupa as liñas de diario en diarios separados en función do valor s
 As liñas de diario créanse en función dos datos reais do proxecto. A seguinte lista inclúe algunhas das regras por defecto e de transformación máis notables:
 
   - Cada transacción real do proxecto ten unha liña no diario de Project Operations Integration. O custo e as transaccións de vendas non facturadas para o tipo de facturación de tempo e material móstranse en liñas separadas.
-  - O campo **Data** representa a data da transacción. O campo **Data de contabilidade** representa a data na que se rexistrou a transacción no libro maior. Se a data de contabilidade está nun [período financeiro pechado](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) e o parámetro **Establecer automaticamente a data de contabilidade para abrir o período do libro maior** está configurado no separador **Actividades financeiras** da páxina **Parámetros de xestión e contabilidade de proxectos**, o sistema axustará a data de contabilidade da transacción á primeira data do próximo período de libro maior aberto.
+  - O campo **Data** representa a data da transacción. O campo **Data de contabilidade** representa a data na que se rexistrou a transacción no libro maior. Se a data de contabilidade está nun [período financeiro pechado](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) e o parámetro **Establecer automaticamente a data de contabilidade para abrir o período do libro maior** está configurado no separador **Actividades financeiras** da páxina **Parámetros de xestión e contabilidade de proxectos**, o sistema axustará a data de contabilidade da transacción á primeira data do próximo período de libro maior aberto.
   - O campo **Vale** mostra o número do vale para cada transacción real. A secuencia numérica do vale defínese no separador **Secuencias numéricas**, na páxina **Parámetros de xestión e contabilidade de proxectos**. Cada liña ten asignado un novo número. Despois de contabilizar o vale, pode ver como se relacionan o custo e as transaccións de vendas sen facturar seleccionando **Vales relacionados** na páxina **Transacción de vale**.
   - O campo **Categoría** representa unha transacción do proxecto e os valores predefinidos baséanse na categoría de transacción para o dato real do proxecto relacionado.
     - Se **Categoría de transacción** está definida no dato real do proxecto real e existe unha **Categoría de proxecto** relacionada nunha entidade xurídica determinada, a categoría é por defecto esta categoría de proxecto.

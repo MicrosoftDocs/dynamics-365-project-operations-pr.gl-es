@@ -3,18 +3,18 @@ title: Novidades de abril de 2021 - Project Operations para situacións baseadas
 description: Este tema ofrece información sobre as actualizacións de calidade dispoñibles na versión de abril de 2021 de Project Operations para situacións baseadas en recursos/sen fornecemento.
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867991"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935472"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de abril de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
 
@@ -33,8 +33,26 @@ As seguintes funcionalidades están incluídas nesta versión:
   - Estimación e fixación de prezos de materiais sen fornecemento durante o ciclo de vendas dun proxecto. Para obter máis información, consulte [Configurar taxas de custo e vendas para produtos de catálogo - lite](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Rastrexo do uso de materiais sen fornecemento durante a entrega do proxecto. Para obter máis información, consulte [Rexistrar o uso do material en proxectos e tarefas de proxecto](../material/material-usage-log.md).
   - Facturación de custos de material sen fornecemento usado. Para obter máis información, consulte [Xestionar o traballo pendente de facturación](../proforma-invoicing/manage-billing-backlog.md).
+  - Para obter información sobre como configurar esta funcionalidade, consulte [Configurar materiais sen fornecemento e facturas pendentes do fornecedor](../procurement/configure-materials-nonstocked.md)
 - Facturación baseada en tarefas: Engadiuse a posibilidade de asociar tarefas do proxecto ás liñas de contrato do proxecto, someténdoas ao mesmo método de facturación, frecuencia de facturación e clientes que o da liña de contrato. Esta asociación garante a facturación, a contabilidade, a estimación de ingresos e o recoñecemento precisos para traballar de acordo con esta configuración nas tarefas do proxecto.
 - As novas API en Dynamics 365 Dataverse permiten crear, actualizar e eliminar operacións con **Entidades de programación**. Para obter máis información, consulte [Usar as API de programación para realizar operacións con entidades de programación](../project-management/schedule-api-preview.md).
+
+## <a name="project-operations-dual-write-maps-updates"></a>Actualizacións de mapas de escrita dual en Project Operations
+
+A seguinte lista mostra os mapas de escrita dual que foron modificados ou engadidos na versión de Project Operations de abril de 2021.
+
+| **Mapa de entidades** | **Versión actualizada** | **Comentarios** |
+| --- | --- | --- |
+| Datos reais de integración de Project Operations (msdyn\_actuals) | 1.0.0.14 | Mapa modificado para sincronizar os datos reais do proxecto de material. |
+| Entidade de integración de Project Operations para estimacións de gastos (msdyn\_estimateslines) | 1.0.0.2 | Engadiuse a sincronización de liña do contrato do proxecto coas aplicacións de Finance and Operations aplicacións para a asistencia de facturación baseada en tarefas. |
+| Entidade de integración de Project Operations para estimacións de horas (msdyn\_resourceassignments) | 1.0.0.5 | Engadiuse a sincronización de liña do contrato do proxecto coas aplicacións de Finance and Operations aplicacións para a asistencia de facturación baseada en tarefas. |
+| Táboa de integración de Project Operations para estimacións de material (msdyn\_estimatelines) | 1.0.0.0 | Novo mapa de táboa para sincronizar as estimacións de material de Dataverse coas aplicacións de Finance and Operations. |
+| Entidade de exportación de facturas do fornecedor do proxecto de integración de Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Novo mapa de táboa para sincronizar as cabeceiras de facturas de fornecedor de Finance and Operations coas aplicacións de Dataverse. |
+| Entidade de exportación de liñas de facturas do fornecedor do proxecto de integración de Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Novo mapa de táboa para sincronizar as liñas de facturas de fornecedor de Finance and Operations coas aplicacións de Dataverse. |
+
+Sempre debería executar a última versión do mapa no seu ambiente e activar todos os mapas de táboa relacionados mentres actualiza a súa solución de Project Operations Dataverse e a versión da solucón Finance and Operations. É posible que certas funcionalidades e capacidades non funcionen correctamente se a última versión do mapa non está activada. Pode ver a versión activa do mapa na columna **Versión** columna na páxina **Escrita dual**. Pode activar unha nova versión do mapa seleccionando **Versións do mapa de táboa**, seleccionando a versión máis recente e logo gardar a versión seleccionada. Se personalizou un mapa de táboa listo para usar, aplique de novo os cambios. Para obter máis información, consulte [Xestión do ciclo de vida da aplicación](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+Se ten algún problema ao iniciar o mapa, siga as instrucións da sección [Problema de falta de columnas da táboa nos mapas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) da guía de resolución de problemas de escrita dual.
 
 ## <a name="quality-updates"></a>Actualizacións de calidade
 
@@ -67,7 +85,7 @@ As seguintes funcionalidades están incluídas nesta versión:
 
 | **Área de funcionalidades** | **Número de referencia** | **Actualización de calidade** |
 | --- | --- | --- |
-| Xestión e contabilidade de proxectos | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | A eliminación da estimación inversa non funciona en **Periódico**.  |
+| Xestión e contabilidade de proxectos | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | A eliminación da estimación inversa non funciona na sección **Periódico**.  |
 | Xestión e contabilidade de proxectos | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | A funcionalidade **Axuste contable** crea un problema coas contas de libro maior que teñen **Non permitir a entrada manual** seleccionado. |
 | Xestión e contabilidade de proxectos | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Engadiuse unha lóxica empresarial para procesar as facturas de corrección, incluído o importe da retención ou o importe da retención aplicada. |
 | Xestión e contabilidade de proxectos | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | A contabilización do valor das vendas WIP na facturación de proxectos entre empresas escolle unha conta inesperada. |

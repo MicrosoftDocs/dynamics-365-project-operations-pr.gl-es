@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8016014c0af60d1c0dfd37fdd457f279fb8059
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 7357e9a8c8c6294c0a395a80287bb7eeb5c47d85
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5664087"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948282"
 ---
 # <a name="header-details-for-project-based-opportunities"></a>Detalles da cabeceira para oportunidades baseadas en proxecto
 
@@ -35,7 +35,7 @@ A seguinte táboa inclúe os campos dunha oportunidade baseada en proxecto que s
 | Xestor de contas | Separador Xeral | O nome do xestor de contas desta oportunidade baseada en proxecto. | O xestor de contas é o responsable de xestionar a relación co cliente a través durante a realización deste proxecto. Baseada no rexistro de recursos reservables ligado ao xestor de contas, a unidade de contratación está predefinida. |
 | Unidade de contratación | Separador Xeral | A unidade de organización que se encarga da entrega do proxecto ou proxectos asociados a este acordo. | A unidade de contratación é a división da empresa que completará os proxectos despois de pechar o acordo. Cada unidade de contratación ten unha moeda e esta moeda úsase para informar dos custos estimados e reais incorridos durante o proxecto. |
 
-Para todos os demais campos e seccións do separador **Resumo** da oportunidade, consulte [Crear ou editar oportunidades (vendas e plataforma común de vendas)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales).
+Para todos os demais campos e seccións do separador **Resumo** da oportunidade, consulte [Crear ou editar oportunidades (vendas e plataforma común de vendas)](/dynamics365/sales-enterprise/create-edit-opportunity-sales).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

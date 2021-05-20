@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 95a9251707de3699322471535aa93070ba4fb2ae
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 4d114ee64bd26d3271a1c72a7404c0f7035c2b61
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499999"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948057"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de marzo de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
 
@@ -50,7 +50,7 @@ Para obter máis información, consulte [Novidades de xaneiro de 2021 - Project 
 
 ## <a name="regulatory-updates"></a>Actualizacións normativas
 
-Para obter información sobre actualizacións normativas para aplicacións de Finance and Operations, vexa [Actualizacións normativas](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Outra forma de aprender sobre as actualizacións normativas é iniciar sesión en LCS e ver as actualizacións regulamentarias planificadas mediante a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
+Para obter información sobre actualizacións normativas para aplicacións de Finance and Operations, vexa [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Outra forma de aprender sobre as actualizacións normativas é iniciar sesión en LCS e ver as actualizacións regulamentarias planificadas mediante a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4f8da5258a1dd0aa4229654c0e1e222b8cf3a21a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f7dfabd068e180c7122ede0f79aaebfe220250a1
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272611"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949542"
 ---
 # <a name="product-based-opportunity-lines---lite"></a>Liñas de oportunidade baseada en produto - lite
 
@@ -22,7 +22,7 @@ _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
 As liñas de oportunidade baseada en produto son elementos de liña de Oportunidade. Estes artigos de liña distintos aparecen na factura eventual que se lle entrega ao cliente. A factura non inclúe ningún outro servizo adicional. O gasto e o consumo asociados non se rastrexan nas tarefas de ningún proxecto relacionado.
 
-As liñas baseadas en produto poden ser elementos de catálogo ou produtos fóra de catálogo. A maior parte da funcionalidade das liñas baseadas en produto de Oportunidade segue a funcionalidade proporcionada pola aplicación Dynamics 365 Sales. Para obter máis información sobre as liñas de oportunidade baseada en produto, consulte [Engadir produtos a unha oportunidade](https://docs.microsoft.com/dynamics365/sales-enterprise/add-products-opportunity).
+As liñas baseadas en produto poden ser elementos de catálogo ou produtos fóra de catálogo. A maior parte da funcionalidade das liñas baseadas en produto de Oportunidade segue a funcionalidade proporcionada pola aplicación Dynamics 365 Sales. Para obter máis información sobre as liñas de oportunidade baseada en produto, consulte [Engadir produtos a unha oportunidade](/dynamics365/sales-enterprise/add-products-opportunity).
 
 **Orzamento do cliente** é un concepto específico das liñas de oportunidade baseada en proxecto. O campo **Orzamento do cliente** rastrexa a cantidade que o cliente está disposto a pagar polo artigo.
 
