@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f8e9bce6612e617785264470b7946ffc4795a621
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa6530a0eefb1ae6a84a662c6131182d97d49aeb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291842"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950937"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de novembro de 2020 - Project Operations para situacións baseadas en recursos/sen fornecemento
 
@@ -67,7 +67,7 @@ Este tema aplícase aos seguintes compoñentes e versións de Dynamics 365 Proje
 | Contabilidade de proxectos  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Activando a funcionalidade, non son posibles varias liñas de contrato sen a integración de CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Actualizacións normativas
-Para obter información sobre actualizacións normativas para aplicacións de Finance and Operations, vexa [Actualizacións normativas](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
+Para obter información sobre actualizacións normativas para aplicacións de Finance and Operations, vexa [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

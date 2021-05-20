@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 92c4cb3e1661f0415d49b84c9a59aba4bda38f20
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d52caf0739ee55c25598318608f0c235107c85f3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282286"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951387"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Iniciar sesión en Project Service Automation
 
@@ -39,7 +39,7 @@ Cando inicie sesión nas aplicacións de Dynamics 365, debe ter a seguinte infor
   
 - O contrasinal  
   
-  É posible que recibise esta información nun correo electrónico do seu administrador. Se non ten toda esta información ou se ten os problemas para iniciar sesión, [Localice o seu administrador ou persoa de soporte técnico](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  É posible que recibise esta información nun correo electrónico do seu administrador. Se non ten toda esta información ou se ten os problemas para iniciar sesión, [Localice o seu administrador ou persoa de soporte técnico](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>Definir as opcións persoais para permitir correo  
  Ten que configurar a súa configuración de correo para permitir que outros usuarios envíen correos electrónicos no seu nome, para que [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] poida enviar notificacións de correo por vostede cando ten que aprobar tempo e gastos ou rexistrarse en proxectos.  

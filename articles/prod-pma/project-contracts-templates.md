@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 319000e6a826580049e8575def5790ab595a3165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289592"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950397"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sincronizar contratos de proxecto e proxectos directamente desde Project Service Automation to Finance 
 
@@ -109,8 +109,8 @@ Cando se aplica a solución de integración de Project Service Automation con Fi
 ## <a name="prerequisites-and-mapping-setup"></a>Requisitos previos e configuración de asignación
 
 - Antes de que poida producirse a sincronización de contratos de proxectos e proxectos, debe sincronizar as contas.
-- No seu conxunto de conexións, engada unha asignación de campos clave de integración para **msdyn\_organizationalunits** a **msdyn\_name \[Nome\]**. Primeiro pode que teña que engadir un proxecto ao conxunto de conexións. Para obter máis información, consulte [Integrar datos en Common Data Service para aplicacións](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- No seu conxunto de conexións, engada unha asignación de campos clave de integración para **msdyn\_projects** a **msdynce\_projectnumber \[Número de proxecto\]**. Primeiro pode que teña que engadir un proxecto ao conxunto de conexións. Para obter máis información, consulte [Integrar datos en Common Data Service para aplicacións](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- No seu conxunto de conexións, engada unha asignación de campos clave de integración para **msdyn\_organizationalunits** a **msdyn\_name \[Nome\]**. Primeiro pode que teña que engadir un proxecto ao conxunto de conexións. Para obter máis información, consulte [Integrar datos en Common Data Service para aplicacións](/powerapps/administrator/data-integrator).
+- No seu conxunto de conexións, engada unha asignación de campos clave de integración para **msdyn\_projects** a **msdynce\_projectnumber \[Número de proxecto\]**. Primeiro pode que teña que engadir un proxecto ao conxunto de conexións. Para obter máis información, consulte [Integrar datos en Common Data Service para aplicacións](/powerapps/administrator/data-integrator).
 - **SourceDataID** para contratos de proxectos e proxectos pódese actualizar a un valor diferente ou eliminar da asignación. O valor predefinido do modelo é **Project Service Automation**.
 - A asignación **PaymentTerms** debe actualizarse para que reflicta termos de pagamento válidas en Finanzas. Tamén pode eliminar a asignación da tarefa do proxecto. A asignación de valores predefinidos ten valores predefinidos para os datos de demostración. A seguinte táboa mostra os valores en Project Service Automation.
 
@@ -131,7 +131,7 @@ Use Microsoft Power Query para Excel para filtrar datos se se cumpren as seguint
 Se debe usar Power Query, siga estas pautas:
 
 - O modelo Proxectos e contratos (PSA a Fin e Ops) ten un filtro predefinido que só inclúe pedidos de venda do tipo **Artigo de traballo (msdyn\_ordertype = 192350001)**. Este filtro axuda a garantir que non se crean contratos de proxectos para pedidos de vendas en Finanzas. Se crea o seu propio modelo, debe engadir este filtro.
-- Cree un filtro Power Query que inclúa só as organizacións contractuais que deben sincronizarse coa entidade legal do conxunto de conexións de integración. Por exemplo, os contratos de proxectos que vostede ten coa unidade organizativa do contrato de Contoso US deben sincronizarse coa persoa xurídica USSI, pero os contratos de proxectos que teña coa unidade organizativa do contrato de Contoso Global deben sincronizarse coa persoa xurídica USMF. Se non engade este filtro á súa asignación de tarefas, todos os contratos do proxecto sincronizaranse coa persoa xurídica que se define para o conxunto de conexións, independentemente da unidade organizativa do contrato.
+- Cree un filtro Power Query que inclúa só as organizacións contractuais que deben sincronizarse coa entidade legal do conxunto de conexións de integración. Por exemplo, os contratos de proxectos que vostede ten coa unidade organizativa do contrato de Contoso US deberían estar sincronizados coa entidade legal USSI, pero os contratos de proxecto que ten coa unidade organizativa do contrato de Contoso Global deberían sincronizarse coa entidade legal USMF. Se non engade este filtro á súa asignación de tarefas, todos os contratos do proxecto sincronizaranse coa persoa xurídica que se define para o conxunto de conexións, independentemente da unidade organizativa do contrato.
 
 ## <a name="template-mapping-in-data-integration"></a>Asignación de modelos na integración de datos
 

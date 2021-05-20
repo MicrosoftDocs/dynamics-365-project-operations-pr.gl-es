@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: eec85b83cad4cd8fb6e0ec9c026c6a571bccf7f2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0a76447bb1a81a7157fccc0cd58eddd1eb5995de
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287371"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950127"
 ---
 # <a name="financial-dimension-defaults"></a>Valores predefinidos das dimensións financeiras
 
@@ -21,7 +21,7 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations usa o marco [Dimensións financeiras](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) en Dynamics 365 Finance para proporcionar información adicional sobre as transaccións do libro maior e do libro auxiliar do proxecto.
+Dynamics 365 Project Operations usa o marco [Dimensións financeiras](/dynamics365/finance/general-ledger/financial-dimensions) en Dynamics 365 Finance para proporcionar información adicional sobre as transaccións do libro maior e do libro auxiliar do proxecto.
 
 As dimensións financeiras predefinidas pódense establecer nun cliente, fonte de financiamento do proxecto, fito, liña de contrato de proxecto ou proxecto.
 

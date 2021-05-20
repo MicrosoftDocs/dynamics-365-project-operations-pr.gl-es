@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 329923e6d47fd36881aea8db8eba41a868829220
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282646"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951432"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Programar recursos para un proxecto (Project Service)
 
@@ -35,7 +35,7 @@ Pode comprobar a dispoñibilidade de recursos para obter unha vista xeral de com
   
 O panel de programación mostra a lista de recursos e a súa dispoñibilidade. Seleccionar un modo de visualización para mostrar dispoñibilidade por **Horas**, **Día**, **Semana** ou **Mes**.  
   
-Antes de utilizar o panel de programación, é importante definilo. Para obter máis información, consulte [Configurar o panel de programación (Field Service ou Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Antes de utilizar o panel de programación, é importante definilo. Para obter máis información, consulte [Configurar o panel de programación (Field Service ou Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Se está a usar unha versión máis antiga, para obter información sobre a dispoñibilidade de recursos, consulte [Ver dispoñibilidade de recursos](../psa/view-resource-availability.md).  
 

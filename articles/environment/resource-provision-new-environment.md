@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 50e623d3716c9dd03ce34ec293ba57b5d966d39e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9ee9e4c31d1972e3a75ad214071b31527f0ca826
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276886"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950532"
 ---
 # <a name="provision-a-new-environment"></a>Fornecer un novo ambiente
 
@@ -36,7 +36,7 @@ Siga os pasos seguintes para activar o fluxo de fornecemento automatizado de Pro
 
 ## <a name="provision-a-project-operations-environment"></a>Fornecer un ambiente de Project Operations
 
-1. Abra un novo despregamento de Dynamics 365 Finance [ambiente de demostración](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) ou [ambiente de illamento de procesos/produción](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Abra un novo despregamento de Dynamics 365 Finance [ambiente de demostración](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) ou [ambiente de illamento de procesos/produción](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Consulte o asistente de **Fornecemento de ambientes**. 
 
 > [!IMPORTANT]

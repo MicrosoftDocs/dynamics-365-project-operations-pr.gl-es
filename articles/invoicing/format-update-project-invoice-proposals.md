@@ -3,17 +3,17 @@ title: Xestionar propostas de facturas de proxecto
 description: Este tema ofrece detalles sobre o procesamento de facturas orientadas ao cliente con Project Operations para escenarios baseados en recursos/sen fornecemento.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275851"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950712"
 ---
 # <a name="manage-project-invoice-proposals"></a>Xestionar propostas de facturas de proxecto
 
@@ -80,7 +80,8 @@ Os valores do **Grupo do imposto sobre as vendas** e o **Grupo do imposto sobre 
     - **Cliente** sempre predefinirá o grupo de impostos sobre as vendas de facturación a partir do cliente.
     - **Buscar** buscará en todas as entidades desta lista e seleccionará o primeiro valor dispoñible. A busca comeza coa entidade **Proxecto**, logo a entidade **Contrato do proxecto** e despois a entidade **Cliente**.
 
-- **Grupo de impostos sobre as vendas individuais de fito de prezo fixo** úsase para predefinir o valor do campo **Grupo do imposto sobre as vendas individuais**.
+- **Grupo de impostos sobre as vendas do elemento fito de prezo fixo** úsase como valor predefinido no campo **Grupo de impostos sobre as vendas de elementos** para o fito de facturación. O contable pode revisar e modificar este valor na páxina **Transaccións a conta**. O sistema utiliza o valor da transacción a conta ao crear unha liña de proposta de factura do proxecto.
+ 
 
 ### <a name="financial-dimensions"></a>Dimensións financeiras
 
@@ -132,7 +133,7 @@ A páxina **Dar formato ás propostas de factura** permite que as transaccións 
 
 A xestión de impresión utiliza diferentes ficheiros de informe para imprimir, especificar destinos e personalizar o texto do pé de páxina para a factura. A xestión da impresión pódese configurar a nivel de módulo, pero estas opcións pódense anular para un cliente, contrato ou proposta de factura específicos. Para acceder a esta función na páxina **Proposta de factura do proxecto**, seleccione **Imprimir** > **Xestión da impresión**.
 
-A configuración de xestión de impresión móstrase como unha vista de árbore, onde cada nivel de nó mostra os documentos dispoñibles para axustalos. Pode atribuír impresións personalizadas a nivel de módulo, cliente, contrato ou documento de proposta de factura. Para modificar a impresión do documento orixinal, expanda o nó desexado e seleccione **Elemento orixinal**. No campo **Formato do informe**, seleccione o formato do informe que se usará para imprimir. Pode usar formatos de informe personalizados usando [Marco de xestión de documentos empresariais](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+A configuración de xestión de impresión móstrase como unha vista de árbore, onde cada nivel de nó mostra os documentos dispoñibles para axustalos. Pode atribuír impresións personalizadas a nivel de módulo, cliente, contrato ou documento de proposta de factura. Para modificar a impresión do documento orixinal, expanda o nó desexado e seleccione **Elemento orixinal**. No campo **Formato do informe**, seleccione o formato do informe que se usará para imprimir. Pode usar formatos de informe personalizados usando [Marco de xestión de documentos empresariais](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Publicar as propostas de factura
 

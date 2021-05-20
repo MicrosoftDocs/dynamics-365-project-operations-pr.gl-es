@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2d257ced3dadb320c501bfd5f64dcd8f21c1a4d3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cc19297131937949fe6f7eed00ee66fb5e3bff13
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272026"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950477"
 ---
 # <a name="expense-management-mobile-workspace"></a>Área de traballo de xestión de gastos
 
@@ -58,7 +58,7 @@ Tamén pode utilizar estas funcionalidades:
 Os requisitos varían segundo a versión que se despregou para a súa organización.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Requisitos previos se usa Dynamics 365 Finance 
-Se se despregou Finanzas para a súa organización, o administrador do sistema debe publicar a área de traballo móbil **Xestión de gastos**. Para obter instrucións, consulte [Publicar áreas de traballo móbiles](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Se se despregou Finanzas para a súa organización, o administrador do sistema debe publicar a área de traballo móbil **Xestión de gastos**. Para obter instrucións, consulte [Publicar áreas de traballo móbiles](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Requisitos previos se usa a versión 1611 coa actualización da plataforma 3 ou posterior
 Se se despregou a versión 1611 coa actualización da plataforma 3 ou posterior para a súa organización, o administrador do sistema debe cumprir os seguintes requisitos previos. 
@@ -77,16 +77,16 @@ Se se despregou a versión 1611 coa actualización da plataforma 3 ou posterior 
 <td>Administrador do sistema</td>
 <td>KB 4019015 é unha actualización de X++ ou unha revisión de metadatos que contén a área de traballo móbil <strong>Xestión de gastos</strong>. Para implementar KB 4019015, o administrador do sistema debe seguir estes pasos.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Descargue a corrección de metadatos desde Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">Instale a corrección de metadatos</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Cree un paquete despregable</a> que contén os modelos <strong>ApplicationSuite</strong> e <strong>ExpenseMobile</strong> e logo cargue o paquete despregable a LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Aplique o paquete despregable</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Descargue a corrección de metadatos desde Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">Instale a corrección de metadatos</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Cree un paquete despregable</a> que contén os modelos <strong>ApplicationSuite</strong> e <strong>ExpenseMobile</strong> e logo cargue o paquete despregable a LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Aplique o paquete despregable</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Publique a área de traballo móbil <strong>Xestión de gastos</strong>.</td>
 <td>Administrador do sistema</td>
-<td>Consulte <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicar unha área de traballo móbil</a>.</td>
+<td>Consulte <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicar unha área de traballo móbil</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -128,11 +128,11 @@ Descargue e instale a aplicación móbil Dynamics 365 Unified Ops:
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Introduza rapidamente os gastos usando a área de traballo móbil de xestión de gastos
 1. No seu dispositivo móbil, abra a área de traballo móbil **Xestión de gastos**.
 2. Seleccione **Entrada rápida de gasto**.
-3. Seleccione a categoría do gasto. Verá unha lista das categorías de gasto cargadas na súa aplicación para o seu uso sen conexión. Por defecto, cárganse 50 elementos, pero un programador pode cambiar este número. Para obter máis información, os programadores deben consultar [Plataforma móbil](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se a súa categoría non está na lista, seleccione **Buscar** para facer unha busca en liña. Busque por categoría de gasto ou cambie á busca por tipo de gasto.
+3. Seleccione a categoría do gasto. Verá unha lista das categorías de gasto cargadas na súa aplicación para o seu uso sen conexión. Por defecto, cárganse 50 elementos, pero un programador pode cambiar este número. Para obter máis información, os programadores deben consultar [Plataforma móbil](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se a súa categoría non está na lista, seleccione **Buscar** para facer unha busca en liña. Busque por categoría de gasto ou cambie á busca por tipo de gasto.
 4. Introduza a data de transacción do gasto.
 5. Opcional: Introduza o comerciante para o gasto.
 6. Introduza o importe do gasto.
-7. Seleccione a moeda do gasto. Verá unha lista dos códigos de moedas cargados na súa aplicación para o seu uso sen conexión. Por defecto, cárganse 400 moedas, pero un programador pode cambiar este número. Para obter máis información, os programadores deben consultar [Plataforma móbil](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se a súa moeda non está na lista, seleccione **Buscar** para facer unha busca en liña. Busque por moeda ou cambie á busca por nome.
+7. Seleccione a moeda do gasto. Verá unha lista dos códigos de moedas cargados na súa aplicación para o seu uso sen conexión. Por defecto, cárganse 400 moedas, pero un programador pode cambiar este número. Para obter máis información, os programadores deben consultar [Plataforma móbil](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se a súa moeda non está na lista, seleccione **Buscar** para facer unha busca en liña. Busque por moeda ou cambie á busca por nome.
 8. Seleccione **Facer foto** ou **Escoller imaxe**.
 9. Siga un destes pasos:
 
@@ -163,11 +163,11 @@ Descargue e instale a aplicación móbil Dynamics 365 Unified Ops:
 7. Seleccione un ou máis gastos da lista.
 8. Seleccione **Feito**.
 9. Para engadir un novo gasto ao informe de gastos, seleccione **Novo gasto**.
-10. Seleccione a categoría do gasto. Verá unha lista das categorías de gasto cargadas na súa aplicación para o seu uso sen conexión. Por defecto, cárganse 50 elementos, pero un programador pode cambiar este número. Para obter máis información, os programadores deben consultar [Plataforma móbil](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se a súa categoría non está na lista, seleccione **Buscar** para facer unha busca en liña. Busque por categoría de gasto ou cambie á busca por tipo de gasto.
+10. Seleccione a categoría do gasto. Verá unha lista das categorías de gasto cargadas na súa aplicación para o seu uso sen conexión. Por defecto, cárganse 50 elementos, pero un programador pode cambiar este número. Para obter máis información, os programadores deben consultar [Plataforma móbil](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se a súa categoría non está na lista, seleccione **Buscar** para facer unha busca en liña. Busque por categoría de gasto ou cambie á busca por tipo de gasto.
 11. Opcional: Introduza o comerciante para o gasto.
 12. Introduza a data de transacción do gasto.
 13. Introduza o importe do gasto.
-14. Seleccione a moeda do gasto. Verá unha lista dos códigos de moedas cargados na súa aplicación para o seu uso sen conexión. Por defecto, cárganse 400 moedas, pero un programador pode cambiar este número. Para obter máis información, os programadores deben consultar [Plataforma móbil](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se a súa moeda non está na lista, seleccione **Buscar** para facer unha busca en liña. Busque por moeda ou cambie á busca por nome.
+14. Seleccione a moeda do gasto. Verá unha lista dos códigos de moedas cargados na súa aplicación para o seu uso sen conexión. Por defecto, cárganse 400 moedas, pero un programador pode cambiar este número. Para obter máis información, os programadores deben consultar [Plataforma móbil](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se a súa moeda non está na lista, seleccione **Buscar** para facer unha busca en liña. Busque por moeda ou cambie á busca por nome.
 15. Seleccione **Feito**.
 16. Para engadir máis detalles ao gasto, seleccione **Engadir máis detalles**. Os campos dispoñibles dependen da configuración de xestión de gastos para a súa empresa.
 17. Se a política da empresa require un recibo do gasto, seleccione **Recibos** e siga estes pasos:
@@ -213,12 +213,12 @@ Descargue e instale a aplicación móbil Dynamics 365 Unified Ops:
 
         - Se seleccionou **Convidados anteriores**, siga estes pasos:
 
-            1. Seleccione un ou máis convidados anteriores da lista. Verá unha lista de convidados anteriores que engadiu a informes de gastos anteriores que se cargan na súa aplicación para o seu uso sen conexión. Por defecto, cárganse 50 elementos, pero un programador pode cambiar este número. Para obter máis información, os programadores deben consultar [Plataforma móbil](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se o seu convidado anterior non está na lista, seleccione **Buscar** para facer unha busca en liña. Busque por nome ou cambie á busca por organización, país ou cargo.
+            1. Seleccione un ou máis convidados anteriores da lista. Verá unha lista de convidados anteriores que engadiu a informes de gastos anteriores que se cargan na súa aplicación para o seu uso sen conexión. Por defecto, cárganse 50 elementos, pero un programador pode cambiar este número. Para obter máis información, os programadores deben consultar [Plataforma móbil](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se o seu convidado anterior non está na lista, seleccione **Buscar** para facer unha busca en liña. Busque por nome ou cambie á busca por organización, país ou cargo.
             2. Seleccione **Feito**.
 
         - Se seleccionou **Compañeiros de traballo**, siga estes pasos:
 
-            1. Seleccione un ou máis compañeiros de traballo da lista. Verá unha lista dos compañeiros de traballo cargados na súa aplicación para o seu uso sen conexión. Por defecto, cárganse 50 elementos, pero un programador pode cambiar este número. Para obter máis información, os programadores deben consultar [Plataforma móbil](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se o seu compañeiro de traballo non está na lista, seleccione **Buscar** para facer unha busca en liña. Busque por nome ou cambie á busca por empresa ou cargo.
+            1. Seleccione un ou máis compañeiros de traballo da lista. Verá unha lista dos compañeiros de traballo cargados na súa aplicación para o seu uso sen conexión. Por defecto, cárganse 50 elementos, pero un programador pode cambiar este número. Para obter máis información, os programadores deben consultar [Plataforma móbil](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se o seu compañeiro de traballo non está na lista, seleccione **Buscar** para facer unha busca en liña. Busque por nome ou cambie á busca por empresa ou cargo.
             2. Seleccione **Feito**.
 
     3. Seleccione o botón **Atrás** para volver aos detalles do gasto.
@@ -227,7 +227,7 @@ Descargue e instale a aplicación móbil Dynamics 365 Unified Ops:
 
     1. Selecciona a primeira data para detallar.
     2. Seleccione **Engadir detalles**.
-    3. Seleccione a subcategoría para detallar o gasto. Verá unha lista das subcategorías de gasto cargadas na súa aplicación para o seu uso sen conexión. Por defecto, cárganse 50 elementos, pero un programador pode cambiar este número. Para obter máis información, os programadores deben consultar [Plataforma móbil](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se a súa subcategoría non está na lista, seleccione **Buscar** para facer unha busca en liña. Busque por nome da subcategoría de gastos.
+    3. Seleccione a subcategoría para detallar o gasto. Verá unha lista das subcategorías de gasto cargadas na súa aplicación para o seu uso sen conexión. Por defecto, cárganse 50 elementos, pero un programador pode cambiar este número. Para obter máis información, os programadores deben consultar [Plataforma móbil](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se a súa subcategoría non está na lista, seleccione **Buscar** para facer unha busca en liña. Busque por nome da subcategoría de gastos.
     4. Introduza o importe da transacción para detallala.
     5. Se é necesario, edite a data da transacción.
     6. Seleccione **Feito**.

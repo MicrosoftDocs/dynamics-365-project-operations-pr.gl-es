@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e66177e92e701c2dc09bed005f748ca19ae980d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ad5c5deca1964d57f22459c129f9936be0c30fde
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283366"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951522"
 ---
 # <a name="dashboards"></a>Paneis
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Service Automation inclúe dous paneis do sistema: **Xestor
 
 ## <a name="practice-manager"></a>Xestor de prácticas 
 
-O panel **Xestor de prácticas** proporciona aos xestores de prácticas unha experiencia de panel gráfico de seguimento de custos, vendas e marxe bruta e utilización. Tamén permite aos xestores de prácticas segmentar a información por diversas dimensións, como cliente, proxecto ou rol de recurso. Para obter máis información sobre como crear e personalizar paneis, consulte [Crear ou editar paneis](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
+O panel **Xestor de prácticas** proporciona aos xestores de prácticas unha experiencia de panel gráfico de seguimento de custos, vendas e marxe bruta e utilización. Tamén permite aos xestores de prácticas segmentar a información por diversas dimensións, como cliente, proxecto ou rol de recurso. Para obter máis información sobre como crear e personalizar paneis, consulte [Crear ou editar paneis](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
 
 ## <a name="resource-manager"></a>Xestor de recursos 
 

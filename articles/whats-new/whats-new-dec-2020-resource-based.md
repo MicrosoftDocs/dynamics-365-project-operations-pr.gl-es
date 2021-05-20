@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f5927a638fe8e454aecc9ce8dfc0871ed51d09f5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e7c252ba01a4665bd09423e9b2b250622a149beb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291932"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951027"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de decembro de 2020 - Project Operations para situacións baseadas en recursos/sen fornecemento
 
@@ -108,7 +108,7 @@ As seguintes funcionalidades están incluídas nesta versión:
 | Tempo e gasto                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | O fluxo de traballo de contabilización automática do informe de gastos completouse pero a factura non se contabiliza                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Actualizacións normativas
-Para obter información sobre actualizacións normativas para aplicacións de Finance and Operations, vexa [Actualizacións normativas](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
+Para obter información sobre actualizacións normativas para aplicacións de Finance and Operations, vexa [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

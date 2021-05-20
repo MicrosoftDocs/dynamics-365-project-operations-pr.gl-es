@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275086"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950577"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalación de datos de exemplo para a aplicación Project Service
 
@@ -149,7 +149,7 @@ O paquete de datos de demostración require seis usuarios. Para que o paquete se
 
 5. O primeiro calendario do usuario (na etiqueta **userstocreateandconfigure**) utilízase para encher as horas de traballo para todos os recursos reservables ao importar os datos de demostración. Navegue a **Configuración** > **Seguranza** > **Usuarios**, busque o usuario "Spencer Low" e abra a opción "Horas Laborables". Edite as horas laborables existentes seleccionando a opción **Toda a programación periódica semanal de principio a fin**. Asegúrese de que as **Horas laborables están definidas como 8 AM - 5 PM (9 horas), de luns a venres, e co fuso horario en hora do Pacífico (Estados Unidos e Canadá)**. Isto é necesario para garantir que o panel Proxecto e Programación se mostran como está previsto.
 
-**Recomendación:** Considere crear unha copia de seguranza da súa organización agora, en acaso de que necesite volver ao punto de partida se algo sae mal durante a instalación dos datos de exemplo. Para obter máis información, vexa [Copia de seguranza e restauración de instancias](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Recomendación:** Considere crear unha copia de seguranza da súa organización agora, en acaso de que necesite volver ao punto de partida se algo sae mal durante a instalación dos datos de exemplo. Para obter máis información, vexa [Copia de seguranza e restauración de instancias](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Executar o Package Deployer
 

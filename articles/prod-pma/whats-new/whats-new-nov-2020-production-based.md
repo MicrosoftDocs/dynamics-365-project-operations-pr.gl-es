@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 28b967ddb6bec9fcc1be099e6ab218f38640a14c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 31640ba6d91831d75ca21b7938a50e4b431d759f
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288001"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950757"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Novidades de novembro 2020 - Project Operations para situacións baseadas en produción/con fornecemento
 
@@ -25,7 +25,7 @@ Para obter información sobre as correccións incluídas nesta actualización, i
 
 ## <a name="regulatory-updates"></a>Actualizacións normativas
 
-Para obter información sobre actualizacións normativas para aplicacións de Dynamics 365 Finance and Operations, vexa [Actualizacións normativas](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
+Para obter información sobre actualizacións normativas para aplicacións de Dynamics 365 Finance and Operations, vexa [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

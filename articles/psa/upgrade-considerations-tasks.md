@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a067521410f0fe0d8f5d4c510a35f2a3b018dce3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d31ca60b267063e9cadf544468ece501353950fa
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281746"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951342"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Consideracións de actualización da estrutura de subdivisión do traballo
 
@@ -34,20 +34,20 @@ Este tema fornece información sobre a actualización da estrutura de subdivisi�
 ## <a name="key-entities"></a>Entidades clave
 Para unha estrutura de subdivisión do traballo precisa que xa está cargada con recursos, son necesarias as seguintes entidades:
 
-- [Proxecto](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Equipo do proxecto](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Tarefa do proxecto](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Atribucións de recursos](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Dependencia da tarefa do proxecto](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Recursos reservables](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Proxecto](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Equipo do proxecto](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Tarefa do proxecto](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Atribucións de recursos](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Dependencia da tarefa do proxecto](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Recursos reservables](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Para definir unha estrutura de subdivisión do traballo cargada con recursos, debe realizar os seguintes pasos:
 
-1. Cree un novo proxecto. Para obter máis información sobre como crear un novo proxecto, consulte [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Cree unha ou varias tarefas. Para obter máis información sobre como crear unha tarefa, consulte [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Defina as dependencias de tarefas. Para obter máis información, consulte [Dependencia da tarefa do proxecto](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Atribuír membros do equipo do proxecto ao proxecto. Para obter máis información, consulte [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Atribuír membros do equipo do proxecto ás tarefas. Para obter máis información, consulte [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Cree un novo proxecto. Para obter máis información sobre como crear un novo proxecto, consulte [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Cree unha ou varias tarefas. Para obter máis información sobre como crear unha tarefa, consulte [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Defina as dependencias de tarefas. Para obter máis información, consulte [Dependencia da tarefa do proxecto](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Atribuír membros do equipo do proxecto ao proxecto. Para obter máis información, consulte [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Atribuír membros do equipo do proxecto ás tarefas. Para obter máis información, consulte [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Relacións do equipo do proxecto
 

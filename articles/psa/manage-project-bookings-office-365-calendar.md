@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1df4864ca8dbf6948ca88a7c82a6c0a676e3bd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ebfadf8a331fd6a8a86a9cc040dc8957db3b82
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275041"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950307"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Xestionar proxectos e reservas no seu calendario (Project Service)
 
@@ -52,7 +52,7 @@ Ver os compromisos persoais, as reservas de traballo nos proxectos e as atribuci
   
 - Deberá ter credenciais de administrador global ou administrador do sistema de [!INCLUDE[pn_office_365](../includes/pn-office-365.md)].  
   
-- O seu administrador terá que configurar o perfil de servidor de correo electrónico e cada usuario deberá configurar a súa caixa de correo. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configurar o procesamento de correo electrónico a través da sincronización no servidor](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- O seu administrador terá que configurar o perfil de servidor de correo electrónico e cada usuario deberá configurar a súa caixa de correo. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configurar o procesamento de correo electrónico a través da sincronización no servidor](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Activar a sincronización para a súa organización (tarefa de administrador)  
   
