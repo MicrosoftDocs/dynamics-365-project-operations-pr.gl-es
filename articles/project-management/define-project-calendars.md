@@ -1,9 +1,9 @@
 ---
 title: Definir calendarios de proxectos
-description: Este tema ofrece información sobre o uso dun calendario do proxecto para rastrexar a programación do proxecto.
+description: Este tema ofrece información sobre como aplicar un modelo de calendario a un proxecto para rastrexar a programación do proxecto.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286966"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981298"
 ---
 # <a name="define-project-calendars"></a>Definir calendarios de proxectos
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Para crear unha programación de proxecto, créase un modelo de calendario de proxecto que define o número de horas de traballo para adaptar por día na programación e os peches de empresa. Para crear un modelo de calendario de proxecto, asocie un modelo de traballo ao campo **Modelo de calendario** para o proxecto. Siga estes pasos para crear un modelo de traballo.
+Para crear e xestionar un proxecto, debe aplicarlle un modelo de calendario. O modelo de calendario define os seguintes atributos do proxecto:
 
-1. No panel de navegación esquerdo, seleccione **Recursos**. 
-2. Na páxina de lista **Recursos**, abra un rexistro de usuario e, a seguir, seleccione **Mostrar horas laborables**.
+- Horas de traballo, incluídas as horas de inicio e fin
+- Días laborables
+- Excepcións do calendario como días non laborables
 
-  > [!NOTE]
-  > Asegúrese de permitir ventás emerxentes na páxina do navegador. Isto permítelle ver as horas laborables establecidas para o recurso.
-  
-3. No separador **Vista mensual**, seleccione **Configurar**. Aparece unha lista de tres opcións: 
+O modelo de calendario que se aplica a un proxecto é unha copia do modelo de calendario definido na configuración da súa organización.
 
-  - Nova programación semanal
-  - Programación de traballo para un día
-  - Tempo libre
+> [!NOTE]
+> Se cambia o modelo de calendario, eses cambios non se propagarán ás horas de traballo do proxecto. Para cambiar as horas de traballo do proxecto, hai que aplicar un novo modelo.
 
-4. Seleccione **Nova programación semanal** e logo configure as opcións para esta programación de recursos. Pode definir unha programación semanal recorrente, parámetros horarios diarios, peches de negocio e moito máis.
-5. Estableza o intervalo de datas, seleccione **Gardar** e, a seguir, seleccione **Pechar**. 
-6. Volva á páxina de lista **Recursos** e seleccione o recurso para o que estableceu as horas laborables. 
-7. Seleccione **Establecer calendario como** para configurar o modelo de traballo. 
-8. Na caixa de diálogo **Modelo de traballo**, introduza un nome para o modelo de traballo e, a seguir, seleccione **Aplicar**. 
+Para crear un modelo de calendario para a súa organización, hai dous requisitos clave:
+
+- Defina as horas de traballo desexadas do modelo empregando un recurso reservable novo ou existente.
+- Cree un novo modelo de calendario e asocie o modelo ao recurso reservable.
+
+**Definir as horas de traballo do modelo**
+
+1. Vaia a **Recursos** \> **Recursos**.
+2. Cree un novo recurso para facer referencia a el no modelo de calendario ou seleccione un recurso existente.
+3. Seleccione o separador **Horas de traballo** do recurso e siga as instrucións de [Establecer horas de traballo para un recurso](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) para configurar as regras do calendario.
+
+**Crear un novo modelo de calendario**
+
+1. Vaia a **Configuración** \> **Modelo de calendario**.
+2. Seleccione **Novo** e introduza un nome, unha descrición e un recurso do modelo.
+
+> [!NOTE]
+> Cando se fai referencia a un recurso nun modelo de calendario, asóciase unha copia do calendario do recurso ao modelo de calendario. Se cambian as horas de traballo do modelo copiado, eses cambios non se propagarán ao modelo de calendario.
 
 Agora pode asociar o modelo de traballo a un modelo de calendario de proxecto.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
