@@ -2,8 +2,6 @@
 title: Ver a utilización imputable de recursos
 description: Este tema fornece información sobre a vista de utilización de recursos.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,88 +16,88 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b07af573bc8d312c45ee4aef50c95942401294fa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285931"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992832"
 ---
-# <a name="view-chargeable-utilization-for-resources"></a><span data-ttu-id="0d3fe-103">Ver a utilización imputable de recursos</span><span class="sxs-lookup"><span data-stu-id="0d3fe-103">View chargeable utilization for resources</span></span>
+# <a name="view-chargeable-utilization-for-resources"></a><span data-ttu-id="92ece-103">Ver a utilización imputable de recursos</span><span class="sxs-lookup"><span data-stu-id="92ece-103">View chargeable utilization for resources</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
  
-<span data-ttu-id="0d3fe-104">A **Vista de utilización** na páxina **Utilización de recursos de Project Service** a páxina mostra a utilización imputable por cada recurso reservable.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-104">The **Utilization View** on the **Project Service Resource Utilization** page shows the chargeable utilization for each bookable resource.</span></span> <span data-ttu-id="0d3fe-105">Porque a vista está baseada no panel de programación, de forma que atopará moitas das mesmas funcións.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-105">Because the view is based on the schedule board, you’ll find many of the same functions.</span></span>
+<span data-ttu-id="92ece-104">A **Vista de utilización** na páxina **Utilización de recursos de Project Service** a páxina mostra a utilización imputable por cada recurso reservable.</span><span class="sxs-lookup"><span data-stu-id="92ece-104">The **Utilization View** on the **Project Service Resource Utilization** page shows the chargeable utilization for each bookable resource.</span></span> <span data-ttu-id="92ece-105">Porque a vista está baseada no panel de programación, de forma que atopará moitas das mesmas funcións.</span><span class="sxs-lookup"><span data-stu-id="92ece-105">Because the view is based on the schedule board, you’ll find many of the same functions.</span></span>
 
 > ![Captura da visualización de utilización](media/FAQ-utilization-1.png)
  
 
-<span data-ttu-id="0d3fe-107">O cálculo da utilización imputable funciona da seguinte maneira:</span><span class="sxs-lookup"><span data-stu-id="0d3fe-107">The chargeable utilization calculation works as follows:</span></span>
+<span data-ttu-id="92ece-107">O cálculo da utilización imputable funciona da seguinte maneira:</span><span class="sxs-lookup"><span data-stu-id="92ece-107">The chargeable utilization calculation works as follows:</span></span>
 
-   <span data-ttu-id="0d3fe-108">Utilización imputable = (Horas reais imputables) / (capacidade do recurso).</span><span class="sxs-lookup"><span data-stu-id="0d3fe-108">Chargeable utilization = (Chargeable actual hours) / (resource capacity)</span></span>
+   <span data-ttu-id="92ece-108">Utilización imputable = (Horas reais imputables) / (capacidade do recurso).</span><span class="sxs-lookup"><span data-stu-id="92ece-108">Chargeable utilization = (Chargeable actual hours) / (resource capacity)</span></span>
 
-<span data-ttu-id="0d3fe-109">O celas representan a utilización imputable calculada para o período seleccionado (días, semanas ou meses).</span><span class="sxs-lookup"><span data-stu-id="0d3fe-109">The cells represent the calculated chargeable utilization for the selected period (days, weeks, or months).</span></span>
+<span data-ttu-id="92ece-109">O celas representan a utilización imputable calculada para o período seleccionado (días, semanas ou meses).</span><span class="sxs-lookup"><span data-stu-id="92ece-109">The cells represent the calculated chargeable utilization for the selected period (days, weeks, or months).</span></span>
 
-<span data-ttu-id="0d3fe-110">As cores en cada cela mostrar a utilización imputable para un recurso comparada coa utilización imputable de destino.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-110">The colors in each cell show the chargeable utilization for a resource as compared to their target chargeable utilization.</span></span> 
+<span data-ttu-id="92ece-110">As cores en cada cela mostrar a utilización imputable para un recurso comparada coa utilización imputable de destino.</span><span class="sxs-lookup"><span data-stu-id="92ece-110">The colors in each cell show the chargeable utilization for a resource as compared to their target chargeable utilization.</span></span> 
 
-<span data-ttu-id="0d3fe-111">A utilization de destino pódese definir no rol predefinido do recurso ou no recurso individual.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-111">The target utilization can be set on the resource’s default role or on the individual resource itself.</span></span> <span data-ttu-id="0d3fe-112">O cálculo busca no individual o destino en primeiro lugar e, a seguir, no rol predefinido do recurso.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-112">The calculation looks at the individual for the target first, and then to the resource’s default role.</span></span>
+<span data-ttu-id="92ece-111">A utilization de destino pódese definir no rol predefinido do recurso ou no recurso individual.</span><span class="sxs-lookup"><span data-stu-id="92ece-111">The target utilization can be set on the resource’s default role or on the individual resource itself.</span></span> <span data-ttu-id="92ece-112">O cálculo busca no individual o destino en primeiro lugar e, a seguir, no rol predefinido do recurso.</span><span class="sxs-lookup"><span data-stu-id="92ece-112">The calculation looks at the individual for the target first, and then to the resource’s default role.</span></span>
 
-## <a name="set-target-on-a-resource"></a><span data-ttu-id="0d3fe-113">Establecer o destino nun recurso</span><span class="sxs-lookup"><span data-stu-id="0d3fe-113">Set target on a resource</span></span>
+## <a name="set-target-on-a-resource"></a><span data-ttu-id="92ece-113">Establecer o destino nun recurso</span><span class="sxs-lookup"><span data-stu-id="92ece-113">Set target on a resource</span></span>
 
-1. <span data-ttu-id="0d3fe-114">Vaia a **Recursos** \> **Recursos**.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-114">Go to **Resources** \> **Resources**.</span></span> 
-2. <span data-ttu-id="0d3fe-115">Seleccione un recurso para abrir o rexistro.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-115">Select a resource to open the record.</span></span> 
-3. <span data-ttu-id="0d3fe-116">No separador **Project Service**, pode definir a utilización obxectivo do recurso.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-116">On the **Project Service** tab, you can set the resource’s target utilization.</span></span>
+1. <span data-ttu-id="92ece-114">Vaia a **Recursos** \> **Recursos**.</span><span class="sxs-lookup"><span data-stu-id="92ece-114">Go to **Resources** \> **Resources**.</span></span> 
+2. <span data-ttu-id="92ece-115">Seleccione un recurso para abrir o rexistro.</span><span class="sxs-lookup"><span data-stu-id="92ece-115">Select a resource to open the record.</span></span> 
+3. <span data-ttu-id="92ece-116">No separador **Project Service**, pode definir a utilización obxectivo do recurso.</span><span class="sxs-lookup"><span data-stu-id="92ece-116">On the **Project Service** tab, you can set the resource’s target utilization.</span></span>
 
 > ![Captura de utilizar o separador Project Service para definir a utilización de destino](media/FAQ-utilization-2.png)
  
-## <a name="set-target-utilization-on-a-role"></a><span data-ttu-id="0d3fe-118">Estableza a utilización obxectivo nun rol</span><span class="sxs-lookup"><span data-stu-id="0d3fe-118">Set target utilization on a role</span></span>
+## <a name="set-target-utilization-on-a-role"></a><span data-ttu-id="92ece-118">Estableza a utilización obxectivo nun rol</span><span class="sxs-lookup"><span data-stu-id="92ece-118">Set target utilization on a role</span></span>
 
-1. <span data-ttu-id="0d3fe-119">Vaia a **Recursos** \> **Roles de recursos**.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-119">Go to **Resources** \> **Resource Roles**.</span></span> 
-2. <span data-ttu-id="0d3fe-120">Seleccione un rol e abra o rexistro.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-120">Select a role and open the record.</span></span> 
-3. <span data-ttu-id="0d3fe-121">Defina a utilización de destino para o rol.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-121">Set the target utilization for the role.</span></span>
+1. <span data-ttu-id="92ece-119">Vaia a **Recursos** \> **Roles de recursos**.</span><span class="sxs-lookup"><span data-stu-id="92ece-119">Go to **Resources** \> **Resource Roles**.</span></span> 
+2. <span data-ttu-id="92ece-120">Seleccione un rol e abra o rexistro.</span><span class="sxs-lookup"><span data-stu-id="92ece-120">Select a role and open the record.</span></span> 
+3. <span data-ttu-id="92ece-121">Defina a utilización de destino para o rol.</span><span class="sxs-lookup"><span data-stu-id="92ece-121">Set the target utilization for the role.</span></span>
 
 > ![Captura de utilizar os roles de recursos para definir a utilización de destino](media/FAQ-utilization-3.png)
  
-## <a name="calculate-chargeable-utilization-for-a-resource"></a><span data-ttu-id="0d3fe-123">Calcular a utilización imputable dun recurso</span><span class="sxs-lookup"><span data-stu-id="0d3fe-123">Calculate chargeable utilization for a resource</span></span>
+## <a name="calculate-chargeable-utilization-for-a-resource"></a><span data-ttu-id="92ece-123">Calcular a utilización imputable dun recurso</span><span class="sxs-lookup"><span data-stu-id="92ece-123">Calculate chargeable utilization for a resource</span></span>
 
-<span data-ttu-id="0d3fe-124">Para calcular a utilización imputable para un recurso, terá que cumprir algúns requisitos previos.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-124">To calculate chargeable utilization for a resource, you will need to complete some pre-requisites.</span></span> 
+<span data-ttu-id="92ece-124">Para calcular a utilización imputable para un recurso, terá que cumprir algúns requisitos previos.</span><span class="sxs-lookup"><span data-stu-id="92ece-124">To calculate chargeable utilization for a resource, you will need to complete some pre-requisites.</span></span> 
 
-### <a name="set-default-role-for-individual-resource"></a><span data-ttu-id="0d3fe-125">Estableza o rol por defecto para cada recurso individual</span><span class="sxs-lookup"><span data-stu-id="0d3fe-125">Set default role for individual resource</span></span>
+### <a name="set-default-role-for-individual-resource"></a><span data-ttu-id="92ece-125">Estableza o rol por defecto para cada recurso individual</span><span class="sxs-lookup"><span data-stu-id="92ece-125">Set default role for individual resource</span></span>
 
-<span data-ttu-id="0d3fe-126">En primeiro lugar, a utilización obxectivo debe definirse no recurso individual ou nos roles do recurso.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-126">First, the target utilization must be set on either the individual resource or on resource roles.</span></span> <span data-ttu-id="0d3fe-127">Se está a usar roles de recursos para destinos, cada recurso individual debe ter un rol predefinido.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-127">If you are using resource roles for targets, each individual resource must have a default role.</span></span> 
+<span data-ttu-id="92ece-126">En primeiro lugar, a utilización obxectivo debe definirse no recurso individual ou nos roles do recurso.</span><span class="sxs-lookup"><span data-stu-id="92ece-126">First, the target utilization must be set on either the individual resource or on resource roles.</span></span> <span data-ttu-id="92ece-127">Se está a usar roles de recursos para destinos, cada recurso individual debe ter un rol predefinido.</span><span class="sxs-lookup"><span data-stu-id="92ece-127">If you are using resource roles for targets, each individual resource must have a default role.</span></span> 
 
-1. <span data-ttu-id="0d3fe-128">Para definir isto, vaia a **Recursos** \> **Recursos**.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-128">To set this, go to **Resources** \> **Resources**.</span></span> 
-2. <span data-ttu-id="0d3fe-129">Seleccione un recurso, abra o rexistro e logo seleccione o separador **Project Service**.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-129">Select a resource, open the record, and then select the **Project Service** tab.</span></span> 
-3. <span data-ttu-id="0d3fe-130">Na grade **Rol do recurso**, comprobe que hai un rol para o recurso e que **É predefinido** está configurado en **Si**.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-130">In the **Resource Role** grid, make sure there’s one role for the resource and **Is Default** is set to **Yes**.</span></span>
+1. <span data-ttu-id="92ece-128">Para definir isto, vaia a **Recursos** \> **Recursos**.</span><span class="sxs-lookup"><span data-stu-id="92ece-128">To set this, go to **Resources** \> **Resources**.</span></span> 
+2. <span data-ttu-id="92ece-129">Seleccione un recurso, abra o rexistro e logo seleccione o separador **Project Service**.</span><span class="sxs-lookup"><span data-stu-id="92ece-129">Select a resource, open the record, and then select the **Project Service** tab.</span></span> 
+3. <span data-ttu-id="92ece-130">Na grade **Rol do recurso**, comprobe que hai un rol para o recurso e que **É predefinido** está configurado en **Si**.</span><span class="sxs-lookup"><span data-stu-id="92ece-130">In the **Resource Role** grid, make sure there’s one role for the resource and **Is Default** is set to **Yes**.</span></span>
  
-### <a name="change-billing-type-for-resource-role"></a><span data-ttu-id="0d3fe-131">Cambiar tipo de facturación deste rol do recurso</span><span class="sxs-lookup"><span data-stu-id="0d3fe-131">Change billing type for resource role</span></span>
+### <a name="change-billing-type-for-resource-role"></a><span data-ttu-id="92ece-131">Cambiar tipo de facturación deste rol do recurso</span><span class="sxs-lookup"><span data-stu-id="92ece-131">Change billing type for resource role</span></span>
 
-<span data-ttu-id="0d3fe-132">Os roles de recurso deben definirse para ter un tipo de facturación **Imputable**.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-132">The resource roles must be set to have a billing type of **Chargeable**.</span></span> 
+<span data-ttu-id="92ece-132">Os roles de recurso deben definirse para ter un tipo de facturación **Imputable**.</span><span class="sxs-lookup"><span data-stu-id="92ece-132">The resource roles must be set to have a billing type of **Chargeable**.</span></span> 
 
-1. <span data-ttu-id="0d3fe-133">Vaia a **Recursos** \> **Roles de recursos**.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-133">Go to **Resources** \> **Resource Roles**.</span></span> 
-2. <span data-ttu-id="0d3fe-134">Abra o rexistro que quere actualizar e, a seguir, defina o tipo de facturación predefinido en **Imputable**.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-134">Open the record you want to update, and then set the billing type default to **Chargeable**.</span></span>
+1. <span data-ttu-id="92ece-133">Vaia a **Recursos** \> **Roles de recursos**.</span><span class="sxs-lookup"><span data-stu-id="92ece-133">Go to **Resources** \> **Resource Roles**.</span></span> 
+2. <span data-ttu-id="92ece-134">Abra o rexistro que quere actualizar e, a seguir, defina o tipo de facturación predefinido en **Imputable**.</span><span class="sxs-lookup"><span data-stu-id="92ece-134">Open the record you want to update, and then set the billing type default to **Chargeable**.</span></span>
 
-### <a name="set-working-hours-for-resource-role"></a><span data-ttu-id="0d3fe-135">Definir as horas laborables para o rol de recurso</span><span class="sxs-lookup"><span data-stu-id="0d3fe-135">Set working hours for resource role</span></span>
+### <a name="set-working-hours-for-resource-role"></a><span data-ttu-id="92ece-135">Definir as horas laborables para o rol de recurso</span><span class="sxs-lookup"><span data-stu-id="92ece-135">Set working hours for resource role</span></span>
  
-<span data-ttu-id="0d3fe-136">O recurso debe ter horas de traballo para o cálculo de capacidade.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-136">The resource must have working hours for the capacity calculation.</span></span> 
+<span data-ttu-id="92ece-136">O recurso debe ter horas de traballo para o cálculo de capacidade.</span><span class="sxs-lookup"><span data-stu-id="92ece-136">The resource must have working hours for the capacity calculation.</span></span> 
 
-1. <span data-ttu-id="0d3fe-137">Vaia a **Recursos** \> **Recursos**.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-137">Go to **Resources** \> **Resources**.</span></span> 
-2. <span data-ttu-id="0d3fe-138">Seleccione un recurso para abrir o rexistro e, a seguir, seleccione **Mostrar horas laborables**.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-138">Select a resource to open the record, and then select **Show Work Hours**.</span></span> 
-3. <span data-ttu-id="0d3fe-139">Pode actualizar en masa a lista de recursos aplicándolles un **Modelo de horas de traballo** desde a visualización de **Lista de recursos**.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-139">You can bulk-update the list of resources by applying a **Work Hour Template** from the **Resource List** view.</span></span>
+1. <span data-ttu-id="92ece-137">Vaia a **Recursos** \> **Recursos**.</span><span class="sxs-lookup"><span data-stu-id="92ece-137">Go to **Resources** \> **Resources**.</span></span> 
+2. <span data-ttu-id="92ece-138">Seleccione un recurso para abrir o rexistro e, a seguir, seleccione **Mostrar horas laborables**.</span><span class="sxs-lookup"><span data-stu-id="92ece-138">Select a resource to open the record, and then select **Show Work Hours**.</span></span> 
+3. <span data-ttu-id="92ece-139">Pode actualizar en masa a lista de recursos aplicándolles un **Modelo de horas de traballo** desde a visualización de **Lista de recursos**.</span><span class="sxs-lookup"><span data-stu-id="92ece-139">You can bulk-update the list of resources by applying a **Work Hour Template** from the **Resource List** view.</span></span>
 
-## <a name="troubleshooting-chargeable-actual-hours"></a><span data-ttu-id="0d3fe-140">Resolución de problemas de horas reais imputables</span><span class="sxs-lookup"><span data-stu-id="0d3fe-140">Troubleshooting chargeable actual hours</span></span>
+## <a name="troubleshooting-chargeable-actual-hours"></a><span data-ttu-id="92ece-140">Resolución de problemas de horas reais imputables</span><span class="sxs-lookup"><span data-stu-id="92ece-140">Troubleshooting chargeable actual hours</span></span>
 
-<span data-ttu-id="0d3fe-141">As horas reais imputables orixínanse da entidade **Valores reais**.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-141">The chargeable actual hours are sourced from the **Actuals** entity.</span></span> <span data-ttu-id="0d3fe-142">Os valores reais co tipo de facturación **Imputable** están incluídos no cálculo e, por este motivo, debe ter proxectos onde os valores reais son imputables.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-142">Actuals with a billing type of **Chargeable** are included in the calculation and, for this reason, you must have projects where the actuals that are chargeable.</span></span>
+<span data-ttu-id="92ece-141">As horas reais imputables orixínanse da entidade **Valores reais**.</span><span class="sxs-lookup"><span data-stu-id="92ece-141">The chargeable actual hours are sourced from the **Actuals** entity.</span></span> <span data-ttu-id="92ece-142">Os valores reais co tipo de facturación **Imputable** están incluídos no cálculo e, por este motivo, debe ter proxectos onde os valores reais son imputables.</span><span class="sxs-lookup"><span data-stu-id="92ece-142">Actuals with a billing type of **Chargeable** are included in the calculation and, for this reason, you must have projects where the actuals that are chargeable.</span></span>
 
-<span data-ttu-id="0d3fe-143">Se non está a ver a utilización imputable, ofrecémoslle algunhas cousas pode comprobar:</span><span class="sxs-lookup"><span data-stu-id="0d3fe-143">If you are not seeing chargeable utilization, here are some things you can check:</span></span>
+<span data-ttu-id="92ece-143">Se non está a ver a utilización imputable, ofrecémoslle algunhas cousas pode comprobar:</span><span class="sxs-lookup"><span data-stu-id="92ece-143">If you are not seeing chargeable utilization, here are some things you can check:</span></span>
 
-- <span data-ttu-id="0d3fe-144">O recurso ten horas laborables definidas para a capacidade.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-144">The resource has working hours defined for capacity.</span></span>
-- <span data-ttu-id="0d3fe-145">O recurso ten en un destino de utilización individualmente definido ou ten un rol predefinido atribuído.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-145">The resource has either an individually defined utilization target or has a default role assigned to it.</span></span> <span data-ttu-id="0d3fe-146">O rol ten un destino de utilización definido.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-146">The role has a utilization target defined for it.</span></span>
-- <span data-ttu-id="0d3fe-147">Os valores reais teñen un tipo de facturación **Imputable** para o período do que espera un cálculo de utilización.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-147">Actuals have a billing type of **Chargeable** for the period you are expecting a utilization calculation for.</span></span> <span data-ttu-id="0d3fe-148">Comprobe o seguinte se está a ver os valores reais con tipos de facturación que non sexan imputables:</span><span class="sxs-lookup"><span data-stu-id="0d3fe-148">Check the following if you are seeing actuals with billing types other than chargeable:</span></span>
+- <span data-ttu-id="92ece-144">O recurso ten horas laborables definidas para a capacidade.</span><span class="sxs-lookup"><span data-stu-id="92ece-144">The resource has working hours defined for capacity.</span></span>
+- <span data-ttu-id="92ece-145">O recurso ten en un destino de utilización individualmente definido ou ten un rol predefinido atribuído.</span><span class="sxs-lookup"><span data-stu-id="92ece-145">The resource has either an individually defined utilization target or has a default role assigned to it.</span></span> <span data-ttu-id="92ece-146">O rol ten un destino de utilización definido.</span><span class="sxs-lookup"><span data-stu-id="92ece-146">The role has a utilization target defined for it.</span></span>
+- <span data-ttu-id="92ece-147">Os valores reais teñen un tipo de facturación **Imputable** para o período do que espera un cálculo de utilización.</span><span class="sxs-lookup"><span data-stu-id="92ece-147">Actuals have a billing type of **Chargeable** for the period you are expecting a utilization calculation for.</span></span> <span data-ttu-id="92ece-148">Comprobe o seguinte se está a ver os valores reais con tipos de facturación que non sexan imputables:</span><span class="sxs-lookup"><span data-stu-id="92ece-148">Check the following if you are seeing actuals with billing types other than chargeable:</span></span>
 
-  - <span data-ttu-id="0d3fe-149">O rol utilizado no valor real ten un tipo de facturación predefinido que non é imputable.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-149">The role used on the actual has a default billing type of something other than chargeable.</span></span>
-  - <span data-ttu-id="0d3fe-150">O rol na liña de contrato do proxecto que fai de copia de seguranza do proxecto está definido en non imputable.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-150">The role on the project contract line backing the project has been set to non-chargeable.</span></span>
-  - <span data-ttu-id="0d3fe-151">O proxecto non ten unha liña de contrato asociada.</span><span class="sxs-lookup"><span data-stu-id="0d3fe-151">The project does not have an associated contract line.</span></span>
+  - <span data-ttu-id="92ece-149">O rol utilizado no valor real ten un tipo de facturación predefinido que non é imputable.</span><span class="sxs-lookup"><span data-stu-id="92ece-149">The role used on the actual has a default billing type of something other than chargeable.</span></span>
+  - <span data-ttu-id="92ece-150">O rol na liña de contrato do proxecto que fai de copia de seguranza do proxecto está definido en non imputable.</span><span class="sxs-lookup"><span data-stu-id="92ece-150">The role on the project contract line backing the project has been set to non-chargeable.</span></span>
+  - <span data-ttu-id="92ece-151">O proxecto non ten unha liña de contrato asociada.</span><span class="sxs-lookup"><span data-stu-id="92ece-151">The project does not have an associated contract line.</span></span>
 
 
 
