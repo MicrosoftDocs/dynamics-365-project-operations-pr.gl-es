@@ -2,18 +2,16 @@
 title: Listas de prezos predefinidas
 description: Este tema ofrece información sobre as listas de prezos de custo de vendas predefinidas en Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 04c97429ab8ac769dd22b4127432d80de8fde937
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c204a8f0364a4be39974b101e834d4465b99f769
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275581"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000479"
 ---
 # <a name="default-price-lists"></a>Listas de prezos predefinidas
 

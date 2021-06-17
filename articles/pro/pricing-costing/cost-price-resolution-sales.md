@@ -2,19 +2,17 @@
 title: Resolver prezos de custo en estimacións e datos reais de proxecto
 description: Este tema ofrece información sobre como se resolven os prezos de custo das estimacións e dos datos reais do proxecto.
 author: rumant
-manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 6b42bc97251aec7259d314fe51b3a012edf597aa
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877263"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004394"
 ---
 # <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Resolver prezos de custo en estimacións e datos reais de proxecto 
 

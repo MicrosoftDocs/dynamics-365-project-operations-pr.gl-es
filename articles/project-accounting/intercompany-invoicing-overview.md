@@ -2,18 +2,16 @@
 title: Visión xeral da facturación entre empresas
 description: Este tema ofrece información e exemplos sobre a facturación entre empresas para proxectos.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287326"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002639"
 ---
 # <a name="intercompany-invoicing-overview"></a>Visión xeral da facturación entre empresas
 
@@ -21,7 +19,7 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 
 A súa organización pode ter varias divisións, filiais e outras persoas xurídicas que se transfiren produtos e servizos entre si para proxectos. A entidade legal que presta o servizo ou fornece o produto chámase *entidade legal prestamista*. A entidade legal que recibe o servizo ou produto chámase *entidade legal prestameira*.
 
-A seguinte ilustración mostra un escenario típico no que dúas entidades legais, Contoso Robotics USA (a entidade legal en prestameira) e Contoso Robotics UK (a entidade legal prestamista), comparten recursos para entregar un proxecto ao cliente, Adventure Works. Para este escenario, Contoso Robotics USA está contratada para entregar o traballo a Adventure Works.
+A seguinte ilustración mostra un escenario típico onde dúas persoas xurídicas, Contoso Robotics Estados Unidos (a entidade legal prestameira) e Contoso Robotics Reino Unido (a entidade legal prestamista) comparte recursos para entregar un proxecto ao cliente, Adventure Works. Para este escenario, contrátase a Contoso Robotics Estados Unidos para entregar o traballo a Adventure Works.
 
 ![Facturación entre empresas](./media/IntercompanyScenario.png) 
 

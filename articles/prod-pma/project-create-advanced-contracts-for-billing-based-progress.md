@@ -2,11 +2,9 @@
 title: Crear contratos avanzados para a facturación baseada no progreso
 description: Este tema explica como crear contratos de proxectos para que poida xerar facturas para os clientes, en función dunha porcentaxe do traballo rematado.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b1de330df8cf85ed30c0ee4e4f2f2fe74d05dbff
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3b445488100e0a8335a05505405953b173ff836c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289502"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999669"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Crear contratos avanzados para a facturación baseada no progreso
 [!include [banner](../includes/banner.md)]
