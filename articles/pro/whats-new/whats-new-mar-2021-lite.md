@@ -2,19 +2,17 @@
 title: Novidades marzo 2021 - Despregamento de Project Operations lite
 description: Este tema ofrece información sobre as actualizacións de calidade dispoñibles na versión de marzo de 2021 do despregamento de Project Operations lite.
 author: sigitac
-manager: tfehr
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: bd1518ef8f5645bace63a222b92cfd16d9c19a21
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: efddb96b2cb428b9dc0488c32eb5670d01322bcb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499998"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993864"
 ---
 # <a name="whats-new-march-2021---project-operations-lite-deployment"></a>Novidades marzo 2021 - Despregamento de Project Operations lite
 

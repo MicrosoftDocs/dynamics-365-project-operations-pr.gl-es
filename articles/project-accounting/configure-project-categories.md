@@ -2,18 +2,16 @@
 title: Configurar categorías de proxecto
 description: Neste tema se proporciona información sobre a configuración das categorías de proxectos.
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b7adf61a82714a0148d9c8b1d2b2b37fd611c1cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287506"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995169"
 ---
 # <a name="configure-project-categories"></a>Configurar categorías de proxecto
 
@@ -29,7 +27,7 @@ As categorías de transaccións son a agrupación básica para as transaccións 
 
 ## <a name="transaction-categories"></a>Categorías de transaccións
 
-As categorías de transaccións representan a agrupación básica para as transaccións do proxecto e non son específicas do tipo de empresa ou transacción. Por exemplo, Contoso Robotics usa as categorías de Deseño, Viaxe, Instalación e Transacción de servizos para agrupar as transaccións do proxecto.
+As categorías de transaccións representan a agrupación básica para as transaccións do proxecto e non son específicas do tipo de empresa ou transacción. Por exemplo, Contoso Robotics utiliza as categorías de transaccións deseño, viaxes, instalación e servizo para agrupar as transaccións do proxecto.
 
 As categorías de transaccións defínense no módulo Project Operations. 
 1. Vaia a **Configuración** \> **Categorías de transaccións** para abrir o formulario. 

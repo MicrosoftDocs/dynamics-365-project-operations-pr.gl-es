@@ -2,11 +2,9 @@
 title: Recuperación do IVE
 description: Este tema explica como recuperar reembolsos das transaccións elixibles do imposto sobre o valor engadido (IVE).
 author: saraschi2
-manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 187532281f6aba3cc3fb03428d93c8ebc4cf4a3d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 20e29a47d73d28c0bf8dbb3495ad301481c529cd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271903"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993594"
 ---
 # <a name="vat-recovery"></a>Recuperación do IVE 
 
@@ -41,25 +39,25 @@ Unha vez cumpridos os requisitos previos, os empregados seguen estes pasos para 
 4. Envíe os datos de recuperación do IVE a un fornecedor externo para presentar declaracións de recuperación internacionais.
 5. Procese os gastos para a recuperación do IVE nacional.
 
-As seguintes seccións ofrecen exemplos que mostran como os empregados de Contoso completan cada paso.
+As seguintes seccións fornecen exemplos que mostran como os empregados de Contoso completan cada paso.
 
 ## <a name="on-an-expense-report-enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>Nun informe de gastos, introduza información fiscal sobre as transaccións con tarxeta de crédito para identificar os reembolsos do IVE elixibles
 
-Nancy, representante de vendas de Contoso, que ten a súa sede nos Estados Unidos, regresou recentemente dunha viaxe de vendas ao Reino Unido. Durante a súa viaxe, realizou algúns gastos coa tarxeta de crédito persoal para as comidas. Nancy debe agora crear un informe de gastos para conciliar os seus gastos.
+Nancy, unha representante de vendas de Contoso que reside nos Estados Unidos, regresou recentemente dunha viaxe de vendas ao Reino Unido. Durante a súa viaxe, realizou algúns gastos coa tarxeta de crédito persoal para as comidas. Nancy debe agora crear un informe de gastos para conciliar os seus gastos.
 
 Cando Nancy introduce información no seu informe de gastos, selecciona **Reino Unido** no campo **País/rexión** da páxina **Editar informe de gastos**. A lista de grupos fiscais de vendas fíltrase de xeito que só amosa os grupos que se aplican ao Reino Unido. Nancy selecciona o grupo fiscal de vendas **Reino Unido 001** e despois selecciona o grupo fiscal de vendas específico **Comidas**. A seguir, engade unha nova transacción para o seu aloxamento. Debido a que só hai un grupo fiscal de vendas e un grupo fiscal de vendas específico para aloxamento no Reino Unido, esta información énchese automaticamente no informe de gastos de Nancy.
 
-Segundo a política de Contoso, todos os gastos deben ter un recibo coincidente. Polo tanto, cando Nancy garda o seu informe de gastos, recibe unha mensaxe na que se indica que debe anexar un recibo de cada transacción que figura no seu informe de gastos. Nancy verifica que anexou unha imaxe dixital de cada recibo de transacción ao seu informe de gastos e despois envía o seu informe para a súa aprobación. Despois envía os recibos en papel ao equipo de procesamento de back-office. Este equipo enviará os datos de recuperación do IVE ao fornecedor externo que presente declaracións internacionais de recuperación do IVE para Contoso.
+Segundo a política de Contoso, todos os gastos deben ter un recibo coincidente. Polo tanto, cando Nancy garda o seu informe de gastos, recibe unha mensaxe na que se indica que debe anexar un recibo de cada transacción que figura no seu informe de gastos. Nancy verifica que anexou unha imaxe dixital de cada recibo de transacción ao seu informe de gastos e despois envía o seu informe para a súa aprobación. Despois envía os recibos en papel ao equipo de procesamento de back-office. Este equipo enviará os datos de recuperación do IVE ao terceiro fornecedor que presente as declaracións internacionais de recuperación do IVE para Contoso.
 
 ## <a name="make-sure-that-all-tax-information-is-complete-and-then-post-the-expense-report"></a>Asegúrese de que toda a información fiscal estea completa e logo contabilice o informe de gastos
 
-April, a coordinadora de contas pendentes de pago de Contoso debe introducir calquera información fiscal que falte dun informe de gastos antes de que se poida contabilizar o informe. Ela abre a páxina **Detalles do informe de gastos** e ve o informe de gastos aprobado de Nancy. April abre o informe de gastos para ver os detalles das transaccións. Ve que Nancy non ingresou un grupo fiscal de vendas específico dunha das transaccións. Debido a que non se proporciona esta información, April non pode contabilizar o informe de gastos. Por iso, April mira na páxina **Configuracións fiscais** en xestión de gastos e atopa o grupo fiscal de vendas específico adecuado para o país/rexión e o tipo de transacción. April xa pode contabilizar o informe de gastos no libro maior.
+April, a coordinadora de contas pendentes de pago de Contoso, debe introducir calquera información fiscal que falte nun informe de gastos antes de que poida contabilizarse. Ela abre a páxina **Detalles do informe de gastos** e ve o informe de gastos aprobado de Nancy. April abre o informe de gastos para ver os detalles das transaccións. Ve que Nancy non ingresou un grupo fiscal de vendas específico dunha das transaccións. Debido a que non se proporciona esta información, April non pode contabilizar o informe de gastos. Por iso, April mira na páxina **Configuracións fiscais** en xestión de gastos e atopa o grupo fiscal de vendas específico adecuado para o país/rexión e o tipo de transacción. April xa pode contabilizar o informe de gastos no libro maior.
 
 Cando April contabiliza o informe de gastos, créase un elemento de traballo con IVE recuperable. Este elemento de traballo atribúese a un membro do equipo de procesamento de back-office. April recibe unha mensaxe que confirma que a contabilización foi correcta. Esta mensaxe tamén recolle o número de transaccións con IVE identificadas para a súa recuperación.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Procesar os gastos elixibles para a recuperación do IVE internacional
 
-Arnie, membro do equipo de procesamento de back-office de Contoso, é o responsable de confirmar que toda a información requirida para a recuperación do IVE está incluída nos informes de gastos. El abre a páxina **Recuperación de impostos de gastos** e selecciona o informe de gastos que presentou Nancy. Arnie verifica que se anexan todos os recibos requiridos e que se introduciron os códigos fiscais de vendas específicos correctos.
+Arnie, membro do equipo de procesamento administrativo de Contoso é o responsable de confirmar que toda a información requirida para a recuperación do IVE está incluída nos informes de gastos. El abre a páxina **Recuperación de impostos de gastos** e selecciona o informe de gastos que presentou Nancy. Arnie verifica que se anexan todos os recibos requiridos e que se introduciron os códigos fiscais de vendas específicos correctos.
 
 Cando Arnie recibe os recibos en papel de Nancy, verifica os recibos en papel contra os recibos dixitais e despois cambia o estado do informe de gastos a **Listo para a recuperación**.
 

@@ -2,19 +2,17 @@
 title: Configurar materiais sen fornecemento e facturas pendentes do fornecedor
 description: Este tema explica como activar materiais sen fornecemento e facturas pendentes do fornecedor.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880643"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993909"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Configurar materiais sen fornecemento e facturas pendentes do fornecedor
 
@@ -61,11 +59,11 @@ Se está a usar datos de demostración estándar, pode que tamén deba deter e r
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Active o fluxo de traballo para crear contas baseadas na entidade do fornecedor
 
-A solución de orquestración de escrita dual proporciona [Integración principal de fornecedores](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Como requisito previo para esta funcionalidade, os datos do fornecedor deben crearse na entidade **Contas**. Active un proceso de fluxo de traballo de modelo para crear fornecedores na táboa **Contas** como se describe en [Cambiar entre deseños de fornecedores](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+A solución de orquestración de escrita dual proporciona [Integración principal de fornecedores](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Como requisito previo para esta funcionalidade, os datos do fornecedor deben crearse na entidade **Contas**. Active un proceso de fluxo de traballo de modelo para crear fornecedores na táboa **Contas** como se describe en [Cambiar entre deseños de fornecedores](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Definir os produtos que se van crear como activos
 
-Os materiais sen fornecemento deben configurarse como **Produtos lanzados** en Finance. A solución de orquestración de escrita dual proporciona unha [Integración de produtos lanzados inicial no Catálogo de produtos de Dataverse](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Por defecto, os produtos de Finance están sincronizados con Dataverse nun estado de borrador. Para sincronizar o produto cun estado activo para que poida usarse directamente en documentos de uso de material ou facturas pendentes do fornecedor, vaia a **Sistema** > **Administración** > **Administración do sistema** > **Configuración do sistema**, e no separador **Sales**, estableza **Crear produtos en estado activo** en **Si**.
+Os materiais sen fornecemento deben configurarse como **Produtos lanzados** en Finance. A solución de orquestración de escrita dual proporciona unha [Integración de produtos lanzados inicial no Catálogo de produtos de Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Por defecto, os produtos de Finance están sincronizados con Dataverse nun estado de borrador. Para sincronizar o produto cun estado activo para que poida usarse directamente en documentos de uso de material ou facturas pendentes do fornecedor, vaia a **Sistema** > **Administración** > **Administración do sistema** > **Configuración do sistema**, e no separador **Sales**, estableza **Crear produtos en estado activo** en **Si**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Configurar requisitos previos en Finance
 
