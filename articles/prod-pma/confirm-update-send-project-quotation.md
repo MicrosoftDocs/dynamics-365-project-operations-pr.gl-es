@@ -2,11 +2,9 @@
 title: Confirmar, actualizar e enviar unha oferta de proxecto
 description: Este tema ofrece información sobre o envío dunha oferta ao cliente para a súa confirmación, a modificación baseada nos comentarios e, a seguir, o reenvío da oferta.
 author: ruhercul
-manager: AnnBe
 ms.date: 05/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 7794f9b620165b3ce914e42693faa792e3918854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6897890156b8cef374f6279c8b7fa629c0f775ec
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270811"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006374"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>Confirmar, actualizar e enviar unha oferta de proxecto
 
