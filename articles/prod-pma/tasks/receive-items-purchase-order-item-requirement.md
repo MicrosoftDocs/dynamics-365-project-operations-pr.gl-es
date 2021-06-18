@@ -2,11 +2,9 @@
 title: Recibir artigos do pedido de compra a partir do requisito do artigo
 description: Este tema explica como recibir artigos dun pedido de compra a partir dun requisito de artigo.
 author: Yowelle
-manager: AnnBe
 ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, ProjSalesItemReq, InventItemIdLookupSimple, PurchCreateFromSalesOrder, VendAccountItemLookup, PurchTable, PurchEditLines
 audience: Application User
@@ -16,45 +14,45 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c2083516ff929113fd6db377acfe5aeb104666dd
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0e0c4a75f1d86538cc773af1f7c0ae3c83ef0ad5
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288226"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011684"
 ---
-# <a name="receive-items-on-purchase-order-from-item-requirement"></a><span data-ttu-id="f43c2-103">Recibir artigos do pedido de compra a partir do requisito do artigo</span><span class="sxs-lookup"><span data-stu-id="f43c2-103">Receive items on purchase order from item requirement</span></span>
+# <a name="receive-items-on-purchase-order-from-item-requirement"></a><span data-ttu-id="59498-103">Recibir artigos do pedido de compra a partir do requisito do artigo</span><span class="sxs-lookup"><span data-stu-id="59498-103">Receive items on purchase order from item requirement</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="f43c2-104">Este tema explica como recibir artigos dun pedido de compra a partir dun requisito de artigo.</span><span class="sxs-lookup"><span data-stu-id="f43c2-104">This topic explains how to receive items on a purchase order from an item requirement.</span></span>
+<span data-ttu-id="59498-104">Este tema explica como recibir artigos dun pedido de compra a partir dun requisito de artigo.</span><span class="sxs-lookup"><span data-stu-id="59498-104">This topic explains how to receive items on a purchase order from an item requirement.</span></span>
 
-<span data-ttu-id="f43c2-105">Ao usar un requisito de artigo en lugar dunha transacción de artigo, pode planificar a entrega xusto antes de que o artigo se use, crear un pedido de compra, incluír o artigo no marco do acordo comercial e incluír o requisito de artigo na planificación da produción.</span><span class="sxs-lookup"><span data-stu-id="f43c2-105">By using an item requirement instead of an item transaction, you can plan for delivery just before the item is actually used, create a purchase order, include the item in the trade-agreement framework, and include the item requirement in production planning.</span></span> 
+<span data-ttu-id="59498-105">Ao usar un requisito de artigo en lugar dunha transacción de artigo, pode planificar a entrega xusto antes de que o artigo se use, crear un pedido de compra, incluír o artigo no marco do acordo comercial e incluír o requisito de artigo na planificación da produción.</span><span class="sxs-lookup"><span data-stu-id="59498-105">By using an item requirement instead of an item transaction, you can plan for delivery just before the item is actually used, create a purchase order, include the item in the trade-agreement framework, and include the item requirement in production planning.</span></span> 
 
-<span data-ttu-id="f43c2-106">Esta tarefa utiliza o conxunto de datos USSI.</span><span class="sxs-lookup"><span data-stu-id="f43c2-106">This task uses the USSI data set.</span></span>
+<span data-ttu-id="59498-106">Esta tarefa utiliza o conxunto de datos USSI.</span><span class="sxs-lookup"><span data-stu-id="59498-106">This task uses the USSI data set.</span></span>
 
-1. <span data-ttu-id="f43c2-107">No panel de navegación, vaia a **Módulos > Xestión de proxectos e contabilidade > Proxectos > Todos os proxectos**.</span><span class="sxs-lookup"><span data-stu-id="f43c2-107">In the navigation pane, go to **Modules > Project management and accounting > Projects > All projects**.</span></span>
-2. <span data-ttu-id="f43c2-108">Na lista, seleccione a ligazón da fila desexada.</span><span class="sxs-lookup"><span data-stu-id="f43c2-108">In the list, select the link in the desired row.</span></span>
-3. <span data-ttu-id="f43c2-109">No panel Acción, seleccione **Planificar**.</span><span class="sxs-lookup"><span data-stu-id="f43c2-109">On the Action Pane, select **Plan**.</span></span>
-4. <span data-ttu-id="f43c2-110">Seleccione **Requisitos do artigo**.</span><span class="sxs-lookup"><span data-stu-id="f43c2-110">Select **Item requirements**.</span></span>
-5. <span data-ttu-id="f43c2-111">Seleccione **Nova**.</span><span class="sxs-lookup"><span data-stu-id="f43c2-111">Select **New**.</span></span>
-6. <span data-ttu-id="f43c2-112">Na nova fila, introduza ou seleccione un valor no campo **Número do artigo**.</span><span class="sxs-lookup"><span data-stu-id="f43c2-112">In the new row, enter or select a value in the **Item number** field.</span></span>
-7. <span data-ttu-id="f43c2-113">No campo **Cantidade**, introduza un número.</span><span class="sxs-lookup"><span data-stu-id="f43c2-113">In the **Quantity** field, enter a number.</span></span>
-8. <span data-ttu-id="f43c2-114">Seleccione **Gardar**.</span><span class="sxs-lookup"><span data-stu-id="f43c2-114">Select **Save**.</span></span>
-9. <span data-ttu-id="f43c2-115">No panel Acción, seleccione **Xestionar**.</span><span class="sxs-lookup"><span data-stu-id="f43c2-115">On the Action Pane, select **Manage**.</span></span>
-10. <span data-ttu-id="f43c2-116">Seleccione **Funcións**.</span><span class="sxs-lookup"><span data-stu-id="f43c2-116">Select **Functions**.</span></span>
-11. <span data-ttu-id="f43c2-117">Señeccione **Crear pedido de compra**.</span><span class="sxs-lookup"><span data-stu-id="f43c2-117">Select **Create purchase order**.</span></span>
-12. <span data-ttu-id="f43c2-118">Seleccione a caixa de verificación **Incluír todos**.</span><span class="sxs-lookup"><span data-stu-id="f43c2-118">Select the **Include all** check box.</span></span>
-13. <span data-ttu-id="f43c2-119">No campo **Conta de fornecedor**, introduza ou seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="f43c2-119">In the **Vendor account** field, enter or select a value.</span></span>
-14. <span data-ttu-id="f43c2-120">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="f43c2-120">Select **OK**.</span></span>
-15. <span data-ttu-id="f43c2-121">No panel de navegación, vaia a **Módulos > Contas pendentes de pago > Pedidos de compra > Todos os pedidos de compra**.</span><span class="sxs-lookup"><span data-stu-id="f43c2-121">In the navigation pane, go to **Modules > Accounts payable > Purchase orders > All purchase orders**.</span></span>
-16. <span data-ttu-id="f43c2-122">Na lista, seleccione a ligazón da fila desexada.</span><span class="sxs-lookup"><span data-stu-id="f43c2-122">In the list, select the link in the desired row.</span></span>
-17. <span data-ttu-id="f43c2-123">No panel Acción, seleccione **Comprar**.</span><span class="sxs-lookup"><span data-stu-id="f43c2-123">On the Action Pane, select **Purchase**.</span></span>
-18. <span data-ttu-id="f43c2-124">Seleccione **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="f43c2-124">Select **Confirm**.</span></span>
-19. <span data-ttu-id="f43c2-125">No panel Acción, seleccione **Recibir**.</span><span class="sxs-lookup"><span data-stu-id="f43c2-125">On the Action Pane, select **Receive**.</span></span>
-20. <span data-ttu-id="f43c2-126">Seleccione **Recibo de produto**.</span><span class="sxs-lookup"><span data-stu-id="f43c2-126">Select **Product receipt**.</span></span>
-21. <span data-ttu-id="f43c2-127">No campo **Recibo de produto**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="f43c2-127">In the **Product receipt** field, type a value.</span></span>
-22. <span data-ttu-id="f43c2-128">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="f43c2-128">Select **OK**.</span></span>
+1. <span data-ttu-id="59498-107">No panel de navegación, vaia a **Módulos > Xestión de proxectos e contabilidade > Proxectos > Todos os proxectos**.</span><span class="sxs-lookup"><span data-stu-id="59498-107">In the navigation pane, go to **Modules > Project management and accounting > Projects > All projects**.</span></span>
+2. <span data-ttu-id="59498-108">Na lista, seleccione a ligazón da fila desexada.</span><span class="sxs-lookup"><span data-stu-id="59498-108">In the list, select the link in the desired row.</span></span>
+3. <span data-ttu-id="59498-109">No panel Acción, seleccione **Planificar**.</span><span class="sxs-lookup"><span data-stu-id="59498-109">On the Action Pane, select **Plan**.</span></span>
+4. <span data-ttu-id="59498-110">Seleccione **Requisitos do artigo**.</span><span class="sxs-lookup"><span data-stu-id="59498-110">Select **Item requirements**.</span></span>
+5. <span data-ttu-id="59498-111">Seleccione **Nova**.</span><span class="sxs-lookup"><span data-stu-id="59498-111">Select **New**.</span></span>
+6. <span data-ttu-id="59498-112">Na nova fila, introduza ou seleccione un valor no campo **Número do artigo**.</span><span class="sxs-lookup"><span data-stu-id="59498-112">In the new row, enter or select a value in the **Item number** field.</span></span>
+7. <span data-ttu-id="59498-113">No campo **Cantidade**, introduza un número.</span><span class="sxs-lookup"><span data-stu-id="59498-113">In the **Quantity** field, enter a number.</span></span>
+8. <span data-ttu-id="59498-114">Seleccione **Gardar**.</span><span class="sxs-lookup"><span data-stu-id="59498-114">Select **Save**.</span></span>
+9. <span data-ttu-id="59498-115">No panel Acción, seleccione **Xestionar**.</span><span class="sxs-lookup"><span data-stu-id="59498-115">On the Action Pane, select **Manage**.</span></span>
+10. <span data-ttu-id="59498-116">Seleccione **Funcións**.</span><span class="sxs-lookup"><span data-stu-id="59498-116">Select **Functions**.</span></span>
+11. <span data-ttu-id="59498-117">Señeccione **Crear pedido de compra**.</span><span class="sxs-lookup"><span data-stu-id="59498-117">Select **Create purchase order**.</span></span>
+12. <span data-ttu-id="59498-118">Seleccione a caixa de verificación **Incluír todos**.</span><span class="sxs-lookup"><span data-stu-id="59498-118">Select the **Include all** check box.</span></span>
+13. <span data-ttu-id="59498-119">No campo **Conta de fornecedor**, introduza ou seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="59498-119">In the **Vendor account** field, enter or select a value.</span></span>
+14. <span data-ttu-id="59498-120">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="59498-120">Select **OK**.</span></span>
+15. <span data-ttu-id="59498-121">No panel de navegación, vaia a **Módulos > Contas pendentes de pago > Pedidos de compra > Todos os pedidos de compra**.</span><span class="sxs-lookup"><span data-stu-id="59498-121">In the navigation pane, go to **Modules > Accounts payable > Purchase orders > All purchase orders**.</span></span>
+16. <span data-ttu-id="59498-122">Na lista, seleccione a ligazón da fila desexada.</span><span class="sxs-lookup"><span data-stu-id="59498-122">In the list, select the link in the desired row.</span></span>
+17. <span data-ttu-id="59498-123">No panel Acción, seleccione **Comprar**.</span><span class="sxs-lookup"><span data-stu-id="59498-123">On the Action Pane, select **Purchase**.</span></span>
+18. <span data-ttu-id="59498-124">Seleccione **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="59498-124">Select **Confirm**.</span></span>
+19. <span data-ttu-id="59498-125">No panel Acción, seleccione **Recibir**.</span><span class="sxs-lookup"><span data-stu-id="59498-125">On the Action Pane, select **Receive**.</span></span>
+20. <span data-ttu-id="59498-126">Seleccione **Recibo de produto**.</span><span class="sxs-lookup"><span data-stu-id="59498-126">Select **Product receipt**.</span></span>
+21. <span data-ttu-id="59498-127">No campo **Recibo de produto**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="59498-127">In the **Product receipt** field, type a value.</span></span>
+22. <span data-ttu-id="59498-128">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="59498-128">Select **OK**.</span></span>
 
 
 

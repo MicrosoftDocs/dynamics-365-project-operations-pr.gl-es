@@ -2,8 +2,6 @@
 title: Crear unidades organizativas
 description: Como crear unidades organizativas en Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,40 +16,40 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d88ba698e59633b9c550a2d5a82cd1df6a2b24fc
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: afa6e0d2e1bf6bd50032ad6cce083b973bd5cd25
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290402"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006104"
 ---
-# <a name="create-organizational-units-project-service"></a><span data-ttu-id="a2032-103">Crear unidades organizativas (Project Service)</span><span class="sxs-lookup"><span data-stu-id="a2032-103">Create organizational units (Project Service)</span></span>
+# <a name="create-organizational-units-project-service"></a><span data-ttu-id="947b3-103">Crear unidades organizativas (Project Service)</span><span class="sxs-lookup"><span data-stu-id="947b3-103">Create organizational units (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="a2032-104">A súa empresa probablemente organice o seu negocio de consultoría por xeografía, función ou outras áreas.</span><span class="sxs-lookup"><span data-stu-id="a2032-104">Your company probably organizes its consulting business by geography, function, or other areas.</span></span> <span data-ttu-id="a2032-105">Pode crear unidades da organización que reflictan o seu negocio de consultoría.</span><span class="sxs-lookup"><span data-stu-id="a2032-105">You can create organizational units that reflect your consulting business.</span></span> <span data-ttu-id="a2032-106">Unha unidade de organización de [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] é un grupo ou división nunha compañía profesional de servizos que emprega recursos de facturación con taxas de custo que son distintas de outros grupos ou divisións da empresa.</span><span class="sxs-lookup"><span data-stu-id="a2032-106">A [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] organizational unit is a group or division in a professional services company that employs billable resources with cost rates that are distinct from other such groups or divisions in the company.</span></span>  
+<span data-ttu-id="947b3-104">A súa empresa probablemente organice o seu negocio de consultoría por xeografía, función ou outras áreas.</span><span class="sxs-lookup"><span data-stu-id="947b3-104">Your company probably organizes its consulting business by geography, function, or other areas.</span></span> <span data-ttu-id="947b3-105">Pode crear unidades da organización que reflictan o seu negocio de consultoría.</span><span class="sxs-lookup"><span data-stu-id="947b3-105">You can create organizational units that reflect your consulting business.</span></span> <span data-ttu-id="947b3-106">Unha unidade de organización de [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] é un grupo ou división nunha compañía profesional de servizos que emprega recursos de facturación con taxas de custo que son distintas de outros grupos ou divisións da empresa.</span><span class="sxs-lookup"><span data-stu-id="947b3-106">A [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] organizational unit is a group or division in a professional services company that employs billable resources with cost rates that are distinct from other such groups or divisions in the company.</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="a2032-107">Unha unidade de organización de [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] está separada dunha unidade de negocio en [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].</span><span class="sxs-lookup"><span data-stu-id="a2032-107">A [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] organizational unit is separate from a business unit in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].</span></span> <span data-ttu-id="a2032-108">As unidades empresariais son máis unha estrutura de seguranza que afecta os niveis de acceso á información de [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] e están normalmente organizados por filiais, empresa matriz e sucursais ou divisións.</span><span class="sxs-lookup"><span data-stu-id="a2032-108">Business units are more of a security structure that affects levels of access to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] information, and are usually organized around company divisions, like parent company and subsidiaries or divisions.</span></span> <span data-ttu-id="a2032-109">As unidades da organización representan como a empresa de consultoría categoriza os diferentes negocios por localización xeográfica (como EMEA ou LATAM), por función (como Desenvolvemento de Produto ou subcontratación de TI) ou por outros parámetros.</span><span class="sxs-lookup"><span data-stu-id="a2032-109">Organizational units represent how your consulting company categorizes its different businesses, whether by geographic location (like EMEA or LATAM), by function (like Product Development or IT Outsourcing), or by other parameters.</span></span>  
+>  <span data-ttu-id="947b3-107">Unha unidade de organización de [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] está separada dunha unidade de negocio en [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].</span><span class="sxs-lookup"><span data-stu-id="947b3-107">A [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] organizational unit is separate from a business unit in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].</span></span> <span data-ttu-id="947b3-108">As unidades empresariais son máis unha estrutura de seguranza que afecta os niveis de acceso á información de [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] e están normalmente organizados por filiais, empresa matriz e sucursais ou divisións.</span><span class="sxs-lookup"><span data-stu-id="947b3-108">Business units are more of a security structure that affects levels of access to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] information, and are usually organized around company divisions, like parent company and subsidiaries or divisions.</span></span> <span data-ttu-id="947b3-109">As unidades da organización representan como a empresa de consultoría categoriza os diferentes negocios por localización xeográfica (como EMEA ou LATAM), por función (como Desenvolvemento de Produto ou subcontratación de TI) ou por outros parámetros.</span><span class="sxs-lookup"><span data-stu-id="947b3-109">Organizational units represent how your consulting company categorizes its different businesses, whether by geographic location (like EMEA or LATAM), by function (like Product Development or IT Outsourcing), or by other parameters.</span></span>  
   
-1.  <span data-ttu-id="a2032-110">Vaia a **Project Service > Unidades organizativas**.</span><span class="sxs-lookup"><span data-stu-id="a2032-110">Go to **Project Service > Organizational Units**.</span></span>  
+1.  <span data-ttu-id="947b3-110">Vaia a **Project Service > Unidades organizativas**.</span><span class="sxs-lookup"><span data-stu-id="947b3-110">Go to **Project Service > Organizational Units**.</span></span>  
   
-2.  <span data-ttu-id="a2032-111">Prema **Novo**.</span><span class="sxs-lookup"><span data-stu-id="a2032-111">Click **New**.</span></span>  
+2.  <span data-ttu-id="947b3-111">Prema **Novo**.</span><span class="sxs-lookup"><span data-stu-id="947b3-111">Click **New**.</span></span>  
   
-3.  <span data-ttu-id="a2032-112">Na área **Xeral**, introduza un nome para a unidade de organización en **Nome** e encha os demais campos segundo sexa necesario.</span><span class="sxs-lookup"><span data-stu-id="a2032-112">In the **General** area, enter a name for the organization unit in **Name**, and fill in the other fields as necessary.</span></span>  
+3.  <span data-ttu-id="947b3-112">Na área **Xeral**, introduza un nome para a unidade de organización en **Nome** e encha os demais campos segundo sexa necesario.</span><span class="sxs-lookup"><span data-stu-id="947b3-112">In the **General** area, enter a name for the organization unit in **Name**, and fill in the other fields as necessary.</span></span>  
   
-4.  <span data-ttu-id="a2032-113">Prema **Gardar** para crear o rexistro e poder editalo.</span><span class="sxs-lookup"><span data-stu-id="a2032-113">Click **Save** to create the record so you can continue editing it.</span></span>  
+4.  <span data-ttu-id="947b3-113">Prema **Gardar** para crear o rexistro e poder editalo.</span><span class="sxs-lookup"><span data-stu-id="947b3-113">Click **Save** to create the record so you can continue editing it.</span></span>  
   
-5.  <span data-ttu-id="a2032-114">En **Listas de prezos de custo**, prema **+** para engadir unha lista de prezos.</span><span class="sxs-lookup"><span data-stu-id="a2032-114">Under **Cost Price Lists**, click **+** to add a price list.</span></span> <span data-ttu-id="a2032-115">Só pode engadir listas de prezos co contexto de **Custo** aquí.</span><span class="sxs-lookup"><span data-stu-id="a2032-115">You can only add price lists with the **Cost** context here.</span></span>  
+5.  <span data-ttu-id="947b3-114">En **Listas de prezos de custo**, prema **+** para engadir unha lista de prezos.</span><span class="sxs-lookup"><span data-stu-id="947b3-114">Under **Cost Price Lists**, click **+** to add a price list.</span></span> <span data-ttu-id="947b3-115">Só pode engadir listas de prezos co contexto de **Custo** aquí.</span><span class="sxs-lookup"><span data-stu-id="947b3-115">You can only add price lists with the **Cost** context here.</span></span>  
   
-6.  <span data-ttu-id="a2032-116">No campo **Nome**, prema o botón **Buscar** e seleccione a lista de prezos que desexa que estea dispoñible para a unidade da organización.</span><span class="sxs-lookup"><span data-stu-id="a2032-116">In the **Name** field, click the **Search** button and select a price list you want to make available to this organizational unit.</span></span> <span data-ttu-id="a2032-117">Continúe a engadir listas de prezos, segundo sexa necesario.</span><span class="sxs-lookup"><span data-stu-id="a2032-117">Continue adding price lists as needed.</span></span>  
+6.  <span data-ttu-id="947b3-116">No campo **Nome**, prema o botón **Buscar** e seleccione a lista de prezos que desexa que estea dispoñible para a unidade da organización.</span><span class="sxs-lookup"><span data-stu-id="947b3-116">In the **Name** field, click the **Search** button and select a price list you want to make available to this organizational unit.</span></span> <span data-ttu-id="947b3-117">Continúe a engadir listas de prezos, segundo sexa necesario.</span><span class="sxs-lookup"><span data-stu-id="947b3-117">Continue adding price lists as needed.</span></span>  
   
-7.  <span data-ttu-id="a2032-118">Ao acabar, prema **Gardar** na parte inferior dereita da pantalla.</span><span class="sxs-lookup"><span data-stu-id="a2032-118">When you’re done, click **Save** at the bottom right corner of the screen.</span></span>  
+7.  <span data-ttu-id="947b3-118">Ao acabar, prema **Gardar** na parte inferior dereita da pantalla.</span><span class="sxs-lookup"><span data-stu-id="947b3-118">When you’re done, click **Save** at the bottom right corner of the screen.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="a2032-119">Consulte tamén</span><span class="sxs-lookup"><span data-stu-id="a2032-119">See Also</span></span>  
- [<span data-ttu-id="a2032-120">Configurar Project Service Automation</span><span class="sxs-lookup"><span data-stu-id="a2032-120">Configure Project Service Automation</span></span>](../psa/configure.md)
+### <a name="see-also"></a><span data-ttu-id="947b3-119">Consulte tamén</span><span class="sxs-lookup"><span data-stu-id="947b3-119">See Also</span></span>  
+ [<span data-ttu-id="947b3-120">Configurar Project Service Automation</span><span class="sxs-lookup"><span data-stu-id="947b3-120">Configure Project Service Automation</span></span>](../psa/configure.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

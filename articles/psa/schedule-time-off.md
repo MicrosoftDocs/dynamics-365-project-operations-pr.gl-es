@@ -2,8 +2,6 @@
 title: Programar tempo libre
 description: 'Como programar tempo libre en Project Service '
 author: revathimuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,45 +16,45 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2a78a80c3841bae1a7dc923ee1f60d7e571f2041
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 674de58fcbe2b5d52f68e772b2f5bb240f416652
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282601"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008444"
 ---
-# <a name="schedule-time-off-project-service"></a><span data-ttu-id="ea719-103">Programar tempo libre (Project Service)</span><span class="sxs-lookup"><span data-stu-id="ea719-103">Schedule time off (Project Service)</span></span>
+# <a name="schedule-time-off-project-service"></a><span data-ttu-id="71a6e-103">Programar tempo libre (Project Service)</span><span class="sxs-lookup"><span data-stu-id="71a6e-103">Schedule time off (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="ea719-104">Programar as vacacións ou tempo libre da mesma forma en que especifica o tempo para un proxecto.</span><span class="sxs-lookup"><span data-stu-id="ea719-104">Schedule your vacation time or leave of absence in much the same way as you enter time for a project.</span></span>  
+<span data-ttu-id="71a6e-104">Programar as vacacións ou tempo libre da mesma forma en que especifica o tempo para un proxecto.</span><span class="sxs-lookup"><span data-stu-id="71a6e-104">Schedule your vacation time or leave of absence in much the same way as you enter time for a project.</span></span>  
   
- <span data-ttu-id="ea719-105">Se está a usar a aplicación web:</span><span class="sxs-lookup"><span data-stu-id="ea719-105">If you’re using the web app:</span></span>  
+ <span data-ttu-id="71a6e-105">Se está a usar a aplicación web:</span><span class="sxs-lookup"><span data-stu-id="71a6e-105">If you’re using the web app:</span></span>  
   
-1.  <span data-ttu-id="ea719-106">Vaia a **Project Service > Entradas de tempo**.</span><span class="sxs-lookup"><span data-stu-id="ea719-106">Go to **Project Service > Time Entries**.</span></span> <span data-ttu-id="ea719-107">Aparecerá o calendario.</span><span class="sxs-lookup"><span data-stu-id="ea719-107">This brings up your calendar.</span></span>  
+1.  <span data-ttu-id="71a6e-106">Vaia a **Project Service > Entradas de tempo**.</span><span class="sxs-lookup"><span data-stu-id="71a6e-106">Go to **Project Service > Time Entries**.</span></span> <span data-ttu-id="71a6e-107">Aparecerá o calendario.</span><span class="sxs-lookup"><span data-stu-id="71a6e-107">This brings up your calendar.</span></span>  
   
-2.  <span data-ttu-id="ea719-108">Para ver a programación para a semana anterior ou seguinte, prema **Anterior** ou **Seguinte**.</span><span class="sxs-lookup"><span data-stu-id="ea719-108">To see your calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="ea719-109">Prema **Hoxe** para volver á semana actual.</span><span class="sxs-lookup"><span data-stu-id="ea719-109">Click **Today** to get back to the current week.</span></span>  
+2.  <span data-ttu-id="71a6e-108">Para ver a programación para a semana anterior ou seguinte, prema **Anterior** ou **Seguinte**.</span><span class="sxs-lookup"><span data-stu-id="71a6e-108">To see your calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="71a6e-109">Prema **Hoxe** para volver á semana actual.</span><span class="sxs-lookup"><span data-stu-id="71a6e-109">Click **Today** to get back to the current week.</span></span>  
   
-3.  <span data-ttu-id="ea719-110">Para especificar o seu tempo, prema **Novo** ou prema dúas veces no calendario no día en que desexa introducir o tempo.</span><span class="sxs-lookup"><span data-stu-id="ea719-110">To enter your time, either click **New** or double-click in the calendar under the day you want to enter time for.</span></span>  
+3.  <span data-ttu-id="71a6e-110">Para especificar o seu tempo, prema **Novo** ou prema dúas veces no calendario no día en que desexa introducir o tempo.</span><span class="sxs-lookup"><span data-stu-id="71a6e-110">To enter your time, either click **New** or double-click in the calendar under the day you want to enter time for.</span></span>  
   
-4.  <span data-ttu-id="ea719-111">Encha os campos no formulario **Entrada de tempo**.</span><span class="sxs-lookup"><span data-stu-id="ea719-111">Fill in the fields in the **Time Entry** form.</span></span>  
+4.  <span data-ttu-id="71a6e-111">Encha os campos no formulario **Entrada de tempo**.</span><span class="sxs-lookup"><span data-stu-id="71a6e-111">Fill in the fields in the **Time Entry** form.</span></span>  
   
-5.  <span data-ttu-id="ea719-112">En **Tipo**, seleccione **Vacacións** ou **Ausencia**.</span><span class="sxs-lookup"><span data-stu-id="ea719-112">In **Type**, select **Vacation** or **Absence**.</span></span>  
+5.  <span data-ttu-id="71a6e-112">En **Tipo**, seleccione **Vacacións** ou **Ausencia**.</span><span class="sxs-lookup"><span data-stu-id="71a6e-112">In **Type**, select **Vacation** or **Absence**.</span></span>  
   
-6.  <span data-ttu-id="ea719-113">Prema **Gardar**.</span><span class="sxs-lookup"><span data-stu-id="ea719-113">Click **Save**.</span></span>  
+6.  <span data-ttu-id="71a6e-113">Prema **Gardar**.</span><span class="sxs-lookup"><span data-stu-id="71a6e-113">Click **Save**.</span></span>  
   
-7.  <span data-ttu-id="ea719-114">Continúe a especificar o tempo para a semana.</span><span class="sxs-lookup"><span data-stu-id="ea719-114">Continue entering time for the week.</span></span> <span data-ttu-id="ea719-115">Cando remate e todo estea correcto, prema en **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="ea719-115">When you’re done and everything looks correct, click **Submit**.</span></span> <span data-ttu-id="ea719-116">Un xestor revisará e aprobará o seu tempo libre.</span><span class="sxs-lookup"><span data-stu-id="ea719-116">A manager will review and approve your time off.</span></span>  
+7.  <span data-ttu-id="71a6e-114">Continúe a especificar o tempo para a semana.</span><span class="sxs-lookup"><span data-stu-id="71a6e-114">Continue entering time for the week.</span></span> <span data-ttu-id="71a6e-115">Cando remate e todo estea correcto, prema en **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="71a6e-115">When you’re done and everything looks correct, click **Submit**.</span></span> <span data-ttu-id="71a6e-116">Un xestor revisará e aprobará o seu tempo libre.</span><span class="sxs-lookup"><span data-stu-id="71a6e-116">A manager will review and approve your time off.</span></span>  
   
-8.  <span data-ttu-id="ea719-117">Se desexa modificar unha entrada xa enviada, seleccione a entrada no seu calendario e, a seguir, prema en **Retirar**.</span><span class="sxs-lookup"><span data-stu-id="ea719-117">If you want to change an entry that you already submitted, select the entry in your calendar, and then click **Recall**.</span></span>  
+8.  <span data-ttu-id="71a6e-117">Se desexa modificar unha entrada xa enviada, seleccione a entrada no seu calendario e, a seguir, prema en **Retirar**.</span><span class="sxs-lookup"><span data-stu-id="71a6e-117">If you want to change an entry that you already submitted, select the entry in your calendar, and then click **Recall**.</span></span>  
   
-9. <span data-ttu-id="ea719-118">Se desexa copiar todas as entradas da semana anterior á semana actual, prema en **Copiar Desde** e seleccione o rexistro da semana que desexa copiar.</span><span class="sxs-lookup"><span data-stu-id="ea719-118">If you want to copy all the entries from a previous week to the current week, click **Copy From** and select the timesheet week you want to copy.</span></span>  
+9. <span data-ttu-id="71a6e-118">Se desexa copiar todas as entradas da semana anterior á semana actual, prema en **Copiar Desde** e seleccione o rexistro da semana que desexa copiar.</span><span class="sxs-lookup"><span data-stu-id="71a6e-118">If you want to copy all the entries from a previous week to the current week, click **Copy From** and select the timesheet week you want to copy.</span></span>  
   
-10. <span data-ttu-id="ea719-119">Se prefire ver unha lista das cousas nas que está a traballar, prema en **Grade**.</span><span class="sxs-lookup"><span data-stu-id="ea719-119">If you’d rather see a list of what you’re working on, click **Grid**.</span></span>  
+10. <span data-ttu-id="71a6e-119">Se prefire ver unha lista das cousas nas que está a traballar, prema en **Grade**.</span><span class="sxs-lookup"><span data-stu-id="71a6e-119">If you’d rather see a list of what you’re working on, click **Grid**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="ea719-120">Consulte tamén</span><span class="sxs-lookup"><span data-stu-id="ea719-120">See Also</span></span>  
- [<span data-ttu-id="ea719-121">Guía de tempo, gasto e colaboración</span><span class="sxs-lookup"><span data-stu-id="ea719-121">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
+### <a name="see-also"></a><span data-ttu-id="71a6e-120">Consulte tamén</span><span class="sxs-lookup"><span data-stu-id="71a6e-120">See Also</span></span>  
+ [<span data-ttu-id="71a6e-121">Guía de tempo, gasto e colaboración</span><span class="sxs-lookup"><span data-stu-id="71a6e-121">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
