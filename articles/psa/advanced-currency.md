@@ -2,8 +2,6 @@
 title: Escenarios de varias moedas (versión 3.x)
 description: Este tema fornece información sobre escenarios de varias moedas.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33e44297dc80801c3e4416cd9fc3bedae5f3c4ba
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 70f27d29c74a82f0307bd0724347960e5755e3a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291707"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014789"
 ---
 # <a name="multiple-currency-scenarios"></a>Escenarios de varias moedas
 
@@ -36,7 +34,7 @@ Microsoft Dynamics 365 ten dous conceptos de moedas:
 - **Moeda de transacción** - A moeda na que se produce unha transacción. 
 - **Moeda base** - A moeda da instancia de Dynamics 365. Esta moeda configúrase cando se fornece unha instancia de Dynamics 365. Non se pode modificar.
 
-Por exemplo, Contoso EU vendeu 100 camisetas a un cliente no Reino Unido por 15 libras esterlinas (GBP) cada unha. Na seguinte táboa móstrase como se rexistra esta transacción na entidade Pedir produto.
+Por exemplo, Contoso Estados Unidos vendeu 100 camisetas a un cliente no Reino Unido por 15 libras esterlinas (GBP) cada unha. Na seguinte táboa móstrase como se rexistra esta transacción na entidade Pedir produto.
 
 | Produto | Cantidade | Prezo por unidade | Moeda | Importe | Taxa de cambio | Prezo por unidade (base)| Cantidade (base)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -68,7 +66,7 @@ PSA amplía o concepto de moeda da transacción para custo e vendas das seguinte
 
 ## <a name="multiple-currency-scenario"></a>Escenario de varias moedas
 
-Esta sección describe un exemplo dun proxecto que Contoso UK entrega para un cliente que se chama Fabrikam, de Xapón. Móstrase como se configurou o escenario:
+Esta sección describe un exemplo dun proxecto que Contoso Reino Unido entrega para un cliente que se chama Fabrikam, de Xapón. Móstrase como se configurou o escenario:
 
 1. Configúranse GBP e iens xaponeses (JPY) en **Configuración** \> **Xestión de empresa** \> **Moedas**. 
 2. Configúrase unha conta de cliente que leva o nome **Fabrikam - Xapón** e selecciónase JPY como moeda na conta.

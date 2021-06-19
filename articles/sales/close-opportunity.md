@@ -2,18 +2,16 @@
 title: Pechar unha oportunidade
 description: Neste tema se proporciona información sobre o peche dunha oportunidade de proxecto.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 01c2452003d9ac5fbf85704ead67f7ee8011ed1c
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: af01a729723f61ea11d161861554ec9e6b93b811
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949902"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013709"
 ---
 # <a name="close-an-opportunity"></a>Pechar unha oportunidade
 
