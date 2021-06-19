@@ -2,18 +2,16 @@
 title: Xestionar clientes potenciais
 description: Neste tema se proporciona información sobre a xestión de clientes potenciais baseados en proxectos.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 31613936d48f785eeba4ec7c066761c8f69924cf
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: ee4b7ce76953909a44e35a2ce044185f89b5ddd5
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947877"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012719"
 ---
 # <a name="manage-leads"></a>Xestionar clientes potenciais
 
