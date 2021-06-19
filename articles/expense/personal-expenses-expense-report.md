@@ -2,19 +2,17 @@
 title: Traballar con gastos persoais nun informe de gastos
 description: Este tema ofrece información sobre como traballar cos gastos persoais nos que incorren os empregados cando viaxan con fins empresariais.
 author: suvaidya
-manager: tfehr
-ms.date: 11/18/2020
+ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: d2d558ad4f1a35f83af93d37e377db66d7f70e4f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae25eca08089d224f1e17e95eeb571054de8a5c0
+ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276213"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025682"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>Traballar con gastos persoais nun informe de gastos
 
@@ -28,6 +26,15 @@ Hai dous métodos que pode usar para traballar cos gastos persoais dun empregado
   - **Pagado pola empresa**: A súa organización paga a factura completa da tarxeta de crédito corporativa e, a continuación, carga á conta do traballador os gastos persoais.
 
 Pode seleccionar o método que usa a súa organización na páxina **Parámetros de xestión de gastos**.
+
+
+## <a name="enable-split-expense-function-when-personal-amount-field-has-value-defined"></a>Activar a función de gasto dividido cando o valor da cantidade persoal ten o valor definido
+
+A funcionalidade **Activar a función de gasto dividido cando o valor da cantidade persoal ten o valor definido** só se aplica aos informes de gastos aprobados mediante un fluxo de traballo a nivel de liña. Os informes apróbanse indo a **Procesar informes de gastos** > **Informes de gastos atribuídos a min** > **Informe de gastos aberto**. 
+
+Para activar esta funcionalidade, vaia a **Áreas de traballo** > **Xestión de funcionalidades**, seleccione **Activar a función de gasto dividido cando o valor da cantidade persoal ten o valor definido** e, a seguir, seleccione **Activar agora**. 
+
+Cando a funcionalidade está activada, as liñas de gasto que usan esta funcionalidade xeran dúas liñas cando se envía o informe. Xéranse dúas liñas para que o responsable de aprobación poida aprobar cada liña por separado.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
