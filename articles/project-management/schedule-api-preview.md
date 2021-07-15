@@ -1,19 +1,19 @@
 ---
-title: Usar as API de programación para realizar operacións con entidades de programación.
-description: Este tema ofrece información e mostras para usar as API de programación.
+title: Use as API de programación de proxectos para realizar operacións con entidades de programación
+description: Este tema ofrece información e mostras para usar as API de programación de proxectos.
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 4915261c08a3271a919e04084e92a14b297c1b35
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116795"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293225"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Usar as API de programación para realizar operacións con entidades de programación.
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Use as API de programación de proxectos para realizar operacións con entidades de programación
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
@@ -22,9 +22,9 @@ _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fo
 
 ## <a name="scheduling-entities"></a>Entidades de programación
 
-As API de programación ofrecen a capacidade de realizar, actualizar e eliminar operacións con **Entidades de programación**. Estas entidades xestiónanse a través do motor de programación en Project for the Web. Crear, actualizar e eliminar operacións con **Entidades de programación** estaban restrinxidos en versións anteriores de Dynamics 365 Project Operations.
+As API de programación de proxectos ofrecen a capacidade de realizar operacións de crear, actualizar e eliminar con **Entidades de programación**. Estas entidades xestiónanse a través do motor de programación en Project for the Web. Crear, actualizar e eliminar operacións con **Entidades de programación** estaban restrinxidos en versións anteriores de Dynamics 365 Project Operations.
 
-A seguinte táboa ofrece unha lista completa das **Entidades de programación**.
+A seguinte táboa ofrece unha lista completa das entidades de programación de proxectos.
 
 | Nome da entidade  | Nome lóxico da entidade |
 | --- | --- |
@@ -39,19 +39,19 @@ A seguinte táboa ofrece unha lista completa das **Entidades de programación**.
 
 OperationSet é un patrón de unidade de traballo que se pode empregar cando se deben procesar varias solicitudes que afectan á programación dentro dunha transacción.
 
-## <a name="schedule-apis"></a>API de programación
+## <a name="project-schedule-apis"></a>API de programación de proxectos
 
-A continuación móstrase unha lista das API de programación actuais.
+A continuación móstrase unha lista das API de programación de proxectos actuais.
 
 - **msdyn_CreateProjectV1**: Esta API pódese usar para crear un proxecto. O proxecto e o depósito por defecto do proxecto créanse inmediatamente.
 - **msdyn_CreateTeamMemberV1**: Esta API pódese usar para crear un membro do equipo do proxecto. O rexistro de membro do equipo créase inmediatamente.
 - **msdyn_CreateOperationSetV1**: Esta API pode usarse para programar varias solicitudes que deben realizarse dentro dunha transacción.
-- **msdyn_PSSCreateV1**: Esta API pódese usar para crear unha entidade. A entidade pode ser calquera das entidades de programación que admitan a operación de creación.
-- **msdyn_PSSUpdateV1**: Esta API pódese usar para actualizar unha entidade. A entidade pode ser calquera das entidades de programación que admitan a operación de actualización.
-- **msdyn_PSSDeleteV1**: Esta API pódese usar para eliminar unha entidade. A entidade pode ser calquera das entidades de programación que admitan a operación de eliminación.
+- **msdyn_PSSCreateV1**: Esta API pódese usar para crear unha entidade. A entidade pode ser calquera das entidades de programación de proxectos que admitan a operación de creación.
+- **msdyn_PSSUpdateV1**: Esta API pódese usar para actualizar unha entidade. A entidade pode ser calquera das entidades de programación de proxectos que admitan a operación de actualización.
+- **msdyn_PSSDeleteV1**: Esta API pódese usar para eliminar unha entidade. A entidade pode ser calquera das entidades de programación de proxectos que admitan a operación de eliminación.
 - **msdyn_ExecuteOperationSetV1**: Esta API úsase para executar todas as operacións dentro do conxunto de operacións determinado.
 
-## <a name="using-schedule-apis-with-operationset"></a>Uso das API de programación con OperationSet
+## <a name="using-project-schedule-apis-with-operationset"></a>Usando as API de programación de proxectos con OperationSet
 
 Como os rexistros con **CreateProjectV1** e **CreateTeamMemberV1** créanse inmediatamente, estas API non se poden empregar en **OperationSet** directamente. Non obstante, pode usar a API para crear rexistros necesarios, crear un **OperationSet** e, a seguir, usar estes rexistros creados previamente no **OperationSet**.
 
@@ -257,7 +257,7 @@ As táboas seguintes definen os campos que están restrinxidos de **Crear** e **
 ## <a name="limitations-and-known-issues"></a>Limitacións e problemas coñecidos
 A continuación móstrase unha lista de limitacións e problemas coñecidos:
 
-- As API de programación só poden ser empregadas por **Usuarios con licenza Microsoft Project.** Non poden ser usadas por:
+- As API de programación de proxectos só as poden usar **Usuarios con licenza de Microsoft Project.** Non poden ser usadas por:
     - Usuarios da aplicación
     - Usuario do sistema
     - Usuarios de integración
@@ -271,7 +271,7 @@ A continuación móstrase unha lista de limitacións e problemas coñecidos:
 ## <a name="error-handling"></a>Tratamento de erros
 
    - Para revisar os erros xerados a partir dos conxuntos de operacións, vaia a **Configuración** \> **Integración de programación** \> **Conxuntos de operacións**.
-   - Para revisar os erros xerados desde o servizo de programación de proxectos, vaia a **Configuración** \> **Integración de programación** \> **Rexistros de erros PSS**.
+   - Para revisar os erros xerados desde o servizo de programación de proxectos, vaia a **Configuración** \> **Integración de programación** \> **Rexistros de erros de PSS**.
 
 ## <a name="sample-scenario"></a>Escenario de exemplo
 

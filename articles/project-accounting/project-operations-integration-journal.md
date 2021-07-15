@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ebdb543560027d223715d0e5c70c864b706cb2c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
+ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007139"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304254"
 ---
 # <a name="integration-journal-in-project-operations"></a>Diario de integración en Project Operations
 
@@ -26,7 +26,7 @@ As entradas de tempo e gasto crean transaccións de **Dato real** que representa
 Os rexistros no diario de Project Operations Integration créanse mediante un proceso periódico, **Importar desde a táboa de transición**. Pode executar este proceso indo a **Dynamics 365 Finance** > **Xestión e contabilidade de proxectos** > **Periódico** > **Project Operations Integration** > **Importar desde a táboa de transición**. Pode executar o proceso de forma interactiva ou configuralo para que se execute en segundo plano segundo sexa necesario.
 
 Cando se executa o proceso periódico, atoparanse os datos reais que aínda non se engadiron a Project Operations Integration. Créase unha liña de diario para cada transacción real.
-O sistema agrupa as liñas de diario en diarios separados en función do valor seleccionado no campo **Unidade de período no diario de Project Operations Integration** (**Finance** > **Xestión e contabilidade de proxectos** > **Configuración** > **Parámetros de xestión e contabilidade de proxectos**, **Project Operations en Dynamics 365 Customer Engagement**). Os valores posibles para este campo inclúen:
+O sistema agrupa as liñas de diario en diarios separados en función do valor seleccionado no campo **Unidade de período no diario de Project Operations Integration** (separador **Finance** > **Xestión e contabilidade de proxectos** > **Configuración** > **Parámetros de xestión e contabilidade de proxectos**, **Project Operations en Dynamics 365 Customer Engagement**). Os valores posibles para este campo inclúen:
 
   - **Días**: Os datos reais agrúpanse por data de transacción. Créase un diario separado para cada día.
   - **Meses**: Os datos reais agrúpanse por mes natural. Créase un diario separado para cada mes.

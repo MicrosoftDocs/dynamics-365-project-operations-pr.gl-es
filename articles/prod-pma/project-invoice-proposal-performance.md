@@ -2,7 +2,7 @@
 title: Rendemento de proposta de factura de proxecto
 description: Este tema ofrece información sobre melloras de rendemento para as propostas de factura do proxecto.
 author: Yowelle
-ms.date: 04/20/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0e7a9eedc80a88e80b7788be4fe4b2f969be8ba1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5a14acf51d277b16896d64c4b12ee00bfb326910
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999489"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269788"
 ---
 # <a name="project-invoice-proposal-performance"></a>Rendemento de proposta de factura de proxecto
 
@@ -44,4 +44,6 @@ Complete os seguintes pasos para desactivar a mellora do rendemento das proposta
 3.  Actualice o explorador.
 
 > [!NOTE]
-> O rendemento da proposta de factura non se pode aplicar cando as regras de facturación están activadas ou se están executando procesos por lotes.
+> O rendemento da proposta de factura non se pode aplicar cando se activan as regras de facturación.
+> 
+> Durante o proceso por lotes para crear propostas de factura, o número de subtarefas dividirá as tarefas a un número máximo en función do número de contratos con transaccións facturables, independentemente do que introducise. Por exemplo, se introduce **3** para o número de subtarefas para a creación de propostas de factura por lotes e só hai dous contratos con transaccións facturables, só se crean dúas subtarefas.
