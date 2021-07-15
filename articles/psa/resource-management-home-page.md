@@ -4,6 +4,7 @@ description: Este tema fornece información sobre como xestionar recursos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/28/2019
 ms.topic: article
 ms.author: ruhercul
@@ -16,29 +17,29 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 778002ea07a7be3cade988f515a6d890427e6613
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da3d6622d4ad7da5e67cd01ce6eacb54298ee515
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008714"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369149"
 ---
-# <a name="resource-management-home-page"></a><span data-ttu-id="0a1c6-103">Páxina de inicio de xestión de recursos</span><span class="sxs-lookup"><span data-stu-id="0a1c6-103">Resource management home page</span></span>
+# <a name="resource-management-home-page"></a><span data-ttu-id="f9e7f-103">Páxina de inicio de xestión de recursos</span><span class="sxs-lookup"><span data-stu-id="f9e7f-103">Resource management home page</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="0a1c6-104">Os recursos son o activo máis importante dunha organización baseada en servizos.</span><span class="sxs-lookup"><span data-stu-id="0a1c6-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="0a1c6-105">A capacidade de atopar e reservar os recursos correctos cando os precise e mantelos utilizados, axuda á organización a cumprir os obxectivos de ingresos e os obxectivos de satisfacción do cliente.</span><span class="sxs-lookup"><span data-stu-id="0a1c6-105">The ability to find and book the correct resources when you need them, and to keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="0a1c6-106">Os seguintes temas céntranse nas capacidades de xestión de recursos de Dynamics 365 Project Service Automation:</span><span class="sxs-lookup"><span data-stu-id="0a1c6-106">The following topics are focused on teh resource management capabilities of Dynamics 365 Project Service Automation:</span></span>
+<span data-ttu-id="f9e7f-104">Os recursos son o activo máis importante dunha organización baseada en servizos.</span><span class="sxs-lookup"><span data-stu-id="f9e7f-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="f9e7f-105">A capacidade de atopar e reservar os recursos correctos cando os precise e mantelos utilizados, axuda á organización a cumprir os obxectivos de ingresos e os obxectivos de satisfacción do cliente.</span><span class="sxs-lookup"><span data-stu-id="f9e7f-105">The ability to find and book the correct resources when you need them, and to keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="f9e7f-106">Os seguintes temas céntranse nas capacidades de xestión de recursos de Dynamics 365 Project Service Automation:</span><span class="sxs-lookup"><span data-stu-id="f9e7f-106">The following topics are focused on teh resource management capabilities of Dynamics 365 Project Service Automation:</span></span>
 
-- [<span data-ttu-id="0a1c6-107">Xestionar recursos</span><span class="sxs-lookup"><span data-stu-id="0a1c6-107">Manage resources</span></span>](manage-resources.md)
-- [<span data-ttu-id="0a1c6-108">Conceptos clave</span><span class="sxs-lookup"><span data-stu-id="0a1c6-108">Key concepts</span></span>](reports-key-concepts.md)
-- [<span data-ttu-id="0a1c6-109">Cumprimento de solicitudes de recursos</span><span class="sxs-lookup"><span data-stu-id="0a1c6-109">Fulfilling resource requests</span></span>](resource-management-fulfill-requests.md)
-- [<span data-ttu-id="0a1c6-110">Proposta de recursos</span><span class="sxs-lookup"><span data-stu-id="0a1c6-110">Proposing resources</span></span>](resource-management-propose-resources.md)
-- [<span data-ttu-id="0a1c6-111">Reserva de recursos</span><span class="sxs-lookup"><span data-stu-id="0a1c6-111">Booking resources</span></span>](resource-management-book-resources-scheduleboard.md)
-- [<span data-ttu-id="0a1c6-112">Requisitos da reserva branda</span><span class="sxs-lookup"><span data-stu-id="0a1c6-112">Soft-book requirements</span></span>](resource-management-softbook-requirements.md)
-- [<span data-ttu-id="0a1c6-113">Modelos de habilidades e competencias</span><span class="sxs-lookup"><span data-stu-id="0a1c6-113">Skills and proficiency models</span></span>](resource-management-skills-proficiency.md)
-- [<span data-ttu-id="0a1c6-114">Preguntas frecuentes sobre xestión de recursos.</span><span class="sxs-lookup"><span data-stu-id="0a1c6-114">Resource management FAQ</span></span>](resource-management-faq.md)
+- [<span data-ttu-id="f9e7f-107">Xestionar recursos</span><span class="sxs-lookup"><span data-stu-id="f9e7f-107">Manage resources</span></span>](manage-resources.md)
+- [<span data-ttu-id="f9e7f-108">Conceptos clave</span><span class="sxs-lookup"><span data-stu-id="f9e7f-108">Key concepts</span></span>](reports-key-concepts.md)
+- [<span data-ttu-id="f9e7f-109">Cumprimento de solicitudes de recursos</span><span class="sxs-lookup"><span data-stu-id="f9e7f-109">Fulfilling resource requests</span></span>](resource-management-fulfill-requests.md)
+- [<span data-ttu-id="f9e7f-110">Proposta de recursos</span><span class="sxs-lookup"><span data-stu-id="f9e7f-110">Proposing resources</span></span>](resource-management-propose-resources.md)
+- [<span data-ttu-id="f9e7f-111">Reserva de recursos</span><span class="sxs-lookup"><span data-stu-id="f9e7f-111">Booking resources</span></span>](resource-management-book-resources-scheduleboard.md)
+- [<span data-ttu-id="f9e7f-112">Requisitos da reserva branda</span><span class="sxs-lookup"><span data-stu-id="f9e7f-112">Soft-book requirements</span></span>](resource-management-softbook-requirements.md)
+- [<span data-ttu-id="f9e7f-113">Modelos de habilidades e competencias</span><span class="sxs-lookup"><span data-stu-id="f9e7f-113">Skills and proficiency models</span></span>](resource-management-skills-proficiency.md)
+- [<span data-ttu-id="f9e7f-114">Preguntas frecuentes sobre xestión de recursos.</span><span class="sxs-lookup"><span data-stu-id="f9e7f-114">Resource management FAQ</span></span>](resource-management-faq.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
