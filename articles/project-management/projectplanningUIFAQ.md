@@ -2,17 +2,17 @@
 title: Resolver problemas de traballo na grade de tarefas
 description: Este tema ofrece a información de solución de problemas necesaria cando se traballa na grade de tarefas.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213398"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989099"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Resolver problemas de traballo na grade de tarefas 
 
@@ -24,7 +24,7 @@ Este tema describe como solucionar problemas que pode atopar ao traballar coa xe
 
 Project Operations require que se activen as cookies de terceiros para renderizar a estrutura de subdivisión do traballo. Cando as cookies de terceiros non estean activadas, no canto de ver tarefas, verá unha páxina en branco cando seleccione o separador **Tarefas** guía na páxina **Proxecto**.
 
-![Separador en branco cando as cookies de terceiros non están activadas](media/blankschedule.png)
+![Separador en branco cando as cookies de terceiros non están activadas.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Outros métodos
@@ -52,11 +52,22 @@ Para os navegadores Microsoft Edge ou Google Chrome, os seguintes procedementos 
 Project Operations requiren que un parámetro do proxecto faga referencia ao extremo de PEX. Este extremo é necesario para comunicarse co servizo usado para renderizar a estrutura de subdivisión do traballo. Se o parámetro non está activado, recibirá o erro "O parámetro do proxecto non é válido". 
 
 ### <a name="workaround"></a>Outros métodos
- ![Campo Extremo PEX no parámetro do proxecto](media/projectparameter.png)
 
 1. Engada o campo **Extremo PEX** á páxina **Parámetros do proxecto**.
-2. Actualice o campo co valor seguinte: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Elimine o campo da páxina **Parámetros do proxecto**.
+2. Identifique o tipo de produto que está a usar. Este valor úsase cando se establece o extremo PEX. Ao recuperalo, o tipo de produto xa está definido no extremo PEX. Manteña ese valor. 
+   
+    ![Campo Extremo PEX no parámetro do proxecto.](media/pex-endpoint.png)
+
+3. Actualice o campo co valor seguinte: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Tipo de produto                         | Tipo de parámetro |
+   |--------------------------------------|----------------|
+   | Project for the Web na organización predefinida   | tipo=0         |
+   | Project for the Web na organización nomeada de CDS | tipo=1         |
+   | Project Operations                   | tipo=2         |
+   
+4. Elimine o campo da páxina **Parámetros do proxecto**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Privilexios para o proxecto para a web
 
@@ -67,7 +78,7 @@ Project Operations depende dun servizo de programación externo. O servizo requi
 
 1. Vaia a **Configuración > Seguridade > Usuarios > Usuarios da aplicación**.  
 
-   ![Lector de aplicacións](media/applicationuser.jpg)
+   ![Lector de aplicacións.](media/applicationuser.jpg)
    
 2. Prema dúas veces no rexistro de usuario da aplicación para verificar o seguinte:
 
@@ -76,7 +87,7 @@ Project Operations depende dun servizo de programación externo. O servizo requi
  
 3. Se este usuario non existe, pode crear un novo rexistro de usuario. Seleccione **Novos usuarios**. Cambie o formulario de entrada a **Usuario da aplicación** e, a seguir, engada o **ID de aplicación**.
 
-   ![Detalles do usuario da aplicación](media/applicationuserdetails.jpg)
+   ![Detalles do usuario da aplicación.](media/applicationuserdetails.jpg)
 
 4. Verifique que ao usuario se lle asignou a licenza correcta e que o servizo está activado nos detalles dos plans de servizo da licenza.
 5. Verifique que o usuario pode abrir project.microsoft.com.

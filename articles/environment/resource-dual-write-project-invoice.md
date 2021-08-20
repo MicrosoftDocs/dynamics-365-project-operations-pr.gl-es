@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7407c98aad79806dcbaf25e81ff3e08397b41ffe
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 37549080d76e3bffd7cb002aee8e3c46b9eeb18e3cec915cd971881b69747534
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996564"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993239"
 ---
 # <a name="project-invoice-integration"></a>Integración de facturas do proxecto
 
@@ -20,7 +20,7 @@ Este tema ofrece información sobre a integración de escrita dual de Project Op
 
 En Project Operations, o xestor de proxectos xestiona o traballo pendente de facturación do proxecto e crea unha factura proforma para o cliente en Microsoft Dataverse. Baseándose nesta factura proforma, o empregado de contas pendentes de cobro ou o contable do proxecto crea unha factura orientada ao cliente. A integración de escrita dual garante que os detalles da factura proforma estean sincronizados coas aplicacións de Finance and Operations. Despois de publicar a factura orientada ao cliente, o sistema actualiza os datos relevantes do proxecto en Dataverse co detalle de contabilidade. O seguinte gráfico ofrece unha visión conceptual de alto nivel desta integración.
 
-   ![Integración de facturas do proxecto](./media/DW5Invoicing.png)
+   ![Integración de facturas do proxecto.](./media/DW5Invoicing.png)
 
 Despois de que o xefe de proxecto confirme a factura proforma en Dataverse, a información da cabeceira da factura proforma sincronízase coas aplicacións de Finance and Operations que usan o mapa da táboa de escrita dual, **Proposta de factura do proxecto V2 (facturas)**. Esta é unha integración unidireccional desde Dataverse ás aplicacións de Finance and Operations. Non se admite a creación ou eliminación de propostas de facturas do proxecto directamente nas aplicacións de Finance and Operations.
 

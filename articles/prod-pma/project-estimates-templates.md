@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: a6955dcd1ebe494e0171c30ac4384089da6a8745
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999714"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988199"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar estimacións de proxectos directamente desde Project Service Automation a Finance and Operations
 
@@ -38,7 +38,7 @@ A solución de integración de Project Service Automation a Finanzas usa a funci
 
 A seguinte ilustración mostra como se sincronizan os datos entre Project Service Automation e Finance.
 
-[![Fluxo de datos para a integración de Project Service Automation con Finanzas](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
+[![Fluxo de datos para a integración de Project Service Automation con Finance.](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
 
 ## <a name="project-hour-estimates"></a>Estimacións de horas do proxecto
 
@@ -95,7 +95,7 @@ Debe engadir un filtro para eliminar as filas que teñan categorías de transacc
 
 A seguinte ilustración mostra un exemplo da asignación de tarefas do modelo en integración de datos. A asignación mostra a información de campo que se sincronizará de Project Service Automation a Finanzas.
 
-[![Asignación de tarefas de modelos na integración de datos](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
+[![Asignación de tarefas de modelos na integración de datos.](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
 
 ## <a name="project-expense-estimates"></a>Estimación de gastos do proxecto
 
@@ -165,9 +165,9 @@ pero **null**
 
 As seguintes ilustracións mostran exemplos das asignacións de tarefas do modelo en integración de datos. A asignación mostra a información de campo que se sincronizará de Project Service Automation a Finanzas.
 
-[![Asignación de modelos de transaccións de estimación de gastos](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
+[![Asignación de modelos de transaccións de estimación de gastos.](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
-[![Asignación de modelos de estimacións de gastos](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+[![Asignación de modelos de estimacións de gastos.](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

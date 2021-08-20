@@ -6,12 +6,12 @@ ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d46d4659a5f60226f80b29f3dd8607249cb91ac2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011189"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996254"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Usar un recurso reservable como dimensión de prezos
 
@@ -64,18 +64,18 @@ O rexistro da dimensión de prezos para **msydn_bookableresource** debe recibir 
 1. Prema dúas veces na fila na grade **Dimensións dos prezos** para abrir a páxina de dimensións de **msdyn_bookableresource**.
 2. Na páxina de dimensión, no separador **Relacionado**, seleccione **Nomes de campo da dimensión de prezos**.
 
-  ![Separador de nomes de campo de dimensión de prezos](media/PD-fieldname.png)
+  ![Separador de nomes de campo de dimensión de prezos.](media/PD-fieldname.png)
 
 3. Na vista asociada que se abre, seleccione **Engadir novo nome de campo da dimensión de prezos**.
 
-  ![Engadir novos nomes de campo de dimensión de prezos](media/Add-NewPD-fieldname.png)
+  ![Engadir novos nomes de campo de dimensión de prezos.](media/Add-NewPD-fieldname.png)
 
   Isto abre a páxina **Novo nome de campo da dimensión de prezos** para **msdyn_bookableresource**. 
 
 4. Na páxina **Nome do campo de nova dimensión de prezos**, engada **msdyn_projectteam** a **Nome lóxico da entidade**.
 5. Engada **msdyn_bookableresourceid** a **Nome do campo**.
 
- ![Novo formulario de nome de campo de dimensión de prezos](media/PD-fieldname-Added.png)
+ ![Novo formulario de nome de campo de dimensión de prezos.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025772"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003814"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versións do mapa de escrita dual de Project Operations
 
@@ -32,7 +32,7 @@ Os seguintes mapas son requisitos previos para a solución de Project Operations
 
 1. Na lista de mapas, seleccione o papa de libro maior **(msdyn\_ledgers)** con todos os requisitos previos e seleccione a caixa de verificación **Sincronización inicial**. No campo **Padrón para a sincronización inicial**, seleccione **Aplicacións de Finance and Operations** tanto para o mapa de libro maior como para todos os mapas de requisitos previos. Seleccione **Executar**.
 
-![Sincronización de mapa de libro maior](media/DW6.png)
+![Sincronización de mapa de libro maior.](media/DW6.png)
 
 2. Siga os mesmos pasos para todos os mapas de táboa restantes que aparecen na táboa anterior. Non seleccione a caixa de verificación **Sincronización inicial** ao executar eses mapas.
 
@@ -65,7 +65,7 @@ Realice os seguintes pasos para executar os mapas que se mostran.
 
 1. Active os roles de recursos do proxecto para o mapa da táboa de **todas as empresas (bookableresourcecategories)** xa que este mapa require a sincronización inicial. No campo **Padrón para a sincronización inicial**, seleccione **Common Data Service**. 
 
- ![Sincronización do mapa da táboa de roles de recursos](media/6ResourceInitialSync.jpg)
+ ![Sincronización do mapa da táboa de roles de recursos.](media/6ResourceInitialSync.jpg)
 
  Agarde a que o estado do mapa sexa **En execución** antes de pasar ao seguinte paso.
 

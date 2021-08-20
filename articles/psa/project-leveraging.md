@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49d109be3d55e7f208edb2698e420f40bb7843df
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998409"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995174"
 ---
 # <a name="sales-estimates-and-projects"></a>Proxectos e estimacións de vendas
 
@@ -35,11 +35,11 @@ Durante o proceso de vendas, pode crear estimacións de vendas ligando un proxec
 
 Cando crea unha liña de oferta baseada en proxectos, pode crear un proxecto novo ou asociar un proxecto existente na páxina **Liña de oferta**. 
 
-> ![Formulario de liña de oferta](media/project-8.png)
+> ![Formulario de liña de oferta.](media/project-8.png)
  
 Cando crea un novo proxecto a partir dos detalles da liña de oferta, pode aproveitar os modelos de proxecto. Os modelos de proxectos son proxectos modelo que representan plans de proxecto estándar e estimacións financeiras típicas dunha organización. Tamén poden representar copias de plans de proxectos e estimacións de proxectos pasados.
 
-> ![Detalles da liña de oferta](media/project-9.png)
+> ![Detalles da liña da oferta.](media/project-9.png)
   
 Cando cree o proxecto desde unha oferta, o proxecto asóciase automaticamente á liña de oferta.
 

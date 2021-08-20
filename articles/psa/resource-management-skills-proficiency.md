@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 976650cc71b0cdb75d5ce2d7532cd78bd91d3670
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 73509fda4a715a4131781645736e49cfb02115da2c3650c5a966e35360e7703f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008669"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990494"
 ---
 # <a name="skills-and-proficiency-models"></a>Modelos de habilidades e competencias
 
@@ -33,7 +33,7 @@ As habilidades son características dos recursos que se comparten entre Dynamics
 
 Para manter o repositorio de habilidades en Project Service Automation, diríxase a **Recursos** \> **Habilidades dos recursos**. 
 
-> ![Habilidades dos recursos](media/Resource-Management-image84.png)
+> ![Habilidades do recurso.](media/Resource-Management-image84.png)
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>Usar modelos de habilidade para valorar os recursos
 
@@ -43,7 +43,7 @@ As habilidades dos recursos clasifícanse por modelos de competencia. As clasifi
 2. No novo modelo de clasificación, especifique o valor mínimo de clasificación, o valor máximo de clasificación e a entidade que se está clasificando.
 3. Na subgrade **Valores de clasificación**, pode definir os diferentes valores de clasificación, desde o mínimo ata o máximo.
 
-> ![Definición de clasificación mínima e máxima](media/Resource-Management-image85.png)
+> ![Definición de clasificación mínima e máxima.](media/Resource-Management-image85.png)
 
 Estes valores de clasificación móstranse nos filtros **Requisitos dos recursos**, **Panel de programación** e **Asistente de programación**.
 

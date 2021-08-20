@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007589"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992384"
 ---
 # <a name="estimates"></a>Estimacións
 
@@ -83,24 +83,24 @@ Se engadiu un campo personalizado no detalle de liña de oferta e quere que o si
 1. Abra PluginRegistrationTool e conéctese á súa instancia en liña.
 2. Seleccione **Buscar** e busque o complemento para actualizar.
 
-    ![Caixa de diálogo de árbore de busca](media/basic-guide-19.png)
+    ![Caixa de diálogo de árbore de busca.](media/basic-guide-19.png)
 
 3. Seleccione o complemento e, a seguir, na páxina principal, seleccione **Seleccionar**.
 4. Seleccione o paso do complemento para actualizar, prema co botón dereito e logo seleccione **Actualizar**.
 
-    ![Selección dun paso no complemento](media/basic-guide-20.png)
+    ![Selección dun paso no complemento.](media/basic-guide-20.png)
 
 5. Na caixa de diálogo **Actualizar o paso existente**, no campo **Atributos de filtrado**, seleccione o botón de puntos suspensivos (**...**):
  
-    ![Actualizar a caixa de diálogo de Paso existente](media/basic-guide-21.png)
+    ![Actualizar a caixa de diálogo de Paso existente.](media/basic-guide-21.png)
 
 6. Na caixa de diálogo **Seleccionar atributos**, seleccione as caixas de verificación dos atributos personalizados.
 
-    ![Seleccionar a caixa de diálogo Atributos](media/basic-guide-22.png)
+    ![Seleccionar a caixa de diálogo Atributos.](media/basic-guide-22.png)
 
 7. Seleccione **Aceptar** para pechar a caixa de diálogo e logo seleccione **Actualizar paso**.
  
-    ![Actualizar o botón Paso](media/basic-guide-23.png)
+    ![Actualizar o botón Paso.](media/basic-guide-23.png)
 
 8. Repita os pasos do 1 ao 7 para o segundo complemento.
 9. Peche PluginRegistrationTool.

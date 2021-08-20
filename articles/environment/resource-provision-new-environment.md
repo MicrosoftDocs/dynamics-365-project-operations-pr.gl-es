@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995484"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988559"
 ---
 # <a name="provision-a-new-environment"></a>Fornecer un novo ambiente
 
@@ -52,12 +52,12 @@ Siga os pasos seguintes para activar o fluxo de fornecemento automatizado de Pro
 
 6. Seleccionar o tipo de ambiente para o seu despregamento. Unha proba baseada en subscrición permitiralle despregar un ambiente de CDS durante 30 días. 
 
-![Configuración de despregamento](./media/1DeploymentSettings.png)
+![Configuración de despregamento.](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
 > Seleccione **Acepto** para aceptar os termos do servizo e logo seleccione **Feito** para volver á configuración de despregamento.
 
-![Consentimento de despregamento](./media/2DeploymentConsent.png)
+![Consentimento de despregamento.](./media/2DeploymentConsent.png)
 
 7. Opcional - Aplique datos de demostración ao ambiente. Vaia a **Configuración avanzada**, seleccione **Personalizar a configuración da base de datos SQL** e estableza **Especificar un conxunto de datos para a base de datos de aplicacións** en **Demostración**.
 
@@ -67,7 +67,7 @@ Siga os pasos seguintes para activar o fluxo de fornecemento automatizado de Pro
 
 9. Para confirmar que o ambiente se despregou correctamente, seleccione **Iniciar sesión** e inicie sesión no ambiente para confirmar.
 
-![Detalles do ambiente de ](./media/3EnvironmentDetails.png)
+![Detalles do ambiente.](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Aplicar actualizacións ao ambiente de Finance
 
@@ -77,19 +77,19 @@ Project Operations require un ambiente de Finance coa versión da aplicación **
 
 1. En LCS, na páxina **Detalles do ambiente**, na sección **Actualizacións dispoñibles**, seleccione **Ver actualización**.
 
-![Ver actualizacións](./media/5ViewUpdates.png)
+![Vexa as actualizacións.](./media/5ViewUpdates.png)
 
 2. Na páxina **Actualizacións binarias**, seleccione **Gardar paquete.**
 
-![Gardar paquete](./media/6SavePackage.png)
+![Gardar paquete.](./media/6SavePackage.png)
 
 3. Prema **Seleccionar todos** e logo seleccione **Gardar paquete**.
 
-![Revisar e gardar actualizacións](./media/7ReviewAndSaveUpdates.png)
+![Revise e garde as actualizacións.](./media/7ReviewAndSaveUpdates.png)
 
 4. Introduza un nome e unha descrición do paquete e seleccione **Gardar**. Dependendo da conexión a Internet, este proceso pode levar algún tempo.
 
-![Cargar o paquete á biblioteca de activos](./media/8UploadPackageToAssetsLibrary.png)
+![Cargue o paquete á biblioteca de activos.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. Despois de gardar o paquete, seleccione **Feito** e garde este paquete na biblioteca de activos do seu proxecto de LCS.
 
@@ -97,15 +97,15 @@ Gardar e validar o paquete pode levar uns 15 minutos.
 
 6. Para aplicar a actualización, navegue ata a páxina **Detalles do ambiente** páxina en LCS e seleccione **Manter** > **Aplicar actualizacións**.
 
-![Manter ambientes](./media/9MaintainEnvironment.png)
+![Manteña os ambientes.](./media/9MaintainEnvironment.png)
 
 7. Na lista de actualizacións seleccione o paquete que creou e seleccione **Aplicar**.
 
-![Aplicar actualizacións](./media/10ApplyUpdates.png)
+![Aplique as actualizacións.](./media/10ApplyUpdates.png)
 
 O servizo do ambiente levará algún tempo. Despois de completalo, o ambiente volverá a un estado despregado.
 
-![Ambiente despregado](./media/11EnvironmentDeployed.png)
+![Ambiente despregado.](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>Establecer unha conexión de escrita dual 
 
@@ -113,41 +113,41 @@ O servizo do ambiente levará algún tempo. Despois de completalo, o ambiente vo
 2. En **Información do ambiente de Common Data Service**, seleccione **Ligazón a CDS para aplicacións**.
 3. Despois de completar a ligazón, seleccione **Ligazón a CDS para aplicacións** de novo. Redixiráselle a escrita dual en Finance.
 
-![Ligazón a CDS](./media/12LinktoCDS.png)
+![Ligazón a CDS.](./media/12LinktoCDS.png)
 
 4. Seleccione **Aplicar solución** para acceder ás entidades que serán asignadas na integración.
 
-![Aplicar solucións](./media/13ApplySolutions.png)
+![Aplique as solucións.](./media/13ApplySolutions.png)
 
 5. Seleccione ambas solucións, **Mapa de entidade de escrita dual de Dynamics 365 Finance and Operations** e **Mapas de entidades de escrita dual de Dynamics 365 Project Operations** e, a seguir, seleccione **Aplicar**.
 
-![Confirmar solucións](./media/14ConfirmSolutions.png)
+![Confirme as solucións.](./media/14ConfirmSolutions.png)
 
 Despois de aplicar as solucións, as entidades de escrita dual aplícanse ao ambiente.
 
-![Aplicación de solucións](./media/15ApplyingSolutions.png)
+![Aplicación de solucións.](./media/15ApplyingSolutions.png)
 
 Despois de aplicar as entidades, todas as asignacións dispoñibles aparecen no ambiente.
 
-![Mapas de escrita dual](./media/15DWMappings.png)
+![Mapas de escrita dual.](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>Actualice as entidades de datos despois da actualización
 
 1. En Finance, vaia á área de traballo **Xestión de datos**.
 
-![Área de traballo de xestión de datos](./media/16DataManagement.png)
+![Área de traballo de xestión de datos.](./media/16DataManagement.png)
 
 2. Seleccione o mosaico **Parámetros marco**.
 
-![Parámetros do marco](./media/17FrameworkParameters.png)
+![Parámetros do marco.](./media/17FrameworkParameters.png)
 
 3. Na páxina **Configuración de entidades**, seleccione **Actualizar lista de entidades**.
 
-![Actualizar lista de entidades](./media/18RefreshEntityList.png)
+![Actualice a lista de entidades.](./media/18RefreshEntityList.png)
 
 A actualización tardará aproximadamente 20 minutos. Recibirá unha alerta cando remate.
 
-![Actualizar confirmación](./media/19RefreshConfirmation.png)
+![Confirmación de actualización.](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Actualizar a configuración de seguridade en Project Operations en Dataverse
 
@@ -188,17 +188,17 @@ A actualización tardará aproximadamente 20 minutos. Recibirá unha alerta cand
 4. Para actualizar a entidade, seleccione o nome do mapa e logo seleccione **Actualizar entidades**. 
 
 
-![Actualizar mapa](./media/20RefreshMapping.png)
+![Actualice o mapa.](./media/20RefreshMapping.png)
 
 5. Ao finalizar a actualización, execute o mapa. Antes de activar o seguinte mapa, verifique que o mapa da táboa estea en estado de **Execución**. A execución de mapas cun maior número de requisitos previos pode levar moito tempo.
 
 Para executar un mapa con requisitos previos, active o conmutador **Mostrar mapas de entidades relacionadas**. Se a táboa indica **Sincronización inicial de requisitos previos** é **Non**, verifique que o indicador **Sincronización inicial** está **Desactivado** en todos os mapas de requisitos previos antes de executalo.
 
-![Executar mapa](./media/21RunMap.png)
+![Execute o mapa.](./media/21RunMap.png)
 
 6. Valide que todos os mapas relacionados co proxecto están en estado de execución.
 
-![Todos os mapas en execución](./media/22AllMapsRunning.png)
+![Todos os mapas en execución.](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Aplicar os datos de configuración en CDS para Project Operations (opcional)

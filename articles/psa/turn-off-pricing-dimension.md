@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da8615fa147838d9088c639039d5a2534e662e82
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9f690dfdb40e962ef329f323716f3f755493805d764dbfaa2d4f9d042231cee7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014294"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006784"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>Desactivar unha dimensión de prezos
 
@@ -32,7 +32,7 @@ Para desactivar unha dimensión de prezos, independentemente de se é lista para
 
 Non obstante, cando faga isto, pode que reciba a seguinte mensaxe de erro.
 
-![Erro de proceso de negocio ao desactivar unha dimensión de prezos](media/Business-Process-Error.png)
+![Erro de proceso de negocio ao desactivar unha dimensión de prezos.](media/Business-Process-Error.png)
 
 
 Esta mensaxe de erro indica que hai rexistros de prezos previamente configurados para a dimensión que se vai desactivar. Todos os rexistros de **Prezo de rol** e **Sobreprezo de rol** que fan referencia a unha dimensión deben ser eliminados antes de que se poida establecer a aplicabilidade da dimensión en **Non**. Esta regra aplícase tanto ás dimensións de prezos listas para usar como ás dimensións de prezos personalizadas que creou. O motivo desta validación é porque Project Service ten unha restrición de que cada rexistro de **Prezo de rol** debe ter unha combinación única de dimensións. Por exemplo, nunha lista de prezos chamada **Taxas de custos de EUA 2018**, ten as seguinte filas de **Prezo de rol**. 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f7f116877340e9efec1aa7b3af875920f38fcdce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014969"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000574"
 ---
 # <a name="project-pricing"></a>Prezos de proxecto 
 
@@ -46,7 +46,7 @@ A entidade Lista de prezos ten tres táboas relacionadas que almacenan os prezos
   - **Prezo da categoría de transacción** - Esta táboa almacena os prezos por categoría de transacción e úsase para configurar prezos de categoría de gasto.
   - **Elementos da lista de prezos** - Esta táboa almacena os prezos dos produtos do catálogo.
 
-> ![Configuración de prezos utilizando a lista de prezos](media/basic-guide-12.png)
+> ![Configuración de prezos utilizando a lista de prezos.](media/basic-guide-12.png)
  
 A lista de prezos é un cartón de tarifas. Un cartón de tarifas é unha combinación da entidade Lista de prezos e as filas relacionadas nas táboas de Prezo de rol, Prezo de categoría de transacción e Elementos da lista de prezos.
 
@@ -58,7 +58,7 @@ O tempo de recursos humanos soe ofertarse en función do rol que un recurso cump
 
 O grupo de unidades **Tempo** créase cando se instala PSA. Ten unha unidade predefinida de **Hora**. Non pode eliminar, cambiar o nome ou editar os atributos do grupo de unidades **Tempo** ou a unidade **Hora**. Non obstante, pode engadir outras unidades ao grupo de unidades **Tempo**. Se tenta eliminar o grupo de unidades **Tempo** ou a unidade **Hora**, pode causar fallos na lóxica de negocio de PSA.
 
-> ![Configuración dos prezos por rol](media/basic-guide-13.png)
+> ![Configuración dos prezos por rol.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Categorías de transaccións e categorías de gasto
 
@@ -68,7 +68,7 @@ Normalmente factúranse ao cliente os gastos de viaxe e outros gastos nos que in
 - **Porcentaxe de sobreprezo** - A porcentaxe sobre o custo real factúrase ao cliente. 
 - **Prezo por unidade** - Establécese un prezo de facturación para cada unidade da categoría de gasto. A cantidade que se factura ao cliente calcúlase en función do número de unidades de gasto que informa o consultor. Quilometraxe usa o método de prezo por unidade. Por exemplo, a categoría de gasto de quilometraxe pódese configurar para 30 dólares estadounidenses (USD) por día ou 2 USD por milla. Cando un consultor informa de quilometraxe nun proxecto, o importe a facturar calcúlase en función do número de millas que informou o consultor.
 
-> ![Configuración de prezos para categorías de gasto](media/basic-guide-14.png)
+> ![Configuración de prezos para categorías de gasto.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Prezos de vendas e anulacións do proxecto
 
@@ -114,7 +114,7 @@ Non obstante, nunha oferta, pode usar unha lista de prezos principal. Alternativ
 
 Cando crea unha lista de prezos de proxecto personalizada, só se copian os compoñentes do proxecto da lista de prezos. Noutras palabras, unha nova lista de prezos creada como unha copia da lista de prezos de proxecto existente que se anexa na oferta, e esta nova lista de prezos só ten prezos de rol relacionados e os prezos da categoría de transacción.
 
-> ![Visualización e configuración de prezos personalizados para un contrato de proxecto](media/basic-guide-15.png)
+> ![Visualización e configuración de prezos personalizados para un contrato de proxecto.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Rastrexo dos custos
 

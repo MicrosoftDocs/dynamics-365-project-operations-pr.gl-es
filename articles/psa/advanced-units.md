@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e981f39bbb6ca4277778382a5816952df2a8a1fb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009569"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987569"
 ---
 # <a name="unit-groups-and-units"></a>Grupos de unidades e unidades
 
@@ -44,7 +44,7 @@ Por exemplo, no grupo de unidades **Tempo**, se configura **Hora** como primeira
 
 A seguinte imaxe mostra un exemplo de configuración para a unidade **Día**, onde o campo **Cantidade** mostra o número de horas que hai nun día e **Semana**, onde o campo **Cantidade** mostra o número de días que están nunha semana.
 
-> ![Grupo de unidades: Páxina de información](media/advanced-2.png)
+> ![Grupo de unidades: Páxina de información.](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Uso das unidades e os grupos de unidades
 

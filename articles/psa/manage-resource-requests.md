@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015014"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985139"
 ---
 # <a name="manage-resource-requests-project-service"></a>Xestionar solicitudes de recursos (Project Service)
 
@@ -43,7 +43,7 @@ Os xestores de contas e os xestores de proxectos solicitan regularmente recursos
   
    -   Prema **Filtro** para mostrar o panel **Filtro**, que permite filtrar os resultados por unidade da organización, rol, cualificacións ou outros atributos.  
   
-       ![Pantalla de solicitude de recursos en Project Service](../psa/media/project-service-resource-request-screen.png "Pantalla de solicitude de recursos en Project Service.").  
+       ![Pantalla de solicitude de recursos en Project Service.](../psa/media/project-service-resource-request-screen.png "Pantalla de solicitude de recursos en Project Service.")  
   
 3. No calendario do recurso que desexa reservar, seleccione o período de tempo para o reservar o recurso e, a seguir, prema en **Reservar** para reservar o recurso ou **Propoñer reserva** para propor a reserva e que o solicitante a aprobe. Cando reserva un recurso pode facer unha reserva branda ou dura.  
   

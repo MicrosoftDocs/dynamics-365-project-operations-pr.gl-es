@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1debf8f67b7dbe7752075c6f8e5f2cdd37a3ae
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002774"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995804"
 ---
 # <a name="intercompany-invoicing"></a>Facturación entre empresas
 
@@ -33,7 +33,7 @@ A súa organización pode ter varias divisións, filiais e outras persoas xuríd
 
 A seguinte ilustración mostra un escenario típico onde dúas persoas xurídicas, SI FR (a persoa xurídica prestameira) e SI EUA (a persoa xurídica prestamista), comparten recursos para entregar un proxecto ao cliente A. Para este escenario, SI FR está contratada para entregar o traballo ao cliente A. 
 
-[![Exemplo de facturación entre empresas](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Exemplo de facturación entre empresas.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 O obxectivo é facer máis flexible e poderoso o control de custos, o recoñecemento de ingresos, os impostos e o prezo de transferencia para transaccións de proxectos entre empresas. Ademais, ofrécense as seguintes capacidades:
 

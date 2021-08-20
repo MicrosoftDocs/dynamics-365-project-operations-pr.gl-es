@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7b7c1d1b3363c0d158fcf6fda532822354b852a3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004529"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994499"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Desactivar unha dimensión de prezos
 
@@ -32,7 +32,7 @@ Para desactivar unha dimensión de prezos, independentemente de se é lista para
 
 Non obstante, cando fai isto, pode que reciba a mensaxe de erro, **A dimensión de prezos non se pode actualizar nin eliminar se hai rexistros de prezos asociados.**
 
-![Erro de proceso de negocio ao desactivar unha dimensión de prezos](media/Business-Process-Error.png)
+![Erro de proceso de negocio ao desactivar unha dimensión de prezos.](media/Business-Process-Error.png)
 
 Esta mensaxe de erro indica que hai rexistros de prezos previamente configurados para a dimensión que se vai desactivar. Todos os rexistros de **Prezo de rol** e **Sobreprezo de rol** que fan referencia a unha dimensión deben ser eliminados antes de que se poida establecer a aplicabilidade da dimensión en **Non**. Esta regra aplícase tanto ás dimensións de prezos listas para usar como ás dimensións de prezos personalizadas que creou. O motivo desta validación é que cada rexistro de **Prezo de rol** debe ter unha combinación única de dimensións. Por exemplo, nunha lista de prezos chamada **Taxas de custos de EUA 2018**, ten as seguinte filas de **Prezo de rol**. 
 

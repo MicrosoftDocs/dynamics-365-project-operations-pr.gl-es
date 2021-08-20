@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0f3957936e699fb2a9f570b9789924c55e12cc2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 8568921dd16472f10a7043c5fe3f58b9f5cd3989ad39e3a3bdf269b0c7203ae2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009344"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998639"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Reservar recursos reservables nomeados para un equipo de proxectos e atribuír tarefas 
 
@@ -34,36 +34,36 @@ Pode engadir un recurso nomeado ao seu equipo de proxectos reservándoo directam
 1. En Project Service Automation, vaia a **Proxectos** e seleccione abrir o proxecto para o que vai reservar.
 2. Na páxina **Proxecto**, no separador **Equipo**, prema **Novo**. 
 
-![Engadir un membro do equipo no separador do equipo](media/RM-how-to-1.png)
+![Engadir un membro do equipo no separador do equipo.](media/RM-how-to-1.png)
 
 3. Na caixa de diálogo **Creación rápida de membro do equipo de proxecto**, seleccione o recurso reservable. O campo **Rol** encherase co rol predefinido do recurso se ten un atribuído. Pode cambiar o rol se fose necesario. 
 4. Seleccione as datas desde e ata nas que se necesitará o recurso e seleccione o método de atribución da capacidade do recurso. 
 5. Se desexa que o membro do equipo sexa o responsable da a probación do proxecto, seleccione **Si** no campo **Responsable de aprobación do proxecto**. Isto suporá que o membro do equipo pode aprobar as entradas de tempo e gastos presentadas para este proxecto. 
 6. Prema **Gardar**.
 
-![Engadir un membro do equipo no formulario de creación rápida](media/RM-how-to-2.png)
+![Engadir un membro do equipo no formulario de creación rápida.](media/RM-how-to-2.png)
 
 
 Agora pode atribuír o recurso reservado a tarefas do proxecto. Na páxina **Proxecto**, prema o separador **Programación** para atribuír tarefas ao novo recurso. O selector de recursos que se inicia desde o campo **Recursos** na grada de tarefas amosará os membros do equipo que pode seleccionar.
 
-![Atribución dun membro do equipo a unha tarefa no separador de programación](media/RM-how-to-3.png)
+![Atribución dun membro do equipo a unha tarefa no separador de programación.](media/RM-how-to-3.png)
 
 Na versión 3 para Project Service Automation (PSA), as reservas de recursos e as atribucións de tarefas non están moi integradas. Isto significa que cando utiliza o selector de recursos na programación, pode atribuír tarefas aos membros do equipo durante máis horas das que cobren as súas reservas no proxecto.
 Podes ver as diferenzas entre as reservas e atribucións dos membros do equipo no separador **Equipo** ou no separador **Reconciliación de recursos**. Tamén pode reconciliar as diferenzas entre reservas e atribucións de recursos a un nivel máis detallado.
 
-![Separador de reconciliación de recursos](media/RM-how-to-4.png)
+![Separador de reconciliación de recursos.](media/RM-how-to-4.png)
 
 Tamén pode usar o selector de recursos no separador **Programación** para buscar e seleccionar recursos reservables que xa non forman parte do equipo do proxecto. Estes móstranse no selector de recursos como **Outros recursos**.
 
-![Atribución dun recurso que non é membro do equipo a unha tarefa](media/RM-how-to-5.png)
+![Atribución dun recurso que non é membro do equipo a unha tarefa.](media/RM-how-to-5.png)
 
 Cando fai isto, o recurso engádese ao equipo do proxecto e atribúese á tarefa, pero non se xeran reservas.
 
-![Membro do equipo con atribucións e sen reservas](media/RM-how-to-6.png)
+![Membro do equipo con atribucións e sen reservas.](media/RM-how-to-6.png)
 
 Pode usar a capacidade de extensión de recursos no separador **Reconciliación** ou o **Panel de programación** para reservar a capacidade do recurso para o proxecto.
 
-![Extensión das reservas para un membro do equipo no separador de reconciliación de recursos](media/RM-how-to-7.png)
+![Extensión das reservas para un membro do equipo no separador de reconciliación de recursos.](media/RM-how-to-7.png)
 
 Despois de que un membro do equipo estea reservado no seu proxecto, pode manter as reservas ou usar o panel de programación para xestionar as súas reservas.
 

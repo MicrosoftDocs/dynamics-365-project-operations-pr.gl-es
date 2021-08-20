@@ -6,12 +6,12 @@ ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b3b403d9432720a4fe2f9b818600a00e250ea918
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000119"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994589"
 ---
 # <a name="navigate-project-operations"></a>Navegar en Project Operations
 
@@ -28,11 +28,11 @@ Despois de subministrar Project Operations como se describe neste tema, a páxin
 
 Use o nome do ambiente na sección **Nome de ambiente de Common Data Service** para navegar a Project Operations nun ambiente de CDS. 
 
-  ![Nome do ambiente de Common Data Service](./media/environment-name.PNG)
+  ![Nome do ambiente de Common Data Service.](./media/environment-name.PNG)
 
 Seleccione **Iniciar sesión** > **Iniciar sesión no ambiente** para navegar ata o módulo **Xestión e contabilidade de proxectos** en Finance.  
 
-   ![Iniciar sesión en Finance](./media/environment-login.PNG)
+   ![Inicie sesión en Finance.](./media/environment-login.PNG)
 
 > [!NOTE]
 > Pode acceder a Project Operations en Common Data Service e o módulo **Xestión e contabilidade de proxectos** directamente usando os seus respectivos URL. 

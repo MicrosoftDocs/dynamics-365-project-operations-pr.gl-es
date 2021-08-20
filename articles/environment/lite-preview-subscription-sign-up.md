@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334780"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991529"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Rexistrarse para unha subscrición de previsualización - lite 
 
@@ -52,16 +52,16 @@ Antes de comezar, asegúrese de iniciar sesión nun explorador coa conta de trab
 
 1. Proporcione un novo ambiente de despregamento de Project Operations Dataverse seguindo as instrucións do tema, [Modelo de despregamento de Dataverse](lite-deployment.md). Cando seleccione o tipo de ambiente, asegúrese de usar **Proba (baseada en subscrición)**.
 
-  ![Novo ambiente](./media/19CreateEnvironment.png)
+  ![Novo ambiente.](./media/19CreateEnvironment.png)
 
 2. Seleccione a configuración **Activar as aplicacións de Dynamics 365** e deixe **Despregar automaticamente estas aplicacións** en branco.  
 3. Seleccione **Gardar** para crear o ambiente.
 
-  ![Engadir base de datos](./media/20CreateEnvironment1.png)
+  ![Engada a base de datos.](./media/20CreateEnvironment1.png)
 
 4. Despois de crear o ambiente, instale a solución **Microsoft Dynamics 365 Project Operations**. 
 
-![Instalar solución](./media/21InstallSolution.png)
+![Instale a solución.](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Instalar unha configuración de CDS e configurar datos de demostración
 

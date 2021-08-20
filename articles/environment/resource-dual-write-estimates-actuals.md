@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000029"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006289"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Integración de estimacións e datos reais do proxecto
 
@@ -30,7 +30,7 @@ A creación de estimacións require unha configuración de contabilidade válida
 
 O xestor de proxectos ou o xestor de recursos crea estimacións de traballo e tamén atribúe un recurso xenérico ou nomeado á tarefa do proxecto. Os rexistros de atribución de recursos pódense revisar no separador **Atribucións de recursos** na páxina **Detalles do proxecto** en Dataverse. Os rexistros de atribución de recursos en Dataverse crean rexistros de previsión de horas nas aplicacións de Finance and Operations usando a **entidade de integración de Project Operations para estimacións de horas (msdyn\_resourceassignments)**.
 
-   ![Integración de estimacións de traballo](./Media/DW4LaborEstimates.png)
+   ![Integración de estimacións de traballo.](./Media/DW4LaborEstimates.png)
 
 A escrita dual sincroniza os rexistros de atribución de recursos coa táboa de transición (**ProjCDSEstimateHoursImport**) e despois usa a lóxica empresarial para crear e actualizar rexistros de previsión de horas (**ProjForecastEmpl**).
 
@@ -40,7 +40,7 @@ O contable do proxecto revisa os rexistros de horas da previsión creados nas ap
 
 O xestor de proxectos crea as estimacións de gastos no separador **Estimacións de gastos** na páxina **Detalles do proxecto** en Dataverse. Os rexistros de estimación de gastos almacénanse la entidade **Liña de estimación** en Dataverse. Estes rexistros de estimación teñen a clase de transacción **Gasto** e están sincronizados cos rexistros de previsión de gastos nas aplicacións de Finance and Operations usando a **entidade de integración de Project Operations para estimacións de gastos (msdyn\_estimatelines)**.
 
-   ![Integración de estimacións de gastos](./Media/DW4ExpenseEstimates.png)
+   ![Integración de estimacións de gastos.](./Media/DW4ExpenseEstimates.png)
 
 A escrita dual sincroniza os rexistros de estimación de gastos coa táboa de transición (**ProjCDSEstimateExpenseImport**) e despois usa a lóxica empresarial para crear e actualizar rexistros de previsión de gastos (**ProjForecastCost**). As liñas da estimación rexistran a estimación de vendas e os custos por separado. A lóxica empresarial nas aplicacións de Finance and Operations enche un único rexistro de previsión de gastos usando este detalle na táboa de transición.
 
@@ -50,7 +50,7 @@ O contable do proxecto pode revisar os rexistros previsión de gastos nas aplica
 
 O xestor de proxectos crea as estimacións de material no separador **Estimacións de material** na páxina **Detalles do proxecto** en Dataverse. Os rexistros de estimación de material almacénanse la entidade **Liña de estimación** en Dataverse. Estes rexistros de estimación teñen a clase de transacción **Material** e están sincronizados cos rexistros de previsión de elementos nas aplicacións de Finance and Operations usando a **táboa de integración do proxecto para estimacións de material (msdyn\_estimatelines)**.
 
-   ![Integración de estimacións de material](./Media/DW4MaterialEstimates.png)
+   ![Integración de estimacións de material.](./Media/DW4MaterialEstimates.png)
 
 A escrita dual sincroniza os rexistros de estimación de material coa táboa de transición **ProjForecastSalesImpor** e despois usa a lóxica empresarial para crear e actualizar rexistros de previsión de elementos (**ForecastSales**). As liñas da estimación rexistran a estimación de vendas e os custos por separado. A lóxica empresarial nas aplicacións de Finance and Operations enche un único rexistro de previsión de elementos usando este detalle na táboa de transición.
 
@@ -60,7 +60,7 @@ O contable do proxecto pode revisar os rexistros previsión de elementos nas apl
 
 Os datos reais do proxecto créanse en Dataverse, en función do tempo, gasto, material e actividade de facturación. Todos os atributos operativos destas transaccións, como a cantidade, o prezo de custo, o prezo de venda e o proxecto, captúranse nesta entidade de Dataverse. Para obter máis información, consulte [Datos reais](../actuals/actuals-overview.md). Os rexistros de datos reais sincronízanse coas aplicacións de Finance and Operations mediante o mapa da táboa de escritura dual **Datos reais de integración de Project Operations (msdyn\_actuals)** para a contabilidade descendente.
 
-   ![Integración de datos reais](./Media/DW4Actuals.png)
+   ![Integración de datos reais.](./Media/DW4Actuals.png)
 
 O mapa da táboa **Datos reais de integración de Project Operations** sincroniza todos os rexistros da entidade **Datos reais** en Dataverse, co atributo **Omitir sincronización (só para uso interno)** fixado en **Falso**. Este valor de atributo establécese en Dataverse automaticamente cando se crea o rexistro. Exemplos nos que se establece este atributo como **Verdadeiro**:
 

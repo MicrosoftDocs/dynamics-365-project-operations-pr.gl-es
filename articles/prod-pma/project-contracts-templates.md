@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 2f5fa0143c903f08b3937426805cb43d5d6109e3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999804"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001069"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sincronizar contratos de proxecto e proxectos directamente desde Project Service Automation to Finance 
 
@@ -42,7 +42,7 @@ A solución de integración de Project Service Automation a Finanzas usa a funci
 
 A seguinte ilustración mostra como se sincronizan os datos entre Project Service Automation e Finance.
 
-[![Fluxo de datos para a integración de Project Service Automation con Finanzas](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Fluxo de datos para a integración de Project Service Automation con Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Modelos e tarefas
 
@@ -140,17 +140,17 @@ Se debe usar Power Query, siga estas pautas:
 
 As seguintes ilustracións mostran exemplos das asignacións de tarefas do modelo en integración de datos. A asignación mostra a información de campo que se sincronizará de Project Service Automation a Finanzas.
 
-[![Asignación de modelos de contrato de proxecto](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Asignación de modelos de contrato de proxecto.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Asignación de modelos de proxecto](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Asignación de modelos de proxecto.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Asignación de modelos de liñas de contrato de proxecto](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Asignación de modelos de liñas de contrato de proxecto.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Asignación de modelos de fitos de liñas de contrato de proxecto](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Asignación de modelos de fitos de liñas de contrato de proxecto.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Asignación de fitos da liña de contrato de proxecto nos proxectos e contratos (PSA 3.x a Dynamics) - modelo v2:
 
-[![Asignación de fitos de liñas de contrato de proxecto coa versión dúas do modelo](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+[![Asignación de fitos de liñas de contrato de proxecto coa versión dúas do modelo.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

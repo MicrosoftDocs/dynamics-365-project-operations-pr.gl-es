@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3d838bde8a3d7cbc15e06fb3289924468c284a8a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998949"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992429"
 ---
 # <a name="create-custom-fields-and-entities"></a>Crear campos e entidades personalizados 
 
@@ -43,7 +43,7 @@ Unha dimensión de prezos pode ser un conxunto de opcións ou unha entidade. Amb
 2. No explorador de solucións, no panel de navegación da esquerda, seleccione **Entidades**.
 3. Prema en **Nova** para crear unha nova entidade chamada **Título estándar**. Introduza a información necesaria restante e, a seguir, prema **Gardar**.
 
-> ![Definición de entidade de título estándar](media/Standard-Title-entity-definition.png)
+> ![Definición de entidade de título estándar.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Dimensións baseadas en conxunto de opcións 
@@ -54,9 +54,9 @@ Pode crear dúas dimensións baseadas en conxunto de opcións. Utilice **Localiz
 2. No explorador de solucións, no panel de navegación da esquerda, seleccione **Conxuntos de opcións**. 
 3. Prema **Novo** para crear un novo conxunto de opcións, introduza a información restante necesaria e logo prema **Gardar**.
 
-> ![Dimensión de prezos baseada en conxunto de opcións chamada Localización do traballo do recurso ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Dimensión de prezos baseada en conxunto de opcións chamada Localización do traballo do recurso.](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Dimensión de prezos baseada en conxunto de opcións chamada Horas de traballo do recurso ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Dimensión de prezos baseada en conxunto de opcións chamada Horas de traballo do recurso.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Crear datos para dimensións baseadas en entidade
@@ -68,7 +68,7 @@ Pode crear datos para as dimensións baseadas na entidade manualmente ou mediant
 3. Peche o formulario. 
 4. Repita os pasos 1 - 3 para crear outro título estándar para "Enxeñeiro principal de sistemas".
 
-> ![Datos de exemplo para a entidade Título estándar ](media/ST-data.png)
+> ![Datos de exemplo para a entidade Título estándar.](media/ST-data.png)
 
 
 

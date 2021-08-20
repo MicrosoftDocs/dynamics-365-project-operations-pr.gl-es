@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0eebafe8b4ce54c6ad6ca64200caea8fa414f6cf
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3ca48b8d5d55b1b2178f9bd84e19d9599f057aa296a728cca57577c18fdaf307
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007544"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985769"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Engadir campos personalizados a configuración de prezos e entidades transaccionais 
 
@@ -47,7 +47,7 @@ Cando unha dimensión de prezos personalizada estea baseada en conxuntos de opci
 > [!IMPORTANT]
 > Cando engada un campo a máis dunha entidade, use o mesmo nome de campo en todas as entidades. 
 
-> ![Engadir a localización de traballo de recurso ao prezo de rol](media/RWL-Field.png)
+> ![Engadir a localización de traballo de recurso ao prezo de rol.](media/RWL-Field.png)
 
 Nas fases de vendas e estimación dun proxecto, as estimacións do esforzo laboral que se precisa para completar o traballo **Local** e **No sitio**, en **Horario normal** e **Horas extraordinarias** úsanse para estimar o valor da oferta/proxecto. Os campos **Localización de traballo de recurso** e **Horas de traballo de recurso** engadiranse ás entidades de estimación, **Detalle da liña de oferta**, **Detalle da liña de contrato**, **Tarefa de proxecto**, **Membro do equipo de proxecto** e **Liña de estimación**.
 
@@ -59,7 +59,7 @@ Nas fases de vendas e estimación dun proxecto, as estimacións do esforzo labor
 6. Repita os pasos 1 - 5 para engadir este campo ás entidades **Detalle de liña de contrato de proxecto**, **Tarefa do proxecto**, **Membro do equipo de proxecto** e **Liña de estimación**.
 7. Repita os pasos 1-6 para o conxunto de opcións **Horas de traballo de recurso**. 
 
-> ![Engadir a localización de traballo de recurso á liña de estimación](media/RWL-Default-Value.png)
+> ![Engadir a localización de traballo de recurso á liña de estimación.](media/RWL-Default-Value.png)
 
 
 Para a entrega e facturación, o traballo finalizado debe ter un prezo preciso para seleccionar se se realizou **Local** ou **No sitio** e se se completou durante o **Horario normal** ou en **Horas extra** nos datos reais do proxecto. Os campos **Localización de traballo de recurso** e **Horas de traballo de recurso** deben engadirse ás entidades **Entrada de tempo**, **Dato real**, **Detalle de liña de factura**, e **Liña de diario**.
@@ -72,7 +72,7 @@ Para a entrega e facturación, o traballo finalizado debe ter un prezo preciso p
 6. Repita os pasos 1 - 5 para engadir este campo ás entidades **Dato real**, **Detalle de liña de factura**, e **Liña de diario**.
 7. Repita os pasos 1-6 para o conxunto de opcións **Horas de traballo de recurso**. 
 
-> ![Engadir a localización de traballo de recurso á entrada de tempo](media/RWL-time-entry.png)
+> ![Engadir a localización de traballo de recurso á entrada de tempo.](media/RWL-time-entry.png)
 
 Isto completa os cambios de esquema necesarios para as dimensións personalizadas baseadas en conxunto de opcións.
 
@@ -85,7 +85,7 @@ Cando a dimensión de prezos personalizada é unha entidade, engadirá relación
 3. Expanda a entidade **Título estándar** e seleccione **Relacións 1:N**.
 4. Prema **Nova** para crear unha nova relación 1:N chamada **Título estándar para recurso reservable**. Introduza a información necesaria e, a seguir, prema **Gardar**.
 
-> ![Engadir título estándar como campo de referencia ao recurso reservable](media/ST-BR.png)
+> ![Engadir título estándar como campo de referencia ao recurso reservable.](media/ST-BR.png)
 
 Tamén debe engadirse o título estándar ás entidades de prezos de Project Service, **Prezo de rol** e **Sobreprezo de rol**. Tamén se completa usando relacións 1:N entre as entidades **Título estándar** e **Prezo de rol** e as entidades **Título estándar** e **Sobreprezo de rol**.
 
@@ -104,13 +104,13 @@ Nas fases de vendas e estimación do proxecto, para o prezo da oferta/proxecto, 
 
 5. Repita os pasos 1-5 para crear relacións 1:N desde **Título estándar** ata **Detalle de liña de oferta**, **Detalle da liña de contrato de proxecto**, **Tarefa do proxecto**, **Membro do equipo de proxecto** e **Liña de estimación**.
 
-> ![Engadir título estándar como campo de referencia á liña de estimación](media/ST-Estimate-Line.png)
+> ![Engadir título estándar como campo de referencia á liña de estimación.](media/ST-Estimate-Line.png)
 
 Nas fases de Entrega e Facturación, o traballo completado por cada título estándar deberá ter un prezo exacto nos datos reais do proxecto. Isto significa que ten que haber relacións 1:N desde **Título estándar** ata **Entrada de tempo**, **Dato real**, **Detalle de liña de factura** e **Entidades de liña de diario**.
 
 6. Repita os pasos 1 - 6 para crear relacións 1:N desde **Título estándar** ata **Entrada de tempo**, **Dato real**, **Detalle de liña de factura** e **Entidades de liña de diario**.
 
-> ![Engadir título estándar como campo de referencia á entrada de tempo](media/ST-Mapping.png)
+> ![Engadir título estándar como campo de referencia á entrada de tempo.](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Configurar o valor de dimensión predefinido utilizando as funcionalidades de asignacións da plataforma
 Para a entrada de tempo, sería útil facer o sistema utilizase o título estándar por defecto na entrada de tempo do recurso reservable que está a rexistrar a entrada de tempo. Siga os seguintes pasos para engadir asignacións de campo na relación 1:N desde **Recurso reservable** ata **Entrada de tempo**.
@@ -120,7 +120,7 @@ Para a entrada de tempo, sería útil facer o sistema utilizase o título están
 3. Prema dás veces en **Recurso reservable a entrada de tempo**. Na páxina **Relación**, prema **Usar asignacións de campo**. 
 4. Prema en **Novo** para crear unha nova asignación de campo entre o campo **Título estándar** na entidade **Recurso reservable** ao campo de referencia **Título estándar** na entidade **Entrada de tempo**. 
 
-> ![Configuración de asignacións de campo para permitir o uso do título estándar por defecto desde o recurso reservable ata a entrada de tempo](media/ST-Mapping2.png)
+> ![Configuración de asignacións de campo para permitir o uso do título estándar por defecto desde o recurso reservable ata a entrada de tempo.](media/ST-Mapping2.png)
 
 
 Isto completa os cambios de esquema necesarios para as dimensións personalizadas baseadas en entidades.

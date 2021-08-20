@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999984"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986579"
 ---
 # <a name="expense-management-integration"></a>Integración de xestión de gastos
 
@@ -28,7 +28,7 @@ Nun despregamento de gastos completo, créanse e mantense categorías de gastos 
 2. En Finance, vaia a **Xestión de gastos** > **Configuración** > **Categorías compartidas** e seleccione unha categoría compartida cunha clase de transacción **Gasto**. Configure o parámetro **Pódese usar en Gasto** como **Verdadeiro** e defina o tipo de gasto que se vai usar.
 3. Usando este rexistro de categoría compartida, cree unha nova categoría de gasto indo a **Xestión de gastos** > **Configurar** > **Categorías de gasto** e seleccionando **Nova**. Cando se garda o rexistro, a escrita dual usa o mapa da táboa **Entidade de exportación de categorías de gasto do proxecto de integración de Project Operations (msdyn\_expensecategories)** para sincronizar este rexistro con Dataverse.
 
-  ![Integración de categorías de gasto](./media/DW6ExpenseCategories.png)
+  ![Integración de categorías de gasto.](./media/DW6ExpenseCategories.png)
 
 As categorías de gasto nas aplicacións de Finance and Operations son específicas da empresa ou entidade legal. Hai rexistros separados e específicos da entidade legal correspondente en Dataverse. Cando un xestor de proxectos estima gastos, non pode seleccionar as categorías de gasto creadas para un proxecto propiedade dunha empresa diferente da empresa propietaria do proxecto no que están a traballar. 
 
@@ -40,7 +40,7 @@ Os informes de gastos créanse e apróbanse nas aplicacións de Finance and Oper
   - A escrita dual sincronízase con Dataverse usando o mapa da táboa **Entidade de exportación de gastos do proxecto de integración de Project Operations (msdyn\_expenses)**.
   - O libro auxiliar fiscal, o libro auxiliar do fornecedor e outras contabilizacións financeiras rexístranse segundo o caso no momento da contabilización do informe de gastos.
 
-  ![Integración dos informes de gastos](./media/DW6ExpenseReports.png)
+  ![Integración dos informes de gastos.](./media/DW6ExpenseReports.png)
 
 Cando se escribe un rexistro na entidade **Gasto** en Dataverse, o sistema activa o proceso de aprobación automatizada do rexistro. Se é necesario, pódese revisar o estado do proceso de aprobación automatizado en Dataverse indo a **Configuración avanzada** > **Sistema** > **Traballos do sistema**. Despois de completar a aprobación, créanse rexistros de clases de transaccións de gastos na entidade **Datos reais**.
 

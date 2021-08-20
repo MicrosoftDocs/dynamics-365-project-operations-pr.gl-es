@@ -6,12 +6,12 @@ ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6daa86d453ec5022cdd75dff0394c8818292406c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000614"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986669"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Engadir unha subscrición a Azure a un proxecto de LCS
 
@@ -23,35 +23,35 @@ Os ambientes aloxados na nube deben despregarse mediante unha subscrición a Azu
 
 1. No seu proxecto LCS, na sección **Ambientes**, seleccione **Configuración de Microsoft Azure**.
 
-![Configuración de Microsoft Azure](./media/1MicrosoftAzureSettings.png)
+![Configuración de Microsoft Azure.](./media/1MicrosoftAzureSettings.png)
 
 2. Na páxina **Configuración do proxecto**, no separador **Conectores de Azure**, seleccione **Autorizar**. Isto permite despregar ambientes neste proxecto.
 
-![Conectores de Azure](./media/2AzureConnectors.png)
+![Conectores de Azure.](./media/2AzureConnectors.png)
 
 3. Seleccione **Autorizar** de novo para proporcionar o consentimento do administrador.
 
-![Outorgar o consentimento de administrador](./media/3GrantAdminConsent.png)
+![Outorgar o consentimento de administrador.](./media/3GrantAdminConsent.png)
 
 4. Acepte a solicitude de permisos.
 
-![Aceptar a solicitude de permisos](./media/4AcceptPermissionRequest.png)
+![Aceptar a solicitude de permisos.](./media/4AcceptPermissionRequest.png)
 
 A autorización xa está completa. 
 
-![Autorización realizada correctamente](./media/5AuthorizationComplete.png)
+![Autorización realizada correctamente.](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Proporcionar acceso a Dynamics Deployment Services para a súa subscrición a Azure
 
 1. Vaia a [Facturación de Microsoft Azure](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) e seleccione a súa subscrición. Dynamics Deployment Services precisa acceder a esta subscrición para poder despregar ambientes.
 
-![Detalles da subscrición a Azure](./media/6AzureSubscription.png)
+![Detalles da subscrición de Azure.](./media/6AzureSubscription.png)
 
 2. Seleccione **Control de acceso (IAM)** no panel de navegación e logo seleccione **Engadir atribución de roles**.
 3. No control deslizante do lado dereito, seleccione **Rol de colaborador** e na lista que aparece busque e seleccione **Dynamics Deployment Services**. 
 4. Seleccione **Gardar**.
 
-![Acceso á subscrición](./media/7SubscriptionAccess.png)
+![Acceso á subscrición.](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Engadir un conector de subscrición a un proxecto LCS
 

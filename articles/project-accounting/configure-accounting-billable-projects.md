@@ -6,12 +6,12 @@ ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 413c9821f251fa37f5cfa082281be662d6be670a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012584"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991033"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Configurar a contabilidade para proxectos facturables
 
@@ -101,23 +101,23 @@ Complete os seguintes pasos para crear un novo perfil de custo e ingresos do pro
 
 Tempo e materiais - sen WIP
 
-![Perfil de custos e ingresos: tempo e materiais - sen WIP](media/time-material-no-wip.png)
+![Perfil de custos e ingresos: tempo e materiais - sen WIP.](media/time-material-no-wip.png)
 
 Tempo e materiais – WIP (ingresos)
 
-![Perfil de custos e ingresos: tempo e materiais - WIP](media/time-material-with-wip.png)
+![Perfil de custos e ingresos: tempo e materiais - WIP.](media/time-material-with-wip.png)
 
 Prezo fixo - Sen WIP
 
-![Perfil de custos e ingresos: prezo fixo - sen WIP](media/fixed-price-no-wip.png)
+![Perfil de custos e ingresos: prezo fixo - sen WIP.](media/fixed-price-no-wip.png)
 
 Prezo fixo - contrato finalizado
 
-![Perfil de custos e ingresos: prezo fixo - contrato finalizado](media/fixed-price-completed-contract.png)
+![Perfil de custos e ingresos: prezo fixo - contrato finalizado.](media/fixed-price-completed-contract.png)
 
 Prezo fixo - porcentaxe de finalización
 
-![Perfil de custos e ingresos: prezo fixo - porcentaxe de finalización](media/fixed-price-completed-percentage.png)
+![Perfil de custos e ingresos: prezo fixo - porcentaxe de finalización.](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>Exemplos de eventos de contabilidade para perfís de custos e ingresos do proxecto.

@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: f087e15780272fd376a14b42ed9e00420f86a61f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009929"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989549"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Área de traballo móbil de entrada de tempo do proxecto
 
@@ -94,7 +94,7 @@ Descargar e instalar a aplicación móbil Finance and Operations:
 3.  A primeira vez que inicie sesión, solicítaselle o seu nome de usuario e contrasinal. Introduza as súas credenciais.
 4.  Despois de iniciar sesión, móstranse as áreas de traballo dispoñibles para a súa empresa. Teña en conta que se o administrador do sistema publica unha nova área de traballo máis tarde, terá que actualizar a lista de áreas de traballo móbiles.
 
-[![Tire para actualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Tire para actualizar.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Introducir o tempo empregando a área de traballo móbil de entrada de tempo do proxecto
 1.  No seu dispositivo móbil, seleccione a área de traballo **Entrada de tempo do proxecto**.

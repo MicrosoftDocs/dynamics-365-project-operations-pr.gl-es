@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 37c7b15daa75cc3ba53ff6a3bcc0ab54717aa62d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008804"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002419"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Traballo co modelo de datos de Project Service Automation
 
@@ -53,7 +53,7 @@ PSA tamén engade novas entidades relacionadas coas ofertas ao modelo de datos d
 
 Outras entidades que PSA engade ás ofertas son **Lista de prezos do proxecto da liña de oferta**, **Categoría de recursos de liña de oferta** e **Categoría de transacción de liña de oferta**.
 
-![Diagrama que mostra a oferta, a liña de oferta e as relacións do proxecto](media/PS-Reporting-image2.png "Diagrama que mostra a oferta, a liña de oferta e as relacións do proxecto")
+![Diagrama que mostra a oferta, a liña de oferta e as relacións do proxecto.](media/PS-Reporting-image2.png "Diagrama que mostra a oferta, a liña de oferta e as relacións do proxecto")
 
 ## <a name="reporting-on-project-contracts"></a>Informes sobre contratos do proxecto
 
@@ -69,7 +69,7 @@ PSA tamén engade novas entidades deseñadas para contratos de proxecto. Aquí v
 
 Outras entidades que PSA engade aos contratos son **Lista de prezos do proxecto da liña de contrato do proxecto**, **Categoría de recursos de liña de contrato do proxecto** e **Categoría de transacción de liña de contrato do proxecto**.
 
-![Diagrama que mostra o pedido, a liña de pedido e as relacións do proxecto](media/PS-Reporting-image3.png "Diagrama que mostra o pedido, a liña de pedido e as relacións do proxecto")
+![Diagrama que mostra o pedido, a liña de pedido e as relacións do proxecto.](media/PS-Reporting-image3.png "Diagrama que mostra o pedido, a liña de pedido e as relacións do proxecto")
 
 ## <a name="reporting-on-projects"></a>Informes sobre proxectos
 
@@ -81,7 +81,7 @@ A entidade **Proxectos** e as entidades relacionadas son exclusivas de PSA. **Pr
 - **Requisito de recursos** - Esta entidade contén os requisitos para todos os membros do equipo de recursos xenéricos.
 - **Estimación** e **Liña de estimación** - Estas entidades teñen unha relación de cabeceira/liña e conteñen estimacións de gastos para o proxecto. As estimacións das tarefas almacénanse na entidade **Estimación de recursos**.
 
-![Diagrama que mostra o requisito de recursos e as relacións do proxecto](media/PS-Reporting-image4.png "Diagrama que mostra o requisito de recursos e as relacións do proxecto")
+![Diagrama que mostra o requisito de recursos e as relacións do proxecto.](media/PS-Reporting-image4.png "Diagrama que mostra o requisito de recursos e as relacións do proxecto")
 
 ## <a name="reporting-on-resources"></a>Informes sobre recursos
 
@@ -92,7 +92,7 @@ Os recursos do proxecto utilizan as entidades **Recurso reservable** de Universa
 - **Categoría de recurso reservable** - Esta entidade representa o rol do recurso reservable.
 - **Reservas de recursos reservables** - Esta entidade representa o tempo que está reservado nos proxectos para o recurso. Cada reserva ten unha entidade de cabeceira e entidades de liña, e cada liña ten un estado que representa o estado da reserva.
 
-![Diagrama que mostra as relacións de características de recursos reservables](media/PS-Reporting-image5.png "Diagrama que mostra as relacións de características de recursos reservables")
+![Diagrama que mostra as relacións de características de recursos reservables.](media/PS-Reporting-image5.png "Diagrama que mostra as relacións de características de recursos reservables")
 
 ## <a name="reporting-on-actual-transactions"></a>Informes sobre transaccións reais
 
@@ -120,7 +120,7 @@ Cando estea a traballar coa entidade **Dato real**, é importante que entenda qu
 
 A entidade **Orixe da transacción** rexistra a orixe do rexistro **Dato real** e a entidade **Conexión de transaccións** rexistra os rexistros relacionados para o rexistro **Dato real**. Adicionalmente, o rexistro **Dato real** contén referencias ao proxecto, contrato de proxecto (pedido), recurso reservable e cliente.
 
-![Diagrama que mostra a conexión da transacción, a orixe e as relacións reais](media/PS-Reporting-image6.png "Diagrama que mostra a conexión da transacción, a orixe e as relacións reais")
+![Diagrama que mostra a conexión da transacción, a orixe e as relacións reais.](media/PS-Reporting-image6.png "Diagrama que mostra a conexión da transacción, a orixe e as relacións reais")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

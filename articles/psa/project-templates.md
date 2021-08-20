@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bedcbc76d932a81e0c78bb58ce6a161446a26dde
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998274"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002509"
 ---
 # <a name="project-templates"></a>Modelos de proxecto 
 
@@ -47,7 +47,7 @@ Hai varios xeitos de crear un proxecto a partir dun modelo de proxecto:
 
 - Ao crear un proxecto desde unha oferta, pode seleccionar un modelo de proxecto na caixa de diálogo **Creación rápida: Proxecto**.
 
-> ![Caixa de diálogo Creación rápida: Proxecto](media/project-11.png)
+> ![Caixa de diálogo Creación rápida: Proxecto.](media/project-11.png)
 
 - Cando cree un proxecto seleccionando **Novo proxecto**, a páxina **Proxecto** aparece antes de gardar o rexistro. No campo **Escoller un modelo**, seleccione un dos modelos de proxecto predefinidos na organización.
 - Use **Crear proxecto a partir dun modelo** na páxina **Entidade de modelo**.

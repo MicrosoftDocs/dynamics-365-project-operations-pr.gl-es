@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009164"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002554"
 ---
 # <a name="project-costs-and-revenue"></a>Custos e ingresos de proxecto
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009164"
 
 As estimacións de proxecto fornecen a visualización financeira para o traballo estimado e programado na programación do proxecto. O separador **Estimacións** da páxina **Proxectos** mostra o impacto nos custos e ingresos do traballo que está a planificar. Tamén ofrece información sobre moitas dimensións predefinidas. 
 
-> ![Separador Estimacións](media/project-5.png)
+> ![Separador Estimacións.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Valores de custo e vendas do proxecto
 
@@ -66,13 +66,13 @@ Se o sistema non atopa un prezo para o rol, logo o prezo de vendas na liña de e
 
 O separador **Estimacións** ten unha vista de grade que amosa liñas de estimación. A grade inclúe columnas para a unidade, prezo total de custo e prezo total de vendas, como se mostra na seguinte ilustración. 
 
-> ![Vista de grade no separador Estimacións](media/project-6.png)
+> ![Vista de grade no separador Estimacións.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Visualización en fase de tempo das estimacións de proxecto
 
 A visualización de fase de tempo das estimacións do proxecto mostra os datos de estimación da vista de grade a través da liña de tempo, nunha escala de tempo que seleccione. Por defecto, os datos de estimación pivotan na dimensión **Rol**.
 
-> ![Visualización de fase de tempo para as estimacións de proxecto](media/project-7.png)
+> ![Visualización de fase de tempo para as estimacións de proxecto.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Asignación de esforzo estimado baseada no modo de tarefa
 

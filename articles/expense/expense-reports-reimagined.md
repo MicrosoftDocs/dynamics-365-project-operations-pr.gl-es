@@ -2,7 +2,7 @@
 title: Os informes de gastos reinventáronse
 description: Este tema explica a experiencia redeseñada e reinterpretada para a entrada do informe de gastos.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6251002"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997829"
 ---
 # <a name="expense-reports-reimagined"></a>Os informes de gastos reinventáronse
 
@@ -57,12 +57,13 @@ Para activar a nova experiencia, use a área de traballo **Xestión de funcional
 | Calculadora de taxa de cambio | Engádese unha calculadora de taxas de cambio que lle permite calcular a taxa de cambio das transaccións multimoeda. |
 | Gardar e engadir novas liñas de gasto | Os botóns **Gardar** e **Novo** están dispoñibles cando se introducen novos gastos para axudarlle a introducir rapidamente as liñas de gastos. |
 | Mellor visibilidade en liñas divididas e detalladas | As liñas detalladas e divididas engádense directamente á lista de gastos para aumentar a visibilidade e axudarlle a determinar facilmente se hai algún erro. |
-| Ver detalles da subcategoría en liñas detalladas | As liñas detalladas dun gasto principal amosan as etiquetas da subcategoría no informe de gastos, o que lle axuda a revisar os detalles granulares dunha ollada.|
+| Ver detalles da subcategoría en liñas detalladas | As liñas detalladas dun gasto principal amosan as etiquetas da subcategoría no informe de gastos. A itemización permítelle revisar os detalles granulares dunha ollada.|
 | Amosar recibos durante a itemización | Os recibos pódense mostrar durante a itemización. |
 | Selección de adianto en efectivo | Seleccione un ou máis adiantos en efectivo para realizar unha única transacción de gasto. |
 | Saldo de adiantos en efectivo | Revise o saldo de adiantos en efectivo en tempo real cando cree unha entrada de gasto fronte a adiantos en efectivo aprobados e pagados. |
 
 A versión inicial céntrase en situacións de entrada de gastos. Calquera situación de revisión ou aprobación do informe de gastos seguirá utilizando a páxina de entrada de gastos existente.
+
 
 As seguintes funcionalidades non son compatibles no redeseño da área de traballo de informes de gastos, pero están previstas para futuras versións: 
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: acdd228a9eb9d6c6c56f126ccca416613332a838
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013169"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985004"
 ---
 # <a name="submitting-a-resource-request"></a>Enviar unha solicitude de recurso
 
@@ -34,7 +34,7 @@ Pode enviar un requisito de recurso xerado como solicitude de recurso. A solicit
 1. En Project Service Automation (PSA), na páxina **Proxectos** prema no separador **Equipo** para ver unha lista de recursos reservables. 
 2. Seleccione o recurso xenérico que ten un requisito de recurso da lista e, a seguir, prema en **Enviar solicitude**.
 
-![Enviar unha solicitude de recurso](media/RM-how-to-18.png)
+![Enviar unha solicitude de recurso.](media/RM-how-to-18.png)
 
 O estado da solicitude de membro xenérico do equipo cambiará a **Enviado**.
 

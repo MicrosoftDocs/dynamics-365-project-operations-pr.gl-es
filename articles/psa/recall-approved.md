@@ -15,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71f75c1c516ca6e652baf311aa14e0c3fd4ba81e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998184"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998324"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Recuperar entradas de tempo ou gasto aprobadas previamente
 
@@ -98,13 +98,13 @@ Se se rexeita a solicitude de recuperación, non hai impacto financeiro no proxe
 
 A seguinte ilustración mostra os cambios que se producen para as entradas de tempo aprobadas cando se recuperan.
 
-![Transicións de estado de entradas de tempo](media/TimeEntryStateTransitions.png)
+![Transicións de estado de entradas de tempo.](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>Cambios nos rexistros de entrada de gasto
 
 A seguinte ilustración mostra os cambios que se producen para as entradas de gasto aprobadas cando se recuperan.
 
-![Transicións de estado de entradas de gasto](media/ExpenseEntryStateTransitions.png)
+![Transicións de estado de entradas de gasto.](media/ExpenseEntryStateTransitions.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

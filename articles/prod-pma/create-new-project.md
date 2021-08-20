@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006239"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985949"
 ---
 # <a name="create-a-new-project"></a>Crear un novo proxecto
 
@@ -51,7 +51,7 @@ Tamén pode atribuír categorías a un recurso segundo o precise. O tipo de cate
 
 Un xestor de proxectos pode usar a funcionalidade de dotación de recursos para crear os roles necesarios para o proxecto. Pódense usar roles se aínda se descoñecen os recursos confirmados cando se reservan os recursos. Os roles pódense reservar temporalmente como recursos planificados, para que poida continuar as fases de planificación do proxecto.
 
-[![Exemplo de rol](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Exemplo de rol.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
 **Escenario:** Contratouse a Contoso para completar un proxecto de tempo e material que ten unha carta de proxecto aprobada. O xestor de proxectos subalterno aínda está completando o alcance do proxecto. O xestor de recursos está a identificar actualmente recursos específicos que se reservarán para traballar no novo proxecto. Debido á natureza crítica do proxecto, o patrocinador do proxecto solicitou ao xestor de proxectos principal como un dos roles. O xestor de recursos debe adquirir o novo recurso e definir o rol no sistema no caso de que o xestor de proxectos subalterno precise a información do recurso durante a planificación do proxecto.
 

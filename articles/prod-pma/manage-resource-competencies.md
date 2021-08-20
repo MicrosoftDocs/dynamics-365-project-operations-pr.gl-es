@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21721a9b0af820df10c4fa965d000e85098e0dea
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999039"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007414"
 ---
 # <a name="manage-resource-competencies"></a>Xestionar competencias de recursos
 
@@ -29,7 +29,7 @@ ms.locfileid: "5999039"
 
 As competencias de recursos son unha parte esencial da xestión de recursos. As competencias pódense usar como base para determinar os recursos que teñan o equilibrio de habilidades, educación, certificación e experiencia no proxecto correctos. Debería configurar esta información para cada recurso e actualizala regularmente. Deste xeito, pode maximizar as capacidades cando se combinan competencias específicas de recursos durante a atribución de recursos do proxecto.
 
-[![Exemplos de habilidades, certificacións, educación e experiencia no proxecto](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Exemplos de habilidades, certificacións, educación e experiencia no proxecto.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 Os seguintes procedementos explican como configurar algunhas das competencias para un recurso.
 

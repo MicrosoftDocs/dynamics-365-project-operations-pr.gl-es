@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009614"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005074"
 ---
 # <a name="organizational-units"></a>Unidades organizativas 
 
@@ -53,7 +53,7 @@ A unidade organizativa desempeña dous roles en PSA:
 - **Unidade contratante** - A unidade organizativa que representa ao grupo ou división da empresa que é o principal responsable de gañar a venda e xestionar a entrega de traballos e servizos ao cliente. A unidade contratante identifícase no campo **Unidade contratante** na sección de cabeceira das páxinas **Oportunidade**, **Oferta**, **Contrato do proxecto** e **Proxecto**.
 - **Unidade de recursos** - A unidade organizativa á que pertence ou se atribúe un recurso. Esta unidade organizativa pode fornecer os seus recursos para algúns roles en declaracións de traballo (SOW) e proxectos que son propiedade da unidade contratante.
 
-> ![Unidades contratantes e unidades de recursos](media/advanced-1.png)
+> ![Unidades contratantes e unidades de recursos.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Preguntas frecuentes sobre as unidades organizativas
 

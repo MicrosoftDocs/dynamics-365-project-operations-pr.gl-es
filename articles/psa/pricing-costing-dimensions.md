@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368879"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998459"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Páxina de inicio de dimensións de prezos e custos
 
@@ -41,7 +41,7 @@ Dada a natureza típica destes atributos do traballo e das persoas necesarias pa
 
 PSA envíase cun conxunto predefinido de dimensións de prezos. Podes velas indo a **Project Service** > **Parámetros**. No rexistro de parámetros, no separador **Dimensións de prezos baseados na cantidade**, verifique que o rol, **msdyn_resourcecategory**, e a unidade organizativa de recursos, **msdyn_organizationalunit** teñan os campos **Aplicable a vendas** e **Aplicable a custo** establecidos en **Si**. Isto permitirá establecer o prezo e o custo para cada combinación de roles e unidades organizativas.
 
-![Captura de pantalla dos parámetros de Project Service con "Aplicable a vendas" resaltado](media/PS-OOB-parameters.png)
+![Captura de pantalla dos parámetros de Project Service con "Aplicable a vendas" resaltado.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Se estivo a usar os campos listos para usar de rol e unidade organizativa como dimensións de prezos antes da versión 3 de PSA, non haberá ningún cambio observable. Pode seguir usando o Project Service como sempre. 
