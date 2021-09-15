@@ -4,6 +4,8 @@
   items:
     - name: Determinar o seu tipo de despregamento
       href: environment/determine-deployment-type.md
+    - name: Rexistro para as probas de Project Operations
+      href: environment/admin-trials.md
     - name: Actualizacións de Project Operations
       href: whats-new/project-operations-updates.md
 - name: Project Operations para situacións baseadas en recursos/sen fornecemento
@@ -54,6 +56,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Novidades
       items:
+        - name: Agosto de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: Xullo de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: Xuño de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
@@ -418,6 +422,8 @@
       items:
         - name: Visión xeral das aprobacións
           href: approvals/approvals-overview.md
+        - name: Conxuntos de aprobacións
+          href: approvals/approval-sets.md
         - name: Notas do programador
           items:
             - name: Notas do programador para as aprobacións
@@ -520,6 +526,10 @@
           href: environment/security-model.md
     - name: Novidades
       items:
+        - name: Novidades de acceso anticipado da onda 2 de 2021 - despregamento lite
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Novidades de agosto de 2021 - despregamento lite
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Novidades de xullo de 2021 - despregamento lite
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: Novidades de xuño de 2021 - despregamento lite
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: Xestión de subcontratos en Project Operations
       items:
-        - name: Visión xeral da xestión de subcontratos
+        - name: Xestión de subcontratos en Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Acceso anticipado a subcontratación en outubro de 2021
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Conceptos clave na subcontratación
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Xestión de fornecedores e listas de prezos do proxecto
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Os subcontratistas como recursos reservables
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Detalles da cabeceira para subcontratos
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Liñas de subcontrato para tempo
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Liñas de subcontrato para gasto
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Liñas de subcontrato para produtos
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Recursos de liña de subcontratista
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Fitos da liña de subcontrato
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Tempo
       items:
         - name: Visión xeral do tempo
@@ -868,6 +892,8 @@
       items:
         - name: Visión xeral das aprobacións
           href: approvals/approvals-overview.md
+        - name: Conxuntos de aprobacións
+          href: approvals/approval-sets.md
         - name: Notas do programador
           items:
             - name: Notas do programador para as aprobacións
@@ -1060,6 +1086,8 @@
       items:
         - name: Programación de versións de actualización para Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novidades ou cambios na versión 35 de actualización, V3'
+          href: psa/whats-new-ur-35.md
         - name: 'Novidades ou cambios na versión 34 de actualización, V3'
           href: psa/whats-new-ur-34.md
         - name: 'Novidades ou cambios na versión 33 de actualización, V3'
@@ -1306,7 +1334,7 @@
               href: psa/time-entry-calendar.md
             - name: Personalizar entrada de tempo semanal
               href: psa/time-entry-extensibility-v3.md
-            - name: Conxuntos de aprobacións
+            - name: Conxuntos de aprobacións en Project Service Automation
               href: psa/approval-set.md
     - name: Preguntas máis frecuentes e resolución de problemas (3.x)
       items:

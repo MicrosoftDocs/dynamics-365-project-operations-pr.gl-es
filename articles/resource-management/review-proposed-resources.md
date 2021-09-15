@@ -2,7 +2,7 @@
 title: Revisar os recursos propostos
 description: Este tema fornece información sobre como propoñer recursos de proxecto.
 author: ruhercul
-ms.date: 11/05/2020
+ms.date: 08/18/2021
 ms.topic: article
 ms.prod: ''
 audience: Application User
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a9d3f7b9194b29859ee1479fea8158067e22e819e8f190ef1659e14b7c0cd6b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b3077f98052fcac9989a81b2fab12fa30d65d970
+ms.sourcegitcommit: ebcaec7806ee8aee1323ef532d5b7735d27edd04
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998009"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7403793"
 ---
 # <a name="review-proposed-resources"></a>Revisar os recursos propostos
 
@@ -28,37 +28,43 @@ _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fo
 
 Os xestores de recursos poden propoñer un recurso ao xestor de proxectos empregando unha solicitude de recursos.
 
-1. Na grade de solicitudes ou na propia solicitude, seleccione **Buscar recursos**.
-2. Na páxina **Asistente de programación**, seleccione o recurso e, a seguir, no panel **Crear reserva de recursos**, no campo **Estado da reserva**, seleccione **Reservar**.
+Para revisar os recursos propostos, siga estes pasos:
 
-Prodúcense as seguintes actualizacións de estado:
+1. Na grade **Solicitude** ou na propia solicitude, seleccione **Buscar recursos**.
+2. Na páxina **Asistente de programación**, seleccione o recurso e logo confirme que todas as horas propostas están incluídas na reserva proposta.
+3. No panel **Crear reserva de recursos**, configure o campo **Estado da reserva** en **Proposta** e, a seguir, seleccione **Reservar**.
 
-- Na páxina **Asistente de programación**, os indicadores de estado actualízanse para indicar que a reserva é unha proposta, non unha reserva dura.
-- Na solicitude do recurso, o estado cambia a **Necesita revisión**.
-- No separador **Equipo** do proxecto, o valor **Estado da solicitude** do membro xenérico do equipo, o valor cambiase a **Necesita revisión**.
+    > [!NOTE]
+    > Configurar o **Estado da reserva** en **Proposta** non reserva o recurso e non substitúe o recurso xenérico polo membro do equipo nomeado.
+
+    Prodúcense as seguintes actualizacións de estado:
+
+    - Na páxina **Asistente de programación**, os indicadores de estado actualízanse para indicar que a reserva é unha proposta, non unha reserva dura.
+    - Na solicitude do recurso, o estado cambia a **Necesita revisión**.
+    - No separador **Equipo** do proxecto, o valor **Estado da solicitude** do membro xenérico do equipo, o valor cambiase a **Necesita revisión**.
 
 O responsable do proxecto pode aceptar ou rexeitar a proposta.
 
 Cando os xestores de recursos procesan solicitudes de recursos, poden empregar calquera dos seguintes enfoques:
 
 - Propoñer múltiples recursos para satisfacer a demanda se non se dispón dun recurso único para cumprir as horas requiridas. As horas propostas divídense entre varios recursos que poden satisfacer as horas requiridas. Neste escenario, as horas non se poden solapar.
-- Propoñer menos recursos dos necesarios. Neste escenario, a capacidade do recurso proposta é inferior ás horas requiridas que o solicitante especificou. Polo tanto, cando o solicitante acepta os recursos propostos, créase un requisito de recursos non cumpridos para capturar a demanda restante.
+- Propoñer menos recursos dos necesarios. Neste escenario, a capacidade do recurso proposta é inferior ás horas requiridas que o solicitante especificou. Cando o solicitante acepta os recursos propostos, créase un requisito de recursos non cumpridos para capturar a demanda restante.
 - Reserve múltiples recursos para satisfacer a demanda se non dispón dun recurso único para rematar o traballo.
 - Reserve menos recursos dos necesarios. Neste escenario, as horas reservadas son menos que as horas requiridas. O sistema guíalle para que propoña recursos en lugar de reservas para que o solicitante poida verificar e rastrexar da demanda restante.
 
 ## <a name="resource-availability"></a>Dispoñibilidade de recursos
 
-É fundamental que os xestores de recursos poidan ver a dispoñibilidade de recursos e actualizar as reservas. Nalgúns casos, non hai unha demanda formal (solicitude de recursos), pero un xestor de recursos debe responder a unha demanda non planificada que chega por canles como un correo electrónico, chamada telefónica ou mensaxe instantánea. Os xestores de recursos usan o panel de programación para actualizar recursos e reservas.
+Os xestores de recursos deben poder ver a dispoñibilidade de recursos e actualizar as reservas. Nalgúns casos, non hai demanda formal (solicitude de recursos). Non obstante, un xestor de recursos debe responder a unha demanda non planificada que chega a través doutras canles como correos electrónicos, chamadas telefónicas ou mensaxes instantáneas. Os xestores de recursos usan o **Panel de programación** para actualizar recursos e reservas.
 
 As horas laborables do recurso serven como base para calcular a dispoñibilidade dun recurso. As reservas de recursos consumen a capacidade dos recursos.
 
-O panel de programación usa cores e sombreados para amosar reservas, dispoñibilidade e saturacións, e tamén o estado das reservas. Un axuste da configuración do panel de programación permítelle mostrar unha lenda.
+O **Panel de programación** usa cores e sombreados para amosar reservas, dispoñibilidade e saturacións, e tamén o estado das reservas. Un axuste no **Panel de programación** permite amosar unha lenda.
 
-Se aparece unha frecha apuntando á dereita xunto a un recurso reservable individual no panel de programación, pódese ampliar o recurso para mostrar detalles do traballo no que está reservado o recurso.
+Se aparece unha frecha apuntando á dereita xunto a un recurso reservable individual no **Panel de programación**, pódese ampliar o recurso para mostrar detalles do traballo no que está reservado o recurso.
 
 Debido a que Dynamics 365 Project Operations usa o motor de Universal Resource Scheduling, se tamén ten Dynamics 365 Field Service instalado, pode ver os detalles das reservas de recursos para proxectos, pedidos de traballo e calquera outra entidade á que estendeu a programación.
 
-Para ver máis detalles sobre un recurso individual, prema co botón dereito sobre el para abrir a tarxeta do recurso.
+Para ver detalles adicionais sobre un recurso individual, prema co botón dereito sobre el para abrir a tarxeta do recurso.
 
 
 

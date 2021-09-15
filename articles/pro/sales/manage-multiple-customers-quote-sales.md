@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c9b3c1a1b958de0fc5d58199b8229ea5b3b221d01efe6602eecffdd100f13cae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001654"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440775"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Xestionar varios clientes en ofertas de proxecto - lite
 
@@ -37,7 +37,7 @@ Pódese crear, actualizar ou eliminar un cliente de oferta desde o separador **C
 
 | **Campo** | **Localización** | **Descrición** | **Impacto descendente** |
 | --- | --- | --- | --- |
-| Conta | Grade editable no separador **Clientes de oferta** e os formularios **Principal** e **Creación rápida** para un cliente da oferta. | Indica todas as contas activas. Este campo bloquéase despois de que se crea o rexistro. Se quere actualizalo, elimine o rexistro e créeo de novo. Se rexistrou algún dato real ou se o rexistro do cliente da oferta é un cliente principal, poderá eliminar o rexistro. | Os clientes da oferta cópianse como clientes de liña de oferta cando se crea unha liña de oferta. Os clientes da oferta tamén se copian aos clientes do contrato do proxecto cando se gaña unha oferta. |
+| Conta | Grade editable no separador **Clientes de oferta** e os formularios **Principal** e **Creación rápida** para un cliente da oferta. | Indica todas as contas activas. Este campo bloquéase despois de que se crea o rexistro. Se quere actualizalo, elimine o rexistro e créeo de novo. Se rexistrou algún dato real ou se o rexistro do cliente da oferta é un cliente principal, non se lle permitirá eliminar o rexistro. | Os clientes da oferta cópianse como clientes de liña de oferta cando se crea unha liña de oferta. Os clientes da oferta tamén se copian aos clientes do contrato do proxecto cando se gaña unha oferta. |
 | Porcentaxe de división de facturación | Grade editable no separador **Clientes de oferta** e os formularios **Principal** e **Creación rápida** para un cliente da oferta. | Representa a porcentaxe de cada transacción de vendas non facturada que se atribuirá a este cliente da oferta. | Copiado ás novas liñas de oferta e aos clientes de contrato de proxecto. |
 | Facturar ao nome do contacto | Grade editable no separador **Clientes de oferta** e os formularios **Principal** e **Creación rápida** para un cliente da oferta. | Este é un campo de texto e debe usarse para identificar a persoa de contacto da factura deste cliente. Estas son por defecto as do rexistro da conta relacionada | Copiouse aos clientes de contrato de proxecto cando se gañou unha oferta e á súa vez ao campo Facturar ao nome do contacto na factura que se xera para este cliente. |
 | Facturar a nome | Grade editable no separador **Clientes de oferta** e os formularios **Principal** e **Creación rápida** para un cliente da oferta. | Este campo de texto debe usarse para identificar a persoa de contacto da factura deste cliente. | Copiouse aos clientes de contrato de proxecto cando se gaña unha oferta e á súa vez ao campo **Facturar ao nome do contrato** na factura que se xera para este cliente. |

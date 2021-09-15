@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 75ee31e67018fe2a7655d8a8f11e40b433a9a5db6f8f2addac27844f18fffe8d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007864"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323414"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Rexístrese nas subscricións de previsualización de Project Operations para situacións de recursos/sen fornecemento
 
@@ -23,7 +23,7 @@ Este tema explica como subscribirse á oferta de proba e despregar o ambiente de
 
 ## <a name="prerequisites"></a>Requisitos previos
 - O usuario que desprega a vprevisualización debe ter dereitos de administrador global de arrendatario de Azure. Pode crear un arrendatario durante o troco da primeira oferta. 
-- O despregamento dun ambiente de Finance require unha subscrición válida a Azure que se facturará por ambiente. Pode usar a subscrición existente das súas organizacións ou usar unha [Proba de Azure](https://azure.microsoft.com/en-us/free/) para comezar. O ambiente de CDS proporcionarase de balde por un período limitado de 30 días.
+- O despregamento dun ambiente de Finance require unha subscrición válida a Azure que se facturará por ambiente. Pode usar a subscrición existente das súas organizacións ou usar unha [Proba de Azure](https://azure.microsoft.com/free/) para comezar. O ambiente de CDS proporcionarase de balde por un período limitado de 30 días.
 
 > [!IMPORTANT]
 > Só unha persoa, o administrador do arrendatario, dunha organización precisa realizar esta tarefa. Se non es o subscritor desta versión, agarde a que a súa organización estea rexistrada e reciba as súas credenciais de usuario.
