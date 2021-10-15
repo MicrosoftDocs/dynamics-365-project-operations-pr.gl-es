@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Novidades
       items:
+        - name: Outubro de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: Setembro de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: Agosto de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: Xullo de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
@@ -292,7 +296,7 @@
           items:
             - name: Desenvolver modelos de proxecto con Copiar proxecto
               href: project-management/dev-copy-project.md
-            - name: Usar as API de programación de proxectos (versión preliminar pública)
+            - name: Usar as API de programación de proxectos
               href: project-management/schedule-api-preview.md
     - name: Xestión de recursos
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Adquirir materiais sen fornecemento para proxectos mediante facturas pendentes do fornecedor
           href: procurement/pending-vendor-invoices.md
+        - name: Pedir materiais sen fornecemento para proxectos mediante pedidos de compra de proxectos
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Retención de fornecedores
+          items:
+            - name: Visión xeral da retención de fornecedores
+              href: procurement/vendor-retention-overview.md
+            - name: Configurar a retención de fornecedores
+              href: procurement/set-up-vendor-retention.md
     - name: Facturación
       items:
         - name: Visión xeral do proceso de facturación
@@ -528,6 +540,10 @@
       items:
         - name: Novidades de acceso anticipado da onda 2 de 2021 - despregamento lite
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Novidades de outubro de 2021 - despregamento lite
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Novidades de setembro de 2021 - despregamento lite
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: Novidades de agosto de 2021 - despregamento lite
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Novidades de xullo de 2021 - despregamento lite
@@ -784,7 +800,7 @@
           items:
             - name: Desenvolver modelos de proxecto con Copiar proxecto
               href: project-management/dev-copy-project.md
-            - name: Usar as API de programación de proxectos (versión preliminar pública)
+            - name: Usar as API de programación de proxectos
               href: project-management/schedule-api-preview.md
     - name: Xestión de recursos
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Liñas de subcontrato para tempo
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Liñas de subcontrato para gasto
+        - name: Liñas de subcontrato para categorías de gasto
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Liñas de subcontrato para produtos
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: Programación de versións de actualización para Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novidades ou cambios na versión 36 de actualización, V3'
+          href: psa/whats-new-ur-36.md
         - name: 'Novidades ou cambios na versión 35 de actualización, V3'
           href: psa/whats-new-ur-35.md
         - name: 'Novidades ou cambios na versión 34 de actualización, V3'
