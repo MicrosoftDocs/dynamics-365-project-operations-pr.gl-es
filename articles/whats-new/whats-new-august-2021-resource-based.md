@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: cd5a7e74fc90c6138cd672ff6109b59a8d2ae916
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323459"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501369"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de agosto de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
 
@@ -31,7 +31,7 @@ As seguintes funcionalidades están incluídas nesta versión:
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Actualizacións de mapas de escrita dual en Project Operations
 
-Non hai actualizacións para mapas de escrita dual de Project Operations nesta versión. 
+Non hai actualizacións para mapas de escrita dual de Project Operations nesta versión.
 
 Para obter unha lista actual e versións dos mapas de escrita dual de Project Operations, consulte [Versións de mapa de escrita dual de Project Operations](../environment/resource-dual-write-maps.md).
 

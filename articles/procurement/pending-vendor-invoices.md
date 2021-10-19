@@ -2,17 +2,17 @@
 title: Comprar materiais sen fornecemento usando unha factura pendente de fornecedor
 description: Este tema explica como rexistrar as facturas pendentes do fornecedor.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ce9f244eaa549742aeb55024ca9ef4d82cde1bd4a5b9c7f8c762cf72e0da83f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009034"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547287"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Comprar materiais sen fornecemento usando unha factura pendente de fornecedor
 
@@ -45,4 +45,5 @@ As facturas pendentes do fornecedor poden rexistrarse na páxina **Facturas pend
     - O importe do saldo do fornecedor.
     - O importe do imposto de vendas.
     - O custo contra o proxecto rexístrase na conta de integración de adquisicións.
-    - A transacción real do proxecto en Dataverse. Esta transacción procésase mediante o [Diario de integración de Project Operations](../project-accounting/project-operations-integration-journal.md). Ao contabilizar este diario móvese o importe da conta de integración de adquisicións á conta de custos do proxecto.
+    - Transacción de custo real do proxecto en Dataverse.  Esta transacción procésase mediante o [Diario de integración de Project Operations](../project-accounting/project-operations-integration-journal.md). Ao contabilizar este diario móvese o importe da conta de integración de adquisicións á conta de custos do proxecto. 
+    - Compras que se facturan ao cliente do proxecto mediante o método de facturación de tempo e materiais. Ademais, créanse transaccións de facturación non facturadas para as compras en Dataverse. Lista de prezos de produtos en Dataverse úsase para os prezos e importes de venda para a transacción de vendas sen facturar.

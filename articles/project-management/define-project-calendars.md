@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 181032b27ee67591a3bb40ab080477c51c1e34a46e9aac20039e4e5df3a5ab1d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9c2ea49e008d6cde40f152320face073c7e5f548
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000934"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487638"
 ---
 # <a name="define-project-calendars"></a>Definir calendarios de proxectos
 
@@ -46,7 +46,7 @@ Para crear un modelo de calendario para a súa organización, hai dous requisito
 
 1. Vaia a **Recursos** \> **Recursos**.
 2. Cree un novo recurso para facer referencia a el no modelo de calendario ou seleccione un recurso existente.
-3. Seleccione o separador **Horas de traballo** do recurso e siga as instrucións de [Establecer horas de traballo para un recurso](/dynamics365/field-service/set-work-hours-resource.md) para configurar as regras do calendario.
+3. Seleccione o separador **Horas de traballo** do recurso e siga as instrucións de [Establecer horas de traballo para un recurso](/dynamics365/field-service/set-work-hours-resource) para configurar as regras do calendario.
 
 **Crear un novo modelo de calendario**
 

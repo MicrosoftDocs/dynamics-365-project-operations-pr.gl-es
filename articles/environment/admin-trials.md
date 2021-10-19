@@ -2,16 +2,16 @@
 title: Rexistro para as probas de Project Operations
 description: Este tema fornece información sobre como despregar unha proba de Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418455"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599211"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Rexistro para as probas de Project Operations 
 
@@ -85,15 +85,9 @@ Antes de comezar, inicie sesión nun explorador coa conta de traballo do usuario
 
    Despois de iniciar o aprovisionamento, redirixiráselle á lista de ambientes do centro de administración de Power Platform. Mentres o aprovisionamento está en curso, o estado do seu ambiente é **Preparando instancia**.
  
-  Despois de completar o aprovisionamento, o estado do seu ambiente é **Listo**.
+  Cando se completa o aprovisionamento, o estado do seu ambiente é **Listo**. O aprovisionamento do ambiente inclúe o despregamento de datos de demostración.
  
-4.  Cando remate o aprovisionamento, seleccione o respectivo URL de Microsoft Dataverse e os URL das aplicacións de Finance and Operations para validar o despregamento.
-
-## <a name="demo-data-installation"></a>Instalación dos datos de demostración
-
-Utilice as seguintes ligazóns para acceder aos paquetes de datos de demostración de materiais sen fornecemento e escenarios de despregamento de lite. 
-- [Datos de demostración de materiais sen fornecemento](resource-apply-pro-setup-config-data.md)
-- [Datos de demostración de lite](lite-apply-demo-setup-config-data.md)
+4.  Seleccione o respectivo URL de Microsoft Dataverse e as aplicacións de Finance and Operations para validar o despregamento.
 
 ## <a name="configuring-dual-write"></a>Configuración da escrita dual
 Só para despregamentos de materiais sen fornecemento, configure as súas asignacións de escrita dual. Para obter máis información, consulte [Versións de mapa de escrita dual de Project Operations](resource-dual-write-maps.md).

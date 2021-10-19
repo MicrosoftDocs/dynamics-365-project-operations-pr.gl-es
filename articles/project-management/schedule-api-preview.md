@@ -2,23 +2,22 @@
 title: Use as API de programación de proxectos para realizar operacións con entidades de programación
 description: Este tema ofrece información e mostras para usar as API de programación de proxectos.
 author: sigitac
-ms.date: 06/22/2021
+ms.date: 09/09/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 55bd9020275fbb72761b45ba09294f57266b418c0e5b506ba55a2a498aff24e5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008764"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487683"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Use as API de programación de proxectos para realizar operacións con entidades de programación
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-> [!IMPORTANT] 
-> Unha parte ou toda a funcionalidade sinalada neste tema está dispoñible como parte dunha versión preliminar. O contido e a funcionalidade están suxeitos a cambios. 
+
 
 ## <a name="scheduling-entities"></a>Entidades de programación
 

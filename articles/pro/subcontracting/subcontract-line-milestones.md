@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323774"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558500"
 ---
 # <a name="subcontract-line-milestones"></a>Fitos da liña de subcontrato
 
@@ -50,15 +50,15 @@ Os fitos de prezo fixo nunha liña de subcontrato pódense xerar manualmente can
 3. No separador **Fitos da liña de subcontrato**, na subgrade, seleccione **+ Novo fito da liña de subcontrato**.
 4. Na páxina **Fito da nova liña de subcontrato**, introduza a información requirida baseándose na seguinte táboa.
 
-    | Campo | Descripción |
-    | --- | --- |
-    | Nome do fito | O nome do fito. |
-    | Descripción | Unha descrición do fito.  |
-    | Data do fito | A data na que o proceso de creación automática de facturas debería buscar o estado deste fito para consideralo para a facturación. Este valor inclúese na liña de factura do fornecedor ao facturar este subcontrato. |
-    | Importe | O importe ou o valor do fito que se facturará ao cliente. Este valor inclúese na liña de factura do fornecedor ao facturar este subcontrato. |
-    | Impostos | O importe do imposto aplicado no fito. Este valor inclúese na liña de factura do fornecedor ao facturar este subcontrato. |
-    | Importe despois de impostos | Este campo de só lectura que se calcula como Importe + Imposto. Este valor inclúese na liña de factura do fornecedor ao facturar este subcontrato. |
-    | Estado da factura | Cando se crea o fito, este estado sempre se define como **Non está listo para a facturación**.  Cando o estado é **Listo para facturar**, a creación da factura do fornecedor inclúe este fito na factura do fornecedor. |
+    | Campo | Descripción |Impacto funcional|
+    | --- | --- |----------------------|
+    | Nome do fito | O nome do fito. |Esta amosarase como a primeira columna en todas as buscas baseadas en fitos de liñas de subcontrato. A liña de factura do fornecedoor que se crea con base neste fito tamén empregará o nome do fito da liña de subcontrato como nome predefinido da liña de factura do fornecedor.|
+    | Descripción | Unha descrición do fito. |A liña de factura do fornecedoor que se crea con base neste fito tamén empregará a descrición do fito da liña de subcontrato como descrición predefinida da liña de factura do fornecedor.|
+    | Data do fito | A data na que o proceso de creación automática de facturas debería buscar o estado deste fito para consideralo para a facturación.| Este valor utilizarase como data predefinida da liña de factura do fornecedor ao facturar esta liña de subcontrato. |
+    | Importe | O importe ou o valor do fito que se facturará ao cliente. |Este valor utilízase como importe predefinido da liña de factura do fornecedor ao facturar esta liña de subcontrato. |
+    | Impostos | O importe do imposto aplicado no fito.| Este valor utilízase como importe de impostos predefinido da liña de factura do fornecedor ao facturar esta liña de subcontrato. |
+    | Importe despois de impostos | Este campo de só lectura calcúlase como Importe + Imposto.|Este valor utilízase como valor predefinido da liña de factura do fornecedor ao facturar esta liña de subcontrato. |
+    | Estado da factura | Cando se crea o fito, este estado sempre se define como **Non está listo para a facturación**.|  Cando o estado é **Listo para facturar**, a creación da factura do fornecedor inclúe este fito na factura do fornecedor. |
 
 5. Seleccione **Gardar e pechar**.
 

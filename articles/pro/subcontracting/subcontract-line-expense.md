@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9e8e7bb66063dab6db1ac8da1753913aee0ef3fc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
+ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323819"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "7506097"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Liñas de subcontrato para categorías de gastos
 
@@ -29,23 +29,23 @@ Para crear unha liña de subcontrato para categorías de gastos en Project Opera
 
 A seguinte táboa ofrece información sobre os campos na páxina de detalles **Liña de subcontrato** páxina de detalles e a páxina **Creación rápida**.
 
-| **Campo** |  **Descrición** |
-| ----------| ---------------- |
-| Nome | O nome da liña de subcontrato. |
-| Descripción | Unha breve descrición das categorías de servizos ou produtos que se van mercar na liña de subcontrato. |
-| Tipo de liña | Este campo ten un valor predefinido de **Baseado na cantidade**.  |
-| Método de facturación | O método de facturación da liña de subcontrato. En función do método de facturación da liña, está dispoñible un calendario de facturas baseado en fitos para o método de facturación a prezo fixo.  |
-| Clase de transacción | Este campo ten un valor predefinido de **Tempo**. Para crear liñas de subcontrato para mercar produtos, configure o campo **Clase de transacción** en **Gasto**. Este valor de campo indica que a liña de subcontrato vaise empregar para rexistrar a compra dunha categoría de produtos ou servizos que se utilizarán en proxectos. |
-| Categoría da transacción | Seleccione a categoría da transacción. |
-| Inicio solicitado | A data na que as categorías de compra deben estar dispoñibles no fornecedor. O inicio solicitado úsase para escoller unha lista de prezos do proxecto das listas de prezos do proxecto anexadas ao subcontrato. O custo da categoría na liña de subcontrato é o predefinido desa lista de prezos. |
-| Finalización solicitada | A data na que xa non son necesarias as categorías de compra. Esta data activa unha advertencia cando un xefe de proxecto asocia esta liña de subcontrato a estimacións de gastos específicas nos proxectos que teñen data posterior a esta data. |
-| Cantidade solicitada | A cantidade da categoría que se vai comprar ao fornecedor. Cando un xestor de proxectos supera a cantidade comprada, producirase unha advertencia.  |
-| Grupo de unidades | Este valor de campo baséase no grupo de unidades predefinido que está configurado para a categoría seleccionada. |
-| Unidade | Este valor de campo baséase na unidade predefinida que está configurada para a categoría seleccionada. A combinación de categoría e unidade úsase para predefinir o prezo unitario na liña de subcontrato. |
-| Prezo por unidade | O valor do campo do prezo unitario é o predefinido na combinación da categoría e dos prezos da categoría relacionados coa lista de prezos do proxecto que é aplicable para o inicio solicitado da liña de subcontrato.  |
-| Subtotal | Este campo de só lectura calcúlase automaticamente como prezo unitario da cantidade se se introducen tanto os valores de cantidade como os do prezo unitario. Se un ou ambos campos están baleiros, pode introducir manualmente un valor neste campo.  |
-| Imposto de vendas | Introduza o importe do imposto de vendas.  |
-| Cantidade total | O importe total da liña de subcontrato, incluídos os impostos. Este campo calcúlase como subtotal + imposto sobre as vendas.  |
+| **Campo** | **Descrición** | **Impacto funcional** |
+| --- | --- | --- |
+| Nome | Nome da liña de subcontrato para axudar na identificación. | Esta amosarase como a primeira columna en todas as buscas baseadas en liñas de subcontrato. |
+| Descripción | Unha breve descrición das categorías de gastos que se están a mercar na liña de subcontrato. | Nada |
+|Tipo de liña | Este campo ten un valor predefinido de **Baseado na cantidade**. |Nada |
+| Método de facturación | Este é un conxunto de opcións que representa os dous principais modelos de contratación admitidos por Project Operations: **Prezo fixo** e **Tempo e Material**. | Unha programación de facturas baseada en fitos está dispoñible para as liñas de subcontrato se se selecciona o método de facturación de prezo fixo. |
+| Clase de transacción | Este campo ten un valor predefinido de **Tempo**. Para crear liñas de subcontrato para mercar produtos, configure o campo **Clase de transacción** en **Gasto**.  | Isto indica que a liña de subcontrato se está a utilizar para rexistrar a compra dunha categoría de gastos que se utilizarán en proxectos. |
+| Categoría da transacción | Mostra unha lista de categorías de transaccións activas no sistema. |Nada |
+| Inicio solicitado | Introduza a data na que as categorías de compra deben estar dispoñibles do fornecedor. | O inicio solicitado úsase para escoller unha lista de prezos do proxecto das listas de prezos do proxecto anexas ao subcontrato. O custo da categoría na liña de subcontrato procede desa lista de prezos. |
+| Finalización solicitada | Introduza a data na que xa non serían necesarias as categorías de compra. | Utilizarase para amosar avisos cando un xestor de proxecto asocie esta liña de subcontrato a estimacións de gastos específicas do proxecto que sexan necesarias despois desta data. |
+| Cantidade solicitada | Cantidade da categoría que se compra ao fornecedor. | Isto usarase para amosar avisos cando un xestor de proxecto está a extraer demasiado desta cantidade.|
+| Grupo de unidades | O valor predefinido baséase no grupo de unidades predefinido configurado para a categoría seleccionada. |Nada |
+| Unidade | O valor predefinido baséase na unidade predefinida configurada para a categoría seleccionada.  | A combinación de **Categoría** e **Unidade** usarase como predefinida ou computada para o prezo unitario da liña de subcontrato.  |
+| Prezo por unidade | O valor predefinido usa a combinación de **Categoría** e **Unidade** dos prezos de categoría relacionados coa lista de prezos do proxecto, que é aplicable para o inicio solicitado da liña de subcontrato. |Nada |
+| Subtotal | Este é un campo de só lectura que se calcula como Cantidade X Prezo unitario, se se introducen tanto a cantidade como os valores do prezo unitario. Se un ou ambos campos están en branco, pode introducir un valor neste campo. |Nada |
+| Imposto de vendas | Introduza o importe do imposto de vendas. |Nada |
+| Cantidade total | O importe total da liña de subcontrato, incluídos os impostos. Este campo calcúlase como Subtotal + Imposto sobre as vendas. |Nada |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
