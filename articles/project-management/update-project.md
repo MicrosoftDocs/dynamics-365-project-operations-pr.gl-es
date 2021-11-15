@@ -1,23 +1,23 @@
 ---
-title: Actualizar un proxecto
+title: Crear e actualizar un proxecto
 description: Neste tema se proporciona información sobre actualizar proxectos en Project Operations.
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 10/20/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: b0ec03a2c4dd7bc833b22b7a93fed810b4998a2788f4ff40234e3dd163bd9eb6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
+ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000889"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7678347"
 ---
-# <a name="update-a-project"></a>Actualizar un proxecto
+# <a name="create-and-update-a-project"></a>Crear e actualizar un proxecto
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Abaixo amósase un resumo dos campos que se poden actualizar nun proxecto despois de que se creou e as consecuencias aplicables das actualizacións.
+O seguinte é un resumo dos campos que se poden actualizar nun proxecto despois da súa creación. Isto tamén inclúe todas as implicacións aplicables en función destas actualizacións.
 
 ## <a name="project-detail-fields"></a>Campos de detalle do proxecto
 
@@ -25,8 +25,8 @@ Abaixo amósase un resumo dos campos que se poden actualizar nun proxecto despoi
 - **Descrición**: Unha visión xeral do proxecto.
 - **Cliente**: A empresa á que se entregará o proxecto.
 - **Modelo de calendario**: As horas de traballo do proxecto. Cando se cambia o campo, recalculase toda a programación.
-- **Moeda**: A moeda para o proxecto. Este campo é por defecto a moeda definida na unidade de contratación. Cando se actualiza a unidade de contratación, tamén se actualiza o campo.
-- **Unidade de contratación**: A unidade organizativa que representa ao grupo ou división da empresa que é o principal responsable de gañar a venda e xestionar a entrega de traballos e servizos ao cliente. 
+- **Moeda**: A moeda para o proxecto. O valor predefinido deste campo baséase na moeda definida na unidade de contratación. Cando se actualiza a unidade de contratación, tamén se actualiza o campo.
+- **Unidade de contratación**: A unidade organizativa que representa ao grupo ou división da empresa que é o principal responsable de gañar a venda e xestionar a entrega de traballos e servizos ao cliente.  Cando a unidade organizativa do xestor do proxecto non está definida, este campo adopta por defecto o valor definido nos parámetros do proxecto.
 - **Xestor de proxectos**: O membro do equipo do proxecto que ten a autoridade para revisar e aprobar as entradas de tempo e os gastos.
 
 ## <a name="estimate-fields"></a>Estimar campos

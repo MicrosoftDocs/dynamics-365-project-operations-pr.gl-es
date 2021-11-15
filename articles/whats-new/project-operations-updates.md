@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 970fcc71b3ebe1489c676727598ebbb296e9c989
-ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
+ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
+ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623334"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7783421"
 ---
 # <a name="project-operations-updates"></a>Actualizacións de Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations consta de dous compoñentes:
 
 | Project Operations en ambiente de Dataverse | Xestión e contabilidade de proxectos en ambientes de aplicacións de Finance and Operations | 
 | --- | --- |
-| 4.25.0.91 | 10.0.20 |
+| 4.26.0.145 | 10.0.21 |
 
 Para a situación baseada en recursos/sen fornecemento de Project Operations, recomendamos usar Dual Write Orchestration versión 2.2.2.83 ou superior.
 
@@ -47,23 +47,23 @@ As actualizacións para Project Operations en ambiente de Dataverse están dispo
 | Estación | Rexión | Número da versión actual | Actualizacións automáticas para despregamento Lite | Actualizacións automáticas para despregamento de recursos/sen fornecemento | Número da versión seguinte | A seguinte versión está dispoñible xeralmente |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Estación 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Primeira versión         |  4.25.0.91      | Concluída           | Concluída            | A determinar                 | 29 de outubro de 2021    |
+|   &nbsp;  | Primeira versión         |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | A determinar                 | 03 de decembro de 2021   |
 | Estación 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | América do Sur         |  4.25.0.91      | Concluída           | 15 de outubro de 2021    | A determinar                 | 29 de outubro de 2021    |
-|   &nbsp;  | O Canadá                |  4.25.0.91      | Concluída           | 15 de outubro de 2021    | A determinar                 | 29 de outubro de 2021    |
-|   &nbsp;  | A India                 |  4.25.0.91      | Concluída           | 15 de outubro de 2021    | A determinar                 | 29 de outubro de 2021    |
-|   &nbsp;  | Francia                |  4.25.0.91      | Concluída           | 15 de outubro de 2021    | A determinar                 | 29 de outubro de 2021    |
-|   &nbsp;  | Sudáfrica          |  4.25.0.91      | Concluída           | 15 de outubro de 2021    | A determinar                 | 29 de outubro de 2021    |
+|   &nbsp;  | América do Sur         |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | A determinar                 | 03 de decembro de 2021   |
+|   &nbsp;  | O Canadá                |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | A determinar                 | 03 de decembro de 2021   |
+|   &nbsp;  | A India                 |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | A determinar                 | 03 de decembro de 2021   |
+|   &nbsp;  | Francia                |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | A determinar                 | 03 de decembro de 2021   |
+|   &nbsp;  | Sudáfrica          |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | A determinar                 | 03 de decembro de 2021   |
 | Estación 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | O Xapón                 |  4.25.0.91      | 15 de outubro de 2021   | 22 de outubro de 2021    | A determinar                 | 05 de novembro de 2021   |
-|   &nbsp;  | Asia Pacífico          |  4.25.0.91      | 15 de outubro de 2021   | 22 de outubro de 2021    | A determinar                 | 05 de novembro de 2021   |
-|   &nbsp;  | Gran Bretaña         |  4.25.0.91      | 15 de outubro de 2021   | 22 de outubro de 2021    | A determinar                 | 05 de novembro de 2021   |
-|   &nbsp;  | Oceanía               |  4.25.0.91      | 15 de outubro de 2021   | 22 de outubro de 2021    | A determinar                 | 05 de novembro de 2021   |
-|   &nbsp;  | Emiratos Árabes Unidos  |  4.25.0.91      | 15 de outubro de 2021   | 22 de outubro de 2021    | A determinar                 | 05 de novembro de 2021   |
+|   &nbsp;  | O Xapón                 |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | A determinar                 | 10 de decembro de 2021   |
+|   &nbsp;  | Asia Pacífico          |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | A determinar                 | 10 de decembro de 2021   |
+|   &nbsp;  | Gran Bretaña         |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | A determinar                 | 10 de decembro de 2021   |
+|   &nbsp;  | Oceanía               |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | A determinar                 | 10 de decembro de 2021   |
+|   &nbsp;  | Emiratos Árabes Unidos  |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | A determinar                 | 10 de decembro de 2021   |
 | Estación 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.14.0.99      | Concluída           | Concluída            | 4.25.0.91           | 15 de outubro de 2021    |
+|   &nbsp;  | Europa                |  4.25.0.91      | Concluída           | Concluída            | 4.26.0.145          | 12 de novembro de 2021   |
 | Estación 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | América do Norte         |  4.14.0.99      | Concluída           | 08 de outubro de 2021    | 4.25.0.91           | 22 de outubro de 2021    |
+|   &nbsp;  | América do Norte         |  4.25.0.91      | Concluída           | Concluída            | 4.26.0.145          | 19 de novembro de 2021   |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Programación de lanzamentos para a xestión e contabilidade de proxectos en ambiente de aplicacións de Finance and Operations
@@ -72,14 +72,15 @@ As actualizacións para a xestión e contabilidade de proxectos publícanse oito
 
 |Versión compatible| Dispoñibilidade da versión preliminar (PEAP) | Xeralmente dispoñible (actualización automática) | Data de inicio da produción do calendario de actualización automática (mediante Configuración de actualización de LCS) |   Fin do servizo   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.22     |      3 de setembro de 2021      |        22 de outubro de 2021           |                          5 de novembro de 2021                            | 14 de xaneiro de 2022   |
 |    10.0.21      |         02 de agosto de 2021     |           17 de setembro de 2021      |                             1 de outubro de 2021                          |  10 de decembro de 2021 |
-|    10.0.20      |         28 de maio de 2021        |           16 de xullo de 2021           |                             30 de xullo de 2021                            |  22 de outubro de 2021  |
+
 
 As datas de lanzamento obxectivo están suxeitas a cambios. Para obter máis información, consulte [Dispoñibilidade de actualizacións de servizo](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |Versión obxectivo | Dispoñibilidade da versión preliminar (PEAP) | Xeralmente dispoñible (actualización automática) | Data de inicio da produción do calendario de actualización automática (mediante Configuración de actualización de LCS) |   Fin do servizo   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.22     |      3 de setembro de 2021      |          22 de outubro de 2021         |                           5 de novembro de 2021                           |  14 de xaneiro de 2022  |
 |     10.0.23     |      15 de outubro de 2021       |        10 de decembro de 2021          |                          31 de decembro de 2021                           | 18 de marzo de 2022     |
+|     10.0.24     |      3 de decembro de 2021       |        14 de xaneiro de 2022           |                          4 de febreiro de 2022                            | 15 de abril de 2022     |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
