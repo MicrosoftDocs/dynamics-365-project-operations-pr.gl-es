@@ -2,17 +2,17 @@
 title: Actualizacións de Project Operations
 description: Este tema ofrece información sobre as versións lanzadas de Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 10/04/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e4cafde5e866690f31452eceffdd81ffeb14e635
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783421"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892185"
 ---
 # <a name="project-operations-updates"></a>Actualizacións de Project Operations
 
@@ -22,51 +22,51 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 
 ## <a name="project-operations-components"></a>Compoñentes de Project Operations
 
-Dynamics 365 Project Operations consta de dous compoñentes:
+Dynamics 365 Project Operations consiste en dous compoñentes:
 
-- Project Operations en ambiente de Dataverse abrangue capacidades desde a oportunidade ata a facturación proforma. Dataverse úsase no despregamento lite e no despregamento de situacións de recursos/sen fornecemento de Project Operations.
-- Xestión e contabilidade de proxectos no ambiente de Dynamics 365 Finance abrangue as capacidades de xestión de gastos, contabilidade de proxectos e recoñecemento de ingresos. A aplicación Finance and Operations utilízase en Project Operations para situacións baseadas en recursos/sen fornecemento e Project Operations para situacións baseadas en produción/con fornecemento.
+- As operacións do proxecto no entorno Dataverse abarcan capacidades desde a facturación de oportunidade ata a facturación proforma. Dataverse utilízase no despregamento sinxelo e no despregamento de escenarios de recursos/non abastecidos de Project Operations.
+- A xestión e contabilidade de proxectos no contorno Dynamics 365 Finance abrangue as capacidades de xestión de gastos, a contabilidade de proxectos e o recoñecemento de ingresos. O ambiente da aplicación Finance and Operations utilízase en Project Operations para escenarios baseados en recursos/non abastecidos e en Project Operations para escenarios abastecidos/baseados na produción.
 
 ## <a name="project-operations-release-notes"></a>Notas de lanzamento de Project Operations
-- Notas de lanzamento máis recentes de Project Operations para situación [baseada en recursos/sen fornecemento](whats-new-oct-2021-resource-based.md).
-- Notas de lanzamento máis recentes de Project Operations para situación de [despregamento Lite](../pro/whats-new/whats-new-oct-2021-lite.md).
-- Notas de lanzamento máis recentes de Project Operations para situación [baseada en produción/con fornecemento](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
+- Notas de lanzamento máis recentes de Project Operations para situación [baseada en recursos/sen fornecemento](whats-new-nov-2021-resource-based.md).
+- Notas de lanzamento máis recentes de Project Operations para situación de [despregamento Lite](../pro/whats-new/whats-new-nov-2021-lite.md).
+- Notas de lanzamento máis recentes de Project Operations para situación [baseada en produción/con fornecemento](../prod-pma/whats-new/whats-new-oct-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Última versión de Project Operations
 
-| Project Operations en ambiente de Dataverse | Xestión e contabilidade de proxectos en ambientes de aplicacións de Finance and Operations | 
+| Operacións do proxecto no entorno Dataverse | Xestión de proxectos e contabilidade en contornos de aplicacións de Finanzas e Operacións | 
 | --- | --- |
-| 4.26.0.145 | 10.0.21 |
+| 4.26.0.150 | 10.0.22 |
 
-Para a situación baseada en recursos/sen fornecemento de Project Operations, recomendamos usar Dual Write Orchestration versión 2.2.2.83 ou superior.
+Para o escenario de recursos de operacións do proxecto/non abastecido, recomendamos utilizar a versión de orquestración de escritura dual 2.3.1.15 ou superior.
 
-## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Programación de lanzamento de Project Operations en ambiente de Dataverse
+## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Programa de lanzamento para as operacións do proxecto no entorno Dataverse
 
-As actualizacións para Project Operations en ambiente de Dataverse están dispoñibles mensualmente. 
+As actualizacións para as operacións do proxecto no ambiente Dataverse están dispoñibles mensualmente. 
 
 | Estación | Rexión | Número da versión actual | Actualizacións automáticas para despregamento Lite | Actualizacións automáticas para despregamento de recursos/sen fornecemento | Número da versión seguinte | A seguinte versión está dispoñible xeralmente |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Estación 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Primeira versión         |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | A determinar                 | 03 de decembro de 2021   |
+|   &nbsp;  | Primeira versión         |  4.26.0.150     | Concluída           | Concluída            | A determinar                 | 06 de decembro de 2021   |
 | Estación 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | América do Sur         |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | A determinar                 | 03 de decembro de 2021   |
-|   &nbsp;  | O Canadá                |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | A determinar                 | 03 de decembro de 2021   |
-|   &nbsp;  | A India                 |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | A determinar                 | 03 de decembro de 2021   |
-|   &nbsp;  | Francia                |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | A determinar                 | 03 de decembro de 2021   |
-|   &nbsp;  | Sudáfrica          |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | A determinar                 | 03 de decembro de 2021   |
+|   &nbsp;  | América do Sur         |  4.26.0.150     | Concluída           | Concluída            | A determinar                 | 06 de decembro de 2021   |
+|   &nbsp;  | O Canadá                |  4.26.0.150     | Concluída           | Concluída            | A determinar                 | 06 de decembro de 2021   |
+|   &nbsp;  | A India                 |  4.26.0.150     | Concluída           | Concluída            | A determinar                 | 06 de decembro de 2021   |
+|   &nbsp;  | Francia                |  4.26.0.150     | Concluída           | Concluída            | A determinar                 | 06 de decembro de 2021   |
+|   &nbsp;  | Sudáfrica          |  4.26.0.150     | Concluída           | Concluída            | A determinar                 | 06 de decembro de 2021   |
 | Estación 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | O Xapón                 |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | A determinar                 | 10 de decembro de 2021   |
-|   &nbsp;  | Asia Pacífico          |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | A determinar                 | 10 de decembro de 2021   |
-|   &nbsp;  | Gran Bretaña         |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | A determinar                 | 10 de decembro de 2021   |
-|   &nbsp;  | Oceanía               |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | A determinar                 | 10 de decembro de 2021   |
-|   &nbsp;  | Emiratos Árabes Unidos  |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | A determinar                 | 10 de decembro de 2021   |
+|   &nbsp;  | O Xapón                 |  4.26.0.150     | Concluída           | Concluída            | A determinar                 | 10 de decembro de 2021   |
+|   &nbsp;  | Asia Pacífico          |  4.26.0.150     | Concluída           | Concluída            | A determinar                 | 10 de decembro de 2021   |
+|   &nbsp;  | Gran Bretaña         |  4.26.0.150     | Concluída           | Concluída            | A determinar                 | 10 de decembro de 2021   |
+|   &nbsp;  | Oceanía               |  4.26.0.150     | Concluída           | Concluída            | A determinar                 | 10 de decembro de 2021   |
+|   &nbsp;  | Emiratos Árabes Unidos  |  4.26.0.150     | Concluída           | Concluída            | A determinar                 | 10 de decembro de 2021   |
 | Estación 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.25.0.91      | Concluída           | Concluída            | 4.26.0.145          | 12 de novembro de 2021   |
+|   &nbsp;  | Europa                |  4.26.0.150     | Concluída           | 10 de decembro de 2021   | A determinar                 | 17 de decembro de 2021   |
 | Estación 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | América do Norte         |  4.25.0.91      | Concluída           | Concluída            | 4.26.0.145          | 19 de novembro de 2021   |
+|   &nbsp;  | América do Norte         |  4.26.0.150     | 10 de decembro de 2021  | 17 de decembro de 2021   | A determinar                 | 07 de xaneiro de 2022    |
 
 
-## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Programación de lanzamentos para a xestión e contabilidade de proxectos en ambiente de aplicacións de Finance and Operations
+## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Programa de lanzamento para a xestión de proxectos e a contabilidade no contorno das aplicacións de Finanzas e Operacións
 
 As actualizacións para a xestión e contabilidade de proxectos publícanse oito veces ao ano.
 

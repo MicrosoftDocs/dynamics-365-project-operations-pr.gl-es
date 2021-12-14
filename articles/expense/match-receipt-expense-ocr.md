@@ -2,7 +2,7 @@
 title: Capturar un recibo usando OCR
 description: Este tema ofrece información sobre o procesamento de recoñecemento óptico de caracteres (OCR) para recibos.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3cfd88acec9df8468668bedbb55b399d100650e765a6ed647ed528ecca9f1554
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007729"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798038"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Capturar un recibo usando OCR
 
@@ -52,7 +52,7 @@ Para crear un gasto ou emparellar un gasto desde un recibo, complete os seguinte
 
 ## <a name="installation"></a>Instalación
 
-Para utilizar estas capacidades avanzadas de gastos, instale o complemento Servizo de xestión de gastos para Microsoft Dynamics 365 Finance e active as funcionalidades na súa instancia. Pode acceder ao complemento desde o seu proxecto en Microsoft Dynamics Lifecycle Services (LCS).
+Para utilizar estas capacidades avanzadas de gastos, instala o complemento do servizo de xestión de gastos para Microsoft Dynamics 365 Finance e activa as funcións na túa instancia. Podes acceder ao complemento desde o teu proxecto en Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Inicie sesión en LCS e abra o ambiente desexado.
 2. Vaia a **Detalles completos**.
@@ -73,7 +73,7 @@ Ao activar estas funcionalidades, prodúcense as seguintes accións:
 - Engádese un novo elemento de menú para a visibilidade do campo de gastos.
 - Aínda pode abrir a páxina **Informes de gastos** anterior indo a **Xestión de gastos > Os meus gastos > Informes de gastos**.
 - Os fluxos de traballo e as aprobacións aínda o levarán á páxina de informes de gastos existente.
-- Os recibos procesaranse mediante Microsoft Azure Cognitive Services e os metadatos extraeranse e engadiranse.
+- Os recibos procesaranse a través dos Microsoft Azure Cognitive Services e extraeranse e engadiranse metadatos.
 - Engádese unha opción que lle permite crear un informe de gastos que inclúe recibos non anexados emparellados.
 - Unha opción que se engade aos informes de gastos permítelle crear unha liña de gasto a partir dun recibo ou tentar emparellar un recibo existente cunha liña de gasto existente.
 
@@ -85,7 +85,18 @@ Non, Microsoft creou un modelo xeral de aprendizaxe automático para o seu servi
 
 **Onde está dispoñible e se procesa esta funcionalidade?**
 
-Actualmente, está dispoñible nos Estados Unidos.
+A dispoñibilidade desta función en diferentes rexións está listada na seguinte táboa. Se a túa rexión non é compatible actualmente, envía unha solicitude para priorizar a dispoñibilidade do servizo OCR na túa rexión. 
+
+| Rexión | Compatible                         |
+|--------|-----------------------------------|
+| EUA    | Si                               |
+| CAN    | Si                               |
+| Reino Unido     | Si                               |
+| AUS    | Si                               |
+| UE     | Parcialmente. Só recibos en inglés. |
+| Asia   | No                                |
+| O Xapón  | No                                |
+| África | No                                |
 
 **Onde van os meus recibos?**
 

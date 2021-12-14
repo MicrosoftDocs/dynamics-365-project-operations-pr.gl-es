@@ -58,6 +58,8 @@
           href: environment/uninstall-project-operations.md
     - name: Novidades
       items:
+        - name: Novembro de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: Outubro de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: Setembro de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Desempeño da API de programación de proxectos
               href: project-management/project-schedule-api-performance.md
+            - name: Rexistros de programación de proxectos
+              href: project-management/schedule-api-logs.md
     - name: Xestión de recursos
       items:
         - name: Conceptos clave
@@ -544,6 +548,8 @@
       items:
         - name: Novidades de acceso anticipado da onda 2 de 2021 - despregamento lite
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Novidades de novembro de 2021 - despregamento lite
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Novidades de outubro de 2021 - despregamento lite
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: Novidades de setembro de 2021 - despregamento lite
@@ -952,6 +958,10 @@
   items:
     - name: Novidades
       items:
+        - name: Novidades de outubro 2021 - Project Operations para situacións baseadas en produción/con fornecemento
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: Novidades de setembro 2021 - Project Operations para situacións baseadas en produción/con fornecemento
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: Novidades de xullo de 2021 - Project Operations para situacións baseadas en produción/con fornecemento
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: Novidades de maio de 2021 - Project Operations para situacións baseadas en produción/con fornecemento
@@ -1108,6 +1118,8 @@
       items:
         - name: Programación de versións de actualización para Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novidades ou cambios na versión 37.5 de actualización, V3'
+          href: psa/whats-new-ur-37-5.md
         - name: 'Novidades ou cambios na versión 37 de actualización, V3'
           href: psa/whats-new-ur-37.md
         - name: 'Novidades ou cambios na versión 36 de actualización, V3'

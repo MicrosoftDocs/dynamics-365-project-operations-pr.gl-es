@@ -2,7 +2,7 @@
 title: Aplicación de gastos para móbiles
 description: Este tema ofrece información sobre a área de traballo móbil de xestión de gastos.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 88251552a937f0a3a066e08b87dbd5f7b73c46c69776fbc788d37cc21fe73541
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
+ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993194"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7818181"
 ---
 # <a name="mobile-expense-app"></a>Aplicación de gastos para móbiles
 
@@ -47,42 +47,9 @@ Tamén pode utilizar estas funcionalidades:
 - Envíe un informe de gastos para a súa aprobación e reembolso.
 - Aprobe ou rexeite os informes de gastos dos que sexa responsable de aprobación.
 
-## <a name="prerequisites"></a>Requisitos previos
-Os requisitos varían segundo a versión que se despregou para a súa organización.
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Requisitos previos se usas Dynamics 365 Finance
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Requisitos previos se usa Dynamics 365 Finance 
 Se se despregou Finanzas para a súa organización, o administrador do sistema debe publicar a área de traballo móbil **Xestión de gastos**. 
-
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Requisitos previos se usa a versión 1611 coa actualización da plataforma 3 ou posterior
-Se se despregou a versión 1611 coa actualización da plataforma 3 ou posterior para a súa organización, o administrador do sistema debe cumprir os seguintes requisitos previos. 
-
-<table>
-<thead>
-<tr class="header">
-<th>Requisito previo</th>
-<th>Rol</th>
-<th>Descripción</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Implemente KB 4019015.</td>
-<td>Administrador do sistema</td>
-<td>KB 4019015 é unha actualización de X++ ou unha revisión de metadatos que contén a área de traballo móbil <strong>Xestión de gastos</strong>. Para implementar KB 4019015, o administrador do sistema debe seguir estes pasos.
-<ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Descargar actualizacións de Lifecycle Services</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instale a corrección de metadatos</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Cree un paquete despregable</a> que contén os modelos <strong>ApplicationSuite</strong> e <strong>ExpenseMobile</strong> e logo cargue o paquete despregable a LCS.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Aplique o paquete despregable</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Publique a área de traballo móbil <strong>Xestión de gastos</strong>.</td>
-<td>Administrador do sistema</td>
-<td>Consulte <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicar unha área de traballo móbil</a>.</td>
-</tr>
-</tbody>
-</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Descargue e instale a aplicación móbil Dynamics 365 Unified Ops
 Descargue e instale a aplicación móbil Dynamics 365 Unified Ops:
@@ -103,11 +70,11 @@ Descargue e instale a aplicación móbil Dynamics 365 Unified Ops:
 3. Seleccione **Facer foto** ou **Escoller imaxe**.
 4. Siga un destes pasos:
 
-   - Se seleccionou **Facer foto**, siga estes pasos:
+    - Se seleccionou **Facer foto**, siga estes pasos:
 
-      1. Irá á cámara do seu dispositivo móbil para que poida facer unha foto do recibo. 
-      2. Cando remate de facer unha foto, seleccione **Aceptar** para aceptar a foto.
-      3. Opcional: Introduza un nome para a foto e introduza calquera nota.
+        1. Irá á cámara do seu dispositivo móbil para que poida facer unha foto do recibo. 
+        2. Cando remate de facer unha foto, seleccione **Aceptar** para aceptar a foto.
+        3. Opcional: Introduza un nome para a foto e introduza calquera nota.
 
     - Se seleccionou **Escoller imaxe**, siga estes pasos:
 
@@ -133,20 +100,20 @@ Descargue e instale a aplicación móbil Dynamics 365 Unified Ops:
 
 10. Seleccione **Feito**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Aprobe un informe de gastos mediante a área de traballo móbil de xestión de gastos (se usa a actualización de xullo de 2017)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Aproba un informe de gastos mediante o espazo de traballo móbil Xestión de gastos
 
 1. No seu dispositivo móbil, abra a área de traballo móbil **Xestión de gastos**.
 2. **Aprobacións de gastos** mostra o número de informes de gastos que se lle atribúen para a súa aprobación. O número actualízase aproximadamente cada 30 minutos. Seleccione **Aprobacións de gastos**.
 
     Móstrase a lista de informes de gastos que se lle atribúen para a súa aprobación.
-    
+
 3. Seleccione un informe de gastos para ver os detalles do gasto.
 4. Seleccione un gasto para ver os seus detalles. A información que se mostra para un gasto inclúe o recibo, o convidado e os detalles.
 5. De volta na páxina **Informe de gastos**, seleccione aprobar ou rexeitar o informe de gastos.
 6. Introduza calquera comentario para a acción de aprobación.
 7. Seleccione **Feito**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Crear un novo informe de gastos e envíeo para a súa aprobación mediante a área de traballo móbil de xestión de gastos (se usa a actualización de xullo de 2017)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Crea un novo informe de gastos e envíao para a súa aprobación mediante o espazo de traballo móbil Xestión de gastos
 
 1. No seu dispositivo móbil, abra a área de traballo móbil **Xestión de gastos**.
 2. Seleccione **Entrada de gasto**.
@@ -184,12 +151,12 @@ Descargue e instale a aplicación móbil Dynamics 365 Unified Ops:
                     1. Seleccione unha imaxe da lista.
                     2. Opcional: Introduza un nome para a imaxe e introduza calquera nota.
 
-            3.  Seleccione **Feito**.
+            3. Seleccione **Feito**.
 
         - Se seleccionou **Anexar recibo**, siga estes pasos:
 
-            1.  Seleccione unha ou máis imaxes da lista.
-            2.  Seleccione **Feito**.
+            1. Seleccione unha ou máis imaxes da lista.
+            2. Seleccione **Feito**.
 
     3. Seleccione o botón **Atrás** para volver aos detalles do gasto.
 
@@ -235,5 +202,30 @@ Descargue e instale a aplicación móbil Dynamics 365 Unified Ops:
 23. Introduza calquera comentario para o responsable de aprobacións.
 24. Seleccione **Feito**.
 
+## <a name="frequently-asked-questions"></a>Preguntas máis frecuentes
+
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Por que a aplicación móbil Expense non introduce o método de pago de forma predeterminada?
+
+As organizacións poden personalizar **Método de pago predeterminado** configuración para cada categoría de gasto tal como se crea. Ademais, cando configure os métodos de pago, pode configurar o **Método de pago predeterminado** campo a **Só importar**.
+
+Cando **Só importar** está habilitado para un método de pago, o método de pago non se introduce de forma predeterminada. Estará en branco nas categorías de gastos nas que estea configurado este método de pago. Este comportamento é consistente tanto na experiencia web como na experiencia móbil.
+    
+Cando **Só importar** non está habilitado para un método de pago, o valor definido introdúcese de forma predeterminada para as categorías de gastos nas que este método de pago está configurado. Non obstante, hai un problema coñecido polo que o valor predeterminado non se introduce na aplicación móbil Expense. Para solucionar este problema, selecciona manualmente un método de pago antes de gardar o informe de gastos. 
+
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Por que non podo engadir ou editar dimensións financeiras na aplicación móbil Expense?
+
+Non se admite a entrada de dimensións e distribucións. Para evitar esta limitación, pode configurar estes campos de forma predeterminada na aplicación móbil configurando as dimensións financeiras predeterminadas por proxecto ou empregado.
+
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Por que ás veces vexo un erro de sincronización na aplicación móbil Expense?
+
+Se as liñas de gasto non cumpren os requisitos da política e o usuario envía o informe de gastos sen abordar a advertencia da política, os datos móbiles non se sincronizan co servidor e prodúcese un erro de sincronización. Todos os informes de gastos que se envíen despois de que se produza un fallo de sincronización permanecerán nun estado de erro e provocarán máis fallos de sincronización. A única forma de solucionar esta situación é eliminar manualmente as notificacións de sincronización. Solucionouse este problema interrompendo o envío de informes de gastos cando non se abordaron os avisos de políticas, para evitar os erros de sincronización.
+
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Por que a validación de proxectos e categorías non se reflicte correctamente na aplicación móbil Expense?
+
+Actualmente non se admite esta validación. Non obstante, pode engadirse apoio no futuro. 
+
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Que tipos de documentos son compatibles coa aplicación móbil Expense?
+
+A aplicación móbil Expense só admite imaxes. Actualmente non admite PDF nin outros documentos.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
