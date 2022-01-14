@@ -2,16 +2,16 @@
 title: Crear unha estrutura de subdivisión do traballo
 description: Este tema explica como crear unha estrutura de subdivisión do traballo (WBS) que inclúa os controis básicos na nova interface de programación.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655415"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928613"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Crear unha estrutura de subdivisión do traballo (WBS)
 
@@ -95,11 +95,11 @@ Como administrador, pode definir campos personalizados na entidade de tarefa. No
 
 ## <a name="staffing-attributes"></a>Atributos de persoal
 
-Pódese acceder a atributos de persoal a través do campo **Recursos** na programación. Pode buscar un recurso existente ou seleccionar **Crear** e no panel **Creación rápida**, engadir un membro do equipo do proxecto como novo recurso.
+Pódese acceder a atributos de persoal a través do campo **Recursos** na programación. Pode buscar un recurso existente ou seleccionar **Crear** e no panel **Creación rápida**, engadir un membro do equipo do proxecto como novo recurso.  Cando busca un recurso mediante o selector de recursos na grella de tarefas, na vista de taboleiro ou na vista de gantt, a busca devolve os membros do equipo do proxecto existentes ou os recursos reservables activos.
 
 Os campos **Rol**, **Unidade de recursos** e **Nome do posto** úsanse para describir os requisitos de persoal para a tarefa. Estes atributos de persoal, xunto coa programación de tarefas, úsanse para atopar os recursos dispoñibles para facer esta tarefa.
 
-   - **Rol**: Especifique o tipo de recurso que se require para realizar a tarefa.
+   - **Papel** : Especifique o tipo de recurso que se require para realizar a tarefa.,
    - **Unidade de recursos**: Especifique a unidade desde a que se deben atribuír os recursos para a tarefa. Este atributo afecta ao custo e ás estimacións de vendas da tarefa se o custo e a taxa de factura do recurso están establecidos en función das unidades de recursos.
    - **Nome do posto**: Insira un nome sinxelo para o recurso xenérico que serve como marcador de posición para o recurso que finalmente fará o traballo.
 
@@ -126,7 +126,8 @@ Debería ter en conta as seguintes limitacións se está a usar a estrutura de s
 | Duración máxima total para un proxecto               | 3650 días (10 anos) |
 | Total máximo de recursos para un proxecto              | 150                  |
 | Total máximo de ligazóns (só sucesor) para un proxecto | 600                  |
-| Total máximo de campos personalizados para un proxecto          | 10                   |
+| Total máximo de campos personalizados para un proxecto          | 1,0                   |
+| Número máximo de elementos da lista de verificación por tarefa                   | 20                   |
 
 **Limitacións das tarefas**
 

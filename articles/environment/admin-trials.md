@@ -2,16 +2,16 @@
 title: Rexistro para as probas de Project Operations
 description: Este tema fornece información sobre como despregar unha proba de Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599211"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901615"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Rexistro para as probas de Project Operations 
 
@@ -90,7 +90,8 @@ Antes de comezar, inicie sesión nun explorador coa conta de traballo do usuario
 4.  Seleccione o respectivo URL de Microsoft Dataverse e as aplicacións de Finance and Operations para validar o despregamento.
 
 ## <a name="configuring-dual-write"></a>Configuración da escrita dual
-Só para despregamentos de materiais sen fornecemento, configure as súas asignacións de escrita dual. Para obter máis información, consulte [Versións de mapa de escrita dual de Project Operations](resource-dual-write-maps.md).
+- Para configurar as funcións de seguranza para a escritura dual, consulte [Actualiza a configuración de seguranza en Project Operations en Dataverse](resource-provision-new-environment.md).
+- Para configurar mapas de dobre escritura, consulte [Executar mapas de dobre escritura de Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Atribuír licenzas
 

@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e985fc4150044a0146aac752bdbad685c562a13c
-ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
+ms.openlocfilehash: a82622a30804c0c4228ebd37b89c94580cfc89e9
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7892173"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940932"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Actualizar o programa de versións para Project Service 3.x
 
@@ -37,36 +37,36 @@ ms.locfileid: "7892173"
 
 | Solución  | Última versión |
 |-------|----|
-| Project Service Automation    | 3.10.58.130 |
-| Suplemento de escritorio de Project Service Automation                | 3.15          |
+| Project Service Automation    | 3.10.59.117 |
+| Suplemento de escritorio de Project Service Automation                | 3.60          |
 
 Para obter información sobre outras actualizacións de Project Service, consulte os [plans de lanzamento de Dynamics 365](/dynamics365/release-plans/). 
 
 | Estación  | Rexión | Versión actual | Seguinte versión |  Data programada
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Estación 1</strong> | |  |  | |
-| | <i>Primeira versión</i> | [3.10.58.120](whats-new-ur-37.md) | A determinar | 03 de decembro de 2021
+| | <i>Primeira versión</i> | [3.10.59.117](whats-new-ur-38.md) | A determinar | 14 de xaneiro de 2022
 |<strong>Estación 2</strong> | |  |  | |
-| | <i>América do Sur</i> | [3.10.58.120](whats-new-ur-37.md) | A determinar | 10 de decembro de 2021
-| | <i>O Canadá</i> | [3.10.58.120](whats-new-ur-37.md) | A determinar | 10 de decembro de 2021
-| | <i>A India</i> | [3.10.58.120](whats-new-ur-37.md) | A determinar | 10 de decembro de 2021
-| | <i>Francia</i> | [3.10.58.120](whats-new-ur-37.md) | A determinar | 10 de decembro de 2021
-| | <i>Sudáfrica</i> | [3.10.58.120](whats-new-ur-37.md) | A determinar | 10 de decembro de 2021
-| | <i>Alemaña</i> | [3.10.58.120](whats-new-ur-37.md) | A determinar | 10 de decembro de 2021
-| | <i>Suíza</i> | [3.10.58.120](whats-new-ur-37.md) | A determinar | 10 de decembro de 2021
+| | <i>América do Sur</i> | [3.10.59.117](whats-new-ur-38.md) | A determinar | 21 de xaneiro de 2022
+| | <i>O Canadá</i> | [3.10.59.117](whats-new-ur-38.md) | A determinar | 21 de xaneiro de 2022
+| | <i>A India</i> | [3.10.59.117](whats-new-ur-38.md) | A determinar | 21 de xaneiro de 2022
+| | <i>Francia</i> | [3.10.59.117](whats-new-ur-38.md) | A determinar | 21 de xaneiro de 2022
+| | <i>Sudáfrica</i> | [3.10.59.117](whats-new-ur-38.md) | A determinar | 21 de xaneiro de 2022
+| | <i>Alemaña</i> | [3.10.59.117](whats-new-ur-38.md) | A determinar | 21 de xaneiro de 2022
+| | <i>Suíza</i> | [3.10.59.117](whats-new-ur-38.md) | A determinar | 21 de xaneiro de 2022
 |<strong>Estación 3</strong> | |  |  | |
-| | <i>O Xapón</i> | [3.10.58.130](whats-new-ur-37-5.md) | A determinar | 17 de decembro de 2021
-| | <i>Asia-Pacífico</i> | [3.10.58.130](whats-new-ur-37-5.md) | A determinar | 17 de decembro de 2021
-| | <i>Gran Bretaña</i> | [3.10.58.130](whats-new-ur-37-5.md) | A determinar | 17 de decembro de 2021
-| | <i>Oceana</i> | [3.10.58.130](whats-new-ur-37-5.md) | A determinar | 17 de decembro de 2021
-| | <i>Emiratos Árabes Unidos</i> | [3.10.58.130](whats-new-ur-37-5.md) | A determinar | 17 de decembro de 2021
+| | <i>O Xapón</i> | [3.10.59.117](whats-new-ur-38.md) | A determinar | 28 de xaneiro de 2022
+| | <i>Asia-Pacífico</i> | [3.10.59.117](whats-new-ur-38.md) | A determinar | 28 de xaneiro de 2022
+| | <i>Gran Bretaña</i> | [3.10.59.117](whats-new-ur-38.md) | A determinar | 28 de xaneiro de 2022
+| | <i>Oceana</i> | [3.10.59.117](whats-new-ur-38.md) | A determinar | 28 de xaneiro de 2022
+| | <i>Emiratos Árabes Unidos</i> | [3.10.59.117](whats-new-ur-38.md) | A determinar | 28 de xaneiro de 2022
 |<strong>Estación 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.58.130](whats-new-ur-37-5.md) | A determinar | 07 de xaneiro de 2022
+| | <i>Europa</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 07 de xaneiro de 2022
 |<strong>Estación 5</strong> | |  |  | |
-| | <i>América do Norte</i> | [3.10.58.130](whats-new-ur-37-5.md) | A determinar | 14 de xaneiro de 2022
+| | <i>América do Norte</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 14 de xaneiro de 2022
 |<strong>Estación 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.58.130](whats-new-ur-37-5.md) | A determinar | 14 de xaneiro de 2022
-| | <i>Grupos de escala dedicados</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.130](whats-new-ur-37-5.md) | 10 de decembro de 2021
+| | <i>Government Community Cloud</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 14 de xaneiro de 2022
+| | <i>Grupos de escala dedicados</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 21 de xaneiro de 2022
 
 
 
