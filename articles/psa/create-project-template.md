@@ -2,6 +2,8 @@
 title: Crear un modelo de proxecto
 description: Como crear un modelo de proxecto en Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1423dfedccfdc471662581707b4441c9ed477f7c0811ccf3905af8c59f774f77
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: efc404131208e1c971cb091cf174c1f4707552f0
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990854"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149361"
 ---
 # <a name="create-a-project-template-project-service"></a>Crear un modelo de proxecto (Project Service)
 
@@ -60,6 +62,3 @@ Os modelos de proxecto afórranlle tempo se a súa empresa realiaza ofertas con 
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía do xestor de proxectos](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

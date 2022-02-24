@@ -2,9 +2,11 @@
 title: Rendemento de programación de recursos de proxecto
 description: Este tema ofrece información sobre como mellorar o rendemento da programación de recursos para un gran número de proxectos.
 author: Yowelle
+manager: AnnBe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: 9dc638a7b2d8e0db45b5acfa5cc9512f356f8b2635028748a1e2c3230605c154
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007279"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076115"
 ---
 # <a name="project-resource-scheduling-performance"></a>Rendemento de programación de recursos de proxecto
 
@@ -67,6 +69,3 @@ Para activar a mellora do rendemento da programación de recursos, complete os s
 
 > [!NOTE]
 > Isto distribuirá datos xerais á táboa **ResRollup** entre todas as empresas do seu ambiente, polo que o traballo por lotes só precisa executarse nunha entidade legal. Este traballo por lotes é necesario para todas as vistas de **Dispoñibilidade de recursos**. Se non se executa este traballo por lotes, os datos de **Resrollup** os datos xeraranse sobre a marcha, o que pode levar algún tempo.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

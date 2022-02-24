@@ -2,16 +2,18 @@
 title: Estimar as vendas e os custos do proxecto cando un recurso reservable ten varios roles nun proxecto
 description: Este tema explica como usar dimensións de prezos para soportar estimacións de prezos e custos dun recurso que cumpra múltiples funcións nun proxecto.
 author: rumant
+manager: tfehr
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 28a67e79b03dfbc38e9786350c931838ef27891a3d26787fc0334e0572528228
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: da17f0f58623128d51fda0f5529182cd37ea41b9
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990134"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531427"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Estimar as vendas e os custos do proxecto cando un recurso reservable ten varios roles nun proxecto 
 
@@ -104,6 +106,3 @@ Cando expande a fila dese rexistro de membro do equipo, pode ver distintas taref
 ### <a name="estimates-grid"></a>Grade de estimacións 
 
 Na grade **Estimacións**, as dúas tarefas para o mesmo recurso teñen un prezo diferente. A atribución do recurso na **Tarefa A** ten un prezo empregando o valor do atributo **Rol** de **Xefe de consultoría**. A atribución do mesmo recurso na **Tarefa B** ten un prezo empregando o valor do atributo **Rol** de **Técnico de rede**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Xestionar propostas de facturas de proxecto
 description: Este tema ofrece detalles sobre o procesamento de facturas orientadas ao cliente con Project Operations para escenarios baseados en recursos/sen fornecemento.
 author: sigitac
-ms.date: 04/12/2021
+manager: Annbe
+ms.date: 01/29/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989909"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089239"
 ---
 # <a name="manage-project-invoice-proposals"></a>Xestionar propostas de facturas de proxecto
 
@@ -78,8 +80,7 @@ Os valores do **Grupo do imposto sobre as vendas** e o **Grupo do imposto sobre 
     - **Cliente** sempre predefinirá o grupo de impostos sobre as vendas de facturación a partir do cliente.
     - **Buscar** buscará en todas as entidades desta lista e seleccionará o primeiro valor dispoñible. A busca comeza coa entidade **Proxecto**, logo a entidade **Contrato do proxecto** e despois a entidade **Cliente**.
 
-- **Grupo de impostos sobre as vendas do elemento fito de prezo fixo** úsase como valor predefinido no campo **Grupo de impostos sobre as vendas de elementos** para o fito de facturación. O contable pode revisar e modificar este valor na páxina **Transaccións a conta**. O sistema utiliza o valor da transacción a conta ao crear unha liña de proposta de factura do proxecto.
- 
+- **Grupo de impostos sobre as vendas individuais de fito de prezo fixo** úsase para predefinir o valor do campo **Grupo do imposto sobre as vendas individuais**.
 
 ### <a name="financial-dimensions"></a>Dimensións financeiras
 
@@ -131,7 +132,7 @@ A páxina **Dar formato ás propostas de factura** permite que as transaccións 
 
 A xestión de impresión utiliza diferentes ficheiros de informe para imprimir, especificar destinos e personalizar o texto do pé de páxina para a factura. A xestión da impresión pódese configurar a nivel de módulo, pero estas opcións pódense anular para un cliente, contrato ou proposta de factura específicos. Para acceder a esta función na páxina **Proposta de factura do proxecto**, seleccione **Imprimir** > **Xestión da impresión**.
 
-A configuración de xestión de impresión móstrase como unha vista de árbore, onde cada nivel de nó mostra os documentos dispoñibles para axustalos. Pode atribuír impresións personalizadas a nivel de módulo, cliente, contrato ou documento de proposta de factura. Para modificar a impresión do documento orixinal, expanda o nó desexado e seleccione **Elemento orixinal**. No campo **Formato do informe**, seleccione o formato do informe que se usará para imprimir. Pode usar formatos de informe personalizados usando [Marco de xestión de documentos empresariais](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+A configuración de xestión de impresión móstrase como unha vista de árbore, onde cada nivel de nó mostra os documentos dispoñibles para axustalos. Pode atribuír impresións personalizadas a nivel de módulo, cliente, contrato ou documento de proposta de factura. Para modificar a impresión do documento orixinal, expanda o nó desexado e seleccione **Elemento orixinal**. No campo **Formato do informe**, seleccione o formato do informe que se usará para imprimir. Pode usar formatos de informe personalizados usando [Marco de xestión de documentos empresariais](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Publicar as propostas de factura
 
@@ -142,6 +143,3 @@ Para ver a factura antes de publicar, borre a caixa de verificación **Publicaci
 Ademais da páxina **Proposta de factura**, as propostas de factura tamén se poden publicar executando a tarefa periódica **Publicar propostas de factura**. Para atopar esta tarefa, vaia a **Xestión e contabilidade de proxectos** > **Periódico** > **Facturas do proxecto** > **Publicar propostas de factura**.
 
 Esta páxina mostra todas as propostas de factura que están listas para publicar. Pode programar a publicación de propostas de factura seleccionando **Lote**. Configure o **Parámetro de procesamento por lotes** a **Si** e configure a repetición do procesamento por lotes seleccionando **Periodicidade**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

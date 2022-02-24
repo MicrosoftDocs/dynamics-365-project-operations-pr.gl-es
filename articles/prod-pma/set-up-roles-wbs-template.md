@@ -2,9 +2,11 @@
 title: Configurar roles nos modelos de estrutura de subdivisión do traballo
 description: Este tema ofrece información sobre como configurar información de roles en modelos de estrutura de subdivisión do traballo.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c84015c46f0a8c9d3d48be1b995d4bdd7fd8ee25b240f455bbe2031f42adc0f5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008899"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076112"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Configurar roles nos modelos de estrutura de subdivisión do traballo
 
@@ -89,7 +91,7 @@ Engadíronse opcións adicionais na WBS para utilizar mellor a funcionalidade de
 
 4. Estableza as datas e o esforzo (horas), como se mostra na seguinte ilustración.
 
-    [![Establecemento de datas e esforzo.](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![Establecemento de datas e esforzo](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. Seleccione a liña da tarefa **Inicio** e, a seguir, no campo **Rol**, seleccione **Xestor de proxectos principal**.
 6. Seleccione **Publicar**.
@@ -105,6 +107,3 @@ Engadíronse opcións adicionais na WBS para utilizar mellor a funcionalidade de
     > Non recibe un aviso de que o recurso especificado é agora 2, porque o número de recursos segue a ser 1.
 
 14. Na páxina **Estrutura de subdivisión do traballo**, valide a asignación de recursos na WBS e logo seleccione **Gardar**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
-title: Informes de gastos reimaxinados (contén vídeo)
+title: Os informes de gastos reinventáronse
 description: Este tema explica a experiencia redeseñada e reinterpretada para a entrada do informe de gastos.
 author: suvaidya
-ms.date: 12/16/2021
+manager: AnnBe
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
-ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
-ms.translationtype: MT
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
+ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7941049"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717693"
 ---
 # <a name="expense-reports-reimagined"></a>Os informes de gastos reinventáronse
 
@@ -26,13 +28,13 @@ A entrada do informe de gastos redeseñouse para simplificar o proceso e reducir
 
 - Unha nova área de traballo de xestión de gastos que lle permite acceder aos gastos do seu delegado.
 - Unha nova experiencia de correspondencia de recibos para amosar mellor os recibos a nivel de cabeceira e simplificar o proceso de anexar recibos ás liñas de gasto.
-- Unha nova grade de só lectura que lle permite ver moitas máis liñas de gasto e outras columnas de datos. Agora pode ver todas as liñas detalladas e divididas, xunto cos seus gastos matriz.
+- Unha nova grade de só lectura que lle permite ver moitas máis liñas de gasto e columnas de datos adicionais. Agora pode ver todas as liñas detalladas e divididas, xunto cos seus gastos matriz.
 - Un panel simplificado para editar gastos.
 - Redeseñáronse as mensaxes de erro, advertencia e política para proporcionar o contexto correcto e a comprensión do problema e como resolvelo. Eliminamos varias das mensaxes que aparecían antes de que os usuarios puidesen completar as súas tarefas e solucionar os problemas.
 - Unha nova páxina para especificar os campos obrigatorios, os campos opcionais e os campos que non deben incluírse. Esta páxina axuda a reducir o número de campos que se deben definir.
 - Un novo aspecto para os informes de gastos, de xeito que os informes xa non parecen deseñados para contables.
 
-Para activar a nova experiencia, use a área de traballo **Xestión de funcionalidades** para activar a funcionalidade **Novo deseño da área de traballo de informes de gastos**. Ao activar esta funcionalidade, prodúcense as seguintes accións:
+Para activar a nova experiencia, use a área de traballo **Xestión de funcionalidades** para activar a funcionalidade **Reinvención dos informes de gastos**. Ao activar esta funcionalidade, prodúcense as seguintes accións:
 
 - A área de traballo de gastos existente substitúese pola nova área de traballo.
 - Engádese un novo elemento de menú para a visibilidade do campo de gastos.
@@ -45,7 +47,7 @@ Para activar a nova experiencia, use a área de traballo **Xestión de funcional
 
 | Nova funcionalidade | Descripción |
 |---|----|
-| Visibilidade do campo de gasto | Unha nova páxina de configuración permítelle especificar que campos se deben desactivar para unha organización. Tamén pode especificar os campos que se requiren e os campos recomendados. |
+| Visibilidade do campo de gasto | Unha nova páxina de configuración permítelle especificar que campos deben desactivarse para unha organización, que campos deben ser obrigatorios e que campos son recomendables. |
 | Campos obrigatorios | A nova configuración sinxela permítelle crear algúns campos necesarios sen ter que empregar o marco de políticas. |
 | Campos opcionais | Engádese unha segunda páxina para campos opcionais. Deste xeito, aos empregados non se sentirán como se debesen establecer os campos, senón que os campos xa son facilmente accesibles. |
 | Engadir recibos non anexados | A capacidade de engadir recibos non anexados ao informe de gastos é máis visible desde a área de traballo e no informe de gastos. |
@@ -57,16 +59,13 @@ Para activar a nova experiencia, use a área de traballo **Xestión de funcional
 | Calculadora de taxa de cambio | Engádese unha calculadora de taxas de cambio que lle permite calcular a taxa de cambio das transaccións multimoeda. |
 | Gardar e engadir novas liñas de gasto | Os botóns **Gardar** e **Novo** están dispoñibles cando se introducen novos gastos para axudarlle a introducir rapidamente as liñas de gastos. |
 | Mellor visibilidade en liñas divididas e detalladas | As liñas detalladas e divididas engádense directamente á lista de gastos para aumentar a visibilidade e axudarlle a determinar facilmente se hai algún erro. |
-| Ver detalles da subcategoría en liñas detalladas | As liñas detalladas dun gasto principal amosan as etiquetas da subcategoría no informe de gastos. A itemización permítelle revisar os detalles granulares dunha ollada.|
-|Desglose rapidamente os gastos recorrentes | O espazo de traballo de gastos reimaxinado ofrece a posibilidade de detallar os gastos recorrentes rapidamente engadindo a subcategoría, a data de inicio e a cantidade. A cantidade refírese ao número de veces que se repite a carga nun período continuo. |
 | Amosar recibos durante a itemización | Os recibos pódense mostrar durante a itemización. |
 | Selección de adianto en efectivo | Seleccione un ou máis adiantos en efectivo para realizar unha única transacción de gasto. |
 | Saldo de adiantos en efectivo | Revise o saldo de adiantos en efectivo en tempo real cando cree unha entrada de gasto fronte a adiantos en efectivo aprobados e pagados. |
 
 A versión inicial céntrase en situacións de entrada de gastos. Calquera situación de revisión ou aprobación do informe de gastos seguirá utilizando a páxina de entrada de gastos existente.
 
-
-As seguintes funcionalidades non son compatibles no redeseño da área de traballo de informes de gastos, pero están previstas para futuras versións: 
+As seguintes funcionalidades non son compatibles na área de traballo de gastos reinterpretada:
 
 - Integración de solicitude de viaxe
 - Entrada de gastos de dietas

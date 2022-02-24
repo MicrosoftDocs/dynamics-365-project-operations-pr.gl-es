@@ -2,26 +2,28 @@
 title: Visión xeral de estruturas de subdivisión do traballo
 description: Unha estrutura de subdivisión do traballo (WBS) é unha descrición do traballo que se realizará para un proxecto. É unha xerarquía de tarefas que representa a comprensión do equipo do proxecto sobre a composición do traballo e sobre o tamaño, custo e duración de cada compoñente ou tarefa.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 23861
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 093f9901aec0db1fa8f920533c0084f877f26445fd07159e8e1ae0cf53849641
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998819"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076107"
 ---
 # <a name="work-breakdown-structures-overview"></a>Visión xeral de estruturas de subdivisión do traballo
 
@@ -100,7 +102,7 @@ Actualmente, non se pode personalizar a numeración de WBS.
 
 ### <a name="schedule-estimation"></a>Estimación de programación
 
-A estimación da programación adoita ser o segundo paso para crear unha WBS. Como mellor práctica, debería completar a estimación da programación despois de crear as tarefas. A páxina **Estrutura de subdivisión do traballo** en Finance ten dúas seccións. O panel superior está destinado á estimación de programación e o panel inferior inclúe un separador de **Custos e ingresos estimados** que pode empregar para a estimación de custos. 
+A estimación da programación adoita ser o segundo paso para crear unha WBS. Como mellor práctica, debería completar a estimación da programación despois de crear as tarefas. A páxina **Estrutura de subdivisión do traballo** en Finanzas ten dúas seccións. O panel superior está destinado á estimación de programación e o panel inferior inclúe un separador de **Custos e ingresos estimados** que pode empregar para a estimación de custos. 
 **Dependencias de tarefas** Nunha WBS, pode crear unha relación predecesora entre tarefas. Cando atribúe tarefas predecesoras a unha tarefa, esa tarefa só pode iniciarse despois de que conclúan todas as súas tarefas predecesoras. A data de inicio planificada da tarefa establécese automaticamente na data máis recente de todas as súas predecesoras. 
 
 **Programación de tarefas** Os seguintes factores determinan a programación das tarefas do nó folla:
@@ -251,7 +253,7 @@ Finanzas usa a regra de ganancia 0:100 cando representa graficamente o valor ga�
 Cando se calcula o valor gañado, considérase a porcentaxe de progreso de cada tarefa. Segundo a regra de ganancia 0:100, só se consideran as tarefas que se realizan nun período determinado para o cálculo do valor obtido a partir do final dese período. O valor gañado no proxecto calcúlase para todas as tarefas que se completaron cando se crea o gráfico. 
 
 > [!NOTE] 
-> Actualmente, o sistema para WBS non ten estruturas de datos para almacenar porcentaxes de progreso histórico en cada tarefa. Polo tanto, o valor obtido só se pode informar no momento en que se procesa o cubo. Procese o cubo regularmente para actualizar os datos do valor obtido que se amosan no centro de roles. 
+> Actualmente, o sistema de rastrexo de WBS non ten estruturas de datos para almacenar porcentaxes de progreso histórico en cada tarefa. Polo tanto, o valor obtido só se pode informar no momento en que se procesa o cubo. Procese o cubo regularmente para actualizar os datos do valor obtido que se amosan no centro de roles. 
 
 **Custo real** A teoría de EVM afirma que a representación gráfica do custo real representa a velocidade coa que se gasta o diñeiro no proxecto. 
 
@@ -314,6 +316,3 @@ Como alternativa, pode corrixir os erros de programación individualmente premen
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

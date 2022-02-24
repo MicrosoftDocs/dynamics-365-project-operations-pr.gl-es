@@ -2,17 +2,18 @@
 title: Visión xeral da utilización de recursos
 description: Este tema fornece información sobre a utilización de recursos en Project Operations.
 author: ruhercul
+manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 152f85669b56d128a7bb2317ee2cf0857c90ade1273d47ad1f0f387e00a6bbd8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002059"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401374"
 ---
 # <a name="resource-utilization-overview"></a>Visión xeral da utilización de recursos
 
@@ -44,6 +45,3 @@ Ademais, debe atribuírse un rol predefinido a cada recurso reservable. Vaia a *
 No separador **Project Service**, tamén pode configurar unha utilización obxectivo individual para o recurso. A seguir, o cálculo de utilización usa esa utilización obxectivo para avaliar o obxectivo do recurso no canto do obxectivo do rol predefinido do recurso.
 
 A utilización móstrase só para un recurso só se ese recurso ten un tempo imputable acordado durante o período que se amosa na grade.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

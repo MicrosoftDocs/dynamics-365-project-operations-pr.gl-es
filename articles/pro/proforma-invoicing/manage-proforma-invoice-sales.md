@@ -1,19 +1,21 @@
 ---
-title: Xestionar unha factura proforma de proxecto
-description: Este tema ofrece información sobre como traballar con facturas proforma de proxecto.
+title: Xestionar unha factura proforma - lite
+description: Este tema ofrece información adicional para programadores sobre o traballo con facturas proforma.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f14cf9d5ee25247500180081b8f407ee311db481a5ef5eac330e75d45baba54a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997424"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181540"
 ---
-# <a name="manage-a-proforma-project-invoice"></a>Xestionar unha factura proforma de proxecto 
+# <a name="manage-a-proforma-invoice---lite"></a>Xestionar unha factura proforma - lite
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
@@ -67,9 +69,9 @@ En Project Operations, sempre hai unha liña de factura por cada liña de contra
 
 Cada liña de factura dunha factura de proxecto inclúe os detalles da liña de factura. Estes detalles de liña están relacionados cos datos reais e fitos de vendas non facturadas relacionadas coa liña de contrato referenciada pola liña de factura. Todas estas transaccións están marcadas **Listo para facturar**.
 
-Para unha liña de **Factura de tempo e material**, os detalles da liña de factura agrúpanse en **Imputable**, **Non imputable** e **Gratuíto** na páxina **Liña de factura**. Os detalles da **Liña de factura imputable** ao total da liña de factura. **Gratuíto** e **Datos reais non imputables** non se suman ao total da liña de factura.
+Para a liña **Factura de tempo e material**, os detalles da liña de factura agrúpanse en **Imputable**, **Non imputable** e **Gratuíto** na páxina **Liña de factura**. Os detalles da **Liña de factura imputable** ao total da liña de factura. **Gratuíto** e **Datos reais non imputables** non se suman ao total da liña de factura.
 
-Para unha liña de **Factura de prezo fixo**, os detalles da liña da factura créanse a partir de fitos marcados como **Listo para facturar** na liña de contrato relacionada. Despois de crear o detalle da liña de factura a partir dun fito, o estado de facturación do fito actualízase a **Factura do cliente creada**.
+Para a liña **Factura de prezo fixo**, os detalles da liña de factura créanse a partir de fitos marcados como **Listo para facturar** na liña de contrato relacionada. Despois de crear o detalle da liña de factura a partir dun fito, o estado de facturación do fito actualízase a **Factura do cliente creada**.
 
 ### <a name="edit-invoice-line-details"></a>Editar detalles da liña de factura
 
@@ -96,12 +98,8 @@ Os seguintes campos están dispoñibles nun detalle da liña de factura que est�
 | **Imposto** | Definido por defecto a partir do dato real de orixe. O campo pode ser editado polo usuario | O campo pode ser editado polo usuario cando crea un novo detalle de liña de factura sen o apoio dun dato real. |
 | **Importe estendido** | Un campo calculado, calculado como **Importe + Imposto**. Un campo de só lectura que está bloqueado para a edición. | &nbsp; |
 | **Tipo de facturación** | Definido por defecto a partir do dato real de orixe. O campo pode ser editado polo usuario. | Ao seleccionar **imputable** engádese a liña ao total da liña de factura. **Gratuíto** e **Non imputable** excluirano do total da liña de factura. |
-| **Seleccionar produto** | Establecido por defecto a partir do dato real de orixe, este é un campo de só lectura. | Cando crea un novo detalle de liña de factura sen un dato real de respaldo, pódese editar este campo. |
-| **Produto** | Establecido por defecto a partir do dato real de orixe, este é un campo de só lectura. | Cando cree un novo detalle de liña de factura sen un respaldo real, este campo pode editarse se o campo **Seleccionar produto** está definido como **Produto existente**. |
-| **Nome do produto** | Establecido por defecto a partir do dato real de orixe, este é un campo de só lectura. | Nunha nova liña de factura, onde se selecciona o ID do produto do catálogo, este campo configúrase co nome do produto. Para un produto fóra de catálogo, o campo configúrase co nome fóra de catálogo. |
-| **Descrición do produto fóra de catálogo** | Establecido por defecto a partir do dato real de orixe, este campo é de só lectura. | Cando crea un novo detalle de liña de factura sen un dato real de respaldo, pode engadir unha descrición do produto. |
 | **Tipo de transacción** | Definido por defecto a partir do dato real de orixe. Un campo de só lectura que está bloqueado para a edición. | Definido por defecto en **Vendas facturadas** e bloqueado ao crear un novo **Detalle da liña de factura** sen o apoio dun dato real.  |
-| **Clase de transacción** | Definido por defecto a partir do dato real de orixe. Un campo de só lectura que está bloqueado para a edición. | Definido de xeito predefinido en función de se o usuario elixe crear un de talle de liña de factura de **Tempo**, **Gasto**, **Material** ou **Taxa** detalle da liña de factura á vez que se crea un novo **Detalle de liña de factura** sen un dato real de respaldo. Bloqueado para a edición. |
+| **Clase de transacción** | Definido por defecto a partir do dato real de orixe. Un campo de só lectura que está bloqueado para a edición. | Definido por defecto en función de se o usuario elixe crear un detalle de liña de factura de **Tempo**, **Gasto** ou **Taxa** á vez que se crea tamén un novo **Detalle de liña de factura** sen o apoio dun dato real. Bloqueado para a edición. |
 
 Os seguintes campos están dispoñibles nun detalle da liña de factura que está apoiado por un fito:
 
@@ -146,6 +144,3 @@ Se ten datos reais que chegaron despois de crearse a factura, pode incluílos na
 En Project Operations, pode crear liñas de factura para produtos que non se aplican a ningún proxecto ou para todos os proxectos xunto con liñas de factura baseada en proxecto. Estas liñas de factura créanse como liñas de contrato baseado en produto e despois márcanse como listas para facturar, engádense como liñas de factura baseada en produto.
 
 Despois de engadir liñas de factura baseada en produto, non se poden cambiar. Non obstante, pódense eliminar do borrador de factura proforma.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,17 +2,18 @@
 title: Visión xeral da facturación entre empresas
 description: Este tema ofrece información e exemplos sobre a facturación entre empresas para proxectos.
 author: sigitac
+manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005389"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595467"
 ---
 # <a name="intercompany-invoicing-overview"></a>Visión xeral da facturación entre empresas
 
@@ -20,9 +21,9 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 
 A súa organización pode ter varias divisións, filiais e outras persoas xurídicas que se transfiren produtos e servizos entre si para proxectos. A entidade legal que presta o servizo ou fornece o produto chámase *entidade legal prestamista*. A entidade legal que recibe o servizo ou produto chámase *entidade legal prestameira*.
 
-A seguinte ilustración mostra un escenario típico onde dúas persoas xurídicas, Contoso Robotics Estados Unidos (a entidade legal prestameira) e Contoso Robotics Reino Unido (a entidade legal prestamista) comparte recursos para entregar un proxecto ao cliente, Adventure Works. Para este escenario, contrátase a Contoso Robotics Estados Unidos para entregar o traballo a Adventure Works.
+A seguinte ilustración mostra un escenario típico no que dúas entidades legais, Contoso Robotics USA (a entidade legal en prestameira) e Contoso Robotics UK (a entidade legal prestamista), comparten recursos para entregar un proxecto ao cliente, Adventure Works. Para este escenario, Contoso Robotics USA está contratada para entregar o traballo a Adventure Works.
 
-![Facturación entre empresas.](./media/IntercompanyScenario.png) 
+![Facturación entre empresas](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations usa o seguinte fluxo para procesar transaccións entre empresas:
 
@@ -35,13 +36,10 @@ Dynamics 365 Project Operations usa o seguinte fluxo para procesar transaccións
 
 O seguinte diagrama ilustra a facturación entre empresas relacionada con eventos de contabilidade e anotacións esperadas no libro maior xeral.
 
-![Fluxo entre empresas.](./media/IntercompanyFlow.png)
+![Fluxo entre empresas](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 - [Configurar a facturación entre empresas](configure-intercompany-invoicing.md)
 - [Rexistrar transaccións entre empresas](create-intercompany-transactions.md)
 - [Crear facturas entre empresas de clientes e fornecedores](create-intercompany-customer-vendor-invoices.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

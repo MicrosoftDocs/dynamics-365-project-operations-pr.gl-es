@@ -4,14 +4,8 @@
   items:
     - name: Determinar o seu tipo de despregamento
       href: environment/determine-deployment-type.md
-    - name: Rexistro para as probas de Project Operations
-      href: environment/admin-trials.md
     - name: Actualizacións de Project Operations
       href: whats-new/project-operations-updates.md
-    - name: Funcionalidades eliminadas ou obsoletas
-      items:
-        - name: Funcionalidades eliminadas ou obsoletas en Project Operations
-          href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations para situacións baseadas en recursos/sen fornecemento
   items:
     - name: Introdución
@@ -34,8 +28,6 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Despregar ambientes
           items:
-            - name: Despregar manualmente a aplicación Project Operations Dataverse con soporte de escrita dual
-              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Fornecer un novo ambiente
               href: environment/resource-provision-new-environment.md
             - name: Modelo de seguranza
@@ -58,26 +50,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Integración de facturas do fornecedor
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: Desinstalar Dynamics 365 Project Operations
-          href: environment/uninstall-project-operations.md
     - name: Novidades
       items:
-        - name: Decembro de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: Novembro de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: Outubro de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: Setembro de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: Agosto de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: Xullo de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: Xuño de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: Maio de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
-          href: whats-new/whats-new-may-2021-resource-based.md
         - name: Abril de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Marzo de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
@@ -306,12 +280,8 @@
           items:
             - name: Desenvolver modelos de proxecto con Copiar proxecto
               href: project-management/dev-copy-project.md
-            - name: Usar as API de programación de proxectos
+            - name: Usar as API de programación (versión preliminar pública)
               href: project-management/schedule-api-preview.md
-            - name: Desempeño da API de programación de proxectos
-              href: project-management/project-schedule-api-performance.md
-            - name: Rexistros de programación de proxectos
-              href: project-management/schedule-api-logs.md
     - name: Xestión de recursos
       items:
         - name: Conceptos clave
@@ -404,10 +374,6 @@
               href: expense/set-up-credit-card-integration.md
             - name: Configurar categorías de gasto
               href: expense/set-up-expense-categories.md
-            - name: Configurar a quilometraxe empregando niveis de taxa de quilometraxe
-              href: expense/set-up-mileage.md
-        - name: Detalle de gastos
-          href: prod-exp/expense-itemization.md
         - name: Gastos persoais
           href: expense/personal-expenses-expense-report.md
         - name: Gastos entre empresas
@@ -442,8 +408,6 @@
       items:
         - name: Visión xeral das aprobacións
           href: approvals/approvals-overview.md
-        - name: Conxuntos de aprobacións
-          href: approvals/approval-sets.md
         - name: Notas do programador
           items:
             - name: Notas do programador para as aprobacións
@@ -464,18 +428,12 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Adquirir materiais sen fornecemento para proxectos mediante facturas pendentes do fornecedor
           href: procurement/pending-vendor-invoices.md
-        - name: Pedir materiais sen fornecemento para proxectos mediante pedidos de compra de proxectos
-          href: procurement/non-stocked-materials-project-purchase-orders.md
-        - name: Retención de fornecedores
-          items:
-            - name: Visión xeral da retención de fornecedores
-              href: procurement/vendor-retention-overview.md
-            - name: Configurar a retención de fornecedores
-              href: procurement/set-up-vendor-retention.md
     - name: Facturación
       items:
         - name: Visión xeral do proceso de facturación
           href: invoicing/post-project-invoices.md
+        - name: Xestionar propostas de factura de proxecto
+          href: invoicing/format-update-project-invoice-proposals.md
         - name: Facturación proforma
           items:
             - name: Xestionar o traballo pendente de facturación baseado en proxecto
@@ -494,22 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Configurar automatización de facturas baseadas en proxecto
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Facturación de cliente
-          items:
-            - name: Xestionar propostas de factura de proxecto
-              href: invoicing/format-update-project-invoice-proposals.md
-            - name: Corrixir a contabilidade nos borradores de propostas de factura do proxecto
-              href: invoicing/correct-project-invoice-proposals.md
-        - name: Facturación entre empresas
-          items:
-            - name: Visión xeral da facturación entre empresas
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Configurar a facturación entre empresas
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Crea transaccións entre empresas
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Crear facturas entre empresas de clientes e fornecedores
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+        - name: Xestionar propostas de factura de proxecto
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: Contabilidade de proxectos
       items:
         - name: Valores predefinidos das dimensións financeiras
@@ -522,6 +466,16 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Diario de integración en Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: Facturación entre empresas
+          items:
+            - name: Visión xeral da facturación entre empresas
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Configurar a facturación entre empresas
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Crea transaccións entre empresas
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Crear facturas entre empresas de clientes e fornecedores
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Recoñecemento de ingresos
       items:
         - name: Visión xeral do recoñecemento de ingresos
@@ -538,12 +492,6 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Xestionar estimacións de ingresos
           href: revenue-recognition/rev-rec-completed-contract-method.md
-    - name: Resolución de problemas
-      items:
-        - name: Proceso de vendas de proxecto
-          items:
-            - name: 'Produciuse un erro de falta de coincidencia de moeda ao crear un proxecto, un contrato, unha oferta ou un recurso reservable'
-              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: 'Despregamento de Lite: acordo para facturación proforma'
   items:
     - name: Introdución
@@ -560,24 +508,6 @@
           href: environment/security-model.md
     - name: Novidades
       items:
-        - name: Novidades de acceso anticipado da onda 2 de 2021 - despregamento lite
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: Novidades de decembro de 2021 - despregamento lite
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: Novidades de novembro de 2021 - despregamento lite
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: Novidades de outubro de 2021 - despregamento lite
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: Novidades de setembro de 2021 - despregamento lite
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: Novidades de agosto de 2021 - despregamento lite
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: Novidades de xullo de 2021 - despregamento lite
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: Novidades de xuño de 2021 - despregamento lite
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: Novidades de maio de 2021 - despregamento lite
-          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Novidades de abril de 2021 - despregamento lite
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Novidades de marzo de 2021 - despregamento lite
@@ -826,10 +756,8 @@
           items:
             - name: Desenvolver modelos de proxecto con Copiar proxecto
               href: project-management/dev-copy-project.md
-            - name: Usar as API de programación de proxectos
+            - name: Usar as API de programación (versión preliminar pública)
               href: project-management/schedule-api-preview.md
-            - name: Desempeño da API de programación de proxectos
-              href: project-management/project-schedule-api-performance.md
     - name: Xestión de recursos
       items:
         - name: Conceptos clave
@@ -886,44 +814,6 @@
           items:
             - name: Visión xeral da utilización de recursos
               href: resource-management/resource-utilization-overview.md
-    - name: Xestión de subcontratos en Project Operations
-      items:
-        - name: Xestión de subcontratos en Project Operations
-          href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: Acceso anticipado a subcontratación en outubro de 2021
-          href: pro/subcontracting/Subcontracting_EA_scope.md
-        - name: Conceptos clave na subcontratación
-          href: pro/subcontracting/key-concepts-subcontracting.md
-        - name: Xestión de fornecedores e listas de prezos do proxecto
-          href: pro/subcontracting/vendors-purchase-price-lists.md
-        - name: Os subcontratistas como recursos reservables
-          href: pro/subcontracting/subcontractors-as-bookable-resources.md
-        - name: Detalles da cabeceira para subcontratos
-          href: pro/subcontracting/subcontract-header-details.md
-        - name: Liñas de subcontrato para tempo
-          href: pro/subcontracting/subcontract-line-time.md
-        - name: Liñas de subcontrato para categorías de gasto
-          href: pro/subcontracting/subcontract-line-expense.md
-        - name: Liñas de subcontrato para produtos
-          href: pro/subcontracting/subcontract-line-products.md
-        - name: Recursos de liña de subcontratista
-          href: pro/subcontracting/subcontract-line-resources.md
-        - name: Fitos da liña de subcontrato
-          href: pro/subcontracting/subcontract-line-milestones.md
-        - name: Subcontratación dos membros do equipo do proxecto
-          href: pro/subcontracting/subcontracting-project-team-members.md
-        - name: Opcións de subcontratación dos membros do equipo do proxecto
-          href: pro/subcontracting/subcon-options.md
-        - name: Estimación de custos das atribucións de recursos subcontratados
-          href: pro/subcontracting/costing-subcon-ra.md
-        - name: Configurar o panel de programación para mostrar os traballadores contratados e a capacidade subcontratada
-          href: pro/subcontracting/configure-sb-subcon.md
-        - name: Dotación de persoal dun proxecto con traballadores contratados e capacidade subcontratada
-          href: pro/subcontracting/staffing-cw.md
-        - name: 'Rexistro de tempo, gastos e uso de material para compoñentes subcontratados'
-          href: pro/subcontracting/recording-subcon-actuals.md
-        - name: Transicións de estado nun subcontrato
-          href: pro/subcontracting/subcon-states.md
     - name: Tempo
       items:
         - name: Visión xeral do tempo
@@ -950,8 +840,6 @@
       items:
         - name: Visión xeral das aprobacións
           href: approvals/approvals-overview.md
-        - name: Conxuntos de aprobacións
-          href: approvals/approval-sets.md
         - name: Notas do programador
           items:
             - name: Notas do programador para as aprobacións
@@ -988,15 +876,7 @@
   items:
     - name: Novidades
       items:
-        - name: Novidades de outubro 2021 - Project Operations para situacións baseadas en produción/con fornecemento
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: Novidades de setembro 2021 - Project Operations para situacións baseadas en produción/con fornecemento
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: Novidades de xullo de 2021 - Project Operations para situacións baseadas en produción/con fornecemento
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: Novidades de maio de 2021 - Project Operations para situacións baseadas en produción/con fornecemento
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
-        - name: Novidades de abril de 2021 - Project Operations para situacións baseadas en produción/con fornecemento
+        - name: Novidades de abril 2021 - Project Operations para situacións baseadas en produción/con fornecemento
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Novidades de marzo 2021 - Project Operations para situacións baseadas en produción/con fornecemento
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
@@ -1148,24 +1028,6 @@
       items:
         - name: Programación de versións de actualización para Project Service 3.x
           href: psa/version-history-ps.md
-        - name: 'Novidades ou cambios na versión 38 de actualización, V3'
-          href: psa/whats-new-ur-38.md
-        - name: 'Novidades ou cambios na versión 37.5 de actualización, V3'
-          href: psa/whats-new-ur-37-5.md
-        - name: 'Novidades ou cambios na versión 37 de actualización, V3'
-          href: psa/whats-new-ur-37.md
-        - name: 'Novidades ou cambios na versión 36 de actualización, V3'
-          href: psa/whats-new-ur-36.md
-        - name: 'Novidades ou cambios na versión 35 de actualización, V3'
-          href: psa/whats-new-ur-35.md
-        - name: 'Novidades ou cambios na versión 34 de actualización, V3'
-          href: psa/whats-new-ur-34.md
-        - name: 'Novidades ou cambios na versión 33 de actualización, V3'
-          href: psa/whats-new-ur-33.md
-        - name: 'Novidades ou cambios na versión 32.5 de actualización, V3'
-          href: psa/whats-new-ur-32-5.md
-        - name: 'Novidades ou cambios na versión 32 de actualización, V3'
-          href: psa/whats-new-ur-32.md
         - name: 'Novidades ou cambios na versión 31 de actualización, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Novidades ou cambios na versión 30 de actualización, V3'
@@ -1236,8 +1098,6 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Guía de informes
           href: psa/implementation-guides/reporting-guide.md
-    - name: Actualizar de Project Service Automation a Project Operations - lite
-      href: psa/upgrade-project-operations-non-stocked.md
     - name: Actualización de Project Service Automation (versión 3.x da aplicación)
       items:
         - name: Actualización de Project Service Automation
@@ -1406,8 +1266,6 @@
               href: psa/time-entry-calendar.md
             - name: Personalizar entrada de tempo semanal
               href: psa/time-entry-extensibility-v3.md
-            - name: Conxuntos de aprobacións en Project Service Automation
-              href: psa/approval-set.md
     - name: Preguntas máis frecuentes e resolución de problemas (3.x)
       items:
         - name: Por que o prezo por defecto é cero nos datos reais de custos de gastos?

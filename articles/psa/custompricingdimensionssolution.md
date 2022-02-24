@@ -2,10 +2,12 @@
 title: Crear solucións personalizadas para as dimensións de prezos
 description: Este tema explica como crear unha solución personalizada ao crear dimensións de prezos personalizadas.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995264"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144637"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Crear solucións personalizadas para as dimensións de prezos
 
@@ -32,7 +34,7 @@ ms.locfileid: "6995264"
 1. Seleccione **Configuración** > **Solucións** e logo seleccione **Nova**. 
 2. Poña nome á solución, **\<your organization name> dimensións de prezos**, introduza a información restante necesaria e logo seleccione **Gardar**.
 
-> ![Creación dunha solución personalizada para as dimensións de prezos.](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Creación dunha solución personalizada para as dimensións de prezos](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Engadir todas as entidades requiridas e os compoñentes relacionados á solución de dimensión de prezos
 Terá que engadir as seguintes entidades de Project Service á súa solución de prezos. Complete os pasos deste procedemento para facer algúns cambios importantes do esquema na solución de prezos para que as entidades teñan coñecemento das novas dimensións de prezos.
@@ -54,18 +56,15 @@ Terá que engadir as seguintes entidades de Project Service á súa solución de
 - Prezo do rol 
 - Entrada de tempo 
 
-> ![Engadir entidades existentes á solución de dimensións de prezos.](media/Existing-entities-to-PD-solution.png)
+> ![Engadir entidades existentes á solución de dimensións de prezos](media/Existing-entities-to-PD-solution.png)
 
-> ![Seleccionar compoñentes da solución.](media/Dimension-Components.png)
+> ![Seleccionar compoñentes da solución](media/Dimension-Components.png)
 
 > [!NOTE]
 > Asegúrese de incluír todos os formularios e vistas para cada unha das entidades seleccionadas.
 
 4. Cando se lle solicite incluír calquera entidade dependente para as entidades seleccionadas, seleccione **Non**.
 
-> ![Non incluír todos os compoñentes relacionados.](media/Do-not-include-required.png)
+> ![Non incluír todos os compoñentes relacionados](media/Do-not-include-required.png)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

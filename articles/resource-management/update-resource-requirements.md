@@ -2,16 +2,18 @@
 title: Editar un requisito de recurso
 description: Este tema fornece información sobre a actualización da información dos requisitos de recursos.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8c80c7148df972e542ea1952ef333b3c7c2709b4409ffaf0508f8f617d5f9894
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999764"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128776"
 ---
 # <a name="edit-a-resource-requirement"></a>Editar un requisito de recurso
 
@@ -35,5 +37,3 @@ Como xestor de proxectos, complete os seguintes pasos para editar o requisito de
 ## <a name="edit-resource-assignment-contours"></a>Editar contornos de atribución de recursos
 
 Ademais de editar os detalles dos requisitos de recursos, un xestor de proxectos pode actualizar os contornos individuais do requisitos de recursos usando a funcionalidade **Especificar padrón**. Cando se selecciona **Especificar padrón**, ábrese unha páxina e pode ver os contornos na escala de día, semana ou mes. Cada contorno pódese axustar para a hora de inicio, hora de finalización e esforzo total nun período determinado.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Ofertas de proxecto
 description: Este artigo introduce o concepto de ofertas de proxectos, que pode usar para facer unha oferta atractiva a un cliente como primeiro paso da fase do proxecto. Unha oferta de proxecto podería incluír os artigos e servizos que se ofertan, información básica de contacto, acordos comerciais especiais e descontos e posibles impostos e recargas.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationProjTable
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 987444e66bb1b151065bfc8a92a021cd8fdd9cf07aee31780bf7607dc4de221c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ffb8d4bfefac52f65245f4ed6e4be216f5dc10e7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008944"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076119"
 ---
 # <a name="project-quotations"></a>Ofertas de proxecto
 
@@ -39,6 +41,3 @@ Se o cliente aproba a oferta do proxecto, pode copiar a información da oferta d
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

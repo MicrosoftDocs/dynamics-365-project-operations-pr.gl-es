@@ -2,25 +2,27 @@
 title: Visión xeral da conciliación de recursos
 description: Este tema ofrece información que o axudará a garantir que as reservas de recursos e as atribucións para proxectos estean aliñadas.
 author: ruhercul
+manager: AnnBe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: intro-internal
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1542e97955902486d22ca637514e4e121fae70e2b227cafc7020c031061b5f98
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
+ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994769"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "4849622"
 ---
 # <a name="resource-reconciliation-overview"></a>Visión xeral da conciliación de recursos
 
@@ -46,6 +48,3 @@ Se ten atribucións de tarefas para un recurso pero non ten reservas, seleccione
 As reservas que se crean a través da acción **Estender reserva** está asociada ao requisito principal do proxecto. Cando se inicia unha extensión, non se pode determinar o requisito específico que debe estenderse, porque o recurso pode estar asociado a máis dun requisito para o proxecto.
 
 O xestor de proxectos ou xestor de recursos pode utilizar o panel de programación para xestionar calquera situación na que un recurso estea sobrecargado fóra da súa capacidade.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

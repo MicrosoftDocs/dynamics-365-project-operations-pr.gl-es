@@ -2,6 +2,8 @@
 title: Novidades ou cambios na versión 20 de actualización de Project Service Automation, V3
 description: Este tema mostra as funcionalidades e correccións que están dispoñibles la versión 20 de actualización de Project Service Automation, V3
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9939e2f354b69dcbc304f4f6e2ac41a00f251fed69f37978059f4053335ee651
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993599"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147111"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Versión 20 de actualización de Project Service Automation, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Comprácenos anunciar a última actualización da aplicación Project Service Automation para Dynamics 365. Esta versión inclúe algunhas melloras importantes na calidade, rendemento e facilidade de uso. Esta versión é compatible con Dynamics 365 9.x. Para actualizar a esta versión, visite a paxina de solucións do Centro de administración para Dynamics 365 en liña para instalar a actualización. Para obter máis información, consulte [Instalar, actualizar ou eliminar unha solución preferida](/power-platform/admin/install-remove-preferred-solution)
+Comprácenos anunciar a última actualización da aplicación Project Service Automation para Dynamics 365. Esta versión inclúe algunhas melloras importantes na calidade, rendemento e facilidade de uso. Esta versión é compatible con Dynamics 365 9.x. Para actualizar a esta versión, visite a paxina de solucións do Centro de administración para Dynamics 365 en liña para instalar a actualización. Para obter máis información, consulte [Instalar, actualizar ou eliminar unha solución preferida](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)
 
 Este tema mostra as funcionalidades e correccións que son novas ou modificadas para Project Service Automation V3, versión 20 de actualización. Esta versión ten un número de compilación de V 3.10.31.37 e está xeralmente dispoñible a través dunha actualización automática en xuño de 2020.
 
@@ -40,7 +42,7 @@ Resolvéronse os seguintes problemas:
 
 - A importación dos membros do equipo do proxecto cun método de atribución que require horas ten como resultado unha mensaxe de erro pouco clara cando as horas especificadas son cero.
 - Os usuarios reciben un erro incorrecto cando se introduciu o número máximo de caracteres no campo **Descrición** para unha tarefa de proxecto.
-- A páxina **Descarga de complementos de Microsoft Dynamics 365 Project Service Automation** redirixe á páxina de descarga en inglés cando a configuración de idioma do usuario está definida en xaponés.
+- A páxina **Descarga de suplementos de Microsoft Dynamics 365 Project Service Automation** redireccionan á páxina de descargas en inglés cando a configuración do idioma do usuario é o xaponés.
 - Cando se produce un erro no servidor, a etiqueta de sincronización no separador **Programar** do formulario **Proxectos** permanece ás veces.
 - As actualizacións de tarefas redundantes envíanse ao servidor cando se modifica unha tarefa.
 
@@ -60,6 +62,3 @@ Resolvéronse os seguintes problemas:
 - As listas de **Prezo de custo da unidade organizativa** permiten solapamentos na data de validez.
 - Os usuarios non teñen permiso para cambiar **OrgUnit** cando o tipo de pedido non está baseado en traballo, porque levará a un erro de excepción de referencia nula.
 - Ao intentar navegar desde o formulario **Detalles da liña de oferta**, ao volver ao separador **Oferta**, o formulario actualízase e mostra o separador **Resumo**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

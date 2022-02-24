@@ -2,6 +2,8 @@
 title: Progreso do proxecto e consumo de custos
 description: Este tema ofrece información sobre o rastrexo do progreso do proxecto e o consumo de custos.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8bde19fbf1dd9f0c760455ecb7f7f2bd14a358d441bf024ec0cdefa42866f53e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0b69cee49e028b98bbb32e4a7e7aedf5479527dc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987164"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148011"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Progreso do proxecto e consumo de custos
 
@@ -96,6 +98,3 @@ Os datos de rastrexo nas vistas **Rastrexo do esforzo** e **Rastrexo de custos**
 O campo **Estado xeral do proxecto** é un campo editable que amosa o estado xeral do proxecto. Emprega codificación de cores, como verde, amarelo e vermello, para indicar un risco crecente. O campo **Comentarios** permítelle ao xestor de proxectos introducir comentarios específicos sobre o estado. O campo **Estado actualizado o** non se pode editar e o valor é unha marca de tempo que indica cando se actualizou o estado por última vez.
 
 Os campos **Rendemento de programación** e **Rendemento de custos** defínense a partir da data de rastrexo. Cando a varianza de programación e custo para o nó raíz na vista **Rastrexo do esforzo** é positiva, pode axustar estes campos a **Adiantado**. Cando o calendario e a varianza de custos para o nó raíz son negativos, pode configuralos en **Atrasado**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

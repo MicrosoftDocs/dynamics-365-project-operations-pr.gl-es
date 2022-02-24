@@ -2,18 +2,19 @@
 title: Visión xeral das dimensións de prezos
 description: Este tema fornece información sobre as dimensións de prezos en Dynamics 365 Project Operations.
 author: rumant
+manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001969"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650187"
 ---
 # <a name="pricing-dimensions-overview"></a>Visión xeral das dimensións de prezos
 
@@ -33,7 +34,7 @@ Por iso, hai dous tipos de valores de dimensión de prezos dispoñibles:
 
 Dynamics 365 Project Operations envíase cun conxunto predefinido de dimensións de prezos. Pode ver estas dimensións de prezos indo a **Project Operations** > **Parámetros**. No rexistro de parámetros, no separador **Dimensións de prezos baseados na cantidade**, verifique que o rol, **msdyn_resourcecategory**, e a unidade organizativa de recursos, **msdyn_organizationalunit** teñan os campos **Aplicable a vendas** e **Aplicable a custo** establecidos en **Si**. Con estes campos activados, pode establecer o prezo e o custo para cada combinación de roles e unidades organizativas.
 
-![Captura de pantalla dos parámetros de Project Service con "Aplicable a vendas" resaltado.](media/PS-OOB-parameters.png)
+![Captura de pantalla dos parámetros de Project Service con "Aplicable a vendas" resaltado](media/PS-OOB-parameters.png)
 
 Se precisa un prezo ou custo para os seus recursos usando atributos adicionais, pode crear campos, entidades e dimensións personalizados. Para obter máis información, consulte os temas seguintes. 
   
@@ -60,16 +61,13 @@ O seguinte exemplo mostra os tipos de facturación que se configuran en función
 
 | Rol        | Unidade organizativa    |Unidade      |Prezo      |Moeda  |
 | ------------|-------------|----------|----------:|----------|
-| Programador   | Contoso EUA  |Hora | 200|USD     |
-| Programador   | Contoso India |Hora|   112|USD     |
+| Programador   | Contoso EUA  |Hour | 200|USD     |
+| Programador   | Contoso India |Hour|   112|USD     |
 
 
 **Exempo de taxas de custo**
 
 | Banda salarial     | Unidade organizativa    |Unidade      |Prezo      |Moeda  |
 | ----------------|-------------|----------|----------:|----------|
-| A miña empresa_Banda1 | Contoso EUA  |Hora | 145|USD     |
-| A miña empresa_Banda2 | Contoso India |Hora|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| A miña empresa_Banda1 | Contoso EUA  |Hour | 145|USD     |
+| A miña empresa_Banda2 | Contoso India |Hour|   67|USD     |

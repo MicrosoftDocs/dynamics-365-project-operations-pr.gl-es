@@ -2,6 +2,8 @@
 title: Modelos de proxecto
 description: Este tema fornece información sobre como usar modelos de proxecto para a configuración rápida do proxecto.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002509"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148056"
 ---
 # <a name="project-templates"></a>Modelos de proxecto 
 
@@ -47,7 +49,7 @@ Hai varios xeitos de crear un proxecto a partir dun modelo de proxecto:
 
 - Ao crear un proxecto desde unha oferta, pode seleccionar un modelo de proxecto na caixa de diálogo **Creación rápida: Proxecto**.
 
-> ![Caixa de diálogo Creación rápida: Proxecto.](media/project-11.png)
+> ![Caixa de diálogo Creación rápida: Proxecto](media/project-11.png)
 
 - Cando cree un proxecto seleccionando **Novo proxecto**, a páxina **Proxecto** aparece antes de gardar o rexistro. No campo **Escoller un modelo**, seleccione un dos modelos de proxecto predefinidos na organización.
 - Use **Crear proxecto a partir dun modelo** na páxina **Entidade de modelo**.
@@ -67,6 +69,3 @@ Cando copia entre liñas de estimación do proxecto, as listas de prezos actual�
 ### <a name="copying-a-project-team"></a>Copiar un equipo de proxecto
 
 Ao copiar o equipo de proxecto a partir do modelo de proxecto, os recursos xenéricos está tamén se copian, xunto cos coñecementos e habilidades definidos no modelo. As atribucións de recursos xenéricas tamén se manteñen igual que no modelo de proxecto. Os recursos nomeados non son compatibles cos modelos de proxecto.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

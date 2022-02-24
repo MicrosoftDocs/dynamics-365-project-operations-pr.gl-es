@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987704"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993291"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Como podo atribuír un recurso reservable a unha tarefa na aplicación web (aplicación Project Service v2.x)?
 
@@ -43,7 +43,7 @@ Con este método pode engadir un recurso ao equipo de proxecto e, a seguir, atri
 3.  Seleccione as datas **Desde** e **Para**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Captura de pantalla de engadir membro do equipo.](media/FAQ-Resources-to-Tasks2-1.png "Captura de pantalla de engadir membro do equipo")
+    > ![Captura de pantalla de engadir membro do equipo](media/FAQ-Resources-to-Tasks2-1.png "Captura de pantalla de engadir membro do equipo")
  
 4.  Seleccione un dos seguintes métodos de atribución para o reservar o recurso:
     - **Capacidade completa** reserva a capacidade completa do recurso para as datas desde e para especificadas.
@@ -63,12 +63,12 @@ Con este método pode engadir un recurso ao equipo de proxecto e, a seguir, atri
     3. Seleccione **Aceptar**. Agora, o membro do equipo agora atribuído á tarefa.
 
     > [!div class="mx-imgBorder"] 
-    > ![Captura de pantalla de engadir recursos con WBS.](media/FAQ-Resources-to-Tasks2-2.png "Captura de pantalla de engadir recursos con WBS")
+    > ![Captura de pantalla de engadir recursos con WBS](media/FAQ-Resources-to-Tasks2-2.png "Captura de pantalla de engadir recursos con WBS")
  
 Na grade de membro do equipo, verá o total das horas atribuídas do recurso Horas atribuídas. Será igual ou inferior ás horas reservadas para o recurso. 
 
 > [!div class="mx-imgBorder"] 
-> ![Captura de pantalla das horas asignadas para un recurso.](media/FAQ-Resources-to-Tasks2-3.png "Captura de pantalla das horas asignadas para un recurso")
+> ![Captura de pantalla das horas asignadas para un recurso](media/FAQ-Resources-to-Tasks2-3.png "Captura de pantalla das horas asignadas para un recurso")
  
 Se a tarefa que tenta atribuír ao recurso comeza despóis da data de fin das reservas de recursos, o recurso non aparecerán no despregable.
 
@@ -92,22 +92,22 @@ Este método garante que os recursos teñan suficientes reservas para as tarefas
 4. Seleccione **Aceptar**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Captura de pantalla de usar WBS para engadir un recurso.](media/FAQ-Resources-to-Tasks2-4.png "Captura de pantalla de usar WBS para engadir un recurso")
+    > ![Captura de pantalla de usar WBS para engadir un recurso](media/FAQ-Resources-to-Tasks2-4.png "Captura de pantalla de usar WBS para engadir un recurso")
  
 Despois de concluír a atribución de roles para as tarefas en WBS, seleccione **Xerar equipo de proxecto**. Project Service crea o mínimo número de membros do equipo xenéricos baseado nos roles, as unidades de organización de recursos e o calendario do proxecto agregando as atribucións da tarefa.
 
 > [!div class="mx-imgBorder"] 
-> ![Captura de pantalla de xeración do equipo de proxecto.](media/FAQ-Resources-to-Tasks2-5.png "Captura de pantalla de xeración do equipo de proxecto")
+> ![Captura de pantalla de xeración do equipo de proxecto](media/FAQ-Resources-to-Tasks2-5.png "Captura de pantalla de xeración do equipo de proxecto")
  
 Na grade Membro do equipo, verá os recursos do tipo Recurso xenérico co nome de rol e posición. Se dous recursos necesitan un rol para concluír o traballo, a funcionalidade de Xerar equipo crea dous membros do equipo e utiliza o nome da posición para separalos.
 
 > [!div class="mx-imgBorder"] 
-> ![Captura de pantalla de engadir dous recursos xenéricos.](media/FAQ-Resources-to-Tasks2-6.png "Captura de pantalla de engadir dous recursos xenéricos")
+> ![Captura de pantalla de engadir dous recursos xenéricos](media/FAQ-Resources-to-Tasks2-6.png "Captura de pantalla de engadir dous recursos xenéricos")
  
 Pode abrir o requisito de recurso de seguranza para o membro do equipo xenérico seleccionando a ligazón en Requisitos de recurso.
 
 > [!div class="mx-imgBorder"] 
-> ![Captura de pantalla de abrir requisito de recurso de respaldo.](media/FAQ-Resources-to-Tasks2-7.png "Captura de pantalla de abrir requisito de recurso de respaldo")
+> ![Captura de pantalla de abrir requisito de recurso de respaldo](media/FAQ-Resources-to-Tasks2-7.png "Captura de pantalla de abrir requisito de recurso de respaldo")
 
 Seleccione **Reservar** para o recurso xenérico e, a seguir, pode utilizar o panel de programación para localizar e reservar un recurso real. Tamén pode enviar o requirimento para conclusión por un xestor de recursos seleccionando **Enviar solicitud**.
 

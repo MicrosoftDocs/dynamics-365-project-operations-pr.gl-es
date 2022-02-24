@@ -2,11 +2,12 @@
 title: Páxina de inicio de dimensións de prezos e custos
 description: Este tema ofrece unha visión xeral das dimensións dos prezos.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998459"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151296"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Páxina de inicio de dimensións de prezos e custos
 
@@ -41,7 +42,7 @@ Dada a natureza típica destes atributos do traballo e das persoas necesarias pa
 
 PSA envíase cun conxunto predefinido de dimensións de prezos. Podes velas indo a **Project Service** > **Parámetros**. No rexistro de parámetros, no separador **Dimensións de prezos baseados na cantidade**, verifique que o rol, **msdyn_resourcecategory**, e a unidade organizativa de recursos, **msdyn_organizationalunit** teñan os campos **Aplicable a vendas** e **Aplicable a custo** establecidos en **Si**. Isto permitirá establecer o prezo e o custo para cada combinación de roles e unidades organizativas.
 
-![Captura de pantalla dos parámetros de Project Service con "Aplicable a vendas" resaltado.](media/PS-OOB-parameters.png)
+![Captura de pantalla dos parámetros de Project Service con "Aplicable a vendas" resaltado](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Se estivo a usar os campos listos para usar de rol e unidade organizativa como dimensións de prezos antes da versión 3 de PSA, non haberá ningún cambio observable. Pode seguir usando o Project Service como sempre. 
@@ -66,16 +67,13 @@ O seguinte exemplo mostra os tipos de facturación que se configuran en función
 
 | Rol        | Unidade organizativa    |Unidade      |Prezo      |Moeda  |
 | ------------|-------------|----------|----------:|----------|
-| Programador   | Contoso EUA  |Hora | 200|USD     |
-| Programador   | Contoso India |Hora|   112|USD     |
+| Programador   | Contoso EUA  |Hour | 200|USD     |
+| Programador   | Contoso India |Hour|   112|USD     |
 
 
 **Exempo de taxas de custo**
 
 | Banda salarial     | Unidade organizativa    |Unidade      |Prezo      |Moeda  |
 | ----------------|-------------|----------|----------:|----------|
-| A miña empresa_Banda1 | Contoso EUA  |Hora | 145|USD     |
-| A miña empresa_Banda2 | Contoso India |Hora|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| A miña empresa_Banda1 | Contoso EUA  |Hour | 145|USD     |
+| A miña empresa_Banda2 | Contoso India |Hour|   67|USD     |

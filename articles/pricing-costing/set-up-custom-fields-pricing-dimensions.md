@@ -2,9 +2,11 @@
 title: Configurar campos personalizados como dimensións de prezos
 description: Este tema fornece información sobre como configurar dimensións de prezos mediante campos personalizados.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003589"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650206"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurar campos personalizados como dimensións de prezos
 
@@ -42,11 +44,11 @@ Para que un campo se converta nunha dimensión de prezos, debe:
 
 - Crearse como unha fila na táboa **Dimensión de prezos**. Por exemplo, engada filas de dimensións de prezos como se mostra no gráfico seguinte. 
 
-![Filas de dimensións de prezos baseadas en importe.](media/Amt-based-PD.png)
+![Filas de dimensións de prezos baseadas en importe](media/Amt-based-PD.png)
 
 As horas de traballo dos recursos (**msdyn_resourceworkhours**) engádense como dimensión baseada en sobreprezo e engadíronse á grade no separador **Dimensión de prezos baseada en sobre prezo**.
 
-![Filas de dimensión de prezos baseada en sobreprezo.](media/Markup-based-PD.png)
+![Filas de dimensión de prezos baseada en sobreprezo](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -73,12 +75,12 @@ Hai dous tipos de dimensións de prezos:
   
 | Rol        | Unidade organizativa    |Localización do traballo      |Título estándar      |Horas laborables do recurso      |  Sobreprezo|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso India|Onsite            |                    |Horas extra                 |15     |
+|             | Contoso India|No sitio            |                    |Horas extra                 |15     |
 |             | Contoso India|Local             |                    |Horas extra                 |10     |
 |             | Contoso EUA   |Local             |                    |Horas extra                 |20     |
 
 
-Se un recurso de Contoso India cuxa taxa base é 100 USD está a traballar no sitio e rexistra 8 horas de tempo regular e 2 horas extraordinarias na entrada de tempo, o motor de prezos de Project Service empregará a taxa base de 100 durante as 8 horas para rexistrar 800 USD. Durante as 2 horas extraordinarias, aplicarase un 15 % de sobreprezo á taxa base de 100 para obter un prezo unitario de 115 USD e rexistrará un custo total de 230 USD.
+Se un recurso de Contoso India cuxa taxa base é 100 USD está a traballar no sitio e rexistra 8 horas de tempo regular e 2 horas extraordinarias na entrada de tempo, o motor de prezos empregará a taxa base de 100 durante as 8 horas para rexistrar 800 USD. Durante as 2 horas extraordinarias, aplicarase un 15 % de sobreprezo á taxa base de 100 para obter un prezo unitario de 115 USD e rexistrará un custo total de 230 USD.
 
 ### <a name="applicable-to-cost"></a>Aplicable a custo 
 Se isto está definido en **Si**, indica que o valor da dimensión do contexto de entrada debe usarse para coincidir co **Prezo de rol** e o **Sobreprezo de rol** ao recuperar as taxas de custo e sobreprezo.
@@ -94,6 +96,3 @@ Establecer a prioridade de dimensión axuda a que os prezos produzan un prezo in
 
 - **Prioridade de custos**: O valor da prioridade de custos dunha dimensión indicará o peso desa dimensión ao comparalo coa configuración dos prezos de custo. O valor de **Prioridade de custos** ten que ser único en todas as dimensións que sexan **Aplicables ao custo**.
 - **Prioridade de vendas**: O valor da prioridade de vendas da dimensión indicará o peso desa dimensión ao comparalo coa configuración dos prezos de vendas ou taxas de facturación. O valor de **Prioridade de vendas** ten que ser único en todas as dimensións que sexan **Aplicables a vendas**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

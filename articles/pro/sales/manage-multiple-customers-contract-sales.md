@@ -2,16 +2,18 @@
 title: Xestionar varios clientes nunha en contratos de proxecto - lite
 description: Este tema ofrece información sobre a xestión de varios clientes en contratos de proxecto.
 author: rumant
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b7010ef75cd71ecdf832abb889db4703baa18fce0adadf3893621c42002fcab9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001744"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181315"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Xestionar varios clientes nunha en contratos de proxecto - lite
 
@@ -50,6 +52,3 @@ Pódese crear, actualizar ou eliminar un cliente de contrato no separador **Clie
 As porcentaxes de división de facturación poden editarse mediante a experiencia de edición da grade en liña. Cando as porcentaxes de división de facturación non totalicen o 100 por cento, recibirá un erro. Despois de editar as porcentaxes de facturación, actualice a páxina para rexeitar o erro.
 
 Tamén pode seleccionar **Distribución uniforme** na subgrade **Clientes contratados** para asignar divisións de facturación uniformemente a todos os clientes do contrato. Se hai un factor de redondeo, engadirase ao cliente de redondeo. Un dos clientes do contrato sempre está etiquetado como cliente de **redondeo**, o que significa que o rexistro de cliente de contrato ten definida a marca de redondeo en **Si**. Normalmente, este é o cliente principal do contrato, pero tamén se pode cambiar.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

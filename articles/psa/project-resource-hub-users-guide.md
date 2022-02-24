@@ -2,6 +2,8 @@
 title: Guía do usuario para Project Resource Hub
 description: Unha guía para o usuario final de Project Resource Hub (Dynamics 365 for Project Service) | MicrosoftDocs
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987254"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948138"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Guía do usuario para Project Resource Hub
 
@@ -52,28 +54,28 @@ Antes de comezar a usar a aplicación Project Resource Hub, debe instalar a apli
 1.  Ao iniciar sesión na aplicación móbil, verá a páxina MyApps cunha lista de aplicacións ás que ten acceso. 
 2.  Seleccione **Project Resource Hub**.
 
-![Escolla unha aplicación.](media/chooseApp_1.png "Escoller unha aplicación")
+![Escoller unha aplicación](media/chooseApp_1.png "Escoller unha aplicación")
 
 **A barra de navegación**
 
-Utilice a barra de navegación para ir á súa área de traballo, crear un rexistro novo, realizar buscas ou facer outras tarefas. Para acceder a máis comandos, toque ![Botón Máis.](media/MoreButton.png "Botón Máis")
+Utilice a barra de navegación para ir á súa área de traballo, crear un rexistro novo, realizar buscas ou facer outras tarefas. Para acceder a máis comandos, toque o ![Botón Máis](media/MoreButton.png "Botón Máis")
 
-![Barra de navegación.](media/NavBar_2.png "Barra de navegación")
+![Barra de navegación](media/NavBar_2.png "Barra de navegación")
 
 **Favoritos e rexistros utilizados recentemente**
 
 As seccións Favoritos e Rexistros recentes fornecen acceso rápido aos seus rexistros, visualizacións e paneis. 
 
-- Para acceder a estas seccións, toque o botón **Menú** ![Botón de menú.](media/MenuButton.png "Botón do menú") na barra de navegación e logo pulse o botón **Favoritos e recentes** ![Botón Fav](media/FavButton.png "Botón Fav").
+- Para acceder a estas seccións, toque o botón **Menú** ![botón Menú](media/MenuButton.png "Botón do menú") na barra de navegación e, a seguir, toque o botón **Favoritos e recentes** ![botón de Favoritos](media/FavButton.png "Botón Fav").
 
 - Para fixar un elemento como favorito, desde a lista de elementos **Usados recentemente**, toque o marcador. Isto fixará e moverá o elemento a Favoritos.
 
-  ![Elementos favoritos e recentes.](media/Favs_3.png "Elementos favoritos e recentes")
+  ![Elementos favoritos e recentes](media/Favs_3.png "Elementos favoritos e recentes")
  
 ## <a name="enter-time"></a>Introducir hora
 Introduza as horas como mínimo semanalmente, ou na frecuencia solicitada polo seu xestores, para garantir que lle factura aos seus clientes e que eles lle pagan correctamente.
 
-1. Toque o menú ![Botón de menú.](media/MenuButton.png "Botón do menú") e logo toque **Entradas de tempo**. Aparecerá o calendario.
+1. Toque o botón ![botón Menú](media/MenuButton.png "Botón do menú") do menú e, a seguir, toque **Entradas de tempo**. Aparecerá o calendario.
 
 2. Toque o botón **Anterior** ou **Seguinte** para ver a programación para a semana anterior ou seguinte. Toque **Hoxe** para volver á semana actual.
 

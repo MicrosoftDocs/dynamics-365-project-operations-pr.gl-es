@@ -2,16 +2,18 @@
 title: Editar reservas
 description: Este tema ofrece información sobre como actualizar e facer cambios nas reservas.
 author: ruhercul
+manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008314"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841336"
 ---
 # <a name="edit-bookings"></a>Editar reservas
 
@@ -31,6 +33,3 @@ Dende a grade **Membro do equipo**, un xestor de proxectos pode resaltar un recu
 ## <a name="schedule-board"></a>Panel de programación
 
 Dende o **Panel de programación**, o xestor de recursos ten unha vista de carteira de todas as reservas dunha organización. Dende esta visión, o xestor de recursos pode ampliar, acurtar ou mover as reservas existentes similares ás capacidades ofrecidas en **Manter reservas**. O xestor de recursos tamén pode substituír os recursos existentes asignados a unha reserva específica premendo o botón dereito na reserva e seleccionando **Substituír recurso**. Os xestores de recursos tamén poden editar os contornos das reservas existentes premendo o botón dereito na reserva e seleccionando **Editar**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Implementar campos personalizados para a aplicación móbil Microsoft Dynamics 365 Project Timesheet en iOS e Android
 description: Este tema ofrece patróns comúns para usar extensións para implementar campos personalizados.
 author: Yowelle
+manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005749"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270991"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementar campos personalizados para a aplicación móbil Microsoft Dynamics 365 Project Timesheet en iOS e Android
 
@@ -153,13 +155,13 @@ Para campos do tipo **Data**, esta propiedade pasa o valor de data do campo entr
 
 A continuación móstrase unha captura de pantalla da aplicación móbil da creación dunha entrada de folla de control horario. Mostra os campos listos para usar e un campo personalizado na sección "Entrada de tempo" chamado "Cadea de proba" cun valor enum de "Segunda opción" xa definido.
 
-![Probar campo personalizado de cadea na aplicación.](media/timesheet-entry.jpg)
+![Probar campo personalizado de cadea na aplicación](media/timesheet-entry.jpg)
 
 
 
 A continuación móstrase unha captura de pantalla da aplicación móbil do usuario que selecciona unha das opcións de enum dispoñibles para o campo personalizado "Cadea de proba".  As dúas opcións son "Primeira opción" e "Segunda opción" que se amosan como botóns de opción. A segunda opción está seleccionada actualmente.
 
-![Botóns de opción para o campo personalizado da cadea de proba.](media/enum-option.jpg)
+![Botóns de opción para o campo personalizado da cadea de proba](media/enum-option.jpg)
 
 
 
@@ -171,7 +173,7 @@ Teña en conta que os campos personalizados non teñen que ter ningún rexistro 
 
 Debaixo móstrase unha captura de pantalla de Visual Studio da árbore de obxectos da aplicación. Mostra unha extensión da táboa TSTimesheetLine co campo TestLineString engadido como campo personalizado.
 
-![Cadea de liña.](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Cadea de liña](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Usar a cadea de comando no método buildCustomFieldList da clase TSTimesheetSettings para amosar un campo na sección de entrada de folla de control horario
 
@@ -317,11 +319,11 @@ final class TSTimesheetEntryService_Extension
 
 A continuación móstrase unha captura de pantalla da aplicación móbil dun usuario visualizando unha folla de control horario. Na esquina superior dereita seleccionouse o botón "Máis información" para amosar a opción "Ver máis detalles".  
 
-![Comando de visualizar máis detalles.](media/show-more.png)
+![Comando de visualizar máis detalles](media/show-more.png)
 
 A continuación móstrase unha captura de pantalla da aplicación móbil que mostra a sección "Máis" dunha folla de control horario. Engadiuse un campo personalizado chamado "Taxa de utilización desta folla de control horario (campo personalizado computado)" á sección de cabeceira da folla de control horario. No campo personalizado establécese un valor de só lectura de "0,667".
 
-![Sección Máis.](media/more-section.jpg)
+![Sección Máis](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Amplíe a táboa TSTimesheetTable para que teña un campo personalizado
 
@@ -414,7 +416,7 @@ A lóxica existente para a funcionalidade da folla de control horario a nivel de
 
 Desde os parámetros do proxecto, pode facer que os campos listos para usar sexan só de lectura ou estean ocultos na aplicación móbil. Estableza as opcións na sección **Follas de de control horario móbiles** no separador **Folla de control horario** da páxina **Parámetros de xestión de proxectos e contabilidad**.
 
-![Parámetros do proxecto.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Parámetros do proxecto](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Cambiar as actividades dispoñibles para a selección mediante extensións
 

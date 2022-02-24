@@ -2,16 +2,18 @@
 title: Crear unha estrutura de subdivisión do traballo
 description: Este tema explica como crear unha estrutura de subdivisión do traballo (WBS) que inclúa os controis básicos na nova interface de programación.
 author: ruhercul
-ms.date: 12/16/2021
+manager: tfehr
+ms.date: 01/07/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: MT
+ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928613"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841337"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Crear unha estrutura de subdivisión do traballo (WBS)
 
@@ -91,15 +93,13 @@ A seguinte táboa mostra atributos de programación adicionais.
 | Nome | Nome a tarefa do proxecto. |
 | ID | O ID da tarefa da estrutura de subdivisión do traballo. |
 
-Como administrador, pode definir campos personalizados na entidade de tarefa. Non obstante, os campos non se poden amosar na grade de programación. Para ver os seus campos personalizados, engádaos á páxina de detalles **Tarefa de proxecto**.
-
 ## <a name="staffing-attributes"></a>Atributos de persoal
 
-Pódese acceder a atributos de persoal a través do campo **Recursos** na programación. Pode buscar un recurso existente ou seleccionar **Crear** e no panel **Creación rápida**, engadir un membro do equipo do proxecto como novo recurso.  Cando busca un recurso mediante o selector de recursos na grella de tarefas, na vista de taboleiro ou na vista de gantt, a busca devolve os membros do equipo do proxecto existentes ou os recursos reservables activos.
+Pódese acceder a atributos de persoal a través do campo **Recursos** na programación. Pode buscar un recurso existente ou seleccionar **Crear** e no panel **Creación rápida**, engadir un membro do equipo do proxecto como novo recurso.
 
 Os campos **Rol**, **Unidade de recursos** e **Nome do posto** úsanse para describir os requisitos de persoal para a tarefa. Estes atributos de persoal, xunto coa programación de tarefas, úsanse para atopar os recursos dispoñibles para facer esta tarefa.
 
-   - **Papel** : Especifique o tipo de recurso que se require para realizar a tarefa.,
+   - **Rol**: Especifique o tipo de recurso que se require para realizar a tarefa.
    - **Unidade de recursos**: Especifique a unidade desde a que se deben atribuír os recursos para a tarefa. Este atributo afecta ao custo e ás estimacións de vendas da tarefa se o custo e a taxa de factura do recurso están establecidos en función das unidades de recursos.
    - **Nome do posto**: Insira un nome sinxelo para o recurso xenérico que serve como marcador de posición para o recurso que finalmente fará o traballo.
 
@@ -116,28 +116,3 @@ O modo de tarefa non ten efecto nas actualizacións que se realizan ás datas de
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Atallos de teclado e accesibilidade
 
 A grade **Programación** é totalmente accesible e pode usarse con lectores de pantalla como Narrator, JAWS ou NVDA. Pode moverse pola área da grade mediante as teclas de frecha (como en Microsoft Excel), pode usar a tecla TAB para avanzar nos elementos interactivos da interface de usuario e pode usar a tecla de frecha cara abaixo, a tecla Intro ou a barra espazadora para seleccionar e abrir os menús despregables.
-
-## <a name="project-limitations"></a>Limitacións do proxecto 
-Debería ter en conta as seguintes limitacións se está a usar a estrutura de subdivisión do traballo en Project Operations. Estes límites aplícanse a proxectos e tarefas. Para obter máis información, consulte [Límites de Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
-
-| **Campo**                                          |  **Límite**           |
-|----------------------------------------------------|----------------------|
-| Total máximo de tarefas para un proxecto                  | 500                  |
-| Duración máxima total para un proxecto               | 3650 días (10 anos) |
-| Total máximo de recursos para un proxecto              | 150                  |
-| Total máximo de ligazóns (só sucesor) para un proxecto | 600                  |
-| Total máximo de campos personalizados para un proxecto          | 1,0                   |
-| Número máximo de elementos da lista de verificación por tarefa                   | 20                   |
-
-**Limitacións das tarefas**
-
-| **Campo**                               |   **Límite**           |
-|-----------------------------------------|-----------------------|
-| Nivel máximo de xerarquía                 | 10 niveis             |
-| Número máximo de ligazóns (sucesor + predecesor) | 20                    |
-| Duración máxima da tarefa folla           | 1250 días             |
-| Duración máxima dunha tarefa de resumo      | 3650 días (10 anos)  |
-| Máximo de recursos atribuídos a unha tarefa    | 20 recursos          |
-| Intervalo de datas compatible para unha tarefa         | 1/1/2000 - 12/31/2149 |
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

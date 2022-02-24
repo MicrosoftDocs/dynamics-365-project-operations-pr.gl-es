@@ -2,26 +2,28 @@
 title: Páxina inicial de recursos de proxectos
 description: Neste tema se proporciona información sobre a dotación de recursos de proxectos.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007324"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076118"
 ---
 # <a name="project-resourcing-home-page"></a>Páxina inicial de recursos de proxectos
 
@@ -38,7 +40,7 @@ Un desafío para os xestores de proxectos e xestores de recursos durante a fase 
 - Estimar o número de recursos necesarios para todo o ciclo de vida dun proxecto.
 - Elaborar unha estrutura de subdivisión do traballo (WBS) empregando as atribucións de recursos iniciais.
 
-[![Ciclo de vida do proxecto.](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
+[![Ciclo de vida do proxecto](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
 
 A medida que avanza a planificación do proxecto, os recursos planificados pódense substituír por recursos con persoal. O xestor do proxecto tamén pode volver atrás e actualizar as reservas de recursos durante calquera fase do proxecto.
 
@@ -53,6 +55,3 @@ Os seguintes temas ofrecen información sobre as tarefas que deben realizarse ca
 - [Rendemento de programación de recursos de proxecto](project-scheduling-performance.md)
 - [Configurar funcións nos modelos de estrutura de subdivisión do traballo](set-up-roles-wbs-template.md)
 - [Cumprimento de recursos para os recursos planificados](resource-fulfillment-planned-resources.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

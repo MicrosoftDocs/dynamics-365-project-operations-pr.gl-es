@@ -2,9 +2,11 @@
 title: Cumprimento de recursos para os recursos planificados
 description: Este tema fornece información sobre os recursos planificados para un proxecto.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eaeae9b0a4563805af61d20d6cc6709f7d697f582d4b1af2b883b292ac482af5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2d849e7bdd020b0a2f5f35a627e28434ea77e5fb
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989504"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076303"
 ---
 # <a name="resource-fulfillment-for-planned-resources"></a>Cumprimento de recursos para os recursos planificados
 
@@ -38,6 +40,3 @@ Un xestor de proxectos pode planificar os roles de recursos necesarios para un p
 7. Seleccione un traballador e, a seguir, seleccione **Atribuír**.
 8. Verifique que a liña para **Programador de software 1** se eliminou para o proxecto **Fase 2 de actualización de XYZ**.
 9. No separador **Equipo do proxecto e programación**, para o proxecto **Fase 2 de actualización de XYZ**, verifique que o traballador que seleccionou no paso anterior se engadiu como **Programador de software**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

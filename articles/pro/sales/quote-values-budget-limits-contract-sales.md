@@ -2,16 +2,18 @@
 title: Información resumida sobre unha oferta de proxecto - lite
 description: Este tema ofrece información sobre a información e a configuración que se aplican e afectan ás ofertas do proxecto. (Sales)
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ddc85d8c475dc7cdbe910fad31b5a6d8b617512c8a19cbae9543cb7a3e1d409e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0a7fb3419536ca3a595ec339b971e32c11f9671e
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989639"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663991"
 ---
 # <a name="header-details-for-project-quotes"></a>Detalles da cabeceira para ofertas de proxecto
 

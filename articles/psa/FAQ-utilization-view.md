@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007144"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992832"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Ver a utilización imputable de recursos
 
@@ -29,7 +29,7 @@ ms.locfileid: "7007144"
  
 A **Vista de utilización** na páxina **Utilización de recursos de Project Service** a páxina mostra a utilización imputable por cada recurso reservable. Porque a vista está baseada no panel de programación, de forma que atopará moitas das mesmas funcións.
 
-> ![Captura da visualización de utilización.](media/FAQ-utilization-1.png)
+> ![Captura da visualización de utilización](media/FAQ-utilization-1.png)
  
 
 O cálculo da utilización imputable funciona da seguinte maneira:
@@ -48,7 +48,7 @@ A utilization de destino pódese definir no rol predefinido do recurso ou no rec
 2. Seleccione un recurso para abrir o rexistro. 
 3. No separador **Project Service**, pode definir a utilización obxectivo do recurso.
 
-> ![Captura de utilizar o separador Project Service para definir a utilización de destino.](media/FAQ-utilization-2.png)
+> ![Captura de utilizar o separador Project Service para definir a utilización de destino](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Estableza a utilización obxectivo nun rol
 
@@ -56,7 +56,7 @@ A utilization de destino pódese definir no rol predefinido do recurso ou no rec
 2. Seleccione un rol e abra o rexistro. 
 3. Defina a utilización de destino para o rol.
 
-> ![Captura de utilizar os roles de recursos para definir a utilización de destino.](media/FAQ-utilization-3.png)
+> ![Captura de utilizar os roles de recursos para definir a utilización de destino](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Calcular a utilización imputable dun recurso
 

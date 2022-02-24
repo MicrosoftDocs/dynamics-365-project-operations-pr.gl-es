@@ -2,6 +2,8 @@
 title: Personalizar entrada de tempo semanal
 description: Este tema proporciona información sobre como implantar regras de negocio personalizadas para apoiar as prácticas dunha organización.
 author: stsporen
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa2ef927e0234919ee4777f24c60569fb33a8570f6d48be6aef356df4f08a6e7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002284"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149631"
 ---
 # <a name="customize-weekly-time-entry"></a>Personalizar entrada de tempo semanal 
 
@@ -130,6 +132,3 @@ Debe usar as validacións de complementos para calquera validación que requira 
 
 > [!IMPORTANT] 
 > Na actualidade, un problema coñecido nas páxinas de TBX impide aos usuarios corrixir información e volver a seleccionar Feito cando unha actualización mostra un erro nunha validación de complemento. Como solución, configure as validacións de regras de negocio para evitar o máximo posible esta situación.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

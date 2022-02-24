@@ -2,6 +2,8 @@
 title: Conciliar reservas e atribucións
 description: Neste tema se proporciona información sobre datos reais.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9528bd983e6e18197138f0720abccdc6d6fa1ed5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995129"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147921"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Conciliar reservas e atribucións
 
@@ -51,11 +53,11 @@ Nalgúns casos, cando o campo **Escala de tempo** está definido nun nivel super
 
 Cando vexa o tempo a niveis de tempo máis altos, as celas do separador **Conciliación** mostra un indicador de cela para informar de que hai diferenzas a niveis de tempo máis baixos. Por exemplo, na seguinte ilustración, un indicador de cela aparece na cela para o mes de outubro de 2018 para o recurso que leva o nome de Lúa Hervés. Polo tanto, pode ver que, a pesar de que as reservas e atribucións do recurso son iguais cando se agroman no nivel **Mes**, non coinciden en niveis máis baixos.
 
-![Reservas e atribucións non coincidentes a nivel mensual.](media/reconcile-assignments-01.JPG)
+![Reservas e atribucións non coincidentes a nivel mensual](media/reconcile-assignments-01.JPG)
 
 Prema dúas veces nunha cela para ampliar ao seguinte nivel inferior e vexa a diferenza. Por exemplo, se preme dúas veces sobre a diferenza de outubro de 2018 para Lúa Hervés, fai a busca ata o nivel **Semana**. Pode ver que o recurso ten reservas de 16 horas pero non hai tarefas nas dúas primeiras semanas de outubro, e 16 horas de tarefas pero non ten reservas na terceira semana de outubro.
 
-![Reservas e atribucións non coincidentes a nivel semanal.](media/reconcile-assignments-02.JPG)
+![Reservas e atribucións non coincidentes a nivel semanal](media/reconcile-assignments-02.JPG)
 
 Pode premer co botón dereito sobre unha cela para ampliar o seguinte nivel superior. Tamén pode desactivar o indicador de cela seleccionando o botón **Configuración**. 
 
@@ -68,13 +70,13 @@ Para garantir resultados precisos e previsibles ao usar Estender reserva, deben 
 
 - O usuario debe configurar o fuso horario do seu dispositivo para que coincida co fuso horario definido na Configuración de personalización do sistema.
  
-  ![Configuración do fuso horario en Windows 10.](media/reconcile-assignments-03.png)
+  ![Configuración do fuso horario en Windows 10](media/reconcile-assignments-03.png)
 
-  ![Configuración do fuso horario na configuración de personalización.](media/reconcile-assignments-04.png)
+  ![Configuración do fuso horario na configuración de personalización](media/reconcile-assignments-04.png)
  
 - O recurso reservable debe ter polo menos un minuto de tempo de traballo que se superpón cos contornos que se empregan para definir a extensión solicitada. Por exemplo, o seguinte exemplo mostra os recursos de revisión cun horario de traballo que está entre as 9:00 e as 19:00. 
 
-  ![Comparación de contornos de recursos.](media/reconcile-assignments-05.png)
+  ![Comparación de contornos de recursos](media/reconcile-assignments-05.png)
 
 A seguinte táboa mostra:
 
@@ -83,22 +85,19 @@ A seguinte táboa mostra:
 - Recurso B: Este recurso está situado nun fuso diferente ao do proxecto e, polo tanto, comeza ás 7:00 no seu fuso horario. Non obstante, as reservas comezarán ás 9:00 xa que esa é a hora de inicio máis temperá do contorno da tarefa.
 - Recursos C e D: Os recursos atópanse tamén en diferentes fusos horarios, diferentes entre si e do proxecto, e as súas reservas non comezan antes que as súas respectivas horas de inicio dispoñibles.
 
-|Entity  |Calendario  |
+|Entidade  |Calendario  |
 |-|-|
-|Modelo de calendario do proxecto   | ![calendario do proxecto.](media/reconcile-assignments-06.png) |
-|Recurso A  | ![Calendario do recurso A.](media/reconcile-assignments-06.png) |
-|Recurso B  |  ![Calendario do recurso B.](media/reconcile-assignments-07.png) |
-|Recurso C  |  ![Calendario do recurso C.](media/reconcile-assignments-08.png) |
-|Recurso D  | ![Calendario do recurso D.](media/reconcile-assignments-09.png)  |
+|Modelo de calendario do proxecto   | ![calendario do proxecto](media/reconcile-assignments-06.png) |
+|Recurso A  | ![Calendario do recurso A](media/reconcile-assignments-06.png) |
+|Recurso B  |  ![Calendario do recurso B](media/reconcile-assignments-07.png) |
+|Recurso C  |  ![Calendario do recurso C](media/reconcile-assignments-08.png) |
+|Recurso D  | ![Calendario do recurso D](media/reconcile-assignments-09.png)  |
  
 Cando navegue á vista de reconciliación, mostraranse as asignacións de recursos e as escasezas de reservas asociadas.
- ![Vista de conciliación antes da extensión.](media/reconcile-assignments-10.png)
+ ![Vista de conciliación antes da extensión](media/reconcile-assignments-10.png)
 
 Despois de executar a función Estender reserva en cada recurso, as reservas esténdense con éxito para cada recurso. Isto débese a que o horario de traballo de cada recurso se superpuxo aos contornos da escaseza.
- ![Vista de conciliación despois da extensión da reserva.](media/reconcile-assignments-11.png) 
+ ![Vista de conciliación despois da extensión da reserva](media/reconcile-assignments-11.png) 
 
 Non obstante, unha ollada máis atenta aos detalles das reservas mostra diferenzas na hora de inicio das reservas. As reservas non comezarán antes da hora de inicio do contorno de asignación nin antes da hora de inicio dispoñible do recurso.
- ![Novas reservas dos recursos no panel de programación.](media/reconcile-assignments-12.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![Novas reservas dos recursos no panel de programación](media/reconcile-assignments-12.png)

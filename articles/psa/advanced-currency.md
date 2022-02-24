@@ -2,6 +2,8 @@
 title: Escenarios de varias moedas (versión 3.x)
 description: Este tema fornece información sobre escenarios de varias moedas.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005119"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145671"
 ---
 # <a name="multiple-currency-scenarios"></a>Escenarios de varias moedas
 
@@ -34,7 +36,7 @@ Microsoft Dynamics 365 ten dous conceptos de moedas:
 - **Moeda de transacción** - A moeda na que se produce unha transacción. 
 - **Moeda base** - A moeda da instancia de Dynamics 365. Esta moeda configúrase cando se fornece unha instancia de Dynamics 365. Non se pode modificar.
 
-Por exemplo, Contoso Estados Unidos vendeu 100 camisetas a un cliente no Reino Unido por 15 libras esterlinas (GBP) cada unha. Na seguinte táboa móstrase como se rexistra esta transacción na entidade Pedir produto.
+Por exemplo, Contoso EU vendeu 100 camisetas a un cliente no Reino Unido por 15 libras esterlinas (GBP) cada unha. Na seguinte táboa móstrase como se rexistra esta transacción na entidade Pedir produto.
 
 | Produto | Cantidade | Prezo por unidade | Moeda | Importe | Taxa de cambio | Prezo por unidade (base)| Cantidade (base)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -66,7 +68,7 @@ PSA amplía o concepto de moeda da transacción para custo e vendas das seguinte
 
 ## <a name="multiple-currency-scenario"></a>Escenario de varias moedas
 
-Esta sección describe un exemplo dun proxecto que Contoso Reino Unido entrega para un cliente que se chama Fabrikam, de Xapón. Móstrase como se configurou o escenario:
+Esta sección describe un exemplo dun proxecto que Contoso UK entrega para un cliente que se chama Fabrikam, de Xapón. Móstrase como se configurou o escenario:
 
 1. Configúranse GBP e iens xaponeses (JPY) en **Configuración** \> **Xestión de empresa** \> **Moedas**. 
 2. Configúrase unha conta de cliente que leva o nome **Fabrikam - Xapón** e selecciónase JPY como moeda na conta.
@@ -103,6 +105,3 @@ Dynamics 365 xestiona automaticamente os agrupamentos de importes en diferentes 
 | Gasto           | Vendas sen facturar   | 17-xun | Henrique  | Aluguer de coche           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Para calcular o valor total de vendas sen facturar no proxecto, pode crear un campo de agrupamento para o campo **Cantidade** en todos os datos reais de vendas sen facturar. O campo de agrupamento é unha construción de Dynamics 365 que permite fórmulas rápidas sobre rexistros relacionados.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Xestionar estimacións de ingresos
 description: Este tema ofrece información sobre como traballar con estimacións de ingresos para proxectos.
 author: sigitac
+manager: Annbe
 ms.date: 11/04/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8d118826f8c63b9540435e320924d4562ab191ba126088560f5def1c1ff0b908
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 98df0301eaa8e9f8e9cd51fc5714254ae3bbc83d
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996524"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531423"
 ---
 # <a name="manage-revenue-estimates"></a>Xestionar estimacións de ingresos
 
@@ -88,6 +90,3 @@ A estimación cambia o estado a **Eliminado**.
 Use esta páxina para reverter todas as eliminacións cunha data de estimación especificada e cun estado de estimación de **Eliminado**. O estado da transacción cambia despois de seleccionar os campos apropiados.
 
 Isto tamén cambia automaticamente o estado do proxecto a **En proceso** se a fase do proxecto está configurada como finalizada. O estado da estimación do período do proxecto volve a **Contabilizado**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

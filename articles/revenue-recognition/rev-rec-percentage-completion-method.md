@@ -2,16 +2,18 @@
 title: Proxectos de estimación de ingresos a prezo fixo
 description: Este tema fornece información sobre os ingresos a prezo fixo en proxectos.
 author: sigitac
+manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 80fe1d4171d80ca39e8b7ebb1eefaa524a4f2b07
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006424"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531426"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Proxectos de estimación de ingresos a prezo fixo 
 
@@ -33,6 +35,3 @@ Para revisar os proxectos de estimación de ingresos a prezo fixo, complete os s
 
   O custo do proxecto, o perfil de ingresos, o modelo de custo e o código do período pódense configurar manualmente. Se non se configuran manualmente, os valores son os predefinidos durante o primeiro cálculo de estimación do proxecto empregando as regras configuradas para os perfís de custos e ingresos do proxecto.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

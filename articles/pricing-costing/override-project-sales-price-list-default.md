@@ -2,17 +2,19 @@
 title: Anular listas de prezos de vendas de proxecto
 description: Este tema ofrece información sobre como crear listas de prezos de venda personalizadas.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009574"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672229"
 ---
 # <a name="override-project-sales-price-lists"></a>Anular listas de prezos de vendas de proxecto
 
@@ -50,6 +52,3 @@ Pode usar cada unha desas listas de prezos e actualizar os prezos da man de obra
 Nun contrato de proxecto, os prezos do proxecto sempre se predefinen como unha lista de prezos personalizada co nome do contrato e a o selo de data e hora de creación anexo ao nome. Isto é certo se o contrato se creou cando se gañou a oferta ou se o contrato se creou desde cero. Se é necesario, pode eliminar esta asociación á lista de prezos personalizada e asociar unha lista de prezos estándar ao contrato do proxecto.
 
 Cando asocia unha lista de prezos estándar ás listas de prezos do proxecto na oferta ou no contrato, calquera cambio realizado nos prezos da lista de prezos afectará a todas as ofertas e contratos que usen a lista de prezos.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,22 +2,24 @@
 title: Configurar listas de prezos
 description: Este tema ofrece información sobre como configurar listas de prezos de custo e venda en Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009484"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180190"
 ---
 # <a name="set-up-price-lists"></a>Configurar listas de prezos
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-As listas de prezos en Dynamics 365 Project Operations representan un catálogo de tarifas. As taxas expresan as taxas de custo, vendas e factura. Dependendo de se a lista de prezos expresa taxas de custo ou de vendas e factura, o contexto da lista de prezos é **Vendas** ou **Custo**.
+As listas de prezos en Dynamics 365 Project Operations representan un catálogo de taxas. As taxas expresan as taxas de custo, vendas e factura. Dependendo de se a lista de prezos expresa taxas de custo ou de vendas e factura, o contexto da lista de prezos é **Vendas** ou **Custo**.
 
 As seguintes extensións son específicas para Project Operations e aplícanse ás listas de prezos de Dynamics 365 Sales.
 
@@ -38,6 +40,3 @@ A seguinte táboa inclúe os campos do separador **Xeral** dunha lista de prezos
 | Moeda | Separador **Xeral** e formularios de **Creación rápida** | Este campo úsase para predefinir a moeda de cada liña de rol, categoría ou elemento da lista de prezos relacionada con esta lista de prezos. | Nas listas de prezos de **Vendas** as liñas de roles, categorías ou de elementos da lista de prezos non se poden crear noutra moeda distinta desta moeda. Nas listas de prezos de **Custo**, pode crear unha liña de prezo de rol en calquera moeda. A moeda aquí definida úsase como predefinida. A configuración do usuario relacionada cos prezos do rol pode anular este valor para permitir a configuración da taxa de custo laboral en calquera moeda. As taxas de custo das categorías e os custos dos elementos da lista de prezos só se poden configurar na moeda aquí definida. |
 | Unidade de tempo | Separador **Xeral** e formularios de **Creación rápida** | Este campo úsase para predefinir a unidade de tempo de cada liña de rol relacionada con esta lista de prezos. | Este valor de campo só se usa na configuración do prezo do rol relacionado. Nas listas de prezos de **Custo** e **Vendas**, pode crear unha liña de prezo de rol en calquera unidade de tempo. A unidade de tempo aquí definida úsase como predefinida. A configuración do usuario relacionada cos prezos do rol pode anular este valor para permitir a configuración da taxa de custo laboral e factura en calquera unidade de tempo. |
 | Descripción | Separador **Xeral** e formularios de **Creación rápida** | Este campo de texto e permítelle proporcionar unha descrición de varias liñas da lista de prezos. | Este campo móstrase nas vistas **Asociado** na lista de prezos en varias entidades que teñen listas de prezos relacionadas. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

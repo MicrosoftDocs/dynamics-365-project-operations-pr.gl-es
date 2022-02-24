@@ -2,6 +2,8 @@
 title: Prezos do catálogo de produtos
 description: Este tema fornece información sobre como funcionan os prezos do catálogo de produtos en Dynamics 365 Project Service Automation (PSA).
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000169"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151206"
 ---
 # <a name="product-catalog-pricing"></a>Prezos do catálogo de produtos 
 
@@ -62,6 +64,3 @@ As entidades Oportunidade, Oferta e Contrato de proxecto usan a seguinte orde pa
 Por defecto, o campo **Produto** da liña de oferta indica todos os produtos activos na lista de prezos do produto. Se un produto foi inactivado ou se é un produto borrador, non aparece na lista, aínda que estea na lista de prezos. 
 
 As liñas de catálogo de produtos engádense como liñas de factura na primeira factura que se crea para un contrato de proxecto. Nun borrador de factura, pódense eliminar esas liñas de factura. Nese caso, as liñas aparecerán nunha factura posterior ata a facturación ou ata que a factura se envíe ao cliente. En PSA, non pode facturar unha cantidade parcial dunha liña de factura de produto. Cando se facturan as liñas de produto do contrato do proxecto, créanse datos reais. Non obstante, eses datos reais non están ligados á entidade de proxecto relacionada. Noutras palabras, as liñas de contrato de proxecto baseadas en produtos son independentes de calquera uso baseado en proxectos. PSA non rastrexa o consumo de material nos proxectos.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

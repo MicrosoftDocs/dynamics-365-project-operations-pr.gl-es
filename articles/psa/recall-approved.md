@@ -2,6 +2,8 @@
 title: Recuperar entradas de tempo ou gasto aprobadas previamente
 description: Este tema fornece información sobre como recuperar unha transacción de tempo e gasto de proxecto aprobada previamente.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -15,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f9bb25ac9ef7b400063c5f958311e475de6f6506
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998324"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147832"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Recuperar entradas de tempo ou gasto aprobadas previamente
 
@@ -98,13 +100,10 @@ Se se rexeita a solicitude de recuperación, non hai impacto financeiro no proxe
 
 A seguinte ilustración mostra os cambios que se producen para as entradas de tempo aprobadas cando se recuperan.
 
-![Transicións de estado de entradas de tempo.](media/TimeEntryStateTransitions.png)
+![Transicións de estado de entradas de tempo](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>Cambios nos rexistros de entrada de gasto
 
 A seguinte ilustración mostra os cambios que se producen para as entradas de gasto aprobadas cando se recuperan.
 
-![Transicións de estado de entradas de gasto.](media/ExpenseEntryStateTransitions.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Transicións de estado de entradas de gasto](media/ExpenseEntryStateTransitions.png)

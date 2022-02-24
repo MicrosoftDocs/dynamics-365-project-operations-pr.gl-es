@@ -2,16 +2,18 @@
 title: Novidades de novembro 2020 - Project Operations para situacións baseadas en produción/con fornecemento
 description: Este tema ofrece información sobre as actualizacións de calidade dispoñibles na versión de novembro de 2020 de Project Operations para situacións baseadas en produción/con fornecemento.
 author: sigitac
+manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7ffbca7929133e7828d08ad4b4e7bd6b702c15e39726421a35241d23d1123f48
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b671f314ddae9a59167bb9059dc7b076df95cb9d
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003184"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365470"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Novidades de novembro 2020 - Project Operations para situacións baseadas en produción/con fornecemento
 
@@ -23,7 +25,4 @@ Para obter información sobre as correccións incluídas nesta actualización, i
 
 ## <a name="regulatory-updates"></a>Actualizacións normativas
 
-Para obter información sobre actualizacións normativas para aplicacións de Dynamics 365 Finance and Operations, vexa [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Para obter información sobre actualizacións normativas para aplicacións de Dynamics 365 Finance and Operations, vexa [Actualizacións normativas](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.

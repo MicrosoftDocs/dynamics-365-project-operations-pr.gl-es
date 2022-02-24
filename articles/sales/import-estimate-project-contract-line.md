@@ -2,22 +2,24 @@
 title: Importar unha estimación a unha liña de contrato baseado en proxecto
 description: Este tema ofrece información sobre como importar estimacións dun proxecto a unha liña de contrato.
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ea513ca8126eadbf563f3c6cb3e966f81703ae805d12881f865cdc1dd77e191d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f2b9cbb4cce1691f262c85d95849e01f1a812d51
+ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990089"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4076367"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Importar unha estimación a unha liña de contrato baseado en proxecto
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-En Dynamics 365 Project Operations, pode importar estimacións desde un proxecto a unha liña de contrato baseado en proxecto.
+En Dynamics 365 Project Operations, pode importar estimacións dun proxecto a unha liña de contrato baseado en proxecto.
 
 1. Verifique que o campo **Proxecto** da liña de contrato baseado en proxecto está enchido.
 2. No separador **Detalles de liña de contrato**, na subgrade, seleccione **Importar desde a estimación do proxecto**. Ábrese unha páxina de diálogo con opcións de resumo. As opcións de resumo dispoñibles son **Clase de transacción**, **Categoría**, **Función** e **Tarefa de proxecto**. En función das selección para o resumo, cópianse as estimacións do proxecto para todas as clases de transaccións incluídas nesta liña de contrato. 
@@ -57,6 +59,3 @@ Cando o usuario selecciona resumir por **Clase de transacción**, **Categoría**
 | Tarefa A | Tarifas aéreas | 10/1/2020 | 4 | 400 | 1600 |
 | Tarefa B | Hotel | 10/1/2020 | 4 | 200 | 800 |
 | Tarefa C | Hotel | 11/1/2020 | 2 | 200 | 400 |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

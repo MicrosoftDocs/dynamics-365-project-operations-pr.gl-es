@@ -2,16 +2,18 @@
 title: Reservas fronte a atribucións
 description: Este tema ofrece información sobre as diferenzas entre as reservas de recursos e as atribucións de recursos.
 author: ruhercul
+manager: Annbe
 ms.date: 01/08/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1906ebd76f5fc66215aa5963242de13206a81668cb4973cccaf5b153514672d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e346766e6ccbb3dff59ef12072a1cd63f1e4231
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008449"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841170"
 ---
 # <a name="bookings-vs-assignments"></a>Reservas fronte a atribucións
 
@@ -24,6 +26,3 @@ A diferenza das reservas, as atribucións son o compromiso de recursos para as t
 Normalmente, a suma das reservas dun recurso igualará a suma das atribucións do recurso nunha ou varias tarefas. Non obstante, Project Operations non fai cumprir este acordo. A vista **Conciliación** mostra ao xestor de proxectos lugares onde as reservas e atribucións dun recurso non coinciden.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

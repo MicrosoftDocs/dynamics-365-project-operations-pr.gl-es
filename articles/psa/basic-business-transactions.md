@@ -2,6 +2,8 @@
 title: Transaccións comerciais
 description: Este tema fornece información sobre as transaccións comerciais.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987524"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149901"
 ---
 # <a name="business-transactions"></a>Transaccións comerciais
 
@@ -88,7 +90,7 @@ En conxunto, as entidades Orixe de transacción e Conexión de transacción axud
 
 O seguinte exemplo mostra o procesamento típico de entradas de tempo nun ciclo de vida dun proxecto de PSA.
 
-> ![Entradas de tempo de procesamento nun ciclo de vida de Project Service.](media/basic-guide-17.png)
+> ![Entradas de tempo de procesamento nun ciclo de vida de Project Service](media/basic-guide-17.png)
  
 1. O envío dunha entrada de tempo provoca a creación de dúas liñas de diario: unha para o custo e outra para as vendas sen facturar.
 2. A aprobación posterior da entrada de tempo provoca a creación de dous datos reais: un para o custo e outro para as vendas sen facturar.
@@ -147,6 +149,3 @@ Na seguinte táboa móstranse os rexistros da entidade de Conexión da transacci
 | Corrección de borrador de factura       | GUID de transacción da liña de factura | Substitución          | msdyn_invoicelinetransaction | GUID de vendas facturadas            | Orixinal           | msdyn_actual       |
 | Confirmar corrección de factura     | GUID de reversión de vendas facturadas    | Reversión          | msdyn_actual                 | GUID de vendas facturadas            | Orixinal           | msdyn_actual       |
 | GUID de dato real de novas vendas sen facturar | Substitución                     | msdyn_actual       | GUID de vendas facturadas            | Orixinal                     | msdyn_actual       |                    |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

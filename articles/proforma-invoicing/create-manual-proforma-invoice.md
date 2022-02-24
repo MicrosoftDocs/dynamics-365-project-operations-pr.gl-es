@@ -1,25 +1,42 @@
 ---
-title: Facturas proforma
-description: Este tema ofrece información sobre as facturas proforma en Project Operations.
+title: Crear unha factura proforma manual
+description: Este tema ofrece información sobre a creación dunha factura proforma.
 author: rumant
-ms.date: 04/05/2021
+manager: AnnBe
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
+audience: Application User
 ms.reviewer: kfend
-ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: suvaidya
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995624"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128056"
 ---
-# <a name="proforma-invoices"></a>Facturas proforma
+# <a name="create-a-manual-proforma-invoice"></a>Crear unha factura proforma manual
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-A facturación proforma proporciona aos xestores de proxectos un segundo nivel de aprobación antes de que creen facturas para os clientes. O primeiro nivel de aprobación complétase cando se aproban as entradas de tempo, gasto e material que envían os membros do equipo do proxecto. As facturas proforma confirmadas están dispoñibles no módulo de Contabilidade de proxecto de Project Operations. Os contables do proxecto poden realizar actualizacións adicionais como impostos sobre vendas, contabilidade e deseño de facturas.
+Facturación proporciona aos xestores de proxectos un segundo nivel de aprobación antes de que creen facturas para os clientes. O primeiro nivel de aprobación complétase cando se aproban as entradas de tempo e gasto que envían os membros do equipo do proxecto.
 
+Dynamics 365 Project Operations non se deseñou para xerar facturas orientadas ao cliente polas seguintes razóns:
+
+- Non contén información fiscal.
+- Non pode converter outras moedas á moeda de facturación mediante tipos de cambio configurados correctamente.
+- Non pode formatar correctamente as facturas para que poidan imprimirse.
+
+Pola contra, pode utilizar un sistema financeiro ou de contabilidade para crear facturas orientadas ao cliente que usan a información das propostas de facturas xeradas.
 
 ## <a name="creating-project-invoices"></a>Creación de facturas de proxecto
 
@@ -33,7 +50,7 @@ Siga este paso para crear unha factura para un contrato de proxecto específico.
 
 - Na páxina de lista **Contratos de proxecto**, abra un contrato de proxecto e, a seguir, seleccione **Crear factura**.
 
-    Xérase unha factura para todas as transaccións do contrato de proxecto seleccionado que teñan un estado de **Listo para facturar**. Estas transaccións inclúen tempo, gastos, materiais, fitos e outras liñas de diario de vendas non facturadas.
+    Xérase unha factura para todas as transaccións do contrato de proxecto seleccionado que teñan un estado de **Listo para facturar**. Estas transaccións inclúen tempo, gastos, fitos e liñas de contratos baseadas en produtos.
 
 Siga estes pasos para crear facturas en masa.
 
@@ -43,7 +60,7 @@ Siga estes pasos para crear facturas en masa.
 
 2. Seleccione **Aceptar** para pechar a caixa de mensaxe.
 
-    Xérase unha factura para todas as transaccións dunha liña de contrato que teñan un estado de **Listo para facturar**. Estas transaccións inclúen tempo, gastos, materiais, fitos e outras liñas de diario de vendas non facturadas.
+    Xérase unha factura para todas as transaccións dunha liña de contrato que teñan un estado de **Listo para facturar**. Estas transaccións inclúen tempo, gastos, fitos e liñas de contratos baseadas en produtos.
 
 3. Para ver as facturas que se xeran, vaia a **Vendas** \> **Facturación** \> **Facturas**. Verá unha factura por cada contrato do proxecto.
 
@@ -76,10 +93,11 @@ O traballo de proceso por lotes para crear facturas é un traballo recorrente. S
  
 ### <a name="edit-a-draft-invoice"></a>Edita un borrador de factura
 
-Cando se crea un borrador de factura de proxecto, todas as transaccións de vendas non facturadas que se crearon cando se aprobaron as entradas de tempo, gasto e uso de material son enviadas á factura. Pode realizar os seguintes axustes mentres a factura aínda está en fase de borrador:
+Cando se crea un borrador de factura de proxecto, todas as transaccións de vendas non facturadas que se crearon cando se aprobaron as entradas de tempo e gasto son enviadas á factura. Pode realizar os seguintes axustes mentres a factura aínda está en fase de borrador:
 
 - Eliminar ou editar os detalles da liña de factura.
 - Editar e axustar a cantidade e o tipo de facturación.
+- Engadir directamente tempo, gastos e taxas como transaccións na factura. Pode empregar esta funcionalidade se a liña de factura está asignada a unha liña de contrato que permite estas clases de transaccións.
 
 Seleccione **Confirmar** para confirmar unha factura. A acción Confirmar é unha acción unidireccional. Cando seleccione **Confirmar**, o sistema fai a factura só de lectura e crea facturas de vendas facturadas a partir de cada detalle da liña de factura para cada liña de factura. Se o detalle da liña de factura fai referencia a un prezo real de vendas non facturadas, o sistema tamén inverte o dato real de vendas non facturadas. (Calquera detalle de liña de factura que se crease a partir dunha entrada de gasto ou referencia fará referencia a un dato real de vendas non facturadas). Os sistemas de integración de libro de contabilidade xeral poden usar esta inversión para inverter o traballo do proxecto (WIP) para contabilidade.
 
@@ -93,6 +111,3 @@ Cando se confirma unha factura correctora, invértese o datos real de vendas fac
 
 - Un dato real de vendas facturadas de seis horas.
 - Un dato real de vendas sen facturar das dúas horas restantes. Esta transacción pódese facturar posteriormente ou marcarse como non imputable, dependendo das negociacións co cliente.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

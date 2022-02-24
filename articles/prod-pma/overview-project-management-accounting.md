@@ -2,26 +2,28 @@
 title: Visión xeral de xestión de proxectos e contabilidade
 description: A funcionalidade de xestión de proxectos e contabilidade pódese usar en varios sectores para prestar un servizo, producir un produto ou acadar un resultado.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007504"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076275"
 ---
 # <a name="project-management-and-accounting-overview"></a>Visión xeral de xestión de proxectos e contabilidade
 
@@ -34,14 +36,14 @@ Un proxecto é un grupo de actividades deseñado para prestar un servizo, produc
 ## <a name="projects-across-industries"></a>Proxectos entre sectores
 A funcionalidade de xestión de proxectos e contabilidade pódese empregar en varios sectores, como se mostra na seguinte ilustración.
 
-[![Proxectos entre sectores.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Proxectos entre sectores](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Nun centro de chamadas, pódese usar un tícket para describir o conxunto de accións necesarias para resolver unha chamada. As empresas consultoras, como organizacións de xestión ou consultoría técnica ou axencias de publicidade, refírense ás súas actividades como proxectos. En márketing, unha campaña representa un conxunto de traballos que deben entregarse. Na fabricación baseada en proxectos, un pedido de produción relaciona o traballo que hai que facer para producir algúns produtos acabados. Independentemente do nome que se empregue para eles, estes proxectos implican recursos, calendarios e custos, e a funcionalidade de xestión de proxectos e contabilidade pode axudar na planificación, execución e análise destes proxectos.
 
 ## <a name="project-phases"></a>Fases do proxecto
 Aínda que o seguinte fluxo de proceso está dirixido a proxectos externos ou a proxectos completados por un ou máis clientes, a funcionalidade tamén se aplica a proxectos internos só de custo. 
 
-![3 fases dun proxecto.](./media/3-stages-of-a-project.png) 
+![3 fases dun proxecto](./media/3-stages-of-a-project.png) 
 
 Como se mostra na ilustración anterior, a xestión de proxectos e a contabilidade pódense dividir en tres fases:
 
@@ -203,7 +205,7 @@ Pode pedir elementos do inventario da empresa para o consumo nun proxecto. Como 
 
 A forma en que solicita os artigos depende de desde onde os solicite:
 
--   Para pedir artigos do inventario da empresa, debe introducir o pedido como un requisito de artigos. Se usa a páxina **Requisitos de artigos**, pode configurar o requisito para que poida recibir artigos como entregas parciais. Polo tanto, pode aprazar o consumo dunha cantidade dos artigos ata que se requiran.
+-   Para pedir artigos do inventario da empresa, debe introducir o pedido como un requisito de artigos. Se usa a páxina **Requisitos de artigos**, pode configurar o requisito para que poida recibir artigos como entregas parciais. Polo tanto, pode aprazar o consumo dunha cantidade dos artigos ata que se requiran.
 -   Para pedir artigos a un fornecedor externo, debe crear o pedido como pedido de compra na páxina **Pedido de compra**.
 
 > [!NOTE] 
@@ -225,7 +227,7 @@ O tipo de proxecto determina o procedemento de facturación que se debe aplicar.
 Antes de crear unha factura de cliente para un proxecto, pode crear unha factura preliminar ou unha proposta de factura. Nunha proposta de factura, pode seleccionar as transaccións do proxecto para incluír nunha factura do proxecto. A seguir, pode revisar os detalles da factura antes de contabilizar a factura do proxecto e enviala ao cliente ou a outra fonte de financiamento. 
 
 
-Para obter máis información sobre como procesar as facturas do proxecto, consulte [Facturación de proxectos](/dynamics365/finance/accounts-payable/project-invoicing).
+Para obter máis información sobre como procesar as facturas do proxecto, consulte [Facturación de proxectos](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Calcular o custo para completar un proxecto
@@ -298,7 +300,7 @@ En función da súa configuración, pode prever as entradas de efectivo para un 
 -   **Data do proxecto:** 5 de marzo de 2012.
 -   **Data da factura:** 31 de marzo de 2012. Esta data determínase en función da frecuencia da factura. Para este exemplo, vostede establece a frecuencia da factura no mes actual. Polo tanto, todas as transaccións que se contabilicen no mes de marzo factúranse o último día do mes.
 -   **Data de vencemento:** 14 de abril de 2012. Esta data determínase en función dos prazos de pagamento establecidos para o proxecto. Para este exemplo, seleccionou prazos de pagamento de 14 días. Polo tanto, engádense 14 días á data da factura para chegar á data de vencemento do 14 de abril de 2012.
--   **Data prevista de pagamento de vendas:** 27 de abril de 2012. Esta data calcúlase engadindo o número de días no campo **Días de reserva xerais** na páxina **Parámetros de xestión de proxectos e contabilidade** ao número de días no campo **Días de reserva individuais** na páxina **Contratos de proxecto** e engadindo o total ao número de días no campo **Data de vencemento**. Para este exemplo, introduciu **3** no campo **Días de reserva xerais** e **10** no campo **Días de reserva individuais**. Polo tanto, engádense 13 días á data de vencemento da factura para chegar á data prevista de pagamento das vendas de 27 de abril de 2012.
+-   **Data prevista de pagamento de vendas:** 27 de abril de 2012. Esta data calcúlase engadindo o número de días no campo **Días de reserva xerais** na páxina **Parámetros de xestión de proxectos e contabilidade** ao número de días no campo **Días de reserva individuais** na páxina **Contratos de proxecto** e engadindo o total ao número de días no campo **Data de vencemento**. Para este exemplo, introduciu **3** no campo **Días de reserva xerais** e **10** no campo **Días de reserva individuais**. Polo tanto, engádense 13 días á data de vencemento da factura para chegar á data prevista de pagamento das vendas de 27 de abril de 2012.
 
 Os días de reserva xerais poden substituír aos días de reserva individuais ou engadirse aos días de reserva individuais:
 
@@ -438,6 +440,3 @@ Despois de calcular a declaración, pode ver a seguinte información nos distint
 -   **Consumo** - Información sobre o consumo de horas, artigos, gastos e transaccións de nómina.
 -   **Factura** - Información sobre facturas e facturación en conta.
 -   **Tarifa horaria** - As tarifas horarias das horas que se contabilizan nas contas de ingresos e custos.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

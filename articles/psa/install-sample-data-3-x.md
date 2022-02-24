@@ -3,6 +3,7 @@ title: Instalación dos datos de exemplo
 description: Este tema ofrece información sobre a instalación de datos de exemplo en Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -10,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985544"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144501"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalación de datos de exemplo para a aplicación Project Service
 
@@ -86,7 +87,7 @@ Debe planificar que o equipo siga conectado a unha rede, e que a instalación se
 O equipo debe ter a función de protector de pantalla desactivada. Do contrario, as credenciais de sesión para a instalación se poden perder cando se active o protector de pantalla (a menos que manteña a sesión activa todo o tempo).
 
 > [!div class="mx-imgBorder"]
-> ![Captura de pantalla da configuración do protector de pantalla, co protector de pantalla desactivado.](media/sample-data-1.png)
+> ![Captura de pantalla da configuración do protector de pantalla, co protector de pantalla desactivado](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Descargar e desempaquetar
 
@@ -142,13 +143,13 @@ O paquete de datos de demostración require seis usuarios. Para que o paquete se
 3. Abra **PkgFolder** e, a seguir, localice e abra **ImportUserMapFile.xml**. Actualice os campos **Novo=** aos enderezos de correo electrónico dos Usuarios correspondentes no seu sistema.
 
    > [!div class="mx-imgBorder"]
-   > ![Captura de pantalla de UserMapFile.](media/sample-data-7.png)
+   > ![Captura de pantalla de UserMapFile](media/sample-data-7.png)
 
 4. O usuario con nome completo "Spencer Low" ten un ID de usuario diferente de **"spencerl"**, polo que ten que actualizar un ficheiro adicional. Abra **DemoDataPreImportConfig.xml** e busque a etiqueta **userstocreateandconfigure**. Actualice a etiqueta **\<login\>** con loginId (distingue maiúsculas e minúsculas). 
 
 5. O primeiro calendario do usuario (na etiqueta **userstocreateandconfigure**) utilízase para encher as horas de traballo para todos os recursos reservables ao importar os datos de demostración. Navegue a **Configuración** > **Seguranza** > **Usuarios**, busque o usuario "Spencer Low" e abra a opción "Horas Laborables". Edite as horas laborables existentes seleccionando a opción **Toda a programación periódica semanal de principio a fin**. Asegúrese de que as **Horas laborables están definidas como 8 AM - 5 PM (9 horas), de luns a venres, e co fuso horario en hora do Pacífico (Estados Unidos e Canadá)**. Isto é necesario para garantir que o panel Proxecto e Programación se mostran como está previsto.
 
-**Recomendación:** Considere crear unha copia de seguranza da súa organización agora, en acaso de que necesite volver ao punto de partida se algo sae mal durante a instalación dos datos de exemplo. Para obter máis información, vexa [Copia de seguranza e restauración de instancias](/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Recomendación:** Considere crear unha copia de seguranza da súa organización agora, en acaso de que necesite volver ao punto de partida se algo sae mal durante a instalación dos datos de exemplo. Para obter máis información, vexa [Copia de seguranza e restauración de instancias](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Executar o Package Deployer
 
@@ -172,7 +173,7 @@ O paquete de datos de demostración require seis usuarios. Para que o paquete se
 5. Seleccione **Seguinte** ata que vexa o diálogo **Configurar datos de demostración**.
 
    > [!div class="mx-imgBorder"]
-   > ![Captura de pantalla da ventá de estado do instalador dos datos de demostración.](media/sample-data-3.png)
+   > ![Captura de pantalla da ventá de estado do instalador dos datos de demostración](media/sample-data-3.png)
 
 6. Antes de continuar, teña en conta que instalar datos de exemplo pode tardar ata unha hora (normalmente ~10 minutos). Deberá asegurarse de que o equipo permanece acendido e conectado a unha rede durante todo o proceso de instalación, e que a sesión permanece activa.   
 
@@ -191,10 +192,10 @@ Unha vez que os datos de exemplo se carguen completamente, inicie sesión como o
 - Se a aplicación Field Service está instalada, vaia a **Project Service** > **Configuración** > **Listas de prezos**. Confirme que existen taxas de facturación e taxas de custo. Vaia a **Field Service** > **Configuración** > **Listas de prezos** e comprobe que existen taxas de facturación e taxas de custos, coa divisa adecuada para cada país ou rexión no conxunto de datos.
 
   > [!div class="mx-imgBorder"]
-  > ![Captura de pantalla de listas de prezos activas.](media/sample-data-4.png)
+  > ![Captura de pantalla de listas de prezos activas](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Captura de pantalla de unidades organizativas activas.](media/sample-data-5.png)
+  > ![Captura de pantalla de unidades organizativas activas](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Notas técnicas
 
@@ -295,7 +296,4 @@ Se necesita cambiar as horas laborables dos recursos reservables de exemplo, vai
 Seleccione un usuario (por exemplo, Spencer Low) e cambie as horas laborables de Spencer polas horas que desexe aplicar a varios usuarios. Vaia a **Universal Resource Scheduling** > **Configuración** > **Modelos de horas laborables** e edite o rexistro **Modelo de traballo predeterminado**. No campo **Recurso de modelo**, seleccione un usuario coas horas laborables que desexe aplicar a outros recursos. Vaia a **Universal Resource Scheduling** > **Programación** > **Recursos** > **Recursos reservables activos**. Seleccione os recursos que desexe cambiar e, a seguir, seleccione **Establecer calendario**. Na lista despregable **Modelo de traballo** , seleccione o modelo **Hora laborable predefinida** ou outro modelo co recurso de modelo correcto. Cando vaia ao panel de programación, verá que os recursos agora teñen horas laborables actualizadas.
 
 > [!div class="mx-imgBorder"]
-> ![Captura de pantalla de recursos reservables activos.](media/sample-data-6.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> ![Captura de pantalla de recursos reservables activos](media/sample-data-6.png)

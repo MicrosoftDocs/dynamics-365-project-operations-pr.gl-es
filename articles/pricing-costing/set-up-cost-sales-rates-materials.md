@@ -2,16 +2,18 @@
 title: Configurar taxas de custo e vendas para os materiais
 description: Este tema ofrece información sobre como configurar o custo e as taxas de vendas dos materiais empregados nos proxectos.
 author: rumant
+manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 05abefcec5c64632d00e2317107fe7a84ded4908
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999179"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877785"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Configurar taxas de custo e vendas para os materiais
 
@@ -25,6 +27,6 @@ Para configurar as taxas de custos e vendas dos produtos, complete os seguintes 
 2. En **Elementos da lista de prezos**, no menú da subgrade, seleccione **Novo elemento da lista de prezos**. 
 3. Na páxina **Creación rápida**, introduza o produto e a unidade para a que está a crear o novo prezo.
 
-Para obter máis información sobre como definir os prezos dos elementos do catálogo, consulte [Configurar prezos dos produtos](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) e [Precisión decimal en moeda e prezos](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md).
+Para obter máis información sobre como definir os prezos dos elementos do catálogo, consulte [Configurar prezos dos produtos](https://docs.microsoft.com/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products) e [Precisión decimal en moeda e prezos](https://docs.microsoft.com/dynamics365/sales-enterprise/decimal-precision-currency-pricing).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,17 +2,19 @@
 title: Ligar datos reais cos rexistros orixinais
 description: Este tema explica como ligar datos reais a rexistros orixinais como entrada de tempo, entrada de gastos ou rexistros de uso de material.
 author: rumant
+manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 545775c4eae6c3dc689f264e7f662471c17b2340
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991754"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852587"
 ---
 # <a name="link-actuals-to-original-records"></a>Ligar datos reais cos rexistros orixinais
 
@@ -77,7 +79,7 @@ En conxunto, **Orixe de transacción** e **Conexión de transacción** axudan a 
 
 O seguinte exemplo mostra o procesamento típico de entradas de tempo nun ciclo de vida dun proxecto de Project Operations.
 
-> ![Entradas de tempo de procesamento nun ciclo de vida de Project Service.](media/basic-guide-17.png)
+> ![Entradas de tempo de procesamento nun ciclo de vida de Project Service](media/basic-guide-17.png)
  
 1. O envío dunha entrada de tempo crea dúas liñas de diario: unha liña para o custo e outra liña para as vendas sen facturar.
 2. A aprobación posterior da entrada de tempo crea de dous datos reais: un dato real para o custo e un dato real para as vendas sen facturar.

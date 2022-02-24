@@ -2,16 +2,18 @@
 title: Xestionar varios clientes en liñas de oferta baseada en proxecto - lite
 description: Este tema describe como xestionar varios clientes en liñas de oferta baseada en proxecto.
 author: rumant
+manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d015e9107741fd496f7d3639731f33fcdcc9b9bdd5f501c9ad2617e37a707f35
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001699"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176474"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Xestionar varios clientes en liñas de oferta baseada en proxecto - lite
 
@@ -41,6 +43,3 @@ A seguinte táboa mostra os campos do rexistro de cliente de liña de oferta dun
 Pode editar porcentaxes divididas de facturación en liña. Cando as porcentaxes de división de facturación non totalicen o 100 %, prodúcese un erro. Despois de editar as porcentaxes de división de facturación, actualice a páxina de liña de oferta para eliminar o erro.
 
 Utilice a acción de distribución uniforme na subgrade de clientes de liña de oferta para asignar divisións de facturación a todos os clientes de liña de oferta. Se hai un factor de redondeo, engadirase ao cliente de redondeo. Un dos clientes da liña de oferta sempre está etiquetado como cliente de redondeo, o que significa que o rexistro de cliente da liña de oferta ten o indicador de redondeo establecido en **Si**. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

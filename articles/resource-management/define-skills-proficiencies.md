@@ -2,9 +2,11 @@
 title: Definir habilidades e destrezas
 description: Este tema ofrece información sobre como configurar os modelos de habilidades para valorar os recursos.
 author: ruhercul
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e120f8c5a3d2dfaeb577652afcc1feac4cdc9e22f2f274e94bb674ea3fa52fed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8738a4743554704ef76807c81fdefcd74e668e1b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988739"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124771"
 ---
 # <a name="define-skills-and-proficiencies"></a>Definir habilidades e destrezas
 
@@ -40,6 +42,3 @@ As habilidades dos recursos clasifícanse por modelos de competencia. As clasifi
 
 
 Estes valores de clasificación móstranse nos filtros **Requisitos dos recursos**, **Panel de programación** e **Asistente de programación**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

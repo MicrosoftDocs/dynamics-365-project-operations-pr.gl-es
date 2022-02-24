@@ -2,22 +2,24 @@
 title: Importar unha estimación a unha liña de contrato baseado en proxecto - lite
 description: Este tema ofrece información sobre como importar estimacións financeiras dun proxecto a unha liña de contrato.
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fb85d835789da82f22ae007addb6757ab3c166180992e4ce3a5c85606be6671d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b462af163fef1bfcbbc4f945df722d4e8a71fb1a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997244"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177464"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Importar unha estimación a unha liña de contrato baseado en proxecto - lite
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
-En Dynamics 365 Project Operations, pode importar estimacións desde un proxecto a unha liña de contrato baseado en proxecto.
+En Dynamics 365 Project Operations, pode importar estimacións dun proxecto a unha liña de contrato baseado en proxecto.
 
 1. Verifique que o campo **Proxecto** da liña de contrato baseado en proxecto está enchido.
 2. No separador **Detalles de liña de contrato**, na subgrade, seleccione **Importar desde a estimación do proxecto**. Ábrese unha páxina de diálogo con opcións de resumo. As opcións de resumo dispoñibles son **Clase de transacción**, **Categoría**, **Rol** e **Tarefa de proxecto**.
@@ -58,6 +60,3 @@ Cando o usuario selecciona resumir por **Clase de transacción**, **Categoría**
 | Tarefa A | Tarifas aéreas | 10/1/2020 | 4 | 400 | 1600 |
 | Tarefa B | Hotel | 10/1/2020 | 4 | 200 | 800 |
 | Tarefa C | Hotel | 11/1/2020 | 2 | 200 | 400 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

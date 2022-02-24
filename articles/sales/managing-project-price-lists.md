@@ -2,9 +2,11 @@
 title: Xestionar listas de prezos de proxecto nunha oferta
 description: Neste tema se proporciona información sobre a entidade lista de prezos de proxectos.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003904"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177194"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Xestionar listas de prezos de proxecto nunha oferta
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Dynamics 365 Project Operations amplía a entidade Lista de prezos en Dynamics 365 Sales. 
+Dynamics 365 Project Operations estende a entidade de lista de prezos en Dynamics 365 Sales. 
 
 ## <a name="key-entities"></a>Entidades clave
 
@@ -118,6 +120,3 @@ Do mesmo xeito que as taxas de facturación, as taxas de custos dos recursos hum
     1. A lista de prezos de custos que se anexa á unidade organizativa.
     2. A lista de prezos de custos que se anexa aos parámetros de Project Operations. Debido a que se poden anexar listas de prezos en moitas moedas diferentes aos parámetros, faise unha equivalencia entre a moeda da unidade organizativa contratante do proxecto, o contrato ou a oferta e a moeda da lista de prezos de custos.
     3. Para os gastos, os métodos de prezos a custo e de sobreprezo sobre custo non se aplican ás listas de prezos de custos. Aínda que se utilicen estes métodos de prezos nas liñas de lista de prezos de custos para configurar os custos da categoría de transaccións, o sistema non os ignora e non se introduce ningún prezo de custo por defecto.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

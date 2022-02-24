@@ -2,6 +2,8 @@
 title: Grupos de unidades e unidades
 description: Este tema fornece información sobre os grupos de unidades e as unidades.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987569"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145581"
 ---
 # <a name="unit-groups-and-units"></a>Grupos de unidades e unidades
 
@@ -44,7 +46,7 @@ Por exemplo, no grupo de unidades **Tempo**, se configura **Hora** como primeira
 
 A seguinte imaxe mostra un exemplo de configuración para a unidade **Día**, onde o campo **Cantidade** mostra o número de horas que hai nun día e **Semana**, onde o campo **Cantidade** mostra o número de días que están nunha semana.
 
-> ![Grupo de unidades: Páxina de información.](media/advanced-2.png)
+> ![Grupo de unidades: Páxina de información](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Uso das unidades e os grupos de unidades
 
@@ -86,7 +88,7 @@ O seguinte exemplo mostra como PSA usa o grupo de unidades, as unidades e os fac
 
 | Rol      | Grupo de unidades | Unidade | Unidade organizativa | Prezo   |
 |-----------|------------|------|---------------------|---------|
-| Programador | Tempo       | Día  | Contoso Reino Unido          | 800 GBP |
+| Programador | Time       | Day  | Contoso Reino Unido          | 800 GBP |
 
 ### <a name="time-entry"></a>Entrada de tempo
 
@@ -110,6 +112,3 @@ Non. Actualmente a estimación do programa está restrinxida ás horas e non se 
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Pódense editar, eliminar e engadir unidades e grupos de unidades?
 Si. Con excepción do grupo de unidades **Tempo** e a unidade **Hora**, pódense eliminar ou editar todas as unidades e pódense engadir novas unidades. En PSA, o grupo de unidades **Tempo** e a unidade **Hora** non se poden eliminar. Non obstante, pódense actualizar cun texto traducido para o campo **Nome**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

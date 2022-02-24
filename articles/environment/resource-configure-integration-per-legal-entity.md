@@ -2,22 +2,24 @@
 title: Configurar a integración Project Operations por entidade legal
 description: Este tema ofrece información sobre como configurar a integración por entidade legal en Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999404"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122881"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Configurar a integración Project Operations por entidade legal 
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Este tema guíalle polos pasos necesarios para configurar Dynamics 365 Project Operations por entidade legal.
+Este tema guíalle polos pasos necesarios para configurar Dynamics 365 Project Project Operations por entidade legal.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Activar claves de funcionalidade en Dynamics 365 Finance
 
@@ -49,6 +51,3 @@ Cada entidade legal que usa Projecto Operations en Dynamics 365 Customer Engagem
   - **Valores predefinidos do tipo de facturación**: Project Operations emprega un conxunto fixo de valores predefinidos do tipo de facturación que se deben atribuñir ás propiedades de liña de Finance. Cree un rexistro para cada tipo de facturación: **Non especificado**, **Imputable**, **Non imputable**, **Gratuíto** e **Non dispoñible**.
   - **Valores predefinidos de categoría de proxecto**: Seleccione as categorías de proxecto predefinidas que se empregarán para cada tipo de transacción. Estes valores predefinidos utilizaranse no **Diario de integración de Project Operations** e nas estimacións onde non se especifica ningunha categoría de transacción para o datos real do proxecto.
   - **Previsións**: Seleccione o modelo de previsión que se utilizará para estimacións de tempo e gastos.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

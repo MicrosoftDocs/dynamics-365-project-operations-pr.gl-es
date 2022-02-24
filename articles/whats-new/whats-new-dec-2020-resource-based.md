@@ -2,17 +2,19 @@
 title: Novidades de decembro de 2020 - Project Operations para situacións baseadas en recursos/sen fornecemento
 description: Este tema ofrece información sobre as actualizacións de calidade dispoñibles na versión de decembro de 2020 de Project Operations para situacións baseadas en recursos/sen fornecemento.
 author: sigitac
+manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984869"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727878"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de decembro de 2020 - Project Operations para situacións baseadas en recursos/sen fornecemento
 
@@ -106,7 +108,4 @@ As seguintes funcionalidades están incluídas nesta versión:
 | Tempo e gasto                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | O fluxo de traballo de contabilización automática do informe de gastos completouse pero a factura non se contabiliza                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Actualizacións normativas
-Para obter información sobre actualizacións normativas para aplicacións de Finance and Operations, vexa [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Para obter información sobre actualizacións normativas para aplicacións de Finance and Operations, vexa [Actualizacións normativas](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.

@@ -2,16 +2,18 @@
 title: Cumprimento dos requisitos de recursos xenéricos
 description: Este tema proporciona información sobre como reservar recursos nomeados para un requisito de recursos xenérico.
 author: ruhercul
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4ff8f74fdaeac9757af8df4803e58a006ebb9fe21a460cf0ffcb35f1a4d6308f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008269"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130306"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Cumprimento dos requisitos de recursos xenéricos
 
@@ -37,6 +39,3 @@ Este é un exemplo de cando se necesitan varios recursos nomeados para cumprir u
 A principal diferenza neste escenario é que o recurso xenérico permanece no equipo asignado á tarefa e os membros do equipo de recursos nomeados reservados non se asignan como parte do posto. O xestor do proxecto pode atribuír o traballo segundo corresponda aos recursos nomeados. A vista **Reconciliación** pode axudar a un xestor de proxectos a dividir as reservas entre varios recursos para a asignación de tarefas. Isto non se fai de xeito automático porque en calquera escenario máis complicado que o simple exemplo anterior, como cando hai un paquete de tarefas que conforman o requisito ou a intención de como o xestor de proxectos quere atribuír debe ser asumida polo sistema. Debido a que o sistema non pode entender a intención, é probable que as suposicións sexan diferentes do previsto e se produza un resultado incorrecto ou imprevisible. O resultado previsible é que o recurso xenérico permaneza asignado ata que o responsable do proxecto cree asignacións deliberadamente, coa asistencia da vista **Reconciliación**.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

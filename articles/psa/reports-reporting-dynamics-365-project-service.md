@@ -2,9 +2,10 @@
 title: Páxina de inicio de informes
 description: Este tema fornece ligazóns a información sobre informes en Dynamics 365 Project Service Automation.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: ruhercul
@@ -17,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4e60fc8c3788f4a2997d894e79d0d510d63209dd1570d79f1c43c2814d8ab819
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 25486b0c153842cab4331f27eea4872f848bea50
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998279"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147696"
 ---
 # <a name="reporting-home-page"></a>Páxina de inicio de informes
 
@@ -30,15 +31,15 @@ ms.locfileid: "6998279"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 Project Service Automation permite a organizacións baseadas en proxectos xestionar de xeito eficiente as operacións do seu negocio. En calquera proxecto, os membros do equipo deben xestionar a oportunidade, a oferta e planificar o traballo, dotar de recursos os proxectos, xestionar o traballo segundo o plan, facturar o traballo e logo facer o traballo para completar o proxecto. A capacidade de informar sobre as operacións é clave para determinar a saúde da organización e tomar calquera acción correctora que sexa necesaria. PSA usa os métodos e tecnoloxías de presentación de informes de Microsoft Dynamics 365 para todos os seus informes. Para obter máis información sobre as opcións de presentación de informes, consulte a [Guía de redacción de informes para Dynamics 365 Customer Engagement (on-premises), versión 9](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+Microsoft Dynamics 365 Project Service Automation permite a organizacións baseadas en proxectos xestionar de xeito eficiente as operacións do seu negocio. En calquera proxecto, os membros do equipo deben xestionar a oportunidade, a oferta e planificar o traballo, dotar de recursos os proxectos, xestionar o traballo segundo o plan, facturar o traballo e logo facer o traballo para completar o proxecto. A capacidade de informar sobre as operacións é clave para determinar a saúde da organización e tomar calquera acción correctora que sexa necesaria. PSA usa os métodos e tecnoloxías de presentación de informes de Microsoft Dynamics 365 para todos os seus informes. Para obter máis información sobre as opcións de presentación de informes, consulte a [Guía de redacción de informes para Dynamics 365 Customer Engagement (on-premises), versión 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## <a name="report-wizard"></a>Asistente para informes
 
-O Asistente para informes permita que os non programadores creen informes sinxelos. Debido a que a aplicación está baseada nunha plataforma existente, a experiencia é a mesma que se documenta en [Crear ou editar un informe usando o Asistente para informes](/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). Non obstante, empregará entidades específicas de Project Service Automation.
+O Asistente para informes permita que os non programadores creen informes sinxelos. Debido a que a aplicación está baseada nunha plataforma existente, a experiencia é a mesma que se documenta en [Crear ou editar un informe usando o Asistente para informes](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). Non obstante, empregará entidades específicas de Project Service Automation.
 
 ## <a name="custom-sql-server-reporting-services-reports"></a>Informes personalizados de Custom SQL Server Reporting Services
 
-Se a súa empresa require un informe específico que non se pode crear usando o Asistente para informes, pode crear un informe personalizado. Debe ter Microsoft Visual Studio instalado, xunto coas extensións de elaboración de informes de Microsoft SQL Server Data Tools que correspondan. Para obter máis información sobre ferramentas e versións, consulte [Ambiente de redacción de informes utilizando SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools). Para obter información sobre como crear un informe personalizado, consulte [Crear un novo informe utilizando SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools).
+Se a súa empresa require un informe específico que non se pode crear usando o Asistente para informes, pode crear un informe personalizado. Debe ter Microsoft Visual Studio instalado, xunto coas extensións de elaboración de informes de Microsoft SQL Server Data Tools que correspondan. Para obter máis información sobre ferramentas e versións, consulte [Ambiente de redacción de informes utilizando SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools). Para obter información sobre como crear un informe personalizado, consulte [Crear un novo informe utilizando SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools).
 
 ## <a name="power-bi-insights-apps"></a>Aplicacións de información de Power BI
 
@@ -51,6 +52,3 @@ Para obter máis información sobre os informes en PSA, consulte os seguintes te
 - [Traballo co modelo de datos de Project Service Automation](reports-working-project-service-data-model.md)
 - [Paneis](reports-dashboards.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

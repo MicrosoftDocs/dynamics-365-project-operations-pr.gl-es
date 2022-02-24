@@ -2,9 +2,11 @@
 title: Pedidos de compra para un proxecto
 description: Este artigo describe os diversos métodos que pode empregar para crear pedidos de compra para un proxecto. O método que utilice depende da finalidade co pedido de compra e cando os artigos comprados se consumen e se cobran a un proxecto.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5de28f3844b802a980c811411cae75549c697538f89e8c3d2495ea171a188524
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bd891aec5bcab66c5801a5d9ca8abbbf632d662d
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008989"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076120"
 ---
 # <a name="purchase-orders-for-a-project"></a>Pedidos de compra para un proxecto
 
@@ -74,6 +76,3 @@ Podes usar un dos seguintes métodos para crear un pedido de compra en Xestión 
 
 Para obter máis información, consulte [Recibir artigos do pedido de compra a partir do requisito do artigo](tasks/receive-items-purchase-order-item-requirement.md).
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

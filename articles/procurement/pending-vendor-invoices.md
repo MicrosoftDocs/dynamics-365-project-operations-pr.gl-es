@@ -2,17 +2,17 @@
 title: Comprar materiais sen fornecemento usando unha factura pendente de fornecedor
 description: Este tema explica como rexistrar as facturas pendentes do fornecedor.
 author: sigitac
-ms.date: 09/13/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: b5e6632d73c8a211b1f0d568be8e10ef47be77e2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547287"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993789"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Comprar materiais sen fornecemento usando unha factura pendente de fornecedor
 
@@ -45,5 +45,4 @@ As facturas pendentes do fornecedor poden rexistrarse na páxina **Facturas pend
     - O importe do saldo do fornecedor.
     - O importe do imposto de vendas.
     - O custo contra o proxecto rexístrase na conta de integración de adquisicións.
-    - Transacción de custo real do proxecto en Dataverse.  Esta transacción procésase mediante o [Diario de integración de Project Operations](../project-accounting/project-operations-integration-journal.md). Ao contabilizar este diario móvese o importe da conta de integración de adquisicións á conta de custos do proxecto. 
-    - Compras que se facturan ao cliente do proxecto mediante o método de facturación de tempo e materiais. Ademais, créanse transaccións de facturación non facturadas para as compras en Dataverse. Lista de prezos de produtos en Dataverse úsase para os prezos e importes de venda para a transacción de vendas sen facturar.
+    - A transacción real do proxecto en Dataverse. Esta transacción procésase mediante o [Diario de integración de Project Operations](../project-accounting/project-operations-integration-journal.md). Ao contabilizar este diario móvese o importe da conta de integración de adquisicións á conta de custos do proxecto.

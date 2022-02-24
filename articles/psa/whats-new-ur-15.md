@@ -2,6 +2,8 @@
 title: Novidades ou cambios na versión 15 de actualización de Project Service Automation, V3
 description: Este tema fornece información sobre as novidades e as modificacións na versión 15 de actualización de Project Service Automation, V3.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d052dd670ac31fae57a71cb71682da86a237b3487482a9548f3fb9e52516c407
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ec6746c0d3a1a03ee56440c73d044df844046f8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004444"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143961"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Versión 15 de actualización de Project Service Automation, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Comprácenos anunciar a última actualización para a aplicación Dynamics 365 Project Service Automation (PSA). Esta versión inclúe algunhas melloras importantes na calidade, rendemento e facilidade de uso. Esta versión é compatible con Dynamics 365 9.x. Para actualizar a esta versión, visite o Centro de administración para Dynamics 365 en liña e vaia á páxina de solucións para instalar a actualización. Para obter máis información, consulte [Instalar, actualizar ou eliminar unha solución preferida](/power-platform/admin/install-remove-preferred-solution)
+Comprácenos anunciar a última actualización para a aplicación Dynamics 365 Project Service Automation (PSA). Esta versión inclúe algunhas melloras importantes na calidade, rendemento e facilidade de uso. Esta versión é compatible con Dynamics 365 9.x. Para actualizar a esta versión, visite o Centro de administración para Dynamics 365 en liña e vaia á páxina de solucións para instalar a actualización. Para obter máis información, consulte [Instalar, actualizar ou eliminar unha solución preferida](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)
 
 Este tema mostra as funcionalidades e correccións que son novas ou modificadas para PSA V3, versión 15 de actualización. Esta versión ten un número de compilación de V3.10.5.28 e está dispoñible xeralmente a través dunha autoactualización desde xaneiro de 2020.
 
@@ -61,6 +63,3 @@ Este tema mostra as funcionalidades e correccións que son novas ou modificadas 
   - Corrixido: Xa non se recibe unha mensaxe de erro en **Busca de proxectos** no formulario **Liña de oferta** cando hai máis de 1000 proxectos.
   - Corrixido: A grade **Estimacións** para estimacións laborais e estimacións de gastos agora mostra o símbolo monetario correcto.
   - Corrixido: Despois de que unha organización actualice PSA desde a versión 14 de actualización á versión 15 de actualización, o separador **Programación** xa non aparece en branco no formulario **Proxecto**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

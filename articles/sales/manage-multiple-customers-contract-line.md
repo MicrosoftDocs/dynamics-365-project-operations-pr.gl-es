@@ -2,16 +2,18 @@
 title: Xestionar varios clientes en liñas de oferta baseada en contrato
 description: Este tema ofrece información sobre o traballo con liñas de contrato e contratos que conteñen varios clientes.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 71081775ab45167bc1bff1979f7856a2a2a91385
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992114"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181900"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Xestionar varios clientes en liñas de oferta baseada en contrato
 
@@ -42,6 +44,3 @@ Abaixo amósanse os campos do rexistro de cliente de liña de contrato dunha li�
 As porcentaxes de división de facturación poden editarse na grade. Cando as porcentaxes de división de facturación non totalicen o 100 por cento, producirase un erro. Despois de editar as porcentaxes de facturación, actualice a páxina para eliminar o erro.
 
 Tamén pode probar a seleccionar **Distribución uniforme** na subgrade dos clientes da oferta. Esta acción distribúe uniformemente as divisións de facturación a todos os clientes da liña de contrato. Se hai algún factor de redondeo, engadirase ao cliente de redondeo. Un cliente de liña de contrato sempre está etiquetado como cliente de **Redondeo** coa marca **Redondeo** definida como **Si**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

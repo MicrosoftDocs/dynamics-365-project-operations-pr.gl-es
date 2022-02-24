@@ -2,9 +2,11 @@
 title: Aplicación para móbil Project Timesheet
 description: Este tema ofrece información sobre a aplicación para móbil Microsoft Dynamics 365 Project Timesheet. A aplicación para móbil Project Timesheet permite aos usuarios enviar e aprobar follas de control horario para proxectos no seu dispositivo móbil.
 author: abruer
+manager: AnnBe
 ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997199"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076305"
 ---
 # <a name="project-timesheet-mobile-application"></a>Aplicación para móbil Project Timesheet
 
@@ -94,6 +96,3 @@ Prema **Enviar** para enviar a folla de control horario ao fluxo de traballo de 
 ## <a name="review-timesheets"></a>Revisar follas de control horario
 
 No menú está dispoñible unha lista das follas de control horario que hai que revisar. Esta opción só está dispoñible se foi designado como responsable de aprobación de fluxo de traballo. Admítese a aprobación de cabeceira e de liña. A aprobación a nivel de liña ofrece a posibilidade de marcar unha ou máis liñas para a súa aprobación. Despois de revisar a información da folla de control horario, prema **Aprobar**, **Delegar** ou **Retornar** para continuar o fluxo de traballo.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

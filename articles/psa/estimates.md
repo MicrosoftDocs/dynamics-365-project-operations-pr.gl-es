@@ -2,6 +2,8 @@
 title: Estimacións
 description: Este tema fornece información sobre as estimacións en Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2fa81067ad6e7c291b9ad9468db051e8f6187da9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992384"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151431"
 ---
 # <a name="estimates"></a>Estimacións
 
@@ -83,27 +85,24 @@ Se engadiu un campo personalizado no detalle de liña de oferta e quere que o si
 1. Abra PluginRegistrationTool e conéctese á súa instancia en liña.
 2. Seleccione **Buscar** e busque o complemento para actualizar.
 
-    ![Caixa de diálogo de árbore de busca.](media/basic-guide-19.png)
+    ![Caixa de diálogo de árbore de busca](media/basic-guide-19.png)
 
 3. Seleccione o complemento e, a seguir, na páxina principal, seleccione **Seleccionar**.
 4. Seleccione o paso do complemento para actualizar, prema co botón dereito e logo seleccione **Actualizar**.
 
-    ![Selección dun paso no complemento.](media/basic-guide-20.png)
+    ![Selección dun paso no complemento](media/basic-guide-20.png)
 
 5. Na caixa de diálogo **Actualizar o paso existente**, no campo **Atributos de filtrado**, seleccione o botón de puntos suspensivos (**...**):
  
-    ![Actualizar a caixa de diálogo de Paso existente.](media/basic-guide-21.png)
+    ![Actualizar a caixa de diálogo de Paso existente](media/basic-guide-21.png)
 
 6. Na caixa de diálogo **Seleccionar atributos**, seleccione as caixas de verificación dos atributos personalizados.
 
-    ![Seleccionar a caixa de diálogo Atributos.](media/basic-guide-22.png)
+    ![Seleccionar a caixa de diálogo Atributos](media/basic-guide-22.png)
 
 7. Seleccione **Aceptar** para pechar a caixa de diálogo e logo seleccione **Actualizar paso**.
  
-    ![Actualizar o botón Paso.](media/basic-guide-23.png)
+    ![Actualizar o botón Paso](media/basic-guide-23.png)
 
 8. Repita os pasos do 1 ao 7 para o segundo complemento.
 9. Peche PluginRegistrationTool.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

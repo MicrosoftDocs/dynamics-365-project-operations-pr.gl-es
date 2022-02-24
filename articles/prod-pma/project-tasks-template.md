@@ -2,9 +2,11 @@
 title: Sincronizar tarefas de proxectos directamente desde Project Service Automation a Finance and Operations
 description: Este tema describe o modelo e a tarefa subxacente que se usan para sincronizar as tarefas do proxecto directamente desde Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0383607a07def6c21562bf4b0893fe3ce3db6a04
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992789"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076114"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar tarefas de proxectos directamente desde Project Service Automation a Finance and Operations
 
@@ -39,7 +41,7 @@ A solución de integración de Project Service Automation a Finanzas usa a funci
 
 A seguinte ilustración mostra como se sincronizan os datos entre Project Service Automation e Finance.
 
-[![Fluxo de datos para a integración de Project Service Automation con Finance.](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
+[![Fluxo de datos para a integración de Project Service Automation con Finanzas](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
 
 ## <a name="template-and-task"></a>Modelo e tarefa
 
@@ -80,7 +82,4 @@ Se debe usar Power Query, siga esta pauta:
 
 A seguinte ilustración mostra un exemplo das asignacións de tarefas do modelo en integración de datos. A asignación mostra a información de campo que se sincronizará de Project Service Automation a Finanzas.
 
-[![Asignación de modelos.](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Asignación de modelos](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)

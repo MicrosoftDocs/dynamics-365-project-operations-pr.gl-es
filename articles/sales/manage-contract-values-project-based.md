@@ -2,16 +2,18 @@
 title: Traballar con liñas de contrato baseado en proxecto
 description: Este tema ofrece información sobre as liñas de contrato baseado en proxecto.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990044"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181715"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Traballar con liñas de contrato baseado en proxecto
 
@@ -55,6 +57,3 @@ Regra: Un proxecto e unha clase de transacción determinada só se poden incluí
 | C1       | CL2           | P1      | No           | Si             | No          | Válido           | O tempo e as taxas do proxecto P1 están incluídos en CL1. O gasto no proxecto P1 está incluído en CL2. </br>   Non hai solapamento no que se inclúe en cada liña de contrato e, polo tanto, é válido.  |
 | C1       | CL1           | P1      | Si          | Si             | Si         | Non válido       | Infrinxe a regra. O tempo, os gastos e as taxas do proxecto P1 inclúense nas liñas de dous contratos.                                                                                               |
 | CL2      | CL2           | P1      | Si          | Si             | Si         | Non válido       | Infrinxe a regra. O tempo, os gastos e as taxas do proxecto P1 inclúense nas liñas de dous contratos.                                                                                               |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
