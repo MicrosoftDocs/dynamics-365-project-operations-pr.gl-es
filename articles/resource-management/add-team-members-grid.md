@@ -2,18 +2,16 @@
 title: Engadir membros do equipo desde a grade de membros do equipo
 description: Este tema fornece información sobre como pode xestionar recursos dos membros do equipo.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121531"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008404"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Engadir membros do equipo desde a grade de membros do equipo
 
@@ -200,3 +198,6 @@ Cando vexa o tempo a niveis máis altos, as celas do separador **Conciliación**
 Se ten atribucións de tarefas para un recurso pero non ten reservas, no formulario **Proxectos**, no separador **Conciliación**, seleccione a escaseza de reservas e logo seleccione **Estender a reserva**. Aparece a caixa de diálogo **Estender reserva** e mostra a reserva que é necesaria para resolver a escaseza do recurso. A caixa de diálogo tamén amosa as reservas existentes do recurso en todos os proxectos ou outras entidades programables. Se selecciona **Aceptar** para crear a reserva para o recurso, independentemente da dispoñibilidade dese recurso, pode causar un exceso de reservas.
 
 O xestor de proxectos ou xestor de recursos pode utilizar o panel de programación para xestionar calquera situación na que un recurso estea sobrecargado fóra da súa capacidade.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

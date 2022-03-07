@@ -2,8 +2,6 @@
 title: Propoñer recursos do proxecto
 description: Este tema fornece información sobre propoñer recursos de proxecto.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0a3eaa9929770c91523831d92744d5084aa28cb8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147516"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995039"
 ---
 # <a name="propose-project-resources"></a>Propoñer recursos do proxecto
 
@@ -34,13 +32,13 @@ Os xestores de recursos poden propoñer un recurso ao xestor de proxectos empreg
 1. Na grade de solicitudes ou na propia solicitude, seleccione **Buscar recursos**.
 2. Na páxina **Asistente de programación**, seleccione o recurso e, a seguir, no panel **Crear reserva de recursos**, no campo **Estado da reserva**, seleccione **Reservar**.
 
-    ![Recurso proposto seleccionado](media/Resource-Management-image62.png)
+    ![Recurso proposto seleccionado.](media/Resource-Management-image62.png)
 
 Prodúcense as seguintes actualizacións de estado:
 
 - Na páxina **Asistente de programación**, os indicadores de estado actualízanse para indicar que a reserva é unha proposta, non unha reserva dura.
 
-    ![Indicadores de estado para a reserva proposta na páxina de Asistente de programación](media/Resource-Management-image63.png)
+    ![Indicadores de estado para a reserva proposta na páxina de Asistente de programación.](media/Resource-Management-image63.png)
 
 - Na solicitude do recurso, o estado cambia a **Necesita revisión**.
 
@@ -48,7 +46,7 @@ Prodúcense as seguintes actualizacións de estado:
 
 - No separador **Equipo** do proxecto, o valor **Estado da solicitude** do membro xenérico do equipo, o valor cambiase a **Necesita revisión**.
 
-    ![Estado da solicitude de membro xenérico de equipo cambiado a Necesita revisión no separador Equipo](media/Resource-Management-image48.png)
+    ![Estado da solicitude de membro xenérico de equipo cambiado a Necesita revisión no separador Equipo.](media/Resource-Management-image48.png)
 
 O responsable do proxecto pode aceptar ou rexeitar a proposta.
 
@@ -72,7 +70,7 @@ Para o cálculo da utilización úsanse as seguintes fórmulas:
 
 Podes atopar a vista **Utilización de recursos** no panel **Recursos**.
 
-![Visualización da utilización de recursos](media/Resource-Management-image65.png)
+![Ver utilización de recursos.](media/Resource-Management-image65.png)
 
 Cada cela da grade representa a porcentaxe de utilización facturable do recurso nun período, como un día, unha semana ou un mes. Para o color das celas úsanse as seguintes fórmulas:
 
@@ -86,7 +84,7 @@ A grade require que estableza unha utilización obxectivo no rol ou o recurso in
 
 Ademais, debe atribuírse un rol predefinido a cada recurso reservable. Vaia a **Recursos** \> **Recursos**. No separador **Project Service**, verifique se está definido un rol de recurso e que o campo **É predefinido** para el está configurado en **Si**. Pode engadir roles adicionais cando **É predefinido = Non**. O rol cando **É predefinido = Si** úsase para avaliar a utilización do recurso fronte ao obxectivo para ese rol.
 
-![Rol predefinido establecido](media/Resource-Management-image67.png)
+![Rol predefinido establecido.](media/Resource-Management-image67.png)
 
 No separador **Project Service**, tamén pode configurar unha utilización obxectivo individual para o recurso. A seguir, o cálculo de utilización usa esa utilización obxectivo para avaliar o obxectivo do recurso no canto do obxectivo do rol predefinido do recurso.
 
@@ -98,18 +96,21 @@ A utilización móstrase para un recurso só se ese recurso ten un tempo imputab
 
 As horas laborables do recurso serven como base para calcular a dispoñibilidade dun recurso. As reservas de recursos consumen a capacidade dos recursos.
 
-![Panel de programación](media/Resource-Management-image68.png)
+![Panel de programación.](media/Resource-Management-image68.png)
 
 O panel de programación usa cores e sombreados para amosar reservas, dispoñibilidade e saturacións, e tamén o estado das reservas. Un axuste da configuración do panel de programación permítelle mostrar unha lenda.
 
 Se aparece unha frecha apuntando á dereita xunto a un recurso reservable individual no panel de programación, pódese ampliar o recurso para mostrar detalles do traballo no que está reservado o recurso.
 
-![Engadir o recurso reservable expandido no panel de programación](media/Resource-Management-image69.png)
+![Engadir o recurso reservable expandido no panel de programación.](media/Resource-Management-image69.png)
 
 Debido a que Dynamics 365 Project Service Automation usa o motor de Universal Resource Scheduling, se tamén ten Dynamics 365 Field Service instalado, pode ver os detalles das reservas de recursos para proxectos, pedidos de traballo e calquera outra entidade á que estendeu a programación.
 
-![Detalles de reservas de recursos para proxectos e pedidos de traballo](media/Resource-Management-image70.png)
+![Detalles de reservas de recursos para proxectos e pedidos de traballo.](media/Resource-Management-image70.png)
 
 Para ver máis detalles sobre un recurso individual, prema co botón dereito sobre el para abrir a tarxeta do recurso.
 
-![Tarxeta de recurso](media/Resource-Management-image71.png)
+![Tarxeta de recurso.](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Habilidades e certificacións
 description: Este tema ofrece información sobre como engadir características de habilidade e certificación aos recursos.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: bf892d791b192005cc72d7fed08f2f22a12c002eb270a0faef6ae476fafafc20
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128866"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990179"
 ---
 # <a name="skills-and-certifications"></a>Habilidades e certificacións
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
@@ -43,3 +41,5 @@ Engadir características aos requisitos de recursos permítelle documentar os co
 3. Na subgrade **Habilidades**, seleccione **+ Engadir nova característica de requisito.**
 4. No panel de creación rápida, busque e seleccione as características requiridas e engada un **Valor de clasificación**.
 5. Seleccione **Gardar e pechar**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

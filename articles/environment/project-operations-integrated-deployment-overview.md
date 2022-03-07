@@ -2,18 +2,16 @@
 title: Visión xeral do despregamento de Project Operations para situacións baseadas en recursos/sen fornecemento
 description: Este tema ofrece información sobre o tipo de despregamento, Project Operations para situacións baseadas en recursos/sen fornecemento.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: ca8c0894dff1a74b532f8262278fb20400f097c5
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365468"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001244"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Visión xeral do despregamento de Project Operations para situacións baseadas en recursos/sen fornecemento
 
@@ -43,3 +41,6 @@ Este despregamento debe escollerse se a expectativa de Project Operations é uti
 - Require un rico motor de impostos sobre vendas e tipo de cambio de clase empresarial para xerar facturas orientadas ao cliente.
 - Un sistema de contabilidade de proxectos e recoñecemento de ingresos compatible coas Normas Internacionais de Información Financeira (NIIF).
 - Aplicacións Finance ou Supply Chain Management e integración de transaccións baseadas en proxectos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

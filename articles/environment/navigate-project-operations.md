@@ -8,20 +8,18 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 92a9c4e62165f3e26ccb03c7af61f483c6744cc5
+ms.sourcegitcommit: 627d42e2a318dfc9564a4b803ada157682d4a0db
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642046"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4174263"
 ---
 # <a name="navigate-project-operations"></a>Navegar en Project Operations
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-Dynamics 365 Project Operations para escenarios de recursos/sen fornecemento constan de dous compoñentes: 
+Dynamics 365 Project Operationspara escenarios de recursos/non fornecidos constan de dous compoñentes: 
 
  - **Project Operations en ambiente de Common Data Service (CDS)**: Este compoñente abrangue capacidades e procesos desde a oportunidade ata a facturación proforma. 
  - **Xestión e contabilidade de proxectos no ambiente de Dynamics 365 Finance**: Este compoñente abrangue as capacidades de xestión de gastos, contabilidade de proxectos e recoñecemento de ingresos. 

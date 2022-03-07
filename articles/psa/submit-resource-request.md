@@ -1,8 +1,6 @@
 ---
 title: Enviar unha solicitude de recurso
 description: Este tema fornece información sobre o envío dunha solicitude dun recurso de proxecto.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 173572be43149aea253bf7beddb993f8c50ab337
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149721"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985004"
 ---
 # <a name="submitting-a-resource-request"></a>Enviar unha solicitude de recurso
 
@@ -36,8 +34,11 @@ Pode enviar un requisito de recurso xerado como solicitude de recurso. A solicit
 1. En Project Service Automation (PSA), na páxina **Proxectos** prema no separador **Equipo** para ver unha lista de recursos reservables. 
 2. Seleccione o recurso xenérico que ten un requisito de recurso da lista e, a seguir, prema en **Enviar solicitude**.
 
-![Enviar unha solicitude de recurso](media/RM-how-to-18.png)
+![Enviar unha solicitude de recurso.](media/RM-how-to-18.png)
 
 O estado da solicitude de membro xenérico do equipo cambiará a **Enviado**.
 
 Despois de que o xestor de recursos cumpra a solicitude, o recurso xenérico substituirase por un recurso nomeado se o xestor de recursos cumpre a solicitude coa reserva dun recurso nomeado. Se non, o recurso xenérico permanecerá no equipo e o estado da solicitude cambiará a **Necesita revisión**, se o xestor de recursos propuxo un recurso nomeado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

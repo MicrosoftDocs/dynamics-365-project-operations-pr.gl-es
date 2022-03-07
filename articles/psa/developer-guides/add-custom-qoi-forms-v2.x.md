@@ -2,12 +2,10 @@
 title: Engadir novos formularios de entidade personalizada (Project Service Automation 2.x)
 description: Este tema fornece información sobre como engadir formularios de entidade personalizada para oportunidades, ofertas, pedidos ou facturas en Dynamics 365 Project Service Automation 2.x.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/14/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144591"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995219"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Engadir novos formularios de entidade personalizada (Project Service Automation 2.x)
 
@@ -59,7 +57,7 @@ Siga estes pasos para crear unha versión personalizada do formulario **Informac
     - Exporte o formulario **Información do meu proxecto** como parte dunha solución sen xestionar e, a seguir, busque o valor **formId** no ficheiro customization.xml da solución exportada.
     - Abra o formulario **Información do meu proxecto** no editor de formularios e, a seguir, busque o identificador único global (GUID) xunto ao parámetro **fromId** no URL, como se mostra na seguinte ilustración.
 
-    ![O valor formId do novo formulario no URL](media/how-to-add-custom-forms-in-v2.0.png)
+    ![O valor formId do novo formulario no URL.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Cree unha asignación **msdyn\_ordertype** para o valor **formId** editando o recurso web msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Elimine o código do recurso e substitúao polo seguinte código.
 
@@ -96,3 +94,6 @@ Siga estes pasos para crear unha versión personalizada do formulario **Informac
     ```
 
 6. Garde e publique as personalizacións.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

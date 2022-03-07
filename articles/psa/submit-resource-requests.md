@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b8b136e8d1b8c7acbb8616789ad274c89438e7d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 82789d20abfe92f125678a589f5b7e2a54c0b19e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150216"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282196"
 ---
 # <a name="submit-resource-requests-project-service"></a>Enviar solicitudes de recursos (Project Service)
 
@@ -55,3 +55,6 @@ Unha vez gañado un contrato de proxecto, precisará persoal para o seu proxecto
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía do xestor de proxectos](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

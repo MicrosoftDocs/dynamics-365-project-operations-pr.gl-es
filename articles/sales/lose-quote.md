@@ -2,18 +2,16 @@
 title: Copiar ofertas baseadas en proxecto
 description: Este tema ofrece información sobre como copiar ofertas baseadas en proxecto en Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181810"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992159"
 ---
 # <a name="copy-project-based-quotes"></a>Copiar ofertas baseadas en proxecto
 
@@ -45,3 +43,6 @@ Cando selecciona **Aceptar** na páxina de diálogo, o sistema crea unha copia d
 > - Referencia do proxecto nas liñas de oferta baseada en proxecto -Información sobre o orzamento do cliente
 >
 >Debido a que esta información é moi específica para cada oferta, estes campos e rexistros non se copian. Cópianse as liñas de oferta para proxectos e produtos, as estimacións sobre os detalles da liña de oferta e os valores que no deben superar o nivel da oferta. Os valores por defecto do prezo e do custo dependen da opción de **Copiar prezos** seleccionada na páxina de diálogo **Copiar parámetros**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

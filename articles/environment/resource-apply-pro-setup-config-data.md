@@ -1,35 +1,23 @@
 ---
-title: Configurar e aplicar datos de configuración en Common Data Service
+title: Configure e aplique a configuración no Common Data Service para Project Operations
 description: Este tema ofrece información sobre como configurar e aplicar os datos de configuración en Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 11/04/2020
+ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7742e81316b217066f9f3b8d5c23aa64f1a7efc4
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642226"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076005"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Configurar e aplicar datos de configuración en Common Data Service 
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Configure e aplique a configuración no Common Data Service para Project Operations
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-## <a name="prerequisites"></a>Requisitos previos
-
-Antes de comezar a configurar datos en Common Data Service (CDS), deben cumprirse os seguintes requisitos previos:
-
-1.  Proporcionar un ambiente de CDS e un ambiente de Dynamics 365 Finance ambiente para Project Operations.
-2.  A información da entidade legal de Dynamics 365 Finance compártese co ambiente de CDS. Isto significa que a entidade **Empresa** en CDS ten os seguintes rexistros da empresa:
-  - THPM
-  - USPM
-  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Instale os datos de configuración
 

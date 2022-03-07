@@ -1,27 +1,25 @@
 ---
-title: Contratos de proxecto - Conceptos clave
+title: Conceptos clave - Contratos de proxecto
 description: Este tema ofrece información sobre os conceptos clave dos contratos de proxecto en Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b0e0280cb94e6f0186f59024c233e8fcb9e86abf
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 4ab43a9de6b27f0f0e9b8cbe6ea8b613ce81e08d
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663708"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076068"
 ---
-# <a name="concepts-unique-to-project-based-contracts"></a>Conceptos exclusivos de contratos baseados en proxecto
+# <a name="key-concepts---project-contracts"></a>Conceptos clave - Contratos de proxecto
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-Este tema ofrece os conceptos clave que hai que ter en conta antes de comezar a empregar contratos de proxecto en Dynamics 365 Project Operations:
+Este tema fornece os conceptos clave que hai que ter en conta antes de comezar a empregar contratos de proxecto en Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Empresa propietaria
 
@@ -88,6 +86,3 @@ As programacións de facturas son específicas de cada liña de contrato e son n
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Cambios de pedidos de Dynamics 365 Sales
 
 Os contratos en Project Operations baséanse nos pedidos en Dynamics 365 Sales. Non obstante, hai importantes desviacións e diferenzas na funcionalidade. Os contratos teñen os seus propios elementos de formulario e IU regras de negocio, lóxica empresarial nos complementos e scripts do cliente que as diferencian das ofertas de pedidos. Por estes motivos, non empregue indistintamente un contrato de pedido de vendas e de Project Operations.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

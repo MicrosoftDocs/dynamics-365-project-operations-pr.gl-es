@@ -2,18 +2,16 @@
 title: Usar a categoría de transacción como dimensión de prezos
 description: Este tema fornece información sobre como usar o campo Categoría de transacción como dimensión de prezos.
 author: rumant
-manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
-ms.translationtype: HT
+ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513982"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996119"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Usar a categoría de transacción como dimensión de prezos
 
@@ -50,3 +48,6 @@ A seguinte táboa indica todos os formularios e vistas listos para usar, por ent
 2. Na páxina **Parámetros**, no separador **Dimensións de prezos baseados na cantidade**, verifique que a grade do separador mostra os rexistros da entidade **Dimensións de prezos**.
 3. Engada **Categoría de transaccións** a esta lista e configure os campos **Aplicable ao custo** e **Aplicable á venda** en **Si**.
 4. No capo **Tipo de dimensión**, seleccione **Baseado na cantidade** e, seguir, seleccione a prioridade para a **Categoría de transacción** relacionada co custo e as vendas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

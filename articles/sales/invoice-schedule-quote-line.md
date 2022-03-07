@@ -2,18 +2,16 @@
 title: Programacións de facturas en liñas de oferta baseada en proxecto
 description: Este tema ofrece información sobre a creación de programacións de facturas e fitos para as liñas de oferta.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180820"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988604"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Programacións de facturas en liñas de oferta baseada en proxecto
 
@@ -68,3 +66,6 @@ Abra a liña de oferta de prezo fixo na que necesita crear un fito. No separador
 | Estado da factura | Creación rápida | Cando se crea un fito, este estado sempre se define como **Non está preparado para a facturación**. | Isto propágase ao fito da liña de contrato do proxecto e á factura. |
 | Cantidade da liña | Creación rápida | Importe ou valor do fito que se facturará ao cliente. | Isto propágase ao fito da liña de contrato do proxecto e á factura. |
 | Impostos | Creación rápida | Importe do imposto que se aplicará ao fito. | Isto propágase ao fito da liña de contrato do proxecto e á factura. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

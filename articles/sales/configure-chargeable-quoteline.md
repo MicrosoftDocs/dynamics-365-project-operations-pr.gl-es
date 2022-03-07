@@ -2,18 +2,16 @@
 title: Configurar os compoñentes imputables dunha liña de oferta baseada en proxecto
 description: Este tema ofrece información sobre compoñentes incluídos, imputables e non imputables en liñas de oferta baseada en proxecto.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 36765ab3687a8aaf3ae4a631516a1d61c14e981e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
-ms.translationtype: HT
+ms.openlocfilehash: 251d0013b445d2f7d17fbe1908f0db2e05cfc2670ac667deb363c98f608a2aef
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642541"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003994"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>Configurar os compoñentes imputables dunha liña de oferta baseada en proxecto
 
@@ -53,3 +51,6 @@ Unha estimación ou un dato real creado para un gasto só se considerará imputa
 | No | Si | Non se pode configurar | Non imputable | Facturación nun dato real de tempo: Non dispoñible </br>Tipo de facturación nun dato real de gasto: Non imputable |
 | Si | No | Imputable | Non se pode configurar | Facturación nun dato real de tempo: Imputable </br>Tipo de facturación nun dato real de gasto: Non dispoñible |
 | Si | No | Non imputable | Non se pode configurar | Facturación nun dato real de tempo: Non imputable </br> Tipo de facturación nun dato real de gasto: Non dispoñible |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

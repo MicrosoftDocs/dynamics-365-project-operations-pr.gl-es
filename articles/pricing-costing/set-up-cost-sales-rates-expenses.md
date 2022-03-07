@@ -3,30 +3,29 @@ title: Configurar taxas de custo e vendas para os gastos
 description: Este tema ofrece información sobre como configurar as taxas de custo e vendas para categorías de transaccións e gastos.
 author: rumant
 manager: Annbe
-ms.date: 04/07/2021
+ms.date: 10/13/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877218"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180280"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Configurar taxas de custo e vendas para os gastos
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Pode configurar os prezos de custo e de venda para categorías de transaccións en Dynamics 365 Project Operations. Debido a que os prezos de custo e vendas están deseñados para gastos, cada categoría de transaccións que os inclúa tamén debe configurarse como categoría de gastos. Esta configuración garante a precisión na funcionalidade descendente. Os prezos de custo e vendas para as categorías de transaccións só poden figurar nunha moeda, que debe ser a moeda da cabeceira da lista de prezos.
+Pode configurar prezos de custo e venda para categorías de transaccións en Dynamics 365 Project Operations. Debido a que os prezos de custo e vendas están deseñados para gastos, cada categoría de transaccións que os inclúa tamén debe configurarse como categoría de gastos. Esta configuración garante a precisión na funcionalidade descendente. Os prezos de custo e vendas para as categorías de transaccións só poden figurar nunha moeda, que debe ser a moeda da cabeceira da lista de prezos.
 
 Para configurar as taxas de custo e vendas para as categorías de transaccións, complete os seguintes pasos. 
 
-1. Vaia a **Vendas** > **Clientes** > **Listas de prezos**.
-2. Seleccione **Nova** para crear unha nova lista de prezos. 
-3. En **Prezos de categoría**, no menú da subgrade, seleccione **Novo prezo de categoría**. 
-4. Na páxina **Creación rápida**, introduza a categoría de transaccións e a unidade para a que está a crear o novo prezo.
+1. Cree unha lista de prezos baseada na cabeceira da lista de prezos. 
+2. En **Prezos de categoría**, no menú da subgrade, seleccione **+ Novo prezo de categoría**. 
+3. Na páxina **Creación rápida**, introduza a categoría de transaccións e a unidade para a que está a crear o novo prezo.
 
 A seguinte táboa mostra os campos do separador **Xeral** e a páxina **Creación rápida** dunha liña de prezos de categoría que debe ter en conta ao crear prezos de categoría nunha lista de prezos de vendas ou de custo.
 
@@ -56,6 +55,3 @@ Cando se selecciona este método de fixación de prezos nunha liña de prezos de
 
 ### <a name="markup-over-cost"></a>Sobreprezo sobre o custo
 Cando se selecciona este método de fixación de prezos nunha liña de prezos de categoría ligada a unha lista de prezos de vendas, os valores predefinidos da combinación de categoría e unidade só para un dato real de gasto. Por exemplo, os datos reais de vendas non facturadas para a clase de transacción de gastos. Este prezo de unidade establécese no dato real de vendas sen facturar ata un valor calculado a partir do prezo de unidade so dato real de custo dese gasto despois de que se aplique a porcentaxe de sobreprezo definida. O prezo por defecto baseado no custo non se define nas estimacións do proxecto para gastos ou nos detalles da liña de oferta e a liña de contrato para gastos.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

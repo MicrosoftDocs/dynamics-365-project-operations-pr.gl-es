@@ -2,8 +2,6 @@
 title: Localice o seu próximo proxecto coa aplicación Project Finder Mobile
 description: Como atopar o seguinte proxecto coa aplicación Project Finder Mobile para Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58e6970dbe902deeef144e563bcfcd09046c70ce
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149271"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990769"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Localice o seu próximo proxecto coa aplicación Project Finder Mobile (Project Service)
 
@@ -40,12 +38,15 @@ Coa aplicación Project Finder Mobile no seu teléfono [!INCLUDE[tn_iphone](../i
   
  Toque frecha á dereita do proxecto en que está interesado para ver máis detalles e rexistrarse.  
   
- ![Lista de proxectos con cualificacións coincidentes na aplicación Proxecto Localizador de Mobile](../psa/media/project-service-project-finder-list.png "Lista de proxectos con cualificacións coincidentes na aplicación Proxecto Localizador de Mobile")  
+ ![Lista de proxectos con cualificacións coincidentes na aplicación Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Lista de proxectos con cualificacións coincidentes na aplicación Proxecto Localizador de Mobile")  
   
 ## <a name="update-your-skills"></a>Actualizar as súas habilidades  
  Toque botón de perfil na parte inferior dereita da pantalla para actualizar as súas habilidades e niveis de coñecementos.  
   
- ![Botón de perfil na aplicación Proxecto Localizador de Mobile](../psa/media/project-service-project-finder-profile.png "Botón de perfil na aplicación Proxecto Localizador de Mobile")  
+ ![Botón de perfil na aplicación Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Botón de perfil na aplicación Proxecto Localizador de Mobile")  
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía de tempo, gasto e colaboración](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

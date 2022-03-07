@@ -1,5 +1,5 @@
 ---
-title: Aplicación de gastos para móbiles
+title: Gasto con dispositivos móbiles
 description: Este tema ofrece información sobre a área de traballo móbil de xestión de gastos.
 author: suvaidya
 manager: AnnBe
@@ -15,14 +15,14 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 51da574143b91df636d99f91d37470905a9b0529
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499894"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120901"
 ---
-# <a name="mobile-expense-app"></a>Aplicación de gastos para móbiles
+# <a name="expense-using-mobile"></a>Gasto con dispositivos móbiles
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
@@ -236,6 +236,3 @@ Descargue e instale a aplicación móbil Dynamics 365 Unified Ops:
 22. Seleccione **Enviar**.
 23. Introduza calquera comentario para o responsable de aprobacións.
 24. Seleccione **Feito**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

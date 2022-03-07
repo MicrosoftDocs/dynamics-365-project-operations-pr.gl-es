@@ -2,11 +2,9 @@
 title: Integración de Microsoft Project Client
 description: Planificar e manter un programa de proxectos pode ser complexo, polo que os xestores de proxectos precisan empregar ferramentas que os axuden a xestionar esta tarefa. A integración con Microsoft Project Client proporciona apoio para abrir e xestionar unha estrutura de subdivisión do traballo do proxecto.
 author: Yowelle
-manager: AnnBe
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076193"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988019"
 ---
 # <a name="microsoft-project-client-integration"></a>Integración de Microsoft Project Client
 
@@ -126,4 +124,14 @@ Para crear unha nova estrutura de subdivisión do traballo usando Microsoft Proj
 
 8.  Seleccione o **Calendario** que se usará para os recursos.
 
-11. Prema **Aceptar**.
+11. Prema en **Aceptar**.
+
+> [!NOTE]
+> O complemento Project Client non admite os seguintes caracteres no formato de ID do proxecto:
+> 
+>   - Guión baixo
+>   - Punto
+>   - Barra espazadora
+>   - Barra
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

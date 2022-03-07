@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d807d3631f40a93ec7dbd918b64c287fd4875c79
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128281"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273826"
 ---
 # <a name="confirm-a-project-contract"></a>Confirmar un contrato de proxecto
 
@@ -34,4 +34,7 @@ Cando pecha un contrato de proxecto como perdido, o estado do contrato actualíz
 Se o contrato de proxecto pechado como perdido fai referencia a un proxecto nas súas liñas, ese proxecto tamén se marcará como pechado. Cancélanse as reservas de recursos a partir dese día. Os datos reais de vendas non facturadas do contrato de proxecto que aínda non figuren nunha factura reverteranse.
 
 > [!NOTE]
-> En Dynamics 365 Project Operations, pechar un contrato de proxecto como perdido non afectará a ese estado da oportunidade asociada. A oportunidade permanecerá aberta e debe pecharse manualmente.
+> En Dynamics 365 Project Operations, pechar un contrato de proxecto como perdido non repercutirá nese estado da oportunidade asociada. A oportunidade permanecerá aberta e debe pecharse manualmente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

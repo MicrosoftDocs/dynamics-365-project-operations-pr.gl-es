@@ -2,8 +2,6 @@
 title: Planificación e rastrexo de proxectos
 description: Este tema fornece unha ligazón a información sobre planificación e rastrexo en Project Service Automation.
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 363483d7a63ce028b3378e021a210b4c8d8e4623
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 23bfab9e68a89ba268847c463a8ee618f479d227
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149091"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015149"
 ---
 # <a name="project-planning-and-tracking"></a>Planificación e rastrexo de proxectos
 
@@ -45,3 +43,6 @@ Eliminouse a ligazón en formato PDF que antes había neste tema e o contido tra
 
 > [!NOTE]
 > Este tema eliminarase nunha futura actualización da documentación. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

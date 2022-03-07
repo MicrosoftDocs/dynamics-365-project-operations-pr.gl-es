@@ -2,18 +2,16 @@
 title: Xestionar ofertas de proxecto
 description: Neste tema se proporciona información sobre as ofertas do proxecto.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3c33adabbd03cca19ae5e7f401f08a716e9242b2
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8e0b20d4780a14edc3c242e261e22d4905f783a4
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177824"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994809"
 ---
 # <a name="manage-project-quotes"></a>Xestionar ofertas de proxecto
 
@@ -33,3 +31,6 @@ Pódese ver unha lista de todas as ofertas de proxecto na páxina de lista **Ofe
 2. Use o **Conmutador de visualizacións** para seleccionar outras visualizacións filtradas das ofertas. Usando criterios de filtro personalizados, pode configurar as súas propias visualizacións e opcións de navegación.
 
 As ofertas pódense crear ou eliminar desta páxina de lista ou das páxinas de detalles.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

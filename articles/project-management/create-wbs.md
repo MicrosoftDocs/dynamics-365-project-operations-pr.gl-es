@@ -2,18 +2,16 @@
 title: Crear unha estrutura de subdivisión do traballo
 description: Este tema explica como crear unha estrutura de subdivisión do traballo (WBS) que inclúa os controis básicos na nova interface de programación.
 author: ruhercul
-manager: tfehr
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841337"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655415"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Crear unha estrutura de subdivisión do traballo (WBS)
 
@@ -93,6 +91,8 @@ A seguinte táboa mostra atributos de programación adicionais.
 | Nome | Nome a tarefa do proxecto. |
 | ID | O ID da tarefa da estrutura de subdivisión do traballo. |
 
+Como administrador, pode definir campos personalizados na entidade de tarefa. Non obstante, os campos non se poden amosar na grade de programación. Para ver os seus campos personalizados, engádaos á páxina de detalles **Tarefa de proxecto**.
+
 ## <a name="staffing-attributes"></a>Atributos de persoal
 
 Pódese acceder a atributos de persoal a través do campo **Recursos** na programación. Pode buscar un recurso existente ou seleccionar **Crear** e no panel **Creación rápida**, engadir un membro do equipo do proxecto como novo recurso.
@@ -116,3 +116,27 @@ O modo de tarefa non ten efecto nas actualizacións que se realizan ás datas de
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Atallos de teclado e accesibilidade
 
 A grade **Programación** é totalmente accesible e pode usarse con lectores de pantalla como Narrator, JAWS ou NVDA. Pode moverse pola área da grade mediante as teclas de frecha (como en Microsoft Excel), pode usar a tecla TAB para avanzar nos elementos interactivos da interface de usuario e pode usar a tecla de frecha cara abaixo, a tecla Intro ou a barra espazadora para seleccionar e abrir os menús despregables.
+
+## <a name="project-limitations"></a>Limitacións do proxecto 
+Debería ter en conta as seguintes limitacións se está a usar a estrutura de subdivisión do traballo en Project Operations. Estes límites aplícanse a proxectos e tarefas. Para obter máis información, consulte [Límites de Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Campo**                                          |  **Límite**           |
+|----------------------------------------------------|----------------------|
+| Total máximo de tarefas para un proxecto                  | 500                  |
+| Duración máxima total para un proxecto               | 3650 días (10 anos) |
+| Total máximo de recursos para un proxecto              | 150                  |
+| Total máximo de ligazóns (só sucesor) para un proxecto | 600                  |
+| Total máximo de campos personalizados para un proxecto          | 10                   |
+
+**Limitacións das tarefas**
+
+| **Campo**                               |   **Límite**           |
+|-----------------------------------------|-----------------------|
+| Nivel máximo de xerarquía                 | 10 niveis             |
+| Número máximo de ligazóns (sucesor + predecesor) | 20                    |
+| Duración máxima da tarefa folla           | 1250 días             |
+| Duración máxima dunha tarefa de resumo      | 3650 días (10 anos)  |
+| Máximo de recursos atribuídos a unha tarefa    | 20 recursos          |
+| Intervalo de datas compatible para unha tarefa         | 1/1/2000 - 12/31/2149 |
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

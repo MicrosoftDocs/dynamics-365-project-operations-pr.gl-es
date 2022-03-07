@@ -2,8 +2,6 @@
 title: Ofertas e liñas de oferta
 description: Este tema fornece información sobre as ofertas e as liñas de oferta.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145118"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995444"
 ---
 # <a name="quotes-and-quote-lines"></a>Ofertas e liñas de oferta
 
@@ -131,3 +129,6 @@ Para unha liña de oferta de prezo fixo, pode empregar a grade **Programa de fac
 - Para crear fitos de facturación divididos equitativamente, seleccione unha frecuencia de facturas, insira a data de inicio da facturación na liña de oferta e seleccione **Data de finalización solicitada** para a oferta na sección **Resumo** do encabezado da oferta. A continuación, seleccione **Xerar fitos periódicos** para crear fitos divididos equitativamente en función da frecuencia de facturas seleccionada. 
 - Para crear un fito de facturación de cantidade global, cree un fito e, a seguir, introduza o valor da liña de oferta como importe do fito.
 - Para crear fitos de facturación baseados en tarefas específicas no plan do proxecto, cree un fito e asígneo ao elemento de programación do proxecto na IU de fitos de facturación.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

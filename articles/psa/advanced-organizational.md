@@ -2,8 +2,6 @@
 title: Unidades organizativas
 description: Este tema fornece información sobre as unidades organizativas en Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145627"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005074"
 ---
 # <a name="organizational-units"></a>Unidades organizativas 
 
@@ -55,7 +53,7 @@ A unidade organizativa desempeña dous roles en PSA:
 - **Unidade contratante** - A unidade organizativa que representa ao grupo ou división da empresa que é o principal responsable de gañar a venda e xestionar a entrega de traballos e servizos ao cliente. A unidade contratante identifícase no campo **Unidade contratante** na sección de cabeceira das páxinas **Oportunidade**, **Oferta**, **Contrato do proxecto** e **Proxecto**.
 - **Unidade de recursos** - A unidade organizativa á que pertence ou se atribúe un recurso. Esta unidade organizativa pode fornecer os seus recursos para algúns roles en declaracións de traballo (SOW) e proxectos que son propiedade da unidade contratante.
 
-> ![Unidades contratantes e unidades de recursos](media/advanced-1.png)
+> ![Unidades contratantes e unidades de recursos.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Preguntas frecuentes sobre as unidades organizativas
 
@@ -79,14 +77,14 @@ Cando aplique Dynamics 365, optimice a autorización de seguridade para a xerarq
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Exemplo de unidades organizativas e unidades de negocio
 
-Contoso, Ltd. ten unha próspera práctica de tecnoloxía de Microsoft. Henrique e Lara son programadores de C\#, pero Lara está nos Estados Unidos, mentres que Henrique está na India. A maioría dos compromisos de proxectos requiren recursos de Contoso India e Contoso EUA, e Henrique e Lara requiren o mesmo nivel de acceso de seguridade aos proxectos nesta área de práctica. Non obstante, o custo dos programadores de Contoso India difire bastante do custo dos programadores de Contoso EUA.
+Contoso, Ltd. ten unha próspera práctica de tecnoloxía de Microsoft. Henrique e Lara son programadores de C\#, pero Lara está nos Estados Unidos, mentres que Henrique está na India. A maioría dos compromisos de proxectos requiren recursos de Contoso India e Contoso Estados Unidos, e Henrique e Lara requiren o mesmo nivel de acceso de seguridade aos proxectos nesta área de práctica. Non obstante, o custo dos programadores de Contoso India difire bastante do custo dos programadores de Contoso Estados Unidos.
 
 Este é un xeito óptimo de deseñar para este escenario empregando Dynamics 365 e PSA.
 
 1. Cree a práctica tecnolóxica de Microsoft como unidade empresarial e asocie a Henrique e Lara a ela. Deste xeito, pode axudar a garantir que os dous empregados teñan o mesmo nivel de acceso de seguridade para calquera proxecto nesa área de práctica. Ambos poderán comprobar o progreso e informar do tempo, gastos e actualizacións de tarefas. 
 2. Cree dúas unidades organizativas para garantir que o custo do proxecto estea reflectido correctamente. 
-3. Asocie a Lara con Contoso EUA e asocie a Henrique con Contoso India.
-4. Atribúa listas de prezos de custo a ambas unidades organizativas. Deste xeito, pode axudar a garantir que os custos que se rexistran no proxecto para Henrique e Lara reflicten con precisión a diferenza de custos entre Contoso EUA e Contoso India.
+3. Asocie a Lara con Contoso Estados Unidos e asocie a Henrique con Contoso India.
+4. Atribúa listas de prezos de custo a ambas unidades organizativas. Deste xeito, pode axudar a garantir que os custos que se rexistran no proxecto para Henrique e Lara reflicten con precisión a diferenza de custos entre Contoso Estados Unidos e Contoso India.
 
 ### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>As unidades organizativas están relacionadas coas zonas de vendas en Dynamics 365?
 
@@ -96,11 +94,11 @@ Unha unidade organizativa é un grupo ou división interna da empresa que rastre
 
 #### <a name="example-of-organizational-units-and-sales-territories"></a>Exemplo de unidades organizativas e zonas de vendas
 
-Contoso, Ltd. conta con dous centros de desenvolvemento: Contoso EUA e Contoso India. Os custos dos recursos difiren moito entre estes dous centros de desenvolvemento.
+Contoso, Ltd. conta con dous centros de desenvolvemento: Contoso Estados Unidos e Contoso India. Os custos dos recursos difiren moito entre estes dous centros de desenvolvemento.
 
 Contoso vende os seus servizos de TI en moitos mercados internacionais, como América Latina, América do Norte, Asia-Pacífico, Europa Occidental e Oriente Medio. As taxas de facturación para os mesmos roles de proxecto poden variar moito nestes mercados.
 
-Contoso EUA e Contoso India deberían constituírse como unidades organizativas e cada unidade organizativa debería ter a súa propia lista de prezos. Asia-Pacífico, América Latina, América do Norte, Europa Occidental e Oriente Medio deberían establecerse como zonas de vendas e cada zona de vendas debería ter a súa propia lista de prezos de vendas.
+Contoso Estados Unidos e Contoso India deberían constituírse como unidades organizativas e cada unidade organizativa debería ter a súa propia lista de prezos. Asia-Pacífico, América Latina, América do Norte, Europa Occidental e Oriente Medio deberían establecerse como zonas de vendas e cada zona de vendas debería ter a súa propia lista de prezos de vendas.
 
 ### <a name="why-is-there-a-restriction-on-the-association-of-price-lists-with-organizational-units"></a>Por que existe unha restrición na asociación de listas de prezos a unidades organizativas? 
 
@@ -124,7 +122,7 @@ Non. Na versión actual de PSA, as unidades organizativas non son xerárquicas. 
 Se ten unha xerarquía complexa de centros de custos, divisións, oficinas de facturación, etc., configure os nós folla desa xerarquía como unidades organizativas distintas.
 O seguinte exemplo mostra unha xerarquía típica:
 
-**Contoso India**
+**ContosoIndia**
 
   - Práctica de SAP 
 
@@ -136,7 +134,7 @@ O seguinte exemplo mostra unha xerarquía típica:
     - Consultores técnicos
     - Consultores funcionais 
     
-**Contoso EUA**
+**Contoso Estados Unidos**
 
  - Práctica de SAP 
 
@@ -153,10 +151,10 @@ Se a súa xerarquía é semellante, debe configurala como unha lista plana, como
 - Contoso India - Práctica de SAP - Consultores funcionais       
 - Contoso India - Práctica tecnolóxica de Microsoft - Consultores funcionais 
 - Contoso India - Práctica tecnolóxica de Microsoft - Consultores funcionais 
-- Contoso EUA - Práctica de SAP - Consultores técnicos  
-- Contoso EUA - Práctica de SAP - Consultores funcionais  
-- Contoso EUA - Práctica tecnolóxica de Microsoft - Consultores técnicos 
-- Contoso EUA - Práctica tecnolóxica de Microsoft - Consultores funcionais
+- Contoso - Práctica de SAP - Consultores técnicos  
+- Contoso Estados Unidos - Práctica de SAP - Consultores funcionais  
+- Contoso Estados Unidos - Práctica tecnolóxica de Microsoft - Consultores técnicos 
+- Contoso Estados Unidos - Práctica tecnolóxica de Microsoft - Consultores funcionais
 
 ### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-organizational-unit-concept-in-the-current-version-of-psa"></a>Somos unha pequena empresa de servizos profesionais que opera como unha única división. Como podemos empregar mellor o concepto de unidade organizativa na versión actual de PSA?
 
@@ -167,3 +165,6 @@ Se a súa empresa opera como unha unidade que ten unha lista de prezos de custo,
 Cando un proxecto se crea por si só, a unidade contratante predefinida do proxecto baséase no usuario que o crea. Ese usuario tamén é o xestor de proxectos por defecto. Se o proxecto se asigna a unha entidade de vendas como oferta ou contrato de proxecto, a unidade contratante do proxecto baséase na entidade de vendas no seu lugar. Neste caso, as estimacións do proxecto poderían recalcularse porque se utiliza a lista de prezos de custo para calcular os cambios de estimación de custos se cambia a unidade contratante. A lista de prezos de vendas úsase para calcular as estimacións de vendas que se cambiarán de xeito que estean en sincronía coa lista de prezos do proxecto na oferta.
 
 Os campos **Unidade contratante** e **Moeda** do proxecto están bloqueados para a súa edición, porque deben estar en sincronía cos valores da entidade de vendas (oferta ou contrato de proxecto) á que se asigna o proxecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

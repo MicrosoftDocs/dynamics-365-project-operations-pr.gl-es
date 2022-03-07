@@ -3,7 +3,7 @@ title: Preguntas frecuentes sobre xestión de recursos.
 description: Este tema ofrece respostas a preguntas frecuentes sobre xestión de recursos.
 author: ruhercul
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d335a12a9b478bff63b6c93809c89dac9718a4be
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 395aa57d73e5d4a0c9c827c79bf4e7ef229c3981
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144366"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076343"
 ---
 # <a name="resource-management-faq"></a>Preguntas frecuentes sobre xestión de recursos.
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 

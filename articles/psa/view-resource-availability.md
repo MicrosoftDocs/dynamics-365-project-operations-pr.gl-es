@@ -2,8 +2,6 @@
 title: Ver dispoñibilidade do recurso
 description: Como ver a dispoñibilidade de recursos en Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af05506481d96193c01c063c00e044242f786f5e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e71fa745103b5d40d8a0056fe894d791c1213dac
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143871"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012899"
 ---
 # <a name="view-resource-availability-project-service"></a>Ver a dispoñibilidade de recursos (Project Service)
 
@@ -48,3 +46,6 @@ Pode comprobar a dispoñibilidade de recursos para obter unha vista xeral de com
 
 ### <a name="see-also"></a>Consulte tamén  
  [Guía para o xestor de recursos](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

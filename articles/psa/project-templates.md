@@ -2,8 +2,6 @@
 title: Modelos de proxecto
 description: Este tema fornece información sobre como usar modelos de proxecto para a configuración rápida do proxecto.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: bedcbc76d932a81e0c78bb58ce6a161446a26dde
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148056"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998274"
 ---
 # <a name="project-templates"></a>Modelos de proxecto 
 
@@ -69,3 +67,6 @@ Cando copia entre liñas de estimación do proxecto, as listas de prezos actual�
 ### <a name="copying-a-project-team"></a>Copiar un equipo de proxecto
 
 Ao copiar o equipo de proxecto a partir do modelo de proxecto, os recursos xenéricos está tamén se copian, xunto cos coñecementos e habilidades definidos no modelo. As atribucións de recursos xenéricas tamén se manteñen igual que no modelo de proxecto. Os recursos nomeados non son compatibles cos modelos de proxecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

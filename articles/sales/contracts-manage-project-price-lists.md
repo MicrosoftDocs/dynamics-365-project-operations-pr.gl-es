@@ -3,17 +3,17 @@ title: Xestionar listas de prezos de proxecto nos contratos de proxecto
 description: Este tema ofrece información sobre a xestión de listas de prezos de proxecto en contratos de proxecto.
 author: rumant
 manager: Annbe
-ms.date: 03/30/2021
+ms.date: 10/27/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858561"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278596"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Xestionar listas de prezos de proxecto nos contratos de proxecto
 
@@ -21,13 +21,13 @@ _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fo
 
 Os contratos de proxecto en Dynamics 365 Project Operations están deseñados para admitir listas de prezos de venda efectivas en varias datas nun contrato. En Project Operations, hai unha nova entidade asociada chamada **Listas de prezos de proxecto**. Esta entidade ten unha relación de un a moitos cun contrato de proxecto.
 
-As listas de prezos do proxecto úsanse para calcular as transaccións de tempo, material e gasto nun proxecto. Cando un contrato ten unha ou máis listas de prezos do proxecto, estas listas de prezos úsanse para fixar o prezo das estimacións de tempo, material e gasto, e os datos reais dos proxectos asociados ao contrato a través da liña de contrato.
+As listas de prezos de proxecto úsanse para fixar o prezo das transaccións de tempo e gasto nun proxecto. Cando un contrato ten unha ou máis listas de prezos de proxecto, estas listas de prezos úsanse para calcular as estimacións e os datos reais de tempo e gastos dos proxectos asociados ao contrato a través da liña de contrato.
 
-Cando non haxa listas de prezos do proxecto nun contrato de proxecto, verá unha mensaxe de advertencia de que non hai listas de prezos do proxecto e as súas estimacións, traballo real do proxecto, material e gastos rexistrados non terán un prezo. Non haberá prezo para os valores de venda.
+Cando non haxa listas de prezos de proxecto nun contrato de proxecto, verá unha mensaxe de advertencia de que non hai listas de prezos de proxecto e as súas estimacións, o traballo real do proxecto e os gastos non terán un prezo. Non haberá prezo para os valores de venda.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Asociar ou desasociar unha lista de prezos de proxecto nun contrato de proxecto
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>Crear ou asociar unha lista de prezos específica para estimar o traballo, o material e os gastos baseados no proxecto
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Crear ou asociar unha lista de prezos específica para estimar o traballo e os gastos baseados en proxecto
 
 1. No contrato de proxecto, seleccione o separador **Listas de prezos de proxecto**.
 2. Na subgrade, seleccione **+ Engadir nova lista de prezos de proxecto**.
@@ -52,7 +52,7 @@ Cando non haxa listas de prezos do proxecto nun contrato de proxecto, verá unha
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>Configurar por defecto automaticamente as listas de prezos de proxecto nun contrato
 
-Pódese configurar unha lista de prezos do proxecto como lista de prezos por defecto do proxecto. Esta configuración garante que todos os contratos da súa organización sempre comecen cunha lista de prezos estándar do proxecto para ese período de prezos.
+Pódese configurar unha lista de prezos de proxecto como a lista predefinida nun contrato de proxecto. Esta configuración pode axudar a garantir que todos os contratos da súa organización comecen sempre cunha lista de prezos estándar para ese período de prezo.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>Configurar o valor organizativo predefinido para as listas de prezos de proxecto
 

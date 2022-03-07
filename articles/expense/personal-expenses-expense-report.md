@@ -2,19 +2,17 @@
 title: Traballar con gastos persoais nun informe de gastos
 description: Este tema ofrece información sobre como traballar cos gastos persoais nos que incorren os empregados cando viaxan con fins empresariais.
 author: suvaidya
-manager: tfehr
-ms.date: 11/18/2020
+ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 68dc91db331c5214b5d0ad1109fa4e9bd9d0918e
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
-ms.translationtype: HT
+ms.openlocfilehash: 5e1162133eec5a85675bf686855d420c50de0eaf045d81c4b417b6fe66ee19fe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727955"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993149"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>Traballar con gastos persoais nun informe de gastos
 
@@ -28,3 +26,15 @@ Hai dous métodos que pode usar para traballar cos gastos persoais dun empregado
   - **Pagado pola empresa**: A súa organización paga a factura completa da tarxeta de crédito corporativa e, a continuación, carga á conta do traballador os gastos persoais.
 
 Pode seleccionar o método que usa a súa organización na páxina **Parámetros de xestión de gastos**.
+
+
+## <a name="enable-split-expense-function-when-personal-amount-field-has-value-defined"></a>Activar a función de gasto dividido cando o valor da cantidade persoal ten o valor definido
+
+A funcionalidade **Activar a función de gasto dividido cando o valor da cantidade persoal ten o valor definido** só se aplica aos informes de gastos aprobados mediante un fluxo de traballo a nivel de liña. Os informes apróbanse indo a **Procesar informes de gastos** > **Informes de gastos atribuídos a min** > **Informe de gastos aberto**. 
+
+Para activar esta funcionalidade, vaia a **Áreas de traballo** > **Xestión de funcionalidades**, seleccione **Activar a función de gasto dividido cando o valor da cantidade persoal ten o valor definido** e, a seguir, seleccione **Activar agora**. 
+
+Cando a funcionalidade está activada, as liñas de gasto que usan esta funcionalidade xeran dúas liñas cando se envía o informe. Xéranse dúas liñas para que o responsable de aprobación poida aprobar cada liña por separado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

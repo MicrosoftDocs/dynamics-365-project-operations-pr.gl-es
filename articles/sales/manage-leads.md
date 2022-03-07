@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 31613936d48f785eeba4ec7c066761c8f69924cf
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947877"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075990"
 ---
 # <a name="manage-leads"></a>Xestionar clientes potenciais
 
@@ -38,7 +38,7 @@ Para que o cliente potencial cualificado cree automaticamente unha oportunidade,
 
 A seguinte táboa inclúe información importante sobre o campo para un cliente potencial e as implicacións posteriores deses campos.
  
-| **Campo** | **Localización** | **Descrición** | **Impacto descendente** |
+| **Campo** | **Localización** | **Relevancia, finalidade e orientación** | **Impacto descendente** |
 | --- | --- | --- | --- |
 | Tema | Separador Xeral | Este campo de texto debe conter unha breve descrición do acordo. | O tema do cliente potencial será o predefinido como tema da oportunidade e o nome da oferta e do contrato do proxecto. |
 | Tipo | Separador Xeral | Este campo de conxunto de opcións ten as seguintes opcións:</br>- Baseado en traballo (dispoñible só cando Project Operations están instalada)</br>- Baseado en elementos (dispoñible só cando Project Operations e Sales están instaladas)</br>- Baseado en mantemento de servizo (dispoñible cando se instala Field Service) | Cando o valor deste campo está establecido en **Baseado en traballo** no cliente potencial, o cliente está cualificado para crear unha oportunidade baseada en proxecto. É necesaria unha oportunidade baseada en proxecto para activar todas as extensións e funcionalidades específicas do proxecto no proceso de vendas descendentes para este acordo. |
@@ -53,9 +53,9 @@ Clientes potenciais que teñen o valor **Tipo** establecido en **Baseado en trab
 
 - Unha conta que usa o campo **Empresa** do cliente potencial.
 - Un rexistro de contacto asociado á conta baseado nos valores dos campos **Nome** e **Apelidos** do cliente potencial.
-- Unha oportunidade baseada en proxecto que ten o campo **Tipo definido** como **Baseado en traballo**.
+- Unha oportunidade baseada en proxecto que ten o campo **Tipo** definido como &quot;**Baseado en traballo**.
 
-Para obter información máis detallada sobre a cualificación de clientes potenciais, consulte [Cualificar ou converter clientes potenciais](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Para obter información máis detallada sobre a cualificación de clientes potenciais, consulte[Cualificar ou converter clientes potenciais](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>Cualificación do cliente potencial e información da entidade legal 
 
@@ -80,6 +80,3 @@ O proceso de negocio de cliente potencial a oportunidade admite as seguintes fas
 | Desenvolver | Oportunidade | Desenvolva a oportunidade de engadir máis información sobre o traballo involucrado, as partes interesadas e a competencia. |
 | Propor | Oportunidade | Desenvolva a proposta e obteña a aprobación do equipo de revisión interno. |
 | Pechar | Oportunidade | Gañe a oportunidade para pechar o acordo. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

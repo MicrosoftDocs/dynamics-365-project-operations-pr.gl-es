@@ -1,39 +1,100 @@
 ---
-title: Confirmar unha factura proforma
-description: Este tema ofrece información sobre a confirmación dunha factura proforma.
+title: Confirmar unha factura proforma baseada en proxecto
+description: Este tema ofrece información sobre a confirmación dunha factura proforma baseada en proxecto.
 author: rumant
-manager: AnnBe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fa1e6c17fbda76a283c2ec68760a00e846decf83
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 88dccb63247fe6937240921de7bc7a30a3737dad3f62c6c441d732c046aaddc3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128101"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985859"
 ---
-# <a name="confirm-a-proforma-invoice"></a>Confirmar unha factura proforma
+# <a name="confirm-a-proforma-project-based-invoice"></a>Confirmar unha factura proforma baseada en proxecto
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Despois de confirmarse unha factura proforma, o estado da factura do proxecto actualízase a **Confirmado**. Cando se confirma unha factura, convértese en de só lectura. No futuro, a factura só se poderá corrixir se hai correccións ou créditos iniciados polo cliente ou cando se marca como pagada.
+Despois de confirmarse unha factura proforma, o estado da factura do proxecto actualízase a **Confirmado**. Cando se confirma unha factura, convértese en de só lectura. No futuro, a factura só se poderá corrixir se hai correccións iniciadas polo cliente ou créditos.
 
 A seguinte táboa mostra os datos reais creados polo sistema. Estes datos actuais créanse cando se realizan determinadas operacións no borrador da factura do proxecto antes de que se confirme.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
-            <td width="416" valign="top">
+            <td width="216" valign="top">
                 <p>
                     <strong>Escenario</strong>
                 </p>
             </td>
-            <td width="608" valign="top">
+            <td width="808" valign="top">
                 <p>
                     <strong>Datos reais creados na confirmación</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Facturación dunha retención ou un adianto </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Un dato real de vendas facturadas de tipo <strong>Retención</strong> créase polo importe do adianto ou da retención.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un dato real de vendas non facturadas cun importe negativo da retención ou adianto que se utilizará para a conciliación.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Despois de conciliar completamente unha retención ou un adianto nunha factura.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Unha reversión das vendas sen facturar da retención ou do adianto que se creou para a conciliación. Este importe é positivo xa que está destinado a cancelar o negativo que se creou cando se facturou a retención ou o adianto.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un dato real das vendas facturadas polo importe desta factura.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Despois de conciliar parcialmente unha retención ou un adianto nunha factura.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Unha reversión das vendas sen facturar da retención ou do adianto que se creou para a conciliación. Este importe é positivo xa que está destinado a cancelar o negativo que se creou cando se facturou a retención ou o adianto.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un dato real das vendas facturadas polo importe desta factura.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un dato real de vendas non facturadas negativo do importe restante da retención ou do adianto que se utilizará para a conciliación en futuras facturas.
                 </p>
             </td>
         </tr>
@@ -71,14 +132,14 @@ Unha reversión de vendas sen facturar por horas e importe na aprobación de tem
         <tr>
             <td width="408" valign="top">
                 <p>
-Un novo dato real de vendas sen facturar é imputable polas horas e o importe do detalle da liña de factura editada, unha reversión do dato real de vendas non facturadas e un dato real de vendas facturadas equivalente.
+Un novo dato real de vendas sen facturar é imputable polas horas e o importe do detalle da liña de factura editada, unha reversión do dato real de vendas e un dato real de vendas facturadas equivalente.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Un novo dato real de vendas sen facturar que non é imputable polas horas e o importe restantes despois de deducir las cifras correctas no detalle da liña de factura editada, unha reversión do dato real de vendas non facturadas e un dato real de vendas facturadas equivalente.
+Un novo dato real de vendas non facturadas que non é imputable polas horas e o importe restantes despois de deducir as cifras corrixidas no detalle da liña de factura editada, unha reversión do dato real de vendas e un dato real de vendas facturadas equivalente.
                 </p>
             </td>
         </tr>
@@ -135,7 +196,7 @@ Unha reversión de vendas sen facturar pola cantidade e o importe na aprobación
         <tr>
             <td width="408" valign="top">
                 <p>
-Un novo dato real de vendas sen facturar é imputable pola cantidade e o importe do detalle da liña de factura editada, unha reversión do dato real de vendas non facturadas e un dato real de vendas facturadas equivalente. 
+Un novo dato real de vendas sen facturar é imputable pola cantidade e o importe do detalle da liña de factura editada, unha reversión do dato real de vendas non facturadas e un dato real de vendas facturadas equivalente.
                 </p>
             </td>
         </tr>
@@ -155,6 +216,70 @@ Facturación dunha transacción de gasto que foi editada para aumentar a cantida
             <td width="408" valign="top">
                 <p>
 Unha reversión de vendas sen facturar pola cantidade e o importe na aprobación de gasto orixinal.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un novo dato real de vendas sen facturar é imputable pola cantidade e o importe do detalle da liña de factura editada, unha reversión do dato real de vendas e un dato real de vendas facturadas equivalente. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Facturación dunha transacción de material sen modificacións no borrador de factura.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Unha reversión das vendas sen facturar para a cantidade e o importe na aprobación de uso de material orixinal.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un dato real das vendas facturadas para a cantidade e o importe na aprobación de uso de material orixinal.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Facturación dunha transacción de material que se editou para reducir a cantidade.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Unha reversión das vendas sen facturar para a cantidade e o importe na aprobación de tempo orixinal.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un novo dato real de vendas sen facturar é imputable pola cantidade e o importe do detalle da liña de factura editada, unha reversión do dato real de vendas non facturadas e un dato real de vendas facturadas equivalente.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un novo dato real de vendas sen facturar que non é imputable pola cantidade e o importe restantes despois de deducir las cifras correctas no detalle da liña de factura editada, unha reversión do dato real de vendas non facturadas e un dato real de vendas facturadas equivalente.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Facturación dunha transacción de material que se editou para aumentar a cantidade.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Unha reversión das vendas sen facturar para a cantidade e o importe na aprobación de uso de material orixinal.
                 </p>
             </td>
         </tr>
@@ -196,5 +321,8 @@ Un dato real de vendas facturadas polo importe do fito no fito orixinal da liña
                 </p>
             </td>
         </tr>
+       
     </tbody>
 </table>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

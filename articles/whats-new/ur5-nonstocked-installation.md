@@ -2,19 +2,17 @@
 title: Actualizar Project Operations no seu ambiente de Finance
 description: Este tema ofrece información sobre como actualizar Project Operations no seu ambiente de Dynamics 365 Finance.
 author: ruhercul
-manager: tfehr
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 249b8dba17165da04596ec46a625131b9b4daeb5
-ms.sourcegitcommit: f4fc6e3a81e8551da050e92f8fde85f8d7b52fbd
-ms.translationtype: HT
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4816623"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986759"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Actualizar Project Operations no seu ambiente de Finance
 
@@ -35,7 +33,7 @@ Este tema ofrece información sobre como actualizar Dynamics 365 Project Operati
 4. Verifique que o ambiente se está a executar. Se non se inicia, inicie o ambiente.
 5. Na sección **Nova versión** en **Actualizacións dispoñibles**, seleccione **Ver actualización** para 10.0.15.
 
-![Botón de ver actualización](media/view-update.png)
+![Botón de ver actualización.](media/view-update.png)
 
 6. Na páxina **Actualizacións binarias**, seleccione **Gardar paquete**.
 7. Na páxina **Revisar e gardar actualizacións**, seleccione **Gardar paquete**.
@@ -49,11 +47,11 @@ Este tema ofrece información sobre como actualizar Dynamics 365 Project Operati
 2. Na lista, seleccione o paquete que gardou anteriormente e logo seleccione **Solicitar**.
 3. Seleccione **Si** para confirmar que desexa despregar o paquete.
 
-![Caixa de diálogo de confirmar o despregamento do paquete](media/confirm-package-deployment.png)
+![Caixa de diálogo de confirmar o despregamento do paquete.](media/confirm-package-deployment.png)
 
 4. Seleccione **Si** para confirmar que desexa actualizar a aplicación.
 
-![Caixa de diálogo de confirmar a actualización da aplicación](media/confirm-application-update.png)
+![Caixa de diálogo de confirmar a actualización da aplicación.](media/confirm-application-update.png)
 
 Comezará o despregamento e a actualización da aplicación. 
 
@@ -86,7 +84,7 @@ As seguintes actualizacións dos privilexios de seguridade para entidades son ne
 
 1. No seu ambiente de Dataverse, vaia a **Configuración**, e no grupo **Sistema**, seleccione **Seguridade**.
 
-![Configuración de ambientes de Dataverse](media/Picture21.png)
+![Configuración de ambientes de Dataverse.](media/Picture21.png)
 
 2. Seleccionar **Roles de seguranza**.
 3. Na lista de roles, seleccione **usuario de aplicación de escritura dual** e seleccione o separador **Entidades personalizadas**. 
@@ -123,5 +121,8 @@ As seguintes actualizacións dos privilexios de seguridade para entidades son ne
 6. Na lista de mapas, seleccione o papa de **Libro maior (msdyn_ledgers)** con todos os requisitos previos e seleccione a caixa de verificación **Sincronización inicial**. 
 7. No campo **Padrón para a sincronización inicial**, seleccione **aplicacións de Finance and Operations** e logo seleccione **Executar**.
  
- ![Sincronización de mapa de libro maior](media/DW6.png)
+ ![Sincronización de mapa de libro maior.](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

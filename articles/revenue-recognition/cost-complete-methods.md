@@ -2,18 +2,16 @@
 title: Métodos de custo para completar
 description: Este tema ofrece información sobre os métodos empregados para calcular o custo para completar un proxecto.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 790b5c98182acdc0a37e3741a40baf7152f0bf66
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
-ms.translationtype: HT
+ms.openlocfilehash: fe42ea0e1a5c562ec648fbf2a2924648af80381b9db8ffe0c209cb5247bb2ba2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531424"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997964"
 ---
 # <a name="cost-to-complete-methods"></a>Métodos de custo para completar
 
@@ -30,3 +28,6 @@ Cando crea unha estimación para un proxecto, na páxina **Crear estimación**, 
 | Como estimación anterior         | Aquí utilízanse os mesmos métodos de estimación que se empregaron no período anterior. Este método require un modelo de previsión se o período anterior requiría un modelo de previsión.                                                                                                                                                                                                                                                                                                                           |
 | Establecer o custo para completar en cero | Normalmente utilizado antes de que se elimine o proxecto de estimación, este método coincide coas estimacións totais coas transaccións reais rexistradas e borra a columna **Custo para completar**. Cando se completa, o resultado sempre é do 100 por cento. Para cada liña de custo que cree, a caixa de verificación **Previsión** se desmarca e se copia a estimación total da estimación de custo anterior. O consumo real para o período estimado dedúcese do custo para completar o proxecto.              |
 | A partir do modelo de custo           | O método de custo para completar que se configura no modelo de custo asociado ao proxecto de estimación seleccionado.                                                                                                                                                                                                                                                                                                                                                                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

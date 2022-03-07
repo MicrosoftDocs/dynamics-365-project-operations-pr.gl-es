@@ -2,11 +2,9 @@
 title: Crear un equipo de proxecto
 description: Este tema fornece información sobre como crear e xestionar equipos de proxecto.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270856"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005794"
 ---
 # <a name="create-a-project-team"></a>Crear un equipo de proxecto
 
@@ -35,7 +33,7 @@ A configuración da visualización tamén se pode personalizar para visualizar m
 
 O xestor de proxectos pode seleccionar un rol na páxina e despois, se hai un recurso dispoñible que se axuste ao requisito, seleccionar reservar un recurso para cubrir o rol. Teña en conta que non ten que reservar os recursos neste momento da fase de planificación. Cando crea unha WBS, pode substituír roles por recursos de persoal para o proxecto. Se as funcións substitúense por recursos con persoal na WBS, a configuración de recursos actualiza automaticamente a listaxe e a programación do equipo do proxecto.
 
-[![Listaxe do equipo do proxecto que inclúe roles e recursos reais](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Listaxe do equipo do proxecto que inclúe roles e recursos reais.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 O xestor do proxecto ten varias opcións para reservar un recurso para un proxecto, como **Capacidade restante**, **Capacidade total**, **Porcentaxe de capacidade** e **Especificar horas**. Estas opcións de reserva pódense cancelar en calquera momento se cambian as atribucións de recursos. Admítense dous tipos de reserva:
 

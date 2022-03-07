@@ -2,18 +2,16 @@
 title: Comportamento da IU de entrada de tempo
 description: Este tema ofrece información sobre o comportamento da IU para a entrada de tempo.
 author: stsporen
-manager: AnnBe
 ms.date: 03/03/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: fd62fb1d8e0b2d859cb7da8b99cb725af587ff2f
+ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499612"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304299"
 ---
 # <a name="time-entry-ui-behavior"></a>Comportamento da IU de entrada de tempo
 
@@ -32,7 +30,7 @@ A nova grade de **Entrada de tempo semanal** é un control personalizado que ten
 | Abrir entrada    | Alt + Maiús + o           |
 | Enviar        | Alt + Maiús + s           |
 | Recuperar        | Alt + Maiús + r           |
-| Delete        | Alt + Maiús + d           |
+| SUPR        | Alt + Maiús + d           |
 | Copiar semana     | Alt + Maiús + w           |
 
 ## <a name="dimensions"></a>Dimensións

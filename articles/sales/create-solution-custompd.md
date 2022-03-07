@@ -2,18 +2,16 @@
 title: Crear unha solución para as dimensións de prezos personalizadas
 description: Este tema fornece información sobre como crear solucións para dimensións de prezos personalizadas.
 author: Rumant
-manager: tfehr
 ms.date: 11/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441501dff23d16960381b3f9fb4b2cceba2b3ba5
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
-ms.translationtype: HT
+ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513981"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992204"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Crear unha solución para as dimensións de prezos personalizadas
 
@@ -28,7 +26,7 @@ ms.locfileid: "4513981"
 2.  Poña nome á solución, *Dimensións de prezos de <your organization name>*.
 3. Introduza a información necesaria restante e, a seguir, seleccione **Gardar**.
 
-  ![Creación dunha solución de dimensión de prezos personalizada](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![Creación dunha solución de dimensión de prezos personalizada.](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Engadir todas as entidades requiridas e os compoñentes relacionados á solución de dimensión de prezos
 
@@ -51,16 +49,19 @@ Engada as seguintes entidades de Project Service á súa solución de prezos par
    - **Prezo do rol**
    - **Entrada de tempo**
  
-   ![Engadir entidades existentes á solución de dimensións de prezos personalizada](./media/Existing-entities-to-PD-solution.png)
+   ![Engadir entidades existentes á solución de dimensións de prezos personalizada.](./media/Existing-entities-to-PD-solution.png)
  
  4. Para cada entidade, revise os compoñentes que se engaden e a lista final de activos da entidade para cada entidade. 
 
    >[!NOTE]
    > Inclúa todos os formularios e vistas para cada unha das entidades seleccionadas.
 
-  ![Entidades engadidas](./media/solution-component-selection.png)
+  ![Entidades engadidas.](./media/solution-component-selection.png)
 
 
 5.  Cando se lle solicite que inclúa entidades dependentes para as entidades seleccionadas, seleccione **Non, non incluír os compoñentes necesarios.**
 
-    ![Inclusión de entidades dependentes](./media/Do-not-include-required.png)
+    ![Inclusión de entidades dependentes.](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

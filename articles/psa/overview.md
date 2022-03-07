@@ -2,8 +2,6 @@
 title: Que é Dynamics 365 Project Service Automation?
 description: Introdución e visión xeral de Project Service
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/23/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a78d8a2085821d6ba44750cfdba909c2c38b42ff
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 537fa056fd0103e1a4fa05c8e66d408286ee101c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150531"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998544"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Que é Dynamics 365 Project Service Automation?
 
@@ -47,10 +45,10 @@ Ademais, para axudar a controlar e supervisar os custos do seu traballo baseado 
 ## <a name="whats-new-in-psa"></a>Novidades de PSA
 O equipo está entusiasmado ao anunciar as nosas últimas actualizacións! Desde melloras ata a interface de usuario, corrixir erros e engadir importantes funcionalidades e capacidades. Vostede preguntou, nós escoitamos.
 
-Bote unha ollada a [Notas da versión de outubro de 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) para ver as nosas últimas melloras e incorporacións.
+Bote unha ollada a [Notas da versión de outubro de 2019](/dynamics365-release-plan/2019wave2/index) para ver as nosas últimas melloras e incorporacións.
 
 ### <a name="in-development"></a>En desenvolvemento
-Para ver o que temos previsto nun futuro próximo, diríxase a [Dynamics 365: plan de onda 1 de lanzamento de 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Para ver o que temos previsto nun futuro próximo, diríxase a [Dynamics 365: plan de onda 1 de lanzamento de 2020](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Obter axuda coa versión 3.x de PSA
 Busca recursos para axudarlle a planificar a súa implementación? Consulte estas guías para descargar.
@@ -86,3 +84,6 @@ Busca recursos para axudarlle a planificar a súa implementación? Consulte esta
  <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

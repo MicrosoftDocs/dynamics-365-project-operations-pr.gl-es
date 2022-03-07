@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 863d1e44dad9fa0d2174cf77582a1d820988e92d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128416"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276076"
 ---
 # <a name="define-expense-policies"></a>Definir políticas de gastos
 
@@ -53,3 +53,6 @@ Aquí ten algunhas suxestións que poden axudarlle á hora de crear novas polít
 ## <a name="when-to-evaluate-policies"></a>Cando avaliar as políticas
 
 Nos parámetros de xestión de gastos, pode seleccionar avaliar as políticas de xestión de gastos cando se garda unha liña ou cando se envía un informe de gastos. Se elixe avaliar cando se garda unha liña, os usuarios terán unha visibilidade previa do que deben facer para completar o seu informe de gastos á vez. Se non o fai, pode atrasar a avaliación da política e aforrar tempo validándoa ao final, durante o envío ao fluxo de traballo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Pedidos de venda de proxectos para proxectos de tempo e material
 description: Este tema explica como crear pedidos de venda baseados en proxectos para proxectos de tempo e material.
 author: Yowelle
-manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: 3653a6869dab323be88f1fd0f9fd0f2cb35c456f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: bec39790b0a41e72b4cc9798d37a01e87029e18335f77d895680aafbb74fac3b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076117"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992834"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Pedidos de venda de proxectos para proxectos de tempo e material
 
@@ -41,3 +39,6 @@ Pode crear pedidos de venda baseados en proxectos de dous xeitos:
 - Vaia ao propio proxecto. No panel Acción, seleccione **Xestionar > Tarefas do artigo > Pedido de venda**. A información do proxecto será o pedido de venda predefinido do proxecto. Se o contrato do proxecto ten máis dunha fonte de financiamento, deberá seleccionar a fonte de financiamento para configurar o cliente para o pedido de venda. Se só hai unha fonte de financiamento para o proxecto, o cliente configurarase automaticamente.
 - Vaia á páxina de lista **Todos os pedidos de venda** e cree un novo pedido de venda. Deberá seleccionar o proxecto para o pedido de venda. Despois de seleccionar o proxecto, configurarase o cliente desde a fonte de financiamento ou deberá seleccionar a fonte de financiamento se o contrato do proxecto ten varias fontes de financiamento.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

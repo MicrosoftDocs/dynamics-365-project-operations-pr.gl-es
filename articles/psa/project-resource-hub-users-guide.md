@@ -3,7 +3,7 @@ title: Guía do usuario para Project Resource Hub
 description: Unha guía para o usuario final de Project Resource Hub (Dynamics 365 for Project Service) | MicrosoftDocs
 author: ruhercul
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 181e47a7bf923100e480eabd120d8bd784c24d07
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948138"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076123"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Guía do usuario para Project Resource Hub
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -48,7 +46,7 @@ Hai dous tipos de [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-
 ## <a name="install-the-mobile-app"></a>Instalar a aplicación móbil
 Antes de comezar a usar a aplicación Project Resource Hub, debe instalar a aplicación para móbiles no seu dispositivo. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Instalar Dynamics 365 for phones and tablets](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Instalar Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>Navegación básica
 1.  Ao iniciar sesión na aplicación móbil, verá a páxina MyApps cunha lista de aplicacións ás que ten acceso. 
@@ -99,12 +97,9 @@ Introduza os gastos como mínimo semanalmente, ou na frecuencia solicitada polo 
 5. Continúe introducindo os gastos da semana. Cando remate e todo estea correcto, toque **Enviar**. Un xestor revisará e aprobará os seus gastos.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Información xeral sobre como usar a aplicación móbil 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Guía de conceptos básicos de Mobile](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Guía de conceptos básicos de Mobile](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide)
 
 ### <a name="see-also"></a>Consulte tamén  
  [Información xeral de Project Service](../psa/overview.md)   
  [Guía de tempo, gasto e colaboración](../psa/time-expense-collaboration-guide.md)   
  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

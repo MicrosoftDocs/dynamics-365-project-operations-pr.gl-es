@@ -2,8 +2,6 @@
 title: Novidades ou cambios na versión 19 de actualización de Project Service Automation, V3
 description: Este tema mostra as funcionalidades e correccións que están dispoñibles la versión 19 de actualización de Project Service Automation, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a73a6acd4ce4c9559cdf4591ede735a613f4d52
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: ad61589125e42e8dceb462290f65ddc05e171bd828d26d34ebd548ca285e9aa4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143604"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993644"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Versión 19 de actualización de Project Service Automation, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Comprácenos anunciar a última actualización da aplicación Project Service Automation para Dynamics 365. Esta versión inclúe algunhas melloras importantes na calidade, rendemento e facilidade de uso. Esta versión é compatible con Dynamics 365 9.x. Para actualizar a esta versión, visite a paxina de solucións do Centro de administración para Dynamics 365 en liña para instalar a actualización. Para obter máis información, consulte [Instalar, actualizar ou eliminar unha solución preferida](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)
+Comprácenos anunciar a última actualización da aplicación Project Service Automation para Dynamics 365. Esta versión inclúe algunhas melloras importantes na calidade, rendemento e facilidade de uso. Esta versión é compatible con Dynamics 365 9.x. Para actualizar a esta versión, visite a paxina de solucións do Centro de administración para Dynamics 365 en liña para instalar a actualización. Para obter máis información, consulte [Instalar, actualizar ou eliminar unha solución preferida](/power-platform/admin/install-remove-preferred-solution)
 
 Este tema mostra as funcionalidades e correccións que son novas ou modificadas para PSA V3, versión 19 de actualización. Esta versión ten un número de compilación de V3.10.30.41 e está xeralmente dispoñible a través dunha actualización automática en maio de 2020.
 
@@ -66,3 +64,6 @@ Resolvéronse os seguintes problemas:
 - Os clientes poden experimentar un rendemento degradado ao crear un proxecto porque **GetBookableResourceIdFromUser** recupera todas as columnas de recursos reservables en vez de só o ID principal.
 - Na entidade **Tipo de transacción** falta o complemento de actualización de validación previa para evitar que os usuarios introduzan **Unidades** e **Grupos de unidades** que non sexan válidos para os tipos de transacción.
 - O paso **Eliminar** non funciona para a importación de entradas de tempo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

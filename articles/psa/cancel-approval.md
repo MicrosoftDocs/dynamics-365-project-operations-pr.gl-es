@@ -2,8 +2,6 @@
 title: Cancelar as entradas de tempo e gasto aprobadas previamente
 description: Este tema fornece información sobre como cancelar unha transacción de tempo e gasto de proxecto aprobada.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ea42c6755b4b48d986e385879607d659c57f483d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 09b85ea302ac46171afbd531a551aa5fbf5492a3644cba3448be03009840228c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150576"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987434"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Cancelar as entradas de tempo ou gasto aprobadas previamente
 
@@ -62,3 +60,6 @@ Un proxecto tamén se ve afectado financeiramente cando se cancela unha aprobaci
 A continuación, créanse entradas de reversión na táboa de Datos reais. Para crear entradas de reversión, o sistema copia sobre os valores de campo a partir dos datos reais orixinais. Os únicos valores que non se copian son os valores de cantidade. Estes valores revértense. Os datos reais revertidos créanse para **Custo** e **Vendas sen facturar**. O campo **Estado de axuste** nos datos reais revertidos está definido en **Inaxustable** e o estado de facturación está definido en **Cancelado**.
 
 Despois de realizar estes cambios, o importe que se rexistra como gastado no proxecto e os ingresos acumulados do proxecto contabilizarán as cantidades que representan estes datos reais.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

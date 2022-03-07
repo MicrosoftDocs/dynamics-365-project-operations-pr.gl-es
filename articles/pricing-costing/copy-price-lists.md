@@ -2,24 +2,22 @@
 title: Copiar listas de prezos
 description: Este tema ofrece información sobre como copiar listas de prezos en Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181495"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003724"
 ---
 # <a name="copy-price-lists"></a>Copiar listas de prezos
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Pode crear copias de listas de prezos en Dynamics 365 Project Operations. Por exemplo, pode crear listas de prezos para o próximo ano usando unha lista de prezos do ano actual.  Ou pode copiar unha lista de prezos para as taxas de factura e os prezos de venda a partir das listas de prezos para custo. 
+Podes crear copias das listas de prezos en Dynamics 365 Project Operations. Por exemplo, pode crear listas de prezos para o próximo ano usando unha lista de prezos do ano actual.  Ou pode copiar unha lista de prezos para as taxas de factura e os prezos de venda a partir das listas de prezos para custo. 
 
 Para facer unha copia da lista de prezos, complete os seguintes pasos.
 
@@ -43,3 +41,6 @@ Para facer unha copia da lista de prezos, complete os seguintes pasos.
 1. Nos separadores **Rol**, **Categoría** e **Elemento da lista de prezos** dunha lista de prezos, pode seleccionar **Actualizar prezos** para aplicar un sobreprezo para todos os prezos da subgrade. 
 2. Na páxina de diálogo que se abre, introduza un aumento. Tamén pode introducir unha porcentaxe de aumento negativa para reducir os prezos nunha porcentaxe determinada. 
 3. Seleccione **Aceptar** na páxina de diálogo e logo verifique que os prezos da subgrade reflicten os cambios que realizou.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

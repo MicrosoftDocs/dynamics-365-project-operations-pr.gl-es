@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076305"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288827"
 ---
 # <a name="project-timesheet-mobile-application"></a>Aplicación para móbil Project Timesheet
 
@@ -96,3 +96,6 @@ Prema **Enviar** para enviar a folla de control horario ao fluxo de traballo de 
 ## <a name="review-timesheets"></a>Revisar follas de control horario
 
 No menú está dispoñible unha lista das follas de control horario que hai que revisar. Esta opción só está dispoñible se foi designado como responsable de aprobación de fluxo de traballo. Admítese a aprobación de cabeceira e de liña. A aprobación a nivel de liña ofrece a posibilidade de marcar unha ou máis liñas para a súa aprobación. Despois de revisar a información da folla de control horario, prema **Aprobar**, **Delegar** ou **Retornar** para continuar o fluxo de traballo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

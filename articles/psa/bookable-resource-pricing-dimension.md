@@ -2,12 +2,10 @@
 title: Usar o recurso reservable como dimensión de prezos
 description: Este tema fornece información sobre o uso dun recurso reservable como dimensión de prezos.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144996"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988964"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Usar o recurso reservable como dimensión de prezos
 
@@ -64,15 +62,18 @@ Para o recurso reservable, a entidade **Membros do equipo do proxecto** ten un n
 1. Para facelo, prema dúas veces na fila na grade **Dimensións dos prezos** para abrir a páxina de dimensións de **msdyn_bookableresource**.
 2. Na páxina de dimensión, no separador **Relacionado**, prema **Nomes de campo da dimensión de prezos**.
 
- ![Separador de nomes de campo de dimensión de prezos](media/PD-fieldname.png)
+ ![Separador de nomes de campo de dimensión de prezos.](media/PD-fieldname.png)
 
 4. Na vista asociada que se abre, prema en **Engadir novo nome de campo da dimensión de prezos**.
 
- ![Engadir novos nomes de campo de dimensión de prezos](media/Add-NewPD-fieldname.png)
+ ![Engadir novos nomes de campo de dimensión de prezos.](media/Add-NewPD-fieldname.png)
 
 
 Isto abre a páxina **Novo nome de campo da dimensión de prezos** para **msdyn_bookableresource**. 
 
 5. Engada **msdyn_projectteam** ao campo **Nome lóxico da entidade** e **msdyn_bookableresourceid** ao campo **Nome de campo**. Garde o rexistro.
 
- ![Novo formulario de nome de campo de dimensión de prezos](media/PD-fieldname-Added.png)
+ ![Novo formulario de nome de campo de dimensión de prezos.](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Membros do equipo do proxecto
 description: Este tema ofrece información sobre como traballar coa información dos membros do equipo do proxecto, os atributos e a programación.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 273736219aff9c2ed4ffa8cf616d6ea656bd7294
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127426"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010919"
 ---
 # <a name="project-team-members"></a>Membros do equipo do proxecto
 
@@ -60,3 +58,6 @@ Desde a grade dos membros do equipo pódense realizar as seguintes accións:
 
 - **Novo**: Ademais de engadir recursos directamente desde a programación, os xestores de proxectos poden engadir novos membros do equipo nomeados ou xenéricos desde a grade dos membros do equipo.
 - **Eliminar**: Ao seleccionar un ou varios membros do equipo, o xestor do proxecto pode eliminar recursos que xa non van participar no proxecto. Se se elimina un membro do equipo, tamén se eliminarán todas as atribucións de recursos asociadas e se cancelarán todas as reservas existentes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

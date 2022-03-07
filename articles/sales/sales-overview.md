@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8300887e7c5fbd78343d16d191775a67e43138e2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177599"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277381"
 ---
 # <a name="sales-process-overview"></a>Visión xeral do proceso de vendas
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Os procesos de vendas que se utilizan nunha organización baseada en proxectos difiren dos procesos de vendas que se utilizan nunha organización baseada en produtos. Isto prodúcese porque os ciclos de vendas das organizacións baseadas en proxectos son máis longos e requiren técnicas de estimación personalizadas para analizar e crear ofertas para cada operación. Dynamics 365 Project Operations utiliza unha parte da seguinte funcionalidade que se emprega nun proceso de vendas:
+Os procesos de vendas que se utilizan nunha organización baseada en proxectos difiren dos procesos de vendas que se utilizan nunha organización baseada en produtos. Isto prodúcese porque os ciclos de vendas das organizacións baseadas en proxectos son máis longos e requiren técnicas de estimación personalizadas para analizar e crear ofertas para cada operación. Dynamics 365 Project Operations usa algunhas das seguintes funcionalidades que se empregan nun proceso de vendas:
 
 - Utilízase un rexistro de Cliente potencial para rastrexar o proceso de vendas.
 - Os clientes potenciais cualificados rastréxanse como oportunidades.
@@ -63,3 +63,6 @@ En Project Operations, non pode rastrexar as revisións feitas a unha oferta. No
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Rastrexar comentarios e aprobacións de ofertas e contratos de proxecto
 Podes xestionar a revisión e aprobación de ofertas e contratos de proxecto empregando o taboleiro de información e as publicacións. A súa organización pode crear fluxos de traballo personalizados e complementos para atribuír, redirixir, escalar e xestionar as notificacións de revisión e a aprobación de elementos de traballo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

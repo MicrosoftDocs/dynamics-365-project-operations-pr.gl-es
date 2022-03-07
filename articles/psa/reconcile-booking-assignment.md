@@ -2,8 +2,6 @@
 title: Conciliar reservas e atribucións
 description: Neste tema se proporciona información sobre datos reais.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9528bd983e6e18197138f0720abccdc6d6fa1ed5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 73cbc89ae4350cbd568f1bb978825ff53da07afb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147921"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008894"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Conciliar reservas e atribucións
 
@@ -101,3 +99,6 @@ Despois de executar a función Estender reserva en cada recurso, as reservas est
 
 Non obstante, unha ollada máis atenta aos detalles das reservas mostra diferenzas na hora de inicio das reservas. As reservas non comezarán antes da hora de inicio do contorno de asignación nin antes da hora de inicio dispoñible do recurso.
  ![Novas reservas dos recursos no panel de programación](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

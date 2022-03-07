@@ -2,8 +2,6 @@
 title: Custos e ingresos de proxecto
 description: Este tema fornece información sobre a estimación de custos e ingresos dos proxectos.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148326"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002554"
 ---
 # <a name="project-costs-and-revenue"></a>Custos e ingresos de proxecto
 
@@ -33,7 +31,7 @@ ms.locfileid: "5148326"
 
 As estimacións de proxecto fornecen a visualización financeira para o traballo estimado e programado na programación do proxecto. O separador **Estimacións** da páxina **Proxectos** mostra o impacto nos custos e ingresos do traballo que está a planificar. Tamén ofrece información sobre moitas dimensións predefinidas. 
 
-> ![Separador Estimacións](media/project-5.png)
+> ![Separador Estimacións.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Valores de custo e vendas do proxecto
 
@@ -68,13 +66,13 @@ Se o sistema non atopa un prezo para o rol, logo o prezo de vendas na liña de e
 
 O separador **Estimacións** ten unha vista de grade que amosa liñas de estimación. A grade inclúe columnas para a unidade, prezo total de custo e prezo total de vendas, como se mostra na seguinte ilustración. 
 
-> ![Vista de grade no separador Estimacións](media/project-6.png)
+> ![Vista de grade no separador Estimacións.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Visualización en fase de tempo das estimacións de proxecto
 
 A visualización de fase de tempo das estimacións do proxecto mostra os datos de estimación da vista de grade a través da liña de tempo, nunha escala de tempo que seleccione. Por defecto, os datos de estimación pivotan na dimensión **Rol**.
 
-> ![Visualización de fase de tempo para as estimacións de proxecto](media/project-7.png)
+> ![Visualización de fase de tempo para as estimacións de proxecto.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Asignación de esforzo estimado baseada no modo de tarefa
 
@@ -97,3 +95,6 @@ Tanto na vista de grade como na visualización de fase de tempo, pode selecciona
 ## <a name="expense-estimates"></a>Estimacións de gastos
 
 O botón **Engadir unha nova estimación de gasto** da vista de grade permítelle rexistrar todos os gastos que se produzan no proxecto, pero que non están directamente relacionados co traballo. Pode rexistrar as estimacións de gastos para unha tarefa específica ou para todo o proxecto. Seleccione as categorías de gastos e a data na que ten previsto incorrer no gasto. Se a lista de prezos de custo e a lista de prezos de vendas asociadas teñen os prezos predefinidos (ou porcentaxes de sobreprezo definidos para categorías de gastos), introdúcense automaticamente na liña de estimación en asociación cando se produce a asociación.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

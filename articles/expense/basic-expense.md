@@ -3,17 +3,17 @@ title: Entrada de gasto (lite)
 description: Este tema ofrece información sobre como traballar coa entrada de gastos nun despregamento lite.
 author: stsporen
 manager: AnnBe
-ms.date: 11/19/2020
+ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
-ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
+ms.openlocfilehash: 746d5d9ff56222e7d6b9b6e264db75d5814365c7
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4590944"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076016"
 ---
 # <a name="expense-entry-lite"></a>Entrada de gasto (lite)
 
@@ -36,10 +36,6 @@ Despois de rematar de capturar todos os seus gastos e cando estea listo para fac
 
 1. Vaia a **Gastos** e seleccione un gasto. Ou seleccione todos os gastos empregando a caixa de verificación da cabeceira.
 2. Seleccione **Enviar**. O sistema procesa as entradas seleccionadas e logo crea solicitudes de aprobación de gastos.
-
-## <a name="add-an-attachment"></a>Engadir un anexo
-
-É posible que deba proporcionar ao responsable de aprobación documentación adicional sobre o seu gasto. Pode anexar un recibo na liña de tempo da entrada de gasto. Seleccione **Editar** e na sección **Liña de tempo** seleccione a icona de clip para anexar o recibo.
 
 ## <a name="recall-a-basic-expense"></a>Recuperar un gasto básico
 

@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b3eb6b1d4d75b095383689dd53a59a15fe9e884a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b16ed50584b2b4535d1c61fe7069708182a4820e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076189"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288332"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Configurar os custos estándar de man de obra e gastos
 
@@ -54,3 +54,6 @@ Este tema explica como configurar os custos estándar de man de obra e gastos pa
 22. No campo **Prezos**, introduza un número. O prezo de venda real, que se aplica cando un traballador introduce trasaccións no diario de gastos, é o prezo de venda co maior nivel de detalle. Por exemplo, se se establecen tanto un prezo de venda xeral como un prezo de venda específico para o traballador, úsase o prezo de venda específico para o traballador.  
 23. Seleccione **Gardar**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

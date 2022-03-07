@@ -1,10 +1,12 @@
 ---
 title: Reinvención dos informes de gastos
-description: Este tema ofrece información sobre a experiencia redeseñada e reinventada para a entrada do informe de gastos.
+description: Este tema ofrece información sobre a experiencia redeseñada e reinventada para a entrada do informe de gastos en Microsoft Dynamics 365 Finance. A nova experiencia simplifica o proceso de completar os informes de gastos e diminúe o tempo necesario.
 author: ryansandness
+manager: AnnBe
 ms.date: 06/14/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: bd334d3404e9baae4f8314173834d9fbb708d574
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993685"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960245"
 ---
 # <a name="redesigned-expense-reports"></a>Reinvención dos informes de gastos
 
@@ -38,6 +40,12 @@ Para activar a nova experiencia, use a área de traballo **Xestión de funcional
 - Engádese un novo elemento de menú para a visibilidade do campo de gastos.
 - Non se eliminan elementos de menú existentes para informes de gastos (a páxina existente) nin campos do informe de gastos.
 - Os fluxos de traballo e as aprobacións aínda o levarán á páxina de informes de gastos existente.
+
+## <a name="getting-started-video-for-new-users"></a>Vídeo introdutorio para novos usuarios
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
+
+O vídeo [Experiencia en gastos en Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (mostrado arriba) está incluído na [Lista de reprodución de Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) dispoñible en YouTube.
 
 ## <a name="new-features"></a>Novas funcionalidades
 
@@ -70,6 +78,3 @@ As seguintes funcionalidades están presentes na páxina existente pero aínda n
 - Fluxo de traballo a nivel de liña
 - Apoio provisional para responsables de aprobacións…
 - Itemización avanzada
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

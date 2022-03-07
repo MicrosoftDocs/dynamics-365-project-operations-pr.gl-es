@@ -2,18 +2,16 @@
 title: Copiar oportunidades baseadas en proxecto
 description: Este tema ofrece información sobre como copiar oportunidades baseadas en proxecto en Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 83fe41cb16be6bdd91219fc59e517ae0e5848afec5f771edde575bb5c24f9865
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181639"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999719"
 ---
 # <a name="copy-project-based-opportunities"></a>Copiar oportunidades baseadas en proxecto
 
@@ -34,3 +32,6 @@ As oportunidades do proxecto pódense copiar facilmente para crear novas oportun
     | Copiar prezos | Un valor Si/Non que indica se se deben copiar os prezos da oportunidade da oportunidade de orixe. | Se se selecciona **Si**, as listas de prezos cópianse desde a oportunidade de orixe ata a oportunidade de destino. Se se selecciona **Non**, as listas de prezos predefínense en función das últimas listas de prezos que se configuraron. |
 
 3. Seleccione **Aceptar**. O sistema crea unha copia da oportunidade de proxecto en función dos parámetros seleccionados e ábrese a nova oportunidade de proxecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

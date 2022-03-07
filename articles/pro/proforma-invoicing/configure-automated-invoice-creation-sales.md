@@ -1,29 +1,25 @@
 ---
-title: Configurar creación automática de facturas - lite
-description: Este tema ofrece información sobre a configuración da creación automática de facturas proforma.
+title: Configurar creación automática de facturas
+description: Este tema ofrece información sobre como configurar a creación automática de facturas proforma.
 author: rumant
-manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176564"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997514"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Configurar creación automática de facturas - lite
+# <a name="set-up-automatic-invoice-creation"></a>Configurar creación automática de facturas 
  
-_**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
+_**Aplícase a:** Despregamento Lite - factura proforma, Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Pode configurar a creación automática de facturas en Dynamics 365 Project Operations. O sistema crea un borrador de factura proforma baseado na programación de facturas de cada contrato de proxecto e liña de contrato. As programacións de facturas configúranse a nivel de liña de contrato. Cada liña dun contrato pode ter unha programación de facturas distinta ou pode incluírse a mesma programación de facturas en cada liña do contrato.
+Pode configurar creación automática de facturas en Dynamics 365 Project Operations. O sistema crea un borrador de factura proforma baseado na programación de facturas de cada contrato de proxecto e liña de contrato. As programacións de facturas configúranse a nivel de liña de contrato. Cada liña dun contrato pode ter unha programación de facturas distinta ou pode incluírse a mesma programación de facturas en cada liña do contrato.
 
-Cando crea unha factura, o sistema sempre crea polo menos unha factura por contrato de proxecto. Nalgúns casos, pode haber varias facturas creadas.
-
-Por exemplo, se o contrato ten varios clientes, crearase o mesmo número de facturas que o número de clientes que teñen que facturar transaccións facturables nese contrato do proxecto.
+Cando crea unha factura, o sistema sempre crea polo menos unha factura por contrato de proxecto. Nalgúns casos, pode haber varias facturas creadas. Por exemplo, se o contrato ten varios clientes, crearase o mesmo número de facturas que o número de clientes que teñen que facturar transaccións facturables nese contrato do proxecto.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Comprender como se inclúen as transaccións nunha factura 
 
@@ -91,3 +87,6 @@ O traballo de proceso por lotes para crear facturas é un traballo recorrente. S
 
 > [!NOTE]
 > A facturación por lotes en Project Operations só se executa para as liñas de contrato do proxecto que están configuradas por programacións de facturas. Unha liña de contrato cun método de facturación de prezos fixos debe ter configurados os fitos. Unha liña de contrato de proxecto cun método de facturación de tempo e material necesitará unha programación de facturas baseado na data configurada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

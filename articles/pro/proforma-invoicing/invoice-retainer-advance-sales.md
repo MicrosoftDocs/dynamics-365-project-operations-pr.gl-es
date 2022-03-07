@@ -2,18 +2,16 @@
 title: Facturar unha retención ou un adianto
 description: Este tema ofrece información sobre como facturar unha retención ou un adianto en Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
-ms.translationtype: HT
+ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596190"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997469"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Facturar unha retención ou un adianto
 
@@ -51,3 +49,6 @@ Isto pódese ver na grade **Retencións e adiantos aplicados** na páxina **Fact
 | Importe usado | Grade **Retencións e adiantos aplicados** na páxina **Factura do proxecto**.  | Este campo de só lectura proporciona o valor calculado que resume canto se utilizou da retención ou do adianto. | Este campo pódese mostrar ao cliente na factura impresa para indicar o importe orixinal desta retención ou adianto que xa se utilizou. |
 | Importe estendido | Grade **Retencións e adiantos aplicados** na páxina **Factura do proxecto**.  | Este campo editable de só lectura indica o importe da retención ou o adianto que se está a utilizar nesta factura de proxecto. Esta cantidade non pode ser superior á dispoñible no adianto. O sistema calcula isto automaticamente como a diferenza entre os campos **Importe** e **Importe utilizado** da grade. Pode diminuír esta cantidade para usar menos do dispoñible, pero non pode aumentar o importe para usar máis do dispoñible. | Este campo pódese mostrar ao cliente na factura impresa para indicar o importe orixinal desta retención ou adianto que se vai utilizar na factura. |
 | Importe da retención do saldo. | Grade **Retencións e adiantos aplicados** na páxina **Factura do proxecto**.  | Este campo de só lectura indica o valor do importe da retención ou o adianto que quedará despois de confirmarse a factura. | Este campo pódese mostrar ao cliente na factura impresa para indicar o importe que quedará desta retención ou adianto despois de que se conforme e pague a factura. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

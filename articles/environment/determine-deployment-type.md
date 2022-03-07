@@ -3,17 +3,17 @@ title: Determinar o seu tipo de despregamento
 description: Este tema ofrece información para axudarlle a determinar o tipo de despregamento correcto das operacións do proxecto para a súa empresa.
 author: stsporen
 manager: Annbe
-ms.date: 03/15/2021
+ms.date: 11/05/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 1aae04230104d27db2f62db8e674697fd83460ac
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948102"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401216"
 ---
 # <a name="determine-your-deployment-type"></a>Determinar o seu tipo de despregamento
 
@@ -32,9 +32,6 @@ Project Operations inclúe as capacidades que se fornecen con Project Service Au
 Os clientes existentes de Finance que empregan a funcionalidade de xestión e contabilidade de proxectos poden seguir empregándoa tal como está. Consulte [Project Operations para situacións baseadas en recursos/sen fornecemento](#pma).
 
 
-## <a name="deployment-regions"></a>Rexións de despregamento
-Para determinar que rexións admiten o despregamento de Project Operations, consulte [Dispoñibilidade xeográfica para Dynamics 365 e informe de Power Platform](https://dynamics.microsoft.com/en-us/geographic-availability/). Seleccione **Ver informe** e expanda **Dynamics 365> Aplicacións de operacións > Dynamics 365 Project Operations** para ver as rexións admitidas.
-
 ## <a name="deployment-types"></a>Tipos de despregamento
 Project Operations admite varias opcións de despregamento para adaptarse ás súas necesidades. Se vostede é un cliente novo ou existente de Dynamics 365, Project Operations pode atender ás súas necesidades.
 
@@ -44,7 +41,7 @@ O noso [Cuestionario de despregamento](https://aka.ms/provisionprojectoperations
 - [Project Operations para escenarios baseados en recursos ou sen existencias](#integrated)
 - [Project Operations para situacións baseadas en recursos/sen fornecemento](#pma)
 
-Project Operations admite situacións de pedidos de produción/con fornecemento e situacións baseadas en recursos/sen fornecemento no mesmo ambiente a través de configuracións a nivel de entidade legal. Por exemplo, Contoso pode utilizar as capacidades de pedido baseadas en produción/con fornecemento na súa fábrica estadounidense (entidade legal = Contoso Manufacturing Estados Unidos). Contoso pode empregar as capacidades baseadas en recursos/sen fornecemento na súa instalación de servizo de Contoso Robotic Arms no Reino Unido (entidade legal = Contoso Robotics Reino Unido).
+Project Operations admite situacións de pedidos de produción/con fornecemento e situacións baseadas en recursos/sen fornecemento no mesmo ambiente a través de configuracións a nivel de entidade legal. Por exemplo, Contoso pode usar as capacidades de pedidos de fornecemento/produción na súa fábrica de Estados Unidos (entidade legal = Contoso Manufacturing United States). Contoso pode usar as capacidades sen fornecemento/baseadas en recursos na súa instalación de servizo de Contoso Robotics Arms no Reino Unido (entidade legal = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Despregamento de Lite: acordo para facturación proforma
 
@@ -56,7 +53,7 @@ O despregamento lite inclúe as seguintes capacidades:
 - Xestión de recursos unificada
 - Rastrexo de tempo
 - Gasto básico
-- Facturación proforma para revisión e edicións do xestor de proxectos 
+- Facturación proforma e orientada ao cliente 
 
 #### <a name="deployment-steps"></a>Pasos de despregamento
 Determine o mellor modelo de despregamento de Project Operations usando o [Cuestionario de despregamento](https://aka.ms/provisionprojectoperations).
@@ -94,13 +91,10 @@ Para este despregamento, consulte [Rexistro para subscricións de previsualizaci
 - Facturación completa
 - Recoñecemento de ingresos
 - Pedidos de produción
-- Asistencia de materiais con existencias e con inventario
+- Asistencia técnica para materiais
 
 #### <a name="deployment-steps"></a>Pasos de despregamento
 Determine o mellor modelo de despregamento de Project Operations usando o [Cuestionario de despregamento](https://aka.ms/provisionprojectoperations).
 
-Para este despregamento, consulte [Rexistro para subscricións de previsualización](/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=%2fdynamics365%2ffinance%2ftoc.json) e [Fornecer a novo ambiente](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=%2fdynamics365%2ffinance%2ftoc.json). 
+Para este despregamento, consulte [Rexistro para subscricións de previsualización](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) e [Fornecer a novo ambiente](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json). 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

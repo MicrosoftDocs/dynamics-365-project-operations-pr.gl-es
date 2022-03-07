@@ -2,8 +2,6 @@
 title: Ver a utilización de recursos
 description: Como ver a utilización de recursos en Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ffd41aba98156d990956908d0a04b8d598c92ade
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 06d6807d63207a0dedbc98b6bd7a874a684bd5ac
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150711"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002549"
 ---
 # <a name="view-resource-utilization-project-service"></a>Ver a utilización de recursos (Project Service)
 
@@ -43,3 +41,6 @@ Pode comprobar o uso dos recursos para determinar os niveis de uso para os recur
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía para o xestor de recursos](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
