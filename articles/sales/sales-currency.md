@@ -2,11 +2,9 @@
 title: Moeda
 description: Este tema ofrece información sobre como engadir e eliminar tipos de moeda en Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,16 +15,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0a5ae29f1a11f62c6edfca64c4751338f42a26f24c4f8230018b0b45a4ee2ddb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121216"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999584"
 ---
 # <a name="currency"></a>Moeda
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 As divisas determinan os prezos dos produtos no catálogo de produtos e o custo das transaccións, como os pedidos de vendas. Se os seus clientes se atopan en diferentes localizacións xeográficas, engada as súas moedas para xestionar as súas transaccións. Engada as moedas máis adecuadas para as súas necesidades empresariais actuais e futuras  
 
@@ -69,3 +69,6 @@ Antes de comezar este procedemento, verifique que o seu rol de seguranza inclúe
 
 > [!IMPORTANT]
 >  Non pode eliminar as moedas que están a ser utilizadas por outros rexistros, só pode desactivalas. A desactivación dos rexistros de moeda non elimina a información monetaria almacenada nos rexistros existentes, tales como oportunidades ou pedidos. No entanto, non poderá seleccionar a moeda desactivada para novas transaccións.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

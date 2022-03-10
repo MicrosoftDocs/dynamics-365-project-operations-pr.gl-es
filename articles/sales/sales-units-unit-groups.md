@@ -2,11 +2,9 @@
 title: Unidades e grupos de unidades
 description: Este tema ofrece información sobre como crear unidades e grupos de unidades en Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 345a4f38ad0bc5acddb90cfd8cb3e92154e46513
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 6a0aec1cc32ebdea9d2dbc7cc891f82da07e044f5c5655e008068f72dd198587
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076255"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999539"
 ---
 # <a name="units-and-unit-groups"></a>Unidades e grupos de unidades
 
@@ -46,3 +44,6 @@ Para completar os pasos deste tema, asegúrese de que se lle atribuíu o rol de 
 3. No campo **Cantidade**, introduza a cantidade que conterá a unidade. Por exemplo, se unha caixa contén dúas pezas, introduza "2". 
 4. No campo **Unidade base**, seleccione unha unidade base para establecer a unidade de medida máis baixa para a unidade. Por exemplo, podería seleccionar "peza".
 5. Seleccione **Gardar**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

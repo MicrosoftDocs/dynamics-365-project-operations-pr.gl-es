@@ -1,25 +1,24 @@
 ---
-title: Visión xeral de liñas de contrato baseado en produto
+title: Visión xeral de liñas de contrato baseado en produto - lite
 description: Este tema fornece información sobre liñas de contrato baseado en produtos.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 794a80b0dd6b8717b43e712b96b9ac077517c226
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.custom: intro-internal
+ms.openlocfilehash: 79b4f6355afb7472f843eda06bf33a3fe732274d6f2566bd23000aa11cbfdce1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076059"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007549"
 ---
-# <a name="product-based-contract-lines-overview"></a>Visión xeral de liñas de contrato baseado en produto
+# <a name="product-based-contract-lines-overview---lite"></a>Visión xeral de liñas de contrato baseado en produto - lite
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
-Pode crear liñas de contrato baseado en produto en Dynamics 365 Project Operations. As liñas de contrato baseado en produtos poden ser liñas creadas manualmente ou poden ser elementos do catálogo de produtos.
+Pode crear liñas de contrato baseado en produtos en Dynamics 365 Project Operations. As liñas de contrato baseado en produtos poden ser liñas creadas manualmente ou poden ser elementos do catálogo de produtos.
 
 ## <a name="product-catalog"></a>Catálogo de produtos
 
@@ -46,3 +45,6 @@ Se unha liña de contrato está baseada nun catálogo de produtos, pode anular o
 Se definiu o campo **Prezos** en **Anular prezos**, non se establece un prezo por defecto. Introduza un prezo do produto da liña de contrato. Se configura o campo en **Usar predefinido**, úsase o prezo de venda predefinido e o campo non se pode editar.
 
 Despois de instalar Project Operations, os prezos de venda por defecto introdúcense nas liñas baseadas en produtos nun contrato. O campo **Prezos** defínese como **Anular prezos** para que poida editar o prezo por defecto nas liñas de contrato. Trátase dunha anulación específica de Project Operations para o comportamento das liñas baseadas en produto en Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

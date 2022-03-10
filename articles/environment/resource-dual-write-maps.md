@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025772"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547107"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versións do mapa de escrita dual de Project Operations
 
@@ -32,7 +32,7 @@ Os seguintes mapas son requisitos previos para a solución de Project Operations
 
 1. Na lista de mapas, seleccione o papa de libro maior **(msdyn\_ledgers)** con todos os requisitos previos e seleccione a caixa de verificación **Sincronización inicial**. No campo **Padrón para a sincronización inicial**, seleccione **Aplicacións de Finance and Operations** tanto para o mapa de libro maior como para todos os mapas de requisitos previos. Seleccione **Executar**.
 
-![Sincronización de mapa de libro maior](media/DW6.png)
+![Sincronización de mapa de libro maior.](media/DW6.png)
 
 2. Siga os mesmos pasos para todos os mapas de táboa restantes que aparecen na táboa anterior. Non seleccione a caixa de verificación **Sincronización inicial** ao executar eses mapas.
 
@@ -49,8 +49,8 @@ Os seguintes mapas son necesarios para a solución de Project Operations. As ver
 | Táboa de integración de Project Operations para estimacións de material (msdyn\_estimatelines) | 1.0.0.0 | Non é necesario para o aprovisionamento. |
 | Propostas de factura de proxecto V2 (facturas) | 1.0.0.3 | Non é necesario para o aprovisionamento. |
 | Datos reais de integración de Project Operations (msdyn_actuals) | 1.0.0.14 | Non é necesario para o aprovisionamento. |
-| Fitos da liña de contrato de integración de Project Operations (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Non é necesario para o aprovisionamento. |
-| Entidade de integración de Project Operations para estimacións de gastos (msdyn_estimateslines) | 1.0.0.2 | Non é necesario para o aprovisionamento. |
+| Fitos de liña de contrato de integración de Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Non é necesario para o aprovisionamento. |
+| Entidade de integración de Project Operations para estimacións de gastos (msdyn_estimatelines) | 1.0.0.2 | Non é necesario para o aprovisionamento. |
 | Entidade de integración de Project Operations para estimacións de horas (msdyn_resourceassignments) | 1.0.0.5 | Non é necesario para o aprovisionamento. |
 | Entidade de exportación de categorías de gastos de proxecto de integración de Project Operations (msdyn_expensecategories) | 1.0.0.1 | Non é necesario para o aprovisionamento. |
 | Entidade de exportación de gastos de proxecto de integración de Project Operations (msdyn_expenses) | 1.0.0.2 | Non é necesario para o aprovisionamento. |
@@ -65,7 +65,7 @@ Realice os seguintes pasos para executar os mapas que se mostran.
 
 1. Active os roles de recursos do proxecto para o mapa da táboa de **todas as empresas (bookableresourcecategories)** xa que este mapa require a sincronización inicial. No campo **Padrón para a sincronización inicial**, seleccione **Common Data Service**. 
 
- ![Sincronización do mapa da táboa de roles de recursos](media/6ResourceInitialSync.jpg)
+ ![Sincronización do mapa da táboa de roles de recursos.](media/6ResourceInitialSync.jpg)
 
  Agarde a que o estado do mapa sexa **En execución** antes de pasar ao seguinte paso.
 

@@ -2,8 +2,6 @@
 title: Traballo co modelo de datos de Project Service Automation
 description: Este tema fornece información sobre como traballar co modelo de datos.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,16 +16,19 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19e999e16a5bf6321a5a61208c8654f7870e6007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076317"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002419"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Traballo co modelo de datos de Project Service Automation
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Project Service Automation estende outras entidades de aplicacións e introduce as súas propias entidades no modelo de datos de Common Data Service. Este tema describe algunhas das entidades que atopará en escenarios típicos de informes de PSA.
 
@@ -52,7 +53,7 @@ PSA tamén engade novas entidades relacionadas coas ofertas ao modelo de datos d
 
 Outras entidades que PSA engade ás ofertas son **Lista de prezos do proxecto da liña de oferta**, **Categoría de recursos de liña de oferta** e **Categoría de transacción de liña de oferta**.
 
-![Diagrama que mostra a oferta, a liña de oferta e as relacións do proxecto](media/PS-Reporting-image2.png "Diagrama que mostra a oferta, a liña de oferta e as relacións do proxecto")
+![Diagrama que mostra a oferta, a liña de oferta e as relacións do proxecto.](media/PS-Reporting-image2.png "Diagrama que mostra a oferta, a liña de oferta e as relacións do proxecto")
 
 ## <a name="reporting-on-project-contracts"></a>Informes sobre contratos do proxecto
 
@@ -68,7 +69,7 @@ PSA tamén engade novas entidades deseñadas para contratos de proxecto. Aquí v
 
 Outras entidades que PSA engade aos contratos son **Lista de prezos do proxecto da liña de contrato do proxecto**, **Categoría de recursos de liña de contrato do proxecto** e **Categoría de transacción de liña de contrato do proxecto**.
 
-![Diagrama que mostra o pedido, a liña de pedido e as relacións do proxecto](media/PS-Reporting-image3.png "Diagrama que mostra o pedido, a liña de pedido e as relacións do proxecto")
+![Diagrama que mostra o pedido, a liña de pedido e as relacións do proxecto.](media/PS-Reporting-image3.png "Diagrama que mostra o pedido, a liña de pedido e as relacións do proxecto")
 
 ## <a name="reporting-on-projects"></a>Informes sobre proxectos
 
@@ -80,7 +81,7 @@ A entidade **Proxectos** e as entidades relacionadas son exclusivas de PSA. **Pr
 - **Requisito de recursos** - Esta entidade contén os requisitos para todos os membros do equipo de recursos xenéricos.
 - **Estimación** e **Liña de estimación** - Estas entidades teñen unha relación de cabeceira/liña e conteñen estimacións de gastos para o proxecto. As estimacións das tarefas almacénanse na entidade **Estimación de recursos**.
 
-![Diagrama que mostra o requisito de recursos e as relacións do proxecto](media/PS-Reporting-image4.png "Diagrama que mostra o requisito de recursos e as relacións do proxecto")
+![Diagrama que mostra o requisito de recursos e as relacións do proxecto.](media/PS-Reporting-image4.png "Diagrama que mostra o requisito de recursos e as relacións do proxecto")
 
 ## <a name="reporting-on-resources"></a>Informes sobre recursos
 
@@ -91,7 +92,7 @@ Os recursos do proxecto utilizan as entidades **Recurso reservable** de Universa
 - **Categoría de recurso reservable** - Esta entidade representa o rol do recurso reservable.
 - **Reservas de recursos reservables** - Esta entidade representa o tempo que está reservado nos proxectos para o recurso. Cada reserva ten unha entidade de cabeceira e entidades de liña, e cada liña ten un estado que representa o estado da reserva.
 
-![Diagrama que mostra as relacións de características de recursos reservables](media/PS-Reporting-image5.png "Diagrama que mostra as relacións de características de recursos reservables")
+![Diagrama que mostra as relacións de características de recursos reservables.](media/PS-Reporting-image5.png "Diagrama que mostra as relacións de características de recursos reservables")
 
 ## <a name="reporting-on-actual-transactions"></a>Informes sobre transaccións reais
 
@@ -119,4 +120,7 @@ Cando estea a traballar coa entidade **Dato real**, é importante que entenda qu
 
 A entidade **Orixe da transacción** rexistra a orixe do rexistro **Dato real** e a entidade **Conexión de transaccións** rexistra os rexistros relacionados para o rexistro **Dato real**. Adicionalmente, o rexistro **Dato real** contén referencias ao proxecto, contrato de proxecto (pedido), recurso reservable e cliente.
 
-![Diagrama que mostra a conexión da transacción, a orixe e as relacións reais](media/PS-Reporting-image6.png "Diagrama que mostra a conexión da transacción, a orixe e as relacións reais")
+![Diagrama que mostra a conexión da transacción, a orixe e as relacións reais.](media/PS-Reporting-image6.png "Diagrama que mostra a conexión da transacción, a orixe e as relacións reais")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

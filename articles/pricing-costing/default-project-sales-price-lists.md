@@ -2,18 +2,16 @@
 title: Listas de prezos predefinidas
 description: Este tema ofrece información sobre as listas de prezos de custo de vendas predefinidas en Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 275ef9b9706d212a6da0dc7c060081c3226572f3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076011"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989864"
 ---
 # <a name="default-price-lists"></a>Listas de prezos predefinidas
 
@@ -21,7 +19,7 @@ _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fo
 
 ## <a name="sales-price-lists"></a>Listas de prezos de vendas
 
-Todas as ofertas e contratos de proxecto en Dynamics 365 Project Operations conteñen unha lista de prezos de vendas predefinida. 
+Todas as ofertas e contratos do proxecto en Dynamics 365 Project Operations conteñen unha lista de prezos de venda predefinida. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Lista de prezos predefinida nas ofertas de proxecto
 O sistema completa o seguinte proceso para determinar que lista de prezos predefinirá nunha oferta de proxecto:
@@ -57,3 +55,6 @@ As listas de prezos de custo non están predefinidas en ningunha entidade en Pro
 5. A seguir, o sistema analiza a data de efectividade das listas de prezos que coinciden coa data da estimación entrante ou da liña real. 
 6. Se hai varias listas de prezos efectivas para a data na estimación entrante ou o dato real, selecciónase a lista de prezos creada máis recentemente.
 7. Se non hai listas de prezos de custo anexas aos parámetros do proxecto que coincidan coa moeda e a data de efectividade, o sistema predefinirá a taxa de custo a cero (0) na estimación entrante ou na liña real.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

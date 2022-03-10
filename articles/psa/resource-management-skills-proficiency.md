@@ -2,8 +2,6 @@
 title: Modelos de habilidades e competencias
 description: Este tema ofrece información sobre como usar os modelos de habilidades e competencias.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/13/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c7da8b2a7eda51b2aa7cf04e325a92f33d834efc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 73509fda4a715a4131781645736e49cfb02115da2c3650c5a966e35360e7703f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147471"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990494"
 ---
 # <a name="skills-and-proficiency-models"></a>Modelos de habilidades e competencias
 
@@ -35,7 +33,7 @@ As habilidades son características dos recursos que se comparten entre Dynamics
 
 Para manter o repositorio de habilidades en Project Service Automation, diríxase a **Recursos** \> **Habilidades dos recursos**. 
 
-> ![Habilidades dos recursos](media/Resource-Management-image84.png)
+> ![Habilidades do recurso.](media/Resource-Management-image84.png)
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>Usar modelos de habilidade para valorar os recursos
 
@@ -45,6 +43,9 @@ As habilidades dos recursos clasifícanse por modelos de competencia. As clasifi
 2. No novo modelo de clasificación, especifique o valor mínimo de clasificación, o valor máximo de clasificación e a entidade que se está clasificando.
 3. Na subgrade **Valores de clasificación**, pode definir os diferentes valores de clasificación, desde o mínimo ata o máximo.
 
-> ![Definición de clasificación mínima e máxima](media/Resource-Management-image85.png)
+> ![Definición de clasificación mínima e máxima.](media/Resource-Management-image85.png)
 
 Estes valores de clasificación móstranse nos filtros **Requisitos dos recursos**, **Panel de programación** e **Asistente de programación**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

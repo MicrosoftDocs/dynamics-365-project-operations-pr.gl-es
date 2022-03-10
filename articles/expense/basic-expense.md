@@ -2,18 +2,16 @@
 title: Entrada de gasto (lite)
 description: Este tema ofrece información sobre como traballar coa entrada de gastos nun despregamento lite.
 author: stsporen
-manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 746d5d9ff56222e7d6b9b6e264db75d5814365c7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: 48bf86a5cee475708f93462dc154e21b36240023f0a94cf31c49e9a096951736
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076016"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007819"
 ---
 # <a name="expense-entry-lite"></a>Entrada de gasto (lite)
 
@@ -37,6 +35,10 @@ Despois de rematar de capturar todos os seus gastos e cando estea listo para fac
 1. Vaia a **Gastos** e seleccione un gasto. Ou seleccione todos os gastos empregando a caixa de verificación da cabeceira.
 2. Seleccione **Enviar**. O sistema procesa as entradas seleccionadas e logo crea solicitudes de aprobación de gastos.
 
+## <a name="add-an-attachment"></a>Engadir un anexo
+
+É posible que deba proporcionar ao responsable de aprobación documentación adicional sobre o seu gasto. Pode anexar un recibo na liña de tempo da entrada de gasto. Seleccione **Editar** e na sección **Liña de tempo** seleccione a icona de clip para anexar o recibo.
+
 ## <a name="recall-a-basic-expense"></a>Recuperar un gasto básico
 
 Cando envíe un gasto por erro, pode recuperalo. O tempo necesario para recuperar unha entrada de gasto depende da súa fase de aprobación.  Se o responsable de aprobacións aínda non aprobou a entrada, a recuperación pode producirse inmediatamente. Non obstante, se a entrada xa foi aprobada, solicítaselle ao responsable de aprobacións que aprobe a recuperación e reverta as transaccións.
@@ -51,3 +53,6 @@ Pódense eliminar os gastos que aínda non se enviaron. Para eliminar un gasto x
 ## <a name="see-also"></a>Consulte tamén
 
 - [Visión xeral das aprobacións](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

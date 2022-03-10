@@ -2,8 +2,6 @@
 title: Como podo facer unha "reserva branda" de recursos na versión da apl. 2.x?
 description: Este artigo describe como facer unha reserva branda de membros de proxecto con Project Service.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a35799b422fa338c2666e1b2aa11bc2a54f5cce3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: d7eb9e3baea3c3f696845905a2522940d14bba8a8d42917f8fe1b90c7c443747
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122251"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993914"
 ---
 # <a name="how-do-i-soft-book-resources-in-the-web-app-project-service-app-v2x"></a>Como podo facer unha "reserva branda" de recursos na aplicación web (aplicación Project Service v2.x)?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1.x-2.x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -85,3 +85,6 @@ Cando esté listo para modificar un recurso de membro de equipo con reserva bran
 2. Cando abre o panel de programación, expanda o recurso para mostrar as súas reservas. Verá a reserva marcada como Branda.
 3. Prema co botón secundario na reserva, en Cambiar estado, seleccione Reserva dura e, a seguir, Dura. O estado da reserva é Duro.
 4. Despois de pechar o panel de programación, verá que as horas do recurso cambiaron de Branda a Dura na grade de membro do equipo. Agora pode atribuir o recurso a tarefas (sempre que haxa aliñación entre as horas con reserva dura e as horas de esforzo da tarefa de atribución). Teña en conta que se seguiron os pasos de realización de recurso xenérico no punto #3 anterior, cando se modifica o estado do recurso reservado con reserva branda a dura, o membro do equipo xenérico é eliminado do equipo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

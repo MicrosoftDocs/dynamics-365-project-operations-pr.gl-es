@@ -2,8 +2,6 @@
 title: Novidades ou cambios na versión 22 de actualización de Project Service Automation, V3
 description: Este tema mostra as funcionalidades e correccións que están dispoñibles la versión 22 de actualización de Project Service Automation, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8863d321ad88d761d0fcbd82ca26562a69468f2f
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: 6a5109b1ffedfce99fc50c035bcbe5810abcf3b71f88679b47561d69daa9f3ab
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949002"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004309"
 ---
 # <a name="project-service-automation-update-release-22-v3"></a>Versión 22 de actualización de Project Service Automation, V3
 

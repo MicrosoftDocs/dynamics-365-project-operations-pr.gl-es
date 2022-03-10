@@ -1,12 +1,10 @@
 ---
-title: Emparellar un recibo cun gasto mediante OCR
+title: Capturar un recibo usando OCR
 description: Este tema ofrece información sobre o procesamento de recoñecemento óptico de caracteres (OCR) para recibos.
 author: suvaidya
-manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,14 +13,14 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 62d6316c9602089518a94267d8ef2b7fb8d59cd0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076097"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798038"
 ---
-# <a name="match-a-receipt-to-an-expense-using-ocr"></a>Emparellar un recibo cun gasto mediante OCR
+# <a name="capture-a-receipt-using-ocr"></a>Capturar un recibo usando OCR
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
@@ -54,7 +52,7 @@ Para crear un gasto ou emparellar un gasto desde un recibo, complete os seguinte
 
 ## <a name="installation"></a>Instalación
 
-Para utilizar estas capacidades avanzadas de gastos, instale o complemento Servizo de xestión de gastos para Microsoft Dynamics 365 Finance e active as funcionalidades na súa instancia. Pode acceder ao complemento desde o seu proxecto en Microsoft Dynamics Lifecycle Services (LCS).
+Para utilizar estas capacidades avanzadas de gastos, instala o complemento do servizo de xestión de gastos para Microsoft Dynamics 365 Finance e activa as funcións na túa instancia. Podes acceder ao complemento desde o teu proxecto en Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Inicie sesión en LCS e abra o ambiente desexado.
 2. Vaia a **Detalles completos**.
@@ -75,7 +73,7 @@ Ao activar estas funcionalidades, prodúcense as seguintes accións:
 - Engádese un novo elemento de menú para a visibilidade do campo de gastos.
 - Aínda pode abrir a páxina **Informes de gastos** anterior indo a **Xestión de gastos > Os meus gastos > Informes de gastos**.
 - Os fluxos de traballo e as aprobacións aínda o levarán á páxina de informes de gastos existente.
-- Os recibos procesaranse mediante Microsoft Azure Cognitive Services e os metadatos extraeranse e engadiranse.
+- Os recibos procesaranse a través dos Microsoft Azure Cognitive Services e extraeranse e engadiranse metadatos.
 - Engádese unha opción que lle permite crear un informe de gastos que inclúe recibos non anexados emparellados.
 - Unha opción que se engade aos informes de gastos permítelle crear unha liña de gasto a partir dun recibo ou tentar emparellar un recibo existente cunha liña de gasto existente.
 
@@ -87,10 +85,24 @@ Non, Microsoft creou un modelo xeral de aprendizaxe automático para o seu servi
 
 **Onde está dispoñible e se procesa esta funcionalidade?**
 
-Actualmente, está dispoñible nos Estados Unidos.
+A dispoñibilidade desta función en diferentes rexións está listada na seguinte táboa. Se a túa rexión non é compatible actualmente, envía unha solicitude para priorizar a dispoñibilidade do servizo OCR na túa rexión. 
+
+| Rexión | Compatible                         |
+|--------|-----------------------------------|
+| EUA    | Si                               |
+| CAN    | Si                               |
+| Reino Unido     | Si                               |
+| AUS    | Si                               |
+| UE     | Parcialmente. Só recibos en inglés. |
+| Asia   | No                                |
+| O Xapón  | No                                |
+| África | No                                |
 
 **Onde van os meus recibos?**
 
 Finanzas contactará con Cognitive Services para extraer os datos do campo. Cognitive Services conservará unha copia do seu recibo ata 24 horas mentres se produce o procesamento. Unha vez finalizado o procesamento, Cognitive Services eliminará o recibo. Os recibos aínda se gardan en Finanzas.
 
 Para obter máis información, consulte [Activar a comprensión de recibos coa nova capacidade de recoñecemento de formularios](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

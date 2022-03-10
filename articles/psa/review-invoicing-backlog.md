@@ -2,8 +2,6 @@
 title: Revisar os traballos pendentes de facturación en proxectos e contratos de proxectos
 description: Este tema fornece información sobre como revisar o traballo pendente de facturación de tempo, gasto e produtos e como marcalos como listos para a facturación.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -16,14 +14,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bcdcc0cae06ce61bd582d56a8398e718051ff564
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123961"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006964"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Revisar os traballos pendentes de facturación en proxectos e contratos de proxectos
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -40,7 +40,7 @@ Os datos reais de vendas sen facturar representan o traballo pendente de factura
 
 Para revisar o calendario de facturación de tempo e materiais, vaia a **Vendas** \> **Facturación** \> **Traballo pendente de facturación de tempo e material**. Seleccione todos os datos reais de vendas sen facturar listas para ser facturadas e logo seleccione **Listo para facturar**. O estado de facturación destes datos reais cambia a **Listo para facturar**.
 
-![Traballo pendente de facturación de tempo e material](media/TMBacklog.png)
+![Traballo pendente de facturación de tempo e material.](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Revisar o traballo pendente de facturación de produtos
 
@@ -48,7 +48,7 @@ En PSA, cando un contrato de proxecto ten liñas de contrato baseadas en produto
 
 Para revisar o traballo pendente de facturación de produtos, vaia a **Vendas** \> **Facturación de produtos** \> **Traballo pendente de facturación de produtos**. Seleccione todas liñas de contrato baseadas en produtos que están listas para ser facturadas e logo seleccione **Listo para facturar**. O estado de facturación destas liñas cambia a **Listo para facturar**.
 
-![Traballo pendente de facturación de produtos](media/ProductBacklog.png)
+![Traballo pendente de facturación de produtos.](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Revisar os fitos de facturación de contratos de prezo fixo
 
@@ -56,4 +56,7 @@ Cada liña de contrato de proxecto que teña un método de facturación de prezo
 
 Para revisar os fitos de facturación, vaia a **Vendas** \> **Facturación** \> **Fitos de prezo fixo**. Seleccione todos os fitos listos para ser facturados e logo seleccione **Listo para facturar**. O estado de facturación destes fitos cambia a **Listo para facturar**.
 
-![Fitos de prezo fixo](media/FPBacklog.png)
+![Fitos de prezo fixo.](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

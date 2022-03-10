@@ -2,18 +2,16 @@
 title: Configurar taxas de custo laboral
 description: Este tema ofrece información sobre como configurar as taxas de custo de man de obra en Project Operations
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 605bf2a578528117a6ef70614a8e5ff5a3fc300c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 2c41bab8626087e3cadc075b02011ef974b5eecb16e83ed67f78f4e020a83dd8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274771"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986174"
 ---
 # <a name="set-up-labor-cost-rates"></a>Configurar taxas de custo laboral
 

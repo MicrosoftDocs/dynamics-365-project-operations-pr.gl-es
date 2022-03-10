@@ -2,8 +2,6 @@
 title: Crear unha oportunidade de proxecto
 description: Como crear unha oportunidade de proxecto en Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c51ff895780085ed9f2723da8f505e666af90c42
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: fc24b0f3f6091f1a81b83d5bea61dfd2fd5a4ff6e4fdc6ec206f15460f364db1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133231"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002689"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Crear unha oportunidade de proxecto (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +37,7 @@ As oportunidades son clientes potenciais en quente que están interesados en con
   
 3.  Na área **Resumo**, introduza a empresa da oportunidade e outra información.  
   
-4.  Engada notas e actividades (por exemplo, chamadas telefónicas ou correos) relacionadas con este cliente potencial. Para obter máis información sobre como engadir notas e actividades, consulte [Realizar un seguimento de notas, tarefas, chamadas ou correo con actividades](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
+4.  Engada notas e actividades (por exemplo, chamadas telefónicas ou correos) relacionadas con este cliente potencial. Para obter máis información sobre como engadir notas e actividades, consulte [Realizar un seguimento de notas, tarefas, chamadas ou correo con actividades](/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
 5.  Para engadir interesados, na área de **Interesados**, prema **+**.  
   
@@ -53,3 +53,6 @@ As oportunidades son clientes potenciais en quente que están interesados en con
   
 ### <a name="see-also"></a>Consulte tamén  
  [Guía de xestor de contas](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

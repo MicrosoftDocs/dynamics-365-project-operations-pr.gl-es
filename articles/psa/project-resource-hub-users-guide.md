@@ -2,8 +2,6 @@
 title: Guía do usuario para Project Resource Hub
 description: Unha guía para o usuario final de Project Resource Hub (Dynamics 365 for Project Service) | MicrosoftDocs
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 181e47a7bf923100e480eabd120d8bd784c24d07
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076123"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987254"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Guía do usuario para Project Resource Hub
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -46,34 +46,34 @@ Hai dous tipos de [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-
 ## <a name="install-the-mobile-app"></a>Instalar a aplicación móbil
 Antes de comezar a usar a aplicación Project Resource Hub, debe instalar a aplicación para móbiles no seu dispositivo. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Instalar Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Instalar Dynamics 365 for phones and tablets](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>Navegación básica
 1.  Ao iniciar sesión na aplicación móbil, verá a páxina MyApps cunha lista de aplicacións ás que ten acceso. 
 2.  Seleccione **Project Resource Hub**.
 
-![Escoller unha aplicación](media/chooseApp_1.png "Escoller unha aplicación")
+![Escolla unha aplicación.](media/chooseApp_1.png "Escoller unha aplicación")
 
 **A barra de navegación**
 
-Utilice a barra de navegación para ir á súa área de traballo, crear un rexistro novo, realizar buscas ou facer outras tarefas. Para acceder a máis comandos, toque o ![Botón Máis](media/MoreButton.png "Botón Máis")
+Utilice a barra de navegación para ir á súa área de traballo, crear un rexistro novo, realizar buscas ou facer outras tarefas. Para acceder a máis comandos, toque ![Botón Máis.](media/MoreButton.png "Botón Máis")
 
-![Barra de navegación](media/NavBar_2.png "Barra de navegación")
+![Barra de navegación.](media/NavBar_2.png "Barra de navegación")
 
 **Favoritos e rexistros utilizados recentemente**
 
 As seccións Favoritos e Rexistros recentes fornecen acceso rápido aos seus rexistros, visualizacións e paneis. 
 
-- Para acceder a estas seccións, toque o botón **Menú** ![botón Menú](media/MenuButton.png "Botón do menú") na barra de navegación e, a seguir, toque o botón **Favoritos e recentes** ![botón de Favoritos](media/FavButton.png "Botón Fav").
+- Para acceder a estas seccións, toque o botón **Menú** ![Botón de menú.](media/MenuButton.png "Botón do menú") na barra de navegación e logo pulse o botón **Favoritos e recentes** ![Botón Fav](media/FavButton.png "Botón Fav").
 
 - Para fixar un elemento como favorito, desde a lista de elementos **Usados recentemente**, toque o marcador. Isto fixará e moverá o elemento a Favoritos.
 
-  ![Elementos favoritos e recentes](media/Favs_3.png "Elementos favoritos e recentes")
+  ![Elementos favoritos e recentes.](media/Favs_3.png "Elementos favoritos e recentes")
  
 ## <a name="enter-time"></a>Introducir hora
 Introduza as horas como mínimo semanalmente, ou na frecuencia solicitada polo seu xestores, para garantir que lle factura aos seus clientes e que eles lle pagan correctamente.
 
-1. Toque o botón ![botón Menú](media/MenuButton.png "Botón do menú") do menú e, a seguir, toque **Entradas de tempo**. Aparecerá o calendario.
+1. Toque o menú ![Botón de menú.](media/MenuButton.png "Botón do menú") e logo toque **Entradas de tempo**. Aparecerá o calendario.
 
 2. Toque o botón **Anterior** ou **Seguinte** para ver a programación para a semana anterior ou seguinte. Toque **Hoxe** para volver á semana actual.
 
@@ -97,9 +97,12 @@ Introduza os gastos como mínimo semanalmente, ou na frecuencia solicitada polo 
 5. Continúe introducindo os gastos da semana. Cando remate e todo estea correcto, toque **Enviar**. Un xestor revisará e aprobará os seus gastos.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Información xeral sobre como usar a aplicación móbil 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Guía de conceptos básicos de Mobile](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Guía de conceptos básicos de Mobile](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide)
 
 ### <a name="see-also"></a>Consulte tamén  
  [Información xeral de Project Service](../psa/overview.md)   
  [Guía de tempo, gasto e colaboración](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

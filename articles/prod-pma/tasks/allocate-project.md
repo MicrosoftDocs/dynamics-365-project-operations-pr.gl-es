@@ -2,11 +2,9 @@
 title: Asignar un orzamento de proxecto ou unha revisión de orzamento entre períodos
 description: Este procedemento mostra como asignar as cantidades do orzamento do proxecto entre períodos.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2533ae9432d5a410811b44ba818dc458515a132
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: e35330d1cbddea41dac7e215350252470b610a52bb05b245d7794a37415dcd3c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288422"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989369"
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Asignar un orzamento de proxecto ou unha revisión de orzamento entre períodos
 

@@ -4,6 +4,7 @@ description: Introdución e visión xeral de Project Service
 author: stsporen
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -16,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 537fa056fd0103e1a4fa05c8e66d408286ee101c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998544"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000259"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Que é Dynamics 365 Project Service Automation?
 
@@ -81,7 +82,7 @@ Busca recursos para axudarlle a planificar a súa implementación? Consulte esta
  [Notas para programadores (versión 2.x da aplicación)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>Ver un vídeo de información xeral de 2 minutos
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
 

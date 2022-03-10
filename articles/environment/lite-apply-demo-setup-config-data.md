@@ -6,12 +6,12 @@ ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997149"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993284"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Aplicar a configuración de demostración e os datos de configuración para Project Operations - lite 
 
@@ -30,24 +30,24 @@ Antes de comezar a configuración, debe ter un ambiente de Common Data Service (
 2. Desprácese ata o cartafol *ProjOpsSampleSetupData - CE only CMT* e execute o ficheiro executable, *DataMigrationUtility*.
 3. Na páxina 1 do Asistente de migración de configuración (CMT) de Common Data Service, seleccione **Importar datos** e logo seleccione **Continuar**.
 
-    ![Migración da configuración](./media/1ConfigurationMigration.png)
+    ![Migración da configuración.](./media/1ConfigurationMigration.png)
 
 4. Na páxina 2 do asistente de CMT, seleccione **Microsoft 365** como o **Tipo de despregamento**.
 5. Seleccione as caixas de verificación **Mostrar unha lista das organizacións dispoñibles** e **Mostrar avanzado**.
 6. Seleccione a rexión do seu arrendatario, introduza as súas credenciais e logo seleccione **Iniciar sesión**.
 
-   ![Inicio de sesión de configuración](./media/2ConfigurationSignin.png)
+   ![Inicio de sesión de configuración.](./media/2ConfigurationSignin.png)
 
 7. Na páxina 3, na lista de organizacións do arrendatario, seleccione a que organización desexa importar os datos de demostración e logo seleccione **Iniciar sesión**.
 8. Na páxina 4, seleccione o ficheiro zip *SampleSetupAndConfigData* dende o cartafol desempaquetado, *ProjOpsSampleSetupData - CE only CMT*.
 
-   ![Ficheiro ZIP](./media/3ZipFile.png)
+   ![Ficheiro ZIP.](./media/3ZipFile.png)
 
-   ![Seleccionar un ficheiro](./media/4SelectAFile.png)
+   ![Seleccione un ficheiro.](./media/4SelectAFile.png)
 
 9. Despois de seleccionar o ficheiro zip, seleccione **Importar datos**.
 
-   ![Importar datos](./media/5ImportData.png)
+   ![Importe datos.](./media/5ImportData.png)
 
 10. A importación executarase durante aproximadamente de dous a dez minutos segundo a velocidade da rede. Cando finalice, saia do asistente de CMT. 
 11. Comprobe se a súa organización ten datos nas seguintes 18 entidades:
@@ -71,7 +71,7 @@ Antes de comezar a configuración, debe ter un ambiente de Common Data Service (
     -   Asociación de categorías de recursos reservables
     -   Característica de recursos reservables
 
-    ![Completar importación](./media/6CompleteImport.png)
+    ![Complete a importación.](./media/6CompleteImport.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

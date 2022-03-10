@@ -2,8 +2,6 @@
 title: Análise de ofertas de proxecto
 description: Este tema fornece información sobre a análise de ofertas de proxecto.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0d9cefafcce33297146cae81d9ba7e68ab79aeb6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: b50f419d2c13cff4914f4b589c8d7ad9099c8734834d75f8d17104d2db40049b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076248"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002824"
 ---
 # <a name="analysis-of-project-quotes"></a>Análise de ofertas de proxecto
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -58,3 +58,6 @@ Pode analizar ofertas e xerar gráficos para as expectativas dos clientes sobre 
 A análise das expectativas dos clientes sobre a programación realízase comparando a última data final do detalle da liña de oferta coa data de entrega solicitada en todas as liñas de oferta da oferta.
 
 A análise das expectativas dos clientes sobre o orzamento realízase comparando a suma do orzamento total do cliente co importe ofertado en todas as liñas da oferta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

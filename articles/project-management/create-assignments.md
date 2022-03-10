@@ -2,18 +2,16 @@
 title: Crear atribucións de recursos
 description: Este tema ofrece información sobre como crear atribucións de recursos xenéricos e nomeados.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 20eb3880b17fb1f765ad79bd720520b0c8004c0a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: d2e7c9a340a482a62afc0c9f0aa46c24fda27ca6ef56fdc0160f06af846c0b53
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076045"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987884"
 ---
 # <a name="create-resource-assignments"></a>Crear atribucións de recursos
 
@@ -42,3 +40,6 @@ Pode utilizar a caixa de busca no **Selector de recursos** para buscar todos os 
 1. Desde a grade de tarefas, panel ou liña de tempo, desprácese ata o a cela **Atribuído a**.
 2. Na caixa de busca, comece a escribir un nome. Os resultados de busca para o nome móstranse no **Selector de recursos** en **Outros recursos**.
 3. Seleccione o recurso que desexa asignar á tarefa ou seleccione o nome do recurso en **Outros recursos do equipo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Liñas de oferta baseadas en produtos
 description: Este tema fornece información sobre liñas de oferta baseadas en produtos.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a5b52e74994a40b20353d85d1d9bcd59d435cd0b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151251"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008584"
 ---
 # <a name="product-based-quote-lines"></a>Liñas de oferta baseadas en produtos
 
@@ -60,7 +58,7 @@ Se definiu este campo en **Anular prezos**, Dynamics 365 non establece un prezo 
 
 Despois de instalar PSA, os prezos de venda por defecto introdúcense nas liñas baseadas en produtos nunha oferta. O campo **Prezos** defínese como **Anular prezos** para que poida editar o prezo por defecto nas liñas de oferta.
 
-> ![Establecer anular prezos](media/basic-guide-10.png)
+> ![Establecer anular prezos.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Factores de cantidade para produtos
 
@@ -80,5 +78,8 @@ Por exemplo, Dynamics 365 pode ter as seguintes propiedades:
 
 As propiedades **N.º de Usuarios** e **N.º de meses** pódense marcar como factores de cantidade editando as propiedades da liña de produtos. 
 
-> ![Marcado de n.º de usuarios e n.º de meses como factores de calidade](media/basic-guide-11.png)
+> ![Marcado de n.º de usuarios e n.º de meses como factores de calidade.](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Métodos de asignación de reservas en Project Service Automation
 description: Este tema fornece información sobre as diferentes formas de atribuír reservas.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6fefaf0677ec1b3b84b202824ba16a87fa1b8d5c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: a770a51c2bf05e227367efc834dbff2832a316f617ae4fe22a43572940f43cbe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286336"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000844"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Métodos de asignación de reservas en Project Service Automation
 

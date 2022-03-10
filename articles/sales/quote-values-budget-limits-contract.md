@@ -2,20 +2,18 @@
 title: Configuración de oferta de proxecto
 description: Este tema ofrece información sobre a información e a configuración que se aplican e afectan ás ofertas do proxecto.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 3f11188a47c6f0c7de9fb591fd3be3e22f8f7d842fb6d075c1f43d9baea4d225
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277561"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993464"
 ---
-# <a name="project-quote-settings"></a>Configuración de oferta de proxecto
+# <a name="header-details-for-project-based-quotes"></a>Detalles da cabeceira para ofertas baseadas en proxecto
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 

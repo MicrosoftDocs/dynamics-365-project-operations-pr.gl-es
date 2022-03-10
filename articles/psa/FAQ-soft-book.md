@@ -2,8 +2,6 @@
 title: Reserva branda dun recurso
 description: Este tema fornece información sobre como programar provisionalmente ou facer unha reserva branda de membros de equipo.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/25/2019
@@ -12,14 +10,16 @@ ms.author: ruhercul
 audience: Admin
 search.app:
 - ProjectOperations
-ms.openlocfilehash: af71ff9d60e237a9d1379b3ccd4c0d5ffce411e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: cf67769fef39f95785320ae38055f0a3359b3a82d996b740bdb5d51e864f3d56
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122206"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005344"
 ---
 # <a name="soft-book-a-resource"></a>Reserva branda dun recurso
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -65,3 +65,6 @@ Cando esté listo para modificar un recurso de membro de equipo con reserva bran
 2. Prema co botón secundario na reserva, en **Cambiar estado**, seleccione **Reserva dura** \> **Dura**. O estado da reserva é agora **Dura**.
 3. Despois de pechar o panel de programación, volver ao proxecto e abrir o separador **Equipo**, verá que as horas para o recurso movéronse desde a columna **Horas con reserva branda** á columna **Horas con reserva** dura na grade do separador **Equipo**, ao visualizar **Membros do equipo nomeados**. Se o recurso se atribuíu a tarefas, xa non mostrará unha falta de reserva no separador **Conciliación**, xa que as súas reservas agora son duras.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

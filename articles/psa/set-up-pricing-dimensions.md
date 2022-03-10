@@ -2,12 +2,10 @@
 title: Configuración de campos personalizados como dimensións de prezos
 description: Este tema fornece información sobre a configuración de dimensións de prezos personalizadas.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 81f926e0aa209dd83f9b850c2342bd35a4f236c3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282466"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002329"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configuración de campos personalizados como dimensións de prezos 
 
@@ -43,11 +41,11 @@ Para que un campo se converta nunha dimensión de prezos, debe:
 - Crearse como campo nas entidades **Prezo de rol** e **Sobreprezo de rol**. Para obter máis información sobre como facer isto, consulte [Engadir campos personalizados á configuración de prezos e ás entidades transaccionais](field-references.md).
 - Crearse como unha fila na táboa **Dimensión de prezos**. Por exemplo, engada filas de dimensións de prezos como se mostra no gráfico seguinte. 
 
-![Filas de dimensións de prezos baseadas en importe](media/Amt-based-PD.png)
+![Filas de dimensións de prezos baseadas en importe.](media/Amt-based-PD.png)
 
 Teña en conta que as horas de traballo dos recursos (**msdyn_resourceworkhours**) engadíronse como dimensión baseada en sobreprezo e engadíronse á grade no separador **Dimensión de prezos baseada en sobre prezo**.
 
-![Filas de dimensión de prezos baseada en sobreprezo](media/Markup-based-PD.png)
+![Filas de dimensión de prezos baseada en sobreprezo.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Calquera cambio nos datos da dimensión de prezos desta táboa, xa existente ou nova, propágase á lóxica de negocio de prezos de Project Service só despois de actualizar a caché. A actualización da caché pode tardar ata 10 minutos. Agarde ese período de tempo ver os cambios na lóxica de establecemento de prezos predefinidos que debe resultar dos cambios nos datos da dimensión de prezos.
@@ -73,7 +71,7 @@ Hai dous tipos de dimensións de prezos:
   
 | Rol        | Unidade organizativa    |Localización do traballo      |Título estándar      |Horas laborables do recurso      |  Sobreprezo|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso India|No sitio            |                    |Horas extra                 |15     |
+|             | Contoso India|Onsite            |                    |Horas extra                 |15     |
 |             | Contoso India|Local             |                    |Horas extra                 |10     |
 |             | Contoso EUA   |Local             |                    |Horas extra                 |20     |
 

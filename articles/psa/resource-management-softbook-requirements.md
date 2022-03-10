@@ -2,8 +2,6 @@
 title: Requisitos da reserva branda
 description: Este tema fornece información sobre como cumprir requisitos de reserva branda.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 736d59976ad0f456a694cedbb28b516c90632fe6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 95f064e0f83d2052ac4ae9673b4fcdcd16a2574246d3320e1ed3798cd6ff062b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282916"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007009"
 ---
 # <a name="soft-book-requirements"></a>Requisitos da reserva branda
 
@@ -31,11 +29,11 @@ ms.locfileid: "5282916"
 
 Pódese facer unha reserva dura dun requisito de recursos. Unha reserva dura crea unha proposta que consume a capacidade dun recurso. A proposta é remitida ao solicitante para a súa aprobación. Unha reserva branda engade provisionalmente un recurso a un equipo de proxecto e ten un estado diferente no panel de programación, pero non consume a capacidade do recurso. Para facer unha reserva branda dun recurso, configure o campo **Estado da reserva** en **Branda**.
 
-![O estado da reserva establecido en Branda](media/Resource-Management-image77.png)
+![O estado da reserva establecido en Branda.](media/Resource-Management-image77.png)
 
 Cando o separador **Equipo** está na vista **Membros nomeados do equipo**, o recurso aparece alí. As horas con reserva branda aparecen na columna **Horas con reserva branda**.
 
-![Horas con reserva branda na vista de membros nomeados do equipo](media/Resource-Management-image78.png)
+![Horas con reserva branda na vista de membros nomeados do equipo.](media/Resource-Management-image78.png)
 
 Non se poden atribuír os membros do equipo cunha reserva branda a tarefas.
 
@@ -43,18 +41,18 @@ Non se poden atribuír os membros do equipo cunha reserva branda a tarefas.
 
 No separador **Conciliación**, non se amosan reservas para un recurso con reserva branda, porque o separador **Conciliación** considera só as reservas duras.
 
-![Recurso con reserva branda sen reservas no separador Conciliación](media/Resource-Management-image80.png)
+![Recurso con reserva branda sen reservas no separador Conciliación.](media/Resource-Management-image80.png)
 
 > [!NOTE]
 > Non pode facer unha reserva branda dun recurso desde un requisito xerado cun membro xenérico do equipo.
 
 No panel de programación, úsase unha cor diferente para reservas brandas para un recurso.
 
-![Reservas brandas no panel de programación](media/Resource-Management-image81.png)
+![Reservas brandas no panel de programación.](media/Resource-Management-image81.png)
 
 Para converter unha reserva branda en unha reserva dura, no panel de programación, prema co botón dereito do rato sobre a reserva branda e logo seleccione **Cambiar estado** \> **Reserva dura** \> **Dura**.
 
-![Cambio do estado da reserva a dura](media/Resource-Management-image82.png)
+![Cambio do estado da reserva a dura.](media/Resource-Management-image82.png)
 
 A reserva cambia e o estado cámbiase no panel de programación. Como o estado da reserva é agora **Dura**, o recurso móstrase como reservado e axústase a súa capacidade e dispoñibilidade.
 
@@ -62,7 +60,7 @@ Pode usar o mesmo método para cancelar unha reserva dura ou unha reserva branda
 
 Para converter un recurso con reserva branda en reserva dura no separador **Equipo** do proxecto, seleccione o recurso e logo seleccione **Confirmar**.
 
-![Comando Confirmar](media/Resource-Management-image83.png)
+![Comando Confirmar.](media/Resource-Management-image83.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

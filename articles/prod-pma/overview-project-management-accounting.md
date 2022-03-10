@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369689"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007504"
 ---
 # <a name="project-management-and-accounting-overview"></a>Visión xeral de xestión de proxectos e contabilidade
 
@@ -34,14 +34,14 @@ Un proxecto é un grupo de actividades deseñado para prestar un servizo, produc
 ## <a name="projects-across-industries"></a>Proxectos entre sectores
 A funcionalidade de xestión de proxectos e contabilidade pódese empregar en varios sectores, como se mostra na seguinte ilustración.
 
-[![Proxectos entre sectores](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Proxectos entre sectores.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Nun centro de chamadas, pódese usar un tícket para describir o conxunto de accións necesarias para resolver unha chamada. As empresas consultoras, como organizacións de xestión ou consultoría técnica ou axencias de publicidade, refírense ás súas actividades como proxectos. En márketing, unha campaña representa un conxunto de traballos que deben entregarse. Na fabricación baseada en proxectos, un pedido de produción relaciona o traballo que hai que facer para producir algúns produtos acabados. Independentemente do nome que se empregue para eles, estes proxectos implican recursos, calendarios e custos, e a funcionalidade de xestión de proxectos e contabilidade pode axudar na planificación, execución e análise destes proxectos.
 
 ## <a name="project-phases"></a>Fases do proxecto
 Aínda que o seguinte fluxo de proceso está dirixido a proxectos externos ou a proxectos completados por un ou máis clientes, a funcionalidade tamén se aplica a proxectos internos só de custo. 
 
-![3 fases dun proxecto](./media/3-stages-of-a-project.png) 
+![3 fases dun proxecto.](./media/3-stages-of-a-project.png) 
 
 Como se mostra na ilustración anterior, a xestión de proxectos e a contabilidade pódense dividir en tres fases:
 

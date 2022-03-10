@@ -2,12 +2,11 @@
 title: Páxina de inicio de desenvolvemento (Project Service Automation 3.x)
 description: Este tema fornece ligazóns a temas que proporcionan información desenvolvemento para a versión 3.x de Dynamics 365 Project Service Automation (PSA).
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/26/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a39a7000fcdaaa0e7b5465951ce54c0c1e65f3d5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c76faeecf252f0ae70594e7dfbb28c1aac2423a37f6cd12b53103dd7a493306e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284806"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987299"
 ---
 # <a name="development-home-page-project-service-automation-3x"></a>Páxina de inicio de desenvolvemento (Project Service Automation 3.x)
 

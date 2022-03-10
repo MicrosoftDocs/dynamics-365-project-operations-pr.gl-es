@@ -1,21 +1,19 @@
 ---
-title: Facturas corrixidas - lite
-description: Este tema ofrece información sobre as facturas corrixidas en Project Operations.
+title: Facturas de proxecto correctivas
+description: Este tema ofrece información sobre como crear e confirmar facturas correctivas en Project Operations.
 author: rumant
-manager: Annbe
-ms.date: 10/15/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eb949ff3a53bcba19d44e1c3d6fe08a6b368108d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: cec77f22dd52e15c9fb61b7acc0bd3e633f119b96d7958af021e4dce977140a6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274231"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009529"
 ---
-# <a name="corrected-invoices---lite"></a>Facturas corrixidas - lite
+# <a name="corrective-project-invoices"></a>Facturas de proxecto correctivas
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
@@ -37,9 +35,9 @@ A partir da factura confirmada créase un novo borrador de factura. Todos os det
 > [!IMPORTANT]
 > Os detalles da liña de factura que son correccións doutros cargos xa facturados teñen o campo **Corrección** definido como **Si**. As facturas que corrixiron os detalles da liña de factura teñen un campo chamado **Ten correccións** que tamén está establecido en **Si**.
 
-## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Datos reais creados na confirmación dunha factura correctiva:
+## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Datos reais creados cando se confirma unha factura correctiva
 
-A seguir amósanse os datos reais creados pola aplicación na confirmación dunha corrección baseada nas operacións realizadas no borrador da factura correctiva antes da confirmación.
+A seguinte táboa indica os datos reais que se crean cando se confirma unha factura correctiva.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
@@ -214,6 +212,51 @@ Un novo dato real de vendas sen facturar que é imputable para a cantidade e o i
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
+Facturación do crédito total dunha transacción de material facturada previamente.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Unha reversión das vendas facturadas para a cantidade e o importe no detalle da liña de factura para material.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un novo dato real de vendas sen facturar para a cantidade e o importe no detalle da liña de factura para material.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Facturación do crédito parcial dunha transacción de material.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Unha reversión das vendas facturadas para a cantidade e o importe facturados no detalle da liña de factura para material.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un novo dato real de vendas sen facturar que é imputable pola cantidade e o importe do detalle da liña de factura editada, unha reversión desta e un dato real de vendas facturadas equivalente.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un novo dato real de vendas sen facturar que é imputable para a cantidade e o importe restantes despois de deducir as cifras corrixidas no detalle da liña de factura.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
 Facturación do abono total dunha transacción de taxa facturada previamente.
                 </p>
             </td>
@@ -260,7 +303,7 @@ Facturación do abono total dunha transacción de fito facturada previamente.
 Unha reversión de vendas facturadas por horas e importe no detalle da liña de factura orixinal para o fito.
                 </p>
                 <p>
-O estado de facturación do fito na liña de contrato do proxecto actualízase a **Listo para facturar**.
+O estado da factura do fito actualízase desde <b>Factura do cliente contabilizada</b> a <b>Listo para facturar</b>.
                 </p>
             </td>
         </tr>

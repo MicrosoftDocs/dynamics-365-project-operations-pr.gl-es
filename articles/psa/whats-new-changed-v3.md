@@ -1,8 +1,6 @@
 ---
 title: Novidades ou cambios na versión 3 de Project Service Automation
 description: Este tema fornece información sobre as novidades e as modificacións na versión 3 de Project Service Automation.
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,22 +16,27 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076094"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987074"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novidades ou cambios na versión 3 de Project Service Automation
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tema proporciona información sobre os cambios na interface de usuario (IU), funcionalidade e terminoloxía en Project Service Automation entre a versión 2 ou a versión 1 e a versión 3.
 
 ## <a name="project-scheduling"></a>Programación de proxecto
 A programación do proxecto, que se coñecía como a estrutura de subdivisión do traballo (WBS) en versións anteriores, pasou a denominarse Programación e se accede a ela premendo o separador **Programación**. 
 
-![Programación de proxecto](media/psa-schedule-01.png)
+![Programación de proxecto.](media/psa-schedule-01.png)
 
 O programa ten agora unha nova superficie para a interacción que é moderna e accesible. Non obstante, o motor de programación de Project Service Automation subxacente non cambiou. Os botóns de control da fita da grade de programación permiten interactuar coa programación de xeito similar á versión anterior de Project Service Automation. Outros cambios na programación:
 
@@ -92,22 +95,22 @@ Ao facer avanzar a programación do proxecto existente, sucede o seguinte:
 ## <a name="estimates"></a>Estimacións
 As estimacións dividíronse en dous separadores, **Atribucións de recursos** e **Estimacións**. O separador **Atribucións de recursos** contén as estimacións de esforzo e mostra as atribucións de recursos para as tarefas nunha vista de fase de tempo. Pode editar as estimacións en función do que xerou o motor de programación.
 
-![Separador de atribucións de recursos que mostra estimacións e atribucións de recursos para tarefas](media/resource-assignments-tab-02.png)
+![Separador de atribucións de recursos que mostra estimacións e atribucións de recursos para tarefas.](media/resource-assignments-tab-02.png)
 
 O separador **Estimacións** mostra os custos e as cantidades de vendas para atribucións de recursos. Os importes son só de lectura. Os custos e os prezos de vendas derívanse das atribucións dos membros do equipo na programación. Isto significa que se ten unha tarefa sen ningunha atribución, a tarefa mostrarase na sección de non atribuídos. Isto tamén significa que sen **rol**, que é unha dimensión predefinida de prezos, non haberá custo nin vendas estimadas se ten un cliente ou un contrato/oferta asociado ao proxecto. 
 
-![Separador Estimacións que mostra as cantidades de custos e vendas](media/estimates-tab-03.png)
+![Separador Estimacións que mostra as cantidades de custos e vendas.](media/estimates-tab-03.png)
   
 A categoría tamén é compatible coas tarefas na vista de programación. Agrupar por categoría na vista de fases de tempo das estimacións proporcionará unha mellor experiencia, especialmente cando tamén ten estimacións de gastos no seu proxecto. As estimacións de gastos introdúcense mediante unha grade nun separador independente. 
 
 As estimacións de gastos poden introducirse na grade no separador **Estimacións de gastos**. 
 
-![Separador estimacións de gastos que mostra a grade de estimacións de gastos](media/expense-estimates-tab-04.png)
+![Separador estimacións de gastos que mostra a grade de estimacións de gastos.](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Xestión de recursos
 Na versión 3 de Project Service Automation, coa nova IU do cliente unificado e os cambios na relación entre reservas e atribucións, a dotación de persoal dun proxecto con recursos xenéricos ou reais cambiou drasticamente respecto á versión 2 e á versión 1. Non obstante, os conceptos de recursos reservables, tanto **reais** como **xenéricos** permanecen igual, do mesmo xeito que os membros do equipo, requisitos, atribucións e reservas.   
 
-![Utilizar o selector de recursos](media/resource-management-05.png)
+![Utilizar o selector de recursos.](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Atribuír un recurso real reservable 
 Na versión 3 de Project Service Automation, as reservas e as atribucións de tarefas non están tan estreitamente entrelazadas como nas versións anteriores de Project Service Automation. Pode empregar a grade do equipo para reservar un membro do equipo **real**, de xeito similar ao mercado.
@@ -133,7 +136,7 @@ Cando se cumpre un requisito con varios recursos, o recurso xenérico permanece 
 ### <a name="reconciliation"></a>Conciliación
 O separador **Conciliación** mostra as reservas e todas as atribucións para cada membro do equipo do proxecto. A vista mostra horas en celas que poden representar puntos temporais de meses a días. Esta vista permite aos xestores de proxectos concilien as reservas dos membros do equipo e as súas atribucións para o seu equipo de proxecto. Isto é útil porque as reservas e as tarefas non están ligadas estritamente, o que permite unha maior flexibilidade á hora de planificar un proxecto. 
 
-![Separador Conciliación que mostra as reservas e atribucións para os membros do equipo do proxecto](media/resource-reconciliation-tab-06.png)
+![Separador Conciliación que mostra as reservas e atribucións para os membros do equipo do proxecto.](media/resource-reconciliation-tab-06.png)
 
 Para cada recurso, a vista selecciona a diferenza entre as reservas dun membro do equipo e un informe das súas atribucións de tarefas e mostra as seguintes dúas diferenzas que poden producirse coas reservas e atribucións nun proxecto: 
 
@@ -148,19 +151,19 @@ Esta sección ofrece información sobre os cambios no tempo, gasto e aprobación
 ### <a name="landing-page"></a>Páxina de destino
 A experiencia de entrada de tempo personalizada non extensible quedou desfasada na versión 3. No seu lugar, agora hai unha experiencia de grade nativa extensible e accesible. Pode acceder á funcionalidade de entrada de tempo empregando o mapa do sitio á esquerda. Con ese cambio, xa non poderá introducir o tempo dunha semana á vez. No seu lugar, terá que crear unha entrada de tempo para cada día na grade. Despois de crear algunhas entradas de tempo, os usuarios poden crear entradas de tempo en masa coa función **Copiar** que se explica más adiante neste tema. 
 
-![Páxina de destino da entrada de tempo](media/time-entry-landing-page-07.png)
+![Páxina de destino da entrada de tempo.](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Crear novas entradas de tempo 
 Prema en **Novo** na fita para abrir unha páxina de creación rápida para a entrada de tempo onde introducir a duración en minutos, horas ou días. Para facer isto, simplemente comece a escribir h, m ou d xunto coa cantidade.  
 
-![Creación rápida de entrada de tempo](media/quick-create-time-entry-08.png)
+![Creación rápida de entrada de tempo.](media/quick-create-time-entry-08.png)
 
 Os campos de busca están apoiados por vistas do sistema. Por exemplo, despois de introducir a información do proxecto, o campo **Tarefa de proxecto** establécese de forma predefinida na vista **As miñas tarefas de proxecto abertas**. Para crear entradas de tempo para tarefas que non están atribuídas ao usuario, prema en **Cambiar vista** na busca e seleccione **Todas as tarefas de proxecto activas**. Una vez que se cree la entrada de tempo e se mostre na grade, poderá editar calquera valor de liña directamente na grade.  
 
 ### <a name="bulk-createcopy"></a>Creación/copia en masa 
 Despois de crear unhas poucas entradas de tempo, pode usar a funcionalidade de copia para crear entradas de tempo adicionais en masa. Prema en **Copiar** para abrir a caixa de diálogo **Copiar**. En **Desde o período: data de inicio**, estableza o rango de datas desde o que se deben copiar os períodos de tempo. En **Ata o período: data de inicio**, especifique a data para la que se deben crear entradas de tempo. Prema en **Copiar** para copiar as entradas de tempo ao día correspondente da semana indicado en **Ata o período**. Por exemplo, a entrada de tempo do luns da semana pasada copiarase no luns da semana indicada en **Ata o período**. 
 
-![Copiar entradas de tempo en masa](media/bulk-copy-time-entry-09.png)
+![Copiar entradas de tempo en masa.](media/bulk-copy-time-entry-09.png)
  
 ### <a name="import-data"></a>Importar datos 
 Las atribucións e o intercambio seguen o mesmo padrón de interface de usuario, que permite ao usuario especificar o rango de datas desde o momento no que deben importarse as reservas. A seguir, debe elixir explicitamente as reservas que deben copiarse nas entradas de tempo **Borrador**. Na versión 3, xa non pode ver o padrón das entradas de tempo **Suxerido** na grade e o calendario.  
@@ -176,7 +179,7 @@ Na versión 3, afastámonos do control de calendario personalizado e agora estam
 
 **Captura de datos en campos personalizados na entrada de tempo y gastos e propagación a través de entidades que admiten o fluxo de envío e aprobación**: o procesamento típico das entradas de tempo móstrase no seguinte diagrama.
 
-![Proceso de fluxo de entrada de tempo](media/process-time-entries-10.png)
+![Proceso de fluxo de entrada de tempo.](media/process-time-entries-10.png)
 
 Se os requisitos de negocio estipulan que as entidades de tempo e gasto deben capturar dimensións de prezos personalizadas e propagar os valores establecidos por un recurso de tempo e entrada na dimensión de prezos personalizada a través de todas as entidades no gráfico anterior, consulte [Configuración de campos personalizados como dimensións de prezos](set-up-pricing-dimensions.md).
 
@@ -233,7 +236,7 @@ Nas versións 1 e 2, a configuración de imputabilidade para roles e categorías
 
 A partir da versión 3, a configuración das opcións de imputabilidade por rol e categoría de gastos realizarase a nivel de liña de oferta ou contrato. A configuración de prezos é independente da configuración de imputabilidade. Poderá atopar **Roles imputables** e **Categorías de gastos imputables** como separadores nas páxinas **Liña de oferta** e **Liña de contrato** sen ter que utilizar a barra de navegación superior.
 
-![Roles imputables](media/chargeable-12.png)
+![Roles imputables.](media/chargeable-12.png)
  
 A configuración de Roles imputables e Categorías imputables tamén aproveita o control de grade editable listo para usar. Para cada función e categoría, as opcións admitidas para o tipo de facturación durante a fase de oferta e contrato non cambiaron desde as versións anteriores como **Imputable** e **Non imputable**. **Gratis** non é un tipo admitido durante a fase de oferta ou contrato. **Gratis** só se admite durante a aprobación de tempo ou gastos.  
  
@@ -244,11 +247,14 @@ A partir da versión 3, a creación e o uso dunha lista de prezos de proxecto pe
   
 O seguinte gráfico é de antes de que se creasen listas de prezos personalizadas.
 
-![Antes das listas de prezos personalizadas](media/before-custom-price-lists-13.png)
+![Antes das listas de prezos personalizadas.](media/before-custom-price-lists-13.png)
 
 O seguinte gráfico é de despois de que se creasen listas de prezos personalizadas.
 
-![Despois listas de prezos personalizadas](media/after-custom-price-lists-14.png)
+![Despois listas de prezos personalizadas.](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > Pode producirse un pequeno retraso entre cando preme en **Crear prezos personalizados** e cando se crea a lista de prezos personalizada. Recomendamos actualizar a grade en lugar de premer varias veces. Creouse unha lista de prezos personalizada se o nome da lista de prezos asociada ten o nome de oferta ou o nome do contrato do proxecto anexo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

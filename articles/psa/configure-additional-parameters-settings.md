@@ -2,8 +2,6 @@
 title: Configurar axustes de parámetros adicionais
 description: Como configurar os parámetros adicionais en Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5ce7ffd635b10689c8295d9349966450f11282d1
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: fb23569db5136cd1b8b7d2f5735de8a91b441b76ab7e027d27087b3785f4636e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129361"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000439"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Configurar os parámetros adicionais (Project Service Automation)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -65,3 +65,6 @@ Para definir parámetros do proxecto:
 
 ### <a name="see-also"></a>Consulte tamén  
  [Configurar recursos reservables](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

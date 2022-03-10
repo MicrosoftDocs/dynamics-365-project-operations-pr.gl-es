@@ -2,18 +2,16 @@
 title: Xestionar varios clientes nunha oferta de proxecto
 description: Este tema ofrece información sobre o traballo en ofertas que inclúen a varios clientes que financiarán o proxecto.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: eef3e8754cdfdb810ffd5283976445edbb126b51e20d5b51d603d2ba9e2c02c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181990"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991979"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Xestionar varios clientes nunha oferta de proxecto
 
@@ -23,7 +21,7 @@ As ofertas de proxecto admiten a situación na que a proposta implica varios cli
 
 Todos os clientes da oferta no separador **Clientes** da oferta do proxecto son por defecto os clientes de liña da oferta en calquera **nova** liña de oferta baseada en proxecto creada para a oferta. Calquera liña de oferta baseada en proxecto existente non herdará os novos rexistros de clientes da oferta creados despois dela.
 
-Poden engadirse, actualizarse ou eliminarse clientes de oferta e clientes de liña de oferta en calquera momento antes de gañar a oferta. Un cliente válido na oferta debe establecerse como cliente na empresa propietaria ou entidade legal na páxina **Clientes**. As entidades legais créanse no módulo **Xestión e contabilidade de proxectos** de Dynamics 365 Project Operations e están dispoñibles como empresas nos módulos **Vendas e entrega de proxectos** de Project Operations.
+Poden engadirse, actualizarse ou eliminarse clientes de oferta e clientes de liña de oferta en calquera momento antes de gañar a oferta. Un cliente válido na oferta debe establecerse como cliente na empresa propietaria ou entidade legal na páxina **Clientes**. As entidades legais configúranse no módulo **Xestión e contabilidade de proxectos** de Dynamics 365 Project Operations e están dispoñibles como empresas nos módulos de **Vendas e entrega de proxectos** de Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Concepto de cliente principal
 
@@ -51,3 +49,6 @@ Pódese crear, actualizar ou eliminar un cliente de oferta desde o separador **C
 Pode editar as porcentaxes divididas de facturación usando a experiencia de edición de grade en liña. Cando as porcentaxes de división de facturación non totalicen o 100 %, producirase un erro. Despois de actualizar as porcentaxes de división de facturación, actualice a páxina para eliminar o erro.
 
 Tamén pode probar a seleccionar **Distribución uniforme** na subgrade dos clientes da oferta. Esta acción asigna divisións de facturación a todos os clientes da oferta. Se hai algún factor de redondeo, engadirase ao cliente de redondeo. Un dos clientes da oferta sempre está etiquetado como o cliente de redondeo. Isto significa que o rexistro do cliente da oferta ten o indicador **Redondeo** establecido como **Si**. Normalmente este é o principal cliente da oferta, pero se pode cambiar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

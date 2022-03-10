@@ -2,11 +2,9 @@
 title: Facturación entre empresas
 description: Este artigo ofrece información e exemplos sobre a facturación entre empresas para proxectos.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076158"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995804"
 ---
 # <a name="intercompany-invoicing"></a>Facturación entre empresas
 
@@ -35,7 +33,7 @@ A súa organización pode ter varias divisións, filiais e outras persoas xuríd
 
 A seguinte ilustración mostra un escenario típico onde dúas persoas xurídicas, SI FR (a persoa xurídica prestameira) e SI EUA (a persoa xurídica prestamista), comparten recursos para entregar un proxecto ao cliente A. Para este escenario, SI FR está contratada para entregar o traballo ao cliente A. 
 
-[![Exemplo de facturación entre empresas](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Exemplo de facturación entre empresas.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 O obxectivo é facer máis flexible e poderoso o control de custos, o recoñecemento de ingresos, os impostos e o prezo de transferencia para transaccións de proxectos entre empresas. Ademais, ofrécense as seguintes capacidades:
 
@@ -113,3 +111,6 @@ Cando a persoa xurídica prestamista, USSI, publica a factura de cliente entre e
 Para obter máis información, consulte [Configurar a facturación de proxectos entre empresas](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

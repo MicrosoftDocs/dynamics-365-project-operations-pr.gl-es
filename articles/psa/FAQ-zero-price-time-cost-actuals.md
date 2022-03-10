@@ -2,8 +2,6 @@
 title: Por que o prezo por defecto é cero nos custos de tempo reais?
 description: Resolución de problemas de por que o prezo por defecto é 0 nos custos por tempo reais.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 65f2bc773a376800928cc3746691061d8e290f74
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: e1f81268c894e2ff5d607d8008876c84f7eafdf05f8b1f3212263a5dfa89b69d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285796"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996974"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-time-cost-actuals"></a>Por que o prezo por defecto é cero nos custos de tempo reais?
 

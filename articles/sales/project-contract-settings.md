@@ -2,20 +2,18 @@
 title: Configuración de contrato de proxecto
 description: Este tema ofrece información sobre os campos que afectan ás liñas de contrato e a información sobre o contrato que se resume en todos os elementos de liña.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4c04ff004febf3a07b329bf375e38acb43d19887
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: f34d6c6b92f164cc95405147356c34bb03eb127284aba7a92712b8eec42d792f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277606"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996299"
 ---
-# <a name="project-contract-settings"></a>Configuración de contrato de proxecto
+# <a name="header-details-for-project-based-contracts"></a>Detalles da cabeceira para contratos baseados en proxecto
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 

@@ -1,21 +1,19 @@
 ---
-title: Xestionar o traballo pendente de facturación - lite
-description: Este tema ofrece información sobre as distintas vistas dispoñibles para xestionar o trabalo pendente de facturación.
+title: Xestionar o traballo pendente de facturación de proxecto
+description: Este tema ofrece información sobre as distintas vistas dispoñibles para usar ao xestionar o traballo pendente de facturación en proxectos.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176969"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988289"
 ---
-# <a name="manage-the-billing-backlog---lite"></a>Xestionar o traballo pendente de facturación - lite
+# <a name="manage-project-billing-backlog"></a>Xestionar o traballo pendente de facturación de proxecto 
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
@@ -60,3 +58,6 @@ Os datos reais de vendas non facturadas cun estado **Non exceder** de **Erro** n
 Se as liñas de contrato de varios clientes teñen un método de facturación de tempo e material, cando se aproban o tempo e os gastos, créase un dato real vendas non facturadas para cada cliente na liña de contrato segundo a porcentaxe de facturación dividida definida para cada un dos clientes. Na vista **Traballo pendente de facturación de tempo e material**, verá estes datos de vendas sen facturar específicos para cada cliente. Cada un destes rexistros de datos reais sen facturar pódese marcar como **Listo para facturar** separadamente desta vista.
 
 Un dato real de vendas sen facturar que figura nun borrador de factura cun estado de facturación de **Factura de cliente creada**. Cando se confirma o borrador da factura, o estado de facturación deste rexistro actualízase a **Factura de cliente contabilizada**. Non actualice este valor de estado usando código personalizado. Project Operations non funciona correctamente cando estes valores de estado se actualizan con código personalizado.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

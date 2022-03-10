@@ -2,11 +2,9 @@
 title: Fases do proxecto
 description: Este tema ofrece información sobre as fases do proxecto dispoñibles en Microsoft Dynamics Project Operations.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 554ad63bc44cbe5a1fe91eb47fedbb74bbedd4b6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: ea8b74813e8a51930a03571eab0d962e14f66a8fd6cb978d3435570a01ce5c5d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076259"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003049"
 ---
 # <a name="project-stages"></a>Fases do proxecto
 
@@ -63,3 +61,6 @@ Cando o traballo para o proxecto estea rematado, o xestor de proxectos pode actu
 
 Cando todas as transaccións do proxecto estean rexistradas, o xestor de proxectos pode actualizar a fase a **Pechar**. Nese momento, non se poden rexistrar transaccións e o proxecto configúrase como só de lectura.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

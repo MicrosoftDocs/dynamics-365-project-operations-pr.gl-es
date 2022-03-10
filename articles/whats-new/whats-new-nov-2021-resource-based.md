@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 20f277bc9b6f571c0144eaaa867bb97c0cf30ddb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
-ms.translationtype: HT
+ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827324"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942883"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de novembro de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
 
@@ -20,20 +20,20 @@ ms.locfileid: "7827324"
 
 Este tema aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
 
-- Operacións do proxecto nun entorno Dataverse versión 4.26.0.145, 4.26.0.148, ou 4.26.0.150
-- Xestión de proxectos e contabilidade nun entorno Dynamics 365 Finance versión 10.0.22
+- Operacións do proxecto en a Dataverse versión do entorno 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
+- Xestión de proxectos e contabilidade en a Dynamics 365 Finance versión do entorno 10.0.22
 
 ## <a name="features-included-in-this-release"></a>Funcionalidades incluídas nesta versión
 
 As seguintes funcionalidades están incluídas nesta versión:
 
-- As interfaces de programación de aplicacións (API) de programación de proxectos agora admiten a capacidade de crear e eliminar depósitos de proxectos.
+- As interfaces de programación de aplicacións (API) de programación de proxectos agora admiten a posibilidade de crear e eliminar depósitos de proxectos.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Actualizacións de mapas de escrita dual en Project Operations
 
 Non hai actualizacións para mapas de escrita dual de Project Operations nesta versión. Para obter unha lista actual e versións dos mapas de escrita dual de Project Operations, consulte [Versións de mapa de escrita dual de Project Operations](/dynamics365/project-operations/environment/resource-dual-write-maps).
 
-Executa sempre a versión máis recente do mapa no teu ambiente e activa todos os mapas de táboas relacionados mentres actualizas a túa solución de Project Operations Dataverse e a versión da solución financeira. Algunhas funcións e capacidades poden non funcionar correctamente se a última versión do mapa non está activada. Pode ver a versión activa do mapa na columna **Versión** columna na páxina **Escrita dual**. Para activar unha nova versión do mapa, seleccione **Versións do mapa de táboa**, seleccione a versión máis recente e logo garde a versión seleccionada. Se personalizou un mapa de táboas listo para usar, volve aplicar os cambios. Para obter máis información, consulte [Xestión do ciclo de vida da aplicación](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Executa sempre a versión máis recente do mapa no teu entorno e activa todos os mapas de táboas relacionados mentres actualizas as operacións do teu proxecto Dataverse solución e versión de solución financeira. Algunhas funcións e capacidades poden non funcionar correctamente se a última versión do mapa non está activada. Pode ver a versión activa do mapa na columna **Versión** columna na páxina **Escrita dual**. Para activar unha nova versión do mapa, seleccione **Versións do mapa de táboa**, seleccione a versión máis recente e logo garde a versión seleccionada. Se personalizou un mapa de táboas listo para usar, volve aplicar os cambios. Para obter máis información, consulte [Xestión do ciclo de vida da aplicación](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Se atopas algún problema ao iniciar o mapa, siga as instrucións da páxina [Faltan columnas da táboa nos mapas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) sección da guía de solución de problemas de escritura dual.
 
@@ -51,7 +51,7 @@ Se atopas algún problema ao iniciar o mapa, siga as instrucións da páxina [Fa
 | Facturación e prezos | 2448623 | Permitir que as listas de prezos se actualicen despois de asociarse a unha unidade organizativa. |
 | Tempo e gasto | 2460396 | Permitir que se elimine unha entrada de tempo limpando a cela. |
 | Facturación e prezos | 2467386 | Permitir que se elimine un proxecto que teña unha tarefa, mesmo cando a tarefa estea asociada cunha cotización gañada. |
-| Tempo e gasto | 2461744 | O **A miña aprobación fallida** A vista só contén aprobacións de proxectos na vista **Enviado** etapa. |
+| Tempo e gasto | 2461744 | O **A miña aprobación fallida** a vista só contén aprobacións de proxectos na vista **Enviado** etapa. |
 | Tempo e gasto | 2464082 | Elimina a ligazón das aprobacións do proxecto ao conxunto de aprobación cando coincida cun estado de destino. |
 | Tempo e gasto | 2468108 | O traballo de programación non debe establecer a **Procesamento** estado para o conxunto de aprobación. |
 | Tempo e gasto | 2471503 | Elimina os conxuntos de aprobación que teñan sete días de antigüidade. |

@@ -2,28 +2,26 @@
 title: Páxina inicial de recursos de proxectos
 description: Neste tema se proporciona información sobre a dotación de recursos de proxectos.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 82022
+ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2bab78628333f2d8a6996277ca3a9e63052e939
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289097"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007324"
 ---
 # <a name="project-resourcing-home-page"></a>Páxina inicial de recursos de proxectos
 
@@ -40,7 +38,7 @@ Un desafío para os xestores de proxectos e xestores de recursos durante a fase 
 - Estimar o número de recursos necesarios para todo o ciclo de vida dun proxecto.
 - Elaborar unha estrutura de subdivisión do traballo (WBS) empregando as atribucións de recursos iniciais.
 
-[![Ciclo de vida do proxecto](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
+[![Ciclo de vida do proxecto.](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
 
 A medida que avanza a planificación do proxecto, os recursos planificados pódense substituír por recursos con persoal. O xestor do proxecto tamén pode volver atrás e actualizar as reservas de recursos durante calquera fase do proxecto.
 

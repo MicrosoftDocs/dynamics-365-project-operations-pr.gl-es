@@ -2,8 +2,6 @@
 title: Novidades ou cambios na versión 26 de actualización de Project Service Automation, V3
 description: Este tema mostra as funcionalidades e correccións que están dispoñibles la versión 26 de actualización de Project Service Automation, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/12/2021
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 669b3ca4601bdac483db4e1d7f55a8bf5b3d9661
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: fa526e97a366c01dae2547d79d0eda2fb204e07d0f6383b991165b9eecd836e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948822"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004264"
 ---
 # <a name="project-service-automation-update-release-26-v3"></a>Versión 26 de actualización de Project Service Automation, V3
 

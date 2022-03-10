@@ -2,18 +2,16 @@
 title: Reserva a un proxecto
 description: Este tema fornece información sobre como reservar un recurso para un proxecto.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c87b0c32ef081f601ed79c11687f008bb454dd45
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131071"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994904"
 ---
 # <a name="book-to-a-project"></a>Reserva a un proxecto
 
@@ -66,3 +64,6 @@ Como xestor de proxectos, é posible que necesite reservar un recurso para un pr
 
 > [!NOTE]
 > Este método non crea ningunha reserva para o recurso. No seu lugar, engade o recurso ao equipo. Despois de engadir o membro do equipo ao proxecto, o xestor do proxectos pode usar manter as reservas ou ampliar as reservas para engadir as reservas requiridas ao recurso.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

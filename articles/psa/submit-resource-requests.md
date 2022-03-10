@@ -2,8 +2,6 @@
 title: Enviar solicitudes de recursos
 description: Como enviar solicitudes de recursos en Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 82789d20abfe92f125678a589f5b7e2a54c0b19e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: dae9bcddb87324e6614e8663fbfc693c8e994cd3f33839680531cd17269d764b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282196"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000124"
 ---
 # <a name="submit-resource-requests-project-service"></a>Enviar solicitudes de recursos (Project Service)
 
