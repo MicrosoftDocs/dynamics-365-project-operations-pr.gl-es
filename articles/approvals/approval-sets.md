@@ -2,18 +2,16 @@
 title: Conxuntos de aprobacións
 description: Este tema explica como traballar con conxuntos de aprobacións, solicitudes e os subconxuntos desas operacións.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323234"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576222"
 ---
 # <a name="approval-sets"></a>Conxuntos de aprobacións
 
@@ -27,6 +25,18 @@ Os conxuntos de aprobacións indican o estado global de procesamento dos seus re
 As aprobacións que están na fila para o procesamento son visibles na vista **Aprobacións de procesamento**. O sistema procesa todas as entradas varias veces de xeito asincrónico, incluíndo reintentar unha aprobación se fallaron os intentos anteriores.
 
 O campo **Vida útil do conxunto de aprobacións** rexistra o número de intentos que quedan para procesar o conxunto antes de que se marque como erro.
+
+Os conxuntos de aprobación son procesados mediante a activación periódica baseada en a **Fluxo de nubes** nomeada **Servizo de proxectos: programa de xeito recorrente conxuntos de aprobación de proxectos**. Isto atópase no **Solución** nomeada **Operacións do proxecto**. 
+
+Asegúrese de que o fluxo estea activado completando os seguintes pasos.
+
+1. Como administrador, inicie sesión en [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. Na esquina superior dereita, cambia ao ambiente para o que utilizas Dynamics 365 Project Operations.
+3. Seleccione **Solucións** para enumerar as solucións que están instaladas no entorno.
+4. Na lista de solucións, seleccione **Operacións do proxecto**.
+5. Cambia o filtro de **Todos** a **Fluxos de nubes**.
+6. Verifique que o **Servizo de proxectos: programa de xeito recorrente conxuntos de aprobación de proxectos** o fluxo está configurado en **Activado**. Se non o é, seleccione o fluxo e, a continuación, seleccione **Acende**.
+7. Verifique que o procesamento se produce cada cinco minutos revisando o **Traballos do sistema** lista na **Configuración** área dentro das súas operacións do proxecto Dataverse ambiente.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Aprobacións e conxuntos de aprobacións con erros
 A vista **Aprobacións con erros** indica todas as aprobacións que requiren a intervención do usuario. Abra os rexistros de conxuntos de aprobacións asociados para identificar a causa do fallo.

@@ -4,22 +4,22 @@ description: Este tema ofrece información sobre como configurar valores predefi
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
-ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
-ms.translationtype: HT
+ms.openlocfilehash: 9f43fed57a1411a55dcd7929f34e87aed136a6b5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922936"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579488"
 ---
 # <a name="financial-dimension-defaults"></a>Valores predefinidos das dimensións financeiras
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations usa o marco [Dimensións financeiras](/dynamics365/finance/general-ledger/financial-dimensions) en Dynamics 365 Finance para proporcionar información adicional sobre as transaccións do libro maior e do libro auxiliar do proxecto.
+
+Dynamics 365 Project Operations utiliza o [Dimensións financeiras](/dynamics365/finance/general-ledger/financial-dimensions) marco en Dynamics 365 Finance para proporcionar información adicional sobre as transaccións do libro principal e do libro maior do proxecto.
 
 As dimensións financeiras predefinidas pódense establecer nun cliente, fonte de financiamento do proxecto, fito, liña de contrato de proxecto ou proxecto.
 
@@ -60,15 +60,5 @@ Os proxectos créanse e mantéñense en (CDS). Os atributos de contabilidade par
 4. Estableza os valores predefinidos das dimensións financeiras. Teña en conta que as dimensións financeiras predefínense na conta do cliente. Se o proxecto está asociado a unha liña de contrato con varios clientes de contrato de proxecto, o cliente principal úsase para as dimensións financeiras predefinidas.
 
 As dimensións financeiras predefinidas do proxecto úsanse para establecer os valores predefinidos da liña de diario para transaccións de tempo, gastos e taxas no **Diario de Project Operations Integration** e nas liñas de factura de proxecto relacionadas.
-
-## <a name="apply-financial-dimensions-for-project-time-entries"></a>Aplica dimensións financeiras para as entradas de tempo do proxecto
-Para aplicar dimensións financeiras ás entradas de tempo do proxecto, teña en conta que o valor da dimensión predeterminado baséase na seguinte orde:
-
-1. Recurso
-2. Project
-3. Fonte de financiamento
-
-Por exemplo, se a dimensión predeterminada se especifica nun recurso, aplicarase sobre unha dimensión predeterminada especificada no proxecto. Do mesmo xeito, aplicarase unha dimensión de proxecto predeterminada sobre a que se especifica na fonte de financiamento.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

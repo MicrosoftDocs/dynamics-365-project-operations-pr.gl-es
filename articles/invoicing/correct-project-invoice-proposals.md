@@ -2,16 +2,16 @@
 title: Corrixir a contabilidade no borrador de propostas de factura do proxecto
 description: Este tema explica como axustar a información relacionada coa contabilidade nun borrador de proposta de factura.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999314"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575072"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Corrixir a contabilidade no borrador de propostas de factura do proxecto
 
@@ -27,12 +27,21 @@ Os grupos de impostos sobre as vendas de facturación por defecto e os grupos de
 
 ## <a name="adjust-financial-dimensions"></a>Axustar as dimensións financeiras
 
+### <a name="header-dimensions"></a>Dimensións da cabeceira
+
+De forma predeterminada, as dimensións financeiras das facturas derívanse dos rexistros de transaccións do proxecto non facturados que se están facturando. Non obstante, a configuración do sistema permítelle utilizar dimensións financeiras na cabeceira das propostas de factura do proxecto para contabilizar os saldos dos clientes. Para activar esta función, seleccione **Permitir actualizacións das dimensións do proxecto para as contas por cobrar** no **Finanzas** ficha da **Xestión de proxectos e parámetros contables** páxina.
+
+As dimensións financeiras das cabeceiras das facturas pódense editar antes de que se publique unha factura. No **Proposta de factura do proxecto** páxina, cambie á páxina **Cabeceira** ver e, a continuación, editar os valores en **Dimensións financeiras** ficha.
+
+O **Cabeceira** a vista só está dispoñible despois de que o administrador do sistema habilite a **Use os formularios de proposta de factura do proxecto e diario de facturas coa vista Cabeceira e Liñas** característica no **Xestión de características** espazo de traballo. Esta función require a actualización financeira 10.0.25 ou posterior.
+
+### <a name="line-dimensions"></a>Dimensións da liña
+
 As dimensións financeiras non se poden editar directamente nunha liña de proposta de factura do proxecto. Pola contra, siga estes pasos para axustar as dimensións financeiras nunha proposta de factura do proxecto.
 
 1. Na proposta de factura do proxecto, seleccione **Elimina todas** para eliminar as liñas de proposta de factura do proxecto.
 
-    > [!NOTE]
-    > O botón **Elimina todas** está dispoñible só despois de que o administrador do sistema active a funcionalidade **Eliminar as liñas de proposta de factura cando se usa Project Operations para situacións baseadas en recursos/sen fornecemento** na área de traballo **Xestión de funcionalidades**.
+    O botón **Elimina todas** está dispoñible só despois de que o administrador do sistema active a funcionalidade **Eliminar as liñas de proposta de factura cando se usa Project Operations para situacións baseadas en recursos/sen fornecemento** na área de traballo **Xestión de funcionalidades**.
 
 2. Axustar as dimensións financeiras:
 

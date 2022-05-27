@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 449cab5880c29cf110c9c5a266cbb4b102b5fc83
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 03491ccab855e48819fccf4c9d2b584fd87cb4ba
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818318"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576038"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>Novidades ou cambios en Project Operations, outubro de 2021 para escenarios abastecidos ou baseados na produción
 
@@ -29,8 +29,8 @@ Este tema aplícase aos seguintes compoñentes e versións de Microsoft Dynamics
 | Xestión e contabilidade de proxectos | [557017](https://fix.lcs.dynamics.com/Issue/Details/?bugId=557017) | O traballo do proxecto en proceso (WIP) e os importes dos ingresos acumulados non se reverten correctamente cando se publica unha factura de cliente entre empresas. |
 | Xestión e contabilidade de proxectos | [558232](https://fix.lcs.dynamics.com/Issue/Details/?bugId=558232) | O **Evitar o peche do proxecto se hai transaccións abertas** a funcionalidade non funciona. |
 | Xestión e contabilidade de proxectos | [559271](https://fix.lcs.dynamics.com/Issue/Details/?bugId=559271) | A clasificación de facturación nunha factura de texto gratuíto non enche automaticamente as dimensións dos proxectos cando esta función está activada. |
-| Xestión e contabilidade de proxectos | [574013](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574013) | En escenarios que non sexan entre empresas, os importes do WIP e dos ingresos acumulados non se reverten correctamente cando se publica a factura do proxecto. |
-| Xestión e contabilidade de proxectos | [577857](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577857) | Os valores de débito e crédito cámbianse cando se usa o complemento Microsoft Excel co diario de gastos do proxecto e o **Tipo de conta compensada** campo está configurado en **Proxecto**. |
+| Xestión e contabilidade de proxectos | [574013](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574013) | En escenarios que non sexan entre empresas, os importes do WIP e dos ingresos acumulados non se inverten correctamente cando se publica a factura do proxecto. |
+| Xestión e contabilidade de proxectos | [577857](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577857) | Os valores de débito e crédito cámbianse cando o Microsoft Excel o complemento utilízase co diario de gastos do proxecto e co **Tipo de conta compensada** campo está configurado en **Proxecto**. |
 | Xestión e contabilidade de proxectos | [577972](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577972) | O importe que se contabiliza nas transaccións do proxecto está sobreestimado nunha orde de compra do proxecto que inclúe artigos en existencia e que ten importes fiscais non deducibles cando **UseTax** está marcado. |
 | Xestión e contabilidade de proxectos | [581216](https://fix.lcs.dynamics.com/Issue/Details/?bugId=581216) | O sistema divide o importe entre os informes de perdas e ganancias do proxecto e os informes de WIP do proxecto. |
 | Xestión e contabilidade de proxectos | [582065](https://fix.lcs.dynamics.com/Issue/Details/?bugId=582065) | O inventario dispoñible é incorrecto despois de que se axuste un requisito de artigo devolto parcialmente. |
@@ -39,26 +39,26 @@ Este tema aplícase aos seguintes compoñentes e versións de Microsoft Dynamics
 | Xestión e contabilidade de proxectos | [584732](https://fix.lcs.dynamics.com/Issue/Details/?bugId=584732) | Non se mostran os resultados de retención de provedores nas transaccións de gastos do proxecto. |
 | Xestión e contabilidade de proxectos | [587453](https://fix.lcs.dynamics.com/Issue/Details/?bugId=587453) | A folla de horas debe redondear o importe da transacción na moeda da transacción ata un número especificado de cifras decimais en todas as distribucións contables e as entradas xerais de asignación ao diario. |
 | Xestión e contabilidade de proxectos | [589409](https://fix.lcs.dynamics.com/Issue/Details/?bugId=589409) | As cantidades de requisitos de elementos do proxecto actualízanse automaticamente cando se confirman os pedidos planificados. |
-| Xestión e contabilidade de proxectos | [590206](https://fix.lcs.dynamics.com/Issue/Details/?bugId=590206) | O número do comprobante, o saldo do provedor do tipo de transacción e o número de conta non se poden reverter na factura de prepago dunha orde de compra. |
+| Xestión e contabilidade de proxectos | [590206](https://fix.lcs.dynamics.com/Issue/Details/?bugId=590206) | O número de vale, o saldo do provedor do tipo de transacción e o número de conta non se poden reverter na factura de prepago dunha orde de compra. |
 | Xestión e contabilidade de proxectos | [593068](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593068) | A factura do provedor interempresas rompe cando se activa a integración da factura do provedor. |
 | Xestión e contabilidade de proxectos | [593335](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593335) | Cando crea un diario de gastos do proxecto, o importe do custo móstrase no **Crédito** campo. |
 | Xestión e contabilidade de proxectos | [593382](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593382) | As condicións de pago das facturas do proxecto non funcionan como se esperaba. |
 | Xestión e contabilidade de proxectos | [593565](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593565) | Os vales de follas de horas poden reutilizarse cando a secuencia numérica se configura como continua. |
 | Xestión e contabilidade de proxectos | [593652](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593652) | FRANCIA: O **Importe de retención manual** a lóxica non coincide co **Importe de retención automática** lóxica na proposta de factura do contrato do proxecto. |
 | Xestión e contabilidade de proxectos | [596263](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596263) | Cando se libera a retención de provedores, a publicación do comprobante ten liñas adicionais incorrectas. |
-| Xestión e contabilidade de proxectos | [596650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596650) | Cando o **Data da factura** campo no **Crear proposta de factura** cambiase a páxina, pode ocorrer o seguinte erro: "A referencia de obxecto non está definida nunha instancia dun obxecto". |
+| Xestión e contabilidade de proxectos | [596650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596650) | Cando o **Data da factura** campo no **Crear proposta de factura** cambiase a páxina, pode ocorrer o seguinte erro: "A referencia do obxecto non se estableceu nunha instancia dun obxecto". |
 | Xestión e contabilidade de proxectos | [597679](https://fix.lcs.dynamics.com/Issue/Details/?bugId=597679) | Prodúcese un erro ao tentar aprobar unha folla de horas desde o **TSLine** fluxo de traballo e hai unha política de follas de horas para o sábado e o domingo. |
 | Xestión e contabilidade de proxectos | [597801](https://fix.lcs.dynamics.com/Issue/Details/?bugId=597801) | Exclúese o tipo de partida do proxecto de saldo inicial **Resumos da transacción da proposta de factura** cando se calcule o total da factura da proposta de factura. |
 | Xestión e contabilidade de proxectos | [597886](https://fix.lcs.dynamics.com/Issue/Details/?bugId=597886) | Se o custo de consumo dunha orde de produción do proxecto é 0 (cero), prodúcese o seguinte erro ao tentar estimar: "Intento dividir por cero". |
-| Xestión e contabilidade de proxectos | [598706](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598706) | A aplicación Project Timesheet Mobile para Android deixa de responder. O tema está relacionado con **TimeEntryDataManager ArgumentNullException**. |
+| Xestión e contabilidade de proxectos | [598706](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598706) | A aplicación móbil Project Timesheet para Android deixa de responder. O tema está relacionado con **TimeEntryDataManager ArgumentNullException**. |
 | Xestión e contabilidade de proxectos | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | O diario de integración de Project Operations falla cando o publicas, porque a unha conta faltan dimensións. Non obstante, a conta á que lle faltan as dimensións non é a conta na que estás publicando. |
-| Xestión e contabilidade de proxectos | [598929](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598929) | O **Ata a data** o filtro nas buscas non se borra cando se elimina do **Seleccione** caixa de diálogo no **Costo de publicación** páxina. |
+| Xestión e contabilidade de proxectos | [598929](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598929) | O **Ata a data** o filtro nas buscas non se borra cando se elimina do **Seleccione** cadro de diálogo no **Costo de publicación** páxina. |
 | Xestión e contabilidade de proxectos | [599757](https://fix.lcs.dynamics.com/Issue/Details/?bugId=599757) | **Restablecer toda a distribución** falla e mostra un erro para as follas de horas que se crean para un proxecto do **Só tempo** tipo. |
 | Xestión e contabilidade de proxectos | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | O **Proxecto** a pestana non se pode editar nunha factura de provedor pendente cando se lle asigna a categoría de adquisición ao artigo. |
 | Xestión e contabilidade de proxectos | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Falta o panel de navegación se non iniciaches sesión en Project Operations Dataverse. |
 | Xestión e contabilidade de proxectos | [546467](https://fix.lcs.dynamics.com/Issue/Details/?bugId=546467) | Para as transaccións de axuste de proxectos entre empresas, hai problemas na empresa de destino. |
 | Xestión e contabilidade de proxectos | [563579](https://fix.lcs.dynamics.com/Issue/Details/?bugId=563579) | Os custos comprometidos para un proxecto calculan a cantidade e o prezo de custo incorrectos se a orde de compra foi procesada por **Proceso de fin de ano da orde de compra** en Libro maior. |
-| Xestión e contabilidade de proxectos | [581454](https://fix.lcs.dynamics.com/Issue/Details/?bugId=581454) | Cando un pedido de produción do proxecto que ten pedidos de calidade se informa como rematado, ocorre o seguinte erro: "Non hai transacción virtual marcada con transacción de inventario". |
+| Xestión e contabilidade de proxectos | [581454](https://fix.lcs.dynamics.com/Issue/Details/?bugId=581454) | Cando un pedido de produción de proxecto que ten pedidos de calidade se informa como rematado, ocorre o seguinte erro: "Non hai transacción virtual marcada con transacción de inventario". |
 | Xestión e contabilidade de proxectos | [596408](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596408) | Cando se publica unha factura de contas a pagar relacionada co proxecto, prodúcese o seguinte erro: "O texto enumerado Proxecto - custo - artigo non existe". |
 | Xestión e contabilidade de proxectos | [597237](https://fix.lcs.dynamics.com/Issue/Details/?bugId=597237) | Os custos indirectos duplícanse cando acumulas ingresos manualmente. |
 | Xestión e contabilidade de proxectos | [601198](https://fix.lcs.dynamics.com/Issue/Details/?bugId=601198) | A publicación de ingresos acumulados e WIP non produce transaccións. |
@@ -80,6 +80,6 @@ Este tema aplícase aos seguintes compoñentes e versións de Microsoft Dynamics
 
 ### <a name="regulatory-updates"></a>Actualizacións normativas
 
-Para obter información acerca das actualizacións regulamentarias para as aplicacións Finance and Operations, consulte [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en Microsoft Dynamics Lifecycle Services (LCS) e utilizar a ferramenta de busca de problemas para ver as actualizacións regulamentarias previstas. A busca de problemas permíteche buscar por país ou rexión, tipo de función e versión.
+Para obter información acerca das actualizacións regulamentarias para as aplicacións Finance and Operations, consulte [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Tamén podes iniciar sesión en Microsoft Dynamics Lifecycle Services (LCS) e use a ferramenta de busca de problemas para ver as actualizacións regulamentarias previstas. A busca de problemas permíteche buscar por país ou rexión, tipo de función e versión.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

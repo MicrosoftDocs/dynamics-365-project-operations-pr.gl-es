@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984869"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579856"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de decembro de 2020 - Project Operations para situacións baseadas en recursos/sen fornecemento
 
@@ -21,7 +21,7 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 Este tema aplícase aos seguintes compoñentes e versións de Dynamics 365 Project Operations:
 
 - Project Operations en ambiente de Dataverse versión 4.5.0.134
-- Xestión e contabilidade de proxectos en ambiente de Dynamics 365 Finance versión 10.0.15
+- Xestión de proxectos e contabilidade no entorno Dynamics 365 Finance versión 10.0.15
 
 Para obter información sobre como actualizar esta versión, consulte [Actualizar Project Operations no seu ambiente de Finance](ur5-nonstocked-installation.md).
 
@@ -61,12 +61,12 @@ As seguintes funcionalidades están incluídas nesta versión:
 | Planificación e rastrexo de proxectos | 2057197          | Non se admite a copia de liñas con referencia á tarefa                                                                                                     |
 | Planificación e rastrexo de proxectos | 2060687          | O aviso de zona horaria agora desaparece despois dunha duración específica                                                                                                      |
 | Xestión de recursos           | 1832887          | A ID de categoría de recurso predefinida ten que ser estática para garantir cargas de datos repetibles para ambientes de Dataverse e Finance                                                 |
-| Tempo e gasto              | 2081793          | O **Nome da categoría de gasto** debe asignarse ao campo **Descrición da categoría de gasto** en aplicacións de Finance and Operations                                                  |
+| Tempo e gasto              | 2081793          | **Nome da categoría de gasto** debe ser mapeado **Descrición da categoría de gasto** campo nas aplicacións de Finanzas e Operacións                                                  |
 | Tempo e gasto              | 2034882          | O botón **Novo** amósase dúas veces na barra de comandos para as entradas de tempo cando Dynamics 365 Field Service está instalado                                          |
 | Tempo e gasto              | 2056028          | Actualice a páxina **Edición de tempo** para incluír a liña de tempo                                                                                                              |
 | Tempo e gasto              | 1983747          | O gráfico de entrada de tempo mostra datos adicionais                                                                                                                   |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Xestión e contabilidade de proxectos en Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Xestión de proxectos e contabilidade en Dynamics 365 Finance
 
 | Área de funcionalidades                        | Número de referencia | Actualización de calidade                                                                                                                                                                                                                                                   |
 |-------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ As seguintes funcionalidades están incluídas nesta versión:
 | Tempo e gasto                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | O fluxo de traballo de contabilización automática do informe de gastos completouse pero a factura non se contabiliza                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Actualizacións normativas
-Para obter información sobre actualizacións normativas para aplicacións de Finance and Operations, vexa [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
+Para obter información acerca das actualizacións regulamentarias para as aplicacións Finance and Operations, consulte [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,25 +1,25 @@
 ---
-title: Desglose de gastos
+title: Detalle de gastos
 description: Este tema explica como detallar os gastos mediante o espazo de traballo de Gastos reimaxinado.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: b2077b77af036ce64aad203f52b03cacca8c4099
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 34b11c6bd8be729957973a60fccccc2dd32c2669
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944149"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574520"
 ---
-# <a name="expense-itemization"></a>Desglose de gastos
+# <a name="expense-itemization"></a>Detalle de gastos
 
 [!include [banner](../includes/banner.md)]
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-As organizacións adoitan esixir aos empregados que proporcionen un desglose detallado dos gastos realizados durante a viaxe. Por exemplo, o folio dun hotel pode conter varias liñas detalladas sobre a tarifa da habitación, os impostos, o aparcamento e outros gastos diversos que se incorren cada día durante a estancia. Ou un gasto de comida pode requirir que proporcione unha desglose máis granular para o almorzo, o xantar ou a cea. Sexa cal sexan as necesidades da organización, cada categoría de gasto pódese configurar para reflectir as subcategorías ou as partidas que compoñen un gasto. Aínda que o detalle sempre foi compatible en **Xestión de gastos**, o **Gasto reimaxinado** o espazo de traballo permite un desglose máis eficiente cando a función, **Capacidade de detallar os gastos recorrentes rapidamente** está activado.  
+As organizacións adoitan esixir aos empregados que proporcionen un desglose detallado dos gastos realizados durante a viaxe. Por exemplo, un folio de hotel pode conter varias liñas detalladas sobre a tarifa da habitación, os impostos, o aparcamento e outros gastos diversos que se incorren cada día durante a estadía. Ou un gasto de comida pode requirir que proporcione unha desglose máis granular para o almorzo, o xantar ou a cea. Sexa cal sexan as necesidades da organización, cada categoría de gasto pódese configurar para reflectir as subcategorías ou as partidas que compoñen un gasto. Aínda que o detalle sempre foi compatible en **Xestión de gastos**, o **Gasto reimaxinado** o espazo de traballo permite un desglose máis eficiente cando a función, **Capacidade de detallar os gastos recorrentes rapidamente** está activado.  
 
 ## <a name="enable-quick-itemization"></a>Activa a listaxe rápida 
 
