@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b11a57ae152be154fd6a7d330c8520f3b295ce3ef5cc7051ac9b343e3bcdbe12
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a59aa5591dd5f5ed129ce710196eea572e66ea0b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006334"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599452"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de marzo de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
 
@@ -21,7 +21,7 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 Este tema aplícase aos seguintes compoñentes e versións de Dynamics 365 Project Operations:
 
 - Project Operations en ambiente de Dataverse versión 4.8.0.91 
-- Xestión e contabilidade de proxectos en ambiente de Dynamics 365 Finance versión 10.0.16 
+- Xestión de proxectos e contabilidade no entorno Dynamics 365 Finance versión 10.0.16 
 
 ## <a name="quality-updates"></a>Actualizacións de calidade
 
@@ -42,13 +42,13 @@ Este tema aplícase aos seguintes compoñentes e versións de Dynamics 365 Proje
 | Tempo e gasto | 2148910 | Solucionouse un problema de visualización coa páxina **Editar entrada** na grade **Entrada de tempo**. |
 | Tempo e gasto | 2159798 | Reforzáronse os controis para garantir que non se poidan editar as entradas de gastos aprobadas. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Xestión e contabilidade de proxectos en Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Xestión de proxectos e contabilidade en Dynamics 365 Finance
 
 Para obter máis información, consulte [Novidades de xaneiro de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento](whats-new-jan-2021-resource-based.md).
 
 ## <a name="regulatory-updates"></a>Actualizacións normativas
 
-Para obter información sobre actualizacións normativas para aplicacións de Finance and Operations, vexa [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Outra forma de aprender sobre as actualizacións normativas é iniciar sesión en LCS e ver as actualizacións regulamentarias planificadas mediante a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
+Para obter información acerca das actualizacións regulamentarias para as aplicacións Finance and Operations, consulte [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Outra forma de aprender sobre as actualizacións normativas é iniciar sesión en LCS e ver as actualizacións regulamentarias planificadas mediante a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

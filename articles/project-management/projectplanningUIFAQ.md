@@ -2,17 +2,17 @@
 title: Resolver problemas de traballo na grade de tarefas
 description: Este tema ofrece a información de solución de problemas necesaria cando se traballa na grade de tarefas.
 author: ruhercul
-ms.date: 09/22/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547197"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596416"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Resolver problemas de traballo na grade de tarefas 
 
@@ -70,6 +70,9 @@ Project Operations requiren que un parámetro do proxecto faga referencia ao ext
       | Project Operations                   | tipo=2             |
 
 4. Elimine o campo da páxina **Parámetros do proxecto**.
+
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Mitigación 3: inicie sesión en project.microsoft.com
+No teu Microsoft Edge navegador, abra unha nova pestana, vai a project.microsoft.com e inicie sesión usando o rol de usuario que está a usar para acceder a Operacións do proxecto.
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problema: O proxecto non se carga e a interface de usuario está atascada no indicador de progreso
 

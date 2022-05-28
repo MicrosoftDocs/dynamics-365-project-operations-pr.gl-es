@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e5175b12c9e06962888bf09c8e07119b9505dda
-ms.sourcegitcommit: 2aba2082d50b20b596ee86735045644cd647c2b0
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 16994535d57dc1d7fefbe6e892c154f52638c7c0
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "7901508"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598716"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-38-v3"></a>Novidades ou cambios na versión 38 de actualización de Project Service Automation, V3
 
@@ -41,7 +42,7 @@ Resolvéronse os seguintes problemas.
 - Prodúcese unha excepción cando a lonxitude dos rexistros do conxunto de aprobación supera os 100.000 rexistros.
 - Os usuarios non poden acceder a **Entrada horaria** reixa de O **Entrada horaria** páxina principal.
 - O **Importación de entrada de hora** cadro de diálogo non mostra ningún texto cando non hai elementos aptos para importar.
-- Os usuarios poden crear conxuntos de aprobación onde o **Estado de destino** campo está configurado como **Descoñecido**.
+- Os usuarios poden crear conxuntos de aprobación onde o **Estado de destino** campo está configurado en **Descoñecido**.
 
 **Xestión de proxectos**
 

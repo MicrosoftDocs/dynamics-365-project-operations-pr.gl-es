@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753290"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598486"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de outubro de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
 
@@ -21,7 +21,7 @@ ms.locfileid: "7753290"
 Este tema aplícase aos seguintes compoñentes e versións de Dynamics 365 Project Operations:
 
    - Project Operations no ambiente de Microsoft Dataverse versión 4.25.0.91
-   - Xestión e contabilidade de proxectos en ambiente de Dynamics 365 Finance versión 10.0.21
+   - Xestión de proxectos e contabilidade no entorno Dynamics 365 Finance versión 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Funcionalidades incluídas nesta versión
 
@@ -49,7 +49,7 @@ Se ten algún problema ao iniciar o mapa, siga as instrucións da sección [Prob
 | Facturación e prezos | 2338357 | A moeda do rexistro de uso do material debe ser a moeda predefinida do proxecto cando se selecciona o proxecto. |
 | Tempo e gasto | 2414777 | Debe ser posible cancelar unha aprobación cando a entrada de gasto ou tempo teña máis dunha aprobación de proxecto asociada. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Xestión e contabilidade de proxectos en Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Xestión de proxectos e contabilidade en Dynamics 365 Finance
 
 | Área de funcionalidades | Número de referencia | Actualización de calidade |
 | --- | --- | --- |

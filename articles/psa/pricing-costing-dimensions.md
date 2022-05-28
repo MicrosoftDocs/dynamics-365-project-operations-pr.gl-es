@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998459"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593610"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Páxina de inicio de dimensións de prezos e custos
 
@@ -66,16 +67,16 @@ O seguinte exemplo mostra os tipos de facturación que se configuran en función
 
 | Rol        | Unidade organizativa    |Unidade      |Prezo      |Moeda  |
 | ------------|-------------|----------|----------:|----------|
-| Programador   | Contoso EUA  |Hora | 200|USD     |
-| Programador   | Contoso India |Hora|   112|USD     |
+| Programador   | Contoso EUA  |Hour | 200|USD     |
+| Programador   | Contoso India |Hour|   112|USD     |
 
 
 **Exempo de taxas de custo**
 
 | Banda salarial     | Unidade organizativa    |Unidade      |Prezo      |Moeda  |
 | ----------------|-------------|----------|----------:|----------|
-| A miña empresa_Banda1 | Contoso EUA  |Hora | 145|USD     |
-| A miña empresa_Banda2 | Contoso India |Hora|   67|USD     |
+| A miña empresa_Banda1 | Contoso EUA  |Hour | 145|USD     |
+| A miña empresa_Banda2 | Contoso India |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

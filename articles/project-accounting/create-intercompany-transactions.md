@@ -4,14 +4,14 @@ description: Este tema ofrece información sobre como crear transaccións entre 
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005479"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599965"
 ---
 # <a name="create-intercompany-transactions"></a>Crear transaccións entre empresas
 
@@ -30,14 +30,14 @@ Cando se aproba unha transacción entre empresas, créanse as seguintes transacc
 
 O custo, o custo unitario do recurso e os prezos e moeda das transaccións de venda de unidade entre organización están dirixidos pola **unidade organizativa**. É importante lembrar isto ao decidir como estruturar empresas e unidades organizativas na súa implementación.
 
-Cando crea rexistros de oportunidade, oferta, contrato de proxecto e proxecto, o sistema verifica que a moeda da unidade contratante coincide coa moeda contable da empresa contratante. Cando non son a mesma, estes rexistros non se poden crear. A moeda da unidade organizativa defínese en Dynamics 365 Project Operations ao ir a **Dataverse** > **Configuración** > **Unidades organizativas**. A moeda contable dunha empresa defínese en Dynamics 365 Finance ao ir a **Libro maior xeral** > **Configuración do libro maior** > **Libro maior**. A moeda sincronízase co seu ambiente de Dataverse ambiente mediante o mapa de Escritura dobre de libro maior.
+Cando crea rexistros de oportunidade, oferta, contrato de proxecto e proxecto, o sistema verifica que a moeda da unidade contratante coincide coa moeda contable da empresa contratante. Cando non son a mesma, estes rexistros non se poden crear. A moeda da unidade organizativa defínese en Dynamics 365 Project Operations ao ir a **Dataverse** > **Configuración** > **Unidades organizativas**. A moeda contable dunha empresa defínese en Dynamics 365 Finance indo a **Contabilidade Xeral** > **Configuración do libro maior** > **Libro maior**. A moeda sincronízase co seu ambiente de Dataverse ambiente mediante o mapa de Escritura dobre de libro maior.
 
 O sistema crea o custo da unidade de recursos e as vendas da unidade entre organizacións nas seguintes situacións:
 
   - Cando a unidade de recursos difire da unidade contratante
   - Cando a empresa de recursos difire da empresa contratante
 
-Non obstante, só as transaccións que teñan unha empresa de recursos diferente á empresa contratante serán transferidas ao ambiente de Dynamics 365 Finance para contabilidade adicional.
+Non obstante, só as transaccións que teñan unha empresa de recursos diferente da empresa contratante serán transferidas ao contorno Dynamics 365 Finance para a contabilidade adicional.
 
 A contabilidade dos datos reais do proxecto rexístrase no diario de integración de Project Operations en Finance. O sistema crea as seguintes liñas de diario.
 
@@ -60,7 +60,7 @@ Molly Clark, programadora empregada en GBPM, rexistra 10 horas de traballo contr
     4. Estableza a moeda en **USD**.
     5. Garde o rexistro.
 3. Vaia a **Vendas** > **Contratos de proxecto** e cree un novo contrato de proxecto para Adventure Works.
-    1. Configure a empresa propietaria como **USPM** e a unidade contratante como **Contoso Robotics US**.
+    1. Estableza a empresa propietaria en **USPM** e a unidade contratante en **Contoso Robotics US**.
     2. Seleccione Adventure Works como cliente.
     3. Seleccione unha lista de prezos de produtos e garde o rexistro.
     4. No separador **Liñas de contrato**, cree unha nova liña de contrato. Estableza calquera nome e seleccione **Tempo e materiais** como método de facturación.

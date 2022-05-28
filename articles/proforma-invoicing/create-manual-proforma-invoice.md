@@ -5,14 +5,14 @@ author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: e20ea17691c592493a790fb38451b35db03416be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995624"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600050"
 ---
 # <a name="proforma-invoices"></a>Facturas proforma
 
@@ -82,6 +82,9 @@ Cando se crea un borrador de factura de proxecto, todas as transaccións de vend
 - Editar e axustar a cantidade e o tipo de facturación.
 
 Seleccione **Confirmar** para confirmar unha factura. A acción Confirmar é unha acción unidireccional. Cando seleccione **Confirmar**, o sistema fai a factura só de lectura e crea facturas de vendas facturadas a partir de cada detalle da liña de factura para cada liña de factura. Se o detalle da liña de factura fai referencia a un prezo real de vendas non facturadas, o sistema tamén inverte o dato real de vendas non facturadas. (Calquera detalle de liña de factura que se crease a partir dunha entrada de gasto ou referencia fará referencia a un dato real de vendas non facturadas). Os sistemas de integración de libro de contabilidade xeral poden usar esta inversión para inverter o traballo do proxecto (WIP) para contabilidade.
+
+> [!NOTE]
+> Non se poden editar nin eliminar as facturas proforma confirmadas e os rexistros relacionados, como as liñas de factura e os detalles das liñas de factura. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Corrixir unha factura confirmada
 

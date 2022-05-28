@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003589"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599406"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurar campos personalizados como dimensións de prezos
 
@@ -73,12 +73,12 @@ Hai dous tipos de dimensións de prezos:
   
 | Rol        | Unidade organizativa    |Localización do traballo      |Título estándar      |Horas laborables do recurso      |  Sobreprezo|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso India|Onsite            |                    |Horas extra                 |15     |
+|             | Contoso India|No sitio            |                    |Horas extra                 |15     |
 |             | Contoso India|Local             |                    |Horas extra                 |10     |
 |             | Contoso EUA   |Local             |                    |Horas extra                 |20     |
 
 
-Se un recurso de Contoso India cuxa taxa base é 100 USD está a traballar no sitio e rexistra 8 horas de tempo regular e 2 horas extraordinarias na entrada de tempo, o motor de prezos de Project Service empregará a taxa base de 100 durante as 8 horas para rexistrar 800 USD. Durante as 2 horas extraordinarias, aplicarase un 15 % de sobreprezo á taxa base de 100 para obter un prezo unitario de 115 USD e rexistrará un custo total de 230 USD.
+Se un recurso de Contoso India cuxa taxa base é 100 USD está a traballar no sitio e rexistra 8 horas de tempo regular e 2 horas extraordinarias na entrada de tempo, o motor de prezos empregará a taxa base de 100 durante as 8 horas para rexistrar 800 USD. Durante as 2 horas extraordinarias, aplicarase un 15 % de sobreprezo á taxa base de 100 para obter un prezo unitario de 115 USD e rexistrará un custo total de 230 USD.
 
 ### <a name="applicable-to-cost"></a>Aplicable a custo 
 Se isto está definido en **Si**, indica que o valor da dimensión do contexto de entrada debe usarse para coincidir co **Prezo de rol** e o **Sobreprezo de rol** ao recuperar as taxas de custo e sobreprezo.

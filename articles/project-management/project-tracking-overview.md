@@ -2,17 +2,16 @@
 title: Rastrexo de esforzo de proxectos
 description: Este tema ofrece información sobre como rastrexar o esforzo do proxecto e o progreso do traballo.
 author: ruhercul
-ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 02/15/2022
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993959"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593794"
 ---
 # <a name="project-effort-tracking"></a>Rastrexo de esforzo de proxectos
 
@@ -46,7 +45,8 @@ Pódese proxectar de novo o esforzo en tarefas resumo ou en tarefas contedor. Os
 - Calcúlase o novo EAC en cada unha das tarefas individuais ata as tarefas do nó folla. 
 - As tarefas dependentes afectadas ata os nós folla teñen o seu esforzo restante e a porcentaxe de progreso calculada de novo en función do valor de EAC. Isto da lugar a unha nova proxección para a varianza de esforzo da tarefa. 
 - Calcúlanse de novo os EAC das tarefas resumo ata o nó raíz.
-
+- O esforzo aprobado nunha tarefa de resumo é a suma do esforzo aprobado en todas as tarefas secundarias máis o esforzo aprobado na tarefa de resumo.
+- O esforzo restante na tarefa de resumo é a suma do esforzo restante en todas as tarefas infantís menos o esforzo aprobado na tarefa de resumo.
 
 ## <a name="project-status-summary"></a>Resumo do estado do proxecto
 

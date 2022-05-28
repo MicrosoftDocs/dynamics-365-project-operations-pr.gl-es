@@ -4,14 +4,14 @@ description: Este tema ofrece información sobre como conectar a súa subscrici�
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986669"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8595910"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Engadir unha subscrición a Azure a un proxecto de LCS
 
@@ -65,7 +65,7 @@ A autorización xa está completa.
 8. Seleccione a rexión de Azure na que desexa despregar e seleccione un centro de datos que estea preto do lugar onde desexa usar este sistema.
 9.  Seleccione **Conectar**.
 
-Conectou correctamente a súa subscrición a Azure. Agora pode despregar ambientes aloxados na nube de Dynamics 365 Finance.
+Conectou correctamente a súa subscrición a Azure. Agora podes implementar Dynamics 365 Finance ambientes aloxados na nube.
 
 
 

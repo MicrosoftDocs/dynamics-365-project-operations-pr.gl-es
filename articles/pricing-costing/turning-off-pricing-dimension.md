@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cba1f9915087f7910a9aa93378cb861983ca36ab
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994499"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600326"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Desactivar unha dimensión de prezos
 
@@ -38,11 +38,11 @@ Esta mensaxe de erro indica que hai rexistros de prezos previamente configurados
 
 | Título estándar         | Unidade organizativa    |Unidade   |Prezo  |Moeda  |
 | -----------------------|-------------|-------|-------|----------|
-| Enxeñeiro de sistemas|Contoso EUA|Hora| 100|USD|
-| Enxeñeiro de sistemas sénior|Contoso EUA|Hora| 150| USD|
+| Enxeñeiro de sistemas|Contoso EUA|Hour| 100|USD|
+| Enxeñeiro de sistemas sénior|Contoso EUA|Hour| 150| USD|
 
 
-Cando desactive **Título estándar** como dimensión de prezos e o motor de prezos busque un prezo, só empregará o valor **Unidade organizativa** do contexto de entrada. Se a **Unidade organizativa** do contexto de entrada é "Contoso Estados Unidos", o resultado non será determinista porque coincidirán as dúas filas. Para evitar este escenario, cando cree rexistros de **Prezo de rol**, o sistema valida que a combinación de dimensións é única. Se a dimensión está desactivada despois da creación de rexistros de **Prezo de rol**, pódese violar esta restrición. Polo tanto, é necesario que antes de desactivar unha dimensión, elimine todas as filas de **Prezo de rol** e **Sobreprezo de rol** que encheu ese valor de dimensión.
+Cando desactive **Título estándar** como dimensión de prezos e o motor de prezos busque un prezo, só empregará o valor **Unidade organizativa** do contexto de entrada. Se a **Unidade organizativa** do contexto de entrada é "Contoso EUA", o resultado non será determinista porque coincidirán as dúas filas. Para evitar este escenario, cando cree rexistros de **Prezo de rol**, o sistema valida que a combinación de dimensións é única. Se a dimensión está desactivada despois da creación de rexistros de **Prezo de rol**, pódese violar esta restrición. Polo tanto, é necesario que antes de desactivar unha dimensión, elimine todas as filas de **Prezo de rol** e **Sobreprezo de rol** que encheu ese valor de dimensión.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
