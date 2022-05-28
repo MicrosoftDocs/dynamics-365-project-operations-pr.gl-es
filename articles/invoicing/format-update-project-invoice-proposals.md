@@ -4,14 +4,14 @@ description: Este tema ofrece detalles sobre o procesamento de facturas orientad
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989909"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585606"
 ---
 # <a name="manage-project-invoice-proposals"></a>Xestionar propostas de facturas de proxecto
 
@@ -22,7 +22,7 @@ O seu departamento de facturación pode procesar as propostas de factura do prox
   - O xestor de proxectos confirma a factura proforma en Microsoft Dataverse.
   - Todas as transaccións de vendas sen facturar de tempo e material incluídas na factura proforma contabilízanse mediante o diario de Dynamics 365 **Project Operations Integration**.
 
-Use os seguintes pasos para completar unha proposta de factura do proxecto en Dynamics 365 Finance.
+Use os seguintes pasos para completar unha proposta de factura de proxecto en Dynamics 365 Finance.
 
 1. Revise a información de facturación por transaccións de tempo e material e publique o diario de **Project Operations Integration**.
 2. Revise a información de facturación dos fitos de facturación a prezo fixo.

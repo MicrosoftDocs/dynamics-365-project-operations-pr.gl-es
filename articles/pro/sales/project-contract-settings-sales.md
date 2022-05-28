@@ -2,16 +2,16 @@
 title: Configuración de contrato de proxecto - lite
 description: Este tema ofrece información sobre os campos que afectan ás liñas de contrato e a información sobre o contrato que se resume en todos os elementos de liña.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995939"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586388"
 ---
 # <a name="header-details-for-project-contracts"></a>Detalles da cabeceira para contratos de proxecto
 
@@ -32,12 +32,15 @@ A seguinte táboa indica os campos dun contrato de proxecto que son exclusivos d
 | Límite non superable | Separador **Resumo** | Este campo indica o límite negociado do valor final que o cliente aceptou para este acordo. | O límite avalíase durante a execución e é aplicable a todos os elementos de liña e proxectos asociados a este acordo. |
 | Data de entrega solicitada | Separador **Resumo** | Cando se crea un contrato a partir dunha oferta de proxecto, este campo copiase desde o campo correspondente na oferta de proxecto. | Esta data úsase como data de finalización para xerar programacións de facturas. |
 
-Os seguintes KPI están dispoñibles no separador **Execución do contrato** dun contrato de proxecto.
+Os seguintes KPI están dispoñibles no separador **Execución do contrato** dun contrato de proxecto. 
+
+>[!NOTE]
+>Todos os importes no **Execución do contrato** ficha exprésanse na moeda predeterminada do contorno.
 
 | Campo | Localización | Descripción |
 | --- | --- | --- |
-| Valor do contrato | Contrato xeral | O valor total do contrato do proxecto. |
-| Importe facturado | Contrato xeral | A suma dos importes de todas as facturas correspondentes a este contrato. |
+| Valor do contrato | Contrato xeral | O valor total do contrato do proxecto.|
+| Importe facturado | Contrato xeral | A suma dos importes de todas as facturas correspondentes a este contrato.|
 | Custo incorrido | Contrato xeral | A suma de todos os datos reais de custo rexistrados en todos os proxectos asociados ao contrato. |
 | Marxe bruta | Contrato xeral | Importe facturado - Custo incorrido ata a data/importe facturado |
 | Marxe prevista | Contrato xeral | (Valor do contrato - Custos estimados) / Valor do contrato Custos estimados = A suma de todos os custos estimados en todos os proxectos asignados ao contrato.|

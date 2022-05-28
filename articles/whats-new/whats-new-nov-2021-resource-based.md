@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 730f9f051c62f44734f2d7915517baf439b1a0b8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7942883"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584870"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de novembro de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
 
@@ -21,13 +21,13 @@ ms.locfileid: "7942883"
 Este tema aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
 
 - Operacións do proxecto en a Dataverse versión do entorno 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
-- Xestión de proxectos e contabilidade en a Dynamics 365 Finance versión do entorno 10.0.22
+- Xestión de proxectos e contabilidade nun entorno Dynamics 365 Finance versión 10.0.22
 
 ## <a name="features-included-in-this-release"></a>Funcionalidades incluídas nesta versión
 
 As seguintes funcionalidades están incluídas nesta versión:
 
-- As interfaces de programación de aplicacións (API) de programación de proxectos agora admiten a posibilidade de crear e eliminar depósitos de proxectos.
+- As interfaces de programación de aplicacións (API) de programación de proxectos agora admiten a capacidade de crear e eliminar depósitos de proxectos.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Actualizacións de mapas de escrita dual en Project Operations
 

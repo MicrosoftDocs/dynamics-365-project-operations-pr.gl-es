@@ -4,26 +4,26 @@ description: Este tema ofrece información sobre os conceptos clave dos contrato
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986939"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582938"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Conceptos exclusivos de contratos baseados en proxecto
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Este tema ofrece os conceptos clave que hai que ter en conta antes de comezar a empregar contratos de proxecto en Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Empresa propietaria
 
-A empresa propietaria é a entidade xurídica do módulo **Xestión e contabilidade de proxectos** para Project Operations de Dynamics 365 Finance. A empresa propietaria representa a entidade xurídica que contabilizará o custo e os ingresos que se derivan dun acordo.
+A empresa propietaria é a persoa xurídica do **Xestión de proxectos e contabilidade** módulo para Operacións do Proxecto de Dynamics 365 Finance. A empresa propietaria representa a entidade xurídica que contabilizará o custo e os ingresos que se derivan dun acordo.
 
 ## <a name="contracting-unit"></a>Unidade de contratación
 

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986579"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585790"
 ---
 # <a name="expense-management-integration"></a>Integración de xestión de gastos
 
@@ -22,19 +22,19 @@ Este tema ofrece información sobre a integración de informes de gastos no [des
 
 ## <a name="expense-categories"></a>Categorías de gasto
 
-Nun despregamento de gastos completo, créanse e mantense categorías de gastos nas aplicacións de Finance and Operations. Para crear unha nova categoría de gasto, complete os seguintes pasos:
+Nunha implantación completa de gastos, as categorías de gastos créanse e mantéñense nas aplicacións de Finanzas e Operacións. Para crear unha nova categoría de gasto, complete os seguintes pasos:
 
-1. En Microsoft Dataverse, cree unha categoría de **Transacción**. A integración de escrita dual sincronizará esta categoría de transaccións coas aplicacións de Finance and Operations. Para obter máis información, consulte [Configurar categorías de proxecto](/dynamics365/project-operations/project-accounting/configure-project-categories) e [Integración de datos de instalación e configuración de Project Operations](resource-dual-write-setup-integration.md). Como resultado desta integración, o sistema crea catro rexistros de categoría compartidos nas aplicacións de Finance and Operations.
+1. En Microsoft Dataverse, cree unha categoría de **Transacción**. A integración de dobre escritura sincronizará esta categoría de transacción coas aplicacións de Finanzas e Operacións. Para obter máis información, consulte [Configurar categorías de proxecto](/dynamics365/project-operations/project-accounting/configure-project-categories) e [Integración de datos de instalación e configuración de Project Operations](resource-dual-write-setup-integration.md). Como resultado desta integración, o sistema crea catro rexistros de categorías compartidas nas aplicacións de Finanzas e Operacións.
 2. En Finance, vaia a **Xestión de gastos** > **Configuración** > **Categorías compartidas** e seleccione unha categoría compartida cunha clase de transacción **Gasto**. Configure o parámetro **Pódese usar en Gasto** como **Verdadeiro** e defina o tipo de gasto que se vai usar.
 3. Usando este rexistro de categoría compartida, cree unha nova categoría de gasto indo a **Xestión de gastos** > **Configurar** > **Categorías de gasto** e seleccionando **Nova**. Cando se garda o rexistro, a escrita dual usa o mapa da táboa **Entidade de exportación de categorías de gasto do proxecto de integración de Project Operations (msdyn\_expensecategories)** para sincronizar este rexistro con Dataverse.
 
   ![Integración de categorías de gasto.](./media/DW6ExpenseCategories.png)
 
-As categorías de gasto nas aplicacións de Finance and Operations son específicas da empresa ou entidade legal. Hai rexistros separados e específicos da entidade legal correspondente en Dataverse. Cando un xestor de proxectos estima gastos, non pode seleccionar as categorías de gasto creadas para un proxecto propiedade dunha empresa diferente da empresa propietaria do proxecto no que están a traballar. 
+As categorías de gastos nas aplicacións de Finanzas e Operacións son específicas da empresa ou da entidade xurídica. Hai rexistros separados e específicos da entidade legal correspondente en Dataverse. Cando un xestor de proxectos estima gastos, non pode seleccionar as categorías de gasto creadas para un proxecto propiedade dunha empresa diferente da empresa propietaria do proxecto no que están a traballar. 
 
 ## <a name="expense-reports"></a>Informes de gastos
 
-Os informes de gastos créanse e apróbanse nas aplicacións de Finance and Operations. Para obter máis información, consulte [Crear e procesar informes de gastos en Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Despois de que o informe de gastos sexa aprobado polo xestor do proxecto, envíase ao libro maior. En Project Operations, as liñas de informe de gastos relacionadas co proxecto contabilízanse utilizando regras especiais de contabilización:
+Os informes de gastos créanse e apróbanse nas aplicacións de Finanzas e Operacións. Para obter máis información, consulte [Crear e procesar informes de gastos en Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Despois de que o informe de gastos sexa aprobado polo xestor do proxecto, envíase ao libro maior. En Project Operations, as liñas de informe de gastos relacionadas co proxecto contabilízanse utilizando regras especiais de contabilización:
 
   - O custo relacionado co proxecto (incluído o imposto non recuperable) non se contabilizan inmediatamente na conta de custos do proxecto no libro maior, senón que se contabilizan na conta de integración de gastos. Esta conta está configurada en **Xestión e contabilidade de proxectos** > **Configuración** > **Parámetros de xestión e contabilidade de proxectos**, separador **Project Operations en Dynamics 365 Customer Engagement**.
   - A escrita dual sincronízase con Dataverse usando o mapa da táboa **Entidade de exportación de gastos do proxecto de integración de Project Operations (msdyn\_expenses)**.

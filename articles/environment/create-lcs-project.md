@@ -4,14 +4,14 @@ description: Este tema ofrece información sobre a creación dun novo proxecto e
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 425cd38c204a67cda9ce03bdc96b728e03499c87aeddd6f62924b57e16b21167
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 842ccaeed53f8829b7520a420972c2e31ebf4821
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989954"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584180"
 ---
 # <a name="start-a-new-lcs-project"></a>Iniciar un novo proxecto de LCS
 
@@ -27,7 +27,7 @@ Use Lifecycle Services (LCS) para xestionar os seus ambientes de Dynamics 365 Pr
   ![Escoller tipo de proxecto de LCS.](./media/create-lcs-1.png)
 
 5. Poña un nome ao proxecto. 
-6. Seleccione **Finance and Operations** como nome do produto e seleccione o sector e a metodoloxía. 
+6. Seleccione **Finanzas e Operacións** como o nome do produto e seleccione a industria e a metodoloxía. 
 7. Seleccione **Crear**.
 
 ![Cree u proxecto de LCS.](./media/create-lcs-2.png)

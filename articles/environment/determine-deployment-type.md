@@ -4,14 +4,14 @@ description: Este tema ofrece información para axudarlle a determinar o tipo de
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994634"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584134"
 ---
 # <a name="determine-your-deployment-type"></a>Determinar o seu tipo de despregamento
 
@@ -25,7 +25,7 @@ _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fo
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Clientes existentes de Dynamics usando Dynamics 365 Project Service Automation
 Project Operations inclúe as capacidades que se fornecen con Project Service Automation. Publicarase un camiño de actualización para estes clientes na onda 1 da versión de 2021.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clientes existentes de Dynamics 365 Finance empregando a xestión e a contabilidade do proxecto 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clientes existentes de Dynamics 365 Finance usando Xestión de proxectos e contabilidade 
 
 Os clientes existentes de Finance que empregan a funcionalidade de xestión e contabilidade de proxectos poden seguir empregándoa tal como está. Consulte [Project Operations para situacións baseadas en recursos/sen fornecemento](#pma).
 
@@ -42,7 +42,7 @@ O noso [Cuestionario de despregamento](https://aka.ms/provisionprojectoperations
 - [Project Operations para escenarios baseados en recursos ou sen existencias](#integrated)
 - [Project Operations para situacións baseadas en recursos/sen fornecemento](#pma)
 
-Project Operations admite situacións de pedidos de produción/con fornecemento e situacións baseadas en recursos/sen fornecemento no mesmo ambiente a través de configuracións a nivel de entidade legal. Por exemplo, Contoso pode utilizar as capacidades de pedido baseadas en produción/con fornecemento na súa fábrica estadounidense (entidade legal = Contoso Manufacturing Estados Unidos). Contoso pode empregar as capacidades baseadas en recursos/sen fornecemento na súa instalación de servizo de Contoso Robotic Arms no Reino Unido (entidade legal = Contoso Robotics Reino Unido).
+Project Operations admite situacións de pedidos de produción/con fornecemento e situacións baseadas en recursos/sen fornecemento no mesmo ambiente a través de configuracións a nivel de entidade legal. Por exemplo, Contoso pode usar as capacidades de pedidos de fornecemento/produción na súa fábrica de Estados Unidos (entidade legal = Contoso Manufacturing United States). Contoso pode usar as capacidades sen fornecemento/baseadas en recursos na súa instalación de servizo de Contoso Robotics Arms no Reino Unido (entidade legal = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Despregamento de Lite: acordo para facturación proforma
 

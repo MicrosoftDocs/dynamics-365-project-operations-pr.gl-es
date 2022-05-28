@@ -6,29 +6,25 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986714"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582801"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Crear e confirmar diarios de corrección
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-De cando en vez pode introducirse unha entrada de tempo ou gasto incorrectamente. Por exemplo, un consultor pode seleccionar a data incorrecta ao crear unha entrada de tempo ou pode traspor os números ao ingresar un gasto. Se un consultor non pode realizar as actualizacións das entradas enviadas, un administrador pode corrixir directamente a entrada para un proxecto.
-
-Para completar os procedementos neste tema, necesitará permisos de administrador.
+En ocasións, é posible que se introduza incorrectamente unha entrada de tempo ou gasto. Por exemplo, un consultor pode seleccionar a data incorrecta cando crea unha entrada de tempo ou pode seleccionar o proxecto incorrecto cando introduce un gasto. Se un consultor non pode actualizar as entradas enviadas, un administrador back-end pode corrixir directamente os datos reais dun proxecto.
 
 ## <a name="correct-approved-time-entries"></a>Corrixir as entradas de tempo aprobadas     
 
@@ -46,8 +42,8 @@ Realice os seguintes pasos para corrixir as entradas de tempo individuais ou mú
 
 6. Seleccione **Previsualización**. Na caixa de diálogo, seleccione **Aceptar**. No separador **Liñas de diario**, pode ver unha lista dos datos reais orixinais relacionados coas entradas de tempo seleccionadas que foron invertidas e as liñas correspondentes corrixidas que se crearon. Se hai que facer correccións adicionais, repita os pasos 5 e 6. 
 
-> [!NOTE]
-> Todos os datos reais corrixidos terán os mesmos valores que seleccionou na sección **Novos valores das entradas de tempo**.
+    > [!NOTE]
+    > Todos os datos reais corrixidos terán os mesmos valores que seleccionou na sección **Novos valores das entradas de tempo**.
 
 7. Se as correccións aparecen como se espera, seleccione **Confirmar**. Na caixa de diálogo, seleccione **Aceptar**.
 
@@ -55,12 +51,10 @@ Realice os seguintes pasos para corrixir as entradas de tempo individuais ou mú
 
 9. Na páxina **Proxectos**, no separador **Datos reais**, vexa os cambios que fixo. 
 
-> [!NOTE]
-> Se o separador **Datos reais** non é visible, seleccione **Relacionado** > **Datos reais**.  
+    > [!NOTE]
+    > Se o separador **Datos reais** non é visible, seleccione **Relacionado** > **Datos reais**.  
 
 10. Na lista **Vista asociada de datos reais**, pode ver que as entradas de tempo orixinais que foron invertidas aínda están na lista, do mesmo xeito que as entradas de tempo corrixidas correspondentes. 
-
-Por exemplo, na seguinte gráfica, hai dúas partidas cunha cantidade de 8,00 que teñen débitos na columna Importe. Ademais, hai dúas partidas cunha cantidade de -8,00 que amosan importes cobrados na columna Importe. Estas correccións poñen a cantidade en cero.
 
  
 ## <a name="correct-approved-expense-entries"></a>Corrixir as entradas de gasto aprobadas
@@ -79,14 +73,30 @@ Realice os seguintes pasos para corrixir unha ou varias entradas de gasto.
 
 6. Se os valores corrixidos son os esperados, seleccione **Confirmar**. Na caixa de diálogo, seleccione **Aceptar.** Se os valores non se amosan como se espera, seleccione **Cancelar** para volver á lista **Gastos aprobados**. Repita os pasos do 2 ao 5. 
 
-> [!NOTE]
-> Os datos reais corrixidos terán os mesmos valores que seleccionou na sección **Novos valores dos gastos**.
+7. Despois de confirmar o diario de correccións, volve ao proxecto ou proxectos que actualizou para ver os cambios.
 
-7. Despois de confirmar o diario de correccións, desprácese ata o proxecto ou proxectos que actualizou para ver os seus cambios.  
-
-8. Na páxina do proxecto, no separador **Datos reais**, revise a **Visualización asociada dos datos reais**. Aparecerán as entradas orixinais e as entradas corrixidas. O seguinte gráfico mostra os importes orixinais das entradas de gastos e os correspondentes importes corrixidos das entradas de gastos. 
+8. Na páxina do proxecto, na **Reais** ficha, revisa o **Vista asociada real** lista. Aparecerán as entradas orixinais e as entradas corrixidas.
 
 
+## <a name="correct-approved-material-usage-logs"></a>Corrixir os rexistros de uso do material aprobado
+
+Complete os seguintes pasos para corrixir unha ou máis entradas do rexistro de uso de material.
+
+1. No **Vendas** área, no panel de navegación esquerdo, debaixo **Transaccións**, seleccione **Reais**.
+
+2. No **Reais** lista, use filtros de columna para seleccionar **Material** clase de transacción, para que só se mostren os datos reais dos materiais. Use outros filtros de columna para limitar aínda máis os datos reais que se mostran. Despois de atopar o conxunto desexado de datos reais, seleccione os reais e, a continuación, seleccione **Entradas correctas**. Créase automaticamente un novo diario de correccións e o **Corrección material** se asigna o tipo.
+
+3. No **Novo Xornal** páxina, na **Descrición** campo, introduza unha descrición para a corrección. Despois, no **Corrección material** ficha, na **Novos valores para os materiais** sección, seleccione os campos de datos para corrixir para as liñas de material seleccionadas. Por exemplo, pode asignar o material a outro proxecto ou corrixir o produto, a data do material ou o subcontrato.
+
+4. Seleccione **Previsualización**. A continuación, no cadro de diálogo, seleccione **Ok**.
+
+5. No **Liñas do xornal** ficha, verifique as correccións. Podes ver unha lista dos reais orixinais que están relacionados coas entradas de materiais seleccionadas que foron invertidas e as liñas correspondentes corrixidas que foron creadas.
+
+6. Se os valores corrixidos son os esperados, seleccione **Confirmar**. A continuación, no cadro de diálogo, seleccione **Ok**. Se os valores non son os esperados, seleccione **Cancelar** para volver ao **Reais** lista. A continuación, repita os pasos do 2 ao 5.
+
+7. Despois de confirmar o diario de correccións, volve ao proxecto ou proxectos que actualizou para ver os cambios.
+
+8. Na páxina do proxecto, na **Reais** ficha, revisa o **Vista asociada real** lista. Aparecerán as entradas orixinais e as entradas corrixidas.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

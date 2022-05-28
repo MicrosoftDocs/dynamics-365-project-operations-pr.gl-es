@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 11/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 7016d702719b2d432ec929aaca8d609ebf6e996b
-ms.sourcegitcommit: abdd6cb3461ebb12fd2ca7ea78439c29aecd0a94
+ms.openlocfilehash: 24de8626199a3ed56bb6703b78d746ff7a43a089
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7815822"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582018"
 ---
 # <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>Novidades ou cambios en Project Operations, setembro de 2021 para escenarios abastecidos ou baseados na produción
 
@@ -40,10 +40,10 @@ Este tema aplícase aos seguintes compoñentes e versións de Microsoft Dynamics
 | Xestión e contabilidade de proxectos | [571391](https://fix.lcs.dynamics.com/Issue/Details/?bugId=571391) | O prezo de venda do axuste do proxecto non se actualiza cos custos indirectos cando non se marca o límite de financiamento. |
 | Xestión e contabilidade de proxectos | [575831](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575831) | Non se pode crear un requisito de artigo cando se factura a cabeceira da táboa de vendas e se finaliza a orde de compra de apoio para as liñas existentes. |
 | Xestión e contabilidade de proxectos | [578036](https://fix.lcs.dynamics.com/Issue/Details/?bugId=578036) | O importe de retención dunha regra de facturación que teña un fito para un proxecto diferente non se publica no ID do proxecto correspondente que se seleccionou para o fito. Pola contra, publícase co primeiro proxecto. |
-| Xestión e contabilidade de proxectos | [578327](https://fix.lcs.dynamics.com/Issue/Details/?bugId=578327) | Cando selecciones **Conxunto de dimensións financeiras** nunha proposta de factura, prodúcese o seguinte erro: "Non se puido enviar o obxecto do tipo 'Dynamics.AX.Application.FormIntControl' para escribir 'Dynamics.AX.Application.FormStringControl'". |
+| Xestión e contabilidade de proxectos | [578327](https://fix.lcs.dynamics.com/Issue/Details/?bugId=578327) | Cando selecciones **Conxunto de dimensións financeiras** nunha proposta de factura, prodúcese o seguinte erro: "Non se pode emitir o obxecto do tipo "Dinámica.AX .Application.FormIntControl' para escribir 'Dinámica.AX .Application.FormStringControl'." |
 | Xestión e contabilidade de proxectos | [581167](https://fix.lcs.dynamics.com/Issue/Details/?bugId=581167) | O **Factura do proxecto** informe salta liñas. |
 | Xestión e contabilidade de proxectos | [581489](https://fix.lcs.dynamics.com/Issue/Details/?bugId=581489) | Prodúcese un erro ao calcular o control de custos dun proxecto de investimento. |
-| Xestión e contabilidade de proxectos | [590357](https://fix.lcs.dynamics.com/Issue/Details/?bugId=590357) | O **ProjTable::InitFromCustTable - canDeletePostalAddress** método provoca un problema de rendemento. |
+| Xestión e contabilidade de proxectos | [590357](https://fix.lcs.dynamics.com/Issue/Details/?bugId=590357) | O **ProxTable:: InitFromCustTable - canDeletePostalAddress** método provoca un problema de rendemento. |
 | Xestión e contabilidade de proxectos | [592493](https://fix.lcs.dynamics.com/Issue/Details/?bugId=592493) | A mensaxe de erro debería ser máis clara que "Erro inesperado". |
 | Xestión e contabilidade de proxectos | [598810](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598810) | O traballo por lotes de publicación de facturas do proxecto procesa e publica a proposta de factura aínda que non se xerasen as liñas de factura. |
 | Xestión e contabilidade de proxectos | [574282](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574282) | Prodúcese un problema de redondeo cando se desactiva a clave de configuración da licenza do sector público. Xérase un custo ou prezo de venda incorrecto nas horas da folla de horas para contratos que teñen varias fontes fundacionais. |
@@ -67,20 +67,20 @@ Este tema aplícase aos seguintes compoñentes e versións de Microsoft Dynamics
 | Xestión e contabilidade de proxectos | [596669](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596669) | O número exento de impostos para unha persoa xurídica non está incluído na factura do proxecto impresa. |
 | Xestión e contabilidade de proxectos | [597563](https://fix.lcs.dynamics.com/Issue/Details/?bugId=597563) | Non se actualizan datos financeiros no erro da unidade de inventario cando se axusta un proxecto en relación ás liñas de crédito. |
 | Xestión e contabilidade de proxectos | [598109](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598109) | Despois de aplicar KB 461935, non pode publicar estimacións se cambia a secuencias numéricas continuas. |
-| Xestión e contabilidade de proxectos | [598688](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598688) | **TimeEntryDataManager** fai que a aplicación móbil da folla de horas do proxecto para Android deixe de responder. |
+| Xestión e contabilidade de proxectos | [598688](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598688) | **TimeEntryDataManager** provoca a aplicación móbil da folla de horas do proxecto para Android para deixar de responder. |
 | Xestión e contabilidade de proxectos | [602677](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602677) | O valor WIP invertido dunha contabilización de factura difire do valor WIP publicado orixinalmente da entrada de hora. |
 | Xestión e contabilidade de proxectos | [602728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602728) | Nos casos de retención aplicada, as transaccións dun vale non se equilibran cando se contabilizan os ingresos facturados dun proxecto. |
 | Xestión e contabilidade de proxectos | [603320](https://fix.lcs.dynamics.com/Issue/Details/?bugId=603320) | Cando o **Mellora do rendemento da programación de recursos do proxecto** función está activada, os valores decimais están redondeados incorrectamente pola dispoñibilidade e capacidade dos recursos. |
 | Xestión e contabilidade de proxectos | [607324](https://fix.lcs.dynamics.com/Issue/Details/?bugId=607324) | Cando o **Crea estimacións do proxecto usando varias tarefas por lotes** función está activada, a creación de estimacións nun lote que ten varias subtarefas só funciona para o período actual. |
 | Viaxes e gasto | [551911](https://fix.lcs.dynamics.com/Issue/Details/?bugId=551911) | Ignorase unha política de solicitude de viaxe e apróbase o fluxo de traballo sen erros. |
 | Viaxes e gasto | [563752](https://fix.lcs.dynamics.com/Issue/Details/?bugId=563752) | <p>A aplicación Mobile Expense non garda a seguinte información na liña de gasto:</p><ul><li>ID do proxecto</li><li>Se o gasto é facturable</li><li>O número da actividade</li></ul> |
-| Viaxes e gasto | [569458](https://fix.lcs.dynamics.com/Issue/Details/?bugId=569458) | O **Adxuntos recibos** campo está configurado como **Si** aínda que non se xunte ningún recibo á liña de gasto. |
+| Viaxes e gasto | [569458](https://fix.lcs.dynamics.com/Issue/Details/?bugId=569458) | O **Adxuntos recibos** campo está configurado en **Si** aínda que non se xunte ningún recibo á liña de gasto. |
 | Viaxes e gasto | [571334](https://fix.lcs.dynamics.com/Issue/Details/?bugId=571334) | Prodúcese un erro ao cambiar a categoría de gasto a **Persoal**. |
 | Viaxes e gasto | [572783](https://fix.lcs.dynamics.com/Issue/Details/?bugId=572783) | Non podes anexar un recibo e editar o gasto dos pais despois de que unha transacción con tarxeta de crédito se divide nun gasto persoal. |
 | Viaxes e gasto | [574252](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574252) | A política de gastos para transaccións entre empresas que teñan un ID de proxecto non funciona correctamente. |
 | Viaxes e gasto | [574489](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574489) | Falta a información da data publicada para os informes de gastos publicados. |
 | Viaxes e gasto | [574504](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574504) | Hai problemas cos métodos de pago na aplicación móbil Expense. |
-| Viaxes e gasto | [584799](https://fix.lcs.dynamics.com/Issue/Details/?bugId=584799) | Unha solicitude de desprazamento que se crea para un traballador pódese utilizar para o informe de gastos doutro traballador antes da data do delegado. |
+| Viaxes e gasto | [584799](https://fix.lcs.dynamics.com/Issue/Details/?bugId=584799) | Unha solicitude de viaxe que se crea para un traballador pode utilizarse para o informe de gastos doutro traballador antes da data do delegado. |
 | Viaxes e gasto | [586023](https://fix.lcs.dynamics.com/Issue/Details/?bugId=586023) | Cando crea un gasto, os cambios nos valores da dimensión financeira non se actualizan correctamente no nivel de distribución contable no **Xestión de gastos** espazo de traballo. |
 | Viaxes e gasto | [586081](https://fix.lcs.dynamics.com/Issue/Details/?bugId=586081) | O estado de aprobación da liña de gasto principal non está sincronizado co estado de aprobación do fluxo de traballo da liña detallada. |
 | Viaxes e gasto | [590544](https://fix.lcs.dynamics.com/Issue/Details/?bugId=590544) | Prodúcese un erro se publica un informe de gastos e se activa a recuperación de impostos. |
@@ -91,6 +91,6 @@ Este tema aplícase aos seguintes compoñentes e versións de Microsoft Dynamics
 
 ## <a name="regulatory-updates"></a>Actualizacións normativas
 
-Para obter información acerca das actualizacións regulamentarias para as aplicacións Finance and Operations, consulte [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en Microsoft Dynamics Lifecycle Services (LCS) e utilizar a ferramenta de busca de problemas para ver as actualizacións regulamentarias previstas. A busca de problemas permíteche buscar por país ou rexión, tipo de función e versión.
+Para obter información acerca das actualizacións regulamentarias para as aplicacións Finance and Operations, consulte [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Tamén podes iniciar sesión en Microsoft Dynamics Lifecycle Services (LCS) e use a ferramenta de busca de problemas para ver as actualizacións regulamentarias previstas. A busca de problemas permíteche buscar por país ou rexión, tipo de función e versión.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
