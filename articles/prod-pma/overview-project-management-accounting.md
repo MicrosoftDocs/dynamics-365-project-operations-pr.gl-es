@@ -3,25 +3,23 @@ title: Visión xeral de xestión de proxectos e contabilidade
 description: A funcionalidade de xestión de proxectos e contabilidade pódese usar en varios sectores para prestar un servizo, producir un produto ou acadar un resultado.
 author: Yowelle
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: be384b19781e605255a24506e94e0852076b9ca9
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007504"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683582"
 ---
 # <a name="project-management-and-accounting-overview"></a>Visión xeral de xestión de proxectos e contabilidade
 
@@ -248,7 +246,7 @@ A seguinte táboa describe os métodos para calcular o custo para completar un p
 <tbody>
 <tr class="odd">
 <td>Custo total – real</td>
-<td>Os custos estimados deben introducirse manualmente. Despois de completar a columna <strong>Custo total</strong> ou <strong>Cantidade total</strong> na páxina <strong>Estimación de custos</strong>, réstanse os custos reais dos totais introducidos polo usuario. O resultado é o custo para completar o proxecto. Normalmente, o progreso dos custos non se rastrexa, por exemplo, en función do número de estancias de hotel e comidas que se rexistran en cada período. Pola contra. O rastrexo adoita basearse nunha comparación coa cantidade total de horas estimadas. Este enfoque non require un modelo de previsión e o custo total ou a cantidade total pódense cambiar manualmente. Cando se introduce un valor na columna <strong>Custo total</strong> ou <strong>Cantidade total</strong>, Finanzas compara este valor coas transaccións reais que se contabilizan no período e despois reduce o valor na columna <strong>Cantidade para completar</strong> ou <strong>Custo para completar</strong>.</td>
+<td>Os custos estimados deben introducirse manualmente. Despois de completar a columna <strong>Custo total</strong> ou <strong>Cantidade total</strong> na páxina <strong>Estimación de custos</strong>, réstanse os custos reais dos totais introducidos polo usuario. O resultado é o custo para completar o proxecto. Normalmente, o progreso dos custos non é&#39; t seguiuse en función, por exemplo, do número de estadías en hoteis e comidas que se rexistran en cada período. Pola contra. O rastrexo adoita basearse nunha comparación coa cantidade total de horas estimadas. Este enfoque non&#39; t require un modelo de previsión e o custo total ou a cantidade total pódense cambiar manualmente. Cando se introduce un valor na columna <strong>Custo total</strong> ou <strong>Cantidade total</strong>, Finanzas compara este valor coas transaccións reais que se contabilizan no período e despois reduce o valor na columna <strong>Cantidade para completar</strong> ou <strong>Custo para completar</strong>.</td>
 </tr>
 <tr class="even">
 <td>Orzamento total – real</td>

@@ -1,34 +1,33 @@
 ---
 title: Sincronizar contratos de proxecto e proxectos directamente desde Project Service Automation to Finance
-description: Este tema describe o modelo e as tarefas subxacentes que se usan para sincronizar os contratos do proxecto e os proxectos directamente desde Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
+description: Este tema describe o modelo e as tarefas subxacentes que se usan para sincronizar contratos de proxectos e proxectos directamente desde Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001069"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684640"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sincronizar contratos de proxecto e proxectos directamente desde Project Service Automation to Finance 
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Este tema describe o modelo e as tarefas subxacentes que se usan para sincronizar os contratos do proxecto e os proxectos directamente desde Dynamics 365 Project Service Automation a Dynamics 365 Finance.
+
+Este tema describe o modelo e as tarefas subxacentes que se usan para sincronizar contratos de proxectos e proxectos directamente desde Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 
 > [!NOTE] 
 > Se está a usar Enterprise edition 7.3.0, debe instalar KB 4074835.
@@ -121,15 +120,15 @@ Cando se aplica a solución de integración de Project Service Automation con Fi
 
 ## <a name="power-query"></a>Power Query
 
-Use Microsoft Power Query para Excel para filtrar datos se se cumpren as seguintes condicións:
+Usa Microsoft Power Query para que Excel filtre os datos se se cumpren as seguintes condicións:
 
 - Vostede ten pedidos de vendas en Dynamics 365 Sales.
 - Ten varias unidades organizativas en Project Service Automation e estas unidades organizativas asignaranse a varias persoas xurídicas en Finanzas.
 
-Se debe usar Power Query, siga estas pautas:
+Se debes usar Power Query, siga estas pautas:
 
 - O modelo Proxectos e contratos (PSA a Fin e Ops) ten un filtro predefinido que só inclúe pedidos de venda do tipo **Artigo de traballo (msdyn\_ordertype = 192350001)**. Este filtro axuda a garantir que non se crean contratos de proxectos para pedidos de vendas en Finanzas. Se crea o seu propio modelo, debe engadir este filtro.
-- Cree un filtro Power Query que inclúa só as organizacións contractuais que deben sincronizarse coa entidade legal do conxunto de conexións de integración. Por exemplo, os contratos de proxectos que vostede ten coa unidade organizativa do contrato de Contoso US deberían estar sincronizados coa entidade legal USSI, pero os contratos de proxecto que ten coa unidade organizativa do contrato de Contoso Global deberían sincronizarse coa entidade legal USMF. Se non engade este filtro á súa asignación de tarefas, todos os contratos do proxecto sincronizaranse coa persoa xurídica que se define para o conxunto de conexións, independentemente da unidade organizativa do contrato.
+- Crear un Power Query filtro que inclúe só as organizacións contractuais que deberían sincronizarse coa entidade xurídica do conxunto de conexións de integración. Por exemplo, os contratos de proxectos que vostede ten coa unidade organizativa do contrato de Contoso US deben sincronizarse coa persoa xurídica USSI, pero os contratos de proxectos que teña coa unidade organizativa do contrato de Contoso Global deben sincronizarse coa persoa xurídica USMF. Se non engade este filtro á súa asignación de tarefas, todos os contratos do proxecto sincronizaranse coa persoa xurídica que se define para o conxunto de conexións, independentemente da unidade organizativa do contrato.
 
 ## <a name="template-mapping-in-data-integration"></a>Asignación de modelos na integración de datos
 

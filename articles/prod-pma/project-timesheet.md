@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997199"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683126"
 ---
 # <a name="project-timesheet-mobile-application"></a>Aplicación para móbil Project Timesheet
 
@@ -29,7 +28,7 @@ ms.locfileid: "6997199"
 
 ## <a name="overview"></a>Visión xeral
 
-A aplicación para móbil Microsoft Dynamics 365 Project Timesheet permite aos usuarios enviar e aprobar follas de control horario para proxectos no seu dispositivo móbil (iPhone ou Android). Esta aplicación para móbil presenta a funcionalidade de folla de control horario que reside na área de xestión de proxectos e contabilidade de Dynamics 365 Finance, mellorando a produtividade e eficiencia dos usuarios, ademais de permitir a entrada e aprobación oportuna das follas de control horario do proxecto.
+A aplicación para móbil Microsoft Dynamics 365 Project Timesheet permite aos usuarios enviar e aprobar follas de control horario para proxectos no seu dispositivo móbil (iPhone ou Android). Esta aplicación móbil mostra a funcionalidade da folla de horas que reside na área de xestión e contabilidade de proxectos de Dynamics 365 Finance, mellorando a produtividade e a eficiencia dos usuarios, ademais de permitir a entrada e aprobación oportunas das follas de horas do proxecto.
 
 ## <a name="download-and-install-the-mobile-app"></a>Descargar e instalar a aplicación móbil
 

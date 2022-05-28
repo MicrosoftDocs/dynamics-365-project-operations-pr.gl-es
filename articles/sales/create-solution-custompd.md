@@ -4,14 +4,14 @@ description: Este tema fornece información sobre como crear solucións para dim
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 82593d3d00b008c1922d70c508bc77624aeb46b3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992204"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601108"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Crear unha solución para as dimensións de prezos personalizadas
 
@@ -23,7 +23,7 @@ ms.locfileid: "6992204"
 ## <a name="create-a-solution-for-custom-pricing-dimensions"></a>Crear unha solución para as dimensións de prezos personalizadas
 
 1.  Seleccione **Configuración** > **Solucións** e logo seleccione **Nova**.
-2.  Poña nome á solución, *Dimensións de prezos de <your organization name>*.
+2.  Poña nome á solución, *Dimensións de prezos de \<your organization name\>*.
 3. Introduza a información necesaria restante e, a seguir, seleccione **Gardar**.
 
   ![Creación dunha solución de dimensión de prezos personalizada.](./media/Creation-of-custom-pricing-dimension-solution.png)

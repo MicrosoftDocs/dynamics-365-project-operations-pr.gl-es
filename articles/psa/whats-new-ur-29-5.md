@@ -15,16 +15,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ac8e17dddd48eed61070bb93660e0c1ccf6d0bafb78a64cecf1b6ab45da7d1a9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: df0f486a3a3d592b8780671ab05ed26f97df24ea
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002194"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723583"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-295-v3"></a>Novidades ou cambios na versión 29.5 de actualización de Project Service Automation, V3
 
-Comprácenos anunciar a última actualización da aplicación Project Service Automation para Dynamics 365. Esta versión inclúe algunhas melloras importantes na calidade, rendemento e facilidade de uso. Esta versión é compatible con Dynamics 365 9.x. Para actualizar a esta versión, visite a paxina de solucións do Centro de administración para Dynamics 365 en liña para instalar a actualización. Para obter máis información, consulte [Instalar, actualizar ou eliminar unha solución preferida](/power-platform/admin/install-remove-preferred-solution.md)
+Comprácenos anunciar a última actualización da aplicación Project Service Automation para Dynamics 365. Esta versión inclúe algunhas melloras importantes na calidade, rendemento e facilidade de uso. Esta versión é compatible con Dynamics 365 9.x. Para actualizar a esta versión, visite a paxina de solucións do Centro de administración para Dynamics 365 en liña para instalar a actualización. Para obter máis información, consulte [Instalar, actualizar ou eliminar unha solución preferida](/power-platform/admin/install-remove-preferred-solution)
 
 Este tema mostra as funcionalidades e correccións que son novas ou modificadas para Project Service Automation V3, versión 29.5 de actualización. Esta versión ten un número de compilación de V3.10.47.150 e está dispoñible xeralmente a través dunha autoactualización desde xaneiro de 2021.
 

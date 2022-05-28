@@ -1,5 +1,5 @@
 ---
-title: Sincronizar estimacións de proxectos directamente desde Project Service Automation a Finance and Operations
+title: Sincronice as estimacións do proxecto directamente de Project Service Automation a Finance and Operations
 description: Este tema describe os modelos e as tarefas subxacentes que se usan para sincronizar as estimacións de horas do proxecto e as estimacións de gastos do proxecto directamente desde Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
@@ -7,22 +7,21 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988199"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684594"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar estimacións de proxectos directamente desde Project Service Automation a Finance and Operations
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronice as estimacións do proxecto directamente de Project Service Automation a Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
@@ -70,7 +69,7 @@ Antes de que poida producirse a sincronización das estimacións de horas do pro
 
 ### <a name="power-query"></a>Power Query
 
-No modelo de estimacións de horas do proxecto, debe usar Microsoft Power Query for Excel para completar estas tarefas:
+No modelo de estimacións de horas do proxecto, debes usar Microsoft Power Query para que Excel complete estas tarefas:
 
 - Establecer o ID de modelo de previsión predefinido que se usará cando a integración cree novas previsións de horas.
 - Filtrar os rexistros específicos de recursos na tarefa que fallarán na integración nas previsións de horas.
@@ -81,7 +80,7 @@ No modelo de estimacións de horas do proxecto, debe usar Microsoft Power Query 
 Para actualizar o ID de modelo de previsión predefinido no modelo, prema a frecha de **Asignar** para abrir a asignación. A seguir, seleccione a ligazón **Consulta e filtrado avanzados**.
 
 - Se está a usar o modelo predefinido de estimacións de horas do proxecto (PSA a Fin e Ops), seleccione a última **Condición inserida** na lista de **Pasos aplicados**. Na entrada **Función**, substitúa **O\_forecast** polo nome do ID de modelo de previsión que se debería empregar coa integración. O modelo predefinido ten un ID de modelo de previsión a partir dos datos de demostración.
-- Se está a crear un novo modelo, debe engadir esta columna. En Power Query, seleccione **Engadir columna condicional** e escriba un nome para a nova columna, como **ModelID**. Introduza a condición para a columna, onde, se a tarefa de proxecto non é nula, entón \<enter the forecast model ID\>; senón nulo.
+- Se está a crear un novo modelo, debe engadir esta columna. En Power Query, seleccione **Engadir columna condicional**, e introduza un nome para a nova columna, como **ID do modelo**. Introduza a condición para a columna, onde, se a tarefa de proxecto non é nula, entón \<enter the forecast model ID\>; senón nulo.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtrar rexistros específicos de recursos
 
@@ -126,7 +125,7 @@ Antes de que poida producirse a sincronización das estimacións de gastos do pr
 
 ### <a name="power-query"></a>Power Query
 
-No modelo de estimacións de gastos do proxecto, debe usar Power Query para completar as seguintes tarefas:
+No modelo de estimacións de gastos do proxecto, debes usar Power Query para completar as seguintes tarefas:
 
 - Filtrar para incluír só rexistros de liñas de estimación de gastos.
 - Establecer o ID de modelo de previsión predefinido que se usará cando a integración cree novas previsións de horas.
@@ -141,8 +140,8 @@ O modelo de estimacións de gastos do proxecto (PSA a Fin e Ops) ten un filtro p
 
 Para actualizar o ID de modelo de previsión predefinido no modelo, seleccione a tarefa **Estimacións de gastos** e, a seguir, prema a frecha de **Asignar** para abrir a asignación. Seleccione a ligazón **Consulta e filtrado avanzados**.
 
-- Se está a usar o modelo predefinido de estimacións de gastos do proxecto (PSA a Fin e Ops), en Power Query, seleccione a primeira **Condición inserida** desde a sección **Pasos aplicados**. Na entrada **Función**, substitúa **O\_forecast** polo nome do ID de modelo de previsión que se debería empregar coa integración. O modelo predefinido ten un ID de modelo de previsión a partir dos datos de demostración.
-- Se está a crear un novo modelo, debe engadir esta columna. En Power Query, seleccione **Engadir columna condicional** e escriba un nome para a nova columna, como **ModelID**. Introduza a condición para a columna, onde, se a ID de liña de estimación non é nula, entón \<enter the forecast model ID\>; senón nulo.
+- Se estás a usar o modelo predeterminado de estimacións de gastos do proxecto (PSA a Fin e Ops), in Power Query, seleccione o primeiro **Condición inserida** dende **Pasos aplicados** sección. Na entrada **Función**, substitúa **O\_forecast** polo nome do ID de modelo de previsión que se debería empregar coa integración. O modelo predefinido ten un ID de modelo de previsión a partir dos datos de demostración.
+- Se está a crear un novo modelo, debe engadir esta columna. En Power Query, seleccione **Engadir columna condicional**, e introduza un nome para a nova columna, como **ID do modelo**. Introduza a condición para a columna, onde, se a ID de liña de estimación non é nula, entón \<enter the forecast model ID\>; senón nulo.
 
 #### <a name="transform-the-billing-types"></a>Transformar os tipos de facturación
 

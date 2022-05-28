@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988019"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684962"
 ---
 # <a name="microsoft-project-client-integration"></a>Integración de Microsoft Project Client
 
 [!include [banner](../includes/banner.md)]
 
-Planificar e manter un programa de proxectos pode ser complexo, polo que os xestores de proxectos precisan empregar ferramentas que os axuden a xestionar esta tarefa. A integración con Microsoft Project Client proporciona apoio para abrir e xestionar unha estrutura de subdivisión do traballo do proxecto. O xestor do proxecto pode publicar os cambios de novo na estrutura de subdivisión do traballo do proxecto de Dynamics 365 Finance.
+Planificar e manter un programa de proxectos pode ser complexo, polo que os xestores de proxectos precisan empregar ferramentas que os axuden a xestionar esta tarefa. A integración con Microsoft Project Client proporciona apoio para abrir e xestionar unha estrutura de subdivisión do traballo do proxecto. O director do proxecto pode publicar calquera cambio na estrutura de desglose do traballo do proxecto Dynamics 365 Finance.
 
 > [!NOTE]
 > Se está a usar a actualización de xullo (versión 10.0.4), debe instalar KB 4054797 e 4055884.
@@ -40,7 +39,7 @@ Para activar a integración con Microsoft Project Client, é necesario instalar 
 • Prema **Abrir** e, a seguir, prema **Executar** cando se lle solicite.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Abrir e editar un borrador de estrutura de subdivisión do traballo existente en Microsoft Project Client
-Se un proxecto en Dynamics 365 Finance xa ten unha estrutura de subdivisión do traballo creada, a estrutura de subdivisión do traballo pódese abrir na aplicación Microsoft Project Client se a estrutura de subdivisión de traballo está nun estado de borrador. Para abrir desde a páxina **Proxecto**, prema a ligazón **Abrir en Microsoft Project** desde o separador **Planificar**. Esta páxina tamén se pode abrir desde a aplicación Microsoft Project Client premendo **Abrir** no separador **Microsoft Dynamics 365**. Seleccione **Persoa xurídica** e **Proxecto** na lista.
+Se un proxecto en Dynamics 365 Finance xa ten unha estrutura de descomposición do traballo creada, pódese abrir a estrutura de desglose do traballo na aplicación Cliente de proxecto de Microsoft se a estrutura do traballo está nun estado de borrador. Para abrir desde a páxina **Proxecto**, prema a ligazón **Abrir en Microsoft Project** desde o separador **Planificar**. Esta páxina tamén se pode abrir desde a aplicación Microsoft Project Client premendo **Abrir** no separador **Microsoft Dynamics 365**. Seleccione **Persoa xurídica** e **Proxecto** na lista.
 
 > [!NOTE]
 > Se está a usar Internet Explorer como explorador, terá que premer **Gardar** para abrir manualmente desde a localización á que se descargou o ficheiro. Ou prema **Gardar e abrir** para abrir o ficheiro en Microsoft Project Client. Non cambie o nome do ficheiro cando o garde.

@@ -4,14 +4,14 @@ description: Este tema ofrece información sobre as actualizacións de calidade 
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007954"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600372"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de novembro de 2020 - Project Operations para situacións baseadas en recursos/sen fornecemento
 
@@ -20,7 +20,7 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 Este tema aplícase aos seguintes compoñentes e versións de Dynamics 365 Project Operations:
 
 - Project Operations en ambiente de CDS versión 4.4.0.70
-- Xestión e contabilidade de proxectos en ambiente de Dynamics 365 Finance versión 10.0.14
+- Xestión de proxectos e contabilidade no entorno Dynamics 365 Finance versión 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Actualizacións de Project Operations para situacións baseadas en recursos/sen fornecemento
 
@@ -42,7 +42,7 @@ Este tema aplícase aos seguintes compoñentes e versións de Dynamics 365 Proje
 | Entrada rápida de tempo e gasto | 2059859          | Ábrese unha ventá emerxente inesperada ao crear unha entrada de gasto.                                                                                                                         |
 | Outras                        | 2044181          | (Desinstalación do pedido de compra)   Cando se intentan desinstalar as solucións básicas msdyn_ProjectServiceCore_Patch e msdyn Project   service, prodúcese o erro "O rexistro non está dispoñible".  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Xestión e contabilidade de proxectos en Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Xestión de proxectos e contabilidade en Dynamics 365 Finance
 
 | Área de funcionalidades        | Número de referencia | Actualización de calidade                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Este tema aplícase aos seguintes compoñentes e versións de Dynamics 365 Proje
 | Contabilidade de proxectos  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Activando a funcionalidade, non son posibles varias liñas de contrato sen a integración de CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Actualizacións normativas
-Para obter información sobre actualizacións normativas para aplicacións de Finance and Operations, vexa [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
+Para obter información acerca das actualizacións regulamentarias para as aplicacións Finance and Operations, consulte [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

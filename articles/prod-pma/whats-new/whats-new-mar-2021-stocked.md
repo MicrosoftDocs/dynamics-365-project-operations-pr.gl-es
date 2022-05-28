@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991169"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723720"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Novidades ou cambios en Project Operations, marzo de 2021, para situacións baseadas en produción/con fornecemento
 
@@ -20,7 +20,7 @@ _**Aplícase a:** Project Operations para situacións baseadas en produción/con
 
 Este tema aplícase aos seguintes compoñentes e versións de Dynamics 365 Project Operations:
 
-- Xestión e contabilidade de proxectos en ambiente de Dynamics 365 Finance versión 10.0.17
+- Xestión de proxectos e contabilidade no entorno Dynamics 365 Finance versión 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Funcionalidades incluídas nesta versión
 As seguintes funcionalidades están incluídas nesta versión:
@@ -121,7 +121,7 @@ As seguintes funcionalidades están incluídas nesta versión:
 | Xestión e contabilidade de proxectos | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | O método da clase da estrutura de subdivisión do traballo herdado (WBS), **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder**, está obsoleto.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Actualizacións normativas
-Para obter información sobre actualizacións normativas para aplicacións de Finance and Operations, vexa [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates.md). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
+Para obter información acerca das actualizacións regulamentarias para as aplicacións Finance and Operations, consulte [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

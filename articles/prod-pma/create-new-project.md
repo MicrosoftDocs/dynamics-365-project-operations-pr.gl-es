@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ee576561e9d360c198a57f5885c27aa782267fd1
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985949"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685054"
 ---
 # <a name="create-a-new-project"></a>Crear un novo proxecto
 
@@ -53,7 +52,7 @@ Un xestor de proxectos pode usar a funcionalidade de dotación de recursos para 
 
 [![Exemplo de rol.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Escenario:** Contratouse a Contoso para completar un proxecto de tempo e material que ten unha carta de proxecto aprobada. O xestor de proxectos subalterno aínda está completando o alcance do proxecto. O xestor de recursos está a identificar actualmente recursos específicos que se reservarán para traballar no novo proxecto. Debido á natureza crítica do proxecto, o patrocinador do proxecto solicitou ao xestor de proxectos principal como un dos roles. O xestor de recursos debe adquirir o novo recurso e definir o rol no sistema no caso de que o xestor de proxectos subalterno precise a información do recurso durante a planificación do proxecto.
+**Escenario:** Contoso foi contratada para completar un proxecto de tempo e material que ten unha carta de proxecto aprobada. O xestor de proxectos subalterno aínda está completando o alcance do proxecto. O xestor de recursos está a identificar actualmente recursos específicos que se reservarán para traballar no novo proxecto. Debido á natureza crítica do proxecto, o patrocinador do proxecto solicitou ao xestor de proxectos principal como un dos roles. O xestor de recursos debe adquirir o novo recurso e definir o rol no sistema no caso de que o xestor de proxectos subalterno precise a información do recurso durante a planificación do proxecto.
 
 Os seguintes pasos mostran como o xestor de recursos pode configurar a función de xestor de proxectos principal e asociar as características dos recursos a el. Máis tarde, o rol pódese empregar para buscar recursos dispoñibles que coincidan coas competencias requiridas.
 

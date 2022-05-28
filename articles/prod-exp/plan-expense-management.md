@@ -1,6 +1,6 @@
 ---
 title: Configurar a xestión de gastos
-description: Este artigo describe as consideracións e as decisións que debe tomar durante o proceso de planificación antes de configurar a xestión de gastos en Microsoft Dynamics 365 Finance.
+description: Este artigo describe as consideracións e as decisións que debes tomar durante o proceso de planificación antes de configurar a xestión de gastos Microsoft Dynamics 365 Finanzas.
 author: KimANelson
 ms.date: 08/29/2017
 ms.topic: article
@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 23001
 ms.assetid: aa3fd14d-7e94-4603-985f-ca26d6f860ea
 ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eca4362b0ff5d37b131e1d96e311aa48ac20397618314936944ba66e458dbdc2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
+ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007459"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710110"
 ---
 # <a name="configure-expense-management"></a>Configurar a xestión de gastos
 

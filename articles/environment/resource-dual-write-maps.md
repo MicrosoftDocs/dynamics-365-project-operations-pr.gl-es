@@ -4,14 +4,14 @@ description: Este tema ofrece a lista de mapas de escrita dual necesarios para D
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
-ms.translationtype: HT
+ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547107"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612748"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versións do mapa de escrita dual de Project Operations
 
@@ -25,12 +25,12 @@ Os seguintes mapas son requisitos previos para a solución de Project Operations
 
 | Asignación de táboas | Sincronización inicial |
 | --- | --- |
-| Libro maior (msdyn_ledgers) | Require a sincronización inicial para o mapa da táboa e todos os requisitos previos. O padrón para a sincronización inicial é as aplicacións de Finance and Operations. |
+| Libro maior (msdyn_ledgers) | Require a sincronización inicial para o mapa da táboa e todos os requisitos previos. O mestre para a sincronización inicial son as aplicacións de Finanzas e Operacións. |
 | Entidades legais (cdm_companies) | Non é necesario. O sistema enche esta entidade automaticamente cando os ambientes están ligados mediante escrita dual. |
 | Clientes V3 (contas) | Non é necesario para o aprovisionamento. |
 | Fornecedores V2 (msdyn_vendors) | Non é necesario para o aprovisionamento. |
 
-1. Na lista de mapas, seleccione o papa de libro maior **(msdyn\_ledgers)** con todos os requisitos previos e seleccione a caixa de verificación **Sincronización inicial**. No campo **Padrón para a sincronización inicial**, seleccione **Aplicacións de Finance and Operations** tanto para o mapa de libro maior como para todos os mapas de requisitos previos. Seleccione **Executar**.
+1. Na lista de mapas, seleccione o papa de libro maior **(msdyn\_ledgers)** con todos os requisitos previos e seleccione a caixa de verificación **Sincronización inicial**. No **Mestre para a sincronización inicial** campo, seleccione **Aplicacións de Finanzas e Operacións** tanto para o mapa do libro maior como para todos os mapas de requisitos previos. Seleccione **Executar**.
 
 ![Sincronización de mapa de libro maior.](media/DW6.png)
 
@@ -40,26 +40,26 @@ Os seguintes mapas son requisitos previos para a solución de Project Operations
 
 Os seguintes mapas son necesarios para a solución de Project Operations. As versións de mapas de escritura dual aparecen a partir da actualización de maio de 2021, Project Operations, versión 4.10.0.186.
 
-| **Mapa de entidades** | **Última versión** | **Sincronización inicial** |
-| --- | --- | --- |
-| Entidade de integración para as relacións de transaccións do proxecto (msdyn\_transactionconnections) | 1.0.0.0 | Non é necesario para o aprovisionamento. |
-| Cabeceiras de contrato de proxecto (pedidos de vendas) | 1.0.0.1 | Non é necesario para o aprovisionamento. |
-| Liñas de contrato de proxecto (salesorderdetails) | 1.0.0.0 | Non é necesario para o aprovisionamento. |
-| Orixe de financiamento do proxecto (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Non é necesario para o aprovisionamento. |
-| Táboa de integración de Project Operations para estimacións de material (msdyn\_estimatelines) | 1.0.0.0 | Non é necesario para o aprovisionamento. |
-| Propostas de factura de proxecto V2 (facturas) | 1.0.0.3 | Non é necesario para o aprovisionamento. |
-| Datos reais de integración de Project Operations (msdyn_actuals) | 1.0.0.14 | Non é necesario para o aprovisionamento. |
-| Fitos de liña de contrato de integración de Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Non é necesario para o aprovisionamento. |
-| Entidade de integración de Project Operations para estimacións de gastos (msdyn_estimatelines) | 1.0.0.2 | Non é necesario para o aprovisionamento. |
-| Entidade de integración de Project Operations para estimacións de horas (msdyn_resourceassignments) | 1.0.0.5 | Non é necesario para o aprovisionamento. |
-| Entidade de exportación de categorías de gastos de proxecto de integración de Project Operations (msdyn_expensecategories) | 1.0.0.1 | Non é necesario para o aprovisionamento. |
-| Entidade de exportación de gastos de proxecto de integración de Project Operations (msdyn_expenses) | 1.0.0.2 | Non é necesario para o aprovisionamento. |
-| Entidade de exportación de facturas do fornecedor do proxecto de integración de Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Non é necesario para o aprovisionamento. |
-| Entidade de exportación de liñas de facturas do fornecedor do proxecto de integración de Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.1 | Non é necesario para o aprovisionamento. |
-| Roles de recursos do proxecto para todas as empresas (bookableresourcecategories) | 1.0.0.1 | É necesaria unha sincronización inicial para que o mapa de táboas sincronice os roles de recursos de xestor de proxectos e membros do equipo que se introducen no ambiente de Dynamics 365 Dataverse durante o aprovisionamento. Dataverse é a orixe principal para a sincronización inicial. |
-| Tarefas do proxecto (msdyn_projecttasks) | 1.0.0.4 | Non é necesario para o aprovisionamento. |
-| Categorías de transacción de proxecto (msdyn_transactioncategories) | 1.0.0.0 | Non é necesario para o aprovisionamento. |
-| Proxectos V2 (msdyn_projects) | 1.0.0.2 | Non é necesario para o aprovisionamento. |
+| Asignación de entidades | Última versión | Sincronización inicial | Versión Dynamics 365 Finance obrigatoria |
+| --- | --- | --- | --- |
+| Entidade de integración para as relacións de transaccións do proxecto (msdyn\_transactionconnections) | 1.0.0.0 | Non é necesario para o aprovisionamento. ||
+| Cabeceiras de contrato de proxecto (pedidos de vendas) | 1.0.0.1 | Non é necesario para o aprovisionamento. ||
+| Liñas de contrato de proxecto (salesorderdetails) | 1.0.0.0 | Non é necesario para o aprovisionamento. ||
+| Orixe de financiamento do proxecto (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Non é necesario para o aprovisionamento. ||
+| Táboa de integración de Project Operations para estimacións de material (msdyn\_estimatelines) | 1.0.0.0 | Non é necesario para o aprovisionamento. ||
+| Propostas de factura de proxecto V2 (facturas) | 1.0.0.3 | Non é necesario para o aprovisionamento. ||
+| Datos reais de integración de Project Operations (msdyn_actuals) | 1.0.0.14 | Non é necesario para o aprovisionamento. ||
+| Fitos de liña de contrato de integración de Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Non é necesario para o aprovisionamento. ||
+| Entidade de integración de Project Operations para estimacións de gastos (msdyn_estimatelines) | 1.0.0.2 | Non é necesario para o aprovisionamento. ||
+| Entidade de integración de Project Operations para estimacións de horas (msdyn_resourceassignments) | 1.0.0.5 | Non é necesario para o aprovisionamento. ||
+| Entidade de exportación de categorías de gastos de proxecto de integración de Project Operations (msdyn_expensecategories) | 1.0.0.1 | Non é necesario para o aprovisionamento. ||
+| Entidade de exportación de gastos de proxecto de integración de Project Operations (msdyn_expenses) | 1.0.0.3 | Non é necesario para o aprovisionamento. ||
+| Entidade de exportación de facturas do fornecedor do proxecto de integración de Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Non é necesario para o aprovisionamento. ||
+| Entidade de exportación de liñas de facturas do fornecedor do proxecto de integración de Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Non é necesario para o aprovisionamento. | 10.0.26 ou posterior |
+| Roles de recursos do proxecto para todas as empresas (bookableresourcecategories) | 1.0.0.1 | É necesaria unha sincronización inicial para que o mapa de táboas sincronice os roles de recursos de xestor de proxectos e membros do equipo que se introducen no ambiente de Dynamics 365 Dataverse durante o aprovisionamento. Dataverse é a orixe principal para a sincronización inicial. ||
+| Tarefas do proxecto (msdyn_projecttasks) | 1.0.0.4 | Non é necesario para o aprovisionamento. ||
+| Categorías de transacción de proxecto (msdyn_transactioncategories) | 1.0.0.0 | Non é necesario para o aprovisionamento. ||
+| Proxectos V2 (msdyn_projects) | 1.0.0.2 | Non é necesario para o aprovisionamento. ||
 
 Realice os seguintes pasos para executar os mapas que se mostran.
 

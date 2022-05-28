@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 272101
 ms.assetid: 4505f021-b9bb-4b87-be24-6bf0bd88ee60
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989549"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683950"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Área de traballo móbil de entrada de tempo do proxecto
 
@@ -45,7 +44,7 @@ Especificamente, na área de traballo móbil **Entrada de tempo do proxecto**, o
 ## <a name="prerequisites"></a>Requisitos previos
 Os requisitos previos son diferentes segundo a versión de Microsoft Dynamics 365 que se despregou para a súa organización.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Requisitos previos se usa Dynamics 365 Finance
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Requisitos previos se usas Dynamics 365 Finance
 Se se despregou Finanzas para a súa organización, o administrador do sistema debe publicar a área de traballo móbil **Entrada do tempo do proxecto**. Para obter instrucións, consulte [Publicar unha área de traballo móbil](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Requisitos previos se usa a versión 1611 coa actualización da plataforma 3 ou posterior
@@ -83,7 +82,7 @@ Se se despregou a versión 1611 coa actualización da plataforma 3 ou posterior 
 
 ## <a name="download-and-install-the-mobile-app"></a>Descargar e instalar a aplicación móbil
 
-Descargar e instalar a aplicación móbil Finance and Operations:
+Descarga e instala a aplicación móbil Finance and Operations:
 
 -   [Para teléfonos Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

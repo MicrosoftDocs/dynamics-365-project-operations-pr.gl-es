@@ -1,28 +1,27 @@
 ---
-title: Sincronizar as categorías de gastos do proxecto entre Finance and Operations e Project Service Automation
-description: Este tema describe os modelos e as tarefas subxacentes que se usan para sincronizar as categorías de gastos do proxecto entre Microsoft Dynamics 365 Finance e Dynamics 365 Project Service Automation.
+title: Sincroniza as categorías de gastos do proxecto entre Finance and Operations e Project Service Automation
+description: Este tema describe os modelos e as tarefas subxacentes que se usan para sincronizar as categorías de gastos do proxecto Microsoft Dynamics 365 Finanzas e Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001114"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685468"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronizar as categorías de gastos do proxecto entre Finance and Operations e Project Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincroniza as categorías de gastos do proxecto entre Finance and Operations e Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
@@ -81,10 +80,10 @@ As categorías de gastos do proxecto xestiónanse en Finanzas e se sincronizan c
 
 ### <a name="power-query"></a>Power Query
 
-Cando se sincronice con Project Service Automation, debe empregar Microsoft Power Query for Excel para establecer o tipo de facturación na categoría de transaccións. O modelo de categorías de transaccións de gastos do proxecto (Fin e Ops a PSA) ofrece unha columna predefinida e asignación. Se crea o seu propio modelo, debe engadir unha columna condicional en Power Query. Siga estes pasos.
+Cando estea a sincronizar con Project Service Automation, debe usar Microsoft Power Query para que Excel estableza o tipo de facturación na categoría de transacción. O modelo de categorías de transaccións de gastos do proxecto (Fin e Ops a PSA) ofrece unha columna predefinida e asignación. Se creas o teu propio modelo, debes engadir unha columna condicional en Power Query. Siga estes pasos.
 
 1. Prema na frecha para abrir a asignación da tarefa de categorías de gastos do proxecto no modelo de categorías de transaccións de gastos de proxecto (Fin e Ops a PSA).
-2. Prema a ligazón **Consulta e filtrado avanzados** para abrir Power Query.
+2. Fai clic en **Consulta e filtrado avanzados** ligazón para abrir Power Query.
 2. Seleccione **Engadir columna condicional**.
 3. Introduza un nome para a nova columna, como **Tipo de facturación**.
 4. Introduza a seguinte condición: **if CATEGORYID not equal to null then 19235001, Otherwise null**.

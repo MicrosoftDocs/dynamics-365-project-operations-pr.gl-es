@@ -1,24 +1,23 @@
 ---
 title: Procesamento de recibos de gastos
-description: Este tema ofrece información sobre o procesamento de recoñecemento óptico de caracteres (OCR) para recibos. Esta funcionalidade está deseñada para mellorar a experiencia do usuario ao crear informes de gastos en Microsoft Dynamics 365 Finance.
+description: Este tema ofrece información sobre o procesamento de recoñecemento óptico de caracteres (OCR) para recibos. Esta función está deseñada para mellorar a experiencia do usuario cando se crean informes de gastos Microsoft Dynamics 365 Finanzas.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001384"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684318"
 ---
 # <a name="expense-receipt-processing"></a>Procesamento de recibos de gastos
 
@@ -51,7 +50,7 @@ Para crear un gasto ou emparellar un gasto desde un recibo, faga o seguinte:
 
 Esta funcionalidade funciona en combinación coa funcionalidade **Reinvención dos informes de gastos** para axudar a simplificar a experiencia dos gastos. Esta función só está dispoñible para ambientes de nivel 2+, que son Illamento de procesos e Produción.
 
-Para utilizar estas capacidades avanzadas de gastos, instale o complemento Servizo de xestión de gastos para Microsoft Dynamics 365 Finance e active as funcionalidades na súa instancia. Pode acceder ao complemento desde o seu proxecto en Microsoft Dynamics Lifecycle Services (LCS).
+Para usar estas capacidades de gastos avanzadas, instale o complemento do servizo de xestión de gastos para Microsoft Dynamics 365 Finance e activa as funcións na túa instancia. Pode acceder ao complemento desde o seu proxecto en Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Inicie sesión en LCS e abra o ambiente desexado.
 2. Vaia a **Detalles completos**.

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323909"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723674"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Novidades do acceso anticipado da onda 2 de 2021 - Despregamento de Project Operations lite
 
@@ -26,7 +26,7 @@ A versión só se aplica cando un ambiente o [se selecciona no acceso anticipado
 
 ## <a name="features-included-in-this-release"></a>Funcionalidades incluídas nesta versión
 
-[Xestión de subcontratos](../subcontracting/subcontracting_EA_scope.md) - Esta funcionalidade proporciona unha mellor visibilidade e control sobre todos os aspectos do traballo nun proxecto. A versión preliminar da xestión de subcontratos inclúe as seguintes capacidades:
+[Xestión de subcontratos](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) - Esta funcionalidade proporciona unha mellor visibilidade e control sobre todos os aspectos do traballo nun proxecto. A versión preliminar da xestión de subcontratos inclúe as seguintes capacidades:
 
   - Un xestor do proxecto pode crear un subcontrato cun fornecedor. De xeito predefinido, as listas de prezos que se xuntan ao rexistro do fornecedor úsanse para o subcontrato. A conta do fornecedor ten un tipo de relación de **Fornecedor** ou **Provedor**.
   - Un xestor do proxecto pode detallar todas as compras como elementos de liña no subcontrato. As liñas de subcontrato poden ser por tempo, gastos ou produtos. A clase de transacción da liña de subcontrato determina para que serve a liña.

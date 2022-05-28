@@ -3,25 +3,23 @@ title: Visión xeral das aplicacións móbiles do proxecto
 description: Este tema ofrece información xeral sobre as aplicacións relacionadas co tempo do proxecto para Microsoft Dynamics 365 Project Timesheet, Project Time Entry e My timesheets/Timesheets dispoñibles nun dispositivo móbil.
 author: Yowelle
 ms.date: 05/28/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 742bfc7bbf90feea638d5b5759f5aa7541d14c87ed96c3ad6f074684696e0c73
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 35ac2fa52f488d38be4b647ae8a3babe2b117f79
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005659"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685406"
 ---
 # <a name="project-mobile-applications-overview"></a>Visión xeral das aplicacións móbiles do proxecto
 
@@ -31,15 +29,15 @@ Están dispoñibles tres aplicacións móbiles relacionadas co tempo do proxecto
 
 ## <a name="project-timesheet-mobile-app"></a>Aplicación móbil de follas de control horario do proxecto
 
-A aplicación móbil Dynamics 365 Project Timesheet permite aos usuarios enviar e aprobar follas de control horario para proxectos no seu dispositivo móbil. Esta aplicación móbil presenta a funcionalidade da folla de control horario na área de xestión e contabilidade de proxectos de Dynamics 365 Finance. Axuda a mellorar a produtividade e eficiencia dos usuarios e tamén axuda á entrada e aprobación oportunas das follas de control horario do proxecto.
+A aplicación móbil Dynamics 365 Project Timesheet permite aos usuarios enviar e aprobar follas de control horario para proxectos no seu dispositivo móbil. Esta aplicación móbil mostra a funcionalidade da folla de horas na área de xestión e contabilidade de proxectos de Dynamics 365 Finance. Axuda a mellorar a produtividade e eficiencia dos usuarios e tamén axuda á entrada e aprobación oportunas das follas de control horario do proxecto.
 
 ## <a name="project-time-entry-workspace"></a>Espazo de traballo de Project Time Entry
 
-O espazo de traballo de Project Time Entry permite aos usuarios entrar e aforrar tempo nun proxecto. Non obstante, non permite aos usuarios enviar nin aprobar follas de control horario do proxecto. Só se pode usar para a entrada de tempo. Este espazo de traballo móbil está pensado para ser usado xunto coa aplicación móbil Finance and Operations.
+O espazo de traballo de Project Time Entry permite aos usuarios entrar e aforrar tempo nun proxecto. Non obstante, non permite aos usuarios enviar nin aprobar follas de control horario do proxecto. Só se pode usar para a entrada de tempo. Este espazo de traballo móbil está pensado para usarse xunto coa aplicación móbil de Finanzas e Operacións.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>My timesheets/Timesheets para a miña revisión
 
-My timesheets (optimizada para móbiles) e Timesheets for my review (optimizada para móbiles) constitúen unha solución que permite aos empregados crear, enviar e aprobar as follas de control horario do proxecto nun dispositivo móbil. Os traballadores poden acceder á funcionalidade de Finanzas a través do URL da aplicación. Esta solución non require a aplicación móbil Finance and Operations.
+My timesheets (optimizada para móbiles) e Timesheets for my review (optimizada para móbiles) constitúen unha solución que permite aos empregados crear, enviar e aprobar as follas de control horario do proxecto nun dispositivo móbil. Os traballadores poden acceder á funcionalidade de Finanzas a través do URL da aplicación. Esta solución non require a aplicación móbil de Finanzas e Operacións.
 
 ## <a name="for-more-information"></a>Para obter máis información
 
