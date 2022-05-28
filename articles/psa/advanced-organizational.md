@@ -1,5 +1,5 @@
 ---
-title: Unidades organizativas
+title: Unidades organizativas avanzadas
 description: Este tema fornece información sobre as unidades organizativas en Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
@@ -16,14 +16,15 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 80208be7be56d0b09354c45cd2afd96958daf985
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005074"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589424"
 ---
-# <a name="organizational-units"></a>Unidades organizativas 
+# <a name="about-organizational-units"></a>Sobre as unidades organizativas 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -77,14 +78,14 @@ Cando aplique Dynamics 365, optimice a autorización de seguridade para a xerarq
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Exemplo de unidades organizativas e unidades de negocio
 
-Contoso, Ltd. ten unha próspera práctica de tecnoloxía de Microsoft. Henrique e Lara son programadores de C\#, pero Lara está nos Estados Unidos, mentres que Henrique está na India. A maioría dos compromisos de proxectos requiren recursos de Contoso India e Contoso Estados Unidos, e Henrique e Lara requiren o mesmo nivel de acceso de seguridade aos proxectos nesta área de práctica. Non obstante, o custo dos programadores de Contoso India difire bastante do custo dos programadores de Contoso Estados Unidos.
+Contoso, Ltd. ten unha próspera práctica de tecnoloxía de Microsoft. Henrique e Lara son programadores de C\#, pero Lara está nos Estados Unidos, mentres que Henrique está na India. A maioría dos compromisos de proxectos requiren recursos de Contoso India e Contoso EUA, e Henrique e Lara requiren o mesmo nivel de acceso de seguridade aos proxectos nesta área de práctica. Non obstante, o custo dos programadores de Contoso India difire bastante do custo dos programadores de Contoso EUA.
 
 Este é un xeito óptimo de deseñar para este escenario empregando Dynamics 365 e PSA.
 
 1. Cree a práctica tecnolóxica de Microsoft como unidade empresarial e asocie a Henrique e Lara a ela. Deste xeito, pode axudar a garantir que os dous empregados teñan o mesmo nivel de acceso de seguridade para calquera proxecto nesa área de práctica. Ambos poderán comprobar o progreso e informar do tempo, gastos e actualizacións de tarefas. 
 2. Cree dúas unidades organizativas para garantir que o custo do proxecto estea reflectido correctamente. 
-3. Asocie a Lara con Contoso Estados Unidos e asocie a Henrique con Contoso India.
-4. Atribúa listas de prezos de custo a ambas unidades organizativas. Deste xeito, pode axudar a garantir que os custos que se rexistran no proxecto para Henrique e Lara reflicten con precisión a diferenza de custos entre Contoso Estados Unidos e Contoso India.
+3. Asocie a Lara con Contoso EUA e asocie a Henrique con Contoso India.
+4. Atribúa listas de prezos de custo a ambas unidades organizativas. Deste xeito, pode axudar a garantir que os custos que se rexistran no proxecto para Henrique e Lara reflicten con precisión a diferenza de custos entre Contoso EUA e Contoso India.
 
 ### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>As unidades organizativas están relacionadas coas zonas de vendas en Dynamics 365?
 
@@ -94,11 +95,11 @@ Unha unidade organizativa é un grupo ou división interna da empresa que rastre
 
 #### <a name="example-of-organizational-units-and-sales-territories"></a>Exemplo de unidades organizativas e zonas de vendas
 
-Contoso, Ltd. conta con dous centros de desenvolvemento: Contoso Estados Unidos e Contoso India. Os custos dos recursos difiren moito entre estes dous centros de desenvolvemento.
+Contoso, Ltd. conta con dous centros de desenvolvemento: Contoso EUA e Contoso India. Os custos dos recursos difiren moito entre estes dous centros de desenvolvemento.
 
 Contoso vende os seus servizos de TI en moitos mercados internacionais, como América Latina, América do Norte, Asia-Pacífico, Europa Occidental e Oriente Medio. As taxas de facturación para os mesmos roles de proxecto poden variar moito nestes mercados.
 
-Contoso Estados Unidos e Contoso India deberían constituírse como unidades organizativas e cada unidade organizativa debería ter a súa propia lista de prezos. Asia-Pacífico, América Latina, América do Norte, Europa Occidental e Oriente Medio deberían establecerse como zonas de vendas e cada zona de vendas debería ter a súa propia lista de prezos de vendas.
+Contoso EUA e Contoso India deberían constituírse como unidades organizativas e cada unidade organizativa debería ter a súa propia lista de prezos. Asia-Pacífico, América Latina, América do Norte, Europa Occidental e Oriente Medio deberían establecerse como zonas de vendas e cada zona de vendas debería ter a súa propia lista de prezos de vendas.
 
 ### <a name="why-is-there-a-restriction-on-the-association-of-price-lists-with-organizational-units"></a>Por que existe unha restrición na asociación de listas de prezos a unidades organizativas? 
 
@@ -122,7 +123,7 @@ Non. Na versión actual de PSA, as unidades organizativas non son xerárquicas. 
 Se ten unha xerarquía complexa de centros de custos, divisións, oficinas de facturación, etc., configure os nós folla desa xerarquía como unidades organizativas distintas.
 O seguinte exemplo mostra unha xerarquía típica:
 
-**ContosoIndia**
+**Contoso India**
 
   - Práctica de SAP 
 
@@ -134,7 +135,7 @@ O seguinte exemplo mostra unha xerarquía típica:
     - Consultores técnicos
     - Consultores funcionais 
     
-**Contoso Estados Unidos**
+**Contoso EUA**
 
  - Práctica de SAP 
 
@@ -151,10 +152,10 @@ Se a súa xerarquía é semellante, debe configurala como unha lista plana, como
 - Contoso India - Práctica de SAP - Consultores funcionais       
 - Contoso India - Práctica tecnolóxica de Microsoft - Consultores funcionais 
 - Contoso India - Práctica tecnolóxica de Microsoft - Consultores funcionais 
-- Contoso - Práctica de SAP - Consultores técnicos  
-- Contoso Estados Unidos - Práctica de SAP - Consultores funcionais  
-- Contoso Estados Unidos - Práctica tecnolóxica de Microsoft - Consultores técnicos 
-- Contoso Estados Unidos - Práctica tecnolóxica de Microsoft - Consultores funcionais
+- Contoso EUA - Práctica de SAP - Consultores técnicos  
+- Contoso EUA - Práctica de SAP - Consultores funcionais  
+- Contoso EUA - Práctica tecnolóxica de Microsoft - Consultores técnicos 
+- Contoso EUA - Práctica tecnolóxica de Microsoft - Consultores funcionais
 
 ### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-organizational-unit-concept-in-the-current-version-of-psa"></a>Somos unha pequena empresa de servizos profesionais que opera como unha única división. Como podemos empregar mellor o concepto de unidade organizativa na versión actual de PSA?
 

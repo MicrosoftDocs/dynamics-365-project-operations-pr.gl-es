@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 52e33ad3728e1a393e8c7e3ca4e0a4b506d0b774
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: 5bb54a121f0dc22f1c0ea88ada9c922c1d4c6544
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903663"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589746"
 ---
 # <a name="currency-mismatch-error"></a>Erro de incompatibilidade de moeda 
 
@@ -29,4 +29,4 @@ Para solucionar este problema, faga o seguinte:
 
 Se a moeda definida na unidade de contratación e o rexistro do libro maior non coinciden, axuste a configuración ou seleccione diferentes valores cando garde o rexistro. O sistema require que estes rexistros coincidan para garantir os fluxos correctos de facturación entre empresas. Para obter máis información sobre as configuracións entre empresas, consulte [Crea transaccións entre empresas](../../project-accounting/create-intercompany-transactions.md).
 
-Se o rexistro da empresa non ten ningún rexistro asociado, isto indica que falta unha configuración ao configurar o ambiente. A configuración debe ser corrixida polo administrador do sistema. O administrador do sistema debe ir a **Configuracións de dobre escritura** e parar e reiniciar **Ledgers mapa de escritura dual** coa sincronización inicial deste mapa e os seus requisitos previos. Para obter máis información, consulte [Versións de mapa de escrita dual de Project Operations](../../environment/resource-dual-write-maps.md).
+Se o rexistro da empresa non ten ningún rexistro asociado, isto indica que falta unha configuración ao configurar o ambiente. A configuración debe ser corrixida polo administrador do sistema. O administrador do sistema debe ir a **Configuracións de dobre escritura** e parar e reiniciar **Mapa de escritura dual Ledgers** coa sincronización inicial deste mapa e os seus requisitos previos. Para obter máis información, consulte [Versións de mapa de escrita dual de Project Operations](../../environment/resource-dual-write-maps.md).

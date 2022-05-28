@@ -1,24 +1,24 @@
 ---
 title: Aplicar os datos de demostración a un ambiente aloxado na nube de Finance
-description: Este tema explica como aplicar datos de demostración de Project Operations a un ambiente aloxado na nube de Dynamics 365 Finance.
+description: Este tema explica como aplicar datos de demostración de Project Operations a un ambiente Dynamics 365 Finance aloxado na nube.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009664"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588964"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Aplicar os datos de demostración a un ambiente aloxado na nube de Finance
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
 > [!IMPORTANT]
-> Este tema só é aplicable a Microsoft Dynamics 365 Finance versión 10.0.13 e só se pode executar nun ambiente aloxado na nube. Complete os pasos deste tema **ANTES** de aplicar actualizacións de calidade ao ambiente.
+> Este tema só é aplicable Microsoft Dynamics 365 Finance versión 10.0.13 e só se pode realizar nun ambiente aloxado na nube. Complete os pasos deste tema **ANTES** de aplicar actualizacións de calidade ao ambiente.
 
 1. No seu proxecto LCS, abra a páxina **Detalles do ambiente**. Teña en conta que inclúe os detalles necesarios para conectarse ao ambiente mediante o protocolo de escritorio remoto (RDP).
 
@@ -76,7 +76,7 @@ Isto tarda un par de minutos en completarse. Debería recibir unha mensaxe de co
 
 18. Peche a sesión de escritorio remoto e use a páxina **Detalles do ambiente** para iniciar sesión no ambiente e confirmar que funciona como se esperaba.
 
-![Finance and Operations.](./media/10FinanceAndOperations.png)
+![Finanzas e Operacións.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

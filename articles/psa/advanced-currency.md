@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 2925d431258a150d5830238fb5ff365499b1b440
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005119"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590160"
 ---
 # <a name="multiple-currency-scenarios"></a>Escenarios de varias moedas
 
@@ -34,7 +35,7 @@ Microsoft Dynamics 365 ten dous conceptos de moedas:
 - **Moeda de transacción** - A moeda na que se produce unha transacción. 
 - **Moeda base** - A moeda da instancia de Dynamics 365. Esta moeda configúrase cando se fornece unha instancia de Dynamics 365. Non se pode modificar.
 
-Por exemplo, Contoso Estados Unidos vendeu 100 camisetas a un cliente no Reino Unido por 15 libras esterlinas (GBP) cada unha. Na seguinte táboa móstrase como se rexistra esta transacción na entidade Pedir produto.
+Por exemplo, Contoso EU vendeu 100 camisetas a un cliente no Reino Unido por 15 libras esterlinas (GBP) cada unha. Na seguinte táboa móstrase como se rexistra esta transacción na entidade Pedir produto.
 
 | Produto | Cantidade | Prezo por unidade | Moeda | Importe | Taxa de cambio | Prezo por unidade (base)| Cantidade (base)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -66,7 +67,7 @@ PSA amplía o concepto de moeda da transacción para custo e vendas das seguinte
 
 ## <a name="multiple-currency-scenario"></a>Escenario de varias moedas
 
-Esta sección describe un exemplo dun proxecto que Contoso Reino Unido entrega para un cliente que se chama Fabrikam, de Xapón. Móstrase como se configurou o escenario:
+Esta sección describe un exemplo dun proxecto que Contoso UK entrega para un cliente que se chama Fabrikam, de Xapón. Móstrase como se configurou o escenario:
 
 1. Configúranse GBP e iens xaponeses (JPY) en **Configuración** \> **Xestión de empresa** \> **Moedas**. 
 2. Configúrase unha conta de cliente que leva o nome **Fabrikam - Xapón** e selecciónase JPY como moeda na conta.

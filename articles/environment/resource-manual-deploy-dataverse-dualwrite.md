@@ -4,14 +4,14 @@ description: Este tema explica como despregar manualmente a aplicación Project 
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986444"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591218"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Despregar manualmente a aplicación Project Operations Dataverse con soporte de escrita dual
 
@@ -37,7 +37,7 @@ Para completar este procedemento, debe iniciar sesión como administrador.
 3. Seleccione o tipo de ambiente. Se se rexistrou para a oferta de proba, seleccione **Proba (baseada en subscrición)**.
 4. Confirme a rexión de despregamento.
 5. Active a opción **Crear unha base de datos para este ambiente**. 
-6. Confirme o idioma e, a seguir, confirme que a moeda coincide coa moeda para as súas aplicacións de Finance and Operations.
+6. Confirma o idioma e, a continuación, confirma que a moeda coincide coa moeda das túas aplicacións de Finanzas e Operacións.
 7. Active a opción **Aplicacións de Dynamics 365** e confirme que o campo **Despregar automaticamente estas aplicacións** está definido como **Ningunha**.
 8. Engada un grupo de seguranza, se é necesario un grupo de seguranza.
 9. Seleccione **Gardar** para crear o ambiente.
@@ -62,4 +62,4 @@ Só pode completar este procedemento se completou os procedementos anteriores an
 
 ## <a name="link-your-environments"></a><a name="link"></a>Ligar os seus ambientes
 
-Despois do despregamento de Dataverse, pode configurar a ligazón nas súas aplicacións de Finance and Operations. Siga os pasos indicados en [Usar asistente de escrita dual para ligar os seus ambientes](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Tras o Dataverse está implantado, podes configurar a ligazón nas túas aplicacións de Finanzas e Operacións. Siga os pasos indicados en [Usar asistente de escrita dual para ligar os seus ambientes](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

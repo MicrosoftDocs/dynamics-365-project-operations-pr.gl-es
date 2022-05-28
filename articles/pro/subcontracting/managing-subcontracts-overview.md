@@ -3,15 +3,15 @@ title: Xestión de subcontratos en Project Operations
 description: Este tema ofrece unha visión xeral do proceso de xestión de subcontratos de extremo a extremo normalmente en organizacións baseadas en proxectos.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323594"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593012"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Xestión de subcontratos en Project Operations
 
@@ -46,7 +46,7 @@ Unha liña de subcontrato pode estar baseada na cantidade ou no traballo.
 
 Cando unha liña de subcontrato está **baseada en cantidade**, a cantidade que se compra na liña de subcontrato por tempo, gasto ou material pode usarse en calquera proxecto.
 
-Cando unha liña de subcontrato está **baseada no traballo**, a liña de subcontrato asígnase a un corpo de traballo representado por un nó no plan do proxecto. O valor da liña de subcontrato é a suma de todos os compoñentes necesarios para entregar ese corpo de traballo. Estes modélanse como detalles da liña de subcontrato e poden ser unha colección de tempo, gastos ou materiais. Para unha liña de subcontrato baseada en traballo, a liña de subcontrato tamén está dedicada a un único proxecto.
+Cando unha liña de subcontrato está **baseada no traballo**, a liña de subcontrato asígnase a un corpo de traballo representado por un nó no plan do proxecto. O valor da liña de subcontrato é a suma de todos os compoñentes necesarios para entregar ese corpo de traballo. Estes modélanse como detalles da liña de subcontrato e poden ser unha colección de tempo, gastos ou materiais. Para unha liña de subcontrato baseada en traballo, a liña de subcontrato tamén está dedicada a un único proxecto. Estes tipos de subcontratos non están actualmente soportados por Project Operations.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

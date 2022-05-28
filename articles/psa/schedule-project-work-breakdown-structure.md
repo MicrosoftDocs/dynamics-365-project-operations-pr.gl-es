@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 24e13642ac1fb9e90daab6d8aa9b16ed9c2defbf
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996794"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587354"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Programar un proxecto coa estrutura de subdivisión do traballo (Project Service)
 
@@ -63,7 +64,7 @@ Unha programación de proxecto communica que traballo é necesario levar a cabo,
 ## <a name="task-types"></a>Tipos de tarefa  
 Usará os seguintes tipos de tarefas ao crear a estrutura de subdivisión do traballo:  
 
-| | | 
+| Tarefa | Descripción | 
 |---------------------------------------|-----------------------------------------------------------------| 
 | **Nó de raíz de proxecto** | Tarefa de resumo de nivel superior para o proxecto. Todas as outras tarefas de proxecto créanse nela. O nome da tarefa de raíz é o nome de proxecto. O esforzo, as datas e a duración do nó de raíz están baseados nos valores na xerarquía de abaixo. Non se poden editar os nós de propiedades ou eliminar o nó de raíz. | 
 | **Tarefas de resumo ou contedor** | Unha tarefa de resumo é unha tarefa con subtarefas. Unha tarefa de resumo non ten un esforzo de traballo ou custo propio. O esforzo de traballo e o custo son un resumo das subtarefas. Pode modificar o nome dunha tarefa de resumo, mais non pode cambiar o esforzo, as datas ou a duración, porque eses calcúlanse automaticamente. Ao eliminar unha tarefa de resumo elimínase a tarefa e todas as subtarefas.|  

@@ -4,14 +4,14 @@ description: Este tema ofrece información sobre como subscribirse e despregar o
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991529"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587998"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Rexistrarse para unha subscrición de previsualización - lite 
 
@@ -40,10 +40,10 @@ Antes de comezar, asegúrese de iniciar sesión nun explorador coa conta de trab
 ## <a name="assign-licenses"></a>Atribuír licenzas
 
 > [!IMPORTANT]
-> Necesitará acceso administrativo ao portal de Microsoft 365 da súa organización para completar os seguintes pasos.
+> Necesitará acceso administrativo ao portal Microsoft 365 da súa organización para completar os seguintes pasos.
 
 
-1. Vaia a [Centro de administración de Microsoft 365](https://portal.office.com/) para atribuír as licenzas aos seus usuarios.
+1. Ir a [Microsoft 365 centro de administración](https://portal.office.com/) para asignar as licenzas aos seus usuarios.
 2. Na páxina **Usuarios activos**, seleccione os usuarios aos que desexa atribuír unha licenza.
 3. Verifique que a licenza de **Dynamics 365 Project Operations** está seleccionada. 
 4. Seleccione **Gardar as modificacións**.

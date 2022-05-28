@@ -4,14 +4,14 @@ description: Este tema ofrece información sobre como crear facturas de clientes
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d32d7a0b96daf9a2a48e16d62de8319636737740601481b85ee887948e31110
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9448cb29adb4206efaabe3f313a1f619cd32b9be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989248"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591494"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Crear facturas entre empresas de clientes e fornecedores
 
@@ -27,7 +27,7 @@ Utilice este procedemento para crear manualmente unha factura de cliente entre e
 
 Os seguintes pasos deben realizarse na entidade legal prestamista. 
 
-1. En Dynamics 365 Finance, vaia a **Xestión e contabilidade de proxectos** > **Facturas do proxecto** > **Facturas de clientes entre empresas**. Na páxina de lista **Facturas de clientes entre empresas**, no Panel de acción, seleccione **Novo.**
+1. En Dynamics 365 Finance, vai a **Xestión de proxectos e contabilidade** > **Facturas do proxecto** > **Facturas de clientes interempresas**. Na páxina de lista **Facturas de clientes entre empresas**, no Panel de acción, seleccione **Novo.**
 2. Na páxina **Crear factura entre empresas**, no campo **Entidade legal**, seleccione unha entidade legal prestameira.
 3. Opcional: Introduza un contrato de proxecto e un número de proxecto específicos.
 4. Limite a busca seleccionando un intervalo de datas. Insira datas específicas nos campos **Data de inicio** e **Data de finalización**. Nos resultados da busca só se amosan as transaccións entre empresas que se contabilicen dentro deste intervalo de datas.

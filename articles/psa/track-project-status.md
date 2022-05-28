@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32e5867a773206aaed532645302b7f7cc789d5074f9acdb3bbb95acf8492d25e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 58274886a9f9ce6ae49c64c1d7ac491e29c7d06c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996704"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593380"
 ---
 # <a name="track-a-projects-status-project-service"></a>Rastrexar o estado dun proxecto (Project Service)
 
@@ -33,14 +34,13 @@ Utilice a [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-proj
 
 A medida que o compromiso progresa, as fases do proxecto actualízanse para reflectir a fase do compromiso:  
 
-
-|              |                                                                                                                                                                                                                                                                                                  |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   **Novo**    | Ao crear un proxecto, a fase está definida en **Nova**. Se creou o proxecto a partir dun modelo, nesta fase o proxecto pode ter unha programación, estimacións e datos de equipo. En caso contrario, será o esquema do proxecto e terá que introducir o resto dos compoñentes do proxecto manualmente. |
-|  **Oferta**   |      Cando asocia un proxecto a unha oferta ou crea un proxecto a partir dunha oferta, a fase de proxecto está definida en **Oferta**, e as datas de inicio e fin estimadas tamén se actualizan. Cando o proxecto está en fase de oferta, móstranse detalles da oferta no separador **Sales** na páxina **Proxecto**.      |
-|   **Planificar**   |                                     Cando gaña unha oferta asociada a un proxecto, e cando o compromiso progresa á fase de contrato, a fase de proxecto actualízase a **Planificar**. A información do contrato aparece no separador **Sales** na páxina **Proxecto**.                                      |
-| **Completada** |                    Cando conclúa o traballo de proxecto, pode cambiar a fase a **Concluído**. Cando a fase de proxecto está definida en concluído, enténdese que o traballo está o 100% concluído pero o proxecto queda aberto para entradas de tempo ou gastos pendentes de ser rexistradas.                     |
-|  **Pechar**   |           Cando todas as transaccións están rexistradas no proxecto e non espera máis, pode manualmente configurar a fase a **Pechar**. Cando o proxecto está definido como **Pechar**, non pode rexistrar máis transaccións no proxecto e o proxecto será só de lectura.           |
+| Tarefa | Descripción | 
+|------------|----------|
+| **New** | Ao crear un proxecto, a fase está definida en **Nova**. Se creou o proxecto a partir dun modelo, nesta fase o proxecto pode ter unha programación, estimacións e datos de equipo. En caso contrario, será o esquema do proxecto e terá que introducir o resto dos compoñentes do proxecto manualmente. |
+| **Oferta** |  Cando asocia un proxecto a unha cotización ou o crea a partir dunha cotización, establécese a fase do proxecto en **Cita**, e tamén se actualizan as datas estimadas de inicio e finalización. Cando o proxecto está en fase de oferta, móstranse detalles da oferta no separador **Sales** na páxina **Proxecto**. |
+| **Planificar** |  Cando gaña unha oferta asociada a un proxecto, e cando o compromiso progresa á fase de contrato, a fase de proxecto actualízase a **Planificar**. A información do contrato aparece no separador **Sales** na páxina **Proxecto**. |
+| **Completada** | Cando conclúa o traballo de proxecto, pode cambiar a fase a **Concluído**. Cando a fase de proxecto está definida en concluído, enténdese que o traballo está o 100% concluído pero o proxecto queda aberto para entradas de tempo ou gastos pendentes de ser rexistradas. |
+| **Pechar** | Cando todas as transaccións están rexistradas no proxecto e non espera máis, pode manualmente configurar a fase a **Pechar**. Cando o proxecto está definido como **Pechar**, non pode rexistrar máis transaccións no proxecto e o proxecto será só de lectura. |
 
 ## <a name="to-track-a-projects-status"></a>Para rastrexar o estado dun proxecto  
 
