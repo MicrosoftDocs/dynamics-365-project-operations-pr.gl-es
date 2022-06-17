@@ -1,6 +1,6 @@
 ---
 title: Planificación e rastrexo de proxectos
-description: Este tema fornece unha ligazón a información sobre planificación e rastrexo en Project Service Automation.
+description: Este artigo ofrece unha ligazón a información sobre a planificación e o seguimento en Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589884"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933260"
 ---
 # <a name="project-planning-and-tracking"></a>Planificación e rastrexo de proxectos
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589884"
 
 A aplicación Project Service axuda ás organizacións de servizo a identificar oportunidades, presentar ofertas, alcanzar acordos contractuais, xestionar recursos, rastrexar tempo e gastos, facturar a clientes e entregar proxectos a tempo e dentro do orzamento. 
 
-Eliminouse a ligazón en formato PDF que antes había neste tema e o contido trasladouse aos seguintes temas:
+Eliminouse a ligazón PDF que estaba anteriormente neste artigo e o contido moveuse aos artigos seguintes:
 
 - [Programas de proxecto](../project-creating.md)
 - [Custos e ingresos de proxecto](../project-estimating.md)
@@ -43,7 +43,7 @@ Eliminouse a ligazón en formato PDF que antes había neste tema e o contido tra
 - [Configuración de proxecto](../project-settings.md)
 
 > [!NOTE]
-> Este tema eliminarase nunha futura actualización da documentación. 
+> Este artigo eliminarase nunha futura actualización da documentación. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

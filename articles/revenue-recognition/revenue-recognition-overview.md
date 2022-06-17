@@ -1,23 +1,23 @@
 ---
 title: Visión xeral do recoñecemento de ingresos
-description: Este tema fornece información sobre o recoñecemento de ingresos en Project Operations.
+description: Este artigo ofrece información sobre o recoñecemento de ingresos en Operacións do proxecto.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 51c553ecf45452615cbcadce6386f32be427acaa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 22486693226256f765589b272e6df36aceaf9c1c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601430"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926268"
 ---
 # <a name="revenue-recognition-overview"></a>Visión xeral do recoñecemento de ingresos
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-En Dynamics 365 Project Operations, os principios de recoñecemento de ingresos varían en función do método de facturación seleccionado para un proxecto ou parte do proxecto. Este tema fornece información sobre o recoñecemento de ingresos en Project Operations.
+En Dynamics 365 Project Operations, os principios de recoñecemento de ingresos varían en función do método de facturación seleccionado para un proxecto ou parte do proxecto. Este artigo ofrece información sobre o recoñecemento de ingresos en Operacións do proxecto.
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>Transaccións contabilizadas mediante o método de facturación de tempo e material
 

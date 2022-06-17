@@ -1,19 +1,19 @@
 ---
-title: Liñas de facturas de provedores para produtos
-description: Este tema explica como rexistrar liñas de factura de provedores para produtos e utilizar os diferentes campos para rexistrar as compras de produtos dos provedores.
+title: Liñas de factura de fornecedor para produtos
+description: Este artigo explica como rexistrar liñas de factura de provedores para produtos e usar os diferentes campos para rexistrar as compras de produtos dos provedores.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: af078cd4392f8353b509db2dc48dc5237b8ee275
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 206dd36a1a1e7141678da27d76a99561ac89044b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599176"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931374"
 ---
-# <a name="vendor-invoice-lines-for-products"></a>Liñas de facturas de provedores para produtos
+# <a name="vendor-invoice-lines-for-products"></a>Liñas de factura de fornecedor para produtos
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -39,7 +39,7 @@ A seguinte táboa ofrece información sobre os campos das liñas de factura de p
 | Produto | Seleccione o produto do catálogo. Se o produto é un produto escrito, introduza o nome do produto. | Este campo úsase para introducir os prezos de compra predeterminados dos produtos existentes. |
 | Cantidade | Introduza a cantidade de material que está a ser facturado polo provedor nesta liña de factura. | Nada |
 | Grupo de unidades | Seleccione o grupo de unidades da unidade no que se expresa a cantidade que se está a facturar. | Nada |
-| Unidade | O valor predeterminado é a unidade base do grupo de unidades seleccionado. Podes cambiar este valor para pagar en calquera unidade do grupo de unidades seleccionado. | A combinación de **Produto** e **Unidade** os valores serán usados como valor predeterminado ou calculado para o **Prezo por unidade** campo na liña de factura do provedor. |
+| Unidade | O valor predeterminado é a unidade base do grupo de unidades seleccionado. Podes cambiar este valor para pagar en calquera unidade do grupo de unidades seleccionado. | A combinación de **Produto** e **Unidade** os valores empregaranse como valor predeterminado ou calculado para o **Prezo por unidade** campo na liña da factura do provedor. |
 | Prezo por unidade | O prezo unitario predeterminado utiliza a combinación de **Produto** e **Unidade** valores da lista de prezos do proxecto aplicables á data de transacción da liña de factura do provedor. | Nada |
 | Subtotal | Este campo de só lectura calcúlase como *Cantidade*&times;*Prezo por unidade*, se se introducen valores en ambos **Cantidade** campo e o **Prezo por unidade** campo. Se un ou os dous campos están en branco, pode introducir un valor neste campo. | Nada |
 | Imposto de vendas | Introduza o importe do imposto de vendas. | Nada |

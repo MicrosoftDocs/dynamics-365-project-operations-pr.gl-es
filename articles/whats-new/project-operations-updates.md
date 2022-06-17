@@ -1,18 +1,18 @@
 ---
 title: Actualizacións de Project Operations
-description: Este tema ofrece información sobre as versións lanzadas de Dynamics 365 Project Operations.
+description: Este artigo ofrece información sobre as versións publicadas de Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0dfcd47e0c8ac2d9edd45049ffefb6e364c8aa4b
-ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
-ms.translationtype: HT
+ms.openlocfilehash: 4875e742c701b741df06e4225053d28f04781ff3
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732929"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959647"
 ---
 # <a name="project-operations-updates"></a>Actualizacións de Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations consta de dous compoñentes:
 
 | Project Operations en ambiente de Dataverse | Xestión de proxectos e contabilidade en contornos de aplicacións de Finanzas e Operacións | 
 | --- | --- |
-| 4.42.0.70 | 10.0.26 |
+| 4.43.0.77 | 10.0.26 |
 
 Para o escenario de recursos de operacións do proxecto/non abastecido, recomendámosche que utilices a versión de orquestración de escritura dual 2.3.1.15 ou superior.
 
@@ -47,24 +47,24 @@ As actualizacións para Project Operations en ambiente de Dataverse están dispo
 | Estación | Rexión | Número da versión actual | Actualizacións automáticas para despregamento Lite | Actualizacións automáticas para despregamento de recursos/sen fornecemento | Número da versión seguinte | A seguinte versión está dispoñible xeralmente |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Estación 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Primeira versión         |  4.42.0.70      | Concluída           | Concluída            | A determinar                 | 27 de maio de 2022        |
+|   &nbsp;  | Primeira versión         |  4.43.0.77      | Concluída           | Concluída            | A determinar                 | 01 de xullo de 2022       |
 | Estación 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | América do Sur         |  4.42.0.70      | Concluída           | Concluída            | A determinar                 | 27 de maio de 2022        |
-|   &nbsp;  | O Canadá                |  4.42.0.70      | Concluída           | Concluída            | A determinar                 | 27 de maio de 2022        |
-|   &nbsp;  | A India                 |  4.42.0.70      | Concluída           | Concluída            | A determinar                 | 27 de maio de 2022        |
-|   &nbsp;  | Francia                |  4.42.0.70      | Concluída           | Concluída            | A determinar                 | 27 de maio de 2022        |
-|   &nbsp;  | Sudáfrica          |  4.42.0.70      | Concluída           | Concluída            | A determinar                 | 27 de maio de 2022        |
-|   &nbsp;  | Suíza           |  4.42.0.70      | Concluída           | Concluída            | A determinar                 | 27 de maio de 2022        |
+|   &nbsp;  | América do Sur         |  4.43.0.77      | Concluída           | Concluída            | A determinar                 | 01 de xullo de 2022       |
+|   &nbsp;  | O Canadá                |  4.43.0.77      | Concluída           | Concluída            | A determinar                 | 01 de xullo de 2022       |
+|   &nbsp;  | A India                 |  4.43.0.77      | Concluída           | Concluída            | A determinar                 | 01 de xullo de 2022       |
+|   &nbsp;  | Francia                |  4.43.0.77      | Concluída           | Concluída            | A determinar                 | 01 de xullo de 2022       |
+|   &nbsp;  | Sudáfrica          |  4.43.0.77      | Concluída           | Concluída            | A determinar                 | 01 de xullo de 2022       |
+|   &nbsp;  | Suíza           |  4.43.0.77      | Concluída           | Concluída            | A determinar                 | 01 de xullo de 2022       |
 | Estación 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | O Xapón                 |  4.42.0.70      | 13 de maio de 2022       | 13 de maio de 2022        | A determinar                 | 03 de xuño de 2022       |
-|   &nbsp;  | Asia Pacífico          |  4.42.0.70      | 13 de maio de 2022       | 13 de maio de 2022        | A determinar                 | 03 de xuño de 2022       |
-|   &nbsp;  | Gran Bretaña         |  4.42.0.70      | 13 de maio de 2022       | 13 de maio de 2022        | A determinar                 | 03 de xuño de 2022       |
-|   &nbsp;  | Oceanía               |  4.42.0.70      | 13 de maio de 2022       | 13 de maio de 2022        | A determinar                 | 03 de xuño de 2022       |
-|   &nbsp;  | Emiratos Árabes Unidos  |  4.42.0.70      | 13 de maio de 2022       | 13 de maio de 2022        | A determinar                 | 03 de xuño de 2022       |
+|   &nbsp;  | O Xapón                 |  4.43.0.77      | 03 de xuño de 2022      | 03 de xuño de 2022       | A determinar                 | 08 de xullo de 2022       |
+|   &nbsp;  | Asia Pacífico          |  4.43.0.77      | 03 de xuño de 2022      | 03 de xuño de 2022       | A determinar                 | 08 de xullo de 2022       |
+|   &nbsp;  | Gran Bretaña         |  4.43.0.77      | 03 de xuño de 2022      | 03 de xuño de 2022       | A determinar                 | 08 de xullo de 2022       |
+|   &nbsp;  | Oceanía               |  4.43.0.77      | 03 de xuño de 2022      | 03 de xuño de 2022       | A determinar                 | 08 de xullo de 2022       |
+|   &nbsp;  | Emiratos Árabes Unidos  |  4.43.0.77      | 03 de xuño de 2022      | 03 de xuño de 2022       | A determinar                 | 08 de xullo de 2022       |
 | Estación 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.41.0.45      | Concluída           | Concluída            | 4.42.0.70           | 13 de maio de 2022        |
+|   &nbsp;  | Europa                |  4.42.0.70      | Concluída           | Concluída            | 4.43.0.77           | 10 de xuño de 2022       |
 | Estación 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | América do Norte         |  4.41.0.45      | Concluída           | Concluída            | 4.42.0.70           | 20 de maio de 2022        |
+|   &nbsp;  | América do Norte         |  4.42.0.70      | Concluída           | Concluída            | 4.43.0.77           | 17 de xuño de 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Programa de lanzamento para a xestión de proxectos e a contabilidade no contorno das aplicacións de Finanzas e Operacións
 

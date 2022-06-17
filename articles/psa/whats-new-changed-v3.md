@@ -1,6 +1,6 @@
 ---
 title: Novidades ou cambios na versión 3 de Project Service Automation
-description: Este tema fornece información sobre as novidades e as modificacións na versión 3 de Project Service Automation.
+description: Este artigo ofrece información sobre as novidades e as modificacións da versión 3 de Project Service Automation.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581650"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926590"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novidades ou cambios na versión 3 de Project Service Automation
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581650"
 
 
 
-Este tema proporciona información sobre os cambios na interface de usuario (IU), funcionalidade e terminoloxía en Project Service Automation entre a versión 2 ou a versión 1 e a versión 3.
+Este artigo ofrece información sobre os cambios na interface de usuario (UI), a funcionalidade e a terminoloxía en Project Service Automation entre a versión 2 ou a versión 1 e a versión 3.
 
 ## <a name="project-scheduling"></a>Programación de proxecto
 A programación do proxecto, que se coñecía como a estrutura de subdivisión do traballo (WBS) en versións anteriores, pasou a denominarse Programación e se accede a ela premendo o separador **Programación**. 
@@ -150,7 +150,7 @@ Cando teña atribucións de tarefas para un recurso sen reservas (escaseza de re
 Esta sección ofrece información sobre os cambios no tempo, gasto e aprobación na versión 3 de Project Service Automation. Como parte da solución Dynamics 365 Project Service Automation, actualizouse a funcionalidade **Entrada de tempo** para aproveitar o marco da interface unificada. Isto permite a entrega dunha interface de usuario uniforme e coherente que segue un deseño sensible para una visualización óptima en calquera tamaño de pantalla ou dispositivo. 
 
 ### <a name="landing-page"></a>Páxina de destino
-A experiencia de entrada de tempo personalizada non extensible quedou desfasada na versión 3. No seu lugar, agora hai unha experiencia de grade nativa extensible e accesible. Pode acceder á funcionalidade de entrada de tempo empregando o mapa do sitio á esquerda. Con ese cambio, xa non poderá introducir o tempo dunha semana á vez. No seu lugar, terá que crear unha entrada de tempo para cada día na grade. Despois de crear algunhas entradas de tempo, os usuarios poden crear entradas de tempo en masa coa función **Copiar** que se explica más adiante neste tema. 
+A experiencia de entrada de tempo personalizada non extensible quedou desfasada na versión 3. No seu lugar, agora hai unha experiencia de grade nativa extensible e accesible. Pode acceder á funcionalidade de entrada de tempo empregando o mapa do sitio á esquerda. Con ese cambio, xa non poderá introducir o tempo dunha semana á vez. No seu lugar, terá que crear unha entrada de tempo para cada día na grade. Despois de crear entradas de tempo, os usuarios poden crear entradas de tempo en masa **Copiar** función explicada máis adiante neste artigo. 
 
 ![Páxina de destino da entrada de tempo.](media/time-entry-landing-page-07.png)
  

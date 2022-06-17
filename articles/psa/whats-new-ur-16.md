@@ -1,6 +1,6 @@
 ---
 title: Novidades ou cambios na versión 16 de actualización de Project Service Automation, V3
-description: Este tema mostra as funcionalidades e correccións que están dispoñibles la versión 16 de actualización de Project Service Automation, V3.
+description: Este artigo enumera as funcións e correccións dispoñibles na actualización 16, V3 de Project Service Automation.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 5651f8b3a2ddf406fcfd7a4e21901c53789fa4ed
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e4429ace3d8206369b91917cf87f6968fbb12277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577372"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926498"
 ---
 # <a name="project-service-automation-update-release-16-v3"></a>Versión 16 de actualización de Project Service Automation, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Comprácenos anunciar a última actualización da aplicación Project Service Automation para Dynamics 365. Esta versión inclúe algunhas melloras importantes na calidade, rendemento e facilidade de uso.  Esta versión é compatible con Dynamics 365 9.x. Para actualizar a esta versión, visite a paxina de solucións do Centro de administración para Dynamics 365 en liña para instalar a actualización. Para obter máis información, consulte [Instalar e actualizar unha solución preferida](/dynamics365/project-service/upgrade-psa-home-page)
-Este tema mostra as funcionalidades e correccións que son novas ou modificadas para PSA V3, versión 16 de actualización. Esta versión ten un número de compilación de V3.10.6.34 e está dispoñible xeralmente a través dunha autoactualización desde xaneiro de 2020.
+Este artigo enumera as funcións e correccións novas ou modificadas para PSA V3, actualización 16. Esta versión ten un número de compilación de V3.10.6.34 e está dispoñible xeralmente a través dunha autoactualización desde xaneiro de 2020.
 
 
 ## <a name="update-release-16"></a>Versión 16 de actualización

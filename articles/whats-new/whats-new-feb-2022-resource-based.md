@@ -1,24 +1,24 @@
 ---
 title: Novidades de febreiro de 2022 - Project Operations para situacións baseadas en recursos/sen fornecemento
-description: Este tema ofrece información sobre as actualizacións de calidade que están dispoñibles na versión de febreiro de 2022 de Project Operations para escenarios baseados en recursos ou non almacenados.
+description: Este artigo ofrece información sobre as actualizacións de calidade que están dispoñibles na versión de febreiro de 2022 de Project Operations para escenarios baseados en recursos ou non abastecidos.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 76ae00517c857415c89d7a03f421686dad28da93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b036c0a3c39c52cb15277293679ef88906cae2c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600832"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932984"
 ---
 # <a name="whats-new-february-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de febreiro de 2022 - Project Operations para situacións baseadas en recursos/sen fornecemento
 
 *Aplícase a: Project Operations para situacións baseadas en recursos/sen fornecemento*
 
-Este tema aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
+Este artigo aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
 
 - Operacións do proxecto en a Dataverse versión do entorno 4.28.0.120
 - Xestión de proxectos e contabilidade nun entorno Dynamics 365 Finance versión 10.0.24
@@ -39,7 +39,7 @@ Para ver a lista e as versións actuais dos mapas de dobre escritura de Project 
 
 Executa sempre a versión máis recente do mapa no teu entorno e activa todos os mapas de táboas relacionados mentres actualizas as operacións do teu proxecto Dataverse solución e versión de solución financeira. Algunhas funcións e capacidades poden non funcionar correctamente se a última versión do mapa non está activada. Pode ver a versión activa do mapa na columna **Versión** columna na páxina **Escrita dual**. Para activar unha nova versión do mapa, seleccione **Versións do mapa de táboa**, seleccione a versión máis recente e logo garde a versión seleccionada. Se personalizou un mapa de táboas listo para usar, volve aplicar os cambios. Para obter máis información, consulte [Xestión do ciclo de vida da aplicación](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Se atopas algún problema ao iniciar o mapa, siga as instrucións da páxina [Faltan columnas da táboa nos mapas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) sección da guía de solución de problemas de escritura dual.
+Se atopas algún problema ao iniciar o mapa, siga as instrucións da páxina [Faltan columnas da táboa nos mapas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) sección da guía de solución de problemas de Dual Write.
 
 ## <a name="quality-updates"></a>Actualizacións de calidade
 
@@ -63,10 +63,10 @@ Se atopas algún problema ao iniciar o mapa, siga as instrucións da páxina [Fa
 | Área de funcionalidades | Número de referencia | Actualización de calidade |
 | --- | --- | --- |
 | Xestión e contabilidade de proxectos | [615496](https://fix.lcs.dynamics.com/Issue/Details/?bugId=615496) | Durante a importación de notas de crédito do provedor, ocorre un erro. A mensaxe de erro indica: "A cantidade de retención non pode ser superior á cantidade neta restante". |
-| Xestión e contabilidade de proxectos | [619391](https://fix.lcs.dynamics.com/Issue/Details/?bugId=619391) | Se unha proposta de factura inclúe transaccións de tarifas de importe cero que sexan reais de vendas sen facturar, non se poderá facturar. |
+| Xestión e contabilidade de proxectos | [619391](https://fix.lcs.dynamics.com/Issue/Details/?bugId=619391) | Se unha proposta de factura inclúe transaccións de tarifas de importe cero que sexan reais de vendas sen facturar, non se pode facturar. |
 | Xestión e contabilidade de proxectos | [624423](https://fix.lcs.dynamics.com/Issue/Details/?bugId=624423) | O custo publicado non é correcto despois de que se actualice o prezo de compra e **Activar a xestión de cambios** está activado.|
-| Xestión e contabilidade de proxectos | [628386](https://fix.lcs.dynamics.com/Issue/Details/?bugId=628386) | A estimación de contabilización dun proxecto de prezo fixo utiliza a moeda e o importe incorrectos no comprobante de estimación, aínda que o **Activa a moeda do contrato do proxecto para o cálculo da estimación** a función está activada. |
-| Xestión e contabilidade de proxectos | [629239](https://fix.lcs.dynamics.com/Issue/Details/?bugId=629239) | **ProjDMFDataPopulation\_ Extensión** non debería facer unha chamada para activar o seguimento de cambios sen detectar excepcións para as entidades que teñen claves de configuración que non están activadas. |
+| Xestión e contabilidade de proxectos | [628386](https://fix.lcs.dynamics.com/Issue/Details/?bugId=628386) | A estimación de contabilización dun proxecto de prezo fixo utiliza a moeda e o importe incorrectos no comprobante de estimación, mesmo cando o **Activa a moeda do contrato do proxecto para o cálculo da estimación** a función está activada. |
+| Xestión e contabilidade de proxectos | [629239](https://fix.lcs.dynamics.com/Issue/Details/?bugId=629239) | **ProjDMFDataPopulación\_ Extensión** non debería facer unha chamada para activar o seguimento de cambios sen detectar excepcións para as entidades que teñen claves de configuración que non están activadas. |
 | Xestión e contabilidade de proxectos | [623818](https://fix.lcs.dynamics.com/Issue/Details/?bugId=623818) | O traballo por lotes arranxase cando se publican varias revistas avanzadas e se produce un erro. |
 | Viaxes e gasto | [616805](https://fix.lcs.dynamics.com/Issue/Details/?bugId=616805) | Debido a un problema de liquidación relacionado cos avances en efectivo nos informes de gastos, o importe do imposto non está cuberto como parte do anticipo en efectivo. |
 | Viaxes e gasto | [616959](https://fix.lcs.dynamics.com/Issue/Details/?bugId=616959) | A información do imposto sobre vendas non está incluída no **Gastos - Transaccións contabilizadas** informe. |
@@ -76,11 +76,11 @@ Se atopas algún problema ao iniciar o mapa, siga as instrucións da páxina [Fa
 
 ## <a name="removed-and-deprecated-features"></a>Funcións eliminadas e obsoletas
 
-O [Funcións eliminadas ou obsoletas en Project Operations](removed-depreciated-features-project.md) o tema describe funcións que foron eliminadas ou obsoletas para Dynamics 365 Project Operations.
+O [Funcións eliminadas ou obsoletas en Project Operations](removed-depreciated-features-project.md) O artigo describe funcións que foron eliminadas ou obsoletas para Dynamics 365 Project Operations.
 
 - Unha funcionalidade eliminada xa non está dispoñible no produto.
 - Unha función obsoleta non está en desenvolvemento activo e é posible que se elimine nunha actualización futura.
 
-Aparecerá un anuncio de desuso no [Funcións eliminadas ou obsoletas en Project Operations](removed-depreciated-features-project.md) tema 12 meses antes de que se elimine calquera característica do produto.
+Aparecerá un anuncio de desuso no [Funcións eliminadas ou obsoletas en Project Operations](removed-depreciated-features-project.md) artigo 12 meses antes de que se elimine calquera característica do produto.
 
 Para os cambios que só afectan ao tempo de compilación, pero son compatibles con sistemas binarios con entornos de produción e sandbox, o tempo de desuso será inferior a 12 meses. Normalmente, estes cambios son actualizacións funcionais que se deben facer no compilador.

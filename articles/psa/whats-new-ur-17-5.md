@@ -1,6 +1,6 @@
 ---
 title: Novidades ou cambios na versión 17.5 de actualización de Project Service Automation, Corrección, V3
-description: Este tema mostra as funcionalidades e correccións que están dispoñibles la versión 17.5 de actualización de Project Service Automation, V3.
+description: Este artigo enumera as funcións e correccións dispoñibles na actualización de Project Service Automation, versión 17.5, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/13/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 6d4dc77263b7ce8cb2bfa0a7e61d1b55a849b624
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f008d8da11b7fecb308a00350a78298b83991d87
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577326"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926452"
 ---
 # <a name="project-service-automation-update-release-175-v3"></a>Versión 17.5 de actualización de Project Service Automation, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8577326"
 
 Comprácenos anunciar a última actualización da aplicación Project Service Automation para Dynamics 365. Esta versión inclúe algunhas melloras importantes na calidade, rendemento e facilidade de uso.  Esta versión é compatible con Dynamics 365 9.x. Para actualizar a esta versión, visite a paxina de solucións do Centro de administración para Dynamics 365 en liña para instalar a actualización. Para obter máis información, consulte [Instalar, actualizar ou eliminar unha solución preferida](/power-platform/admin/install-remove-preferred-solution)
 
-Este tema mostra as funcionalidades e correccións que son novas ou foron modificadas para V3, versión 17.5 de actualización. Esta versión ten un número de compilación de V3.10.7.32 e está dispoñible xeralmente a través dunha autoactualización desde marzo de 2020.
+Este artigo enumera as funcións e correccións que son novas ou modificadas para a versión 3, actualización 17.5. Esta versión ten un número de compilación de V3.10.7.32 e está dispoñible xeralmente a través dunha autoactualización desde marzo de 2020.
 
 
 ## <a name="update-release-175"></a>Versión 17.5 de actualización

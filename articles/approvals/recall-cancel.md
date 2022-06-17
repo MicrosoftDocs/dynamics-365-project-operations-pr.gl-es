@@ -1,19 +1,19 @@
 ---
-title: Lembrar entradas previamente aprobadas
-description: Este tema explica como un membro do equipo do proxecto pode solicitar a retirada dos rexistros de tempo, gastos e uso de material enviados e aprobados previamente, e como un xestor de proxecto pode aprobar ou rexeitar solicitudes de retirada.
+title: Recuperación de entradas aprobadas previamente
+description: Este artigo explica como un membro do equipo do proxecto pode solicitar a retirada dos rexistros de tempo, gastos e uso de material enviados e aprobados previamente e como un xestor de proxecto pode aprobar ou rexeitar solicitudes de retirada.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 18796e803ff73806aaa60b453048ee3160406b40
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 54fc7ac2301a4423ebf70b0b67ad489580c347b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586572"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930362"
 ---
-# <a name="recall-previously-approved-entries"></a>Lembrar entradas previamente aprobadas
+# <a name="recall-previously-approved-entries"></a>Recuperación de entradas aprobadas previamente
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
@@ -52,7 +52,7 @@ Siga estes pasos para aprobar ou rexeitar unha solicitude de recuperación.
     Se seleccionou **Rexeitar**, a solicitude de recuperación é rexeitada.
 
 > [!IMPORTANT]
-> Cando se aproba unha retirada, igual que cando se solicita, o sistema comproba se hai actividade de facturación nas entradas de tempo, gasto ou uso de material. Se xa se facturou unha entrada ou se está nun borrador de factura, o aprobador recibe unha mensaxe de erro que indica que o tempo ou o gasto non se pode aprobar para a súa retirada porque xa se facturou. Neste caso, o aprobador pode aprobar a retirada só se se utiliza unha factura correctiva para emitir un crédito ou reembolso completo ao cliente na factura orixinal.
+> Cando se aproba unha retirada, igual que cando se solicita, o sistema comproba se hai actividade de facturación nas entradas de tempo, gasto ou uso de material. Se xa se facturou unha entrada ou se está nun borrador de factura, o aprobador recibe unha mensaxe de erro que indica que o tempo ou o gasto non se pode aprobar para a súa retirada porque xa estaba facturado. Neste caso, o aprobador pode aprobar a retirada só se se utiliza unha factura correctiva para emitir un crédito ou reembolso completo ao cliente na factura orixinal.
 
 ## <a name="impact-of-a-recall-request"></a>Impacto dunha solicitude de recuperación
 

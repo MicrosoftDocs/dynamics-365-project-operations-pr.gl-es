@@ -1,18 +1,18 @@
 ---
 title: Use categorías de adquisición con pedidos de compra de proxectos e facturas de provedores pendentes
-description: Este tema describe como configurar as categorías de adquisición que se poden usar con pedidos de compra de proxectos e facturas de provedores pendentes.
+description: Neste artigo descríbese como configurar categorías de adquisición que se poden usar con pedidos de compra de proxectos e facturas de provedores pendentes.
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee68d7906cb0c887c19a32363ec7fda547cb74bd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
-ms.translationtype: HT
+ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613332"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927418"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Use categorías de adquisición con pedidos de compra de proxectos e facturas de provedores pendentes
 
@@ -36,18 +36,18 @@ Asegúrese de que o mapeo para **Entidade de exportación de liña de factura do
 Siga estes pasos para activar a funcionalidade de uso de categorías de adquisición con pedidos de compra de proxectos.
 
 1. En Dynamics 365 Finance, abra o **Xestión de características** espazo de traballo.
-1. Na lista de funcións, busque o **Use as categorías de adquisición en Operacións do proxecto para escenarios baseados en recursos/non abastecidos** función e, a continuación, seleccione **Activar**.
+1. Na lista de funcións, busque o **Use categorías de adquisición en Operacións do proxecto para escenarios baseados en recursos/non abastecidos** función e, a continuación, seleccione **Activar**.
 
 > [!IMPORTANT]
 > Como requisito previo, tamén debes activar **Activa as facturas de provedores pendentes en Project Operations para escenarios baseados en recursos/non abastecidos** característica.
 
 ## <a name="map-project-categories-in-the-procurement-category-hierarchy"></a>Asigne as categorías de proxectos na xerarquía de categorías de Contratación
 
-Siga estes pasos para asignar categorías de proxectos ás categorías de contratación no ficheiro **Categoría de contratación** xerarquía:
+Siga estes pasos para asignar categorías de proxectos ás categorías de contratación no **Categoría de contratación** xerarquía:
 
 1. Ir a **Adquisición e abastecemento \> Categorías de contratación**.
 1. Seleccione **Editar a xerarquía de categorías**.
-1. Seleccione o nodo de xerarquía de categorías desexado e, a continuación, no **Asignar categorías de proxectos** pestana, asocia o nodo coa categoría do proxecto do **Tempo**, Gastos** ou **,Proxecto Elemento** categoría (é dicir, o **Hora predeterminada** ou **Gastos por defecto** categoría).
+1. Seleccione o nodo da xerarquía de categorías desexada e, a continuación, no **Asignar categorías de proxectos** pestana, asocia o nodo coa categoría do proxecto do **Tempo**, **·**, ou, **Proxecto Item** categoría (é dicir, o **Hora predeterminada** ou **Gastos por defecto** categoría).
 1. Seleccione **Gardar**.
 1. Peche a páxina.
 

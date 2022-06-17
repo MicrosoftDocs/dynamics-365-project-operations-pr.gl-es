@@ -1,24 +1,24 @@
 ---
 title: Novidades de novembro de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
-description: Este tema ofrece información sobre as actualizacións de calidade que están dispoñibles na versión de novembro de 2021 de Project Operations para escenarios baseados en recursos ou non almacenados.
+description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de novembro de 2021 de Project Operations para escenarios baseados en recursos ou non almacenados.
 author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 730f9f051c62f44734f2d7915517baf439b1a0b8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d5b58965f728321cc30d4e476b0dacf621fdec71
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584870"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932892"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de novembro de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
 
 *Aplícase a: Project Operations para situacións baseadas en recursos/sen fornecemento*
 
-Este tema aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
+Este artigo aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
 
 - Operacións do proxecto en a Dataverse versión do entorno 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
 - Xestión de proxectos e contabilidade nun entorno Dynamics 365 Finance versión 10.0.22
@@ -55,7 +55,7 @@ Se atopas algún problema ao iniciar o mapa, siga as instrucións da páxina [Fa
 | Tempo e gasto | 2464082 | Elimina a ligazón das aprobacións do proxecto ao conxunto de aprobación cando coincida cun estado de destino. |
 | Tempo e gasto | 2468108 | O traballo de programación non debe establecer a **Procesamento** estado para o conxunto de aprobación. |
 | Tempo e gasto | 2471503 | Elimina os conxuntos de aprobación que teñan sete días de antigüidade. |
-| Facturación e prezos | 2480687 | A referencia da liña de cotización non se debe eliminar cando se crea un marco de liña de cotización. |
+| Facturación e prezos | 2480687 | A referencia da liña de cotización non debe eliminarse cando se crea un marco de liña de cotización. |
 
 ### <a name="project-management-and-accounting-in-finance"></a>Xestión de proxectos e contabilidade en Finanzas
 

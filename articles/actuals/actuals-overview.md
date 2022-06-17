@@ -1,6 +1,6 @@
 ---
 title: Datos reais
-description: Este tema ofrece información sobre como traballar con datos reais en Microsoft Dynamics 365 Project Operations.
+description: Este artigo ofrece información sobre como traballar con datos reais en Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f0cb8c478e2ce6fba589d51d95649f53f62e883
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2551b7d6d20df170c913e302e734583135265529
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581282"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924796"
 ---
 # <a name="actuals"></a>Datos reais
 
@@ -33,7 +33,7 @@ Os datos reais representan o progreso financeiro e programado revisado e aprobad
 
 As operacións do proxecto rexistran as transaccións financeiras que se producen durante o ciclo de vida do compromiso do proxecto como reais. A creación de datos reais en varios eventos do ciclo de vida varía, dependendo de se o compromiso do proxecto utiliza o modelo de facturación de tempo e materiais ou o modelo de facturación de prezo fixo, e se está en fase de prevenda ou se trata dun proxecto interno.
 
-Os seguintes temas explican o impacto na táboa Reais en varios eventos para diferentes variacións:
+Os artigos seguintes explican o impacto na táboa Reais en varios eventos para diferentes variacións:
 
 - [Impacto real nun compromiso de tempo e materiais](ActualsonTM.md)
 - [Os datos reais afectan a un compromiso de prezo fixo](ActualonFP.md)

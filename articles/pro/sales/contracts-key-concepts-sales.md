@@ -1,17 +1,17 @@
 ---
 title: Contratos de proxecto - Conceptos clave - lite
-description: Este tema fornece información sobre os conceptos clave de contratos de proxecto.
+description: Este artigo ofrece información sobre os conceptos clave dos contratos de proxectos.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 09252e449c11d6602dccba83f26413f380698814
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e92edadc49469ad5f541be8bce7b7a8043b981e2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580592"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932662"
 ---
 # <a name="concepts-unique-to-project-contracts"></a>Conceptos exclusivos de contratos de proxecto
 
@@ -19,7 +19,7 @@ _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
 
 
-Este tema ofrece os conceptos clave que hai que ter en conta antes de comezar a empregar contratos de proxecto en Dynamics 365 Project Operations:
+Este artigo proporciona os conceptos clave dos que debes ter en conta antes de comezar a usar os contratos do proxecto Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Unidade de contratación
 

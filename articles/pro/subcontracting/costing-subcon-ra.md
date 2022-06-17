@@ -1,17 +1,17 @@
 ---
 title: Estimación de custos das atribucións de recursos subcontratados
-description: Este tema explica como Microsoft Dynamics 365 Project Operations calcula a estimación do custo das asignacións de recursos subcontratados.
+description: Este artigo explica como Microsoft Dynamics 365 Project Operations calcula a estimación do custo das asignacións de recursos subcontratados.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f276e12713261538d1e7520dac17243e578db433
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 40603c1d2dfdd49909d9a4bf5085f43201e8f6bd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596692"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932340"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Estimación de custos das atribucións de recursos subcontratados
 
@@ -19,7 +19,7 @@ ms.locfileid: "8596692"
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
-As asignacións de tarefas dos membros do equipo do proxecto subcontratados cústanse mediante o **Compra** lista de prezos adxunta ao subcontrato no rexistro do membro do equipo relacionado. Isto é diferente da forma en que se custa as asignacións de recursos dos empregados cando as asignacións de tarefas dos recursos dos empregados se custan usando o **Custo** lista de prezos que se anexa á unidade de contratación do proxecto. 
+As asignacións de tarefas dos membros do equipo do proxecto subcontratados cústanse mediante o **Compra** lista de prezos adxunta ao subcontrato no rexistro do membro do equipo relacionado. Isto é diferente de como se custa as asignacións de recursos dos empregados cando as asignacións de tarefas dos recursos dos empregados se custan usando o **Custo** lista de prezos que se anexa á unidade de contratación do proxecto. 
 
 Para os membros xenéricos do equipo do proxecto que están subcontratados, as tarefas cústanse mediante unha configuración de prezos baseada en funcións na lista de prezos de compra adxunta ao subcontrato. Os prezos de compra tamén se poden configurar específicamente para cada recurso. Estes prezos específicos de recursos terán prioridade cando se custe as asignacións de tarefas dos membros do equipo do proxecto nomeados son traballadores por contrato. 
 
@@ -39,7 +39,7 @@ Usando o **Recursos** lista na **Tarefas** para unha tarefa específica, pode cr
 Se decides crear un membro xenérico do equipo desde o **Recursos asignados** menú despregable na tarefa, o **Creación xenérica de membros do equipo** O diálogo permitirá seleccionar unha liña de subcontrato e subcontrato. Cando se asigna o recurso xenérico á tarefa e se crea o correspondente rexistro do membro do equipo do proxecto, notará que o rexistro do membro do equipo do proxecto se crea co tipo de traballador definido como **Traballador por Contrato** e **Validez** configurado para **Válido**.
 
 ### <a name="creating-project-team-members-using-the-team-tab"></a>Creando membros do equipo do proxecto usando a pestana Equipo
-Usando a pestana Equipo do proxecto, pode crear un membro do equipo xenérico ou nomeado. Ao crear o membro do equipo, pode seleccionar a liña de subcontrato e subcontrato. Despois de crear o membro do equipo, terás que asignalo a unha tarefa usando o **Recursos asignados** menú despregable na tarefa. 
+Usando a pestana Equipo do proxecto, pode crear un membro do equipo xenérico ou nomeado. Ao crear o membro do equipo, pode seleccionar a liña de subcontrato e subcontrato. Despois de crear o membro do equipo, terás que asignalo a unha tarefa mediante o **Recursos asignados** menú despregable na tarefa. 
 
 ## <a name="updating-estimates"></a>Actualizando estimacións
 Despois de asignar tarefas aos membros do equipo do proxecto, terás que navegar ata o **Estimacións** ficha no proxecto e seleccione **Actualizar prezos** para garantir que as taxas de custo das asignacións de recursos do subcontratista se actualicen en función da lista de prezos de compra adxunta ao subcontrato. Non se xeran estimacións para tarefas non asignadas en Microsoft Dynamics 365 Project Operations. Como resultado, terás que crear tarefas para determinar o prezo e o custo de varias tarefas do teu proxecto. 

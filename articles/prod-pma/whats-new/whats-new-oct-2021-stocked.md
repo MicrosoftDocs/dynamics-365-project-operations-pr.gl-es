@@ -1,24 +1,24 @@
 ---
 title: Novidades ou cambios en Project Operations, outubro de 2021 para escenarios abastecidos ou baseados na produción
-description: Este tema ofrece información sobre as actualizacións de calidade que están dispoñibles na versión de outubro de 2021 de Project Operations para escenarios abastecidos ou baseados na produción.
+description: Este artigo ofrece información sobre as actualizacións de calidade que están dispoñibles na versión de outubro de 2021 de Project Operations para escenarios abastecidos ou baseados na produción.
 author: andchoi
 ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 03491ccab855e48819fccf4c9d2b584fd87cb4ba
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ba88268e74269c774b41396a8b6574e5bab477b9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576038"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933674"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>Novidades ou cambios en Project Operations, outubro de 2021 para escenarios abastecidos ou baseados na produción
 
 _**Aplícase a:** Project Operations para situacións baseadas en produción/con fornecemento_
 
-Este tema aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
+Este artigo aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
 
 - Xestión de proxectos e contabilidade nun entorno Dynamics 365 Finance versión 10.0.22
  
@@ -39,7 +39,7 @@ Este tema aplícase aos seguintes compoñentes e versións de Microsoft Dynamics
 | Xestión e contabilidade de proxectos | [584732](https://fix.lcs.dynamics.com/Issue/Details/?bugId=584732) | Non se mostran os resultados de retención de provedores nas transaccións de gastos do proxecto. |
 | Xestión e contabilidade de proxectos | [587453](https://fix.lcs.dynamics.com/Issue/Details/?bugId=587453) | A folla de horas debe redondear o importe da transacción na moeda da transacción ata un número especificado de cifras decimais en todas as distribucións contables e as entradas xerais de asignación ao diario. |
 | Xestión e contabilidade de proxectos | [589409](https://fix.lcs.dynamics.com/Issue/Details/?bugId=589409) | As cantidades de requisitos de elementos do proxecto actualízanse automaticamente cando se confirman os pedidos planificados. |
-| Xestión e contabilidade de proxectos | [590206](https://fix.lcs.dynamics.com/Issue/Details/?bugId=590206) | O número de vale, o saldo do provedor do tipo de transacción e o número de conta non se poden reverter na factura de prepago dunha orde de compra. |
+| Xestión e contabilidade de proxectos | [590206](https://fix.lcs.dynamics.com/Issue/Details/?bugId=590206) | O número do comprobante, o saldo do provedor do tipo de transacción e o número de conta non se poden reverter na factura de prepago dunha orde de compra. |
 | Xestión e contabilidade de proxectos | [593068](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593068) | A factura do provedor interempresas rompe cando se activa a integración da factura do provedor. |
 | Xestión e contabilidade de proxectos | [593335](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593335) | Cando crea un diario de gastos do proxecto, o importe do custo móstrase no **Crédito** campo. |
 | Xestión e contabilidade de proxectos | [593382](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593382) | As condicións de pago das facturas do proxecto non funcionan como se esperaba. |

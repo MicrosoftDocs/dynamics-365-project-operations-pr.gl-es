@@ -1,17 +1,17 @@
 ---
 title: Xestionar oportunidades baseadas en proxectos
-description: Este tema ofrece información sobre como traballar con oportunidades relacionadas cos proxectos.
+description: Este artigo ofrece información sobre como traballar con oportunidades relacionadas con proxectos.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600418"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933214"
 ---
 # <a name="manage-project-based-opportunities"></a>Xestionar oportunidades baseadas en proxectos
 
@@ -19,7 +19,7 @@ _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fo
 
 As empresas baseadas en proxectos normalmente teñen as súas operacións de entrega repartidas en varios países e zonas xeográficas. O custo da execución e entrega do proxecto pode variar segundo a zona xeográfica ou división que xestione a entrega. Á súa vez, isto pode afectar ás marxes do acordo. A entrega de servizos baseados en proxectos normalmente implica grandes cantidades de tempo de recursos humanos, gastos considerables de viaxe, custos materiais e outros gastos.
 
-As oportunidades baseadas en proxectos en Dynamics 365 Project Operations están deseñadas con extensións a Dynamics 365 Sales. O tema ofrece detalles sobre os diferentes campos e a lóxica empresarial incluídos na funcionalidade adicional que as empresas baseadas en proxectos requiren para xestionar oportunidades baseadas en proxectos.
+As oportunidades baseadas en proxectos en Dynamics 365 Project Operations están deseñadas con extensións a Dynamics 365 Sales. O artigo ofrece detalles sobre os diferentes campos e a lóxica empresarial incluídas na funcionalidade adicional que requiren as empresas baseadas en proxectos para xestionar as oportunidades baseadas en proxectos.
 
 ## <a name="view-all-project-based-opportunities"></a>Ver todas as oportunidades baseadas en proxectos
 

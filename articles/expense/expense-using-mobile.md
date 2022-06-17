@@ -1,6 +1,6 @@
 ---
 title: Aplicación de gastos para móbiles
-description: Este tema ofrece información sobre a área de traballo móbil de xestión de gastos.
+description: Este artigo ofrece información sobre o espazo de traballo móbil de xestión de gastos.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ba7ccae04fbb02252e3ceb01f123ce1e85375b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588918"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930224"
 ---
 # <a name="mobile-expense-app"></a>Aplicación de gastos para móbiles
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Este tema ofrece información sobre a área de traballo móbil de **Xestión de gastos**. Esta área de traballo permite aos usuarios capturar e cargar un recibo para que poidan anexalo a un informe de gastos máis tarde. Os usuarios tamén poden crear rapidamente unha liña de gasto mediante un recibo anexo e crear e xestionar os seus informes de gastos. Ademais, os responsables de aprobacións poden usar a área de traballo móbil **Xestión de gastos** para ver os informes de gastos que se lles atribúan e aprobar ou rexeitar eses informes de gastos.
+Este artigo ofrece información sobre o **Xestión de gastos** espazo de traballo móbil. Esta área de traballo permite aos usuarios capturar e cargar un recibo para que poidan anexalo a un informe de gastos máis tarde. Os usuarios tamén poden crear rapidamente unha liña de gasto mediante un recibo anexo e crear e xestionar os seus informes de gastos. Ademais, os responsables de aprobacións poden usar a área de traballo móbil **Xestión de gastos** para ver os informes de gastos que se lles atribúan e aprobar ou rexeitar eses informes de gastos.
 
 Esta área de traballo móbil está pensada para ser usada xunto coa aplicación móbil Dynamics 365 Unified Ops.
 
@@ -206,7 +206,7 @@ Descargue e instale a aplicación móbil Dynamics 365 Unified Ops:
 
 ### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Por que a aplicación móbil Expense non introduce o método de pago de forma predeterminada?
 
-As organizacións poden personalizar **Método de pago predeterminado** configuración para cada categoría de gasto tal como se crea. Ademais, cando configure os métodos de pago, pode configurar o **Método de pago predeterminado** campo a **Só importar**.
+As organizacións poden personalizar **Método de pago predeterminado** configuración para cada categoría de gasto tal como se crea. Ademais, cando configura os métodos de pago, pode configurar o **Método de pago predeterminado** campo a **Só importar**.
 
 Cando **Só importar** está habilitado para un método de pago, o método de pago non se introduce de forma predeterminada. Estará en branco nas categorías de gastos nas que estea configurado este método de pago. Este comportamento é consistente tanto na experiencia web como na experiencia móbil.
     

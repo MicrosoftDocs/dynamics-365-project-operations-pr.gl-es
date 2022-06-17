@@ -1,6 +1,6 @@
 ---
 title: Engadir campos personalizados requiridos á configuración de prezos e ás entidades transaccionais
-description: Este tema ofrece información sobre como engadir as referencias de campo personalizadas requiridas a entidades e a formularios e vistas.
+description: Este artigo ofrece información sobre como engadir referencias de campos personalizados obrigatorios ás entidades e aos formularios e vistas.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d7b5a3e7976f1ec4c01df2d9bf0aa620e747e9f4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a984dc9e04857e101fa012734fd822440899aced
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597382"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926038"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Engadir campos personalizados requiridos á configuración de prezos e ás entidades transaccionais
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Este tema supón que completou os procedementos do tema, [Crear campos e entidades para usar como entidades de prezos](create-custom-fields-entities-pricing-dimensions.md). Se non completou eses procedementos, volva e compléteos e despois volva a este tema. 
+Este artigo asume que completaches os procedementos do artigo, [Cree campos e entidades personalizados para usar como dimensións de prezos](create-custom-fields-entities-pricing-dimensions.md). Se non completaches eses procedementos, volve e complétaos e despois volve a este artigo. 
 
-Neste tema, os procedementos amosaranlle como engadir as referencias de campo personalizadas necesarias ás entidades e aos elementos de interface de usuario (IU) como formularios e vistas.
+Neste artigo, os procedementos mostraranlle como engadir as referencias de campos personalizados necesarios ás entidades e aos elementos da interface de usuario (UI), como formularios e vistas.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Engadir campos de dimensión de prezos personalizados 
 Despois de que se crearon campos e entidades personalizadas, o seguinte paso é facer que a configuración de prezos e as entidades transaccionais coñezan as entidades personalizadas ou conxuntos de opcións creando campos de referencia. Dependendo de se a lista de dimensións de prezos inclúe dimensións de conxunto de opcións ou dimensións de entidade ou ambas, siga só os pasos de **Dimensións de prezos personalizados baseadas en conxunto de opcións** ou **Dimensións dos prezos personalizados baseadas na entidade**, ou ambos, respectivamente.

@@ -1,19 +1,19 @@
 ---
-title: Liñas de factura de provedores para o tempo
-description: Este tema explica como rexistrar as liñas de facturas de provedores para os custos de tempo que realizan os subcontratistas.
+title: Liñas de factura de fornecedor para tempo
+description: Este artigo explica como rexistrar as liñas de facturas de provedores para os custos de tempo que realizan os subcontratistas.
 author: rumant
 ms.date: 03/15/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ac598dff7b0b4a29ac0397a31130ada3b197fe44
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0b81d2884580e9054457906627c1f9101f435524
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597198"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927540"
 ---
-# <a name="vendor-invoice-lines-for-time"></a>Liñas de factura de provedores para o tempo
+# <a name="vendor-invoice-lines-for-time"></a>Liñas de factura de fornecedor para tempo
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -39,7 +39,7 @@ A seguinte táboa ofrece información sobre os campos das liñas de factura de p
 | Recurso reservable | O nome do subcontratista cuxo tempo se está a facturar. A selección dun recurso reservable é opcional. | Se este campo se deixa en branco, o xestor do proxecto pode relacionar a liña de factura do provedor coa hora que rexistra calquera recurso que pertenza ao provedor na liña de factura do provedor. |
 | Cantidade | Introduza o número de horas de tempo que está a ser facturado polo provedor na liña de factura. |Nada |
 | Grupo de unidades | O valor predeterminado é **Grupo de unidades de tempo** e non se pode cambiar. | Nada |
-| Unidade | O valor predeterminado é a unidade base de horas do grupo de unidades de tempo. Podes cambiar este valor para mercar en calquera unidade do grupo de unidades de tempo, como o día ou a semana. | A combinación de **Papel** e **Unidade** os valores serán usados como valor predeterminado ou calculado para o **Prezo por unidade** campo na liña da factura do provedor. |
+| Unidade | O valor predeterminado é a unidade base de horas do grupo de unidades de tempo. Podes cambiar este valor para mercar en calquera unidade do grupo de unidades de tempo, como o día ou a semana. | A combinación de **Papel** e **Unidade** os valores empregaranse como valor predeterminado ou calculado para o **Prezo por unidade** campo na liña da factura do provedor. |
 | Prezo por unidade | O prezo unitario predeterminado utiliza a combinación de **Papel** e **Unidade** valores da lista de prezos do proxecto aplicables á data de transacción da liña de factura do provedor. | Se o prezo para a lista de prezos do proxecto aplicable está configurado nunha unidade que é diferente da unidade da liña de factura do provedor, o sistema utiliza a conversión de unidade para calcular o prezo por unidade. |
 | Subtotal | Este campo de só lectura calcúlase como *Cantidade*&times;*Prezo por unidade*, se se introducen valores en ambos **Cantidade** campo e o **Prezo por unidade** campo. Se un ou os dous campos están en branco, pode introducir un valor neste campo. | Nada |
 | Imposto de vendas | Introduza o importe do imposto de vendas. | Nada |

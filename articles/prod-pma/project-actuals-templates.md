@@ -1,6 +1,6 @@
 ---
 title: Sincronice os datos reais do proxecto directamente desde Project Service Automation ao diario de integración do proxecto para publicar en Finance and Operations
-description: Este tema describe os modelos e as tarefas subxacentes que se usan para sincronizar os datos reais do proxecto directamente desde Microsoft Dynamics 365 Project Service Automation a Finanzas e Operacións.
+description: Este artigo describe os modelos e as tarefas subxacentes que se usan para sincronizar os datos reais do proxecto directamente desde Microsoft Dynamics 365 Project Service Automation a Finanzas e Operacións.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683536"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929488"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronice os datos reais do proxecto directamente desde Project Service Automation ao diario de integración do proxecto para publicar en Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Este tema describe os modelos e as tarefas subxacentes que se usan para sincronizar os datos reais do proxecto directamente desde Dynamics 365 Project Service Automation a Dynamics 365 Finance.
+Este artigo describe os modelos e as tarefas subxacentes que se usan para sincronizar os datos reais do proxecto directamente desde Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 
 O modelo sincroniza as transaccións desde Project Service Automation a unha táboa de transición en Finanzas. Despois de completar a sincronización, vostede **debe** importar os datos da táboa de transición ao diario de integración.
 

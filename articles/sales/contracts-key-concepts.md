@@ -1,17 +1,17 @@
 ---
 title: Contratos de proxecto - Conceptos clave
-description: Este tema ofrece información sobre os conceptos clave dos contratos de proxecto en Project Operations.
+description: Este artigo ofrece información sobre os conceptos clave dos contratos de proxectos en Operacións de proxectos.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 016a5d1defacdc6ba5828ca26395c9123e9323d0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582938"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926222"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Conceptos exclusivos de contratos baseados en proxecto
 
@@ -19,7 +19,7 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 
 
 
-Este tema ofrece os conceptos clave que hai que ter en conta antes de comezar a empregar contratos de proxecto en Dynamics 365 Project Operations:
+Este artigo proporciona os conceptos clave dos que debes ter en conta antes de comezar a usar os contratos do proxecto Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Empresa propietaria
 

@@ -1,23 +1,23 @@
 ---
-title: Requisitos dos elementos para contratos de proxectos con múltiples fontes de financiamento
-description: Este tema ofrece información sobre como configurar e utilizar os requisitos de elementos con varias fontes de financiamento.
+title: Requisitos de elementos para contratos de proxectos con múltiples fontes de financiamento
+description: Este artigo ofrece información sobre como configurar e usar os requisitos de elementos con varias fontes de financiamento.
 author: sigitac
 ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d4af03e02d3c2eb0d442e6213ff5b9cf583d54b3
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728084"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931190"
 ---
-# <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Requisitos dos elementos para contratos de proxectos con múltiples fontes de financiamento
+# <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Requisitos de elementos para contratos de proxectos con múltiples fontes de financiamento
 
 _**Aplícase a:** Project Operations para situacións baseadas en produción/con fornecemento_
 
-Algúns acordos contractuais para entregas baseadas en proxectos poden requirir varias fontes de financiamento. Este tema explica como seleccionar e configurar as fontes de financiamento desexadas cando se requiren varias fontes para un proxecto ou contrato de proxecto.
+Algúns acordos contractuais para entregas baseadas en proxectos poden requirir varias fontes de financiamento. Este artigo explica como seleccionar e configurar as fontes de financiamento desexadas cando se requiren varias fontes para un proxecto ou contrato de proxecto.
 
 ## <a name="terminology"></a>Terminoloxía
 
@@ -79,7 +79,7 @@ Para crear un requisito de elemento a partir dun rexistro de previsión de eleme
 1. Seleccione **Crear requisito de elemento**, e confirma a mensaxe que recibe.
 
     > [!NOTE]
-    > O sistema copia o **Fonte de financiamento** valor desde o rexistro de previsión de elementos ata o rexistro de requisitos de elementos recentemente creado.
+    > O sistema copia o **Fonte de financiamento** valor desde o rexistro de previsión de elementos ata o rexistro de requisitos de elementos recentemente creados.
 
 ### <a name="default-invoice-account-when-the-system-automatically-creates-an-item-requirement-from-a-purchase-order-line"></a>Conta de factura predeterminada cando o sistema crea automaticamente un requisito de artigo desde unha liña de orde de compra
 

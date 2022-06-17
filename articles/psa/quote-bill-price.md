@@ -1,6 +1,6 @@
 ---
 title: Páxina de inicio de ofertas, prezos e facturación avanzados
-description: Este tema fornece información sobre ofertas, prezos e facturación.
+description: Este artigo ofrece información sobre cotizacións, prezos e facturación.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef63d48703059bac8cadf3b12ecb025ae103d44d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581098"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926728"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Páxina de inicio de ofertas, prezos e facturación avanzados
 
@@ -33,7 +33,7 @@ ms.locfileid: "8581098"
 
 Ofertas, prezos e facturación son funcionalidades que usan tanto pequenas como grandes organizacións. Ao entender como funcionan estas funcionalidade na aplicación, as organizacións poden personalizar máis facilmente as configuracións.
 
-Os temas seguintes fornecen máis información sobre as funcións de ofertas, prezos e facturación en PSA:
+Os artigos seguintes ofrecen máis información sobre as funcións de cotización, prezos e facturación en PSA:
 
 - [Proceso de vendas](basic-sales-process.md)
 - [Liñas de oferta](basic-quote-lines.md)

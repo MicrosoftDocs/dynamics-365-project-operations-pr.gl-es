@@ -1,25 +1,25 @@
 ---
-title: Transicións de estado nunha factura de provedor
-description: Este tema explica as transicións de estado nunha factura de provedor en Microsoft Dynamics 365 Project Operations.
+title: Transicións de estado nunha factura de fornecedor
+description: Este artigo explica as transicións de estado nunha factura de provedor en Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7efb52621ee325d5025dfad0b45218d1fe20a063
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 58b07322fb6480fdeb07eb867a7aabc0eff7b955
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584686"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934318"
 ---
-# <a name="state-transitions-on-a-vendor-invoice"></a>Transicións de estado nunha factura de provedor
+# <a name="state-transitions-on-a-vendor-invoice"></a>Transicións de estado nunha factura de fornecedor
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
-Este tema explica as transicións de estado nunha factura de provedor en Microsoft Dynamics 365 Project Operations. Utilízanse os seguintes estados: **Borrador**, **revisión**, **·**, **espera**, e **Cancelado**.
+Este artigo explica as transicións de estado nunha factura de provedor en Microsoft Dynamics 365 Project Operations. Utilízanse os seguintes estados: **Borrador**, **revisión**, **·**, **espera**, e **Cancelado**.
 
 As seguintes ilustracións mostran as transicións de estado.
 

@@ -1,23 +1,23 @@
 ---
 title: Consideracións de actualización para as aprobacións modernas
-description: O tema trata os puntos que os administradores deben ter en conta cando activan a funcionalidade de Aprobacións modernas.
+description: O artigo recolle os puntos que os administradores deben ter en conta cando activan a funcionalidade de Aprobacións modernas.
 author: stsporen
 ms.date: 01/31/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: a3757f057a801318feccde9be3e49c7b40fa8fcb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 44a933c92d4ef8dff40f20200d74c4bbdf8caa76
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578384"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931742"
 ---
 # <a name="upgrade-considerations-for-modern-approvals"></a>Consideracións de actualización para as aprobacións modernas 
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Como parte da versión Wave 1 de abril de 2022, a funcionalidade de aprobacións modernas activarase de forma predeterminada. Esta funcionalidade mellora a fiabilidade da lóxica de aprobación e garante que pode determinar o motivo se a lóxica de aprobación falla.
+Como parte da versión Wave 1 de abril de 2022, a funcionalidade Modern Approvals estará activada de forma predeterminada. Esta funcionalidade mellora a fiabilidade da lóxica de aprobación e garante que pode determinar o motivo se a lóxica de aprobación falla.
 
 Como parte deste cambio, actualízanse os cambios de estado para as aprobacións de proxectos. O estado agora vai directamente desde **Enviado** a **Aprobado**. **Pendente** xa non é un estado para as aprobacións. Para determinar se está pendente de aprobación, verifique que a aprobación forma parte dun conxunto de aprobación e revise o estado do conxunto de aprobación adxunto.
 
@@ -40,7 +40,7 @@ Despois de actualizar a Modern Approvals, un administrador debe validar que se h
 ## <a name="short-term-rollback"></a>Reversión a curto prazo
 
 Se non podes aceptar os cambios ou se atopas un problema grave con esta función, podes volver temporalmente ao fluxo de aprobación orixinal realizando os seguintes pasos:
-1. Inicia sesión no teu entorno e verifica que non hai aprobacións pendentes.
+1. Inicia sesión no teu contorno e verifica que non hai aprobacións pendentes.
 2. Ir a **Configuración** > **Parámetros do proxecto**.
 3. Seleccione **Control de funcións** e despois seleccione **Aprobacións modernas** para desactivar a función.
 

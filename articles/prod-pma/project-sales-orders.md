@@ -1,6 +1,6 @@
 ---
 title: Pedidos de venda de proxectos para proxectos de tempo e material
-description: Este tema explica como crear pedidos de venda baseados en proxectos para proxectos de tempo e material.
+description: Este artigo explica como crear pedidos de venda baseados en proxectos para proxectos de tempo e materiais.
 author: Yowelle
 ms.date: 04/05/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: 3e88235b08ca2b8a5ccaab3dfdd7bcff4ab64f5f
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 3a040de6d22b626b9e3d462272f43c5763b5b90f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684502"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933812"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Pedidos de venda de proxectos para proxectos de tempo e material
 
 [!include[banner](../includes/banner.md)]
 
-Este tema describe como crear un pedido de venda para un proxecto. Os pedidos de venda só se poden crear para proxectos de tipo **tempo e material**.
+Este artigo describe como crear un pedido de venda para un proxecto. Os pedidos de venda só se poden crear para proxectos de tipo **tempo e material**.
 
 Se un proxecto de tempo e material ten varias fontes de financiamento no contrato do proxecto, debe habilitar o parámetro **Permitir pedidos de venda para proxectos con varias fontes de financiamento** na páxina **Parámetros de xestión de proxectos e contabilidade**. 
 

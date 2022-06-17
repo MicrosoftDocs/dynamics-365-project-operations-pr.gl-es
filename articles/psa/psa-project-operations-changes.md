@@ -1,6 +1,6 @@
 ---
-title: Cambios de características de Project Service Automation a Project Operations
-description: Este tema ofrece unha visión xeral dos cambios de función de Project Service Automation a Dynamics 365 Project Operations.
+title: Cambios de funcionalidades de Project Service Automation a Project Operations
+description: Este artigo ofrece unha visión xeral dos cambios de función de Project Service Automation a Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7e41b381d6da267f58174305f33fc229c66cd7b7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595404"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925348"
 ---
-# <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Cambios de características de Project Service Automation a Project Operations
+# <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Cambios de funcionalidades de Project Service Automation a Project Operations
 
-A actualización de Dynamics 365 Project Service Automation a Dynamics 365 Project Operations Lite entregarase en tres fases. Este tema ofrece información sobre os principais cambios que pode esperar ver cando se complete a actualización.
+A actualización de Dynamics 365 Project Service Automation a Dynamics 365 Project Operations Lite entregarase en tres fases. Este artigo ofrece información sobre os principais cambios que podes ver cando se complete a actualización.
 
 | Actualizar a entrega | Fase 1 <br>(xaneiro 2022) | Fase 2 <br>(Onda de abril de 2022) | Fase 3  |
 |------------------|------------------------|---------------------------|---------------------------|

@@ -1,6 +1,6 @@
 ---
 title: Visión xeral de xestión de gastos
-description: Este tema ofrece información xeral sobre a xestión de gastos e ligazóns a recursos adicionais. Pode usar a xestión de gastos para crear un fluxo de traballo integrado onde pode almacenar información sobre o método de pagamento, importar transaccións con tarxeta de crédito e rastrexar o diñeiro que gastan os empregados cando incorren en gastos para a súa empresa.
+description: Este artigo ofrece información xeral sobre a xestión de gastos e ligazóns a recursos adicionais. Pode usar a xestión de gastos para crear un fluxo de traballo integrado onde pode almacenar información sobre o método de pagamento, importar transaccións con tarxeta de crédito e rastrexar o diñeiro que gastan os empregados cando incorren en gastos para a súa empresa.
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 778a068bc80b099037b895f7e0d4add4d454242f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684824"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934042"
 ---
 # <a name="expense-management-overview"></a>Visión xeral de xestión de gastos
 

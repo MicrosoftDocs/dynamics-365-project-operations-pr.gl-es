@@ -1,17 +1,17 @@
 ---
 title: Rexistro para as probas de Project Operations
-description: Este tema fornece información sobre como despregar unha proba de Dynamics 365 Project Operations.
+description: Este artigo ofrece información sobre como implementar unha versión de proba de Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584272"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959642"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Rexistro para as probas de Project Operations 
 
@@ -19,9 +19,9 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 
 
 
-Este tema explica como subscribirse á oferta de asociado de versión preliminar e despregar un ambiente de Dynamics 365 Project Operations.
+Este artigo explica como subscribirse á oferta de socios de vista previa e implementar a Dynamics 365 Project Operations ambiente.
 
-Coa nova proba de Project Operations, pode despregar automaticamente calquera dos tres escenarios de despregamento admitidos enchendo un cuestionario que recomenda o mellor enfoque de despregamento. Neste tema se proporciona información sobre como:
+Coa nova proba de Project Operations, pode despregar automaticamente calquera dos tres escenarios de despregamento admitidos enchendo un cuestionario que recomenda o mellor enfoque de despregamento. Este artigo ofrece información sobre como:
 
 - Troque a súa oferta de proba.
 - Inicie o aprovisionamento.
@@ -89,7 +89,8 @@ Antes de comezar, inicie sesión nun explorador coa conta de traballo do usuario
 4.  Seleccione o correspondente Microsoft Dataverse URL e os URL das aplicacións de Finanzas e Operacións para validar a implantación.
 
 ## <a name="configuring-dual-write"></a>Configuración da escrita dual
-- Para configurar as funcións de seguranza para a escritura dual, consulte [Actualiza a configuración de seguranza en Project Operations en Dataverse](resource-provision-new-environment.md).
+- Para configurar as funcións de seguranza para a escritura dual, consulte [Actualiza a configuración de seguranza en Project Operations en Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Para acceder á configuración de dobre escritura, desprácese ata a instancia de Finance and Operations e, a continuación, navegue ata **Xestión de datos** > **Escritura dual**.
 - Para configurar mapas de dobre escritura, consulte [Executar mapas de dobre escritura de Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Atribuír licenzas

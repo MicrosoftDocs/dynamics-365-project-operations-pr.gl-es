@@ -1,18 +1,18 @@
 ---
 title: Fornecer un novo ambiente
-description: Este tema ofrece información sobre como fornecer un novo ambiente de Project Operations.
+description: Este artigo ofrece información sobre como proporcionar un novo ambiente de Project Operations.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594806"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931604"
 ---
 # <a name="provision-a-new-environment"></a>Fornecer un novo ambiente
 
@@ -20,7 +20,7 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 
 
 
-Este tema ofrece información sobre como proporcionar un novo ambiente de Dynamics 365 Project Operations para situacións baseadas en recursos/sen fornecemento.
+Este artigo ofrece información sobre como proporcionar un novo Dynamics 365 Project Operations ambiente para escenarios baseados en recursos/non abastecidos.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Activar o fornecemento automatizado de Project Operations nun proxecto de LCS
 

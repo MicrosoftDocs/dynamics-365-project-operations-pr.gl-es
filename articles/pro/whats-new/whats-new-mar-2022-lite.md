@@ -1,24 +1,24 @@
 ---
 title: Novidades marzo 2022 - Despregamento de Project Operations lite
-description: Este tema ofrece información sobre as actualizacións de calidade que están dispoñibles na versión de marzo de 2022 da implantación de Project Operations lite.
+description: Este artigo ofrece información sobre as actualizacións de calidade que están dispoñibles na versión de marzo de 2022 da implantación de Project Operations lite.
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8a83491da1d312406dfb36f5ad214c307c15cfbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 321d59568bfd33bb00a1500afe514fbecf9a0250
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583748"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934226"
 ---
 # <a name="whats-new-march-2022---project-operations-lite-deployment"></a>Novidades marzo 2022 - Despregamento de Project Operations lite
 
 _Aplícase a: Despregamento de Lite - acordo para facturación proforma_
 
-Este tema aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
+Este artigo aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
 
 - Operacións do proxecto en a Dataverse versión do entorno 4.30.0.99
 
@@ -51,9 +51,9 @@ Este tema aplícase aos seguintes compoñentes e versións de Microsoft Dynamics
 
 ## <a name="removed-and-deprecated-features"></a>Funcións eliminadas e obsoletas
 
-O [Funcións eliminadas ou obsoletas en Project Operations](../../whats-new/removed-depreciated-features-project.md) o tema describe as funcións que foron eliminadas ou obsoletas Dynamics 365 Project Operations.
+O [Funcións eliminadas ou obsoletas en Project Operations](../../whats-new/removed-depreciated-features-project.md) O artigo describe funcións para as que se eliminaron ou quedaron en desuso Dynamics 365 Project Operations.
 
 - Unha funcionalidade eliminada xa non está dispoñible no produto.
 - Unha función obsoleta non está en desenvolvemento activo e é posible que se elimine nunha actualización futura.
 
-Aparecerá un anuncio de desuso no [Funcións eliminadas ou obsoletas en Project Operations](../../whats-new/removed-depreciated-features-project.md) tema 12 meses antes de que se elimine calquera característica do produto.
+Aparecerá un anuncio de desuso no [Funcións eliminadas ou obsoletas en Project Operations](../../whats-new/removed-depreciated-features-project.md) artigo 12 meses antes de que se elimine calquera característica do produto.

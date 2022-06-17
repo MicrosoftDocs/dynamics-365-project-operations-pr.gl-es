@@ -1,21 +1,21 @@
 ---
 title: Xestionar varios clientes nunha en contratos de proxecto
-description: Este tema ofrece información sobre como xestionar varios clientes nun contrato de proxecto.
+description: Este artigo ofrece información sobre como xestionar varios clientes nun contrato de proxecto.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591310"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928338"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Xestionar varios clientes nunha en contratos de proxecto
 
-Este tema ofrece información sobre como xestionar varios clientes nun contrato de proxecto. Pode usar un contrato de proxecto cando se precise un acordo contractual para varios clientes para financiar un acordo. Na páxina **Contrato do proxecto**, o separador **Resumo** inclúe información sobre o cliente principal dun acordo. Pódense engadir outros clientes que participen no acordo ao separador **Clientes**.
+Este artigo ofrece información sobre como xestionar varios clientes nun contrato de proxecto. Pode usar un contrato de proxecto cando se precise un acordo contractual para varios clientes para financiar un acordo. Na páxina **Contrato do proxecto**, o separador **Resumo** inclúe información sobre o cliente principal dun acordo. Pódense engadir outros clientes que participen no acordo ao separador **Clientes**.
 
 Todos os clientes do contrato no separador **Clientes** do contrato do proxecto son por defecto clientes da liña de contrato en calquera nova liña de contrato baseado en proxecto creada para o contrato do proxecto. As liñas de contrato baseado en proxecto existentes non herdan novos clientes de contrato a medida que se crean nun momento posterior.
 

@@ -1,6 +1,6 @@
 ---
 title: Revisar os traballos pendentes de facturación en proxectos e contratos de proxectos
-description: Este tema fornece información sobre como revisar o traballo pendente de facturación de tempo, gasto e produtos e como marcalos como listos para a facturación.
+description: Este artigo ofrece información sobre como revisar o tempo, os gastos e os produtos atrasados, e como marcalos como listos para a facturación.
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 51a7ecfefcc20544f5be378a347e3568285cafb3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 833ace7fd6285191f4b023a029286cd36b5de8f4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600556"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928890"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Revisar os traballos pendentes de facturación en proxectos e contratos de proxectos
 
@@ -28,7 +28,7 @@ ms.locfileid: "8600556"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Cando unha transacción está lista para crear e procesar unha factura, a operación debería marcarse como **Listo para facturar**. Este tema describe os tipos de transaccións que se poden crear.
+Cando unha transacción está lista para crear e procesar unha factura, a operación debería marcarse como **Listo para facturar**. Este artigo describe os tipos de transaccións que se poden crear.
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>Revisar o traballo pendente de facturación de tempo e material
 

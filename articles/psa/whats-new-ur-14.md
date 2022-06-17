@@ -1,6 +1,6 @@
 ---
 title: Novidades ou cambios na versión 14 de actualización de Project Service Automation, V3
-description: Este tema fornece información sobre as novidades e as modificacións na versión 14 de actualización de Project Service Automation, V3.
+description: Este artigo ofrece información sobre as novidades na actualización 14 V3 de Project Service Automation.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8504ac5a0ce7254baee9139e4407e712c758540d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e8e5132f970e3ec5742842175c118faf98a7b079
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594301"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926544"
 ---
 # <a name="project-service-automation-update-release-14-v3"></a>Versión 14 de actualización de Project Service Automation, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8594301"
 
 Comprácenos anunciar a última actualización para a aplicación Dynamics 365 Project Service Automation (PSA). Esta versión inclúe algunhas melloras importantes na calidade, rendemento e facilidade de uso. Esta versión é compatible con Dynamics 365 9.x. Para actualizar a esta versión, visite o Centro de administración para Dynamics 365 en liña e vaia á páxina de solucións para instalar a actualización. Para obter máis información, consulte [Instalar, actualizar ou eliminar unha solución preferida](/power-platform/admin/install-remove-preferred-solution)
 
-Este tema mostra as funcionalidades e correccións que son novas ou modificadas para PSA V3, versión 14 de actualización. Esta versión ten un número de compilación de V3.10.4.21 e está dispoñible na seguinte programación:
+Este artigo enumera as funcións e correccións novas ou modificadas para PSA V3, actualización 14. Esta versión ten un número de compilación de V3.10.4.21 e está dispoñible na seguinte programación:
 
 - **Dispoñibilidade xeral (autoactualización):** Xaneiro de 2020
 - **Autoactualización:** Febreiro de 2020

@@ -1,23 +1,23 @@
 ---
 title: Xestionar estimacións de ingresos
-description: Este tema ofrece información sobre como traballar con estimacións de ingresos para proxectos.
+description: Este artigo ofrece información sobre como traballar coas estimacións de ingresos para proxectos.
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f91a0eb6fa0d13ebe8dfb6e837dae0bbff3eb5e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 051535ce8dd4997a923b1511d242638361076979
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595864"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928476"
 ---
 # <a name="manage-revenue-estimates"></a>Xestionar estimacións de ingresos
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Pode crear, calcular, contabilizar, reverter ou eliminar estimacións de ingresos. Pode facelo manualmente ou mediante un proceso periódico. Este tema ofrece información sobre como traballar con estimacións de ingresos para proxectos.
+Pode crear, calcular, contabilizar, reverter ou eliminar estimacións de ingresos. Pode facelo manualmente ou mediante un proceso periódico. Este artigo ofrece información sobre como traballar coas estimacións de ingresos para proxectos.
 
 ### <a name="manage-revenue-estimates-manually"></a>Xestionar estimacións de ingresos manualmente
 

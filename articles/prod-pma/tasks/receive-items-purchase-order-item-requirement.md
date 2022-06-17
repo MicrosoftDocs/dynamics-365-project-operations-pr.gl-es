@@ -1,6 +1,6 @@
 ---
 title: Recibir artigos do pedido de compra a partir do requisito do artigo
-description: Este tema explica como recibir artigos dun pedido de compra a partir dun requisito de artigo.
+description: Este artigo explica como recibir artigos nunha orde de compra a partir dun requisito de artigos.
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab08dda6e81609595f54f3dd71c0154c12807270
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 9bbe15fac325ad00bdd2f2fc6ddf3ae15df45271
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682525"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929534"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Recibir artigos do pedido de compra a partir do requisito do artigo
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema explica como recibir artigos dun pedido de compra a partir dun requisito de artigo.
+Este artigo explica como recibir artigos nunha orde de compra a partir dun requisito de artigos.
 
 Ao usar un requisito de artigo en lugar dunha transacción de artigo, pode planificar a entrega xusto antes de que o artigo se use, crear un pedido de compra, incluír o artigo no marco do acordo comercial e incluír o requisito de artigo na planificación da produción. 
 

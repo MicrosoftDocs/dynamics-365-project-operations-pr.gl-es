@@ -1,23 +1,23 @@
 ---
 title: Rastrexo de esforzo de proxectos
-description: Este tema ofrece información sobre como rastrexar o esforzo do proxecto e o progreso do traballo.
+description: Este artigo ofrece información sobre como controlar o esforzo do proxecto e o progreso do traballo.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593794"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929258"
 ---
 # <a name="project-effort-tracking"></a>Rastrexo de esforzo de proxectos
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-A necesidade de rastrexar o progreso cunha programación varía segundo o sector. Algúns sectores rastrexan a un nivel granular, mentres que outros sectores rastrexan a un nivel máis alto. Este tema mostra como programar para cumprir os requisitos da súa organización.
+A necesidade de rastrexar o progreso cunha programación varía segundo o sector. Algúns sectores rastrexan a un nivel granular, mentres que outros sectores rastrexan a un nivel máis alto. Este artigo mostra como programar para cumprir cos requisitos da túa organización.
 
 ## <a name="effort-tracking-view"></a>Visualización de rastrexamento do esforzo
 

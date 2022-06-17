@@ -1,17 +1,17 @@
 ---
 title: Despregar Project Operations - lite
-description: Este tema ofrece información sobre como instalar o despregamento de Project Operations lite - de oferta a facturación proforma.
+description: 'Este artigo ofrece información sobre como instalar a implementación de Project Operations lite: xestionar a facturación proforma.'
 author: stsporen
 ms.date: 02/28/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: e33506504665f2e7ef7ad48469082f9f64a2a44b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 86293b725e86db3d4b8bdaf5810b16b7c670e8a3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580730"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930316"
 ---
 # <a name="deploy-project-operations---lite"></a>Despregar Project Operations - lite
 
@@ -37,7 +37,7 @@ Project Operations admite varios modelos de despregamento. Para determinar o mel
 
 
 ## <a name="install-project-operations-to-an-existing-dataverse-environment"></a><a name="existing"></a> Instalar Project Operations nun existente Dataverse ambiente
-1. Asegúrese de que o ambiente non foi configurado con [escritura dual](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) xa que a instalación instalará entón o [Operacións do proxecto para escenarios baseados en recursos/non abastecidos](project-operations-integrated-deployment-overview.md) capacidades.
+1. Asegúrese de que o ambiente non foi configurado [escritura dual](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) xa que a instalación instalará entón o [Operacións do proxecto para escenarios baseados en recursos/non abastecidos](project-operations-integrated-deployment-overview.md) capacidades.
 2. Como o [Administrador global ou Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) cunha licenza de Project Operations, localice o ambiente no [Centro de administración de PowerPlatform](https://admin.powerplatform.com) onde desexa instalar Project Operations.
 3. Instale **Microsoft Dynamics 365 Project Operations** na lista de despregamento de aplicacións de Dynamics 365. Para obter máis información, consulte [Xestionar aplicacións de Dynamics 365](/power-platform/admin/manage-apps)
 
