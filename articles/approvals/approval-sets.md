@@ -1,17 +1,17 @@
 ---
 title: Conxuntos de aprobacións
-description: Este tema explica como traballar con conxuntos de aprobacións, solicitudes e os subconxuntos desas operacións.
+description: Este artigo explica como traballar con conxuntos de aprobación, solicitudes e os subconxuntos desas operacións.
 author: stsporen
 ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576222"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918080"
 ---
 # <a name="approval-sets"></a>Conxuntos de aprobacións
 
@@ -31,12 +31,12 @@ Os conxuntos de aprobación son procesados mediante a activación periódica bas
 Asegúrese de que o fluxo estea activado completando os seguintes pasos.
 
 1. Como administrador, inicie sesión en [flow.microsoft.com](https://powerautomate.microsoft.com).
-2. Na esquina superior dereita, cambia ao ambiente para o que utilizas Dynamics 365 Project Operations.
+2. Na esquina superior dereita, cambia ao ambiente para o que usas Dynamics 365 Project Operations.
 3. Seleccione **Solucións** para enumerar as solucións que están instaladas no entorno.
 4. Na lista de solucións, seleccione **Operacións do proxecto**.
 5. Cambia o filtro de **Todos** a **Fluxos de nubes**.
 6. Verifique que o **Servizo de proxectos: programa de xeito recorrente conxuntos de aprobación de proxectos** o fluxo está configurado en **Activado**. Se non o é, seleccione o fluxo e, a continuación, seleccione **Acende**.
-7. Verifique que o procesamento se produce cada cinco minutos revisando o **Traballos do sistema** lista na **Configuración** área dentro das súas operacións do proxecto Dataverse ambiente.
+7. Revisa que o procesamento se produce cada cinco minutos **Traballos do sistema** lista na **Configuración** área dentro das súas operacións do proxecto Dataverse ambiente.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Aprobacións e conxuntos de aprobacións con erros
 A vista **Aprobacións con erros** indica todas as aprobacións que requiren a intervención do usuario. Abra os rexistros de conxuntos de aprobacións asociados para identificar a causa do fallo.

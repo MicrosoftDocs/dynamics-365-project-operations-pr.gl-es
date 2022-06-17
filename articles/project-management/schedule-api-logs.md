@@ -1,17 +1,17 @@
 ---
 title: Rexistros de programación de proxectos
-description: Este tema ofrece información e mostras que che axudarán a utilizar os rexistros de programación de proxectos para rastrexar os fallos relacionados co servizo de programación de proxectos e as API de programación de proxectos.
+description: Este artigo ofrece información e mostras que che axudarán a utilizar os rexistros de programación de proxectos para rastrexar os erros relacionados co servizo de programación de proxectos e as API de programación de proxectos.
 author: ruhercul
 ms.date: 11/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 1a58a588d3e2fb92f1b4a4ed0f6f69d0a63908db
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c57419642e90e4def01f2cd2474c9e82dc162b86
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589516"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923693"
 ---
 # <a name="project-scheduling-logs"></a>Rexistros de programación de proxectos
 
@@ -70,7 +70,7 @@ A seguinte táboa mostra os campos relacionados co **Detalle do conxunto de oper
 
 Os rexistros de erros de Project Scheduling Service capturan os fallos que se producen cando o Project Scheduling Service tenta a **Gardar** ou **Aberto** operación. Hai tres escenarios compatibles nos que se xeran estes rexistros:
 
-- As accións iniciadas polo usuario fallan gravemente (por exemplo, non se pode crear unha tarefa por falta de privilexios).
+- As accións iniciadas polo usuario fallan de xeito crítico (por exemplo, non se pode crear unha tarefa por falta de privilexios).
 - O servizo de programación de proxectos non pode crear, actualizar, eliminar nin realizar ningunha outra operación en cascada nunha entidade mediante programación.
 - O usuario experimenta erros cando un rexistro non se abre (por exemplo, cando se abre un proxecto ou se actualiza a información dun membro do equipo).
 
@@ -92,9 +92,9 @@ A seguinte táboa mostra os campos que están incluídos no rexistro do servizo 
 
 ## <a name="error-log-cleanup"></a>Erro na limpeza do rexistro
 
-De forma predeterminada, tanto os rexistros de erros do servizo de programación de proxectos como o rexistro do conxunto de operacións pódense limpar cada 90 días. Eliminaranse os rexistros que teñan máis de 90 días. Non obstante, ao cambiar o valor do **msdyn_StateOperationSetAge** campo no **Parámetros do proxecto** páxina, os administradores poden axustar o intervalo de limpeza para que estea entre 1 e 120 días. Existen varios métodos para cambiar este valor:
+De forma predeterminada, tanto os rexistros de erros do servizo de programación de proxectos como o rexistro do conxunto de operacións pódense limpar cada 90 días. Eliminaranse os rexistros que teñan máis de 90 días. Non obstante, cambiando o valor do **msdyn_StateOperationSetAge** campo no **Parámetros do proxecto** páxina, os administradores poden axustar o intervalo de limpeza para que estea entre 1 e 120 días. Existen varios métodos para cambiar este valor:
 
-- Personaliza o **Parámetro do proxecto** entidade creando unha páxina personalizada e engadindo o **Operacións obsoletas Establecer idade** campo.
+- Personaliza o **Parámetro do proxecto** entidade creando unha páxina personalizada e engadindo o **Operacións obsoletas establecen idade** campo.
 - Use o código de cliente que use o [Kit de desenvolvemento de software WebApi (SDK)](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord).
 - Usa o código do SDK do servizo que utiliza o SDK Xrm **updateRecord** método (referencia de API de cliente) en aplicacións basadas en modelos. Power Apps inclúe unha descrición e os parámetros admitidos para o **updateRecord** método.
 

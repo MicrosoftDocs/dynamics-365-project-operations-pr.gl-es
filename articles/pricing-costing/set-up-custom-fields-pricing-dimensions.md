@@ -1,6 +1,6 @@
 ---
 title: Configurar campos personalizados como dimensións de prezos
-description: Este tema fornece información sobre como configurar dimensións de prezos mediante campos personalizados.
+description: Este artigo ofrece información sobre como configurar as dimensións de prezos mediante campos personalizados.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599406"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917574"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurar campos personalizados como dimensións de prezos
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Antes de comezar, este tema asume que completou os procedementos nos temas [Crear campos e entidades personalizados](create-custom-fields-entities-pricing-dimensions.md) e [Engadir campos personalizados requiridos a configuración de prezos e entidades transaccionais](add-custom-fields-price-setup-transactional-entities.md). Se non completou eses procedementos, volva e compléteos e despois volva a este tema. 
+Antes de comezar, este artigo asume que completou os procedementos dos artigos, [Crear campos e entidades personalizados](create-custom-fields-entities-pricing-dimensions.md) e [Engade campos personalizados obrigatorios á configuración de prezos e ás entidades transaccionais](add-custom-fields-price-setup-transactional-entities.md). Se non completaches eses procedementos, volve e complétaos e despois volve a este artigo. 
 
-Este tema fornece información sobre a configuración de dimensións de prezos personalizadas. Na páxina **Parámetros**, o separador **Dimensións de prezos baseados na cantidade** mostra os rexistros nas entidades de dimensións de prezos. Por defecto, hai dúas filas na grade deste separador:
+Este artigo ofrece información sobre a configuración de dimensións de prezos personalizados. Na páxina **Parámetros**, o separador **Dimensións de prezos baseados na cantidade** mostra os rexistros nas entidades de dimensións de prezos. Por defecto, hai dúas filas na grade deste separador:
 
 - **msdyn_resourcecategory** (Rol)
 - **msdyn_OrganizationalUnit** (Unidade organizativa)

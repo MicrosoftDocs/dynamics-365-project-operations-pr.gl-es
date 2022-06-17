@@ -1,24 +1,24 @@
 ---
 title: Novidades de decembro de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
-description: Este tema ofrece información sobre as actualizacións de calidade que están dispoñibles na versión de decembro de 2021 de Project Operations para escenarios baseados en recursos ou non almacenados.
+description: Este artigo ofrece información sobre as actualizacións de calidade que están dispoñibles na versión de decembro de 2021 de Project Operations para escenarios baseados en recursos ou non almacenados.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0fc3f524b7b240170822f0b246559e15985f4b0f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 79ae9f49a4291d162a8a9bb6eb9a22d615773f6e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579810"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910858"
 ---
 # <a name="whats-new-december-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de decembro de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
 
 *Aplícase a: Project Operations para situacións baseadas en recursos/sen fornecemento*
 
-Este tema aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
+Este artigo aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
 
 - Operacións do proxecto en a Dataverse versión do entorno 4.27.0.195, 4.27.0.242, 4.27.0.244
 - Xestión de proxectos e contabilidade nun entorno Dynamics 365 Finance versión 10.0.23
@@ -43,7 +43,7 @@ Se atopas algún problema ao iniciar o mapa, siga as instrucións da páxina [Fa
 | **Área de funcionalidades** | **Número de referencia** | **Actualización de calidade** |
 | --- | --- | --- |
 | Planificación e rastrexo | 2392596 | As API de programación agora permiten actualizacións de **Esforzo restante**, **rematado**, e **% Completado** campos. |
-| Planificación e rastrexo | 2478497 | O **Número de actividade** e **ID da tarefa** Os campos das API de programación poden estar en branco na entrada porque o sistema os encherá mediante a numeración automática.|
+| Planificación e rastrexo | 2478497 | O **Número de actividade** e **ID da tarefa** os campos para as API de programación poden estar en branco na entrada porque o sistema os encherá mediante a numeración automática.|
 | Tempo e gasto | 2468135 | O número de reintentos de aprobación redúcese de cinco a tres. |
 | Tempo e gasto | 2468188 | Solucionouse o problema co texto do rexistro que superaba a lonxitude máxima no ficheiro **texto de nota** atributo do **Anotación** entidade. |
 | Facturación e prezos | 2488698 | Mensaxe de erro actualizada que se produce cando faltan na configuración do contorno os rexistros de entidades de Ledger que se enchen desde Finanzas. |
@@ -57,7 +57,7 @@ Se atopas algún problema ao iniciar o mapa, siga as instrucións da páxina [Fa
 | Xestión e contabilidade de proxectos | [602728](https://nam06.safelinks.protection.outlook.com/?url=https:%2F%2Ffix.lcs.dynamics.com%2FIssue%2FDetails%2F?bugId%3D602728&amp;data=04%7C01%7Cjespers%40microsoft.com%7Cc1d2484c411149f3a93708d9a8583e14%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637725919227094434%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&amp;sdata=Q2%2BveFHlGrzg4QHtqcgeqjyZSQkmpr%2Fku7oObKHMB9g%3D&amp;reserved=0) | Un problema de contabilización dos ingresos facturados do proxecto en casos de retención aplicada provoca que as transaccións do comprobante non se equilibren. |
 | Xestión e contabilidade de proxectos | [610906](https://nam06.safelinks.protection.outlook.com/?url=https:%2F%2Ffix.lcs.dynamics.com%2FIssue%2FDetails%2F?bugId%3D610906&amp;data=04%7C01%7Cjespers%40microsoft.com%7Cc1d2484c411149f3a93708d9a8583e14%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637725919227134259%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&amp;sdata=xDBnz10T71GmOZt78ooFK3SYvmTLoC5fj1OftYNYDpY%3D&amp;reserved=0) | Melloras de rendemento para a integración coas operacións reais do proxecto. |
 | Xestión e contabilidade de proxectos | [618670](https://nam06.safelinks.protection.outlook.com/?url=https:%2F%2Ffix.lcs.dynamics.com%2FIssue%2FDetails%2F?bugId%3D618670&amp;data=04%7C01%7Cjespers%40microsoft.com%7Cc1d2484c411149f3a93708d9a8583e14%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637725919227203949%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&amp;sdata=PqvHsTGLcQ3bYbUlzYABYhl7J9v2zbnjcOgm%2FTvXB20%3D&amp;reserved=0) | Os usuarios non poden facturar se se publican as transaccións de custo hora **Nunca rexistro** ou **Sen rexistro**. |
-| Xestión e contabilidade de proxectos | [623818](https://nam06.safelinks.protection.outlook.com/?url=https:%2F%2Ffix.lcs.dynamics.com%2FIssue%2FDetails%2F?bugId%3D623818&amp;data=04%7C01%7Cjespers%40microsoft.com%7Cc1d2484c411149f3a93708d9a8583e14%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637725919227303517%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&amp;sdata=LAfdEiuKG8DoGk8O48MRLuaKYDINhCyMAtrlpGvVAw0%3D&amp;reserved=0) | Os traballos por lotes fallan se unha das publicacións de revistas falla e os restantes diarios non se procesan.  |
+| Xestión e contabilidade de proxectos | [623818](https://nam06.safelinks.protection.outlook.com/?url=https:%2F%2Ffix.lcs.dynamics.com%2FIssue%2FDetails%2F?bugId%3D623818&amp;data=04%7C01%7Cjespers%40microsoft.com%7Cc1d2484c411149f3a93708d9a8583e14%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637725919227303517%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&amp;sdata=LAfdEiuKG8DoGk8O48MRLuaKYDINhCyMAtrlpGvVAw0%3D&amp;reserved=0) | Os traballos por lotes fallan se unha das publicacións de revistas falla e as revistas restantes non se procesan.  |
 | Viaxes e gasto | [575378](https://nam06.safelinks.protection.outlook.com/?url=https:%2F%2Ffix.lcs.dynamics.com%2FIssue%2FDetails%2F?bugId%3D575378&amp;data=04%7C01%7Cjespers%40microsoft.com%7Cc1d2484c411149f3a93708d9a8583e14%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637725919225451644%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&amp;sdata=3tW0ngQqcz8pdNFY8FVuFlsgv3l73HMgeQTLbzIAAOg%3D&amp;reserved=0) | O estado de aprobación dos gastos non adxuntos pódese cambiar. |
 | Viaxes e gasto | [592997](https://nam06.safelinks.protection.outlook.com/?url=https:%2F%2Ffix.lcs.dynamics.com%2FIssue%2FDetails%2F?bugId%3D592997&amp;data=04%7C01%7Cjespers%40microsoft.com%7Cc1d2484c411149f3a93708d9a8583e14%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637725919225521336%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&amp;sdata=0leQsokHcl2NLqePFXC6%2BuH1V5UNRWUIPx0wTUaB4vg%3D&amp;reserved=0) | Un informe de gastos que se envía ao fluxo de traballo permítelle crear novas liñas de gastos. |
 | Viaxes e gasto | [594853](https://nam06.safelinks.protection.outlook.com/?url=https:%2F%2Ffix.lcs.dynamics.com%2FIssue%2FDetails%2F?bugId%3D594853&amp;data=04%7C01%7Cjespers%40microsoft.com%7Cc1d2484c411149f3a93708d9a8583e14%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637725919225541248%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&amp;sdata=5PINC45EBeV8PC0Cvtt0QPPJn0VYQ%2FRCjBmlEsZJCq4%3D&amp;reserved=0) | Pode restablecer as liñas de gastos non contabilizadas nun informe de gastos. |

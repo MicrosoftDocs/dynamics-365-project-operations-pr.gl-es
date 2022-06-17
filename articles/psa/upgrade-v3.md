@@ -1,6 +1,6 @@
 ---
 title: Consideracións de actualización - Microsoft Dynamics 365 Project Service Automation versión 2.x ou 1.x a versión 3
-description: Este tema proporciona información sobre as consideracións que debe ter en conta ao actualizar da versión 2.x ou 1.x á versión 3 de Project Service Automation.
+description: Este artigo ofrece información sobre as consideracións que debes facer cando actualizas a versión 2.x ou 1.x de Project Service Automation á versión 3.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601752"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918908"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Consideracións sobre a actualización - PSA versión 2.x ou 1.x a versión 3
 
@@ -40,7 +40,7 @@ En Project Service Automation versión 2 e versión 1, as tarefas almacenábanse
 
 Na versión 3 de Project Service Automation, o esquema subxacente de atribución de recursos reservables a tarefas cambiou. A tarefa de liña quedou desfasada e hai unha relación directa 1:1 entre a tarefa no **Entidade tarefa** e o membro do equipo na entidade **Atribución de recursos**. As tarefas atribuídas a un membro do equipo de proxecto agora almacénanse directamente na entidade Atribución de recursos.  
 
-Estes cambios afectan á actualización de calquera proxecto existente que teña atribucións de recursos para recursos reservables nomeados e recursos xenéricos nun equipo de proxecto. Este tema ofrece as consideracións que terá que ter en conta para os seus proxectos cando actualice á versión 3. 
+Estes cambios afectan á actualización de calquera proxecto existente que teña atribucións de recursos para recursos reservables nomeados e recursos xenéricos nun equipo de proxecto. Este artigo ofrece as consideracións que terás que ter en conta para os teus proxectos cando actualices á versión 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Tarefas atribuídas a recursos nomeados
 Ao usar a entidade de tarefas subxacente, as tarefas da versión 2 e a versión 1 permitían aos membros do equipo retratar un rol distinto do seu rol definido por defecto. Por exemplo, a Beatriz Fervenza, a quen por defecto se atribuíu o rol de xestor de programas, podería atribuírselle unha tarefa co rol de programador. Na versión 3, o rol dun membro nomeado é sempre o predefinido, polo que calquera tarefa que se lle atribúa a Beatriz Fervenza usa o seu rol predefinido de xestor de programas.

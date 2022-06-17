@@ -1,25 +1,25 @@
 ---
 title: Despregar manualmente a aplicación Project Operations Dataverse con soporte de escrita dual
-description: Este tema explica como despregar manualmente a aplicación Project Operations Dataverse para que admita a escrita dual.
+description: Este artigo explica como implementar manualmente as operacións do proxecto Dataverse aplicación para que admita a escritura dual.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591218"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912008"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Despregar manualmente a aplicación Project Operations Dataverse con soporte de escrita dual
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Este tema explica como despregar manualmente Microsoft Dynamics 365 Project Operations en Microsoft Dataverse para que admita a escrita dual. Project Operations detecta a configuración do ambiente e engade soporte adicional para a escritura dual se se cumpren os requisitos previos.
+Este artigo explica como implementar Microsoft manualmente Dynamics 365 Project Operations en Microsoft Dataverse para que admita a escritura dual. Project Operations detecta a configuración do ambiente e engade soporte adicional para a escritura dual se se cumpren os requisitos previos.
 
-Durante o despregamento a través de Microsoft Dynamics Lifecycle Services (LCS), se seguiu as instrucións deste tema, podes omitir o despregamento da integración de Microsoft Power Platform (anteriormente coñecida como o ambiente de Common Data Service).
+Durante a implantación mediante Microsoft Dynamics Servizos de ciclo de vida (LCS), se seguiu as instrucións deste artigo, pode omitir a implantación do Microsoft Power Platform integración (anteriormente coñecida como Common Data Service medio ambiente).
 
 O proceso de despregamento de Project Operations en Dataverse para que admita a escrita dual ten catro pasos principais:
 

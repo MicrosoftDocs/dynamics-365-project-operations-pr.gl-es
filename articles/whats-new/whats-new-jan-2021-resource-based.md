@@ -1,25 +1,25 @@
 ---
 title: Novidades de xaneiro de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
-description: Este tema ofrece información sobre as actualizacións de calidade dispoñibles na versión de xaneiro de 2021 de Project Operations para situacións baseadas en recursos/sen fornecemento.
+description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de xaneiro de 2021 de Project Operations para escenarios baseados en recursos ou non almacenados.
 author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 50874d771afe03b08bd95b670f7095bc2d61509d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cd20ba47a45593e7694234b4f58aecd79b1c3736
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599544"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910674"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de xaneiro de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
 
-Este tema aplícase aos seguintes compoñentes e versións de Dynamics 365 Project Operations:
+Este artigo aplícase ao seguinte Dynamics 365 Project Operations compoñentes e versións:
 
   - Project Operations en ambiente de Dataverse versión 4.6.0.154
   - Xestión de proxectos e contabilidade no entorno Dynamics 365 Finance versión 10.0.16

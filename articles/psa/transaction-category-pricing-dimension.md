@@ -1,6 +1,6 @@
 ---
 title: Use a categoría de transacción como dimensión de prezos
-description: Este tema fornece información sobre o uso da categoría de transacción como dimensión de prezos.
+description: Este artigo ofrece información sobre o uso dunha categoría de transacción como dimensión de prezos.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ede5f95a3ba7e122e28875acad1ecc63ff095e63
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1a1c2dc17c2092e5364d90e7efc1f13aee80703e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593334"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915734"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Use a categoría de transacción como dimensión de prezos
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Este tema mostra como usar a categoría de transacción como dimensión de prezos. Antes de comezar, se aínda non creou unha solución de dimensión de prezos, necesitará crear unha nova. Se xa ten unha solución de dimensión de prezos, pode facer os seus cambios nesa solución. Se non creou unha nova solución de dimensión de prezos para a súa organización, complete os procedementos do tema [Crear campos e entidades personalizados](create-custom-fields-entities.md).
+Este artigo mostra como usar unha categoría de transacción como dimensión de prezos. Antes de comezar, se aínda non creou unha solución de dimensión de prezos, necesitará crear unha nova. Se xa ten unha solución de dimensión de prezos, pode facer os seus cambios nesa solución. Se non creou unha nova solución de dimensións de prezos para a súa organización, complete os procedementos da páxina [Crear campos e entidades personalizados](create-custom-fields-entities.md) artigo.
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Engadir a categoría de transacción a formularios e vistas
 Para facer a categoría de transacción visible na IU na solución de dimensión de prezos, necesitará percorrer todos os formularios e vistas das entidades clave de Project Service e engadir estes campos aos formularios e vistas desas entidades.

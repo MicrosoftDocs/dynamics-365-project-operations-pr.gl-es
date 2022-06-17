@@ -1,17 +1,17 @@
 ---
 title: Xestión de subcontratos en Project Operations
-description: Este tema ofrece unha visión xeral do proceso de xestión de subcontratos de extremo a extremo normalmente en organizacións baseadas en proxectos.
+description: Este artigo ofrece unha visión xeral do proceso de xestión de subcontratos de extremo a extremo normalmente nas organizacións baseadas en proxectos.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f5e025b5f741935494349fb1bdfd3a19bacb5e1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593012"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911502"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Xestión de subcontratos en Project Operations
 
@@ -19,7 +19,7 @@ ms.locfileid: "8593012"
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
-Este tema ofrece unha visión xeral do proceso de xestión de subcontratos de extremo a extremo en organizacións baseadas en proxectos. A subcontratación de servizos normalmente segue o fluxo do proceso de negocio que se mostra no seguinte diagrama.
+Este artigo ofrece unha visión xeral do proceso de xestión de subcontratos de extremo a extremo nas organizacións baseadas en proxectos. A subcontratación de servizos normalmente segue o fluxo do proceso de negocio que se mostra no seguinte diagrama.
 
 ![Fluxo do proceso de subcontratación](../media/SubcontractingProcessFlow.png)
 

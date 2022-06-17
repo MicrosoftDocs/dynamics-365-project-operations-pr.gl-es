@@ -1,6 +1,6 @@
 ---
 title: Unidades organizativas
-description: Este tema describe o concepto de unidades organizativas e explica como crear e manter unidades organizativas en Microsoft Dynamics 365 Project Operations.
+description: Este artigo describe o concepto de unidades organizativas e explica como crear e manter unidades organizativas en Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 1/31/2022
 ms.topic: article
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 9a8c503dc6286f40c80ed9b7a8a04974ff7e50b4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a20a37b61db68d70869a11e10bef5d30c422b1eb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581374"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921622"
 ---
 # <a name="organizational-units-overview"></a>Visión xeral das unidades organizativas
 
@@ -54,7 +54,7 @@ A unidade organizativa desempeña dúas funcións nas operacións do proxecto:
 
 A continuación móstranse algunhas das preguntas máis frecuentes acerca das unidades organizativas:
 
-#### <a name="how-is-the-organizational-unit-entity-in-project-operations-related-to-the-organization-entity-that-already-exists-in-dynamics-365"></a>Como se relaciona a entidade Unidade organizativa en Operacións de proxecto coa entidade Organización que xa existe en Dynamics 365?
+#### <a name="how-is-the-organizational-unit-entity-in-project-operations-related-to-the-organization-entity-that-already-exists-in-dynamics-365"></a>Como se relaciona a entidade da Unidade organizativa en Project Operations coa entidade Organización que xa existe en Dynamics 365?
 
 A entidade Organización en Dynamics 365 representa o nome dunha instancia global de Dynamics 365. Este nome normalmente é o nome da empresa global.
 
@@ -76,7 +76,7 @@ Contoso, Ltd. ten unha próspera práctica de tecnoloxía de Microsoft. Henrique
 
 Aquí tes unha forma óptima de deseñar para este escenario usando Dynamics 365 e Project Operations.
 
-1. Cree a práctica tecnolóxica de Microsoft como unidade empresarial e asocie a Henrique e Lara a ela. Deste xeito, axudas a garantir que ambos os empregados teñan o mesmo nivel de acceso de seguridade a todos os proxectos desa área de práctica. Ambos poderán comprobar o progreso e informar o tempo, os gastos, o uso de material e as actualizacións de tarefas.
+1. Cree a práctica tecnolóxica de Microsoft como unidade empresarial e asocie a Henrique e Lara a ela. Deste xeito, axudas a garantir que ambos os empregados teñan o mesmo nivel de acceso de seguridade a calquera proxecto nesa área de práctica. Ambos poderán comprobar o progreso e informar o tempo, os gastos, o uso de material e as actualizacións de tarefas.
 2. Crea dúas unidades organizativas para garantir que o custo do proxecto se reflicta correctamente.
 3. Asocia a Tricia con Contoso EU e Prakash con Contoso India.
 4. Atribúa listas de prezos de custo a ambas unidades organizativas. Deste xeito, axudas a garantir que os custos que se rexistran no proxecto de Prakash e Tricia reflictan con precisión a diferenza de custos entre Contoso EU e Contoso India.

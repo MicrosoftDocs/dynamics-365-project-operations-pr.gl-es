@@ -1,6 +1,6 @@
 ---
-title: Transaccións comerciais en Operacións de Proxecto
-description: Este tema ofrece unha visión xeral do concepto de transaccións comerciais en Microsoft Dynamics 365 Project Operations.
+title: Transaccións empresariais en Project Operations
+description: Este artigo ofrece unha visión xeral do concepto de transaccións comerciais en Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 01/31/2022
 ms.topic: overview
@@ -13,14 +13,14 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2022-01-31
-ms.openlocfilehash: 0c6fe583af0dcaa62204b35c1093746b13b6e00e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fab0061af6e615c25d0fbf79d024370285dc6f86
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582202"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923278"
 ---
-# <a name="business-transactions-in-project-operations"></a>Transaccións comerciais en Operacións de Proxecto
+# <a name="business-transactions-in-project-operations"></a>Transaccións empresariais en Project Operations
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
@@ -34,7 +34,7 @@ En Microsoft Dynamics 365 Project Operations, *comercial* é un concepto abstrac
 
 Destas entidades, os detalles da liña de cotización, os detalles da liña de contrato e as liñas de estimación están asignados ao *fase de estimación* no ciclo de vida do proxecto. As liñas do Diario e as entidades Reais están mapeadas ao *fase de execución* no ciclo de vida do proxecto.
 
-Project Operations trata os rexistros destas cinco entidades como transaccións comerciais. A única distinción é que se consideran os rexistros das entidades que se asignan á fase de estimación (detalles da liña de cotización, detalles da liña de contrato e liñas de estimación).*previsións financeiras*, mentres que se consideran rexistros das entidades que se asignan á fase de execución (liñas de diario e reais).*feitos financeiros* que xa ocorreron.
+Project Operations trata os rexistros destas cinco entidades como transaccións comerciais. A única distinción é que se consideran os rexistros das entidades que se asignan á fase de estimación (detalles da liña de cotización, detalles da liña de contrato e liñas de estimación).*previsións financeiras*, mentres que se consideran rexistros nas entidades que se asignan á fase de execución (liñas de diario e reais).*feitos financeiros* que xa ocorreron.
 
 Para obter máis información, consulte [Estimacións](../project-management/estimating-projects-overview.md) e [Datos reais](actuals-overview.md).
 

@@ -1,18 +1,18 @@
 ---
 title: Visión xeral da retención de fornecedores
-description: Este tema ofrece unha visión xeral das capacidades de retención de fornecedores.
+description: Este artigo ofrece unha visión xeral das capacidades de retención de provedores.
 author: sigitac
 ms.date: 10/01/2021
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f9e4a1e63e47524bb622771f645c04e61c279496
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 680786f239125905f3b8746cb8318732aa74d9e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588458"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916838"
 ---
 # <a name="vendor-retention-overview"></a>Visión xeral da retención de fornecedores
 

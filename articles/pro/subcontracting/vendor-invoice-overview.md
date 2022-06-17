@@ -1,19 +1,19 @@
 ---
-title: Facturación de provedores - Concepto e creación
-description: Este tema describe o concepto de facturas de provedores, escenarios de uso e como crear facturas de provedores en Microsoft Dynamics 365 Project Operations.
+title: Facturación de fornecedores - Concepto e creación
+description: Este artigo describe o concepto de facturas de provedores, escenarios de uso e como crear facturas de provedores en Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dc9b3954b237294f52aa0bb74f8008a5dfdf78fd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 38f0760697522b7a5e561cec7d38dfd5c3eaf9fc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580546"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911456"
 ---
-# <a name="vendor-invoicing---concept-and-creation"></a>Facturación de provedores - Concepto e creación
+# <a name="vendor-invoicing---concept-and-creation"></a>Facturación de fornecedores - Concepto e creación
 
 [!include [banner](../../includes/dataverse-preview.md)]
 

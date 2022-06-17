@@ -1,33 +1,33 @@
 ---
 title: Actualizar os atributos do complemento con novas dimensións de prezos
-description: Este tema fornece información sobre como actualizar os atributos do complemento para as dimensións de prezos.
+description: Este artigo ofrece información sobre como actualizar os atributos do complemento para as dimensións de prezos.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575026"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920012"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Actualizar os atributos do complemento con novas dimensións de prezos
 
-Este tema fornece información sobre como actualizar os atributos do complemento para as dimensións de prezos.
+Este artigo ofrece información sobre como actualizar os atributos do complemento para as dimensións de prezos.
 
 > [!NOTE]
-> Este tema só é aplicable ás funcionalidades de oferta e contrato en Dynamics 365 Project Operations.
+> Este artigo só é aplicable ás características de cotización e contrato en Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Requisitos previos
-Antes de completar os pasos deste tema, debe ter completado os procedementos dos seguintes temas:
+Antes de completar os pasos deste artigo, debes completar os procedementos dos seguintes artigos:
 
   - [Crear campos e entidades personalizados](create-custom-fields-entities-pricing-dimensions.md) 
   - [Engadir campos personalizados á configuración de prezos e ás entidades transaccionais ](add-custom-fields-price-setup-transactional-entities.md)
   - [Configurar campos personalizados como dimensións de prezos](set-up-custom-fields-pricing-dimensions.md). 
   
-Se non completou eses procedementos, compléteos e despois volva a este tema.
+Se non completaches eses procedementos, complétaos e despois volve a este artigo.
 
 ## <a name="register-a-plug-in"></a>Rexistrar un complemento
 Cando se crea un detalle de liña de oferta na páxina **Liña de oferta** dunha liña de oferta do proxecto, o sistema crea dúas liñas de estimación. Unha liña é para o lado de custo da estimación e a outra liña é para o lado de vendas. Isto é o mesmo para as liñas de contrato do proxecto.

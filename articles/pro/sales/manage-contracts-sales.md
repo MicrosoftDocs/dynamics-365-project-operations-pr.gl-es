@@ -1,17 +1,17 @@
 ---
 title: Xestionar contratos de proxecto
-description: Este tema ofrece información sobre a visualización de contratos baseados en proxecto.
+description: Este artigo ofrece información sobre a visualización de contratos baseados en proxectos.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 64e81593065d97272af6261e17175c76bd8dca7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: acf1331068ccd1cbbf6a63f85c1bc424889f67e5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590482"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917252"
 ---
 # <a name="manage-project-contracts"></a>Xestionar contratos de proxecto
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683398"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920656"
 ---
 # <a name="work-breakdown-structures-overview"></a>Visión xeral de estruturas de subdivisión do traballo
 
@@ -35,7 +35,7 @@ O grao de detalle dunha WBS depende do nivel de precisión que se require nas es
 
 Pola contra, os proxectos en sectores como medios de comunicación e publicidade, software e infraestruturas de TI adoitan ser únicos e a produtividade está relacionada coa experiencia e competencia da persoa que realiza a tarefa. Polo tanto, estes sectores utilizan unha WBS para obter unha aproximación do tamaño dun proxecto, non para rastrexar o progreso dese proxecto en detalle. 
 
-Construír unha WBS é un proceso intensivo que se realiza normalmente durante un longo período e que require colaboración e información dunha gran variedade de persoas. Este tema describe como pode usar as melloras da WBS para cumprir os seus requisitos de estimacións e rastrexo.
+Construír unha WBS é un proceso intensivo que se realiza normalmente durante un longo período e que require colaboración e información dunha gran variedade de persoas. Este artigo describe como pode usar as melloras de WBS para satisfacer os seus requisitos de estimacións e seguimento.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Requisitos previos para a creación dunha WBS
 Para crear unha WBS, ten que ser capaz de crear un programa de traballo e estimar o custo do traballo.
@@ -166,7 +166,7 @@ Finanzas ten tres vistas para a WBS dun proxecto: a vista de planificación, a v
 
 ### <a name="planning-view"></a>Vista de planificación
 
-A vista de planificación mostra a estimación planificada ou de base da información sobre programación e custos. Aínda que non hai funcionalidades para rastrexar a versión e a liña de base da WBS dun proxecto, os valores desta vista están pensados para representar a versión de liña de base. As seccións de estimación de programación e estimación de custos deste tema describen esta vista e como se usa para crear unha WBS.
+A vista de planificación mostra a estimación planificada ou de base da información sobre programación e custos. Aínda que non hai funcionalidades para rastrexar a versión e a liña de base da WBS dun proxecto, os valores desta vista están pensados para representar a versión de liña de base. As seccións de Estimación de programación e Estimación de custos deste artigo describen esta vista e como se usa para crear un WBS.
 
 ### <a name="effort-tracking-view"></a>Visualización de rastrexamento do esforzo
 

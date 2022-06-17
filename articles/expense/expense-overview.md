@@ -1,18 +1,18 @@
 ---
 title: Visión xeral dos gastos
-description: Este tema ofrece información sobre a funcionalidade de gasto en Project Operations.
+description: Este artigo ofrece información sobre a funcionalidade de gastos en Operacións do proxecto.
 author: stsporen
 ms.date: 10/06/2020
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 617419107a4ff4d32d96d2da2c2f2945d320e2b4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 935998adda4a967285d68016b4dad0bc2b0c56dd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582156"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917896"
 ---
 # <a name="expense-home-page"></a>Páxina de inicio de gastos
 

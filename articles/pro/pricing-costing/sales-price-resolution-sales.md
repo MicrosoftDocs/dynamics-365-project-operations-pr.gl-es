@@ -1,17 +1,17 @@
 ---
 title: Resolver prezos de vendas para estimacións e datos reais de proxecto
-description: Este tema ofrece información sobre como se resolven os prezos de venda das estimacións e dos datos reais do proxecto.
+description: Este artigo ofrece información sobre como resolver os prezos de venda en estimacións e reais do proxecto.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8aa731d48a3ce39dfbf4fc1e5934b0844caf2953
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9a6a19a866ab3218f2a0fa297b5f6a00ed809d2f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575717"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917482"
 ---
 # <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Resolver prezos de vendas para estimacións e datos reais de proxecto
 

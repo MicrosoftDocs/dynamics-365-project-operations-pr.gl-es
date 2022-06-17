@@ -1,24 +1,24 @@
 ---
 title: Novidades febreiro 2022 - Despregamento de Project Operations lite
-description: Este tema ofrece información sobre as actualizacións de calidade que están dispoñibles na versión de febreiro de 2022 da implantación de Project Operations lite.
+description: Este artigo ofrece información sobre as actualizacións de calidade que están dispoñibles na versión de febreiro de 2022 da implantación de Project Operations lite.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: af66a5f61adf4f016f3fa547bbdfc75d06b2711b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1203faa2dd53a8fb82cff0857a1725426ebff19a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574566"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922818"
 ---
 # <a name="whats-new-february-2022---project-operations-lite-deployment"></a>Novidades febreiro 2022 - Despregamento de Project Operations lite
 
 _Aplícase a: Despregamento de Lite - acordo para facturación proforma_
 
-Este tema aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
+Este artigo aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
 
 - Operacións do proxecto en a Dataverse versión do entorno 4.28.0.120
 

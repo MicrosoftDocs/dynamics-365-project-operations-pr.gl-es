@@ -1,17 +1,17 @@
 ---
 title: Migre os hitos de facturación totalmente facturados no momento do cambio
-description: Este tema explica como migrar os fitos de facturación a prezos fixos que se facturaron ao cliente por contratos de proxectos abertos antes da data de posta en funcionamento.
+description: Este artigo explica como migrar os fitos de facturación a prezos fixos que se facturaron ao cliente por contratos de proxectos abertos antes da data de posta en funcionamento.
 author: sigitac
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ccdba864a68521024b2c479c12cf5cea616c5bbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d7bb3dbb5acd9be447c405ec17f18d00c500f655
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576268"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912238"
 ---
 # <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>Migre os hitos de facturación totalmente facturados no momento do cambio
 
@@ -65,7 +65,7 @@ Contoso estará en directo con Microsoft Dynamics 365 Project Operations para es
 
 ### <a name="migrate-invoiced-milestones-to-the-dataverse-environment"></a>Migrar os fitos facturados ao Dataverse ambiente
 
-1. No Proxecto Operacións Dataverse ambiente, crear fitos que teñan un estado de factura de **Listo para facturar**. Neste momento, non migre ningún fito que non teña facturado.
+1. No Proxecto Operacións Dataverse entorno, crear fitos que teñan un estado de factura de **Listo para facturar**. Neste momento, non migre ningún fito que non teña facturado.
 
     > [!NOTE]
     > Antes de migrar os fitos de facturación, asegúrese de que as dimensións financeiras que están relacionadas coa liña do contrato do proxecto están definidas como se espera. Non se poden editar as dimensións financeiras despois de completar a migración.

@@ -1,17 +1,17 @@
 ---
 title: Configurar o panel de programación para mostrar os traballadores contratados e a capacidade subcontratada
-description: Este tema describe como configurar Schedule Board en Microsoft Dynamics 365 Project Operations para mostrar a capacidade de recursos subcontratados ao dotar de persoal as necesidades de recursos do proxecto.
+description: Este artigo describe como configurar Schedule Board en Microsoft Dynamics 365 Project Operations para mostrar a capacidade de recursos subcontratados ao dotar de persoal as necesidades de recursos do proxecto.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6e382b33fafe91c8b96a91d033fe12b998114bdc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b965fd5011a575354f50c47081be198ab43248f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587818"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919828"
 ---
 # <a name="configure-schedule-board-to-show-contract-workers-and-subcontracted-capacity"></a>Configurar o panel de programación para mostrar os traballadores contratados e a capacidade subcontratada 
 
@@ -30,7 +30,7 @@ Para notificar ao consello de programación da capacidade de recursos subcontrat
 
 ## <a name="update-schedule-board-settings-for-general-resource-search"></a>Actualiza a configuración do taboleiro de programación para a busca xeral de recursos
 ### <a name="update-filters-for-general-resource-search"></a>Actualiza os filtros para a busca xeral de recursos
-Cando busque un recurso, os filtros dispoñibles no taboleiro de programación deben actualizarse para que tamén poida buscar recursos externos especificando algún ou todos os seguintes:
+Cando busque un recurso, os filtros dispoñibles no taboleiro de programación deberían actualizarse para que tamén poida buscar recursos externos especificando algún ou todos os seguintes:
   - Tipo de traballador, se os recursos mostrados deben ser traballadores por contrato ou asalariados.
   - Empresa vendedora á que debe pertencer un recurso.
   - Recursos que pertencen a unha determinada subcontratación ou liña de subcontratación.
@@ -38,7 +38,7 @@ Cando busque un recurso, os filtros dispoñibles no taboleiro de programación d
 ### <a name="update-retrieve-resource-query"></a>Actualizar a consulta de recursos de recuperación
 A consulta utilizada para a busca tamén debe actualizarse para utilizar estes atributos de filtro adicionais. Use os seguintes pasos para actualizar a configuración do taboleiro de programación para a busca xeral de recursos:  
 1. Aberto **Configuración do taboleiro de programación** para un Consello de Horarios específico.
-2. Abre o **Configuración xeral** pestana e desprázate ata **Outras configuracións**.
+2. Abre o **Configuración xeral** pestana e desprázate ata **Outras opcións**.
 3. Na lista de configuracións desta sección, actualice o **Disposición do filtro** a **Disposición de filtro predeterminada para Project Operations Lite**.
 4. Actualizar **Consulta de recursos de recuperación** a **Consulta de recursos de recuperación predeterminada para Project Operations Lite**.
 
@@ -46,16 +46,16 @@ A consulta utilizada para a busca tamén debe actualizarse para utilizar estes a
 
 ## <a name="update-schedule-board-settings-for-requirementbased-resource-search"></a>Actualiza a configuración do taboleiro de programación para a busca de recursos baseada en requisitos
 ### <a name="update-filters-for-requirement-specific-resource-search"></a>Actualiza os filtros para a busca de recursos específicos de requisitos 
-Cando busque un recurso, os filtros dispoñibles no taboleiro de programación deben actualizarse para que tamén poida buscar recursos externos especificando algún ou todos os seguintes:
+Cando busque un recurso, os filtros dispoñibles no taboleiro de programación deberían actualizarse para que tamén poida buscar recursos externos especificando algún ou todos os seguintes:
  - Tipo de traballador, se os recursos mostrados deben ser traballadores por contrato ou asalariados.
  - Empresa vendedora á que debe pertencer un recurso.
  - Recursos que pertencen a unha determinada subcontratación ou liña de subcontratación.
 
 ### <a name="update-retrieve-resource-query-for-requirement-specific-resource-search"></a>Actualiza a consulta de recursos de recuperación para a busca de recursos específicos de requisitos 
-A consulta utilizada para a busca tamén debe actualizarse para utilizar estes atributos de filtro adicionais. Siga os seguintes pasos para actualizar a configuración de Schedule Board para a busca de recursos baseada en requisitos:
+A consulta utilizada para a busca tamén debe actualizarse para utilizar estes atributos de filtro adicionais. Use os seguintes pasos para actualizar a configuración do taboleiro de programación para a busca de recursos baseada en requisitos:
 
 1. Aberto **Configuración do taboleiro de programación** para un taboleiro de programación específico e, a continuación, seleccione **Abre a configuración predeterminada** para abrir a configuración para a busca específica de requisitos.
-2. Abre o **Configuración xeral** pestana e desprázate ata **Outras configuracións**.
+2. Abre o **Configuración xeral** pestana e desprázate ata **Outras opcións**.
 3. Na lista de configuracións desta sección, actualice o **Disposición do filtro** a **Disposición de filtro predeterminada para Project Operations Lite**.
 4. Actualizar **Consulta de recursos de recuperación** a **Consulta de recursos de recuperación predeterminada para Project Operations Lite**.
 5. Abre o **Tipos de horarios** pestana e vai a **Proxecto**.

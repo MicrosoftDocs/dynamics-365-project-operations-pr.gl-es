@@ -1,24 +1,24 @@
 ---
 title: Novidades de decembro 2020 - Project Operations para situacións baseadas en produción/con fornecemento
-description: Este tema ofrece información sobre as actualizacións de calidade dispoñibles na versión de decembro de 2020 de Project Operations para situacións baseadas en produción/con fornecemento.
+description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de decembro de 2020 de Project Operations para escenarios de almacenamento/produción.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e570bf3e7a808afa5d41db0c073045c91e4931d7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594944"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911364"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Novidades e cambios en Project Operations de decembro 2020 para situacións baseadas en produción/con fornecemento
 
 _Aplícase a: Project Operations para situacións baseadas en produción/con fornecemento_
 
-Este tema aplícase aos seguintes compoñentes e versións de Dynamics 365 Project Operations:
+Este artigo aplícase ao seguinte Dynamics 365 Project Operations compoñentes e versións:
 
   - Xestión de proxectos e contabilidade no entorno Dynamics 365 Finance versión 10.0.15
 

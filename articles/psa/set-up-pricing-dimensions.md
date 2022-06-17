@@ -1,6 +1,6 @@
 ---
 title: Configuración de campos personalizados como dimensións de prezos
-description: Este tema fornece información sobre a configuración de dimensións de prezos personalizadas.
+description: Este artigo ofrece información sobre a configuración de dimensións de prezos personalizados.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14d27b53b42744d47e298bf5a926c1262dbf44d4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591908"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922595"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configuración de campos personalizados como dimensións de prezos 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Antes de comezar, este tema asume que completou os procedementos nos temas [Crear campos e entidades personalizados](create-custom-fields-entities.md) e [Engadir campos personalizados a configuración de prezos e entidades transaccionais](field-references.md). Se non completou eses procedementos, volva e compléteos e despois volva a este tema. 
+Antes de comezar, este artigo asume que completou os procedementos dos artigos, [Crear campos e entidades personalizados](create-custom-fields-entities.md) e [Engade campos personalizados á configuración de prezos e ás entidades transaccionais](field-references.md). Se non completaches eses procedementos, volve e complétaos e despois volve a este artigo. 
 
-Este tema fornece información sobre a configuración de dimensións de prezos personalizadas. Na interface web de Project Service, na páxina **Parámetros**, o separador **Dimensións de prezos baseados na cantidade** mostra os rexistros das entidades de dimensións de prezos. Por defecto, a instalación de Project Service crea 2 filas na grade neste separador:
+Este artigo ofrece información sobre a configuración de dimensións de prezos personalizados. Na interface web de Project Service, na páxina **Parámetros**, o separador **Dimensións de prezos baseados na cantidade** mostra os rexistros das entidades de dimensións de prezos. Por defecto, a instalación de Project Service crea 2 filas na grade neste separador:
 
 - **msdyn_resourcecategory** (Rol)
 - **msdyn_OrganizationalUnit** (Unidade organizativa)

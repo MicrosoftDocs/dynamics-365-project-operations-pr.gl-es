@@ -1,6 +1,6 @@
 ---
-title: Crear e confirmar diarios de entrada
-description: Este tema ofrece información sobre como crear e confirmar diarios de entrada en Microsoft Dynamics 365 Project Operations.
+title: Crear e confirmar diarios de entradas
+description: Este artigo ofrece información sobre como crear e confirmar diarios de entrada en Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -13,14 +13,14 @@ ms.assetid: ''
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cb768337bc197895a837670f93b99b132c97437
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 138dccd72607d6515eeeffb066fa485f83eabbec
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584226"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912330"
 ---
-# <a name="create-and-confirm-entry-journals"></a>Crear e confirmar diarios de entrada
+# <a name="create-and-confirm-entry-journals"></a>Crear e confirmar diarios de entradas
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
@@ -77,11 +77,11 @@ Despois de confirmar unha revista, xa non podes editala nin ningunha das súas l
 
 Existen algunhas diferenzas clave entre os datos reais que se crean mediante a confirmación do diario de entrada e os reais que se crean durante a aprobación dos rexistros de uso de tempo, gastos e materiais e a confirmación da factura en Operacións do proxecto:
 
-- Os diarios de entrada non usan conexións de transacción para vincular o custo real coas vendas reais non facturadas. Os datos reais que se crean cando se aproban os rexistros de uso de tempo, gasto e material sempre usan conexións de transacción para vincular os custos e as vendas sen facturar.
+- Os diarios de entrada non usan conexións de transacción para vincular o custo real coas vendas reais non facturadas. Os datos reais que se crean cando se aproban os rexistros de uso de tempo, gasto e material sempre usan conexións de transaccións para vincular os custos e as vendas sen facturar.
 - Os diarios de entrada non usan as orixes das transaccións para vincular o custo real e os reais de vendas non facturados con ningún rexistro de orixe. Os datos reais que se crean cando se aproban os rexistros de uso de tempo, gasto e material sempre usan orixes de transacción para vincular os custos e as vendas non facturadas coa entrada de tempo de orixe.
 - Cando se facturan os reais de vendas non facturados que se crean mediante a confirmación do diario de entrada, os reais de vendas facturados que se crean durante a confirmación da factura vencellan aos reais de vendas non facturados, dun xeito similar aos reais de vendas non facturados que se crean cando o tempo, os gastos e Os rexistros de uso do material están aprobados.
 - As liñas do diario de entrada que se crean para o tempo introducido por recursos interorganizativos non causan reais do **Custo unitario de recursos** e **Vendas Interorg** tipos que se crearán automaticamente. Estes datos reais deben ser creados manualmente. Este comportamento difire do comportamento das entradas de tempo que son rexistradas por recursos interorganizativos. Nese caso, cando se aproba o tempo, a aplicación crea automaticamente os datos reais **Custo** escriba o proxecto e os datos reais do **Custo unitario de recursos** e **Vendas Interorg** tipos na división propietaria do empregado. Despois utiliza conexións de transacción para vincular eses datos reais e orixes de transacción para vinculalos á entrada de tempo de orixe.
-- Cando se confirman os diarios de entrada, crean datos reais. Non obstante, os diarios de corrección non se poden usar para corrixir eses datos reais. Este comportamento difire do comportamento dos datos reais que se crean cando se aproban os rexistros de uso de tempo, gasto e material. Nese caso, a aplicación permítelle utilizar os diarios de corrección para corrixir os datos reais para corrixir os erros, sempre que aínda non se facturaron. Se xa foron facturados, aínda pode corrixir un real se procesa un crédito completo deste real ao cliente.
+- Cando se confirman os diarios de entrada, crean datos reais. Non obstante, os diarios de corrección non se poden usar para corrixir eses datos reais. Este comportamento difire do comportamento dos datos reais que se crean cando se aproban os rexistros de uso de tempo, gasto e material. Nese caso, a aplicación permítelle utilizar os diarios de corrección para corrixir os datos reais e corrixir os erros, sempre que aínda non se facturaron. Se xa foron facturados, aínda pode corrixir un real se procesa un crédito completo deste real ao cliente.
 
 > [!NOTE]
 > Os diarios de entrada non aplican regras predeterminadas estritas. Polo tanto, use estes Diarios de entrada o menos posible e teña coidado e coidado para asegurarse de non crear datos financeiros corruptos no seu sistema. Sempre que poidas, utiliza os rexistros de uso de tempo, gasto e material, a configuración de fitos e retencións nos contratos do proxecto e o proceso de confirmación da factura do proxecto en lugar dos diarios de entrada para crear datos reais.

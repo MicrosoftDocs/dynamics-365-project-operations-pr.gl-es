@@ -1,24 +1,24 @@
 ---
 title: Novidades ou cambios en Project Operations, abril de 2021, para situacións baseadas en produción/con fornecemento
-description: Este tema ofrece información sobre as actualizacións de calidade dispoñibles na versión de abril de 2021 de Project Operations para situacións baseados en produción/con fornecemento.
+description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de abril de 2021 de Project Operations para escenarios abastecidos ou baseados na produción.
 author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 726e940d2cb5dff11c682c27dc936322856b6440
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589608"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916470"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Novidades ou cambios en Project Operations, abril de 2021, para situacións baseadas en produción/con fornecemento
 
 _**Aplícase a:** Project Operations para situacións baseadas en produción/con fornecemento_
 
-Este tema aplícase aos seguintes compoñentes e versións de Dynamics 365 Project Operations:
+Este artigo aplícase ao seguinte Dynamics 365 Project Operations compoñentes e versións:
 
 - Xestión de proxectos e contabilidade no entorno Dynamics 365 Finance versión 10.0.18
  

@@ -1,6 +1,6 @@
 ---
 title: Ofertas - Conceptos clave
-description: Este tema ofrece información sobre as ofertas e as ofertas de vendas dispoñibles en Project Operations.
+description: Este artigo ofrece información sobre as cotizacións do proxecto e as cotizacións de vendas dispoñibles en Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579904"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912514"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Conceptos exclusivos de ofertas baseadas en proxecto
 
@@ -35,7 +35,7 @@ En Dynamics 365 Project Operations, hai dous tipos de ofertas: ofertas de proxec
 - **Campos e conceptos**: Unha oferta de vendas non inclúe algúns campos e conceptos que se inclúen nunha oferta de proxecto. Os campos inclúen **Unidade contratante**, **Xestor de conta** e **Facturar ao nome de contacto**.  
 - **Tipo**: As ofertas de vendas e as ofertas de proxecto tamén se identifican por un campo baseado en conxunto de opcións, **Tipo**. Para unha oferta de vendas, este campo ten o valor **Baseado en elementos**. Para unha oferta de proxecto, ten o valor **Baseado en traballo**.
 
-Este tema centrase nos detalles das ofertas de proxecto.
+Este artigo céntrase nos detalles das citas do proxecto.
 
 Unha oferta de proxecto en Project Operations pode ter varios elementos ou liñas de oferta. De feito, unha oferta de proxecto ten dúas grades para os elementos de liña. Unha grade é para liñas baseadas en proxectos que permiten estimacións detalladas. A outra grade é para liñas baseadas en produtos que empregan un prezo de unidade simple e un enfoque baseado na cantidade.
 

@@ -1,6 +1,6 @@
 ---
-title: Gastos diarios
-description: Este tema ofrece información sobre como traballar cos gastos diarios.
+title: Gastos de dietas
+description: Este artigo ofrece información sobre como traballar cos gastos diarios.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596048"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923186"
 ---
-# <a name="per-diem-expenses"></a>Gastos diarios
+# <a name="per-diem-expenses"></a>Gastos de dietas
 
 > [!IMPORTANT] 
-> A funcionalidade que se describe neste tema está dispoñible para os usuarios destinatarios como parte dunha versión de vista previa.
+> A funcionalidade que se describe neste artigo está dispoñible para os usuarios específicos como parte dunha versión de vista previa.
 
 Un pago diario é unha asignación diaria fixa e predeterminada que unha empresa paga aos seus empregados por aloxamento (hoteis), comidas e gastos imprevistos nos que incorren eses empregados mentres viaxan por motivos de traballo. A empresa paga este subsidio aos empregados en lugar de pagar os gastos de viaxe reais. Os empregados poden usar o seu **Incidentes/Outros** dieta para cubrir propinas, servizo de cuartos, lavandería ou limpeza en seco para reunións de negocios importantes. A taxa diaria pode variar, dependendo de se o empresario opta por reembolsar o custo combinado de aloxamento e comidas, ou só o custo das comidas e gastos imprevistos.
 
@@ -84,7 +84,7 @@ Neste exemplo, a redución da comida é do 30 por cento para o almorzo, do 30 po
 
 ### <a name="example-2-per-diem-where-meal-reductions-are-based-on-meal-type-per-day"></a>Exemplo 2: dietas nas que as reducións de comidas están baseadas no tipo de comida por día
 
-Neste exemplo, a redución da comida é do 30 por cento para o almorzo, do 30 por cento para o xantar e do 40 por cento para a cea. No **Parámetros de xestión de gastos** páxina, o **Calcula a redución de comidas por** campo está configurado como **Tipo de comida por día**. Neste caso, no **Comidas** reixa na **Editar gasto** caixa de diálogo, desmarque as caixas de verificación para indicar que comidas se lle proporcionaron durante a súa viaxe.
+Neste exemplo, a redución da comida é do 30 por cento para o almorzo, do 30 por cento para o xantar e do 40 por cento para a cea. No **Parámetros de xestión de gastos** páxina, o **Calcula a redución de comidas por** campo está configurado en **Tipo de comida por día**. Neste caso, no **Comidas** reixa na **Editar gasto** caixa de diálogo, desmarque as caixas de verificación para indicar que comidas se lle proporcionaron durante a súa viaxe.
 
 Por exemplo, estes son os cálculos se se proporcionou o almorzo durante os tres primeiros días da viaxe:
 

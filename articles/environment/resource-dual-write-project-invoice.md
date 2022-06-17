@@ -1,22 +1,22 @@
 ---
 title: Integración de facturas do proxecto
-description: Este tema ofrece información sobre a integración de escrita dual de Project Operations para a facturación do cliente.
+description: Este artigo ofrece información sobre a integración de dobre escritura de Project Operations para a facturación dos clientes.
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1e7294360f041b030efca225c6754fe3bbc0eadf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581236"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912100"
 ---
 # <a name="project-invoice-integration"></a>Integración de facturas do proxecto
 
-Este tema ofrece información sobre a integración de escrita dual de Project Operations para a facturación do cliente.
+Este artigo ofrece información sobre a integración de dobre escritura de Project Operations para a facturación dos clientes.
 
 En Project Operations, o xestor de proxectos xestiona o traballo pendente de facturación do proxecto e crea unha factura proforma para o cliente en Microsoft Dataverse. Baseándose nesta factura proforma, o empregado de contas pendentes de cobro ou o contable do proxecto crea unha factura orientada ao cliente. A integración de dobre escritura garante que os detalles da factura proforma se sincronicen coas aplicacións de Finanzas e Operacións. Despois de publicar a factura orientada ao cliente, o sistema actualiza os datos relevantes do proxecto en Dataverse co detalle de contabilidade. O seguinte gráfico ofrece unha visión conceptual de alto nivel desta integración.
 

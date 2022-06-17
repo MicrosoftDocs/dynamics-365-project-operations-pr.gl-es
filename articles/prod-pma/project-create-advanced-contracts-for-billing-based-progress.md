@@ -1,6 +1,6 @@
 ---
 title: Crear contratos avanzados para a facturación baseada no progreso
-description: Este tema explica como crear contratos de proxectos para que poida xerar facturas para os clientes, en función dunha porcentaxe do traballo rematado.
+description: Neste artigo explícase como crear contratos de proxecto para que poida xerar facturas para os clientes, en función dunha porcentaxe do traballo realizado.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683161"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913664"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Crear contratos avanzados para a facturación baseada no progreso
 [!include [banner](../includes/banner.md)]
 
-Este tema explica como crear contratos de proxectos para que poida crear facturas para os clientes, en función dunha porcentaxe do traballo rematado. Os importes da factura calcúlanse automaticamente para as categorías orzamentarias de traballo que configurou para un proxecto. O prazo de facturación establécese cando negocia o contrato do proxecto co cliente.
+Este artigo explica como crear contratos de proxecto para que poida crear facturas para os clientes, en función dunha porcentaxe do traballo realizado. Os importes da factura calcúlanse automaticamente para as categorías orzamentarias de traballo que configurou para un proxecto. O prazo de facturación establécese cando negocia o contrato do proxecto co cliente.
 
-Utilice os procedementos deste tema para configurar un contrato, un proxecto asociado e as regras de facturación que calculan os importes da factura para as categorías de traballo orzamentarias que configurou para o proxecto.
+Use os procedementos deste artigo para configurar un contrato, un proxecto asociado e as regras de facturación que calculan os importes das facturas para as categorías orzamentarias de traballo que configurou para o proxecto.
 
 Despois de crear o contrato e o proxecto, pode configurar os detalles do proxecto. Por exemplo, pode definir actividades e atribuír traballadores ao proxecto.
 

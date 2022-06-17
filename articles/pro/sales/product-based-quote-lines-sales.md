@@ -1,17 +1,17 @@
 ---
 title: Visión xeral de liñas de oferta baseada en produto - lite
-description: Este tema ofrece información sobre o traballo con liñas de oferta baseada en produto.
+description: Este artigo ofrece información sobre como traballar con liñas de cotización baseadas en produtos.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6d86bf3ed81dbb69912d0694909aa5448a958666
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: db0700e789202a8fdd0ef3b49959421ac54fb9ad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914308"
 ---
 # <a name="product-based-quote-lines-overview---lite"></a>Visión xeral de liñas de oferta baseada en produto - lite
 

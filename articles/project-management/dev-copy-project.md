@@ -1,17 +1,17 @@
 ---
 title: Desenvolver modelos de proxecto con Copiar proxecto
-description: Este tema ofrece información sobre como crear modelos de proxecto usando a acción personalizada Copiar proxecto.
+description: Este artigo ofrece información sobre como crear modelos de proxecto mediante a acción personalizada Copiar proxecto.
 author: stsporen
 ms.date: 03/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 47c1023bbc4c21e3571bffbf3670bf0f7854f81d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590896"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923830"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Desenvolver modelos de proxecto con Copiar proxecto
 
@@ -36,7 +36,7 @@ Hai tres parámetros de entrada:
     - **\{"ReplaceNamedResources": verdadeiro\}** – O comportamento predeterminado para as operacións do proxecto. Calquera recurso nomeado substitúese por recursos xenéricos.
     - **\{"ClearTeamsAndAssignments":true\}** – O comportamento predeterminado para Project for the Web. Elimínanse todas as tarefas e membros do equipo.
 
-- **Proxecto fonte** – A referencia da entidade do proxecto orixe do que se copiará. Este parámetro non pode ser nulo.
+- **Proxecto fonte** – A referencia da entidade do proxecto orixe do que se copia. Este parámetro non pode ser nulo.
 - **Obxectivo** – A referencia da entidade do proxecto de destino para copiar. Este parámetro non pode ser nulo.
 
 A seguinte táboa ofrece un resumo dos tres parámetros.
@@ -54,7 +54,7 @@ Para obter máis valores predeterminados das accións, consulte [Usa accións da
 
 Realízanse as seguintes validacións.
 
-1. Null verifica e recupera os proxectos orixe e destino para confirmar a existencia de ambos os proxectos na organización.
+1. Null verifica e recupera os proxectos orixe e destino para confirmar a existencia de ambos proxectos na organización.
 2. O sistema valida que o proxecto de destino é válido para copiar verificando as seguintes condicións:
 
     - Non hai ningunha actividade previa no proxecto (incluída a selección do **Tarefas** pestana), e o proxecto é recén creado.

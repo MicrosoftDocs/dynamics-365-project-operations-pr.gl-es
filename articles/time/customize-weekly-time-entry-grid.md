@@ -1,17 +1,17 @@
 ---
 title: Ampliación das entradas de tempo
-description: Este tema ofrece información sobre como os programadores poden ampliar o control de entradas de tempo.
+description: Este artigo ofrece información sobre como os desenvolvedores poden estender o control de entrada de tempo.
 author: stsporen
 ms.date: 01/27/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 6b91aecd76950d2bd37192d634c80ea98d08034e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7ed501af3fb2059ab3c3ab6f6c957fe518595d55
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582984"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914768"
 ---
 # <a name="extending-time-entries"></a>Ampliación das entradas de tempo
 
@@ -84,7 +84,7 @@ Hai tres pasos principais para engadir un campo personalizado á grade de entrad
 
 Asegúrese de que o novo campo teña as validacións requiridas no **Edición de filas** ou **Edición de entrada de hora** páxina. Como parte desta tarefa, bloquea o campo en función do estado da entrada de tempo.
 
-Cando engades un campo personalizado ao **Entrada horaria** grella e despois cree entradas de tempo directamente na grella, o campo personalizado para esas entradas establécese automaticamente para que coincida coa fila. 
+Cando engade un campo personalizado ao **Entrada horaria** grella e despois cree entradas de tempo directamente na grella, o campo personalizado para esas entradas establécese automaticamente para que coincida coa fila. 
 
 ### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Engade o campo personalizado ao cadro de diálogo Creación rápida
 Engade o campo personalizado ao **Creación rápida: crear entrada de tempo** caixa de diálogo. Os usuarios poden introducir un valor cando engaden entradas de tempo seleccionando **Nova**.
@@ -107,7 +107,7 @@ Para engadir o campo personalizado a unha páxina, arrastre a **Campo** elemento
 ### <a name="add-new-option-set-values"></a>Engadir valores de novo conxunto de opcións
 Para engadir valores conxunto de opcións a un campo listo para usar, siga estes pasos.
 
-1. Abre a páxina de edición do campo e, a continuación, debaixo **Tipo**, seleccione **Editar** xunto ao conxunto de opcións.
+1. Abre a páxina de edición do campo e, a continuación, en **Tipo**, seleccione **Editar** xunto ao conxunto de opcións.
 2. Engada unha nova opción que teña unha etiqueta e unha cor personalizadas. Se desexa engadir un novo estado de entrada de hora, chámase o campo de lista **Estado de entrada**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Designe un novo estado de entrada de tempo como só de lectura

@@ -1,17 +1,17 @@
 ---
 title: Corrixir a contabilidade no borrador de propostas de factura do proxecto
-description: Este tema explica como axustar a información relacionada coa contabilidade nun borrador de proposta de factura.
+description: Este artigo explica como axustar a información relacionada coa contabilidade nun borrador de proposta de factura.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575072"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921208"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Corrixir a contabilidade no borrador de propostas de factura do proxecto
 
@@ -19,7 +19,7 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 
 O xestor do proxecto mantén os *Detalles operativos* para as facturas do proxecto nunha factura proforma. Estes detalles inclúen a decisión sobre as horas, gastos, materiais ou fitos que se deben facturar, as taxas e a aplicación dos importes de adiantos e retencións. Despois de confirmar a factura proforma orixinal, pode axustar os detalles operativos creando e confirmando unha [factura pro forma correctiva](../proforma-invoicing/corrective-invoices.md).
 
-os *Detalles de contabilidade* para as facturas do proxecto mantéñense nun documento de factura orientado ao cliente. Estes detalles inclúen o cálculo do imposto sobre as vendas e as dimensións financeiras que se aplican á factura. Este tema ofrece detalles sobre como se poden axustar estes detalles de contabilidade nun borrador de proposta de factura do proxecto.
+os *Detalles de contabilidade* para as facturas do proxecto mantéñense nun documento de factura orientado ao cliente. Estes detalles inclúen o cálculo do imposto sobre as vendas e as dimensións financeiras que se aplican á factura. Este artigo ofrece detalles sobre como se poden axustar estes detalles contables nun borrador de proposta de factura de proxecto.
 
 ## <a name="adjust-sales-tax"></a>Axustar imposto sobre as vendas
 

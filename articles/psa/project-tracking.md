@@ -1,6 +1,6 @@
 ---
 title: Progreso do proxecto e consumo de custos
-description: Este tema ofrece información sobre o rastrexo do progreso do proxecto e o consumo de custos.
+description: Este artigo ofrece información sobre o seguimento do progreso do proxecto e do consumo de custos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 56b78aa70f23a9a723f008973678bb29c4bbce1d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: afcac5e6fbb7ed8a5a5f7f5876c6035b59eebcc2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575256"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921760"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Progreso do proxecto e consumo de custos
 
@@ -30,7 +30,7 @@ ms.locfileid: "8575256"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-A necesidade de rastrexar o progreso cunha programación varía segundo o sector. Algúns sectores rastrexan a un nivel granular, mentres que outros sectores rastrexan a un nivel máis alto. Este tema mostra como programar para cumprir os requisitos da súa organización.
+A necesidade de rastrexar o progreso cunha programación varía segundo o sector. Algúns sectores rastrexan a un nivel granular, mentres que outros sectores rastrexan a un nivel máis alto. Este artigo mostra como programar para cumprir cos requisitos da túa organización.
 
 ## <a name="effort-tracking-view"></a>Visualización de rastrexamento do esforzo
 

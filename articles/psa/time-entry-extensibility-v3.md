@@ -1,6 +1,6 @@
 ---
 title: Personalizar entrada de tempo semanal
-description: Este tema proporciona información sobre como implantar regras de negocio personalizadas para apoiar as prácticas dunha organización.
+description: Este artigo ofrece información sobre como implementar regras empresariais personalizadas que admiten as prácticas dunha organización.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581052"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918954"
 ---
 # <a name="customize-weekly-time-entry"></a>Personalizar entrada de tempo semanal 
 
@@ -46,7 +46,7 @@ A sección **Dimensións** mostra, como cabeceiras de columna, todas as dimensi�
 - Tipo
 - Estado da entrada
 
-A sección **Dimensións** non permite a edición entre liñas. Esta sección está apoiada por unha vista que permite engadir campos personalizados á grade de entrada de tempo semanal. Para obter información sobre como engadir campos personalizados, consulte a sección "Extensibilidade" máis adiante neste tema.
+A sección **Dimensións** non permite a edición entre liñas. Esta sección está apoiada por unha vista que permite engadir campos personalizados á grade de entrada de tempo semanal. Para obter información sobre como engadir campos personalizados, consulte a sección "Extensibilidade" máis adiante neste artigo.
 
 ### <a name="duration"></a>Duración
 A sección Duración mostra os días da semana como cabeceiras de columna. Esta sección permite a edición entre liñas. Despois de que se cree unha fila de entrada de tempo que teña as dimensións apropiadas, os usuarios poden introducir rapidamente, entre liñas, o tempo que dedicaron nesas dimensións.

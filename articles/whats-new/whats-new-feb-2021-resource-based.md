@@ -1,24 +1,24 @@
 ---
 title: Novidades de febreiro de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
-description: Este tema ofrece información sobre as actualizacións de calidade dispoñibles na versión de febreiro de 2021 de Project Operations para situacións baseadas en recursos/sen fornecemento.
+description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de febreiro de 2021 de Project Operations para escenarios baseados en recursos ou non almacenados.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cb6ab1337652d18a30fba56560ffe50f78dd4eb4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 38fede1746bcb09700c9c9c5e20653e0c39fea2a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589010"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910634"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de febreiro de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Este tema aplícase aos seguintes compoñentes e versións de Dynamics 365 Project Operations:
+Este artigo aplícase ao seguinte Dynamics 365 Project Operations compoñentes e versións:
 
 - Project Operations en ambiente de Dataverse 4.7.0.95
 - Xestión de proxectos e contabilidade no entorno Dynamics 365 Finance versión 10.0.16 

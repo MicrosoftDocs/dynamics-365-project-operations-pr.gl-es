@@ -1,6 +1,6 @@
 ---
 title: Configurar a facturación de proxectos entre empresas
-description: Este tema mostra como configurar a facturación de proxectos entre dúas empresas da súa organización.
+description: Este artigo mostra como configurar a facturación de proxectos entre dúas empresas da túa organización.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0d1eb2806d2e1650faccf3fbb63c63c0fa9e05
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 74548a4c30ceb6826e5280948f6829e567bc02e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683273"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916608"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Configurar a facturación de proxectos entre empresas
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema mostra como configurar a facturación de proxectos entre dúas empresas da súa organización. Esta tarefa utiliza o conxunto de datos USSI.
+Este artigo mostra como configurar a facturación de proxectos entre dúas empresas da túa organización. Esta tarefa utiliza o conxunto de datos USSI.
 
 1. No panel de navegación, vaia a **Módulos > Contas pendentes de pago > Fornecedores > Todos os fornecedores**.
 2. Na lista **Todos os fornecedores**, busque e seleccione o rexistro desexado.

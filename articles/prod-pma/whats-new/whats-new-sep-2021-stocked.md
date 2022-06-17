@@ -1,24 +1,24 @@
 ---
 title: Novidades ou cambios en Project Operations, setembro de 2021 para escenarios abastecidos ou baseados na produción
-description: Este tema ofrece información sobre as actualizacións de calidade que están dispoñibles na versión de setembro de 2021 de Project Operations para escenarios abastecidos ou baseados na produción.
+description: Este artigo ofrece información sobre as actualizacións de calidade que están dispoñibles na versión de setembro de 2021 de Project Operations para escenarios abastecidos ou baseados na produción.
 author: andchoi
 ms.date: 11/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 24de8626199a3ed56bb6703b78d746ff7a43a089
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1e99471b4338209c1f7fe411084d1745d74b2d2c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582018"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916516"
 ---
 # <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>Novidades ou cambios en Project Operations, setembro de 2021 para escenarios abastecidos ou baseados na produción
 
 _**Aplícase a:** Project Operations para situacións baseadas en produción/con fornecemento_
 
-Este tema aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
+Este artigo aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
 
 - Xestión de proxectos e contabilidade nun entorno Dynamics 365 Finance versión 10.0.21
  
@@ -38,7 +38,7 @@ Este tema aplícase aos seguintes compoñentes e versións de Microsoft Dynamics
 | Xestión e contabilidade de proxectos | [569250](https://fix.lcs.dynamics.com/Issue/Details/?bugId=569250) | As publicacións de traballo en proceso (WIP) no libro maior teñen un importe incorrecto. |
 | Xestión e contabilidade de proxectos | [570731](https://fix.lcs.dynamics.com/Issue/Details/?bugId=570371) | A aprobación do diario de horas do proxecto non funciona. |
 | Xestión e contabilidade de proxectos | [571391](https://fix.lcs.dynamics.com/Issue/Details/?bugId=571391) | O prezo de venda do axuste do proxecto non se actualiza cos custos indirectos cando non se marca o límite de financiamento. |
-| Xestión e contabilidade de proxectos | [575831](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575831) | Non se pode crear un requisito de artigo cando se factura a cabeceira da táboa de vendas e se finaliza a orde de compra de apoio para as liñas existentes. |
+| Xestión e contabilidade de proxectos | [575831](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575831) | Non se pode crear un requisito de artigo cando se factura a cabeceira da táboa de vendas e se finaliza a orde de compra de respaldo das liñas existentes. |
 | Xestión e contabilidade de proxectos | [578036](https://fix.lcs.dynamics.com/Issue/Details/?bugId=578036) | O importe de retención dunha regra de facturación que teña un fito para un proxecto diferente non se publica no ID do proxecto correspondente que se seleccionou para o fito. Pola contra, publícase co primeiro proxecto. |
 | Xestión e contabilidade de proxectos | [578327](https://fix.lcs.dynamics.com/Issue/Details/?bugId=578327) | Cando selecciones **Conxunto de dimensións financeiras** nunha proposta de factura, prodúcese o seguinte erro: "Non se pode emitir o obxecto do tipo "Dinámica.AX .Application.FormIntControl' para escribir 'Dinámica.AX .Application.FormStringControl'." |
 | Xestión e contabilidade de proxectos | [581167](https://fix.lcs.dynamics.com/Issue/Details/?bugId=581167) | O **Factura do proxecto** informe salta liñas. |
@@ -47,7 +47,7 @@ Este tema aplícase aos seguintes compoñentes e versións de Microsoft Dynamics
 | Xestión e contabilidade de proxectos | [592493](https://fix.lcs.dynamics.com/Issue/Details/?bugId=592493) | A mensaxe de erro debería ser máis clara que "Erro inesperado". |
 | Xestión e contabilidade de proxectos | [598810](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598810) | O traballo por lotes de publicación de facturas do proxecto procesa e publica a proposta de factura aínda que non se xerasen as liñas de factura. |
 | Xestión e contabilidade de proxectos | [574282](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574282) | Prodúcese un problema de redondeo cando se desactiva a clave de configuración da licenza do sector público. Xérase un custo ou prezo de venda incorrecto nas horas da folla de horas para contratos que teñen varias fontes fundacionais. |
-| Xestión e contabilidade de proxectos | [577598](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577598) | O prezo de venda do proxecto nunha orde de compra do proxecto facturado calcúlase incorrectamente cando o modelo de prezo de venda **Ratio de cotización**. |
+| Xestión e contabilidade de proxectos | [577598](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577598) | O prezo de venda do proxecto nun pedido de compra do proxecto facturado calcúlase incorrectamente cando o modelo de prezo de venda **Ratio de cotización**. |
 | Xestión e contabilidade de proxectos | [580784](https://fix.lcs.dynamics.com/Issue/Details/?bugId=580784) | O sistema non considera os días activos intermedios cando calcula a taxa de traballo efectiva dun empregado. |
 | Xestión e contabilidade de proxectos | [584054](https://fix.lcs.dynamics.com/Issue/Details/?bugId=584054) | Prodúcese un erro de publicación na folla de horas entre empresas debido ao seguinte erro de validación: "Ningún socio comercial está configurado para a persoa xurídica". |
 | Xestión e contabilidade de proxectos | [586303](https://fix.lcs.dynamics.com/Issue/Details/?bugId=586303) | A descrición dunha orde de compra que ten unha categoría de gasto non se recupera na lista de transaccións do proxecto publicada. |

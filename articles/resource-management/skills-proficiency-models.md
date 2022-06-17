@@ -1,17 +1,17 @@
 ---
 title: Habilidades e certificacións
-description: Este tema ofrece información sobre como engadir características de habilidade e certificación aos recursos.
+description: Este artigo ofrece información sobre como engadir características de habilidades e certificación aos recursos.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 836784bf45ba45da35d685e9372b29bb843a7268
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 12871964fec536849c55888f0704725b439dd2af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594254"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918357"
 ---
 # <a name="skills-and-certifications"></a>Habilidades e certificacións
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_

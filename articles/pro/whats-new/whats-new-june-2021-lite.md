@@ -1,24 +1,24 @@
 ---
 title: 'Novidades de xuño de 2021: despregamento de Project Operations lite'
-description: Este tema ofrece información sobre as actualizacións de calidade dispoñibles na versión de xuño de 2021 do despregamento de Project Operations lite.
+description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de xuño de 2021 da implantación de Project Operations lite.
 author: sigitac
 ms.date: 06/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06ea83152e4f601ef842a0f8d975c16c2be95612
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 16fffb06ebb72ac25982374bff27a015eccfae1b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583904"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913940"
 ---
 # <a name="whats-new-june-2021---project-operations-lite-deployment"></a>Novidades de xuño de 2021: despregamento de Project Operations lite
 
 _Aplícase a: Despregamento de Lite - acordo para facturación proforma_
 
-Este tema aplícase aos seguintes compoñentes e versións de Dynamics 365 Project Operations:
+Este artigo aplícase ao seguinte Dynamics 365 Project Operations compoñentes e versións:
 
   - Project Operations no ambiente de Dataverse versión 4.11.0.156 ou 4.11.0.164.
 

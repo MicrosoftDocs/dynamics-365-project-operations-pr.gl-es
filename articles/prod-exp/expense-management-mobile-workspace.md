@@ -1,6 +1,6 @@
 ---
 title: Área de traballo de xestión de gastos
-description: Este tema ofrece información sobre a área de traballo móbil de xestión de gastos. Esta área de traballo permite aos usuarios capturar e cargar un recibo para que poidan anexalo a un informe de gastos máis tarde. Os usuarios tamén poden crear rapidamente unha liña de gasto mediante un recibo anexo e crear e xestionar os seus informes de gastos.
+description: Este artigo ofrece información sobre o espazo de traballo móbil de xestión de gastos. Esta área de traballo permite aos usuarios capturar e cargar un recibo para que poidan anexalo a un informe de gastos máis tarde. Os usuarios tamén poden crear rapidamente unha liña de gasto mediante un recibo anexo e crear e xestionar os seus informes de gastos.
 author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: aba8073fcf788f94bbcc622ab963426d230e9999
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682800"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920886"
 ---
 # <a name="expense-management-mobile-workspace"></a>Área de traballo de xestión de gastos
 
-Este tema ofrece información sobre a área de traballo móbil de **Xestión de gastos**. Esta área de traballo permite aos usuarios capturar e cargar un recibo para que poidan anexalo a un informe de gastos máis tarde. Os usuarios tamén poden crear rapidamente unha liña de gasto mediante un recibo anexo e crear e xestionar os seus informes de gastos. Ademais, os responsables de aprobacións poden usar a área de traballo móbil **Xestión de gastos** para ver os informes de gastos que se lles atribúan e aprobar ou rexeitar eses informes de gastos.
+Este artigo ofrece información sobre o **Xestión de gastos** espazo de traballo móbil. Esta área de traballo permite aos usuarios capturar e cargar un recibo para que poidan anexalo a un informe de gastos máis tarde. Os usuarios tamén poden crear rapidamente unha liña de gasto mediante un recibo anexo e crear e xestionar os seus informes de gastos. Ademais, os responsables de aprobacións poden usar a área de traballo móbil **Xestión de gastos** para ver os informes de gastos que se lles atribúan e aprobar ou rexeitar eses informes de gastos.
 
 
 Esta área de traballo móbil está pensada para ser usada xunto coa aplicación móbil Dynamics 365 Unified Ops.

@@ -1,24 +1,24 @@
 ---
 title: Novidades de abril de 2022 - Project Operations para situacións baseadas en recursos/sen fornecemento
-description: Este tema ofrece información sobre as actualizacións de calidade que están dispoñibles na versión de abril de 2022 de Microsoft Dynamics 365 Project Operations para escenarios baseados en recursos/non abastecidos.
+description: Este artigo ofrece información sobre as actualizacións de calidade que están dispoñibles na versión de Microsoft de abril de 2022 Dynamics 365 Project Operations para escenarios baseados en recursos/non abastecidos.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dc713e7a0dd6993e38ce3e3b2ba19f796a6f4773
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613329"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912376"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de abril de 2022 - Project Operations para situacións baseadas en recursos/sen fornecemento
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Este tema aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
+Este artigo aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
 
 - Operacións do proxecto en a Dataverse versión do entorno 4.41.0.45
 - Xestión de proxectos e contabilidade nun entorno Dynamics 365 Finance versión 10.0.26
@@ -49,7 +49,7 @@ Se atopas algún problema ao iniciar o mapa, siga as instrucións da páxina [Fa
 | Facturación e prezos | 2603313 | Corrixiuse un erro de rexistro duplicado que impedía que se engadesen liñas de cotización e contrato que tiñan un produto. |
 | Implantación e configuración | 2611368 | Os clientes deben poder engadir ata cinco entidades personalizadas á solución mediante o deseñador de aplicacións moderno. |
 | Tempo e gasto | 2628285 | Solucionouse un problema que afectaba á posibilidade de establecer a categoría de recurso correcta durante a importación da entrada de tempo. |
-|   Xestión de oportunidades| 2628815 | Actualice o límite de caracteres da descrición detallada da liña de comiñas para que coincida co límite de caracteres do asunto da tarefa, para que a importación teña éxito nas tarefas nas que o asunto supere os 100 caracteres. |
+|   Xestión de oportunidades| 2628815 | Actualiza o límite de caracteres da descrición detallada da liña de comiñas para que coincida co límite de caracteres do asunto da tarefa, para que a importación se realice correctamente para as tarefas nas que o asunto supere os 100 caracteres. |
 | Tempo e gasto| 2629547 | O **Enviado por** O campo de aprobación do proxecto debe sinalar o usuario que presentou o rexistro. |
 | Tempo e gasto| 2629865 | O **Categoría de copia** campo sobre tarefas cando se copian proxectos. |
 | Tempo e gasto| 2636463 | Arranxáronse os filtros das aprobacións nos formularios de aprobacións modernos. |

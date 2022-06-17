@@ -1,6 +1,6 @@
 ---
 title: Área de traballo móbil de entrada de tempo do proxecto
-description: Este tema ofrece información sobre como usar á área de traballo móbil de entrada de tempo do proxecto. Esta área de traballo permite aos usuarios introducir e aforrar tempo nun proxecto usando o seu dispositivo móbil.
+description: Este artigo ofrece información sobre o espazo de traballo móbil de entrada de tempo do proxecto. Esta área de traballo permite aos usuarios introducir e aforrar tempo nun proxecto usando o seu dispositivo móbil.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a163e32dae0231b5d71d1de2dbb473593b989164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683950"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919536"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Área de traballo móbil de entrada de tempo do proxecto
 
 [!include [banner](../includes/banner.md)]
 
-Este tema ofrece información sobre como usar á área de traballo móbil de **entrada de tempo do proxecto**. Esta área de traballo permite aos usuarios introducir e aforrar tempo nun proxecto usando o seu dispositivo móbil.
+Este artigo ofrece información sobre o **Entrada do tempo do proxecto** espazo de traballo móbil. Esta área de traballo permite aos usuarios introducir e aforrar tempo nun proxecto usando o seu dispositivo móbil.
 
 Esta área de traballo móbil está pensada para ser usada xunto coa aplicación móbil Dynamics 365 Unified Ops. 
 

@@ -1,23 +1,23 @@
 ---
 title: Configuración de contrato de proxecto
-description: Este tema ofrece información sobre os campos que afectan ás liñas de contrato e a información sobre o contrato que se resume en todos os elementos de liña.
+description: Este artigo ofrece información sobre os campos que afectan ás liñas de contrato e a información sobre o contrato que se resume en todas as liñas de pedido.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 461e6026730e4895b4d660db0f50b621432fd01a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c3317eb36a98e14074fb504cfac5ff6e25fa3a0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580946"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921576"
 ---
 # <a name="header-details-for-project-based-contracts"></a>Detalles da cabeceira para contratos baseados en proxecto
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Este tema ofrece información sobre campos que se aplican a todo o contrato do proxecto, incluídos os axustes que afectan a todas as liñas de contrato. Tamén se inclúe información sobre o contrato que se resume en todos os elementos de liña para impulsar os KPIs do contrato do proxecto.
+Este artigo ofrece información sobre os campos que se aplican a todo o contrato do proxecto, incluíndo a configuración que afecta a todas as liñas do contrato. Tamén se inclúe información sobre o contrato que se resume en todos os elementos de liña para impulsar os KPIs do contrato do proxecto.
 
 A seguinte táboa indica os campos dun contrato de proxecto que son exclusivos de Dynamics 365 Project Operations ou teñen algúns cambios importantes no comportamento dos pedidos de vendas en Dynamics 365 Sales.
 

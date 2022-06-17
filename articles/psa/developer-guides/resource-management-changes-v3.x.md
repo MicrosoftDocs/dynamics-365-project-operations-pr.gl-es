@@ -1,6 +1,6 @@
 ---
 title: Cambios de xestión de recursos (Project Service Automation 3.x)
-description: Este tema ofrece información sobre os cambios na área de xestión de recursos.
+description: Este artigo ofrece información sobre os cambios na área de xestión de recursos.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,18 +15,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d19b8b453c544bb4c6fd11a8b9f750cb08e0c168
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cac11606811632bdc48f462eb3a09a163ba1620d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595496"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916010"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Cambios de xestión de recursos (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-As seccións deste tema proporcionan información sobre os cambios realizados na área de xestión de recursos de Dynamics 365 Project Service Automation versión 3.x.
+As seccións deste artigo ofrecen información sobre os cambios que se realizaron na área de xestión de recursos de Dynamics 365 Project Service Automation versión 3.x.
 
 ## <a name="project-estimates"></a>Estimacións do proxecto
 

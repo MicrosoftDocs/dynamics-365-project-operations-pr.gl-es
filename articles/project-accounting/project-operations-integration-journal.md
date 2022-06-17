@@ -1,17 +1,17 @@
 ---
 title: Diario de integración en Project Operations
-description: Este tema ofrece información sobre como traballar co diario de Integration en Project Operations.
+description: Este artigo ofrece información sobre como traballar co diario de integración en Project Operations.
 author: sigitac
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5e1a455d055fe562a1946cc3b90c8274ef1a4b12
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582432"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923876"
 ---
 # <a name="integration-journal-in-project-operations"></a>Diario de integración en Project Operations
 
@@ -26,7 +26,7 @@ As entradas de tempo e gasto crean transaccións de **Dato real** que representa
 Os rexistros no diario de Project Operations Integration créanse mediante un proceso periódico, **Importar desde a táboa de transición**. Podes executar este proceso indo a **Dynamics 365 Finance** > **Xestión de proxectos e contabilidade** > **Periódico** > **Integración das operacións do proxecto** > **Importar desde a táboa de preparación**. Pode executar o proceso de forma interactiva ou configuralo para que se execute en segundo plano segundo sexa necesario.
 
 Cando se executa o proceso periódico, atoparanse os datos reais que aínda non se engadiron a Project Operations Integration. Créase unha liña de diario para cada transacción real.
-O sistema agrupa as liñas de diario en diarios separados en función do valor seleccionado no **Unidade de período sobre Xornada de Integración de Operacións do Proxecto** campo (**Finanzas** > **Xestión de proxectos e contabilidade** > **Montar** > **Xestión de proxectos e parámetros contables**, **do proxecto en Dynamics 365 Customer Engagement** ficha). Os valores posibles para este campo inclúen:
+O sistema agrupa as liñas de diarios en diarios separados en función do valor seleccionado no **Unidade de período sobre Xornada de Integración de Operacións do Proxecto** campo (**Finanzas** > **Xestión de proxectos e contabilidade** > **Montar** > **Xestión de proxectos e parámetros contables**, **do proxecto en Dynamics 365 Customer Engagement** ficha). Os valores posibles para este campo inclúen:
 
   - **Días**: Os datos reais agrúpanse por data de transacción. Créase un diario separado para cada día.
   - **Meses**: Os datos reais agrúpanse por mes natural. Créase un diario separado para cada mes.
@@ -42,7 +42,7 @@ As liñas de diario créanse en función dos datos reais do proxecto. A seguinte
     - Se **Categoría de transacción** está definida no dato real do proxecto real e existe unha **Categoría de proxecto** relacionada nunha entidade xurídica determinada, a categoría é por defecto esta categoría de proxecto.
     - Se **Categoría de transacción** non está definido no Proxecto real, o sistema usa o valor do proxecto **Valores predeterminados da categoría do proxecto** campo no **Operacións do proxecto en Dynamics 365 Customer Engagement** ficha na **Xestión de proxectos e parámetros contables** páxina.
   - O campo **Recurso** representa o recurso do proxecto relacionado con esta transacción. O recurso úsase como referencia nas propostas de factura do proxecto aos clientes.
-  - O **Taxa de cambio** campo predeterminado de **Tipo de cambio da moeda** establecido en Dynamics 365 Finance. Se falta a configuración da taxa de cambio, o proceso periódico **Importar desde a transición** non engadirá o rexistro a un diario e engadirase unha mensaxe de erro ao rexistro de execución do traballo.
+  - O **Taxa de cambio** campo predeterminado de **Tipo de cambio da moeda** definido en Dynamics 365 Finance. Se falta a configuración da taxa de cambio, o proceso periódico **Importar desde a transición** non engadirá o rexistro a un diario e engadirase unha mensaxe de erro ao rexistro de execución do traballo.
   - O campo **Propiedade de liña** representa o tipo de facturación nos datos reais do proxecto. A propiedade da liña e a asignación do tipo de facturación defínense no **Operacións do proxecto en Dynamics 365 Customer Engagement** ficha na **Xestión de proxectos e parámetros contables** páxina.
 
 Só se poden actualizar os seguintes atributos de contabilidade nas liñas do diario de Project Operations Integration:

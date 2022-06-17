@@ -1,18 +1,18 @@
 ---
 title: Visión xeral das dimensións de prezos
-description: Este tema fornece información sobre as dimensións de prezos en Dynamics 365 Project Operations.
+description: Este artigo ofrece información sobre as dimensións de prezos en Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 294dcff8e9717aaa3a0459daf87cb7d608c96106
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579258"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918034"
 ---
 # <a name="pricing-dimensions-overview"></a>Visión xeral das dimensións de prezos
 
@@ -34,7 +34,7 @@ Dynamics 365 Project Operations envíase cun conxunto predefinido de dimensións
 
 ![Captura de pantalla dos parámetros de Project Service con "Aplicable a vendas" resaltado.](media/PS-OOB-parameters.png)
 
-Se precisa un prezo ou custo para os seus recursos usando atributos adicionais, pode crear campos, entidades e dimensións personalizados. Para obter máis información, consulte os temas seguintes. 
+Se precisa un prezo ou custo para os seus recursos usando atributos adicionais, pode crear campos, entidades e dimensións personalizados. Para obter máis información, consulte os seguintes artigos. 
   
   > [!NOTE]
   > Os procedementos deben completarse na orde na que aparecen.

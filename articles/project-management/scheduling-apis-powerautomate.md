@@ -1,25 +1,25 @@
 ---
-title: Usa as API de programación de proxectos con Power Automate
-description: Este tema ofrece un fluxo de mostra que utiliza as interfaces de programación de aplicacións (API) de programación de proxectos.
+title: Usar as API de programación de proxectos con Power Automate
+description: Este artigo ofrece un fluxo de mostra que utiliza as interfaces de programación de aplicacións (API) de programación de proxectos.
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597704"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916332"
 ---
-# <a name="use-project-schedule-apis-with-power-automate"></a>Usa as API de programación de proxectos con Power Automate
+# <a name="use-project-schedule-apis-with-power-automate"></a>Usar as API de programación de proxectos con Power Automate
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Este tema describe un fluxo de mostra que mostra como crear un plan de proxecto completo mediante o uso Microsoft Power Automate, como crear un conxunto de operacións e como actualizar unha entidade. O exemplo mostra como crear un proxecto, un membro do equipo do proxecto, conxuntos de operacións, tarefas do proxecto e asignacións de recursos. Este tema tamén explica como actualizar unha entidade e executar un conxunto de operacións.
+Este artigo describe un fluxo de mostra que mostra como crear un plan de proxecto completo mediante o uso Microsoft Power Automate, como crear un conxunto de operacións e como actualizar unha entidade. O exemplo mostra como crear un proxecto, un membro do equipo do proxecto, conxuntos de operacións, tarefas do proxecto e asignacións de recursos. Este artigo tamén explica como actualizar unha entidade e executar un conxunto de operacións.
 
-A seguinte é unha lista completa dos pasos que se documentan no fluxo de mostra deste tema:
+A seguinte é unha lista completa dos pasos que se documentan no fluxo de mostra deste artigo:
 
 1. [Crear un PowerApps disparador](#1)
 2. [Crear un proxecto](#2)
@@ -28,7 +28,7 @@ A seguinte é unha lista completa dos pasos que se documentan no fluxo de mostra
 5. [Crear un conxunto de operacións](#5)
 6. [Crear un depósito de proxecto](#6)
 7. [Inicializa unha variable para o estado da ligazón](#7)
-8. [Inicializa unha variable para o número de tarefas](#8)
+8. [Iniciar unha variable para o número de tarefas](#8)
 9. [Inicialice unha variable para o ID da tarefa do proxecto](#9)
 10. [Fai ata](#10)
 11. [Establece unha tarefa do proxecto](#11)
@@ -40,7 +40,7 @@ A seguinte é unha lista completa dos pasos que se documentan no fluxo de mostra
 
 ## <a name="assumptions"></a>Supostos
 
-Este tema supón que tes un coñecemento básico do Dataverse plataforma, fluxos de nube e a interface de programación de aplicacións (API) de programación de proxectos. Para obter máis información, consulte o [Referencias](#references) sección máis adiante neste tema.
+Este artigo asume que tes un coñecemento básico do Dataverse plataforma, fluxos de nube e a interface de programación de aplicacións (API) de programación de proxectos. Para obter máis información, consulte o [Referencias](#references) sección máis adiante neste artigo.
 
 ## <a name="create-a-flow"></a>Crear un fluxo
 
@@ -65,7 +65,7 @@ Siga estes pasos para crear un [fluxo consciente da solución](/power-automate/o
 1. No **Solucións** páxina, seleccione a solución que creou e, a continuación, seleccione **Novo**.
 2. No panel esquerdo, selecciona **Fluxos de nubes** \> **Automatización** \> **Fluxo de nubes** \> **Instantánea**.
 3. No **Nome do fluxo** campo, ingrese **Programar o fluxo de demostración da API**.
-4. No **Escolle como activar este fluxo** lista, seleccione **Power Apps**. Cando creas un Power Apps disparador, a lóxica depende de ti como autor. Neste tema, deixe os parámetros de entrada en branco para probar.
+4. No **Escolle como activar este fluxo** lista, seleccione **Power Apps**. Cando creas un Power Apps disparador, a lóxica depende de ti como autor. Neste artigo, deixe os parámetros de entrada en branco para probas.
 5. Seleccione **Crear**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>Paso 2: Crear un proxecto

@@ -1,6 +1,6 @@
 ---
 title: Consideracións de actualización da estrutura de subdivisión do traballo
-description: Este tema fornece información sobre a actualización da estrutura de subdivisión do traballo de Project Service Automation 2.x a 3.x.
+description: Este artigo ofrece información sobre como actualizar a estrutura de descomposición do traballo de Project Service Automation 2.x a 3.x.
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 13ad93d5be3c0ab07c81db28d3e13561e9d40017
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 42bf03b5e3be4b7bdce87148254ce69e381ffdf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599728"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913112"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Consideracións de actualización da estrutura de subdivisión do traballo
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Este tema fornece información sobre a actualización da estrutura de subdivisión do traballo de Project Service Automation 2.x a 3.x. Este tema define o estado saudable dun proxecto en Project Service Automation (PSA) que é necesario para unha actualización con éxito. Tamén hai información sobre as condicións de bloqueo frecuentes que farán que a actualización falle. Para obter máis información sobre a definición das tarefas do proxecto e as súas funcións dentro dunha programación do proxecto, consulte [Programacións de proxecto](project-creating.md).
+Este artigo ofrece información sobre como actualizar a estrutura de descomposición do traballo de Project Service Automation 2.x a 3.x. Este artigo define o estado saudable dun proxecto en Project Service Automation (PSA) que é necesario para unha actualización exitosa. Tamén hai información sobre as condicións de bloqueo frecuentes que farán que a actualización falle. Para obter máis información sobre a definición das tarefas do proxecto e as súas funcións dentro dunha programación do proxecto, consulte [Programacións de proxecto](project-creating.md).
 
 ## <a name="key-entities"></a>Entidades clave
 Para unha estrutura de subdivisión do traballo precisa que xa está cargada con recursos, son necesarias as seguintes entidades:

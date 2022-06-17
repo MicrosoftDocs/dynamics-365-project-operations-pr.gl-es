@@ -1,18 +1,18 @@
 ---
 title: Configurar materiais sen fornecemento e facturas pendentes do fornecedor
-description: Este tema explica como activar materiais sen fornecemento e facturas pendentes do fornecedor.
+description: Este artigo explica como activar os materiais non abastecidos e as facturas de provedores pendentes.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592966"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913756"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Configurar materiais sen fornecemento e facturas pendentes do fornecedor
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Executar mapas de escrita dual para a integración de materiais sen fornecemento facturas do fornecedor
 
-Esta sección ofrece información sobre os mapas específicos necesarios para os materiais sen fornecemento e as facturas do fornecedor. Verifique que os mapas de requisitos previos listados no tema [Fornecer un novo ambiente](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) están a executarse no seu ambiente.
+Esta sección ofrece información sobre os mapas específicos necesarios para os materiais sen fornecemento e as facturas do fornecedor. Verifique que os mapas de requisitos previos enumerados no [Proporcionar un novo ambiente](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) artigo están a executarse no teu entorno.
 
 1. Vaia a Lifecycle Services (LCS), navegue ata o seu proxecto de LCS e vaia á páxina **Detalles do ambiente**.
 2. Na sección **Información do ambiente de Common Data Service**, seleccione **Ligazón a CDS para aplicacións**. Despois de seleccionar a ligazón, redirixiráselle á lista de entidades nas asignacións.

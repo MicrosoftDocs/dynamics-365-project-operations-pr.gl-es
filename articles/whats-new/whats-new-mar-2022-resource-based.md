@@ -1,24 +1,24 @@
 ---
 title: Novidades de marzo de 2022 - Project Operations para situacións baseadas en recursos/sen fornecemento
-description: Este tema ofrece información sobre as actualizacións de calidade que están dispoñibles na versión de marzo de 2022 de Project Operations para escenarios baseados en recursos ou non almacenados.
+description: Este artigo ofrece información sobre as actualizacións de calidade que están dispoñibles na versión de marzo de 2022 de Project Operations para escenarios baseados en recursos ou non abastecidos.
 author: sigitac
 ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: afd5149cda909b5367e7f12382423179d7e19267
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 986d0652ed502873085259fef5ad40aba99c278d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600740"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910904"
 ---
 # <a name="whats-new-march-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de marzo de 2022 - Project Operations para situacións baseadas en recursos/sen fornecemento
 
 *Aplícase a: Project Operations para situacións baseadas en recursos/sen fornecemento*
 
-Este tema aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
+Este artigo aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
 
 - Operacións do proxecto en a Dataverse versión do entorno 4.30.0.99
 - Xestión de proxectos e contabilidade nun entorno Dynamics 365 Finance versión 10.0.25
@@ -91,11 +91,11 @@ Se atopas algún problema ao iniciar o mapa, siga as instrucións da páxina [Fa
 
 ## <a name="removed-and-deprecated-features"></a>Funcións eliminadas e obsoletas
 
-O [Funcións eliminadas ou obsoletas en Project Operations](removed-depreciated-features-project.md) o tema describe funcións que foron eliminadas ou obsoletas para Dynamics 365 Project Operations.
+O [Funcións eliminadas ou obsoletas en Project Operations](removed-depreciated-features-project.md) O artigo describe funcións que foron eliminadas ou obsoletas para Dynamics 365 Project Operations.
 
 - Unha funcionalidade eliminada xa non está dispoñible no produto.
 - Unha función obsoleta non está en desenvolvemento activo e é posible que se elimine nunha actualización futura.
 
-Aparecerá un anuncio de desuso no [Funcións eliminadas ou obsoletas en Project Operations](removed-depreciated-features-project.md) tema 12 meses antes de que se elimine calquera característica do produto.
+Aparecerá un anuncio de desuso no [Funcións eliminadas ou obsoletas en Project Operations](removed-depreciated-features-project.md) artigo 12 meses antes de que se elimine calquera característica do produto.
 
 Para os cambios que só afectan ao tempo de compilación, pero son compatibles con sistemas binarios con entornos de produción e sandbox, o tempo de desuso será inferior a 12 meses. Normalmente, estes cambios son actualizacións funcionais que se deben facer no compilador.

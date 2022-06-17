@@ -1,19 +1,19 @@
 ---
-title: Dimensións financeiras predeterminadas para as entradas de tempo do proxecto
-description: Este tema ofrece información sobre como se aplican as dimensións financeiras predeterminadas ás entradas de tempo.
+title: Dimensións financeiras predefinidas para as entradas de tempo do proxecto
+description: Este artigo ofrece información sobre como se aplican as dimensións financeiras predeterminadas ás entradas de tempo.
 author: stsporen
 ms.date: 01/24/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: cc51fcdcbbfec23591471c0f7522d571be813a84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9863738a2d6d0e001961554043939f62f65d9ce5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597934"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916562"
 ---
-# <a name="defaulting-financial-dimensions-for-project-time-entries"></a>Dimensións financeiras predeterminadas para as entradas de tempo do proxecto
+# <a name="defaulting-financial-dimensions-for-project-time-entries"></a>Dimensións financeiras predefinidas para as entradas de tempo do proxecto
 
 [!include [banner](../includes/banner.md)]
 

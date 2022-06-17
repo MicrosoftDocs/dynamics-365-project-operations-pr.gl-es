@@ -1,6 +1,6 @@
 ---
 title: Usar o recurso reservable como dimensión de prezos
-description: Este tema fornece información sobre o uso dun recurso reservable como dimensión de prezos.
+description: Este artigo ofrece información sobre como usar un recurso reservable como dimensión de prezos.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576406"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916102"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Usar o recurso reservable como dimensión de prezos
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Este tema fornece información sobre o uso dun recurso reservable como dimensión de prezos. Antes de comezar, se aínda non creou unha solución de dimensión de prezos, necesitará crear unha nova. Se xa ten unha solución de dimensión de prezos, pode facer os seus cambios nesa solución. Se non creou unha nova solución de dimensión de prezos para a súa organización, complete os procedementos do tema [Crear campos e entidades personalizados](create-custom-fields-entities.md).
+Este artigo ofrece información sobre como usar un recurso reservable como dimensión de prezos. Antes de comezar, se aínda non creou unha solución de dimensión de prezos, necesitará crear unha nova. Se xa ten unha solución de dimensión de prezos, pode facer os seus cambios nesa solución. Se non creou unha nova solución de dimensións de prezos para a súa organización, complete os procedementos da páxina [Crear campos e entidades personalizados](create-custom-fields-entities.md) artigo.
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Engadir un recurso reservable a formularios e vistas
 Para facer os campos visibles na IU na solución de dimensión de prezos, necesitará percorrer todos os formularios e vistas das entidades clave de Project Service e engadir estes campos aos formularios e vistas desas entidades.

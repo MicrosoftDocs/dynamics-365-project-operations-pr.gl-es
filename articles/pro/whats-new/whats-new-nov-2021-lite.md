@@ -1,24 +1,24 @@
 ---
 title: 'Novidades de novembro de 2021: implantación lite de Project Operations'
-description: Este tema ofrece información sobre as actualizacións de calidade que están dispoñibles na versión de novembro de 2021 da implantación de Project Operations lite.
+description: Este artigo ofrece información sobre as actualizacións de calidade que están dispoñibles na versión de novembro de 2021 da implantación de Project Operations lite.
 author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3f3a19cddd1b91fc76c852153526fb7197a9f92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 947e7f6183ddeef3ab9a88d140331956bbcf23bd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587768"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913802"
 ---
 # <a name="whats-new-november-2021---project-operations-lite-deployment"></a>Novidades de novembro de 2021: implantación lite de Project Operations
 
 _Aplícase a: Despregamento de Lite - acordo para facturación proforma_
 
-Este tema aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
+Este artigo aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
 
 - Operacións do proxecto en a Dataverse versión do entorno 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
   
@@ -45,4 +45,4 @@ As seguintes funcionalidades están incluídas nesta versión:
 | Tempo e gasto | 2464082 | Elimina a ligazón das aprobacións do proxecto ao conxunto de aprobación cando coincida cun estado de destino. |
 | Tempo e gasto | 2468108 | O traballo de programación non debe establecer a **Procesamento** estado para o conxunto de aprobación. |
 | Tempo e gasto | 2471503 | Elimina os conxuntos de aprobación que teñan sete días de antigüidade. |
-| Facturación e prezos | 2480687 | A referencia da liña de cotización non se debe eliminar cando se crea un marco de liña de cotización. |
+| Facturación e prezos | 2480687 | A referencia da liña de cotización non debe eliminarse cando se crea un marco de liña de cotización. |

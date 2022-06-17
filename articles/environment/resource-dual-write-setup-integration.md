@@ -1,24 +1,24 @@
 ---
 title: Integración de datos de instalación e configuración de Project Operations
-description: Este tema ofrece información sobre a instalación e configuración de mapas de escrita dual de Project Operations.
+description: Este artigo ofrece información sobre a configuración e configuración de mapas de dobre escritura de Project Operations.
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586894"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914538"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Integración de datos de instalación e configuración de Project Operations
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Este tema ofrece información sobre a integración de escrita dual de Project Operations para entidades de instalación e configuración.
+Este artigo ofrece información sobre a integración de dobre escritura de Project Operations para as entidades de configuración e instalación.
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Contratos do proxecto, liñas de contrato e proxectos
 

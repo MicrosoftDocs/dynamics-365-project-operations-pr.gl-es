@@ -1,6 +1,6 @@
 ---
 title: Guía de informes
-description: Este tema fornece ligazóns a información sobre informes.
+description: Este artigo ofrece ligazóns a información sobre os informes.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1039f38e0a3ced13d824e10d88cd502f546b96fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: acd9b885c17ae0ca05780242a4c8d3837f814f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577556"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919184"
 ---
 # <a name="reporting-guide"></a>Guía de informes
 
@@ -32,14 +32,14 @@ ms.locfileid: "8577556"
 
 Os métodos e tecnoloxías de presentación desta aplicación poden axudarlle a determinar a saúde dos seus proxectos e identificar cando necesita tomar medidas correctivas. 
 
-Eliminouse a ligazón en formato PDF que antes había neste tema e o contido trasladouse aos seguintes temas:
+Eliminouse a ligazón PDF que estaba anteriormente neste artigo e o contido moveuse aos artigos seguintes:
 
 - [Páxina de inicio de informes](../reports-reporting-dynamics-365-project-service.md)
 - [Paneis](../reports-dashboards.md)
 - [Traballo co modelo de datos de Project Service Automation](../reports-working-project-service-data-model.md)
 
 > [!NOTE]
-> Este tema eliminarase nunha futura actualización da documentación. 
+> Este artigo eliminarase nunha futura actualización da documentación. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

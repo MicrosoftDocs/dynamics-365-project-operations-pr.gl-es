@@ -1,6 +1,6 @@
 ---
 title: Páxina de inicio de informes
-description: Este tema fornece ligazóns a información sobre informes en Dynamics 365 Project Service Automation.
+description: Este artigo ofrece información sobre os informes en Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595956"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921668"
 ---
 # <a name="reporting-home-page"></a>Páxina de inicio de informes
 
@@ -47,7 +47,7 @@ Xuntos, Microsoft Power BI e Dynamics 365 ofrécenlle un poderoso xeito de traba
 
 
 ## <a name="additional-resources"></a>Recursos adicionais
-Para obter máis información sobre os informes en PSA, consulte os seguintes temas:
+Para obter máis información sobre os informes en PSA, consulte os seguintes artigos:
 
 - [Traballo co modelo de datos de Project Service Automation](reports-working-project-service-data-model.md)
 - [Paneis](reports-dashboards.md)

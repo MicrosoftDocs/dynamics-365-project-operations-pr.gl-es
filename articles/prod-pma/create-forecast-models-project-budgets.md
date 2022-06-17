@@ -1,6 +1,6 @@
 ---
 title: Crear modelos de previsión para orzamentos de proxecto
-description: Este tema describe como crear un modelo de previsión para os orzamentos restantes.
+description: Este artigo describe como crear un modelo de previsión para os orzamentos restantes.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 992dd74524ae6a7c329612a125d60bebfcbe7dd2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e6b1419c41124d2062595f7346efb7538e50ee33
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683628"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916700"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Crear modelos de previsión para orzamentos de proxecto 
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe como crear un modelo de previsión para os orzamentos restantes. Un proxecto suxeito a control orzamentario utiliza dous tipos de orzamentos: o orixinal e o restante. Cando cree un orzamento do proxecto, debe especificar os modelos de previsión de orzamento orixinais e restantes que se crearon na páxina **Modelos de previsión**. Os orzamentos do proxecto baseados nos modelos especificados créanse cando confirma o orzamento do proxecto.
+Este artigo describe como crear un modelo de previsión para os orzamentos restantes. Un proxecto suxeito a control orzamentario utiliza dous tipos de orzamentos: o orixinal e o restante. Cando cree un orzamento do proxecto, debe especificar os modelos de previsión de orzamento orixinais e restantes que se crearon na páxina **Modelos de previsión**. Os orzamentos do proxecto baseados nos modelos especificados créanse cando confirma o orzamento do proxecto.
 
 > [!NOTE]
 > Un modelo de previsión que se usa para o control do orzamento non pode ter un submodelo nin ser usado como submodelo.

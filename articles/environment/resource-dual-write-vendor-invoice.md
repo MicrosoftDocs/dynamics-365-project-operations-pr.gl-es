@@ -1,18 +1,18 @@
 ---
 title: Integración de facturas do fornecedor
-description: Este tema ofrece información sobre a integración de facturas do fornecedor en Project Operations.
+description: Este artigo ofrece información sobre a integración de facturas de provedores en Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591173"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912054"
 ---
 # <a name="vendor-invoice-integration"></a>Integración de facturas do fornecedor
 
@@ -21,7 +21,7 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 A adquisición relacionada co proxecto en Dynamics 365 Project Operations pódese rexistrar indo a **Contas pendentes de pago** > **Facturas** > **Facturas pendentes do fornecedor** e usando un documento de factura pendente do fornecedor. Para obter máis información, consulte [Comprar materiais sen fornecemento usando unha factura pendente do fornecedor](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Antes de empregar a funcionalidade descrita neste tema, revise e aplique as configuracións necesarias. Para obter máis información, consulte [Activar materiais sen fornecemento e facturas pendentes do fornecedor](../procurement/configure-materials-nonstocked.md).
+> Antes de utilizar a funcionalidade descrita neste artigo, revise e aplique as configuracións necesarias. Para obter máis información, consulte [Activar materiais sen fornecemento e facturas pendentes do fornecedor](../procurement/configure-materials-nonstocked.md).
 
 En Project Operations, as facturas do fornecedor relacionadas co proxecto contabilízanse utilizando regras especiais de contabilización:
 

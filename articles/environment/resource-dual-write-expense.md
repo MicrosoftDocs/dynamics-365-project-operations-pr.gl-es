@@ -1,24 +1,24 @@
 ---
 title: Integración de xestión de gastos
-description: Este tema ofrece información sobre a integración de informes de gastos en Project Operations mediante a escrita dual.
+description: Este artigo ofrece información sobre a integración de informes de gastos en Project Operations mediante a escritura dual.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585790"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924612"
 ---
 # <a name="expense-management-integration"></a>Integración de xestión de gastos
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Este tema ofrece información sobre a integración de informes de gastos no [despregamento de datos completo](../expense/expense-overview.md) de Project Operations mediante a escrita dual.
+Este artigo ofrece información sobre a integración de informes de gastos en Project Operations [implantación total dos gastos](../expense/expense-overview.md) usando a escritura dual.
 
 ## <a name="expense-categories"></a>Categorías de gasto
 

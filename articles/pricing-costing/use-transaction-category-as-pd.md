@@ -1,17 +1,17 @@
 ---
 title: Usar a categoría de transacción como dimensión de prezos
-description: Este tema fornece información sobre como usar o campo Categoría de transacción como dimensión de prezos.
+description: Este artigo ofrece información sobre como usar o campo Categoría de transacción como dimensión de prezos.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591126"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911692"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Usar a categoría de transacción como dimensión de prezos
 
@@ -19,10 +19,10 @@ ms.locfileid: "8591126"
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
 
-Este tema explica como usar o campo **Categoría de transacción** como dimensión de prezos. 
+Este artigo explica como usar o **Categoría de transacción** campo como dimensión de prezos. 
 
 ## <a name="prerequisites"></a>Requisitos previos
-Antes de completar os procedementos deste tema, debe ter unha nova solución de dimensión de prezos para a súa organización. Se aínda non a creou, consulte [Crear campos e entidades personalizados como dimensións de prezos](create-custom-fields-entities-pricing-dimensions.md).
+Antes de completar os procedementos deste artigo, debes ter unha nova solución de dimensións de prezos para a túa organización. Se aínda non a creou, consulte [Crear campos e entidades personalizados como dimensións de prezos](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Engadir o campo Categoría de transacción a formularios e vistas
 Para facer o campo **Categoría de transacción** visible na solución de dimensión de prezos, cómpre engadir o campo a todos os formularios e vistas como unha entidade.

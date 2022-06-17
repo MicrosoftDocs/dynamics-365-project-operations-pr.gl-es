@@ -1,17 +1,17 @@
 ---
 title: Detalles da cabeceira para subcontratos
-description: Este tema explica a funcionalidade proporcionada na cabeceira de subcontrato en Project Operations.
+description: Este artigo explica a funcionalidade proporcionada na cabeceira do subcontrato en Operacións do proxecto.
 author: rumant
 ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fade0ff876486ad60ffd9ad618be7864c1b28185
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 85649d08228b16178eb8d6be9af5a6731def74bf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598164"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914170"
 ---
 # <a name="header-details-for-subcontracts"></a>Detalles da cabeceira para subcontratos
 
@@ -19,7 +19,7 @@ ms.locfileid: "8598164"
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
-Este tema explica a funcionalidade proporcionada na cabeceira de subcontrato en Dynamics 365 Project Operations.
+Este artigo explica a funcionalidade proporcionada na cabeceira do subcontrato en Dynamics 365 Project Operations.
 
 Como un xestor de proxectos planifica e executa proxectos, pode empregar subcontratistas e mercar produtos e servizos a fornecedores. Cando un xestor de proxectos precisa mercar produtos ou servizos, pode crear un subcontrato en Project Operations.
 

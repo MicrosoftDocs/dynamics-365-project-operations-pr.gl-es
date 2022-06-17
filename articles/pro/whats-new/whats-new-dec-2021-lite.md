@@ -1,24 +1,24 @@
 ---
 title: 'Novidades de decembro de 2021: implantación lite de Project Operations'
-description: Este tema ofrece información sobre as actualizacións de calidade dispoñibles na versión de decembro de 2021 da implantación de Project Operations lite.
+description: Este artigo ofrece información sobre as actualizacións de calidade que están dispoñibles na versión de decembro de 2021 da implantación de Project Operations lite.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b1ff0a14bf6cb445913bcba11f83234826014857
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 301acc5be76fb0318d6298820b62ae5bb05efac3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585376"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914078"
 ---
 # <a name="whats-new-december-2021---project-operations-lite-deployment"></a>Novidades de decembro de 2021: implantación lite de Project Operations
 
 _Aplícase a: Despregamento de Lite - acordo para facturación proforma_
 
-Este tema aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
+Este artigo aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
 
 - Operacións do proxecto en a Dataverse versión do entorno 4.27.0.195, 4.27.0.242, 4.27.0.244
 
@@ -44,6 +44,6 @@ Este tema aplícase aos seguintes compoñentes e versións de Microsoft Dynamics
 | **Área de funcionalidades** | **Número de referencia** | **Actualización de calidade** |
 | --- | --- | --- |
 | Planificación e rastrexo | 2392596 | As API de programación agora permiten actualizacións de **Esforzo restante**, **rematado**, e **% Completado** campos. |
-| Planificación e rastrexo | 2478497 | Programar API **Número de actividade** e **ID da tarefa** Os campos poden estar baleiros ao ingresar porque o sistema os encherá mediante a numeración automática.|
+| Planificación e rastrexo | 2478497 | Programar API **Número de actividade** e **ID da tarefa** Os campos poden estar en branco ao ingresar porque o sistema os encherá mediante a numeración automática.|
 | Tempo e gasto | 2468135 | O número de reintentos de aprobación redúcese de cinco a tres. |
 | Tempo e gasto | 2468188 | Solucionouse o problema co texto do rexistro que superaba a lonxitude máxima no ficheiro **texto de nota** atributo do **anotación** entidade. |

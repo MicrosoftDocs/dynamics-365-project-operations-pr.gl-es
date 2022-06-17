@@ -1,21 +1,21 @@
 ---
 title: Rexistrarse para unha subscrición de previsualización - lite
-description: Este tema ofrece información sobre como subscribirse e despregar o despregamento de Project Operations lite - de acordo a facturación proforma.
+description: 'Este artigo ofrece información sobre como subscribirse e implementar a implementación de Project Operations Lite: xestionar a facturación proforma.'
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587998"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921254"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Rexistrarse para unha subscrición de previsualización - lite 
 
-Este tema explica como subscribirse á oferta de proba e despregar Dynamics 365 Project Operations lite: acordo para facturación proforma.
+Este artigo explica como subscribirse á oferta de proba e implementar Dynamics 365 Project Operations implementación lite: tramitar a facturación proforma.
 
 > [!NOTE]
 > Este proceso cambiará nas próximas versións de Project Operations.
@@ -50,7 +50,7 @@ Antes de comezar, asegúrese de iniciar sesión nun explorador coa conta de trab
 
 ## <a name="create-a-new-dataverse-environment"></a>Crear un novo ambiente de Dataverse
 
-1. Proporcione un novo ambiente de despregamento de Project Operations Dataverse seguindo as instrucións do tema, [Modelo de despregamento de Dataverse](lite-deployment.md). Cando seleccione o tipo de ambiente, asegúrese de usar **Proba (baseada en subscrición)**.
+1. Proporcionar un novo proxecto Operacións Dataverse ambiente de implantación seguindo as instrucións do artigo, [Dataverse modelo de implantación](lite-deployment.md). Cando seleccione o tipo de ambiente, asegúrese de usar **Proba (baseada en subscrición)**.
 
   ![Novo ambiente.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Antes de comezar, asegúrese de iniciar sesión nun explorador coa conta de trab
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Instalar unha configuración de CDS e configurar datos de demostración
 
-Instale a configuración de CDS e configure os datos de demostración seguindo as instrucións do tema, [Aplicar os datos de instalación e configuración da demostración](lite-apply-demo-setup-config-data.md).
+Instala a configuración de CDS e configura os datos de demostración seguindo as instrucións do artigo, [Aplicar datos de configuración e configuración de demostración](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Guía básica de ofertas, prezos e facturación
-description: Este tema fornece ligazóns a información sobre ofertas, facturación e prezos básicos en Project Service Automation.
+description: Este artigo ofrece ligazóns a información sobre cotizacións básicas, prezos e facturación en Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592230"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910796"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Guía básica de ofertas, prezos e facturación
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592230"
 
 A capacidade de atopar os recursos axeitados no momento adecuado, reservar eses recursos nos proxectos e manter os recursos utilizados axuda ás organizacións a cumprir os obxectivos de ingresos e os obxectivos de satisfacción do cliente. 
 
-Eliminouse a ligazón en formato PDF que antes había neste tema e o contido trasladouse aos seguintes temas:
+Eliminouse a ligazón PDF que estaba anteriormente neste artigo e o contido moveuse aos artigos seguintes:
 
 - [Ofertas, prezos e facturación](../quote-bill-price.md)
 - [Procesos de Sales](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Eliminouse a ligazón en formato PDF que antes había neste tema e o contido tra
 - [Rexistro de datos reais](../advanced-actuals.md)
 
 > [!NOTE]
-> Este tema eliminarase nunha futura actualización da documentación. 
+> Este artigo eliminarase nunha futura actualización da documentación. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0ceaa3af630df132339895a8497e49daf2e102c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 75fe0aab8ea8bf41fcb98f4318380c93ac52fef8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592322"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919230"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Configurar os parámetros adicionais (Project Service Automation)
 
@@ -30,7 +30,7 @@ ms.locfileid: "8592322"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Vez vez configurados os elementos dos temas anterior, debe definir parámetros adicionais de proxecto para usar cos seus proxectos. Ao instalar por primeira vez [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], creou unha configuración de parámetros para crear por primeira vez todos os rexistros necesarios para que [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] funcione. Agora é hora de volver e configurar campos adicionais para esta configuración.  
+Unha vez que configures os elementos dos artigos anteriores, debes establecer parámetros adicionais do proxecto para usar nos teus proxectos. Ao instalar por primeira vez [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], creou unha configuración de parámetros para crear por primeira vez todos os rexistros necesarios para que [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] funcione. Agora é hora de volver e configurar campos adicionais para esta configuración.  
   
  Terá que ter configurados os seguintes axustes:  
   

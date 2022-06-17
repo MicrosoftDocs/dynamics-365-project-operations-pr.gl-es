@@ -1,28 +1,28 @@
 ---
 title: Desempeño da API de programación de proxectos
-description: Este tema ofrece información sobre os puntos de referencia de rendemento das API de programación do proxecto e identifica as mellores prácticas para un uso óptimo.
+description: Este artigo ofrece información sobre os puntos de referencia de rendemento das API de programación do proxecto e identifica as mellores prácticas para un uso óptimo.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593840"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911180"
 ---
 # <a name="project-schedule-api-performance"></a>Desempeño da API de programación de proxectos
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento, despregamento de Lite: facturación proforma, Project for the Web_
 
-Este tema ofrece información sobre os puntos de referencia de rendemento das interfaces de programación de aplicacións (API) de programación do proxecto e identifica as mellores prácticas para un uso optimizado.
+Este artigo ofrece información sobre os puntos de referencia de rendemento das interfaces de programación de aplicacións (API) de programación do proxecto e identifica as mellores prácticas para optimizar o uso.
 
 ## <a name="project-scheduling-service"></a>Servizo de programación de proxectos
 O servizo de programación de proxectos é un servizo de varios arrendatarios que se executa en Microsoft Azure. Está deseñado para mellorar a interacción proporcionando unha experiencia rápida e fluída cando os usuarios traballan en proxectos. Esta mellora conséguese aceptando solicitudes de cambio, procesándoas e devolvendo inmediatamente o resultado. O servizo persiste de forma asíncrona en Dataverse e non impide que os usuarios realicen outras operacións.
 
-As API de programación de proxectos dependen do servizo de programación de proxectos para executar solicitudes que se describen con máis detalle en seccións posteriores deste tema.
+As API de programación de proxectos confían no Servizo de programación de proxectos para executar solicitudes que se describen con máis detalle nas seccións posteriores deste artigo.
 
 As API de programación do proxecto están deseñadas para funcionar coas seguintes entidades de estrutura de subdivisión do traballo (WBS):
 

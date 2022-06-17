@@ -1,6 +1,6 @@
 ---
 title: Páxina inicial de recursos de proxectos
-description: Neste tema se proporciona información sobre a dotación de recursos de proxectos.
+description: Este artigo ofrece información sobre os recursos do proxecto.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 605a6884cb342abf029644dbf8f2d75127df1786
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684870"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924014"
 ---
 # <a name="project-resourcing-home-page"></a>Páxina inicial de recursos de proxectos
 
 [!include [banner](../includes/banner.md)]
 
-Neste tema se proporciona información sobre a dotación de recursos de proxectos.
+Este artigo ofrece información sobre os recursos do proxecto.
 
 Un desafío para os xestores de proxectos e xestores de recursos durante a fase de planificación do proxecto é a asignación de recursos, na que deben determinar e reservar o recurso correcto para traballar nun proxecto. En Dynamics 365 Finance, as capacidades de recursos para proxectos permítenche definir roles que se tratan como recursos temporais que se poden reservar para un compromiso específico ou parte dun compromiso. Este tipo de recursos permiten aos xestores de proxectos e xestores de recursos realizar as seguintes tarefas:
 
@@ -41,7 +41,7 @@ Un desafío para os xestores de proxectos e xestores de recursos durante a fase 
 
 A medida que avanza a planificación do proxecto, os recursos planificados pódense substituír por recursos con persoal. O xestor do proxecto tamén pode volver atrás e actualizar as reservas de recursos durante calquera fase do proxecto.
 
-Os seguintes temas ofrecen información sobre as tarefas que deben realizarse cando se está a traballar en recursos de proxectos.
+Os artigos seguintes ofrecen información sobre as tarefas que deben completarse cando se está a traballar en proxectos de recursos.
 
 - [Configurar recursos de proxectos](set-up-project-resources.md)
 - [Xestionar competencias de recursos](manage-resource-competencies.md)

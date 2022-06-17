@@ -1,6 +1,6 @@
 ---
 title: Definir habilidades e destrezas
-description: Este tema ofrece información sobre como configurar os modelos de habilidades para valorar os recursos.
+description: Este artigo ofrece información sobre como configurar modelos de competencia para valorar os recursos.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e825d80bb8ac342b269783747a9a0c0f540d349f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 707a88b2f72c7324a6954a2e0cdce995b012ff48
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585974"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915460"
 ---
 # <a name="define-skills-and-proficiencies"></a>Definir habilidades e destrezas
 

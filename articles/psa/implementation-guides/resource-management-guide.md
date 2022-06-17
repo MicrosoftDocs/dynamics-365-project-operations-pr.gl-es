@@ -1,6 +1,6 @@
 ---
 title: Guía de xestión de recursos
-description: Este tema fornece ligazóns a información sobre xestión de recursos en Project Service Automation.
+description: Este artigo ofrece ligazóns a información sobre a xestión de recursos en Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 630f77060caa84d9941c0552c54412d7a235a4f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6b4506bbc0a7cbdd78b3f9b37f1a7f1b258f6500
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595450"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910770"
 ---
 # <a name="resource-management-guide"></a>Guía de xestión de recursos
 
@@ -30,7 +30,7 @@ ms.locfileid: "8595450"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-Eliminouse a ligazón en formato PDF que antes había neste tema e o contido trasladouse aos seguintes temas:
+Eliminouse a ligazón PDF que estaba anteriormente neste artigo e o contido moveuse aos artigos seguintes:
 
 - [Páxina de inicio de xestión de recursos](../resource-management-home-page.md)
 - [Conceptos clave](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ Eliminouse a ligazón en formato PDF que antes había neste tema e o contido tra
 - [Preguntas frecuentes sobre xestión de recursos.](../resource-management-faq.md)
 
 > [!NOTE]
-> Este tema eliminarase nunha futura actualización da documentación. 
+> Este artigo eliminarase nunha futura actualización da documentación. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,25 +1,25 @@
 ---
-title: Verificación de facturas de provedores con datos reais aprobados
-description: Este tema explica como Microsoft Dynamics 365 Project Operations imos que os xestores de proxectos verifiquen as facturas dos provedores coas cifras reais que foron aprobadas cando os contratistas realizaron traballos e rexistraron o tempo, e os gastos e materiais que foron utilizados polos membros do equipo do proxecto.
+title: Verificación de facturas de fornecedor con datos reais aprobados
+description: Este artigo explica como Microsoft Dynamics 365 Project Operations imos que os xestores de proxectos verifiquen as facturas dos provedores coas cifras reais que foron aprobadas cando os contratistas realizaron traballos e rexistraron o tempo, e os gastos e materiais que foron utilizados polos membros do equipo do proxecto.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3350a51bde2872036b79a789fae23ea6790fb21a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43f47a44260d1a47437846f2764b56f680d4b682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585468"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914216"
 ---
-# <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Verificación de facturas de provedores con datos reais aprobados
+# <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Verificación de facturas de fornecedor con datos reais aprobados
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _ **Aplícase a:** Implementación simplificada: tramitar a facturación proforma
 
-Microsoft Dynamics 365 Project Operations imos que os xestores de proxectos verifiquen as liñas de factura do provedor das seguintes formas:
+Microsoft Dynamics 365 Project Operations imos que os xestores de proxectos verifiquen as liñas de facturas de provedores das seguintes formas:
 
 - Usa o **Estado de verificación** campo nas liñas de factura do provedor.
 - Se as liñas de factura do provedor fan referencia a unha liña de subcontrato, vincula os custos reais da actividade do subcontratista a esas liñas de factura do provedor. A ligazón créase facendo coincidir os custos reais coas liñas de factura do provedor.

@@ -1,6 +1,6 @@
 ---
 title: Correccións en masa de datos reais creadas por entradas aprobadas de tempo e gasto
-description: Este tema explica como un administrador pode facer correccións sinxelas ou en masa ás entradas de tempo ou gasto aprobadas previamente se a facturación non está completa.
+description: Este artigo explica como un administrador pode facer correccións únicas ou masivas nas entradas de tempo ou gastos previamente aprobadas se a facturación non está completa.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 82c9b38e4c79511fe3b6abfcb973fff8b56f1522
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683360"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916287"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Correccións en masa de datos reais creadas por entradas aprobadas de tempo e gasto
 
@@ -28,7 +28,7 @@ ms.locfileid: "8683360"
 
 De cando en vez pode introducirse unha entrada de tempo ou gasto incorrectamente. Por exemplo, un consultor pode seleccionar a data incorrecta ao crear unha entrada de tempo ou pode traspor os números ao ingresar un gasto. Se un consultor non pode realizar as actualizacións das entradas enviadas, un administrador pode corrixir directamente a entrada para un proxecto.
 
-Para completar os procedementos neste tema, necesitará permisos de administrador.
+Para completar os procedementos deste artigo, necesitarás permisos de administrador.
 
 ## <a name="correct-approved-time-entries"></a>Corrixir as entradas de tempo aprobadas     
 

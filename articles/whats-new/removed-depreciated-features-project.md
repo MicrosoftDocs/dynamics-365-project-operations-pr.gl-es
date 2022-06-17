@@ -1,24 +1,24 @@
 ---
 title: Funcións eliminadas ou obsoletas en Dynamics 365 Project Operations
-description: Este tema describe funcións que se eliminaron ou que se planearon eliminar de Dynamics 365 Project Operations.
+description: Este artigo describe funcións que se eliminaron ou que se planearon eliminar de Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601568"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921484"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Funcións eliminadas ou obsoletas en Dynamics 365 Project Operations
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento, despregamento de Lite - de acordo a facturación proforma e Project Operations para situacións baseadas en produción/con fornecemento_
 
-Este tema describe funcións que se eliminaron ou que se planearon eliminar de Dynamics 365 Project Operations.
+Este artigo describe funcións que se eliminaron ou que se planearon eliminar de Dynamics 365 Project Operations.
 
 - Unha funcionalidade *eliminada* xa non está dispoñible no produto.
 - Unha funcionalidade *obsoleta* non está en desenvolvemento activo e pode eliminarse nunha futura actualización.

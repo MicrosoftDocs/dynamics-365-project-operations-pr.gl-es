@@ -1,25 +1,25 @@
 ---
 title: Novidades marzo 2021 - Despregamento de Project Operations lite
-description: Este tema ofrece información sobre as actualizacións de calidade dispoñibles na versión de marzo de 2021 do despregamento de Project Operations lite.
+description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de marzo de 2021 da implantación de Project Operations lite.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd9c3b5fc4eb30aaf385ba67a8d54875048e40cd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8ab045af503e9944fbc013b4e75ce45446786912
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583858"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913894"
 ---
 # <a name="whats-new-march-2021---project-operations-lite-deployment"></a>Novidades marzo 2021 - Despregamento de Project Operations lite
 
 _Aplícase a: Despregamento de Lite - acordo para facturación proforma_
 
 
-Este tema aplícase aos seguintes compoñentes e versións de Dynamics 365 Project Operations:
+Este artigo aplícase ao seguinte Dynamics 365 Project Operations compoñentes e versións:
 
 - Project Operations en ambiente de Dataverse versión 4.8.0.91 
 

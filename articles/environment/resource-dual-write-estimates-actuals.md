@@ -1,24 +1,24 @@
 ---
 title: Integración de estimacións e datos reais do proxecto
-description: Este tema ofrece información sobre a integración de escrita dual de Project Operations para estimacións e datos reais do proxecto.
+description: Este artigo ofrece información sobre a integración de dobre escritura de Project Operations para estimacións e datos reais do proxecto.
 author: sigitac
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5aaa59020427438fa6ebab3789fbb70c5b86e272
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577188"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914584"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Integración de estimacións e datos reais do proxecto
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Este tema ofrece información sobre a integración de escrita dual de Project Operations para estimacións e datos reais do proxecto.
+Este artigo ofrece información sobre a integración de dobre escritura de Project Operations para estimacións e datos reais do proxecto.
 
 ## <a name="project-estimates"></a>Estimacións do proxecto
 

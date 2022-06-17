@@ -1,24 +1,24 @@
 ---
 title: Aplicar os datos de demostración a un ambiente aloxado na nube de Finance
-description: Este tema explica como aplicar datos de demostración de Project Operations a un ambiente Dynamics 365 Finance aloxado na nube.
+description: Este artigo explica como aplicar datos de demostración de Project Operations a un ambiente Dynamics 365 Finance aloxado na nube.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588964"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924658"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Aplicar os datos de demostración a un ambiente aloxado na nube de Finance
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
 > [!IMPORTANT]
-> Este tema só é aplicable Microsoft Dynamics 365 Finance versión 10.0.13 e só se pode realizar nun ambiente aloxado na nube. Complete os pasos deste tema **ANTES** de aplicar actualizacións de calidade ao ambiente.
+> Este artigo só é aplicable Microsoft Dynamics 365 Finance versión 10.0.13 e só se pode realizar nun ambiente aloxado na nube. Completa os pasos deste artigo **ANTES** aplicas actualizacións de calidade ao medio ambiente.
 
 1. No seu proxecto LCS, abra a páxina **Detalles do ambiente**. Teña en conta que inclúe os detalles necesarios para conectarse ao ambiente mediante o protocolo de escritorio remoto (RDP).
 
