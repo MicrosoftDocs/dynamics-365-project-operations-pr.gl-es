@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: fffa9d70574c8c91b63ceb5055af64a49c9d398b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 727f2c782370b61fce65385fe29fbfa6f2387087
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911318"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028746"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Novidades ou cambios en Project Operations, marzo de 2021, para situacións baseadas en produción/con fornecemento
 
@@ -121,7 +121,7 @@ As seguintes funcionalidades están incluídas nesta versión:
 | Xestión e contabilidade de proxectos | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | O método da clase da estrutura de subdivisión do traballo herdado (WBS), **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder**, está obsoleto.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Actualizacións normativas
-Para obter información acerca das actualizacións regulamentarias para as aplicacións Finance and Operations, consulte [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
+Para obter información acerca das actualizacións regulamentarias para as aplicacións financeiras e de operacións, consulte [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

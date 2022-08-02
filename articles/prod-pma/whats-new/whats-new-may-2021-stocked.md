@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: ec1f256e77bad581bb415611260809e377dc38e8
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: eff34a4e9fc1fc6429f1fa7a3e4b0d5b664222f9
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927142"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029390"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>Novidades ou cambios en Project Operations, maio de 2021, para situacións baseadas en produción/con fornecemento
 
@@ -93,7 +93,7 @@ Este artigo aplícase ao seguinte Dynamics 365 Project Operations compoñentes e
 | Viaxes e gasto                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | Hai problemas de sincronización coa aplicación para móbil Expense. 
 
 ### <a name="regulatory-updates"></a>Actualizacións normativas
-Para obter información acerca das actualizacións regulamentarias para as aplicacións Finance and Operations, consulte [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en Lifecycle Services (LCS) e ver as actualizacións regulamentarias previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
+Para obter información acerca das actualizacións regulamentarias para as aplicacións financeiras e de operacións, consulte [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en Lifecycle Services (LCS) e ver as actualizacións regulamentarias previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

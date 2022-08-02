@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5bc8475554c4348fa1e88b9090450bd3bfaa924e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: fd745107fa6d50882ebea302d3d2ae0de21b79ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910582"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028244"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de xuño de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
 
@@ -21,7 +21,7 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 Este artigo aplícase ao seguinte Dynamics 365 Project Operations compoñentes e versións:
 
 - Project Operations no ambiente de Dynamics 365 Dataverse versión 4.11.0.156 ou 4.11.0.164.
-- Xestión de proxectos e contabilidade en contornos de aplicacións de Finanzas e Operacións versión 10.0.19.
+- Xestión de proxectos e contabilidade en contornos de aplicacións financeiras e operacións versión 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Funcionalidades incluídas nesta versión
 
@@ -38,7 +38,7 @@ Non hai actualizacións para mapas de escrita dual de Project Operations nesta v
 
 Para obter unha lista actual e versións dos mapas de escrita dual de Project Operations, consulte [Versións de mapa de escrita dual de Project Operations](../environment/resource-dual-write-maps.md).
 
-Executa sempre a versión máis recente do mapa no teu ambiente e activa todos os mapas de táboas relacionados mentres actualizas as operacións do teu proxecto Dataverse versión da solución e das aplicacións de Finanzas e Operacións. É posible que certas funcionalidades e capacidades non funcionen correctamente se a última versión do mapa non está activada. Pode ver a versión activa do mapa na páxina **Escrita dual** na columna **Versión**. Active unha nova versión do mapa seleccionando **Versións do mapa de táboas**, seleccionando a última versión e logo gardando a versión seleccionada. Se personalizou un mapa de táboa listo para usar, aplique de novo os cambios. Para obter máis información, consulte [Xestión do ciclo de vida da aplicación](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Executa sempre a versión máis recente do mapa no teu ambiente e activa todos os mapas de táboas relacionados mentres actualizas as operacións do teu proxecto Dataverse solución e versión de solución de aplicacións de finanzas e operacións. É posible que certas funcionalidades e capacidades non funcionen correctamente se a última versión do mapa non está activada. Pode ver a versión activa do mapa na páxina **Escrita dual** na columna **Versión**. Active unha nova versión do mapa seleccionando **Versións do mapa de táboas**, seleccionando a última versión e logo gardando a versión seleccionada. Se personalizou un mapa de táboa listo para usar, aplique de novo os cambios. Para obter máis información, consulte [Xestión do ciclo de vida da aplicación](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Se ten algún problema ao iniciar o mapa, siga as instrucións da sección [Problema de columnas da táboa que faltan nos mapas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) da guía de resolución de problemas de escrita dual.
 

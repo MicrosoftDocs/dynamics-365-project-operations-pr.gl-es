@@ -1,6 +1,6 @@
 ---
 title: Área de traballo móbil de entrada de tempo do proxecto
-description: Este artigo ofrece información sobre o espazo de traballo móbil de entrada de tempo do proxecto. Esta área de traballo permite aos usuarios introducir e aforrar tempo nun proxecto usando o seu dispositivo móbil.
+description: Este artigo ofrece información sobre o espazo de traballo móbil de entrada de hora do proxecto. Esta área de traballo permite aos usuarios introducir e aforrar tempo nun proxecto usando o seu dispositivo móbil.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: a163e32dae0231b5d71d1de2dbb473593b989164
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 50388bd024fdf2de0d28e49ef07a01b03c6b88f0
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8919536"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029666"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Área de traballo móbil de entrada de tempo do proxecto
 
@@ -44,7 +44,7 @@ Especificamente, na área de traballo móbil **Entrada de tempo do proxecto**, o
 ## <a name="prerequisites"></a>Requisitos previos
 Os requisitos previos son diferentes segundo a versión de Microsoft Dynamics 365 que se despregou para a súa organización.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Requisitos previos se usas Dynamics 365 Finance
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Requisitos previos se usa Dynamics 365 Finance
 Se se despregou Finanzas para a súa organización, o administrador do sistema debe publicar a área de traballo móbil **Entrada do tempo do proxecto**. Para obter instrucións, consulte [Publicar unha área de traballo móbil](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Requisitos previos se usa a versión 1611 coa actualización da plataforma 3 ou posterior
@@ -82,7 +82,7 @@ Se se despregou a versión 1611 coa actualización da plataforma 3 ou posterior 
 
 ## <a name="download-and-install-the-mobile-app"></a>Descargar e instalar a aplicación móbil
 
-Descarga e instala a aplicación móbil Finance and Operations:
+Descarga e instala a aplicación móbil de finanzas e operacións:
 
 -   [Para teléfonos Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

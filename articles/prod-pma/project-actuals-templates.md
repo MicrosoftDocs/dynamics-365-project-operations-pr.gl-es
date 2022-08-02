@@ -1,6 +1,6 @@
 ---
-title: Sincronice os datos reais do proxecto directamente desde Project Service Automation ao diario de integración do proxecto para publicar en Finance and Operations
-description: Este artigo describe os modelos e as tarefas subxacentes que se usan para sincronizar os datos reais do proxecto directamente desde Microsoft Dynamics 365 Project Service Automation a Finanzas e Operacións.
+title: Sincronice os datos reais do proxecto directamente desde Project Service Automation ao diario de integración do proxecto para publicar en finanzas e operacións
+description: Este artigo describe os modelos e as tarefas subxacentes que se usan para sincronizar os datos reais do proxecto directamente desde Microsoft Dynamics 365 Project Service Automation ao financiamento e ás operacións.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 34a0a0f7277777895077d221cd95e8d962d2a902
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929488"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028976"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronice os datos reais do proxecto directamente desde Project Service Automation ao diario de integración do proxecto para publicar en Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronice os datos reais do proxecto directamente desde Project Service Automation ao diario de integración do proxecto para publicar en finanzas e operacións
 
 [!include[banner](../includes/banner.md)]
 
@@ -41,7 +41,7 @@ A solución de integración de Project Service Automation a Finanzas usa a funci
 
 A seguinte ilustración mostra como se sincronizan os datos entre Project Service Automation e Finance.
 
-[![Fluxo de datos para a integración de Project Service Automation con Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Fluxo de datos para a integración de Project Service Automation con finanzas e operacións.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Datos reais do proxecto de Project Service Automation
 
@@ -74,7 +74,7 @@ Antes de que poida producirse a sincronización de datos reais, debe configurar 
 
 ### <a name="power-query"></a>Power Query
 
-No modelo de datos reais do proxecto, debes usar Microsoft Power Query para que Excel complete estas tarefas:
+No modelo de datos reais do proxecto, debes usar Microsoft Power Query para que Excel realice estas tarefas:
 
 - Transforme o tipo de transacción en Project Service Automation ao tipo de transacción correcto en Finanzas. Esta transformación xa está definida no modelo de datos reais do proxecto (PSA a Fin e Ops).
 - Transforme o tipo de facturación en Project Service Automation ao tipo de facturación correcto en Finanzas. Esta transformación xa está definida no modelo de datos reais do proxecto (PSA a Fin e Ops). A seguir, o tipo de facturación asígnase á propiedade da liña, en función da configuración da páxina **Parámetros de integración de Project Service Automation**.

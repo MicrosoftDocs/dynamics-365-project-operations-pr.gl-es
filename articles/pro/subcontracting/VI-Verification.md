@@ -6,20 +6,20 @@ ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 43f47a44260d1a47437846f2764b56f680d4b682
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7bf48dd17063daece5df3ce44c0375eec3dc3cae
+ms.sourcegitcommit: 49c2a668b8d7bf0acb9e9b0bb44687e6d3dcaa8c
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914216"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9204172"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Verificación de facturas de fornecedor con datos reais aprobados
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
-_ **Aplícase a:** Implementación simplificada: tramitar a facturación proforma
+_**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
-Microsoft Dynamics 365 Project Operations imos que os xestores de proxectos verifiquen as liñas de facturas de provedores das seguintes formas:
+Microsoft Dynamics 365 Project Operations imos que os xestores de proxectos verifiquen as liñas de factura do provedor das seguintes formas:
 
 - Usa o **Estado de verificación** campo nas liñas de factura do provedor.
 - Se as liñas de factura do provedor fan referencia a unha liña de subcontrato, vincula os custos reais da actividade do subcontratista a esas liñas de factura do provedor. A ligazón créase facendo coincidir os custos reais coas liñas de factura do provedor.
@@ -46,7 +46,7 @@ Liñas de facturas de provedores que teñen un estado de verificación de **Comp
 A coincidencia dos custos reais axuda co proceso de verificación nunha liña de factura de provedor. Para relacionar os custos reais cunha liña de factura de provedor, siga estes pasos.
 
 1. Abra a liña de factura do provedor e seleccione **Custos reais incomparables** ficha. Unha cuadrícula mostra unha lista de custos reais que fan referencia á mesma liña de subcontrato que a liña de factura do provedor.
-2. Seleccione un ou máis dos custos reais e, a continuación, seleccione **Partido** na barra de ferramentas situada enriba da grade. O sistema valida que os custos reais seleccionados poidan coincidir. Despois de pasar a validación, os custos reais están ligados á liña de factura do provedor.
+2. Seleccione un ou máis dos custos reais e, a continuación, seleccione **Partido** na barra de ferramentas situada enriba da grade. O sistema valida que os custos reais seleccionados poden coincidir. Despois de pasar a validación, os custos reais están ligados á liña de factura do provedor.
 
 ### <a name="validation-criteria-that-are-used-to-link-cost-actuals-to-vendor-invoice-lines"></a>Criterios de validación que se utilizan para vincular os custos reais ás liñas de facturas de provedores
 
@@ -68,7 +68,7 @@ Durante o proceso de coincidencia, só se pode establecer un vínculo entre un c
 
 ## <a name="unmatch-cost-actuals-from-a-vendor-invoice-line"></a>Descompare os custos reais dunha liña de factura de provedor
 
-A non coincidencia dos custos reais tamén pode axudar co proceso de verificación dunha factura do provedor ao permitir que se eliminen as ligazóns establecidas previamente. Os custos reais só poden ser incomparables das liñas de factura de provedores que teñan un estado de verificación de **En progreso**. Para non comparar os custos reais dunha liña de factura de provedor, siga estes pasos.
+A non coincidencia dos custos reais tamén pode axudar co proceso de verificación dunha factura de provedor ao permitir que se eliminen as ligazóns establecidas previamente. Os custos reais só poden ser incomparables das liñas de factura de provedores que teñan un estado de verificación de **En progreso**. Para non comparar os custos reais dunha liña de factura de provedor, siga estes pasos.
 
 1. Abra a liña de factura do provedor e seleccione **Custos reais coincidentes** ficha. Unha cuadrícula mostra unha lista de custos reais que fan referencia á liña de factura do provedor.
 2. Seleccione un ou máis dos custos reais e, a continuación, seleccione **Descompar** na barra de ferramentas situada enriba da grade.

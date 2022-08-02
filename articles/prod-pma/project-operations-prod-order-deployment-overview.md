@@ -1,17 +1,17 @@
 ---
 title: Visión xeral do despregamento de Project Operations para situacións baseadas en produción/con fornecemento
-description: Este artigo ofrece información sobre o tipo de implantación, Operacións do proxecto para escenarios abastecidos ou baseados na produción.
+description: Este artigo ofrece información sobre o tipo de implantación, Operacións do proxecto para escenarios abastecidos/baseados na produción.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fb5bf99b6a46e285d03bdbaa9a3acd9d4bbe70f0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 379fdc7de161e3795100ee932fefed88811ba84e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922772"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028792"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Visión xeral do despregamento de Project Operations para situacións baseadas en produción/con fornecemento
 
@@ -22,10 +22,10 @@ Este tipo de despregamento ten as seguintes capacidades para as empresas baseada
 
 - Planificación de proxectos usando as [Estruturas de subdivisión do traballo](work-breakdown-structures.md)
 - Adquirir e consumir inventario fornecido para proxectos
-- Xestionar as vendas baseadas en proxectos mediante o **Vendas e mercadotecnia** módulo nas aplicacións Dynamics 365 Finance and Operations
-- Prezos e custos dos proxectos utilizando as configuracións de taxas de custo e de facturación nas aplicacións Finance and Operations
-- Xestión de recursos para proxectos en aplicacións de Finanzas e Operacións
-- Progreso do proxecto e seguimento do tempo nas aplicacións de Finanzas e Operacións
+- Xestionar as vendas baseadas en proxectos mediante o **Vendas e mercadotecnia** módulo nas aplicacións financeiras e operacións de Dynamics 365
+- Prezos e custos dos proxectos utilizando as configuracións de taxas de custo e de facturación nas aplicacións de finanzas e operacións
+- Xestión de recursos para proxectos en aplicacións financeiras e de operacións
+- Progreso do proxecto e seguimento do tempo en aplicacións financeiras e de operacións
 - Experiencias básicas e completas de xestión de gastos para gastos de proxectos e non de proxectos, con captura de recibos mediante capacidades OCR
 - Facturación mediante un sistema de impostos sobre vendas de clase empresarial e taxas de cambio con data efectiva
 - Grupos de proxectos configurables para contabilidade e acumulación e WIP

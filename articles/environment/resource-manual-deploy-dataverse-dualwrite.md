@@ -6,12 +6,12 @@ ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a25e2a59f1c069057c6689825ce52b13d842af71
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912008"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028562"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Despregar manualmente a aplicación Project Operations Dataverse con soporte de escrita dual
 
@@ -37,7 +37,7 @@ Para completar este procedemento, debe iniciar sesión como administrador.
 3. Seleccione o tipo de ambiente. Se se rexistrou para a oferta de proba, seleccione **Proba (baseada en subscrición)**.
 4. Confirme a rexión de despregamento.
 5. Active a opción **Crear unha base de datos para este ambiente**. 
-6. Confirma o idioma e, a continuación, confirma que a moeda coincide coa moeda das túas aplicacións de Finanzas e Operacións.
+6. Confirma o idioma e, a continuación, confirma que a moeda coincide coa moeda das túas aplicacións de finanzas e operacións.
 7. Active a opción **Aplicacións de Dynamics 365** e confirme que o campo **Despregar automaticamente estas aplicacións** está definido como **Ningunha**.
 8. Engada un grupo de seguranza, se é necesario un grupo de seguranza.
 9. Seleccione **Gardar** para crear o ambiente.
@@ -62,4 +62,4 @@ Só pode completar este procedemento se completou os procedementos anteriores an
 
 ## <a name="link-your-environments"></a><a name="link"></a>Ligar os seus ambientes
 
-Tras o Dataverse está implantado, podes configurar a ligazón nas túas aplicacións de Finanzas e Operacións. Siga os pasos indicados en [Usar asistente de escrita dual para ligar os seus ambientes](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Tras o Dataverse o ambiente está implantado, podes configurar a ligazón nas túas aplicacións de finanzas e operacións. Siga os pasos indicados en [Usar asistente de escrita dual para ligar os seus ambientes](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

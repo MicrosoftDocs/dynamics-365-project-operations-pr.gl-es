@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930132"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064276"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Configurar a quilometraxe empregando niveis de taxa de quilometraxe
 
@@ -50,5 +50,15 @@ A funcionalidade **Cálculo da cantidade de quilometraxe para varios niveis de q
 
 Despois de activar a funcionalidade, restableza os niveis de quilometraxe para reflectir correctamente o valor do campo **Cantidade**. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Activa o cálculo dos totais de quilometraxe mediante a función ano fiscal
+
+O **Cálculo dos totais de quilometraxe por ano fiscal** A función activa unha nova configuración nos parámetros de xestión de gastos que realiza cálculos totais de quilometraxe mediante ano fiscal en lugar do ano natural. Complete os seguintes pasos para activar esta función.
+
+1. Vaia a **Áreas de traballo** > **Xestión de funcionalidades**.
+1. Na lista, localice e seleccione **Cálculo dos totais de quilometraxe por ano fiscal** e, a continuación, seleccione **Habilita agora**.
+1. Ir a **Xestión de gastos** > **Montar** > **Xeral** > **Parámetros de xestión de gastos**.
+1. No **Parámetros de xestión de gastos** páxina, localiza e activa **Use ano fiscal para os totais de quilometraxe**.
+
+Despois de activar **Use ano fiscal para os totais de quilometraxe**, os totais de quilometraxe calcúlanse mediante ano fiscal.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

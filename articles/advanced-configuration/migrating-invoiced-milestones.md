@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d7bb3dbb5acd9be447c405ec17f18d00c500f655
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 05cd71f9860b5698e3a26bc72660b0b2044206c8
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912238"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028700"
 ---
 # <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>Migre os hitos de facturación totalmente facturados no momento do cambio
 
@@ -26,7 +26,7 @@ Contoso estará en directo con Microsoft Dynamics 365 Project Operations para es
 ### <a name="prerequisites"></a>Requisitos previos
 
 - Debe instalarse Dynamics 365 Finance 10.0.24 ou posterior.
-- O ambiente onde se completarán os pasos de migración debe estar en modo de mantemento. Non se deben realizar outras actividades mentres se migran os fitos.
+- O entorno onde se completarán os pasos de migración debe estar en modo de mantemento. Non se deben realizar outras actividades mentres se migran os fitos.
 - Os pasos de migración deben seguirse exactamente como se describe aquí e só se poden usar para a actividade de corte. Microsoft non admite ningún outro uso desta capacidade.
 
 ### <a name="create-a-cutover-version-of-the-project-operations-integration-contract-line-milestones-dual-write-map"></a>Crea unha versión de corte do mapa de dobre escritura de fitos de liña de contrato de integración de Project Operations 
@@ -35,7 +35,7 @@ Contoso estará en directo con Microsoft Dynamics 365 Project Operations para es
 
     1. En Finanzas, vai a **Xestión de datos** \> **Entidades de datos**, e seleccione o **Liña de contratos de integración de operacións de proxectos** entidade. 
     2. Seleccione **Modificar mapas de destino**. 
-    3. No **Escenificación do mapa ao destino** páxina, seleccione **Xerar mapeo** e, a continuación, confirme que quere xerar a asignación.
+    3. No **Creación de mapas para orientar** páxina, seleccione **Xerar mapeo** e, a continuación, confirme que quere xerar a asignación.
 
 2. Detén e refresca o **Liña de contratos de integración de operacións de proxectos** (**msdyn\_ axenda de valores de liñas contractuais**) mapa de dobre escritura. 
 
@@ -46,7 +46,7 @@ Contoso estará en directo con Microsoft Dynamics 365 Project Operations para es
 3. Engade unha asignación para o estado da transacción.
 
     1. Seleccione **Engadir mapeo**.
-    2. Na nova liña, na **Aplicacións de Finanzas e Operacións** columna, seleccione a **TRANSSTATUS\[ TRANSSTATUS\]** campo.
+    2. Na nova liña, na **Aplicacións de finanzas e operacións** columna, seleccione a **TRANSSTATUS\[ TRANSSTATUS\]** campo.
     3. No **Microsoft Dataverse** columna, seleccione **msdyn\_ estado da factura\[ Estado da factura\]**.
     4. No **Tipo de mapa** columna, seleccione a frecha cara á dereita (**\>**).
     5. No cadro de diálogo que aparece, no **Dirección de sincronización** campo, seleccione **Dataverse ás aplicacións de Finanzas e Operacións**.
@@ -65,10 +65,10 @@ Contoso estará en directo con Microsoft Dynamics 365 Project Operations para es
 
 ### <a name="migrate-invoiced-milestones-to-the-dataverse-environment"></a>Migrar os fitos facturados ao Dataverse ambiente
 
-1. No Proxecto Operacións Dataverse entorno, crear fitos que teñan un estado de factura de **Listo para facturar**. Neste momento, non migre ningún fito que non teña facturado.
+1. No Proxecto Operacións Dataverse ambiente, crear fitos que teñan un estado de factura de **Listo para facturar**. Neste momento, non migre ningún fito que non teña facturado.
 
     > [!NOTE]
-    > Antes de migrar os fitos de facturación, asegúrese de que as dimensións financeiras que están relacionadas coa liña do contrato do proxecto están definidas como se espera. Non se poden editar as dimensións financeiras despois de completar a migración.
+    > Antes de migrar os fitos de facturación, asegúrese de que as dimensións financeiras que están relacionadas coa liña de contrato do proxecto están definidas como se espera. Non se poden editar as dimensións financeiras despois de completar a migración.
 
 2. Despois de migrar todos os fitos, detén os seguintes mapas de dobre escritura:
 

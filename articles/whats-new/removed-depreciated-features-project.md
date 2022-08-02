@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0fbaed028db11d8fb1551d304a40543faf35b0d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921484"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028327"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Funcións eliminadas ou obsoletas en Dynamics 365 Project Operations
 
@@ -26,7 +26,7 @@ Este artigo describe funcións que se eliminaron ou que se planearon eliminar de
 Esta lista está destinada a axudarlle a considerar estas eliminacións e obsolescencias para a súa propia planificación.
 
 > [!NOTE]
-> Pódese atopar información detallada sobre obxectos nas aplicacións de Finanzas e Operacións na páxina [**Informes técnicos de referencia**](/dynamics/s-e/global/axtechrefrep_61). Podes comparar as diferentes versións destes informes para coñecer os obxectos que cambiaron ou se eliminaron en cada versión das aplicacións Finance and Operations.
+> Pódese atopar información detallada sobre obxectos en aplicacións de finanzas e operacións en [**Informes técnicos de referencia**](/dynamics/s-e/global/axtechrefrep_61). Podes comparar as diferentes versións destes informes para coñecer os obxectos que cambiaron ou se eliminaron en cada versión das aplicacións de finanzas e operacións.
 
 ## <a name="features-removed-or-deprecated-in-the-project-operations-march-2022-release"></a>Funcións eliminadas ou obsoletas na versión Project Operations de marzo de 2022
 
@@ -67,7 +67,7 @@ Esta lista está destinada a axudarlle a considerar estas eliminacións e obsole
 | **Motivo da obsolescencia/eliminación** | Obsoleto debido ás melloras na páxina que se introduciu xunto co **Use os formularios de proposta de factura do proxecto e diario de facturas coa vista Cabeceira e Liñas** tecla de función. |
 | **Substituído por outra funcionalidade?** | Si |
 | **Áreas de produtos afectadas** | Aplicación |
-| **Opción de despregamento** | Operacións do proxecto para escenarios de produción/abastecemento; Operacións do proxecto para escenarios de recursos/non abastecidos |
+| **Opción de despregamento** | Operacións do proxecto para escenarios de produción/stockado; Operacións do proxecto para escenarios de recursos/non abastecidos |
 | **Estado** | Obsoleto: antes do 1 de marzo de 2023, desactivaremos a páxina anterior (antigua) e activaremos o **Use os formularios de proposta de factura do proxecto e diario de facturas coa vista Cabeceira e Liñas** tecla de función por defecto. |
 
 ## <a name="features-removed-or-deprecated-in-the-project-operations-december-2021-release"></a>Funcións eliminadas ou obsoletas na versión de decembro de 2021 de Project Operations

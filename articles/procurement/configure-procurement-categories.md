@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f71c6bfcd183613471a4cc10e16a5a54571fac31
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927418"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028608"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Use categorías de adquisición con pedidos de compra de proxectos e facturas de provedores pendentes
 
@@ -22,10 +22,10 @@ Os profesionais de compras poden crear e manter catálogos dos artigos e servizo
 
 ## <a name="minimum-version-requirements"></a>Requisitos mínimos da versión
 
-As seguintes versións son necesarias para utilizar categorías de adquisición con pedidos de compra de proxectos para Microsoft Dynamics 365 Project Operations escenarios non abastecidos ou baseados en recursos:
+As seguintes versións son necesarias para usar categorías de adquisición con pedidos de compra de proxectos para Microsoft Dynamics 365 Project Operations escenarios non abastecidos ou baseados en recursos:
 
-- Operacións do proxecto Dataverse versión da solución 4.41.0.45 ou posterior
-- Contorno Finance and Operations versión 10.0.26 ou posterior
+- Operacións do proxecto Dataverse versión de solución 4.41.0.45 ou posterior
+- Entorno financeiro e operativo versión 10.0.26 ou posterior
 
 ## <a name="run-dual-write-maps-for-procurement-category-support"></a>Executa mapas de dobre escritura para compatibilidade con categorías de adquisición
 
@@ -39,7 +39,7 @@ Siga estes pasos para activar a funcionalidade de uso de categorías de adquisic
 1. Na lista de funcións, busque o **Use categorías de adquisición en Operacións do proxecto para escenarios baseados en recursos/non abastecidos** función e, a continuación, seleccione **Activar**.
 
 > [!IMPORTANT]
-> Como requisito previo, tamén debes activar **Activa as facturas de provedores pendentes en Project Operations para escenarios baseados en recursos/non abastecidos** característica.
+> Como requisito previo, tamén debes activar **Activa as facturas de provedores pendentes en Project Operations para escenarios baseados en recursos ou non almacenados** característica.
 
 ## <a name="map-project-categories-in-the-procurement-category-hierarchy"></a>Asigne as categorías de proxectos na xerarquía de categorías de Contratación
 
@@ -47,7 +47,7 @@ Siga estes pasos para asignar categorías de proxectos ás categorías de contra
 
 1. Ir a **Adquisición e abastecemento \> Categorías de contratación**.
 1. Seleccione **Editar a xerarquía de categorías**.
-1. Seleccione o nodo da xerarquía de categorías desexada e, a continuación, no **Asignar categorías de proxectos** pestana, asocia o nodo coa categoría do proxecto do **Tempo**, **·**, ou, **Proxecto Item** categoría (é dicir, o **Hora predeterminada** ou **Gastos por defecto** categoría).
+1. Seleccione o nodo de xerarquía de categorías desexado e, a continuación, no **Asignar categorías de proxectos** pestana, asocia o nodo coa categoría do proxecto do **Tempo**, **·**, ou, **Proxecto Item** categoría (é dicir, o **Hora predeterminada** ou **Gastos por defecto** categoría).
 1. Seleccione **Gardar**.
 1. Peche a páxina.
 

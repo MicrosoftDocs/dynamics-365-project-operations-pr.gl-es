@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959642"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029298"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Rexistro para as probas de Project Operations 
 
@@ -86,11 +86,11 @@ Antes de comezar, inicie sesión nun explorador coa conta de traballo do usuario
  
   Cando se completa o aprovisionamento, o estado do seu ambiente é **Listo**. O aprovisionamento do ambiente inclúe o despregamento de datos de demostración.
  
-4.  Seleccione o correspondente Microsoft Dataverse URL e os URL das aplicacións de Finanzas e Operacións para validar a implantación.
+4.  Seleccione o correspondente Microsoft Dataverse URL e os URL das aplicacións financeiras e de operacións para validar a implantación.
 
 ## <a name="configuring-dual-write"></a>Configuración da escrita dual
 - Para configurar as funcións de seguranza para a escritura dual, consulte [Actualiza a configuración de seguranza en Project Operations en Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Para acceder á configuración de dobre escritura, desprácese ata a instancia de Finance and Operations e, a continuación, navegue ata **Xestión de datos** > **Escritura dual**.
+- Para acceder á configuración de dobre escritura, desprácese ata a instancia financeira e de operacións e, a continuación, navegue ata **Xestión de datos** > **Escritura dual**.
 - Para configurar mapas de dobre escritura, consulte [Executar mapas de dobre escritura de Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Atribuír licenzas
@@ -117,7 +117,7 @@ Os seguintes recursos proporcionan unha guía útil cando comeza a súa viaxe co
 
 ## <a name="frequently-asked-questions"></a>Preguntas máis frecuentes
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>E se necesito ALM ou ELM para o meu contorno de aplicacións de Finanzas e Operacións?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>E se necesito ALM ou ELM para o meu entorno de aplicacións financeiras e de operacións?
 
 - Para os socios que requiran capacidades de xestión do ciclo de vida do ambiente completo, consulte o documento [Solicitude de licenza de illamento de procesos para socios](https://experience.dynamics.com/requestlicense) para revisar a oferta para novos socios. 
 - Para socios que buscan máis información sobre os dereitos de uso interno, consulte [Beneficios de nube e software de dereitos de uso interno (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).

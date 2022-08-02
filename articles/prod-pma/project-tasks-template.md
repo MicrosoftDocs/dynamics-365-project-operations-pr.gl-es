@@ -1,6 +1,6 @@
 ---
-title: Sincronice as tarefas do proxecto directamente desde Project Service Automation ata Finanzas e Operacións
-description: Este artigo describe o modelo e a tarefa subxacente que se usan para sincronizar as tarefas do proxecto directamente desde Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
+title: Sincronice as tarefas do proxecto directamente desde Project Service Automation ata o financiamento e as operacións
+description: Este artigo describe o modelo e a tarefa subxacente que se usan para sincronizar tarefas do proxecto directamente desde Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 7b8ba77bbb08052952a8a557bb71300652dca3b2
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ed559fcd9e0e666f68e7d9f4f1fca91417fe4970
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931144"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028359"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronice as tarefas do proxecto directamente desde Project Service Automation ata Finanzas e Operacións
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronice as tarefas do proxecto directamente desde Project Service Automation ata o financiamento e as operacións
 
 [!include[banner](../includes/banner.md)]
 
-Este artigo describe o modelo e a tarefa subxacente que se usan para sincronizar as tarefas do proxecto directamente desde Dynamics 365 Project Service Automation a Dynamics 365 Finance.
+Este artigo describe o modelo e a tarefa subxacente que se usan para sincronizar tarefas do proxecto directamente desde Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 
 > [!NOTE]
 > - A integración de tarefas do proxecto, categorías de transaccións de gastos, estimacións de horas, estimacións de gastos e bloqueo de funcionalidades están dispoñibles na versión 8.0.

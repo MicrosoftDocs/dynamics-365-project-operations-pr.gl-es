@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2b2cf628e6b6f4744cc0ee9deee2a92528a2410d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933030"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029712"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de decembro de 2020 - Project Operations para situacións baseadas en recursos/sen fornecemento
 
@@ -61,7 +61,7 @@ As seguintes funcionalidades están incluídas nesta versión:
 | Planificación e rastrexo de proxectos | 2057197          | Non se admite a copia de liñas con referencia á tarefa                                                                                                     |
 | Planificación e rastrexo de proxectos | 2060687          | O aviso de zona horaria agora desaparece despois dunha duración específica                                                                                                      |
 | Xestión de recursos           | 1832887          | A ID de categoría de recurso predefinida ten que ser estática para garantir cargas de datos repetibles para ambientes de Dataverse e Finance                                                 |
-| Tempo e gasto              | 2081793          | **Nome da categoría de gasto** debe ser mapeado **Descrición da categoría de gasto** campo nas aplicacións de Finanzas e Operacións                                                  |
+| Tempo e gasto              | 2081793          | **Nome da categoría de gasto** debe ser mapeado **Descrición da categoría de gasto** campo en aplicacións de finanzas e operacións                                                  |
 | Tempo e gasto              | 2034882          | O botón **Novo** amósase dúas veces na barra de comandos para as entradas de tempo cando Dynamics 365 Field Service está instalado                                          |
 | Tempo e gasto              | 2056028          | Actualice a páxina **Edición de tempo** para incluír a liña de tempo                                                                                                              |
 | Tempo e gasto              | 1983747          | O gráfico de entrada de tempo mostra datos adicionais                                                                                                                   |
@@ -106,7 +106,7 @@ As seguintes funcionalidades están incluídas nesta versión:
 | Tempo e gasto                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | O fluxo de traballo de contabilización automática do informe de gastos completouse pero a factura non se contabiliza                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Actualizacións normativas
-Para obter información acerca das actualizacións regulamentarias para as aplicacións Finance and Operations, consulte [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
+Para obter información acerca das actualizacións regulamentarias para as aplicacións financeiras e de operacións, consulte [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

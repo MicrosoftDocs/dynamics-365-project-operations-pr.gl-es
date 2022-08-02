@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931190"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028471"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Requisitos de elementos para contratos de proxectos con múltiples fontes de financiamento
 
@@ -33,8 +33,8 @@ Contoso gañou un contrato de renovación de equipos con dous dos seus clientes:
 
 ### <a name="prerequisites"></a>Requisitos previos
 
-- Microsoft Dynamics 365 Finanzas e Operacións **versión 10.0.27 ou posterior** é necesario para utilizar requisitos de artigo que teñan varias contas de factura.
-- O seu administrador do sistema debe activar o **Permitir os requisitos de elementos con varias fontes de financiamento para escenarios abastecidos/baseados na produción de Operacións do proxecto** característica no **Xestión de características** espazo de traballo.
+- Microsoft Dynamics 365 Finanzas **versión 10.0.27 ou posterior** é necesario para utilizar requisitos de artigo que teñan varias contas de factura.
+- O seu administrador do sistema debe activar o **Permitir os requisitos de elementos con varias fontes de financiamento para os escenarios abastecidos ou baseados na produción de Project Operations** característica no **Xestión de características** espazo de traballo.
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>Configura as regras predeterminadas da conta de factura
 
@@ -52,13 +52,13 @@ Para configurar as regras predeterminadas para a conta de factura, siga estes pa
     1. Ir a **Xestión de proxectos e contabilidade** \> **Proxectos** \> **Todos os proxectos**, e abra os detalles do rexistro do proxecto.
     2. No **Xeral** ficha, configure ou actualice **Conta de factura predeterminada** campo. A conta que especifique utilizarase como conta de factura predeterminada para os requisitos de artigos novos que se crean para o proxecto. Se deixa o campo en branco, a conta de factura da fonte de financiamento do primeiro contrato do proxecto empregarase por defecto. Non obstante, os usuarios poderán cambiar a conta cando garden o rexistro.
 
-### <a name="select-the-invoice-account-to-use-when-you-create-an-item-requirement"></a>Seleccione a conta de factura que quere usar cando cree un requisito de artigo
+### <a name="select-the-invoice-account-to-use-when-you-create-an-item-requirement"></a>Seleccione a conta de factura que quere utilizar cando cree un requisito de artigo
 
 Para seleccionar a conta de factura a utilizar cando cree un requisito de artigo, siga estes pasos.
 
 1. Ir a **Xestión de proxectos e contabilidade** \> **Proxectos** \> **Todos os proxectos**, e seleccione o rexistro do proxecto.
 1. No **Planificar** ficha, seleccione **Requisitos dos elementos**.
-1. Crear un novo rexistro de requisitos de elementos.
+1. Crea un novo rexistro de requisitos de elementos.
 
     - Por defecto, o **Conta de factura** campo do rexistro establécese na conta de factura establecida para o proxecto. Podes cambiar o valor do **Conta de factura** campo e despois garde o rexistro. Despois de gardar o rexistro, xa non podes actualizar **Conta de factura** valor. Se debes actualizar o **Conta de factura** valor para o requisito de elemento, elimine o requisito de elemento existente e, a continuación, cree un novo que teña o valor desexado.
     - Por defecto, o **Cliente** campo para o requisito do elemento establécese en función do **Cliente predeterminado** valor que se establece no **Xestión de proxectos e parámetros contables** páxina.
@@ -66,7 +66,7 @@ Para seleccionar a conta de factura a utilizar cando cree un requisito de artigo
     Cando se garda o rexistro de requisitos do elemento, o sistema asóciao co **Pedido de venda de requisitos de artigo** rexistro de cabeceira. Se ningunha cabeceira de pedido de venda aberta ten a conta de factura seleccionada, o sistema creará unha e asociará a liña de requisitos de artigo.
 
 > [!NOTE]
-> Os requisitos de elementos sempre se facturan na conta de factura que se establece no rexistro. Actualmente, o sistema non admite regras de asignación de fondos que teñan requisitos de elementos e non dividirá a publicación en función da configuración das regras de asignación de fondos.
+> Os requisitos de elementos sempre se facturan na conta de factura que se establece no rexistro. O sistema actualmente non admite regras de asignación de fondos que teñan requisitos de elementos e non dividirá a publicación en función da configuración das regras de asignación de fondos.
 
 ### <a name="create-an-item-requirement-from-an-item-forecast-record"></a>Crea un requisito de elemento a partir dun rexistro de previsión de elementos
 
@@ -79,7 +79,7 @@ Para crear un requisito de elemento a partir dun rexistro de previsión de eleme
 1. Seleccione **Crear requisito de elemento**, e confirma a mensaxe que recibe.
 
     > [!NOTE]
-    > O sistema copia o **Fonte de financiamento** valor desde o rexistro de previsión de elementos ata o rexistro de requisitos de elementos recentemente creados.
+    > O sistema copia o **Fonte de financiamento** valor desde o rexistro de previsión de elementos ata o rexistro de requisitos de elementos recentemente creado.
 
 ### <a name="default-invoice-account-when-the-system-automatically-creates-an-item-requirement-from-a-purchase-order-line"></a>Conta de factura predeterminada cando o sistema crea automaticamente un requisito de artigo desde unha liña de orde de compra
 

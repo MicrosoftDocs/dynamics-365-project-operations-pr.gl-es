@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922864"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028884"
 ---
 # <a name="project-mobile-applications-overview"></a>Visión xeral das aplicacións móbiles do proxecto
 
@@ -33,11 +33,11 @@ A aplicación móbil Dynamics 365 Project Timesheet permite aos usuarios enviar 
 
 ## <a name="project-time-entry-workspace"></a>Espazo de traballo de Project Time Entry
 
-O espazo de traballo de Project Time Entry permite aos usuarios entrar e aforrar tempo nun proxecto. Non obstante, non permite aos usuarios enviar nin aprobar follas de control horario do proxecto. Só se pode usar para a entrada de tempo. Este espazo de traballo móbil está pensado para usarse xunto coa aplicación móbil de Finanzas e Operacións.
+O espazo de traballo de Project Time Entry permite aos usuarios entrar e aforrar tempo nun proxecto. Non obstante, non permite aos usuarios enviar nin aprobar follas de control horario do proxecto. Só se pode usar para a entrada de tempo. Este espazo de traballo móbil está pensado para usarse xunto coa aplicación móbil de finanzas e operacións.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>My timesheets/Timesheets para a miña revisión
 
-My timesheets (optimizada para móbiles) e Timesheets for my review (optimizada para móbiles) constitúen unha solución que permite aos empregados crear, enviar e aprobar as follas de control horario do proxecto nun dispositivo móbil. Os traballadores poden acceder á funcionalidade de Finanzas a través do URL da aplicación. Esta solución non require a aplicación móbil de Finanzas e Operacións.
+My timesheets (optimizada para móbiles) e Timesheets for my review (optimizada para móbiles) constitúen unha solución que permite aos empregados crear, enviar e aprobar as follas de control horario do proxecto nun dispositivo móbil. Os traballadores poden acceder á funcionalidade de Finanzas a través do URL da aplicación. Esta solución non require a aplicación móbil de finanzas e operacións.
 
 ## <a name="for-more-information"></a>Para obter máis información
 
