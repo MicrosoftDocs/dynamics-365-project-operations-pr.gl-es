@@ -6,20 +6,18 @@ ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 092b3cd5981f7d9bb8767c7a2acb2f4952801d06
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4dafbe64e0727957068d68f510202a12871b62aa
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932432"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261509"
 ---
 # <a name="confirm-a-project-vendor-invoice"></a>Confirmar unha factura fornecedor do proxecto
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
-Despois de verificar todas as liñas dunha factura de provedor en Microsoft Dynamics 365 Project Operations, pode utilizar a acción Confirmar para confirmar a factura do provedor.
+Despois de verificar todas as liñas dunha factura de provedor en Microsoft Dynamics 365 Project Operations, pode usar a acción Confirmar para confirmar a factura do provedor.
 
 Cando selecciones **Confirmar** nunha factura de provedor, ocorre o seguinte comportamento:
 

@@ -6,25 +6,23 @@ ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1c05b941fb51c8b56422e3b5d3868c9b69197187
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 89fbbfcd1535660e92d0cc80beb91029331e990f
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927648"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261134"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Rexistro de tempo, gastos e uso de material en proxectos para compoñentes subcontratados
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
 Este artigo explica como Microsoft fai un seguimento do tempo, dos gastos e do uso de material rexistrado en proxectos de compoñentes subcontratados Dynamics 365 Project Operations.
 
 ## <a name="costing-for-subcontractor-time-on-projects"></a>Custo do tempo do subcontratista nos proxectos
-En Operacións de Proxectos, os traballadores por contrato poden rexistrar o tempo nos proxectos dun xeito similar ao dos empregados. Ao introducir o tempo de proxectos e/ou tarefas do proxecto, un traballador contratado pode seleccionar un subcontrato e unha liña de subcontrato específicos.
+Nas Operacións de Proxectos, os traballadores por contrato poden rexistrar o tempo nos proxectos dun xeito similar ao dos empregados. Ao introducir o tempo de proxectos e/ou tarefas do proxecto, un traballador contratado pode seleccionar unha subcontrata e unha liña de subcontratación específicas.
 
-Cando se aprobe o tempo entregado polos traballadores contratados, o custo do proxecto rexístrase utilizando a taxa de custo unitario que se establece para ese recurso contratado no **Prezos dos roles** sección da lista de prezos de compra do subcontrato.
+Cando se aprobe o tempo entregado polos traballadores contratados, o custo do proxecto rexístrase utilizando a taxa de custo unitario que se establece para ese recurso de traballador contratado no **Prezos dos roles** sección da lista de prezos de compra do subcontrato.
 
 ## <a name="costing-for-subcontracted-expenses-on-projects"></a>Custo dos gastos subcontratados dos proxectos
 Ao introducir os gastos realizados en proxectos, pode seleccionar unha liña de subcontrato e subcontrato na entrada de gasto. 

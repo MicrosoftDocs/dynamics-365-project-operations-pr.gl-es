@@ -6,16 +6,14 @@ ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 38f0760697522b7a5e561cec7d38dfd5c3eaf9fc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b57ec8cdb6097e6f2207056667aadfb43ee8acfc
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911456"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261932"
 ---
 # <a name="vendor-invoicing---concept-and-creation"></a>Facturación de fornecedores - Concepto e creación
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
@@ -29,7 +27,7 @@ As facturas de provedores en Project Operations pódense usar para soportar dous
 
 ### <a name="customers-use-the-full-subcontracting-experiences"></a>Os clientes utilizan as experiencias completas de subcontratación
 
-As experiencias de facturas de provedores ofrecen un xeito de verificar e combinar as entradas de tempo, o uso de material e as entradas de gastos que fan referencia a compoñentes subcontratados coas liñas de facturas de provedores. Este proceso pódese usar para verificar a precisión das liñas de factura do provedor. Despois de que se complete o proceso de verificación e se confirme a factura do provedor, a aplicación reverterá os datos reais que foron rexistrados polos rexistros de tempo, gastos e uso de material aprobados e creará novos custos reais mediante as liñas de factura do provedor.
+As experiencias de facturas de provedores ofrecen un xeito de verificar e combinar as entradas de tempo, o uso de material e as entradas de gastos que fan referencia a compoñentes subcontratados coas liñas de facturas de provedores. Este proceso pódese usar para verificar a precisión das liñas de factura do provedor. Despois de completar o proceso de verificación e confirmar a factura do provedor, a aplicación reverterá os datos reais que foron rexistrados polos rexistros de tempo, gastos e uso de material aprobados e creará novos custos reais mediante as liñas de factura do provedor.
 
 ### <a name="customers-dont-use-the-full-subcontracting-experiences-but-want-to-have-a-unified-view-of-costs-on-projects-in-project-operations"></a>Os clientes non usan as experiencias de subcontratación completas, pero queren ter unha visión unificada dos custos dos proxectos en Operacións de proxectos
 
@@ -39,13 +37,13 @@ Se estás facendo un seguimento do proceso de subcontratación nun sistema de te
 
 As facturas de provedores pódense crear de dúas formas:
 
-- Desde a páxina da lista de facturas de provedores ou a páxina de detalles dunha única factura de provedores
+- Desde a páxina da lista de facturas de provedores ou a páxina de detalles dunha única factura de provedor
 - Desde a páxina da lista de subcontratos ou a páxina de detalles dun único subcontrato
 
 ### <a name="creation-from-the-vendor-invoice-list-page-or-details-page"></a>Creación a partir da páxina da lista de facturas de provedores ou da páxina de detalles
 
 1. Ir a **Compras** \> **Facturas de provedores**.
-2. Na páxina da lista de facturas de provedores ou na páxina de detalles dunha única factura de provedor, seleccione **Novo** para crear unha nova factura de provedor.
+2. Na páxina da lista de facturas de provedores ou na páxina de detalles dunha única factura de provedores, seleccione **Novo** para crear unha nova factura de provedor.
 
 As facturas de provedores que se crean deste xeito tamén poden facer referencia a un subcontrato.
 

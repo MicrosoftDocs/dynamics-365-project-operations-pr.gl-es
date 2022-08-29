@@ -1,21 +1,19 @@
 ---
 title: Dotación de persoal dun proxecto con traballadores contratados e capacidade subcontratada
-description: Este artigo explica como se poden cubrir os requisitos do proxecto mediante traballadores contratados ou capacidade subcontratada en Microsoft Dynamics 365 Project Operations.
+description: Este artigo explica como se poden cubrir os requisitos do proxecto utilizando traballadores por contrato ou capacidade subcontratada en Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 173e1c20d2d046ee2120ec178e51d4868b70847d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 8edb053467ef200ca3e051e2fd78106734318389
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922082"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261252"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Dotación de persoal dun proxecto con traballadores contratados e capacidade subcontratada
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
@@ -38,14 +36,14 @@ Para buscar e requisitos de recursos de persoal con traballadores contratados qu
 
 ## <a name="search-for-and-staff-resource-requirements-with-any-contract-worker"></a>Busca e requisitos de recursos de persoal con calquera traballador contratado
 
-Para buscar e os requisitos de recursos de persoal con calquera traballador contratado, siga estes pasos:
+Para buscar e requisitos de recursos de persoal con calquera traballador contratado, siga estes pasos:
 
-1. Crea un membro xenérico do equipo do proxecto.
+1. Crear un membro xenérico do equipo do proxecto.
 2. Xera un requisito de recursos para este membro xenérico do equipo do proxecto mediante o **Xerar esixencia** botón na subreixa dos membros do equipo do proxecto.
 3. Seleccione a fila do membro do equipo e, a continuación, seleccione a **Libro** botón da subreixa. 
-4. Isto abre o taboleiro de programación co contexto dos requisitos. Xunto con outros atributos como datas, funcións e campos da unidade organizativa, os filtros do cadro de programación tamén se enchen automaticamente cos campos de provedor, subcontrato e liña de subcontrato do requisito de recursos. Dado que o requisito non tiña ningún valor de liña de subcontrato ou subcontrato cuberto, estes atributos estarán baleiros no panel de filtros.
+4. Isto abre o taboleiro de programación co contexto dos requisitos. Xunto con outros atributos como datas, funcións e campos da unidade organizativa, os filtros do cadro de programación tamén se enchen automaticamente cos campos de provedor, subcontrato e liña de subcontrato do requisito de recursos. Como o requisito non tiña ningún valor de liña de subcontrato ou subcontrato cuberto, estes atributos estarán baleiros no panel de filtros.
 5. O sistema busca recursos que cumpran os criterios de filtro e enuméraos.
-6. Actualiza o **Tipo de traballador** campo do panel de filtros para **Traballador por Contrato** limitar a busca aos traballadores contratados. Actualizar **Vendedor** no panel de filtros para seleccionar un provedor para limitar a busca para mostrar só os traballadores por contrato que pertenzan a unha empresa de provedores específica.
+6. Actualiza o **Tipo de traballador** campo do panel de filtros para **Traballador por Contrato** limitar a busca aos traballadores contratados. Actualizar **Vendedor** no panel de filtros para seleccionar un provedor para limitar a busca para mostrar só os traballadores contratados que pertenzan a unha empresa de provedores específica.
 7. Seleccione un traballador contratado da lista e reserve o recurso para o requisito.
 8. Créase un membro do equipo do proxecto. Non obstante, o membro do equipo do proxecto non está actualizado con ningunha liña de subcontrato ou subcontrato e, polo tanto, a asignación de recursos non se custará utilizando o prezo do subcontrato. Actualiza manualmente o membro do equipo do proxecto cunha liña de subcontrato e vai a **Presupostos do proxecto** e selecciona **Actualizar prezos** para ver o custo actualizado da asignación de recursos.
 

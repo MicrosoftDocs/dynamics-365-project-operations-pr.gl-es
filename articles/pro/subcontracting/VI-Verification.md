@@ -6,26 +6,24 @@ ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7bf48dd17063daece5df3ce44c0375eec3dc3cae
-ms.sourcegitcommit: 49c2a668b8d7bf0acb9e9b0bb44687e6d3dcaa8c
+ms.openlocfilehash: ab9f69e36aa58bfe3a2f8e3455db66b6bceea968
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9204172"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261744"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Verificación de facturas de fornecedor con datos reais aprobados
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
 Microsoft Dynamics 365 Project Operations imos que os xestores de proxectos verifiquen as liñas de factura do provedor das seguintes formas:
 
 - Usa o **Estado de verificación** campo nas liñas de factura do provedor.
-- Se as liñas de factura do provedor fan referencia a unha liña de subcontrato, vincula os custos reais da actividade do subcontratista a esas liñas de factura do provedor. A ligazón créase facendo coincidir os custos reais coas liñas de factura do provedor.
+- Se as liñas de factura do provedor fan referencia a unha liña de subcontrato, ligue os custos reais da actividade do subcontratista a esas liñas de factura do provedor. A ligazón créase facendo coincidir os custos reais coas liñas de factura do provedor.
 
     > [!NOTE]
-    > Aínda que se pode seguir o estado de verificación para as liñas de factura de provedores que non fan referencia a un subcontrato, os custos reais non se poden vincular a esas liñas de factura de provedores.
+    > Aínda que se pode seguir o estado de verificación para as liñas de facturas de provedores que non fan referencia a un subcontrato, os custos reais non se poden vincular a esas liñas de facturas de provedores.
 
 ## <a name="verification-status"></a>Estado de verificación
 
@@ -50,7 +48,7 @@ A coincidencia dos custos reais axuda co proceso de verificación nunha liña de
 
 ### <a name="validation-criteria-that-are-used-to-link-cost-actuals-to-vendor-invoice-lines"></a>Criterios de validación que se utilizan para vincular os custos reais ás liñas de facturas de provedores
 
-Durante o proceso de coincidencia, só se pode establecer un vínculo entre un custo real e unha liña de factura do provedor se se cumpren as dúas condicións seguintes:
+Durante o proceso de correspondencia, só se pode establecer un vínculo entre un custo real e unha liña de factura do provedor se se cumpren as dúas condicións seguintes:
 
 - O **Estado de axuste** campo para cada custo real seleccionado debe estar en branco. Noutras palabras, os custos reais non deben ser substituídos por outros custos reais durante un proceso de retirada, cancelación de aprobación ou diario de corrección.
 - Os valores dos seguintes campos coinciden entre a liña de factura do provedor e o custo real seleccionado. Se algún campo non está definido na liña de factura do provedor, non se considera para a correspondencia.

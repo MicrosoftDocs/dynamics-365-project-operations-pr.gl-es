@@ -6,16 +6,14 @@ ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ddaadc0f6e336a8ba67bb4ad8000f7e894f3eb0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 79d00a91f9ab2d66eab2f80349d6f1fba1934f94
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911548"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261088"
 ---
 # <a name="cancel-a-project-vendor-invoice"></a>Cancelar unha factura de fornecedor do proxecto
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
@@ -25,9 +23,9 @@ Cando selecciones **Cancelar** nunha factura de provedor, ocorre o seguinte comp
 
 1. Actualízase o estado da factura do provedor **Cancelado**.
 2. A factura do provedor cancelada e os seus rexistros relacionados pasan a ser de só lectura e non se poden editar nin eliminar.
-3. Todos os custos reais que se crearon en función das liñas de factura do provedor como parte da confirmación da factura do provedor invírtense.
-4. Se algún custo reais estaba ligado ás liñas de factura do provedor como parte do proceso de coincidencia, a confirmación orixinal da factura do provedor invertíao. Durante a cancelación da factura do provedor, eses custos reais recréanse de novo. As orixes apuntan ás entradas de tempo, gasto ou uso de material.
-5. Despois de que se cancele a factura do provedor, pode volver crear diarios de corrección, procesar os recordatorios de entrada de tempo e cancelar a aprobación do tempo orixinal, dos gastos ou dos datos reais do material.
+3. Todos os custos reais que se crearon en función das liñas de factura do provedor como parte da confirmación da factura do provedor invertéranse.
+4. Se algún custo reais estaba ligado ás liñas de factura do provedor como parte do proceso de coincidencia, a confirmación orixinal da factura do provedor invertíao. Durante a cancelación da factura do provedor, eses custos reais volven crear. As orixes apuntan ás entradas de tempo, gasto ou uso de material.
+5. Despois de que se cancele a factura do provedor, pode volver crear diarios de corrección, procesar os recordatorios de entradas de tempo e cancelar a aprobación do tempo orixinal, dos gastos ou dos datos reais do material.
 
 > [!NOTE]
 > Só se poden cancelar as facturas de provedores do proxecto confirmadas. Non se poden cancelar as facturas de provedores doutros estados.

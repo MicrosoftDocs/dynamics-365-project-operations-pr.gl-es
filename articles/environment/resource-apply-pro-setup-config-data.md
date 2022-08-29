@@ -1,17 +1,17 @@
 ---
-title: Configurar e aplicar datos de configuración en Common Data Service
+title: Configurar e aplicar datos de configuración en Microsoft Dataverse
 description: Este artigo ofrece información sobre como configurar e aplicar datos de configuración en Project Operations.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928016"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230235"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Configurar e aplicar datos de configuración en Common Data Service 
 
@@ -21,10 +21,10 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Antes de comezar a configurar os datos no Common Data Service (CDS), deben cumprirse os seguintes requisitos previos:
+Antes de comezar a configurar os datos no ficheiro Microsoft Dataverse, deben cumprirse os seguintes requisitos:
 
-1.  Proporcione un ambiente CDS e un ambiente Dynamics 365 Finance para as operacións do proxecto.
-2.  A información das persoas xurídicas de Dynamics 365 Finance compártese no ambiente CDS. Isto significa que a entidade **Empresa** en CDS ten os seguintes rexistros da empresa:
+1.  Disposición a Dataverse e un ambiente Dynamics 365 Finance para as operacións do proxecto.
+2.  A información da persoa xurídica de Dynamics 365 Finance compártese co Dataverse ambiente. Isto significa que o **Compañía** entidade en Dataverse ten os seguintes rexistros da empresa:
   - THPM
   - USPM
   - GBPM

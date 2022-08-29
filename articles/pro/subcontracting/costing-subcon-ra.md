@@ -6,20 +6,18 @@ ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 40603c1d2dfdd49909d9a4bf5085f43201e8f6bd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 5a4d0707f8373b5083272eacb7dc1318e82a23ac
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932340"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9262057"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Estimación de custos das atribucións de recursos subcontratados
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
-As asignacións de tarefas dos membros do equipo do proxecto subcontratados cústanse mediante o **Compra** lista de prezos adxunta ao subcontrato no rexistro do membro do equipo relacionado. Isto é diferente de como se custa as asignacións de recursos dos empregados cando as asignacións de tarefas dos recursos dos empregados se custan usando o **Custo** lista de prezos que se anexa á unidade de contratación do proxecto. 
+As asignacións de tarefas dos membros do equipo de proxectos subcontratados cústanse mediante o **Compra** lista de prezos adxunta ao subcontrato no rexistro do membro do equipo relacionado. Isto é diferente de como se custa as asignacións de recursos dos empregados cando as asignacións de tarefas dos recursos dos empregados se custan usando o **Custo** lista de prezos que se anexa á unidade de contratación do proxecto. 
 
 Para os membros xenéricos do equipo do proxecto que están subcontratados, as tarefas cústanse mediante unha configuración de prezos baseada en funcións na lista de prezos de compra adxunta ao subcontrato. Os prezos de compra tamén se poden configurar específicamente para cada recurso. Estes prezos específicos de recursos terán prioridade cando se custe as asignacións de tarefas dos membros do equipo do proxecto nomeados son traballadores por contrato. 
 
@@ -34,9 +32,9 @@ As asignacións de tarefas para os subcontratistas pódense crear de dúas forma
 - Usando o **Equipo** ficha.
 
 ### <a name="creating-resources-assignments-using-the-tasks-tab"></a>Creación de asignacións de recursos mediante a pestana Tarefas
-Usando o **Recursos** lista na **Tarefas** para unha tarefa específica, pode crear unha asignación de tarefas para un recurso con nome ou un recurso xenérico. Se selecciona un recurso nomeado do **Recursos asignados** menú despregable na tarefa e este recurso é un traballador por contrato, o recurso nomeado asígnase á tarefa e créase un rexistro de membro do equipo do proxecto correspondente co tipo de traballador definido como **Traballador por Contrato** e **Validez** configurado para **Non válido**. Como seguinte paso, terás que abrir o rexistro do membro do equipo do proxecto e seleccionar unha liña de subcontrato e subcontrato. Isto actualizará a asignación de tarefas para ter unha referencia á liña de subcontrato e subcontrato e tamén actualizará o estado do membro do equipo para **Válido**.
+Usando o **Recursos** lista na **Tarefas** para unha tarefa específica, pode crear unha asignación de tarefas para un recurso con nome ou un recurso xenérico. Se selecciona un recurso nomeado do **Recursos asignados** menú despregable na tarefa e este recurso é un traballador por contrato, o recurso nomeado asígnase á tarefa e créase un rexistro de membro do equipo do proxecto correspondente co tipo de traballador definido como **Traballador por Contrato** e **Validez** configurado en **Non válido**. Como paso seguinte, terás que abrir o rexistro do membro do equipo do proxecto e seleccionar unha liña de subcontrato e subcontrato. Isto actualizará a asignación de tarefas para ter unha referencia á liña de subcontrato e subcontrato e tamén actualizará o estado do membro do equipo para **Válido**.
 
-Se decides crear un membro xenérico do equipo desde o **Recursos asignados** menú despregable na tarefa, o **Creación xenérica de membros do equipo** O diálogo permitirá seleccionar unha liña de subcontrato e subcontrato. Cando se asigna o recurso xenérico á tarefa e se crea o correspondente rexistro do membro do equipo do proxecto, notará que o rexistro do membro do equipo do proxecto se crea co tipo de traballador definido como **Traballador por Contrato** e **Validez** configurado para **Válido**.
+Se decides crear un membro xenérico do equipo desde o **Recursos asignados** menú despregable na tarefa, o **Creación xenérica de membros do equipo** O diálogo permitirá seleccionar unha liña de subcontrato e subcontrato. Cando se lle asigna o recurso xenérico á tarefa e se crea o correspondente rexistro do membro do equipo do proxecto, verá que o rexistro do membro do equipo do proxecto se crea co tipo de traballador definido como **Traballador por Contrato** e **Validez** configurado en **Válido**.
 
 ### <a name="creating-project-team-members-using-the-team-tab"></a>Creando membros do equipo do proxecto usando a pestana Equipo
 Usando a pestana Equipo do proxecto, pode crear un membro do equipo xenérico ou nomeado. Ao crear o membro do equipo, pode seleccionar a liña de subcontrato e subcontrato. Despois de crear o membro do equipo, terás que asignalo a unha tarefa mediante o **Recursos asignados** menú despregable na tarefa. 

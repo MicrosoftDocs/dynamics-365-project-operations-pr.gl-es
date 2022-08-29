@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: 74d3f5377559763e035155bd3f10818076f97ea3
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9028884"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9316985"
 ---
 # <a name="project-mobile-applications-overview"></a>Visión xeral das aplicacións móbiles do proxecto
 
@@ -29,7 +29,7 @@ Están dispoñibles tres aplicacións móbiles relacionadas co tempo do proxecto
 
 ## <a name="project-timesheet-mobile-app"></a>Aplicación móbil de follas de control horario do proxecto
 
-A aplicación móbil Dynamics 365 Project Timesheet permite aos usuarios enviar e aprobar follas de control horario para proxectos no seu dispositivo móbil. Esta aplicación móbil mostra a funcionalidade da folla de horas na área de xestión e contabilidade de proxectos de Dynamics 365 Finance. Axuda a mellorar a produtividade e eficiencia dos usuarios e tamén axuda á entrada e aprobación oportunas das follas de control horario do proxecto.
+A aplicación móbil Dynamics 365 Project Timesheet permite aos usuarios enviar e aprobar follas de control horario para proxectos no seu dispositivo móbil. Esta aplicación móbil mostra a funcionalidade da folla de horas na área de xestión de proxectos e contabilidade de Dynamics 365 Finance. Axuda a mellorar a produtividade e eficiencia dos usuarios e tamén axuda á entrada e aprobación oportunas das follas de control horario do proxecto.
 
 ## <a name="project-time-entry-workspace"></a>Espazo de traballo de Project Time Entry
 
@@ -42,9 +42,8 @@ My timesheets (optimizada para móbiles) e Timesheets for my review (optimizada 
 ## <a name="for-more-information"></a>Para obter máis información
 
 - [Aplicación móbil de follas de control horario do proxecto](project-timesheet.md)
-- [Entrada de tempo do proxecto]( project-time-entry-mobile-workspace.md)
+- [Entrada de tempo do proxecto](project-time-entry-mobile-workspace.md)
 - [Follas de control horario do proxecto nun dispositivo móbil](Mobile-timesheets.md)
 - [Implementar campos personalizados para a aplicación móbil Microsoft Dynamics 365 Project Timesheet en iOS e Android](custom-fields-mobile.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

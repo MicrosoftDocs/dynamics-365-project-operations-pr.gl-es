@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b611862e74d04778ad46700ba6d33fc16cb79fae
-ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
-ms.translationtype: HT
+ms.openlocfilehash: a08bffa2e353f2ed1b9f3b0c27e2ed1e30731012
+ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9188276"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295876"
 ---
 # <a name="project-operations-updates"></a>Actualizacións de Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations consta de dous compoñentes:
 
 | Project Operations en ambiente de Dataverse | Xestión de proxectos e contabilidade en contornos de aplicacións financeiras e de operacións | 
 | --- | --- |
-| 4.44.0.22 | 10.0.28 |
+| 4.45.0.53 | 10.0.28 |
 
 Para o escenario de recursos de operacións do proxecto/non abastecido, recomendámosche que utilices a versión de orquestración de escritura dual 2.3.1.15 ou superior.
 
@@ -47,24 +47,24 @@ As actualizacións para Project Operations en ambiente de Dataverse están dispo
 | Estación | Rexión | Número da versión actual | Actualizacións automáticas para despregamento Lite | Actualizacións automáticas para despregamento de recursos/sen fornecemento | Número da versión seguinte | A seguinte versión está dispoñible xeralmente |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Estación 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Primeira versión         |  4.44.0.22      | Concluída           | Concluída            | A determinar                 | 05 de agosto de 2022       |
+|   &nbsp;  | Primeira versión         |  4.45.0.53      | Concluída           | Concluída            | A determinar                 | 26 de agosto de 2022       |
 | Estación 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | América do Sur         |  4.44.0.22      | Concluída           | Concluída            | A determinar                 | 06 de agosto de 2022       |
-|   &nbsp;  | O Canadá                |  4.44.0.22      | Concluída           | Concluída            | A determinar                 | 06 de agosto de 2022       |
-|   &nbsp;  | A India                 |  4.44.0.22      | Concluída           | Concluída            | A determinar                 | 06 de agosto de 2022       |
-|   &nbsp;  | Francia                |  4.44.0.22      | Concluída           | Concluída            | A determinar                 | 06 de agosto de 2022       |
-|   &nbsp;  | Sudáfrica          |  4.44.0.22      | Concluída           | Concluída            | A determinar                 | 06 de agosto de 2022       |
-|   &nbsp;  | Suíza           |  4.44.0.22      | Concluída           | Concluída            | A determinar                 | 06 de agosto de 2022       |
+|   &nbsp;  | América do Sur         |  4.45.0.53      | Concluída           | Concluída            | A determinar                 | 02 de setembro de 2022       |
+|   &nbsp;  | O Canadá                |  4.45.0.53      | Concluída           | Concluída            | A determinar                 | 02 de setembro de 2022       |
+|   &nbsp;  | A India                 |  4.45.0.53      | Concluída           | Concluída            | A determinar                 | 02 de setembro de 2022       |
+|   &nbsp;  | Francia                |  4.45.0.53      | Concluída           | Concluída            | A determinar                 | 02 de setembro de 2022       |
+|   &nbsp;  | Sudáfrica          |  4.45.0.53      | Concluída           | Concluída            | A determinar                 | 02 de setembro de 2022       |
+|   &nbsp;  | Suíza           |  4.45.0.53      | Concluída           | Concluída            | A determinar                 | 02 de setembro de 2022       |
 | Estación 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | O Xapón                 |  4.44.0.22      | Concluída      | Concluída       | A determinar                 | 12 de agosto de 2022       |
-|   &nbsp;  | Asia Pacífico          |  4.44.0.22      | Concluída      | Concluída       | A determinar                 | 12 de agosto de 2022       |
-|   &nbsp;  | Gran Bretaña         |  4.44.0.22      | Concluída      | Concluída       | A determinar                 | 12 de agosto de 2022       |
-|   &nbsp;  | Oceanía               |  4.44.0.22      | Concluída      | Concluída       | A determinar                 | 12 de agosto de 2022       |
-|   &nbsp;  | Emiratos Árabes Unidos  |  4.44.0.22      | Concluída      | Concluída       | A determinar                 | 12 de agosto de 2022       |
+|   &nbsp;  | O Xapón                 |  4.44.0.22      | Concluída      | Concluída       | 4.45.0.53                 | 19 de agosto de 2022       |
+|   &nbsp;  | Asia Pacífico          |  4.44.0.22      | Concluída      | Concluída       | 4.45.0.53                 | 19 de agosto de 2022       |
+|   &nbsp;  | Gran Bretaña         |  4.44.0.22      | Concluída      | Concluída       | 4.45.0.53                 | 19 de agosto de 2022       |
+|   &nbsp;  | Oceanía               |  4.44.0.22      | Concluída      | Concluída       | 4.45.0.53                 | 19 de agosto de 2022       |
+|   &nbsp;  | Emiratos Árabes Unidos  |  4.44.0.22      | Concluída      | Concluída       | 4.45.0.53                 | 19 de agosto de 2022       |
 | Estación 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.43.0.119      | Concluída           | Concluída            | 4.44.0.22           | 29 de xullo de 2022       |
+|   &nbsp;  | Europa                |  4.44.0.22      | Concluída           | Concluída            | 4.45.0.53           | 26 de agosto de 2022       |
 | Estación 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | América do Norte         |  4.43.0.119      | Concluída           | Concluída            | 4.44.0.22           | 05 de agosto de 2022       |
+|   &nbsp;  | América do Norte         |  4.44.0.22      | Concluída           | Concluída            | 4.45.0.53           | 02 de setembro de 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Programa de lanzamento para Xestión de proxectos e contabilidade no contorno de aplicacións financeiras e de operacións
 

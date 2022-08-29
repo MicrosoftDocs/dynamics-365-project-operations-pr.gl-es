@@ -6,12 +6,12 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929212"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230313"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Use as API de programación de proxectos para realizar operacións con entidades de programación
 
@@ -45,9 +45,9 @@ A continuación móstrase unha lista das API de programación de proxectos actua
 - **msdyn_CreateProjectV1**: Esta API pódese usar para crear un proxecto. O proxecto e o conxunto de proxectos predeterminados créanse inmediatamente.
 - **msdyn_CreateTeamMemberV1**: Esta API pódese usar para crear un membro do equipo do proxecto. O rexistro de membro do equipo créase inmediatamente.
 - **msdyn_CreateOperationSetV1**: Esta API pode usarse para programar varias solicitudes que deben realizarse dentro dunha transacción.
-- **msdyn_PSSCreateV1**: Esta API pódese usar para crear unha entidade. A entidade pode ser calquera das entidades de programación de proxectos que admitan a operación de creación.
-- **msdyn_PSSUpdateV1**: Esta API pódese usar para actualizar unha entidade. A entidade pode ser calquera das entidades de programación de proxectos que admitan a operación de actualización.
-- **msdyn_PSSDeleteV1**: Esta API pódese usar para eliminar unha entidade. A entidade pode ser calquera das entidades de programación de proxectos que admitan a operación de eliminación.
+- **msdyn_PssCreateV1** : esta API pódese usar para crear unha entidade. A entidade pode ser calquera das entidades de programación de proxectos que admitan a operación de creación.
+- **msdyn_PssUpdateV1** : esta API pódese usar para actualizar unha entidade. A entidade pode ser calquera das entidades de programación de proxectos que admitan a operación de actualización.
+- **msdyn_PssDeleteV1** : esta API pódese usar para eliminar unha entidade. A entidade pode ser calquera das entidades de programación de proxectos que admitan a operación de eliminación.
 - **msdyn_ExecuteOperationSetV1**: Esta API úsase para executar todas as operacións dentro do conxunto de operacións determinado.
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>Usando as API de programación de proxectos con OperationSet
@@ -60,7 +60,7 @@ Como os rexistros con **CreateProjectV1** e **CreateTeamMemberV1** créanse inme
 | --- | --- | --- | --- | --- |
 Tarefa do proxecto | Si | Si | Si | O **Progreso**, **completado**, e **EsforzoRestante** os campos pódense editar en Project for the Web, pero non se poden editar en Project Operations.  |
 | Dependencia da tarefa do proxecto | Si |  | Si | Os rexistros de dependencia de tarefas do proxecto non se actualizan. Pola contra, pódese eliminar un rexistro antigo e crear un rexistro novo. |
-| Atribución do recurso | Si | Si | | Non se admiten operacións cos seguintes campos: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** e **PlannedWork**. Os rexistros de atribución de recursos non se actualizan. Pola contra, pódese eliminar o rexistro antigo e crear un rexistro novo. |
+| Atribución do recurso | Si | Si | | Non se admiten operacións cos seguintes campos: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** e **PlannedWork**. Os rexistros de atribución de recursos non se actualizan. Pola contra, pódese eliminar o rexistro antigo e crear un novo rexistro. |
 | Depósito do proxecto | Si | Si | Si | O depósito predeterminado créase usando o **CrearProxectoV1** API. A compatibilidade para crear e eliminar grupos de proxectos engadiuse na actualización 16. |
 | Membro do equipo do proxecto | Si | Si | Si | Para a operación de creación, use a API **CreateTeamMemberV1**. |
 | Project | Si | Si |  | Non se admiten operacións cos seguintes campos: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** e **Duration**. |
