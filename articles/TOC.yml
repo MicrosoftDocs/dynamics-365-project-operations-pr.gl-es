@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Novidades
       items:
-        - name: Xullo de 2022 - Project Operations para situacións baseadas en recursos/sen fornecemento
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: Agosto de 2022 - Project Operations para situacións baseadas en recursos/sen fornecemento
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Arquivo
           items:
+            - name: Xullo de 2022 - Project Operations para situacións baseadas en recursos/sen fornecemento
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: Xuño de 2022 - Project Operations para situacións baseadas en recursos/sen fornecemento
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: Maio de 2022 - Project Operations para situacións baseadas en recursos/sen fornecemento
@@ -384,6 +386,42 @@
           items:
             - name: Visión xeral da utilización de recursos
               href: resource-management/resource-utilization-overview.md
+    - name: Xestión de subcontratos
+      items:
+        - name: Xestión de subcontratos en Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Conceptos clave na subcontratación
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Xestión de fornecedores e listas de prezos do proxecto
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Os subcontratistas como recursos reservables
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Detalles da cabeceira para subcontratos
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Liñas de subcontrato para tempo
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Liñas de subcontrato para categorías de gasto
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Liñas de subcontrato para produtos
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Recursos de liña de subcontratista
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Fitos da liña de subcontrato
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Subcontratación dos membros do equipo do proxecto
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Opcións de subcontratación dos membros do equipo do proxecto
+          href: pro/subcontracting/subcon-options.md
+        - name: Estimación de custos das atribucións de recursos subcontratados
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Configurar o panel de programación para mostrar os traballadores contratados e a capacidade subcontratada
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Dotación de persoal dun proxecto con traballadores contratados e capacidade subcontratada
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Rexistro de tempo, gastos e uso de material para compoñentes subcontratados'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Transicións de estado nun subcontrato
+          href: pro/subcontracting/subcon-states.md
     - name: Tempo
       items:
         - name: Visión xeral do tempo
@@ -580,6 +618,8 @@
       items:
         - name: Migrar fitos de facturación totalmente facturados durante a transición
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: Sincronizar o estado do proxecto para evitar a entrada contra proxectos pechados
+          href: advanced-configuration/sync-project-status.md
     - name: Actualizar
       items:
         - name: Consideracións de actualización para aprobacións modernas
@@ -610,10 +650,12 @@
           href: environment/security-model.md
     - name: Novidades
       items:
-        - name: Novidades de xullo de 2022 - despregamento lite
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Novidades de agosto de 2022 - despregamento lite
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Arquivo
           items:
+            - name: Novidades de xullo de 2022 - despregamento lite
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Novidades de xuño de 2022 - despregamento lite
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: Novidades de acceso anticipado da onda 2 de 2021 - despregamento lite
