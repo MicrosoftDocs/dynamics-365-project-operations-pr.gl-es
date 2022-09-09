@@ -1,18 +1,18 @@
 ---
 title: Novidades de xullo de 2022 - Project Operations para situacións baseadas en recursos/sen fornecemento
-description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de xullo de 2022 de Microsoft Dynamics 365 Project Operations para escenarios baseados en recursos/non abastecidos.
+description: Este artigo ofrece información sobre as actualizacións de calidade que están dispoñibles na versión de xullo de 2022 de Microsoft Dynamics 365 Project Operations para escenarios baseados en recursos/non abastecidos.
 author: ramagadu
 ms.date: 07/19/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: cbee9281d2fae485a3ebcd38bb884a2b2322f8d1
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: e63b29741dbaa400a2176ff8b4c35c6d64dfeab4
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183894"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403949"
 ---
 # <a name="whats-new-july-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de xullo de 2022 - Project Operations para situacións baseadas en recursos/sen fornecemento
 
@@ -27,7 +27,7 @@ Este artigo aplícase aos seguintes compoñentes e versións de Microsoft Dynami
 
 Non hai actualizacións para mapas de escrita dual de Project Operations nesta versión. Para obter unha lista actual e versións dos mapas de escrita dual de Project Operations, consulte [Versións de mapa de escrita dual de Project Operations](../environment/resource-dual-write-maps.md).
 
-Executa sempre a versión máis recente do mapa no teu ambiente e activa todos os mapas de táboas relacionados mentres actualizas as operacións do teu proxecto Dataverse solución e versión de solución financeira. Algunhas funcións e capacidades poden non funcionar correctamente se a última versión do mapa non está activada. Pode ver a versión activa do mapa na columna **Versión** columna na páxina **Escrita dual**. Para activar unha nova versión do mapa, seleccione **Versións do mapa de táboa**, seleccione a versión máis recente e logo garde a versión seleccionada. Se personalizou un mapa de táboas listo para usar, volve aplicar os cambios. Para obter máis información, consulte [Xestión do ciclo de vida da aplicación](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Executa sempre a versión máis recente do mapa no teu entorno e activa todos os mapas de táboas relacionados mentres actualizas as operacións do teu proxecto Dataverse solución e versión de solución financeira. Algunhas funcións e capacidades poden non funcionar correctamente se a última versión do mapa non está activada. Pode ver a versión activa do mapa na columna **Versión** columna na páxina **Escrita dual**. Para activar unha nova versión do mapa, seleccione **Versións do mapa de táboa**, seleccione a versión máis recente e logo garde a versión seleccionada. Se personalizou un mapa de táboas listo para usar, volve aplicar os cambios. Para obter máis información, consulte [Xestión do ciclo de vida da aplicación](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Se atopas algún problema ao iniciar o mapa, sigue as instrucións da páxina [Faltan columnas da táboa nos mapas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) sección da guía de solución de problemas de escritura dual.
 
@@ -44,7 +44,13 @@ Se atopas algún problema ao iniciar o mapa, sigue as instrucións da páxina [F
 | Facturación e prezos | 2705361 | Os reais de vendas facturadas por Milestone deben incluírse nos campos de seguimento do proxecto. |
 | Facturación e prezos | 2675880 | Evitar que un proxecto se vincule a unha liña de contrato que non se basea no traballo. |
 | Facturación e prezos | 2664396 | Se se garda unha lista de prezos de cotización sen cotización, debe haber un erro que indica que a cotización non pode estar baleira. |
-| Facturación e prezos | 2184019 | O **Facturación baseada en tarefas** non se debe mostrar a pestana para proxectos que non teñan ningún contrato ou cotización de apoio. |
+| Facturación e prezos | 2184019 | O **Facturación baseada en tarefas** non se debe mostrar a pestana para proxectos que non teñan ningún contrato ou presuposto de apoio. |
+| Tempo e gasto | 2754459 | Cando o fluxo na nube de programación recorrente estea inactivo, mostra o banner e evita o procesamento asíncrono. |
+| Facturación e prezos | 2724391 | Lanzase unha excepción incorrecta cando a regra de facturación dividida do contrato do proxecto non ten un valor de cliente. |
+| Facturación e prezos | 2708638 | Non se atopou o rexistro durante a busca mediante a busca de cuadrícula en Usos de materiais e aprobacións para usos de materiais.|
+| Facturación e prezos | 2686977 | Evitar a validación da liña de factura durante a creación da factura. |
+| Facturación e prezos | 2683032 | A copia de roles e categorías de pago non supera os 5000 rexistros.|
+| Facturación e prezos | 2673363 | O % de consumo de custos no proxecto está corrompido cando existen estimacións de esforzo e gastos e reais para un proxecto. |
 
 ### <a name="project-management-and-accounting-in-finance"></a>Xestión de proxectos e contabilidade en Finanzas
 

@@ -1,45 +1,85 @@
 ---
-title: Resolver prezos de custo en estimacións e datos reais de proxecto
-description: Este artigo ofrece información sobre como se resolven os prezos de custo das estimacións e reais do proxecto.
+title: Determinar as taxas de custo para as estimacións e os reais do proxecto
+description: Este artigo ofrece información sobre como se determinan as taxas de custo para as estimacións e os reais do proxecto.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c278d8994389145c6dbee7574d2354724d985722
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917528"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410147"
 ---
-# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Resolver prezos de custo en estimacións e datos reais de proxecto 
+# <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Determinar as taxas de custo para as estimacións e os reais do proxecto
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
-Para resolver os prezos de custo e a lista de prezos de custo para estimacións e datos reais, o sistema utiliza a información dos campos **Data**, **Moeda** e **Unidade de contratación** do proxecto relacionado. Despois de resolverse a lista de prezos de custo, a aplicación resolve a taxa de custo.
+Para determinar a lista de prezos de custo e as taxas de custo nos contextos estimativos e reais, o sistema utiliza a información do **Data**, **·**, e **Unidade de Contratación** campos do proxecto relacionado.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>Resolución das taxas de custo nas liñas de datos reais e estimacións para tempo
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Determinación das taxas de custo en contextos estimativos e reais para o Tempo
 
-As liñas de estimacións para o tempo refírense aos detalles da liña de oferta e contrato para as atribucións de tempo e recursos nun proxecto.
+Estimar contexto para **Tempo** refírese a:
 
-Despois de resolver unha lista de prezos de custo, os campos **Función** e **Unidade de Recursos** da liña de estimación para o tempo coinciden coas liñas de prezo da función na lista de prezos. Esta coincidencia supón que está a usar as dimensións de prezos estándar para o custo da man de obra. Se configurou o sistema para que coincida cos campos en lugar de ou ademais de **Rol** e **Unidade de Recursos**, usarase unha combinación diferente para recuperar unha liña de prezo de rol coincidente. Se a aplicación atopa unha liña de prezo de rol que ten unha taxa de custo para a combinación de **Rol** e **Unidade de recursos**, esa é a taxa de custo predeterminada. Se a aplicación non pode coincidir cos valores de **Rol** e **Unidade de recursos**, recupera as liñas de prezo de rol cun rol coincidente, pero valores nulos de **Unidade de recursos**. Despois de ter un rexistro de prezos de rol coincidente, a taxa de custo predefínese a partir dese rexistro. 
+- Detalles da liña de cotización para **Tempo**.
+- Detalles da liña de contrato para **Tempo**.
+- Asignacións de recursos nun proxecto.
+
+Contexto real para **Tempo** refírese a:
+
+- Liñas do diario de entrada e corrección para **Tempo**.
+- Liñas de diario que se crean cando se envía unha entrada de tempo.
+
+Despois de determinar unha lista de prezos de custo, o sistema completa os seguintes pasos para introducir a taxa de custo predeterminada.
+
+1. O sistema coincide coa combinación de **Papel** e **Unidade de Recursos** campos no contexto estimativo ou real para **Tempo** contra as liñas de prezos do rol da lista de prezos. Esta coincidencia supón que estás utilizando as dimensións de prezos estándar para o custo laboral. Se configurou o sistema para que coincida con campos distintos ou ademais de **Papel** e **Unidade de Recursos**, úsase unha combinación diferente para recuperar unha liña de prezos de función coincidente.
+1. Se o sistema atopa unha liña de prezo de función que teña unha taxa de custo para o **Papel** e **Unidade de Recursos** combinación, esa taxa de custo utilízase como taxa de custo predeterminada.
+1. Se o sistema non pode coincidir co **Papel** e **Unidade de Recursos** valores, recupera liñas de prezos de función que teñen valores coincidentes para o **Papel** campo pero valores nulos para o **Unidade de Recursos** campo. Despois de que o sistema teña un rexistro de prezos de función coincidente, a taxa de custo deste rexistro empregarase como taxa de custo predeterminada.
 
 > [!NOTE]
-> Se configura unha priorización diferente de **Rol** e **Unidade de recursos** ou se ten outras dimensións con maior prioridade, este comportamento cambiará en consecuencia. O sistema recupera os rexistros de prezos de rol con valores que coinciden con cada un dos valores da dimensión de prezos por orde de prioridade con filas que teñen valores nulos para as últimas dimensións.
+> Se configura unha priorización diferente do **Papel** e **Unidade de Recursos** campos ou se ten outras dimensións que teñan maior prioridade, o comportamento anterior cambiará en consecuencia. O sistema recupera rexistros de prezos de función que teñen valores que coinciden con cada valor de dimensión de prezos por orde de prioridade. As filas que teñen valores nulos para esas dimensións son as últimas.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Resolución das taxas de custo nas liñas de datos reais e estimacións para gasto
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Determinación das taxas de custo nas liñas reais e estimativas de Gasto
 
-As liñas de estimacións para o gasto refírense aos detalles da liña de oferta e contrato para gastos e as liñas de estimación de gasto nun proxecto.
+Estimar contexto para **Gasto** refírese a:
 
-Despois de resolverse unha lista de prezos de custos, o sistema usa unha combinación dos campos **Categoría** e **Unidade** da liña de estimación de gastos para comparar coas liñas de **Categoría de prezo** na lista de prezos resolta. Se o sistema atopa unha liña de prezo de categoría que ten unha taxa de custo para a combinación de **Categoría** e **Unidades**, esa é a taxa de custo predefinida. Se o sistema non pode facer coincidir os valore de **Categoría** e **Unidade** ou se é capaz de atopar unha liña de prezo de categoría coincidente, pero o método de fixación do prezo non o é **Prezo por unidade**, a taxa de custo é cero (0) por defecto.
+- Detalles da liña de cotización para **Gasto**.
+- Detalles da liña de contrato para **Gasto**.
+- Estimacións de gastos nun proxecto.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Resolución das taxas de custo nas liñas de datos reais e estimacións para material
+Contexto real para **Gasto** refírese a:
 
-As liñas de estimación para material refírense aos detalles da liña de oferta e de contrato para os materiais e as liñas de estimación de material dun proxecto.
+- Liñas do diario de entrada e corrección para **Gasto**.
+- Liñas de diario que se crean cando se envía unha entrada de gasto.
 
-Despois de resolverse unha lista de prezos de custo, o sistema usa unha combinación dos campos **Produto** e **Unidade** na liña de estimación para que unha estimación material coincida coas liñas de **Elementos da lista de prezos** na lista de prezos resolta. Se o sistema atopa unha liña de prezo do produto que ten unha taxa de custo para a combinación de campos **Produto** e **Unidade**, a taxa de custo está predefinida. Se o sistema non pode facer coincidir os valores de **Produto** e **Unidade**, ou se pode atopar unha liña de elemento da lista de prezos coincidente pero o método de fixación de prezos baséase no custo estándar ou no custo actual e ningún deles está definido no produto, o custo unitario será por defecto cero.
+Despois de determinar unha lista de prezos de custo, o sistema completa os seguintes pasos para introducir a taxa de custo predeterminada.
 
+1. O sistema coincide coa combinación de **Categoría** e **Unidade** campos no contexto estimativo ou real para **Gasto** contra as liñas de prezos da categoría da lista de prezos.
+1. Se o sistema atopa unha liña de prezos de categoría que teña unha taxa de custo para o **Categoría** e **Unidade** combinación, esa taxa de custo utilízase como taxa de custo predeterminada.
+1. Se o sistema non pode coincidir co **Categoría** e **Unidade** valores, o prezo establécese en **0** (cero) por defecto.
+1. No contexto da estimación, se o sistema pode atopar unha liña de prezos de categoría correspondente, pero o método de prezos é algo distinto **Prezo por Unidade**, a taxa de custo está establecida en **0** (cero) por defecto.
+
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Determinación das taxas de custo en liñas reais e estimativas para o material
+
+Estimar contexto para **Material** refírese a:
+
+- Detalles da liña de cotización para **Material**.
+- Detalles da liña de contrato para **Material**.
+- Estimacións materiais nun proxecto.
+
+Contexto real para **Material** refírese a:
+
+- Liñas do diario de entrada e corrección para **Material**.
+- Liñas de diario que se crean cando se envía un rexistro de uso de material.
+
+Despois de determinar unha lista de prezos de custo, o sistema completa os seguintes pasos para introducir a taxa de custo predeterminada.
+
+1. O sistema utiliza a combinación de **Produto** e **Unidade** campos no contexto estimativo ou real para **Material** contra as liñas do artigo da lista de prezos da lista de prezos.
+1. Se o sistema atopa unha liña de artigos da lista de prezos que teña unha taxa de custo para o **Produto** e **Unidade** combinación, esa taxa de custo utilízase como taxa de custo predeterminada.
+1. Se o sistema non pode coincidir co **Produto** e **Unidade** valores, o custo unitario establécese en **0** (cero) por defecto.
+1. No contexto estimativo ou real, se o sistema pode atopar unha liña de artigos da lista de prezos coincidente, pero o método de fixación de prezos é diferente **Importe da moeda**, o custo unitario establécese en **0** por defecto. Este comportamento ocorre porque Project Operations só admite o **Importe da moeda** método de prezos dos materiais que se usan nun proxecto.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

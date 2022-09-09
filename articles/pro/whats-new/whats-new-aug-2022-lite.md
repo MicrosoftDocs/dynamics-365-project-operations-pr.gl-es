@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 471cf1fc24010351a76394cb2342d2cfe14da1cb
-ms.sourcegitcommit: 360eccc09e47f81cd57affa9f0012641b7351694
+ms.openlocfilehash: 95681a4e1c0c42e8a29810796ee84429c94cc7cd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9321417"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403901"
 ---
 # <a name="whats-new-august-2022---project-operations-lite-deployment"></a>Novidades de agosto de 2022: despregamento de Project Operations lite
 
@@ -27,3 +27,7 @@ Este artigo aplícase aos seguintes compoñentes e versións de Microsoft Dynami
 | Área de funcionalidades | Número de referencia | Actualización de calidade |
 | --- | --- | --- |
 |   Xestión de oportunidades | 2762089 | Xestión de erros ao pechar o contrato como perdido se o gardado automático está desactivado na organización.|
+|Planificación e rastrexo de proxectos | 2767841 | Actualizacións de telemetría Entidade do proxecto Crear ou actualizar escenarios.|
+|Facturación e prezos | 2771072 | Manexo de excepcións de referencia nula ao gañar cotización.|
+|Facturación e prezos | 2844181 |Fallo ao conseguir un identificador de correlación e bloqueo da creación dunha factura.|
+|Facturación e prezos | 2852836 | Faltan datos reais entre empresas para os gastos entre empresas creados e aprobados en CE.|

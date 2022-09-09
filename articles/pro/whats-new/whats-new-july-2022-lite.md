@@ -1,18 +1,18 @@
 ---
 title: 'Novidades de xullo de 2022: despregamento de Project Operations lite'
-description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de xullo de 2022 de Microsoft Dynamics 365 Project Operations despregamento lite.
+description: Este artigo ofrece información sobre as actualizacións de calidade que están dispoñibles na versión de xullo de 2022 de Microsoft Dynamics 365 Project Operations despregamento lite.
 author: ramagadu
 ms.date: 07/19/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 56692661a08cd6676e68f9715a976000cdba3fba
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: 82812f0b7f172bf7386057b5684ff5ade67a6a22
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183893"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403995"
 ---
 # <a name="whats-new-july-2022---project-operations-lite-deployment"></a>Novidades de xullo de 2022: despregamento de Project Operations lite
 
@@ -33,4 +33,10 @@ Este artigo aplícase aos seguintes compoñentes e versións de Microsoft Dynami
 | Facturación e prezos | 2705361 | Os reais de vendas facturadas por Milestone deben incluírse nos campos de seguimento do proxecto. |
 | Facturación e prezos | 2675880 | Evitar que un proxecto se vincule a unha liña de contrato que non se basea no traballo. |
 | Facturación e prezos | 2664396 | Se se garda unha lista de prezos de cotización sen cotización, debe haber un erro que indica que a cotización non pode estar baleira. |
-| Facturación e prezos | 2184019 | O **Facturación baseada en tarefas** non se debe mostrar a pestana para proxectos que non teñan ningún contrato ou cotización de apoio. |
+| Facturación e prezos | 2184019 | O **Facturación baseada en tarefas** non se debe mostrar a pestana para proxectos que non teñan ningún contrato ou presuposto de apoio. |
+| Tempo e gasto | 2754459 | Cando o fluxo na nube de programación recorrente estea inactivo, mostra o banner e evita o procesamento asíncrono. |
+| Facturación e prezos | 2724391 | Lanzase unha excepción incorrecta cando a regra de facturación dividida do contrato do proxecto non ten un valor de cliente. |
+| Facturación e prezos | 2708638 | Non se atopou o rexistro durante a busca mediante a busca de cuadrícula en Usos de materiais e aprobacións para usos de materiais.|
+| Facturación e prezos | 2686977 | Evitar a validación da liña de factura durante a creación da factura. |
+| Facturación e prezos | 2683032 | A copia de roles e categorías de pago non supera os 5000 rexistros.|
+| Facturación e prezos | 2673363 | O % de consumo de custos no proxecto está corrompido cando existen estimacións de esforzo e gastos e reais para un proxecto. |
