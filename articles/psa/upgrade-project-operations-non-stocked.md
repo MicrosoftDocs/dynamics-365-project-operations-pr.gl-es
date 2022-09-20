@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230227"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446033"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Actualiza de Project Service Automation a Project Operations
 
@@ -29,26 +29,26 @@ Estamos encantados de anunciar a primeira das tres fases para a actualización M
 
 O programa de entrega de actualizacións dividirase en tres fases.
 
-| Actualizar a entrega | Fase 1 (xaneiro de 2022) | Fase 2 (Onda de abril de 2022) | Fase 3  |
+| Actualizar a entrega | Fase 1 (xaneiro de 2022) | Fase 2 (novembro 2022) | Fase 3 (Onda de abril de 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Non depende da estrutura de desagregación do traballo (WBS) dos proxectos | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | O WBS dentro dos límites actualmente soportados das operacións do proxecto | | :heavy_check_mark: | :heavy_check_mark: |
 | O WBS fóra dos límites actualmente soportados de Project Operations, incluído o soporte para o cliente de escritorio de Project | | | :heavy_check_mark: |
 
-## <a name="upgrade-process-features"></a>Funcións do proceso de actualización 
+## <a name="upgrade-process-features"></a>Actualizar as características do proceso 
 
 Como parte do proceso de actualización, engadimos rexistros de actualización ao mapa do sitio, para que os administradores poidan diagnosticar erros máis facilmente. Ademais da nova interface, engadiranse novas regras de validación para garantir a integridade dos datos despois dunha actualización. As seguintes validacións engadiranse ao proceso de actualización.
 
-| Validacións | Fase 1 (xaneiro de 2022) | Fase 2 (Onda de abril de 2022) | Fase 3  |
+| Validacións | Fase 1 (xaneiro de 2022) | Fase 2 (novembro 2022) | Fase 3  |
 |-------------|------------------------|---------------------------|---------------------------|
-| O WBS validarase contra violacións comúns da integridade dos datos (por exemplo, asignacións de recursos que están asociadas á mesma tarefa principal pero que teñen proxectos principais). | | :heavy_check_mark: | :heavy_check_mark: |
+| O WBS validarase contra violacións comúns da integridade dos datos (por exemplo, asignacións de recursos que están asociadas coa mesma tarefa principal pero que teñen proxectos principais). | | :heavy_check_mark: | :heavy_check_mark: |
 | O WBS validarase contra o [límites coñecidos de Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
 | O WBS validarase contra os límites coñecidos do cliente de escritorio do proxecto. | |  | :heavy_check_mark: |
 | Os recursos reservables e os calendarios de proxectos avaliaranse en función das excepcións comúns ás regras de calendario incompatibles. | | :heavy_check_mark: | :heavy_check_mark: |
 
 Na fase 2, os clientes que se actualicen a Project Operations terán os seus proxectos existentes actualizados a unha experiencia de só lectura para a planificación do proxecto. Nesta experiencia de só lectura, o WBS completo estará visible na grella de seguimento. Para editar a WBS, os xestores de proxectos poden seleccionar **Converter** na principal **Proxectos** páxina. A continuación, un proceso en segundo plano actualizará o proxecto para que admita a nova experiencia de programación de proxectos de Project for the Web. Esta fase é axeitada para clientes que teñan proxectos que encaixan dentro do [límites coñecidos de Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 
-Na fase 3, engadirase soporte para o cliente de escritorio de Project, en beneficio dos clientes que queiran seguir editando os seus proxectos desde esa aplicación. Non obstante, se os proxectos existentes se converten á nova experiencia Proxecto para a web, o acceso ao complemento desactivarase para cada proxecto convertido.
+Na fase 3 engadirase soporte para o cliente de escritorio de Project, en beneficio dos clientes que queiran seguir editando os seus proxectos desde esa aplicación. Non obstante, se os proxectos existentes se converten á nova experiencia Project for the Web, o acceso ao complemento desactivarase para cada proxecto convertido.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -67,14 +67,14 @@ Se tes licenzas activas para Project Service Automation, podes instalar e usar P
 
 ## <a name="testing-and-refactoring-customizations"></a>Proba e refactorización de personalizacións
 
-Como punto de partida, importe todas as personalizacións nun ambiente limpo de Project Operations (Lite) para confirmar que a importación se realiza correctamente e que as operacións comerciais se comportan como se esperaba.
+Como punto de partida, importe todas as personalizacións nun ambiente limpo de Operacións do proxecto (Lite) para confirmar que a importación se realiza correctamente e que as operacións comerciais se comportan como se esperaba.
 
 Aquí tes algunhas cousas que debes ter en conta:
 
 - A importación pode fallar porque faltan dependencias. Noutras palabras, as personalizacións fan referencia a campos ou outros compoñentes que foron eliminados en Operacións do proxecto. Neste caso, elimine estas dependencias do contorno de desenvolvemento.
 - Se as túas solucións non xestionadas e xestionadas inclúen compoñentes que non están personalizados, elimina eses compoñentes da solución. Por exemplo, cando personaliza o **Proxecto** entidade, engade só a cabeceira da entidade á súa solución. Non engada todos os campos. Se engadiches previamente todos os subcompoñentes, quizais teñas que crear manualmente unha nova solución e engadirlle compoñentes relevantes.
 - É posible que os formularios e as vistas non aparezan como se esperaba. Baixo algunhas circunstancias, se personalizou algún dos formularios ou vistas listados, as personalizacións poden impedir que as novas actualizacións en Project Operations teñan efecto. Para identificar estes problemas, recomendámosche que fagas unha revisión en paralelo dunha instalación limpa de Project Operations e dunha instalación de Project Operations que inclúa as túas personalizacións. Compara os formularios máis usados na túa empresa para confirmar que a túa versión do formulario aínda ten sentido e que non falta nada da versión limpa do formulario. Fai o mesmo tipo de revisión en paralelo para todas as vistas que personalizaches.
-- A lóxica empresarial pode fallar en tempo de execución. Dado que as referencias aos campos dos seus complementos non se validan no momento da importación, a lóxica empresarial pode fallar debido a referencias a campos que xa non existen e é posible que reciba unha mensaxe de erro que se asemella ao seguinte exemplo: "'Proxecto' a entidade non contén atributo con Nome = 'msdyn_plannedhours' e NameMapping = 'Lóxico'." Neste caso, modifica as túas personalizacións para que utilicen os novos campos. Se usas clases de proxy xeradas automaticamente e referencias de tipos fortes na lóxica do complemento, considera rexenerar eses proxies desde unha instalación limpa. Deste xeito, pode identificar facilmente todos os lugares onde os seus complementos dependen de campos obsoletos.
+- A lóxica empresarial pode fallar en tempo de execución. Dado que as referencias aos campos dos seus complementos non se validan no momento da importación, a lóxica empresarial pode fallar debido a referencias a campos que xa non existen e pode recibir unha mensaxe de erro que se asemella ao seguinte exemplo: "'Proxecto' a entidade non contén atributo con Nome = 'msdyn_plannedhours' e NameMapping = 'Lóxico'." Neste caso, modifica as túas personalizacións para que utilicen os novos campos. Se usas clases de proxy xeradas automaticamente e referencias de tipos fortes na lóxica do complemento, considera rexenerar eses proxies desde unha instalación limpa. Deste xeito, pode identificar facilmente todos os lugares onde os seus complementos dependen de campos obsoletos.
 
 Despois de actualizar as túas personalizacións para importar correctamente as operacións do proxecto, pasa aos seguintes pasos.
 
@@ -90,10 +90,10 @@ Despois de actualizar as túas personalizacións para importar correctamente as 
     > [!NOTE]
     > Dependendo da cantidade de datos do contorno, a actualización pode levar varias horas. O equipo principal que xestiona a actualización debe planificar en consecuencia e executar a actualización durante as horas non laborables. Nalgúns casos, se o volume de datos é grande, a actualización debería executarse durante a fin de semana. A decisión sobre a programación debe basearse nos resultados das probas en ambientes inferiores.
 
-3. Actualiza as solucións personalizadas segundo corresponda. Neste punto, implementa os cambios que fixeches nas túas personalizacións no ficheiro [Proba e refactorización de personalizacións](#testing-and-refactoring-customizations) sección deste artigo.
+3. Actualiza as solucións personalizadas segundo corresponda. Neste punto, implementa todos os cambios que fixeches nas túas personalizacións no ficheiro [Proba e refactorización de personalizacións](#testing-and-refactoring-customizations) sección deste artigo.
 4. Ir a **Configuración** \> **Solucións**, e seleccione para desinstalar **Operacións do proxecto Compoñentes obsoletos** solución.
 
-    Esta solución é unha solución temporal que contén o modelo de datos existente e os compoñentes que están presentes durante a actualización. Ao eliminar esta solución, elimina todos os campos e compoñentes que xa non se utilizan. Deste xeito, axudas a simplificar a interface e facilita a integración e a extensión.
+    Esta solución é unha solución temporal que contén o modelo de datos existente e os compoñentes que están presentes durante a actualización. Ao eliminar esta solución, elimina todos os campos e compoñentes que xa non se usan. Deste xeito, axudas a simplificar a interface e facilita a integración e a extensión.
     
 ### <a name="validate-common-scenarios"></a>Validar escenarios comúns
 
@@ -125,7 +125,7 @@ Como parte dos investimentos continuos en Operacións do proxecto, hai dispoñib
 |--------------------------------------------------------|-----------------------------------------------------------|-------------------------|
 | Project Service Automation                             | Implementación de Project Operations Lite                        | Compatible               |
 | Dynamics 365 Finance Xestión de proxectos e contabilidade | Implementación de Project Operations Lite                        | Non é compatible actualmente |
-| Finanzas Xestión de proxectos e contabilidade              | Project Operations para escenarios baseados en recursos ou sen existencias     | Non é compatible actualmente |
+| Xestión de proxectos financeiros e contabilidade              | Project Operations para escenarios baseados en recursos ou sen existencias     | Non é compatible actualmente |
 | Project Service Automation 3.x                         | Project Operations para escenarios baseados en recursos ou sen existencias     | Non é compatible actualmente |
 | Proxecto para a Web (entorno dedicado)            | Implementación de Project Operations Lite                        | Non é compatible actualmente |
 

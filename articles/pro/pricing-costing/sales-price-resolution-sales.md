@@ -1,23 +1,23 @@
 ---
-title: Determinar os prezos de venda das estimacións e reais do proxecto
+title: Determinar prezos de vendas para estimacións e datos reais de proxecto
 description: Este artigo ofrece información sobre como se determinan os prezos de venda para as estimacións e os reais do proxecto.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410116"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475182"
 ---
-# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Determinar os prezos de venda das estimacións e reais do proxecto
+# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Determinar prezos de vendas para estimacións e datos reais de proxecto
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
-Para determinar os prezos de venda en estimacións e reais en Microsoft Dynamics 365 Project Operations, o sistema utiliza primeiro a data e a moeda na estimación entrante ou no contexto real para determinar a lista de prezos de venda. No contexto real especificamente, o sistema usa o **Data da transacción** campo para determinar que lista de prezos é aplicable. Despois de determinar a lista de prezos de venda, o sistema determina a tarifa de vendas ou de facturación.
+Para determinar os prezos de venda en estimacións e reais en Microsoft Dynamics 365 Project Operations, o sistema utiliza primeiro a data e a moeda na estimación entrante ou no contexto real para determinar a lista de prezos de venda. No contexto real especificamente, o sistema usa o **Data da transacción** campo para determinar que lista de prezos é aplicable. O **Data da transacción** o valor da estimación entrante ou real compárase co **Inicio efectivo (independiente da zona horaria)** e **Fin efectivo (independiente da zona horaria)** valores na lista de prezos. Despois de determinar a lista de prezos de venda, o sistema determina a tarifa de vendas ou de facturación.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Determinación das taxas de vendas en liñas reais e estimativas para o tempo
 
@@ -89,8 +89,8 @@ Contexto real para **Material** refírese a:
 
 Despois de determinar unha lista de prezos para as vendas, o sistema completa os seguintes pasos para introducir o prezo unitario de venda predeterminado.
 
-1. O sistema coincide coa combinación de **Produto** e **Unidade** campos da liña de estimación para **Material** contra as liñas do artigo da lista de prezos da lista de prezos.
+1. O sistema coincide coa combinación de **Produto** e **Unidade** campos da liña de estimación para **Material** contra as liñas de artigos da lista de prezos da lista de prezos.
 1. Se o sistema atopa unha liña de artigos da lista de prezos que ten unha taxa de vendas para o **Produto** e **Unidade** combinación, e se o método de prezos é **Importe da moeda**, utilízase o prezo de venda que se especifica na liña da lista de prezos. 
-1. Se o **Produto** e **Unidade** os valores dos campos non coinciden ou se o método de prezos é distinto **Importe da moeda**, a taxa de vendas está establecida en **0** (cero) por defecto. Este comportamento ocorre porque Project Operations só admite o **Importe da moeda** método de prezos dos materiais que se usan nun proxecto.
+1. Se o **Produto** e **Unidade** os valores dos campos non coinciden ou se o método de prezos é distinto **Importe da moeda**, a taxa de vendas está establecida en **0** (cero) por defecto. Este comportamento ocorre porque Project Operations só admite o **Importe da moeda** método de prezos dos materiais que se utilizan nun proxecto.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

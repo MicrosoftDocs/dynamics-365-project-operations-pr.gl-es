@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410147"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475229"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Determinar as taxas de custo para as estimacións e os reais do proxecto
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
-Para determinar a lista de prezos de custo e as taxas de custo nos contextos estimativos e reais, o sistema utiliza a información do **Data**, **·**, e **Unidade de Contratación** campos do proxecto relacionado.
+Para determinar as taxas de custo en estimacións e reais en Microsoft Dynamics 365 Project Operations, o sistema utiliza primeiro a data e a moeda na estimación entrante ou no contexto real para determinar a lista de prezos de custo. No contexto real especificamente, o sistema usa o **Data da transacción** campo para determinar que lista de prezos é aplicable. O **Data da transacción** o valor da estimación entrante ou real compárase co **Inicio efectivo (independiente da zona horaria)** e **Fin efectivo (independiente da zona horaria)** valores na lista de prezos. Despois de determinar a lista de prezos de custo, o sistema determina a taxa de custo. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Determinación das taxas de custo en contextos estimativos e reais para o Tempo
 
@@ -77,9 +77,9 @@ Contexto real para **Material** refírese a:
 
 Despois de determinar unha lista de prezos de custo, o sistema completa os seguintes pasos para introducir a taxa de custo predeterminada.
 
-1. O sistema utiliza a combinación de **Produto** e **Unidade** campos no contexto estimativo ou real para **Material** contra as liñas do artigo da lista de prezos da lista de prezos.
-1. Se o sistema atopa unha liña de artigos da lista de prezos que teña unha taxa de custo para o **Produto** e **Unidade** combinación, esa taxa de custo utilízase como taxa de custo predeterminada.
+1. O sistema utiliza a combinación de **Produto** e **Unidade** campos no contexto estimativo ou real para **Material** contra as liñas de artigos da lista de prezos da lista de prezos.
+1. Se o sistema atopa unha liña de artigos da lista de prezos que ten unha taxa de custo para o **Produto** e **Unidade** combinación, esa taxa de custo utilízase como taxa de custo predeterminada.
 1. Se o sistema non pode coincidir co **Produto** e **Unidade** valores, o custo unitario establécese en **0** (cero) por defecto.
-1. No contexto estimativo ou real, se o sistema pode atopar unha liña de artigos da lista de prezos coincidente, pero o método de fixación de prezos é diferente **Importe da moeda**, o custo unitario establécese en **0** por defecto. Este comportamento ocorre porque Project Operations só admite o **Importe da moeda** método de prezos dos materiais que se usan nun proxecto.
+1. No contexto estimativo ou real, se o sistema pode atopar unha liña de artigos da lista de prezos coincidente, pero o método de fixación de prezos non é **Importe da moeda**, o custo unitario establécese en **0** por defecto. Este comportamento ocorre porque Project Operations só admite o **Importe da moeda** método de prezos dos materiais que se utilizan nun proxecto.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

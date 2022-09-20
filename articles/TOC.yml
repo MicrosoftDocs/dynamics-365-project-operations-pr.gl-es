@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Anular listas de prezos de vendas de proxecto
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Configurar anulación de datas efectivas para prezos específicos nunha lista de prezos
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Determinar prezos de custo para estimacións e datos reais
               href: pricing-costing/cost-price-resolution.md
             - name: Determinar prezos de vendas para estimacións e datos reais
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: Pedir produtos e servizos para proxectos mediante pedidos de compra de proxectos
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Facturas de fornecedor para subcontratos en Dataverse
+          items:
+            - name: Crear facturas de fornecedor
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Verificación de facturas de fornecedor con datos reais aprobados
+              href: pro/subcontracting/VI-Verification.md
+            - name: Confirmar facturas de fornecedor do proxecto
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Retención de fornecedores
           items:
             - name: Visión xeral da retención de fornecedores
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Anular listas de prezos de vendas de proxecto
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Configurar anulación de datas efectivas para prezos específicos nunha lista de prezos
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Determinar prezos de custo en estimacións e datos reais de proxecto
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Determinar prezos de vendas para estimacións e datos reais de proxecto

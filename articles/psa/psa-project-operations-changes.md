@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a9c69fc4296d30763f3994a4955e64ab258ceb4f
+ms.sourcegitcommit: 675e9f3615e701c5f998de3a5ea3e25df11ae107
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8925348"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459924"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Cambios de funcionalidades de Project Service Automation a Project Operations
 
-A actualización de Dynamics 365 Project Service Automation a Dynamics 365 Project Operations Lite entregarase en tres fases. Este artigo ofrece información sobre os principais cambios que podes ver cando se complete a actualización.
+A actualización de Dynamics 365 Project Service Automation a Dynamics 365 Project Operations Lite entregarase en tres fases. Este artigo ofrece información sobre os principais cambios que pode esperar ver cando se complete a actualización.
 
-| Actualizar a entrega | Fase 1 <br>(xaneiro 2022) | Fase 2 <br>(Onda de abril de 2022) | Fase 3  |
+| Actualizar a entrega | Fase 1 <br>(xaneiro 2022) | Fase 2 <br>(novembro 2022) | Fase 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Non depende da estrutura de desagregación do traballo (WBS) dos proxectos. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | O WBS está incluído nos límites actualmente soportados das operacións do proxecto. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
@@ -50,11 +50,11 @@ A seguinte táboa resume as diferenzas de programación entre Project Service Au
 | As tarefas dirixidas aos recursos respectarán a dispoñibilidade dos recursos asignados   | :heavy_check_mark: |  &nbsp;    |
 | Edición por fases - Edita plans e traballa día a día   |   &nbsp;  | :heavy_check_mark: |
 | Programación automática/manual: use o motor de programación do proxecto para programar tarefas de forma automática ou manual |  &nbsp; | :heavy_check_mark:  |
-| Edita proxectos grandes directamente na interface de usuario: non hai límite para o tamaño dos plans editables  | Límite de 500 tarefas  | :heavy_check_mark:       |
+| Edita proxectos grandes directamente na interface de usuario: non hai límite para o tamaño dos plans editables  | Límite de tarefas 500  | :heavy_check_mark:       |
 | Porcentaxe completada: marca o progreso da tarefa   | :heavy_check_mark:  |  &nbsp;  |
 | [Modos de programación do proxecto](../project-management/scheduling-modes.md) - Definir o proxecto como unidades fixas, esforzo fixo ou duración fixa | :heavy_check_mark: | &nbsp; |
 | Cronoloxía: crea e personaliza a vista da cronoloxía para visualizar os detalles da programación e comunicarse coas partes interesadas. | :heavy_check_mark:  | &nbsp; |
-| Tarefas orientadas ao esforzo: compatibilidade do motor de programación para programar unha tarefa segundo o esforzo  | :heavy_check_mark:  | &nbsp; |
+| Tarefas orientadas ao esforzo: compatibilidade do motor de programación para programar unha tarefa como impulsado polo esforzo  | :heavy_check_mark:  | &nbsp; |
 | **Información da tarefa** caixa de diálogo - Garda os detalles da tarefa mediante unha caixa de diálogo | :heavy_check_mark:  |  &nbsp;  |
 | Arrastrar e soltar: seleccione varias tarefas e modifique a súa posición no WBS | :heavy_check_mark: | &nbsp;  |
 | Vistas persistentes flexibles: define vistas máis granulares dos atributos da tarefa   | :heavy_check_mark:  | &nbsp; |
@@ -62,7 +62,7 @@ A seguinte táboa resume as diferenzas de programación entre Project Service Au
 | Vista de placas para a entrega de proxectos sen fervenza  | :heavy_check_mark:   | &nbsp; |
 | Vista da liña de tempo - Diagrama de Gantt interactivo usado para visualizar e editar a WBS   | :heavy_check_mark:  | &nbsp; |
 | Atallos de teclado: use atallos de teclado para operacións comúns, como sangrar ou inserir  | :heavy_check_mark:  |  &nbsp; |
-| Desfacer varios niveis: realiza unha análise de hipótese para comprender completamente o impacto dos cambios invertendo e aplicando de novo todo un conxunto de operacións | :heavy_check_mark: | &nbsp; |
+| Desfacer varios niveis: realiza unha análise de semellanza para comprender completamente o impacto dos cambios invertendo e aplicando de novo todo un conxunto de operacións | :heavy_check_mark: | &nbsp; |
 | Cortar/Copiar/Pegar: colabora no desenvolvemento da programación copiando e pegando detalles da programación entre aplicacións  | :heavy_check_mark: | &nbsp; |
 | Listas de verificación de tarefas: engade ata 20 elementos da lista de verificación a unha tarefa   | :heavy_check_mark: | &nbsp; |
 
@@ -81,13 +81,13 @@ O **Proxecto** en Operacións do proxecto inclúe as seguintes pestanas novas.
 - **Custos previstos de material**
 - **Configuración de facturación de tarefas**
 
-O **Estado** eliminouse a pestana e **Estado** campo está agora no **Resumo** ficha co modo de programación do proxecto.
+O **Estado** eliminouse a pestana e o **Estado** campo está agora no **Resumo** ficha co modo de programación do proxecto.
 
    ![Actualizacións na páxina do proxecto.](media/projectform.png)
 
 O **Horario** cambiou o nome da pestana a **Tarefa** e presenta a nova experiencia de planificación de proxectos con Project for the Web.
 
-   ![Nova pestana Tarefas do proxecto.](media/tasktab.png)
+   ![Nova pestana de tarefas do proxecto.](media/tasktab.png)
 
 ## <a name="scheduling-modes"></a>Modos de programación
 
@@ -131,12 +131,12 @@ Se actualmente tes personalizacións que impliquen estas entidades, consulta [Us
 
 ## <a name="data-model-changes"></a>Cambios no modelo de datos
 
-Como parte da Fase 1 de actualización, hai cambios no modelo de datos. Estes cambios son principalmente cambios de campo en entidades existentes. Na Fase 1, as entidades, **msydn_project** e **msdyn_projectteam** son unha refactorización de personalizacións. 
+Como parte da Fase 1 de actualización, hai cambios no modelo de datos. Estes cambios son principalmente cambios de campo para entidades existentes. Na Fase 1, as entidades, **msydn_project** e **msdyn_projectteam** son unha refactorización de personalizacións. 
 
 > [!IMPORTANT]
 > Esta sección actualizarase con entidades adicionais a medida que se completen as futuras fases de actualización.
 
-Os seguintes campos foron substituídos por campos novos.
+Os seguintes campos foron substituídos por novos campos.
 
 |   Entidad          |   Nome lóxico antigo   |   Novo nome lóxico    |
 |-------------------|----------------------|-----------------------|
@@ -153,12 +153,12 @@ Engadíronse os seguintes campos.
 
 |   Entidad          |   Nome lóxico                               |   Descripción |
 |-------------------|----------------------------------------------|---------------|
-| msdyn_project     | msdyn_actualfeesales                         | Mostra o conxunto das vendas reais de taxas no proxecto. Só para usar en Project Service Automation. |
+| msdyn_project     | msdyn_actualfeesales                         | Mostra o agregado das vendas reais de taxas no proxecto. Só para usar en Project Service Automation. |
 | msdyn_project     | msdyn_actualmaterialcost                     | Mostra o total do custo real do material no proxecto. Só para usar en Project Service Automation. |
 | msdyn_project     | msdyn_actualmaterialsales                    | Mostra o conxunto das vendas reais de material no proxecto. Só para usar en Project Service Automation. |
 | msdyn_project     | msdyn_businesscase                           |                |
 | msdyn_project     | msdyn_contractlineproject                    | A liña de contrato asociada a este proxecto. |
-| msdyn_project     | msdyn_copyprojectcorrelationid               | Este é un campo do sistema interno para o que se usa **Copiar proxecto** relacionado co identificador de correlación. Só para usar en Project Service Automation. |
+| msdyn_project     | msdyn_copyprojectcorrelationid               | Este é un campo do sistema interno para o que se usa **Copiar proxecto** relacionados co identificador de correlación. Só para usar en Project Service Automation. |
 | msdyn_project     | msdyn_copyprojectsessionid                   | Este é un campo do sistema interno, usado para **Copiar proxecto** relacionados co identificador de sesión. Só para usar en Project Service Automation. |
 | msdyn_project     | msdyn_globalrevisiontoken                    | Última sincronización xRM Global Revision Token do servizo de programación do proxecto. |
 | msdyn_project     | msdyn_msprojectdocument                      | O documento de Microsoft Project que pertence ao proxecto. |
@@ -193,7 +193,7 @@ A posibilidade de editar os contornos de asignación de recursos estará dispoñ
 
 ## <a name="billing-and-pricing"></a>Facturación e prezos
 
-Engadíronse as seguintes novas funcións en Operacións do proxecto. Estas funcións son de natureza aditiva e non afectan ao modelo de datos de Project Service Automation.
+Engadíronse as seguintes novas funcións en Operacións do proxecto. Estas funcións son de natureza aditiva e non afectan o modelo de datos de Project Service Automation.
 
 - [Rexistrar o uso do material en proxectos e tarefas do proxecto](../material/material-usage-log.md)
 - [Xestión de subcontratación](../pro/subcontracting/managing-subcontracts-overview.md)
