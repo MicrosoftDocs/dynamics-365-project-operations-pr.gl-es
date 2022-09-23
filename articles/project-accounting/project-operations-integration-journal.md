@@ -2,16 +2,16 @@
 title: Diario de integración en Project Operations
 description: Este artigo ofrece información sobre como traballar co diario de integración en Project Operations.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106273"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541075"
 ---
 # <a name="integration-journal-in-project-operations"></a>Diario de integración en Project Operations
 
@@ -65,6 +65,12 @@ A publicación pódese realizar de forma interactiva ou por lotes. Teña en cont
 > [!NOTE]
 > Para usar esta capacidade, habilite o **Transfire todas as liñas con erros de publicación a un novo diario de integración de Project Operations** característica no **Xestión de características** espazo de traballo.
 
-Durante a publicación no diario de integración de Operacións do proxecto, o sistema valida todas as liñas do diario. O sistema publica todas as liñas que non teñen erros e crea un novo diario para todas as liñas que teñan erros de publicación. Para revisar as revistas que teñen liñas de erro de publicación, vai a **Xestión de proxectos e contabilidade** > **Xornais** > **Diario de integración de operacións de proxectos**, e filtra as revistas usando o **Xornal orixinal** campo.
+Esta función axuda a mellorar a experiencia co diario de integración de Project Operations. Cando está activado, os problemas de temporización de escritura dual e os problemas de configuración xa non impiden que se publiquen revistas válidas. Durante a publicación no diario de integración de Operacións do proxecto, o sistema valida todas as liñas do diario. Publica todas as liñas que non teñen erros e crea un novo diario para todas as liñas que teñan erros de publicación.
+
+Para revisar as revistas que teñen liñas de erro de publicación, vai a **Xestión de proxectos e contabilidade** \> **Xornais** \> **Diario de integración de operacións de proxectos**, e filtra a lista de revistas usando o **Xornal orixinal** campo. A seguinte ilustración mostra un exemplo onde as revistas sobre o **Diario de integración de operacións de proxectos** páxina foron filtradas deste xeito.
+
+![Diario orixinal que aparece na páxina do diario de integración de Project Operations.](./media/transferLines-originalJournal.png)
+
+Se se configura un traballo por lotes periódico para publicar o diario de integración, tentarase de novo a publicación e os diarios publicaranse se se solucionou o problema de tempo. Os diarios restantes deberían ser investigados manualmente revisando os rexistros e tomando as medidas necesarias.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

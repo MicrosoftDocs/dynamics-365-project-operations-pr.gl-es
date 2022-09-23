@@ -1,8 +1,8 @@
 ---
 title: Publicar informes de gastos
 description: Este artigo explica como publicar informes de gastos.
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934502"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524867"
 ---
 # <a name="post-expense-reports"></a>Publicar informes de gastos
 
@@ -30,5 +30,15 @@ Para contabilizar un informe de gastos, na páxina **Informes de gastos aprobado
 
 Tamén pode contabilizar todos os informes de gastos da lista ao mesmo tempo. Seleccione todos os informes de gastos e logo seleccione **Contabilizar**.
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Activa a función Capacidade de contabilizar a responsabilidade dos gastos na moeda do provedor para o método de pago en efectivo
+
+O **Capacidade de contabilizar a responsabilidade dos gastos na moeda do provedor para o método de pago en efectivo** A función permite que os informes de gastos se publiquen nunha moeda do provedor para o método de pago en efectivo.
+
+Actualmente, cando envía gastos en efectivo, os informes de gastos publícanse na moeda contable. Debido á conversión de cantidades entre a moeda da transacción, a moeda contable e a moeda do provedor, págase un importe incorrecto aos provedores se a data de transacción do gasto e a data de pago real teñen tipos de cambio diferentes.
+
+Esta función garantirá que o saldo do provedor estea rexistrado na moeda do provedor cando se publique o informe de gastos.
+
+1. Vaia a **Áreas de traballo** \> **Xestión de funcionalidades**.
+2. Na lista, busque e seleccione **Capacidade de contabilizar a responsabilidade dos gastos na moeda do provedor para o método de pago en efectivo** e, a continuación, seleccione **Habilita agora**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

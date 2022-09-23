@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: da37adcf63a10b9f245283d377e70fd08b3aa9c5
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029207"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9527985"
 ---
 # <a name="expense-management-integration"></a>Integración de xestión de gastos
 
@@ -34,7 +34,7 @@ As categorías de gastos nas aplicacións de finanzas e operacións son específ
 
 ## <a name="expense-reports"></a>Informes de gastos
 
-Os informes de gastos créanse e apróbanse nas aplicacións de finanzas e operacións. Para obter máis información, consulte [Crear e procesar informes de gastos en Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Despois de que o informe de gastos sexa aprobado polo xestor do proxecto, envíase ao libro maior. En Project Operations, as liñas de informe de gastos relacionadas co proxecto contabilízanse utilizando regras especiais de contabilización:
+Os informes de gastos créanse e apróbanse nas aplicacións de finanzas e operacións. Para obter máis información, consulte [Crear e procesar informes de gastos en Dynamics 365 Project Operations](/training/modules/create-process-expense-reports/). Despois de que o informe de gastos sexa aprobado polo xestor do proxecto, envíase ao libro maior. En Project Operations, as liñas de informe de gastos relacionadas co proxecto contabilízanse utilizando regras especiais de contabilización:
 
   - O custo relacionado co proxecto (incluído o imposto non recuperable) non se contabilizan inmediatamente na conta de custos do proxecto no libro maior, senón que se contabilizan na conta de integración de gastos. Esta conta está configurada en **Xestión e contabilidade de proxectos** > **Configuración** > **Parámetros de xestión e contabilidade de proxectos**, separador **Project Operations en Dynamics 365 Customer Engagement**.
   - A escrita dual sincronízase con Dataverse usando o mapa da táboa **Entidade de exportación de gastos do proxecto de integración de Project Operations (msdyn\_expenses)**.

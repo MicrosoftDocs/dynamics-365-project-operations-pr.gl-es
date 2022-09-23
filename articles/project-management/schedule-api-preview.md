@@ -6,284 +6,146 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 159d395efff98f2af780e5ed1e5ab3d6483cba89
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230313"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541122"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Use as API de programación de proxectos para realizar operacións con entidades de programación
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
 
-
-## <a name="scheduling-entities"></a>Entidades de programación
+**Entidades de programación**
 
 As API de programación de proxectos ofrecen a capacidade de realizar operacións de crear, actualizar e eliminar con **Entidades de programación**. Estas entidades xestiónanse a través do motor de programación en Project for the Web. Crear, actualizar e eliminar operacións con **Entidades de programación** estaban restrinxidos en versións anteriores de Dynamics 365 Project Operations.
 
 A seguinte táboa ofrece unha lista completa das entidades de programación de proxectos.
 
-| Nome da entidade  | Nome lóxico da entidade |
-| --- | --- |
-| Project | msdyn_project |
-| Tarefa do proxecto  | msdyn_projecttask  |
-| Dependencia da tarefa do proxecto  | msdyn_projecttaskdependency  |
-| Atribución do recurso | msdyn_resourceassignment |
-| Depósito do proxecto  | msdyn_projectbucket |
-| Membro do equipo do proxecto | msdyn_projectteam |
+| **Nome de entidade**         | **Nome lóxico da entidade**     |
+|-------------------------|-----------------------------|
+| Project                 | msdyn_project               |
+| Tarefa do proxecto            | msdyn_projecttask           |
+| Dependencia da tarefa do proxecto | msdyn_projecttaskdependency |
+| Atribución do recurso     | msdyn_resourceassignment    |
+| Depósito do proxecto          | msdyn_projectbucket         |
+| Membro do equipo do proxecto     | msdyn_projectteam           |
+| Listas de verificación do proxecto      | msdyn_projectchecklist      |
+| Etiqueta do proxecto           | msdyn_projectlabel          |
+| Tarefa do proxecto para etiquetar   | msdyn_projecttasktolabel    |
+| Sprint do proxecto          | msdyn_projectsprint         |
 
-## <a name="operationset"></a>OperationSet
+**OperationSet**
 
 OperationSet é un patrón de unidade de traballo que se pode empregar cando se deben procesar varias solicitudes que afectan á programación dentro dunha transacción.
 
-## <a name="project-schedule-apis"></a>API de programación de proxectos
+**API de programación de proxectos**
 
 A continuación móstrase unha lista das API de programación de proxectos actuais.
 
-- **msdyn_CreateProjectV1**: Esta API pódese usar para crear un proxecto. O proxecto e o conxunto de proxectos predeterminados créanse inmediatamente.
-- **msdyn_CreateTeamMemberV1**: Esta API pódese usar para crear un membro do equipo do proxecto. O rexistro de membro do equipo créase inmediatamente.
-- **msdyn_CreateOperationSetV1**: Esta API pode usarse para programar varias solicitudes que deben realizarse dentro dunha transacción.
-- **msdyn_PssCreateV1** : esta API pódese usar para crear unha entidade. A entidade pode ser calquera das entidades de programación de proxectos que admitan a operación de creación.
-- **msdyn_PssUpdateV1** : esta API pódese usar para actualizar unha entidade. A entidade pode ser calquera das entidades de programación de proxectos que admitan a operación de actualización.
-- **msdyn_PssDeleteV1** : esta API pódese usar para eliminar unha entidade. A entidade pode ser calquera das entidades de programación de proxectos que admitan a operación de eliminación.
-- **msdyn_ExecuteOperationSetV1**: Esta API úsase para executar todas as operacións dentro do conxunto de operacións determinado.
+| **API**                                 | Descripción                                                                                                                       |
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **msdyn_CreateProjectV1**               | Esta API úsase para crear un proxecto. O proxecto e o conxunto de proxectos predeterminados créanse inmediatamente.                         |
+| **msdyn_CreateTeamMemberV1**            | Esta API úsase para crear un membro do equipo do proxecto. O rexistro de membro do equipo créase inmediatamente.                                  |
+| **msdyn_CreateOperationSetV1**          | Esta API úsase para programar varias solicitudes que deben realizarse nunha transacción.                                        |
+| **msdyn_PssCreateV1**                   | Esta API úsase para crear unha entidade. A entidade pode ser calquera das entidades de programación de proxectos que admitan a operación de creación. |
+| **msdyn_PssUpdateV1**                   | Esta API úsase para actualizar unha entidade. A entidade pode ser calquera das entidades de programación do proxecto que admitan a operación de actualización  |
+| **msdyn_PssDeleteV1**                   | Esta API úsase para eliminar unha entidade. A entidade pode ser calquera das entidades de programación de proxectos que admitan a operación de eliminación. |
+| **msdyn_ExecuteOperationSetV1**         | Esta API úsase para executar todas as operacións dentro do conxunto de operacións dado.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | Esta API úsase para actualizar un contorno de traballo planificado da asignación de recursos.                                                        |
 
-## <a name="using-project-schedule-apis-with-operationset"></a>Usando as API de programación de proxectos con OperationSet
+
+
+**Usando as API de programación de proxectos con OperationSet**
 
 Como os rexistros con **CreateProjectV1** e **CreateTeamMemberV1** créanse inmediatamente, estas API non se poden empregar en **OperationSet** directamente. Non obstante, pode usar a API para crear rexistros necesarios, crear un **OperationSet** e, a seguir, usar estes rexistros creados previamente no **OperationSet**.
 
-## <a name="supported-operations"></a>Operacións compatibles
+**Operacións compatibles**
 
-| Entidade de programación | Crear | Update | SUPR | Consideracións importantes |
-| --- | --- | --- | --- | --- |
-Tarefa do proxecto | Si | Si | Si | O **Progreso**, **completado**, e **EsforzoRestante** os campos pódense editar en Project for the Web, pero non se poden editar en Project Operations.  |
-| Dependencia da tarefa do proxecto | Si |  | Si | Os rexistros de dependencia de tarefas do proxecto non se actualizan. Pola contra, pódese eliminar un rexistro antigo e crear un rexistro novo. |
-| Atribución do recurso | Si | Si | | Non se admiten operacións cos seguintes campos: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** e **PlannedWork**. Os rexistros de atribución de recursos non se actualizan. Pola contra, pódese eliminar o rexistro antigo e crear un novo rexistro. |
-| Depósito do proxecto | Si | Si | Si | O depósito predeterminado créase usando o **CrearProxectoV1** API. A compatibilidade para crear e eliminar grupos de proxectos engadiuse na actualización 16. |
-| Membro do equipo do proxecto | Si | Si | Si | Para a operación de creación, use a API **CreateTeamMemberV1**. |
-| Project | Si | Si |  | Non se admiten operacións cos seguintes campos: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** e **Duration**. |
+| **Entidade de programación**   | **Crear** | **Actualización** | **SUPR** | **Consideracións importantes**                                                                                                                                                                                                                                                                                                                            |
+|-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Tarefa do proxecto            | Si        | Si        | Si        | O **Progreso**, **completado**, e **EsforzoRestante** os campos pódense editar en Project for the Web, pero non se poden editar en Project Operations.                                                                                                                                                                                             |
+| Dependencia da tarefa do proxecto | Si        | No         | Si        | Os rexistros de dependencia de tarefas do proxecto non se actualizan. Pola contra, pódese eliminar un rexistro antigo e crear un rexistro novo.                                                                                                                                                                                                                                 |
+| Atribución do recurso     | Si        | Si\*      | Si        | Non se admiten operacións cos seguintes campos: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** e **PlannedWork**. Os rexistros de atribución de recursos non se actualizan. Pola contra, pódese eliminar o rexistro antigo e crear un novo rexistro. Forneceuse unha API separada para actualizar os contornos de asignación de recursos. |
+| Depósito do proxecto          | Si        | Si        | Si        | O depósito predeterminado créase usando o **CrearProxectoV1** API. A compatibilidade para crear e eliminar grupos de proxectos engadiuse na actualización 16.                                                                                                                                                                                                   |
+| Membro do equipo do proxecto     | Si        | Si        | Si        | Para a operación de creación, use a API **CreateTeamMemberV1**.                                                                                                                                                                                                                                                                                           |
+| Project                 | Si        | Si        |            | Non se admiten operacións cos seguintes campos: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** e **Duration**.                                                                                       |
+| Listas de verificación do proxecto      | Si        | Si        | Si        |                                                                                                                                                                                                                                                                                                                                                         |
+| Etiqueta do proxecto           | No         | Si        | No         | Os nomes das etiquetas pódense cambiar. Esta función só está dispoñible para Project for the Web                                                                                                                                                                                                                                                                      |
+| Tarefa do proxecto para etiquetar   | Si        | No         | Si        | Esta función só está dispoñible para Project for the Web                                                                                                                                                                                                                                                                                                  |
+| Sprint do proxecto          | Si        | Si        | Si        | O **Comeza** campo debe ter unha data anterior á **Remate** campo. Os sprints para o mesmo proxecto non poden superpoñerse entre si. Esta función só está dispoñible para Project for the Web                                                                                                                                                                    |
 
-Estas API pódense chamar con obxectos de entidade que inclúen campos personalizados.
+
+
 
 A propiedade de ID é opcional. Se se proporciona, o sistema tenta usala e lanza unha excepción se non se pode usar. Se non se proporciona, o sistema xeraraa.
 
-## <a name="restricted-fields"></a>Campos restrinxidos
+**Limitacións e problemas coñecidos**
 
-As seguintes táboas definen os campos dos que están restrinxidos **Crear** e **Editar**.
-
-### <a name="project-task"></a>Tarefa do proxecto
-
-| Nome lóxico                           | Pode crear     | Pode editar         |
-|----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | No             | No               |
-| msdyn_actualcost_base                  | No             | No               |
-| msdyn_actualend                        | No             | No               |
-| msdyn_actualsales                      | No             | No               |
-| msdyn_actualsales_base                 | No             | No               |
-| msdyn_actualstart                      | No             | No               |
-| msdyn_costatcompleteestimate           | No             | No               |
-| msdyn_costatcompleteestimate_base      | No             | No               |
-| msdyn_costconsumptionpercentage        | No             | No               |
-| msdyn_effortcompleted                  | Non (si para o proxecto)             | Non (si para o proxecto)               |
-| msdyn_effortremaining                  | Non (si para o proxecto)              | Non (si para o proxecto)                |
-| msdyn_effortestimateatcomplete         | No             | No               |
-| msdyn_iscritical                       | No             | No               |
-| msdyn_iscriticalname                   | No             | No               |
-| msdyn_ismanual                         | No             | No               |
-| msdyn_ismanualname                     | No             | No               |
-| msdyn_ismilestone                      | No             | No               |
-| msdyn_ismilestonename                  | No             | No               |
-| msdyn_LinkStatus                       | No             | No               |
-| msdyn_linkstatusname                   | No             | No               |
-| msdyn_msprojectclientid                | No             | No               |
-| msdyn_plannedcost                      | No             | No               |
-| msdyn_plannedcost_base                 | No             | No               |
-| msdyn_plannedsales                     | No             | No               |
-| msdyn_plannedsales_base                | No             | No               |
-| msdyn_pluginprocessingdata             | No             | No               |
-| msdyn_progress                         | Non (si para o proxecto)             | Non (si para o proxecto) |
-| msdyn_remainingcost                    | No             | No               |
-| msdyn_remainingcost_base               | No             | No               |
-| msdyn_remainingsales                   | No             | No               |
-| msdyn_remainingsales_base              | No             | No               |
-| msdyn_requestedhours                   | No             | No               |
-| msdyn_resourcecategory                 | No             | No               |
-| msdyn_resourcecategoryname             | No             | No               |
-| msdyn_resourceorganizationalunitid     | No             | No               |
-| msdyn_resourceorganizationalunitidname | No             | No               |
-| msdyn_salesconsumptionpercentage       | No             | No               |
-| msdyn_salesestimateatcomplete          | No             | No               |
-| msdyn_salesestimateatcomplete_base     | No             | No               |
-| msdyn_salesvariance                    | No             | No               |
-| msdyn_salesvariance_base               | No             | No               |
-| msdyn_scheduleddurationminutes         | No             | No               |
-| msdyn_scheduledend                     | No             | No               |
-| msdyn_scheduledstart                   | No             | No               |
-| msdyn_schedulevariance                 | No             | No               |
-| msdyn_skipupdateestimateline           | No             | No               |
-| msdyn_skipupdateestimatelinename       | No             | No               |
-| msdyn_summary                          | No             | No               |
-| msdyn_varianceofcost                   | No             | No               |
-| msdyn_varianceofcost_base              | No             | No               |
-
-### <a name="project-task-dependency"></a>Dependencia da tarefa do proxecto
-
-| Nome lóxico                  | Pode crear     | Pode editar     |
-|-------------------------------|----------------|--------------|
-| msdyn_linktype                | No             | No           |
-| msdyn_linktypename            | No             | No           |
-| msdyn_predecessortask         | Si            | No           |
-| msdyn_predecessortaskname     | Si            | No           |
-| msdyn_project                 | Si            | No           |
-| msdyn_projectname             | Si            | No           |
-| msdyn_projecttaskdependencyid | Si            | No           |
-| msdyn_successortask           | Si            | No           |
-| msdyn_successortaskname       | Si            | No           |
-
-### <a name="resource-assignment"></a>Atribución do recurso
-
-| Nome lóxico                 | Pode crear     | Pode editar     |
-|------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | Si            | No           |
-| msdyn_bookableresourceidname | Si            | No           |
-| msdyn_bookingstatusid        | No             | No           |
-| msdyn_bookingstatusidname    | No             | No           |
-| msdyn_committype             | No             | No           |
-| msdyn_committypename         | No             | No           |
-| msdyn_effort                 | No             | No           |
-| msdyn_effortcompleted        | No             | No           |
-| msdyn_effortremaining        | No             | No           |
-| msdyn_finish                 | No             | No           |
-| msdyn_plannedcost            | No             | No           |
-| msdyn_plannedcost_base       | No             | No           |
-| msdyn_plannedcostcontour     | No             | No           |
-| msdyn_plannedsales           | No             | No           |
-| msdyn_plannedsales_base      | No             | No           |
-| msdyn_plannedsalescontour    | No             | No           |
-| msdyn_plannedwork            | No             | No           |
-| msdyn_projectid              | Si            | No           |
-| msdyn_projectidname          | No             | No           |
-| msdyn_projectteamid          | No             | No           |
-| msdyn_projectteamidname      | No             | No           |
-| msdyn_start                  | No             | No           |
-| msdyn_taskid                 | No             | No           |
-| msdyn_taskidname             | No             | No           |
-| msdyn_userresourceid         | No             | No           |
-
-### <a name="project-team-member"></a>Membro do equipo do proxecto
-
-| Nome lóxico                                     | Pode crear     | Pode editar     |
-|--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | No             | No           |
-| msdyn_creategenericteammemberwithrequirementname | No             | No           |
-| msdyn_deletestatus                               | No             | No           |
-| msdyn_deletestatusname                           | No             | No           |
-| msdyn_effort                                     | No             | No           |
-| msdyn_effortcompleted                            | No             | No           |
-| msdyn_effortremaining                            | No             | No           |
-| msdyn_finish                                     | No             | No           |
-| msdyn_hardbookedhours                            | No             | No           |
-| msdyn_hours                                      | No             | No           |
-| msdyn_markedfordeletiontimer                     | No             | No           |
-| msdyn_markedfordeletiontimestamp                 | No             | No           |
-| msdyn_msprojectclientid                          | No             | No           |
-| msdyn_percentage                                 | No             | No           |
-| msdyn_requiredhours                              | No             | No           |
-| msdyn_softbookedhours                            | No             | No           |
-| msdyn_start                                      | No             | No           |
-
-### <a name="project"></a>Project
-
-| Nome lóxico                           | Pode crear     | Pode editar     |
-|----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | No             | No           |
-| msdyn_actualexpensecost_base           | No             | No           |
-| msdyn_actuallaborcost                  | No             | No           |
-| msdyn_actuallaborcost_base             | No             | No           |
-| msdyn_actualsales                      | No             | No           |
-| msdyn_actualsales_base                 | No             | No           |
-| msdyn_contractlineproject              | Si            | No           |
-| msdyn_contractorganizationalunitid     | Si            | No           |
-| msdyn_contractorganizationalunitidname | Si            | No           |
-| msdyn_costconsumption                  | No             | No           |
-| msdyn_costestimateatcomplete           | No             | No           |
-| msdyn_costestimateatcomplete_base      | No             | No           |
-| msdyn_costvariance                     | No             | No           |
-| msdyn_costvariance_base                | No             | No           |
-| msdyn_duration                         | No             | No           |
-| msdyn_effort                           | No             | No           |
-| msdyn_effortcompleted                  | No             | No           |
-| msdyn_effortestimateatcompleteeac      | No             | No           |
-| msdyn_effortremaining                  | No             | No           |
-| msdyn_finish                           | Si            | Si          |
-| msdyn_globalrevisiontoken              | No             | No           |
-| msdyn_islinkedtomsprojectclient        | No             | No           |
-| msdyn_islinkedtomsprojectclientname    | No             | No           |
-| msdyn_linkeddocumenturl                | No             | No           |
-| msdyn_msprojectdocument                | No             | No           |
-| msdyn_msprojectdocumentname            | No             | No           |
-| msdyn_plannedexpensecost               | No             | No           |
-| msdyn_plannedexpensecost_base          | No             | No           |
-| msdyn_plannedlaborcost                 | No             | No           |
-| msdyn_plannedlaborcost_base            | No             | No           |
-| msdyn_plannedsales                     | No             | No           |
-| msdyn_plannedsales_base                | No             | No           |
-| msdyn_progress                         | No             | No           |
-| msdyn_remainingcost                    | No             | No           |
-| msdyn_remainingcost_base               | No             | No           |
-| msdyn_remainingsales                   | No             | No           |
-| msdyn_remainingsales_base              | No             | No           |
-| msdyn_replaylogheader                  | No             | No           |
-| msdyn_salesconsumption                 | No             | No           |
-| msdyn_salesestimateatcompleteeac       | No             | No           |
-| msdyn_salesestimateatcompleteeac_base  | No             | No           |
-| msdyn_salesvariance                    | No             | No           |
-| msdyn_salesvariance_base               | No             | No           |
-| msdyn_scheduleperformance              | No             | No           |
-| msdyn_scheduleperformancename          | No             | No           |
-| msdyn_schedulevariance                 | No             | No           |
-| msdyn_taskearlieststart                | No             | No           |
-| msdyn_teamsize                         | No             | No           |
-| msdyn_teamsize_date                    | No             | No           |
-| msdyn_teamsize_state                   | No             | No           |
-| msdyn_totalactualcost                  | No             | No           |
-| msdyn_totalactualcost_base             | No             | No           |
-| msdyn_totalplannedcost                 | No             | No           |
-| msdyn_totalplannedcost_base            | No             | No           |
-
-### <a name="project-bucket"></a>Depósito do proxecto
-
-| Nome lóxico          | Pode crear      | Pode editar     |
-|-----------------------|-----------------|--------------|
-| msdyn_displayorder    | Si             | No           |
-| msdyn_name            | Si             | Si          |
-| msdyn_project         | Si             | No           |
-| msdyn_projectbucketid | Si             | No           |
-
-## <a name="limitations-and-known-issues"></a>Limitacións e problemas coñecidos
 A continuación móstrase unha lista de limitacións e problemas coñecidos:
 
-- As API de Project Schedule só poden ser usadas por **Usuarios con licenza de Microsoft Project**. Non poden ser usadas por:
+-   As API de Project Schedule só poden ser usadas por **Usuarios con licenza de Microsoft Project**. Non poden ser usadas por:
+    -   Usuarios da aplicación
+    -   Usuario do sistema
+    -   Usuarios de integración
+    -   Outros usuarios que non teñen a licenza requirida
+-   Cada **OperationSet** só pode ter un máximo de 100 operacións.
+-   Cada usuario só pode ter un máximo de 10 **OperationSets** abertos.
+-   Project Operations admite actualmente un máximo de 500 tarefas totais nun proxecto.
+-   Cada operación de actualización de contorno de asignación de recursos conta como unha única operación.
+-   Cada lista de contornos actualizados pode conter un máximo de 100 intervalos de tempo.
+-   O estado de fallo e os rexistros de fallos de **OperationSet** non están dispoñibles actualmente.
+-   Hai un máximo de 400 sprints por proxecto.
+-   [Límites e límites en proxectos e tarefas](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+-   Actualmente, as etiquetas só están dispoñibles para Project for the Web.
 
-    - Usuarios da aplicación
-    - Usuario do sistema
-    - Usuarios de integración
-    - Outros usuarios que non teñen a licenza requirida
+**Tratamento de erros**
 
-- Cada **OperationSet** só pode ter un máximo de 100 operacións.
-- Cada usuario só pode ter un máximo de 10 **OperationSets** abertos.
-- Project Operations admite actualmente un máximo de 500 tarefas totais nun proxecto.
-- O estado de fallo e os rexistros de fallos de **OperationSet** non están dispoñibles actualmente.
-- [Límites en proxectos e tarefas](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+-   Para revisar os erros xerados a partir dos conxuntos de operacións, vaia a **Configuración** \> **Integración de programación** \> **Conxuntos de operacións**.
+-   Para revisar os erros xerados desde o servizo de programación de proxectos, vaia a **Configuración** \> **Integración de programación** \> **Rexistros de erros de PSS**.
 
-## <a name="error-handling"></a>Tratamento de erros
+**Edición de contornos de asignación de recursos**
 
-- Para revisar os erros xerados a partir dos conxuntos de operacións, vaia a **Configuración** \> **Integración de programación** \> **Conxuntos de operacións**.
-- Para revisar os erros xerados desde o servizo de programación de proxectos, vaia a **Configuración** \> **Integración de programación** \> **Rexistros de erros de PSS**.
+A diferenza de todas as outras API de programación de proxectos que actualizan unha entidade, a API de contorno de asignación de recursos é a única responsable das actualizacións dun só campo, msdyn_plannedwork, nunha única entidade, msydn_resourceassignment.
 
-## <a name="sample-scenario"></a>Escenario de exemplo
+O modo de programación dado é:
+
+-   **unidades fixas**
+-   O calendario do proxecto é de 9-5 p. é de 9-5 pst, luns, martes, xoves, venres (SEN TRABALLO OS MÉRCORES)
+-   E o calendario de recursos é de 9-1p PST de luns a venres
+
+Este traballo é dunha semana, catro horas ao día. Isto débese a que o calendario de recursos é de 9-1 PST, ou catro horas ao día.
+
+| &nbsp;     | Tarefa | Data de inicio | Data de fin  | Cantidade | 13/06/2022 | 14/06/2022 | 15/06/2022 | 16/06/2022 | 17/06/2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-1 traballador |  T1  | 13/06/2022  | 17/06/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+
+Por exemplo, se quere que o traballador só traballe tres horas ao día esta semana e permita unha hora para outras tarefas.
+
+#### <a name="updatedcontours-sample-payload"></a>Carga útil de mostra de UpdatedContours:
+
+```json
+[{
+
+"minutes":900.0,
+
+"start":"2022-06-13T00:00:00-07:00",
+
+"end":"2022-06-18T00:00:00-07:00"
+
+}]
+```
+
+Esta é a asignación despois de que se execute a API Update Contour Schedule.
+
+| &nbsp;     | Tarefa | Data de inicio | Data de fin  | Cantidade | 13/06/2022 | 14/06/2022 | 15/06/2022 | 16/06/2022 | 17/06/2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-1 traballador | T1   | 13/06/2022  | 17/06/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+
+
+**Escenario de exemplo**
 
 Neste escenario, creará un proxecto, un membro do equipo, catro tarefas e dúas atribucións de recursos. A continuación, actualizará unha tarefa, actualizará o proxecto, eliminará unha tarefa, eliminará unha atribución de recursos e creará unha dependencia de tarefas.
 
@@ -333,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-## <a name="additional-samples"></a>Exemplos adicionais
+** Mostras adicionais
 
 ```csharp
 #region Call actions --- Sample code ----

@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: 60790d83d5fcc8c75fef8eac2877d1ca14a761f2
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029298"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528005"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Rexistro para as probas de Project Operations 
 
@@ -90,7 +90,7 @@ Antes de comezar, inicie sesión nun explorador coa conta de traballo do usuario
 
 ## <a name="configuring-dual-write"></a>Configuración da escrita dual
 - Para configurar as funcións de seguranza para a escritura dual, consulte [Actualiza a configuración de seguranza en Project Operations en Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Para acceder á configuración de dobre escritura, desprácese ata a instancia financeira e de operacións e, a continuación, navegue ata **Xestión de datos** > **Escritura dual**.
+- Para acceder á configuración de dobre escritura, desprácese ata a instancia de finanzas e operacións e, a continuación, navegue ata **Xestión de datos** > **Escritura dual**.
 - Para configurar mapas de dobre escritura, consulte [Executar mapas de dobre escritura de Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Atribuír licenzas
@@ -112,7 +112,7 @@ Necesitará acceso administrativo ao portal Microsoft 365 da súa organización 
 Os seguintes recursos proporcionan unha guía útil cando comeza a súa viaxe con Project Operations:
 
 - [Serie de vídeo - Visión xeral de Project Operations, inclúe análises a fondo e folla de ruta](https://youtube.com/playlist?list=PLcakwueIHoT_LJ3Fr1tHnkPk5lioqE6uH)
-- [Dynamics 365 Project Operations](/learn/modules/examine-dynamics-365-project-operations/)
+- [Dynamics 365 Project Operations](/training/modules/examine-dynamics-365-project-operations/)
 - [Determinar o seu tipo de despregamento](determine-deployment-type.md)
 
 ## <a name="frequently-asked-questions"></a>Preguntas máis frecuentes

@@ -2,20 +2,20 @@
 title: Detalles da cabeceira para subcontratos
 description: Este artigo explica a funcionalidade proporcionada na cabeceira do subcontrato en Operacións do proxecto.
 author: rumant
-ms.date: 09/14/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce16b7a968bc7e6904411ae9e021a5ca1839d02e
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 00b7c08235654d4bed0bcb4053d2044a3d092b54
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261415"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522558"
 ---
 # <a name="header-details-for-subcontracts"></a>Detalles da cabeceira para subcontratos
 
-_**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
+_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
 Este artigo explica a funcionalidade proporcionada na cabeceira do subcontrato en Dynamics 365 Project Operations.
 

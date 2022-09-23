@@ -2,20 +2,20 @@
 title: Dotación de persoal dun proxecto con traballadores contratados e capacidade subcontratada
 description: Este artigo explica como se poden cubrir os requisitos do proxecto utilizando traballadores por contrato ou capacidade subcontratada en Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8edb053467ef200ca3e051e2fd78106734318389
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 30e16efeed93ab4568eac57fb3ed46067a08524d
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261252"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522433"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Dotación de persoal dun proxecto con traballadores contratados e capacidade subcontratada
 
-_**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
+_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
 Os membros xenéricos do equipo do proxecto poden contar con empregados ou traballadores contratados. Ao dotar de persoal a un proxecto con traballadores contratados, pode limitar as súas opcións de persoal a traballadores contratados específicos que estean asignados a unha liña de subcontratación. 
 

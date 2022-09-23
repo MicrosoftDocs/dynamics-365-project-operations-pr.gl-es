@@ -2,20 +2,20 @@
 title: Recursos da liña de subcontrato
 description: Este artigo explica como especificar os recursos dedicados que proporciona o provedor para unha liña de subcontratación específica durante o tempo.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d440201fde26e835b407db0b8ee1de8d663311a0
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 04e3e5ee70c50068304a8a6c8f7e93df48ed7e85
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261462"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522370"
 ---
 # <a name="subcontract-line-resources"></a>Recursos da liña de subcontrato
 
-_**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
+_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
 En Dynamics 365 Project Operations, un fornecedor pode especificar os recursos que se utilizarán para subministrar a capacidade de recursos que se está a mercar na liña de subcontrato para tempo.
 

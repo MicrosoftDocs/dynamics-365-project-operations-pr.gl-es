@@ -2,20 +2,20 @@
 title: Liñas de subcontrato para tempo
 description: Este artigo explica como rexistrar liñas de subcontratación para o tempo e rexistrar a compra de tempo dos provedores.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8e9619dc713fde3127f552234e4a7427d99be683
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 3ba013dd7ad023acc4f0cf077099c8c2c8d5bcd8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261980"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522230"
 ---
 # <a name="subcontract-lines-for-time"></a>Liñas de subcontrato para tempo
 
-_**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
+_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
 Un subcontrato en Dynamics 365 Project Operations pode ter unha liña de subcontrato para tempo. As liñas de subcontrato permiten ao xestor de proxectos mercar tempo de recursos do fornecedor para as tarefas do proxecto do persoal e os requisitos de recursos.
 

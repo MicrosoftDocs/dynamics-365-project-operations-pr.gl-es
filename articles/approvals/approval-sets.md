@@ -6,12 +6,12 @@ ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ca205073edbce2b399aab3ae273d635c8af96765
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918080"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524914"
 ---
 # <a name="approval-sets"></a>Conxuntos de aprobacións
 
@@ -45,14 +45,9 @@ Seleccionar **Tentar de novo** engade ao reconto de vida útil do conxunto de ap
 ## <a name="configure-approval-sets"></a>Configurar conxuntos de aprobacións
 
 ### <a name="enable-the-approval-sets-feature"></a>Activar a funcionalidade de Conxuntos de aprobacións
-Antes de activar a funcionalidade de Conxuntos de aprobacións, comprobe que non hai aprobacións procesándose actualmente.
+Antes de activar a funcionalidade de Conxuntos de aprobacións, comprobe que non hai aprobacións procesándose actualmente. Despois de activar esta función, non se pode desactivar.
 
 - Vaia á páxina **Parámetros do proxecto** e seleccione **Control de funcionalidades** > **Activar aprobacións modernas**.
-
-### <a name="turn-off-the-approval-sets-feature"></a>Desactivar a funcionalidade de Conxuntos de aprobacións
-Antes de desactivar a funcionalidade de Conxuntos de aprobación, comprobe que non hai aprobacións procesándose actualmente.
-
-- Vaia á páxina **Parámetros do proxecto** e seleccione **Control de funcionalidades** > **Desactivar aprobacións modernas**.
 
 ### <a name="configuring-the-asynchronous-threshold"></a>Configuración do limiar asíncrono 
 Cando se crean conxuntos de aprobacións, o procesamento móvese a un segundo plano cando o número de rexistros seleccionado para a aprobación supera o limiar indicado. Use o campo **Limiar asíncrono** para configurar cando o proceso de aprobación debe executarse de xeito síncrono ou asíncrono. Seleccione un dos seguintes valores:
