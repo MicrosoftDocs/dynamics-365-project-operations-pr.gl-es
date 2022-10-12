@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Novidades
       items:
-        - name: Agosto de 2022 - Project Operations para situacións baseadas en recursos/sen fornecemento
-          href: whats-new/whats-new-aug-2022-resource-based.md
+        - name: Setembro de 2022 - Project Operations para situacións baseadas en recursos/sen fornecemento
+          href: whats-new/whats-new-sept-2022-resource-based.md
         - name: Arquivo
           items:
+            - name: Agosto de 2022 - Project Operations para situacións baseadas en recursos/sen fornecemento
+              href: whats-new/whats-new-aug-2022-resource-based.md
             - name: Xullo de 2022 - Project Operations para situacións baseadas en recursos/sen fornecemento
               href: whats-new/whats-new-july-2022-resource-based.md
             - name: Xuño de 2022 - Project Operations para situacións baseadas en recursos/sen fornecemento
@@ -668,10 +670,12 @@
           href: environment/security-model.md
     - name: Novidades
       items:
-        - name: Novidades de agosto de 2022 - despregamento lite
-          href: pro/whats-new/whats-new-aug-2022-lite.md
+        - name: Novidades de setembro de 2022 - despregamento lite
+          href: pro/whats-new/whats-new-sept-2022-lite.md
         - name: Arquivo
           items:
+            - name: Novidades de agosto de 2022 - despregamento lite
+              href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: Novidades de xullo de 2022 - despregamento lite
               href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Novidades de xuño de 2022 - despregamento lite
@@ -1180,10 +1184,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Novidades
       items:
-        - name: Novidades de xullo de 2022 - Project Operations para situacións baseadas en produción/con fornecemento
-          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: Novidades de setembro 2022 - Project Operations para situacións baseadas en produción/con fornecemento
+          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
         - name: Arquivo
           items:
+            - name: Novidades de xullo de 2022 - Project Operations para situacións baseadas en produción/con fornecemento
+              href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Novidades de xuño de 2022 - Project Operations para situacións baseadas en produción/con fornecemento
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
             - name: Novidades de outubro 2021 - Project Operations para situacións baseadas en produción/con fornecemento
@@ -1436,6 +1442,10 @@
       items:
         - name: Programación de versións de actualización para Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novidades ou cambios na versión 47 de actualización, V3'
+          href: psa/whats-new-ur-47.md
+        - name: 'Novidades ou cambios na versión 45 de actualización, V3'
+          href: psa/whats-new-ur-45.md
         - name: 'Novidades ou cambios na versión 44 de actualización, V3'
           href: psa/whats-new-ur-44.md
         - name: 'Novidades ou cambios na versión 43 de actualización, V3'
