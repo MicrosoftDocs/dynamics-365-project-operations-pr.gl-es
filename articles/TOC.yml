@@ -1534,7 +1534,15 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Novidades ou cambios en Project Service Automation V3
           href: psa/whats-new-changed-v3.md
-    - name: Planifique a súa implementación (versión 3.x da aplicación)
+    - name: Actualización de Project Service Automation (versión da aplicación Project Operations Lixeiro 4.x)
+      items:
+        - name: Actualizar de Project Service Automation a Project Operations
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: Cambios de funcionalidades de Project Service Automation a Project Operations
+          href: psa/psa-project-operations-changes.md
+        - name: Proceso de conversión de programación de proxectos de Project Service Automation a Project Operations
+          href: psa/PSA-Upgrade-Project-Conversion.md
+    - name: Planifique o seu despregamento (versión 3.x da aplicación)
       items:
         - name: Instalación dos datos de exemplo
           href: psa/install-sample-data-3-x.md
