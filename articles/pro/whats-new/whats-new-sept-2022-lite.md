@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 2cce7ae25f05258e8bf0bab9430324bc9b30e329
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
-ms.translationtype: HT
+ms.openlocfilehash: a02ac7a69489bc7974eb0e63c11fa5de74795b78
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621324"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634850"
 ---
 # <a name="whats-new-september-2022---project-operations-lite-deployment"></a>Novidades de setembro de 2022 - Despregamento de Project Operations lite
 
@@ -30,6 +30,7 @@ Este artigo aplícase aos seguintes compoñentes e versións de Microsoft Dynami
 | Facturación e prezos | **Prezo predeterminado independente da zona horaria**<br>Project Operations introduciu o concepto de data independente da zona horaria en todos os datos reais do proxecto. Un novo campo, **Data da transacción**, agora está dispoñible nas liñas e reais do diario, e utilizarase para almacenar a data na que se produciu a transacción, pero sen converter esa data en Tempo Universal Coordinado. Esta data utilizarase para procesos posteriores, como o incumprimento de prezos e a creación de facturas. | <p>[Determinar as taxas de custo para as estimacións e os reais baseados en proxectos](/dynamics365/project-operations/pro/pricing-costing/cost-price-resolution-sales)</p><p>[Determine os prezos de venda para estimacións e reais baseadas en proxectos](/dynamics365/project-operations/pro/pricing-costing/sales-price-resolution-sales)</p> |
 | Facturación e prezos | **Anulacións de prezos en vigor na data nas operacións do proxecto**<br>As anulacións de prezos efectivas na data ofrecen unha forma de anular ou cambiar prezos específicos na lista de prezos. | [Anulacións de prezos en vigor na data](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
 | Tempo e gasto | **Aprobador global**<br>Esta función permite o provedor de software independente (ISV) e a aprobación centralizada, independentemente do estado do proxecto ou do membro do equipo no proxecto. | [Seguridade e aprobacións](/dynamics365/project-operations/approvals/approvals-security) |
+|Planificación e rastrexo de proxectos|**Use as API de programación de proxectos para realizar operacións con entidades de programación** </br> </br>A API de edición de contornos de asignación de recursos permite aos desenvolvedores especificar mediante programación o esforzo dun asignado de tarefas en calquera intervalo de datas compatible para unha planificación do esforzo por fases máis detallada.|[Use as API de programación de proxectos para realizar operacións con entidades de programación](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="quality-updates"></a>Actualizacións de calidade
 

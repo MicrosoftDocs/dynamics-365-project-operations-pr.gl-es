@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932064"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655186"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Crear unha estrutura de subdivisión do traballo (WBS)
 
@@ -63,7 +63,7 @@ Siga os pasos que se indican a continuación para subir ou baixar o nivel dunha 
 
 ### <a name="move-tasks-up-and-down"></a>Mover tarefas arriba e abaixo
 
-As tarefas pódense mover a calquera nivel da estrutura de subdivisión do traballo de dous xeitos:
+As tarefas pódense mover a calquera nivel da estrutura de desglose do traballo de dúas formas:
 
 - Seleccione unha ou máis tarefas e arrástreas ata o lugar desexado.
 - Seleccione unha ou máis tarefas, prema o botón dereito e seleccione **Cortar**, seleccione a cela de destino na programación e prema co botón dereito e seleccione **Pegar**.
@@ -112,6 +112,18 @@ O campo **Categoría** contén os valores que indican un tipo de traballo máis 
 Pode usar a programación en Project Operations para crear relacións predecesoras entre tarefas. O campo **Predecesor** utiliza un ou varios valores para indicar as tarefas das que depende unha tarefa. Cando se atribúe valores predecesores a unha tarefa, a tarefa só pode iniciarse despois de que conclúan todas as tarefas predecesoras. Por mor da dependencia, a data de inicio prevista da tarefa restablécese á data na que se completaron as tarefas predecesoras.
 
 O modo de tarefa non ten efecto nas actualizacións que se realizan ás datas de inicio e finalización das tarefas predecesoras/dependentes.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Comprender os impactos da duración, os calendarios de recursos e os calendarios de proxectos nas tarefas
+A duración dunha tarefa defínese como o número de horas de traballo entre a hora de inicio da data de inicio e a hora de finalización da data de finalización da tarefa.   O proxecto para a web define as unidades de medida de duración do seguinte xeito:
+
+| **Medida de duración** | **Importe**|
+|----------------------------------------------------|----------------------|
+| Horas ao día | 8 |
+| Horas á semana |  40 |
+| Días ao mes |  20 |
+
+As tarefas non asignadas están programadas mediante o calendario do proxecto. Non obstante, tras a asignación inicial de recursos, a programación dunha tarefa actualízase para que respecte o calendario do recurso. Os cambios posteriores a unha tarefa que teña asignación rexeranse polo [modo de programación](scheduling-modes.md) do proxecto. Para obter máis información sobre a influencia dos calendarios nas tarefas, consulte [Calendarios de recursos en Project para a web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) e [Horas de inicio das tarefas e os teus proxectos!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Atallos de teclado e accesibilidade
 
