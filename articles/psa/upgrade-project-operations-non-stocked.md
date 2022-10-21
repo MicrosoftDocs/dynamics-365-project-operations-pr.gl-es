@@ -1,9 +1,9 @@
 ---
-title: Actualiza de Project Service Automation a Project Operations
+title: Actualizar de Project Service Automation a Project Operations
 description: Este artigo ofrece unha visión xeral do proceso desde o que se actualiza Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/13/2022
+ms.date: 10/11/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,28 +16,28 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
-ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
-ms.translationtype: MT
+ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
+ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
+ms.translationtype: HT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9446033"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9686973"
 ---
-# <a name="upgrade-from-project-service-automation-to-project-operations"></a>Actualiza de Project Service Automation a Project Operations
+# <a name="upgrade-from-project-service-automation-to-project-operations"></a>Actualizar de Project Service Automation a Project Operations
 
-Estamos encantados de anunciar a primeira das tres fases para a actualización Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Project Operations. Este artigo ofrece unha visión xeral para os clientes que se están embarcando nesta emocionante viaxe. Os artigos futuros incluirán consideracións para os desenvolvedores e detalles sobre as melloras das funcións. Non só proporcionarán orientación para axudarche a preparar a túa actualización a Project Operations, senón que tamén explicarán o que podes esperar despois de actualizar.
+Estamos encantados de anunciar a segunda das tres fases para a actualización Microsoft Dynamics 365 Project Service Automation a Microsoft Dynamics 365 Project Operations. Este artigo ofrece unha visión xeral para os clientes que se están embarcando nesta emocionante viaxe. 
 
 O programa de entrega de actualizacións dividirase en tres fases.
 
 | Actualizar a entrega | Fase 1 (xaneiro de 2022) | Fase 2 (novembro 2022) | Fase 3 (Onda de abril de 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Non depende da estrutura de desagregación do traballo (WBS) dos proxectos | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| O WBS dentro dos límites actualmente soportados das operacións do proxecto | | :heavy_check_mark: | :heavy_check_mark: |
-| O WBS fóra dos límites actualmente soportados de Project Operations, incluído o soporte para o cliente de escritorio de Project | | | :heavy_check_mark: |
+| Un WBS dentro dos límites actualmente soportados das operacións do proxecto | | :heavy_check_mark: | :heavy_check_mark: |
+| Un WBS fóra dos límites actualmente compatibles de Project Operations, incluíndo soporte para o cliente de escritorio de Project | | | :heavy_check_mark: |
 
 ## <a name="upgrade-process-features"></a>Actualizar as características do proceso 
 
-Como parte do proceso de actualización, engadimos rexistros de actualización ao mapa do sitio, para que os administradores poidan diagnosticar erros máis facilmente. Ademais da nova interface, engadiranse novas regras de validación para garantir a integridade dos datos despois dunha actualización. As seguintes validacións engadiranse ao proceso de actualización.
+Como parte do proceso de actualización, engadimos rexistros de actualizacións ao mapa do sitio para que os administradores poidan diagnosticar erros máis facilmente. Ademais da nova interface, engadiranse novas regras de validación para garantir a integridade dos datos despois dunha actualización. As seguintes validacións engadiranse ao proceso de actualización.
 
 | Validacións | Fase 1 (xaneiro de 2022) | Fase 2 (novembro 2022) | Fase 3  |
 |-------------|------------------------|---------------------------|---------------------------|
@@ -46,24 +46,31 @@ Como parte do proceso de actualización, engadimos rexistros de actualización a
 | O WBS validarase contra os límites coñecidos do cliente de escritorio do proxecto. | |  | :heavy_check_mark: |
 | Os recursos reservables e os calendarios de proxectos avaliaranse en función das excepcións comúns ás regras de calendario incompatibles. | | :heavy_check_mark: | :heavy_check_mark: |
 
-Na fase 2, os clientes que se actualicen a Project Operations terán os seus proxectos existentes actualizados a unha experiencia de só lectura para a planificación do proxecto. Nesta experiencia de só lectura, o WBS completo estará visible na grella de seguimento. Para editar a WBS, os xestores de proxectos poden seleccionar **Converter** na principal **Proxectos** páxina. A continuación, un proceso en segundo plano actualizará o proxecto para que admita a nova experiencia de programación de proxectos de Project for the Web. Esta fase é axeitada para clientes que teñan proxectos que encaixan dentro do [límites coñecidos de Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+Na fase 2, os clientes que se actualicen a Project Operations terán os seus proxectos existentes actualizados a unha experiencia de só lectura para a planificación do proxecto. Nesta experiencia de só lectura, o WBS completo estará visible na grella de seguimento. Para editar a WBS, os xestores de proxectos poden seleccionar [**Converter**](/PSA-Upgrade-Project-Conversion.md) na páxina principal do proxecto. A continuación, un proceso en segundo plano actualiza o proxecto para que admita a nova experiencia de programación de proxectos de Project for the Web. Esta fase é axeitada para clientes que teñan proxectos que encaixan dentro do [límites coñecidos de Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 
-Na fase 3 engadirase soporte para o cliente de escritorio de Project, en beneficio dos clientes que queiran seguir editando os seus proxectos desde esa aplicación. Non obstante, se os proxectos existentes se converten á nova experiencia Project for the Web, o acceso ao complemento desactivarase para cada proxecto convertido.
+Na fase 3 engadirase soporte para o cliente de escritorio de Project, en beneficio dos clientes que queiran seguir editando os seus proxectos desde esa aplicación. Non obstante, se os proxectos existentes se converten á nova experiencia Proxecto para a web, o acceso ao complemento desactivarase para cada proxecto convertido.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Para ser elixible para a actualización da fase 1, un cliente debe cumprir os seguintes criterios:
+Para ser elixible para a actualización da Fase 1, debes cumprir os seguintes criterios:
 
 - O ambiente de destino non debe conter ningún rexistro no **msdyn_projecttask** entidade.
-- As licenzas válidas de Project Operations deben asignarse a todos os usuarios activos do cliente. 
-- O cliente debe validar o proceso de actualización en polo menos un ambiente que non sexa de produción que teña un conxunto de datos representativo que estea aliñado cos datos de produción.
-- O ambiente de destino debe actualizarse á versión de actualización de Project Service Automation 41 (3.10.62.162) ou posterior.
+- As licenzas válidas de Project Operations deben asignarse a todos os usuarios activos. 
+- Debe validar o proceso de actualización en polo menos un ambiente que non sexa de produción que conteña un conxunto de datos representativo que estea aliñado co seu ambiente de produción.
+- O ambiente de destino debe actualizarse á versión 37 de actualización de Project Service Automation (V3.10.58.120) ou posterior.
 
-Os requisitos previos para as fases 2 e 3 actualizaranse a medida que se aproximen as datas xerais de dispoñibilidade.
+Para ser elixible para a actualización da Fase 2, debes cumprir os seguintes criterios:
+
+- As licenzas válidas de Project Operations deben asignarse a todos os usuarios activos. 
+- Debe validar o proceso de actualización en polo menos un ambiente que non sexa de produción que conteña un conxunto de datos representativo que estea aliñado co seu ambiente de produción.
+- O ambiente de destino debe actualizarse á versión 37 de actualización de Project Service Automation (V3.10.58.120) ou posterior.
+- Os ambientes que conteñen tarefas (msdyn_projecttask) só son compatibles se o número total de tarefas por proxecto é 500 ou menos.
+
+Os requisitos previos para a Fase 3 actualizaranse a medida que se aproxime a data de dispoñibilidade xeral.
 
 ## <a name="licensing"></a>Obtención de licenzas
 
-Se tes licenzas activas para Project Service Automation, podes instalar e usar Project Operations, que inclúe todas as capacidades de Project Service Automation e moito máis. Deste xeito, podes probar as capacidades de Project Operations mentres continúas usando Project Service Automation na produción. Despois de que caduquen as licenzas de Project Service Automation, terás que pasar a Project Operations. Cando planifiques esta transición, debes ter en conta o feito de que a licenza de Project Operations non inclúe unha licenza de Project Service Automation.
+Se tes licenzas activas para Project Service Automation, podes instalar e usar Project Operations, que inclúe todas as capacidades de Project Service Automation e moito máis. Despois podes probar as capacidades de Project Operations nun ambiente separado mentres continúas usando Project Service Automation na produción. Despois de que caduquen as licenzas de Project Service Automation, terás que pasar a Project Operations. Cando planifiques esta transición, debes ter en conta o feito de que a licenza de Project Operations non inclúe unha licenza de Project Service Automation.
 
 ## <a name="testing-and-refactoring-customizations"></a>Proba e refactorización de personalizacións
 
@@ -87,14 +94,23 @@ Despois de actualizar as túas personalizacións para importar correctamente as 
 
     Despois de completar a actualización, o ambiente debería mostrar que Project Operations está instalado e que Project Service Automation non está instalado.
 
-    > [!NOTE]
-    > Dependendo da cantidade de datos do contorno, a actualización pode levar varias horas. O equipo principal que xestiona a actualización debe planificar en consecuencia e executar a actualización durante as horas non laborables. Nalgúns casos, se o volume de datos é grande, a actualización debería executarse durante a fin de semana. A decisión sobre a programación debe basearse nos resultados das probas en ambientes inferiores.
+    Dependendo da cantidade de datos do contorno, a actualización pode levar varias horas. O equipo principal que xestiona a actualización debe planificar en consecuencia e executar a actualización durante as horas non laborables. Nalgúns casos, se o volume de datos é grande, a actualización debería executarse durante a fin de semana. A decisión sobre a programación debe basearse nos resultados das probas en ambientes inferiores.
 
 3. Actualiza as solucións personalizadas segundo corresponda. Neste punto, implementa todos os cambios que fixeches nas túas personalizacións no ficheiro [Proba e refactorización de personalizacións](#testing-and-refactoring-customizations) sección deste artigo.
 4. Ir a **Configuración** \> **Solucións**, e seleccione para desinstalar **Operacións do proxecto Compoñentes obsoletos** solución.
 
     Esta solución é unha solución temporal que contén o modelo de datos existente e os compoñentes que están presentes durante a actualización. Ao eliminar esta solución, elimina todos os campos e compoñentes que xa non se usan. Deste xeito, axudas a simplificar a interface e facilita a integración e a extensión.
     
+### <a name="upgrade-to-project-operations-lite"></a>Actualiza a Project Operations Lite
+
+Os seguintes pasos describen o proceso de actualización e o rexistro de erros asociado:
+
+1. **Verificación da versión de PSA:** Para instalar Project Operations, debes ter V3.10.58.120 ou superior.
+1. **Validación previa:** Cando un administrador inicia unha actualización, o sistema executa unha operación de validación previa en cada entidade que é o núcleo da solución Project Operations. Este paso verifica que todas as referencias de entidades sexan válidas e garante que os datos relacionados coa WBS estean dentro dos límites publicados de Project for the Web.
+1. **Actualización de metadatos:** Despois da validación previa exitosa, o sistema inicia cambios no esquema e crea unha solución de compoñentes obsoletos. Podes eliminar esta solución obsoleta despois de completar toda a refactorización necesaria das personalizacións. Este paso é a parte máis longa do proceso de actualización e pode tardar ata catro horas en completarse.
+1. **Actualización de datos:** Despois de que se completen todos os cambios de esquema necesarios no paso de actualización de metadatos, os teus datos migráranse ao novo esquema e realízanse os predeterminados e os recálculos necesarios.
+1. **Actualización do motor de programación do proxecto:** Despois da actualización de datos exitosa, o **Horario** a pestana da páxina principal reetiquetárase **Tarefas**. Cando un usuario selecciona esta pestana despois da actualización, diríxese a que vaia á grella de seguimento para ver unha versión de só lectura do WBS. Para editar a WBS, deben iniciar a programación [proceso de conversión](/PSA-Upgrade-Project-Conversion.md). Todos os proxectos sen WBS preexistente poden usar a nova experiencia de programación directamente, sen conversión.
+ 
 ### <a name="validate-common-scenarios"></a>Validar escenarios comúns
 
 Cando valides as túas personalizacións específicas, recomendámosche que revises tamén os procesos comerciais admitidos nas aplicacións. Estes procesos de negocio inclúen, pero non se limitan a, a creación de entidades de vendas, como cotizacións e contratos, e a creación de proxectos que inclúan WBS e aprobación de reais.
@@ -107,7 +123,7 @@ Esta sección ofrece un resumo dos principais cambios que pode esperar entre Pro
 
 As capacidades de planificación de proxectos en Project Operations xa non dependen dunha combinación de lóxica do lado cliente e lóxica do servidor. Pola contra, Project Operations usa Project for the Web como motor de programación. Este cambio nas capacidades de programación permite varias funcións novas, como vistas de Board e Gantt, planificación baseada en recursos, [elementos da lista de verificación de tarefas](https://support.microsoft.com/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c), e modos de programación de proxectos. As novas capacidades de programación tamén están soportadas por un rico conxunto de novas [interfaces de programación de aplicacións (API)](../project-management/schedule-api-preview.md). Estas API están destinadas a garantir que ningunha operación programática para crear, actualizar ou eliminar unha entidade no WBS corrompe os campos calculados na programación.
 
-## <a name="billing-and-pricing"></a>Facturación e prezos
+### <a name="billing-and-pricing"></a>Facturación e prezos
 
 Como parte dos investimentos continuos en Operacións do proxecto, hai dispoñibles varias capacidades novas en Facturación e prezos. Aquí van algúns exemplos:
 
@@ -116,6 +132,10 @@ Como parte dos investimentos continuos en Operacións do proxecto, hai dispoñib
 - [Contratos baseados en adiantos e retencións](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
 - [Estado de non exceder do contrato e validacións](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
 - Facturación baseada en tarefas
+
+### <a name="resource-management"></a>Xestión de recursos
+
+Project Operations ofrece soporte opcional para Universal Resource Scheduling (URS) axudante de planificación e consello. Esta nova experiencia será obrigatoria na onda de abril de 2023.
 
 ## <a name="frequently-asked-questions"></a>Preguntas máis frecuentes
 
@@ -136,5 +156,4 @@ Hai dúas opcións para instalar Project Operations antes de que a ferramenta de
 - Proporcionar un novo ambiente.
 - Implementa Project Operations por separado en calquera organización de vendas onde Project Service Automation non estea presente.
 
-> [!NOTE]
-> Se Project Service Automation está instalado nunha organización, pero non se utilizou, pódese desinstalar. Despois de eliminar completamente Project Service Automation, Project Operations pódese instalar na mesma organización.
+Se Project Service Automation está instalado nunha organización, pero non se utilizou, pódese desinstalar. Despois de eliminar completamente Project Service Automation, Project Operations pódese instalar na mesma organización.
