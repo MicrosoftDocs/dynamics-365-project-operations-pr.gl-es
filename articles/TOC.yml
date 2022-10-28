@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: Como podo personalizar o fluxo do proceso de negocio nas fases do proxecto?
               href: psa/FAQ-customize-bpf.md
-            - name: Consideracións de actualización da estrutura de subdivisión do traballo
-              href: psa/upgrade-considerations-tasks.md
         - name: Notas do produto
           href: psa/white-papers.md
         - name: Guía do administrador
