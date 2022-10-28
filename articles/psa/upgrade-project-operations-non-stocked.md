@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
-ms.translationtype: HT
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9686973"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709442"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Actualizar de Project Service Automation a Project Operations
 
@@ -48,7 +48,7 @@ Como parte do proceso de actualización, engadimos rexistros de actualizacións 
 
 Na fase 2, os clientes que se actualicen a Project Operations terán os seus proxectos existentes actualizados a unha experiencia de só lectura para a planificación do proxecto. Nesta experiencia de só lectura, o WBS completo estará visible na grella de seguimento. Para editar a WBS, os xestores de proxectos poden seleccionar [**Converter**](/PSA-Upgrade-Project-Conversion.md) na páxina principal do proxecto. A continuación, un proceso en segundo plano actualiza o proxecto para que admita a nova experiencia de programación de proxectos de Project for the Web. Esta fase é axeitada para clientes que teñan proxectos que encaixan dentro do [límites coñecidos de Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 
-Na fase 3 engadirase soporte para o cliente de escritorio de Project, en beneficio dos clientes que queiran seguir editando os seus proxectos desde esa aplicación. Non obstante, se os proxectos existentes se converten á nova experiencia Proxecto para a web, o acceso ao complemento desactivarase para cada proxecto convertido.
+Na fase 3 engadirase soporte para o cliente de escritorio de Project, en beneficio dos clientes que queiran seguir editando os seus proxectos desde esa aplicación. Non obstante, se os proxectos existentes se converten á nova experiencia Project for the Web, o acceso ao complemento desactivarase para cada proxecto convertido.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -70,7 +70,7 @@ Os requisitos previos para a Fase 3 actualizaranse a medida que se aproxime a da
 
 ## <a name="licensing"></a>Obtención de licenzas
 
-Se tes licenzas activas para Project Service Automation, podes instalar e usar Project Operations, que inclúe todas as capacidades de Project Service Automation e moito máis. Despois podes probar as capacidades de Project Operations nun ambiente separado mentres continúas usando Project Service Automation na produción. Despois de que caduquen as licenzas de Project Service Automation, terás que pasar a Project Operations. Cando planifiques esta transición, debes ter en conta o feito de que a licenza de Project Operations non inclúe unha licenza de Project Service Automation.
+Se tes licenzas activas para Project Service Automation, podes instalar e usar Project Operations, que inclúe todas as capacidades de Project Service Automation e moito máis. Deste xeito, podes probar as capacidades de Project Operations mentres continúas usando Project Service Automation na produción. Despois de que caduquen as licenzas de Project Service Automation, terás que pasar a Project Operations. Cando planifiques esta transición, debes ter en conta o feito de que a licenza de Project Operations non inclúe unha licenza de Project Service Automation. Os clientes que teñan escenarios nos que implementaron Project Service Automation e necesitan seguir utilizando ou aumentando as súas licenzas para PSA mentres planean pasar a Project Operations, poden solicitar licenzas temporais de PSA en función das licenzas adquiridas por Project Operations. Emitirase unha licenza de Project Service Automation para unha licenza de Project Operations. Pódense solicitar licenzas PSA temporais mediante esta ligazón: aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>Proba e refactorización de personalizacións
 
