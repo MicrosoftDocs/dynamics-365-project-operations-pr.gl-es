@@ -1,6 +1,6 @@
 ---
 title: Engadir campos personalizados a configuración de prezos e entidades transaccionais
-description: Este artigo ofrece información sobre como engadir campos personalizados á configuración de prezos e ás entidades transaccionais.
+description: Este artigo fornece información sobre como engadir campos personalizados á configuración de prezos e ás entidades transaccionais.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,9 +27,9 @@ ms.locfileid: "8920472"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Este artigo asume que completaches os procedementos do artigo, [Crear campos e entidades personalizados](create-custom-fields-entities.md). Se non completaches eses procedementos, volve e complétaos e despois volve a este artigo. 
+Este artigo supón que completou os procedementos do artigo, [Crear campos e entidades personalizados](create-custom-fields-entities.md). Se non completou eses procedementos, volva e compléteos e despois volva a este artigo. 
 
-Neste artigo, os procedementos mostraranlle como engadir as referencias de campos personalizados necesarios ás entidades e aos elementos da interface de usuario (UI), como formularios e vistas.
+Neste artigo, os procedementos amosaranlle como engadir as referencias de campo personalizadas necesarias ás entidades e aos elementos de interface de usuario (IU) como formularios e vistas.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Engadir campos de dimensión de prezos personalizados 
 Despois de que se crearon campos e entidades personalizadas, o seguinte paso é facer que a configuración de prezos e as entidades transaccionais coñezan as entidades personalizadas ou conxuntos de opcións creando campos de referencia. Dependendo de se a lista de dimensións de prezos inclúe dimensións de conxunto de opcións ou dimensións de entidade ou ambas, siga só os pasos de **Dimensións de prezos personalizados baseadas en conxunto de opcións** ou **Dimensións dos prezos personalizados baseadas na entidade**, ou ambos, respectivamente.

@@ -28,7 +28,7 @@ _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fo
 
 As unidades son as cantidades ou medidas en que se venden os produtos ou servizos. Por exemplo, se vende subministros para xardinería, é posible que venda sementes en unidades de paquetes, caixas e pallets. Un grupo de unidades é unha recompilación destas unidades.
 
-Para completar os pasos deste artigo, asegúrese de ter asignado o rol de administrador do sistema ou de xestor de profesionais de vendas ou ter permisos equivalentes.
+Para completar os pasos deste artigo, asegúrese de que se lle atribuíu o rol de Administrador do sistema ou Xestor de Sales Professional ou que ten permisos equivalentes.
 
 ## <a name="create-a-unit-group"></a>Crear un grupo de unidades
 

@@ -1,6 +1,6 @@
 ---
 title: Xestionar propostas de facturas de proxecto
-description: Este artigo ofrece detalles sobre o procesamento de facturas dirixidas ao cliente con Project Operations para escenarios baseados en recursos ou non almacenados.
+description: Este artigo ofrece detalles sobre o procesamento de facturas orientadas ao cliente con Project Operations para escenarios baseados en recursos/sen fornecemento.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -22,7 +22,7 @@ O seu departamento de facturación pode procesar as propostas de factura do prox
   - O xestor de proxectos confirma a factura proforma en Microsoft Dataverse.
   - Todas as transaccións de vendas sen facturar de tempo e material incluídas na factura proforma contabilízanse mediante o diario de Dynamics 365 **Project Operations Integration**.
 
-Use os seguintes pasos para completar unha proposta de factura de proxecto en Dynamics 365 Finance.
+Use os seguintes pasos para completar unha proposta de factura do proxecto en Dynamics 365 Finance.
 
 1. Revise a información de facturación por transaccións de tempo e material e publique o diario de **Project Operations Integration**.
 2. Revise a información de facturación dos fitos de facturación a prezo fixo.

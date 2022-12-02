@@ -1,6 +1,6 @@
 ---
 title: Preguntas frecuentes sobre xestión de recursos.
-description: Este artigo ofrece respostas ás preguntas máis frecuentes sobre a xestión de recursos.
+description: Este artigo ofrece respostas a preguntas frecuentes sobre xestión de recursos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

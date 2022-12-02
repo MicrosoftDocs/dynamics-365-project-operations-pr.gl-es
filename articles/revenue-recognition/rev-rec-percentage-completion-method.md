@@ -1,6 +1,6 @@
 ---
 title: Proxectos de estimación de ingresos a prezo fixo
-description: Este artigo ofrece información sobre os ingresos por prezos fixos nos proxectos.
+description: Este artigo fornece información sobre os ingresos a prezo fixo en proxectos.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -26,7 +26,7 @@ Cando crea unha liña de contrato de proxecto cos seguintes atributos en Dynamic
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Revisar proxectos de estimacións de ingresos a prezo fixo
 Para revisar os proxectos de estimación de ingresos a prezo fixo, complete os seguintes pasos:
 
-1. No entorno Dynamics 365 Finance, vai a **Xestión de proxectos e contabilidade** > **Proxectos** > **Proxectos de estimación de ingresos a prezos fixos**.
+1. No ambiente de Dynamics 365 Finance , vaia a **Xestión e contabilidade de proxectos** > **Proxectos** > **Proxectos de estimación de ingresos a prezo fixo**.
 2. Seleccione o proxecto que desexa ver e prema dúas veces en **ID do proxecto de estimación** para abrir o rexistro e revisar os detalles do proxecto.
 3. Expanda o separador **Proxecto**. Verá un proxecto na grade **Proxectos seleccionados**. O sistema usa isto como proxecto predefinido porque é o proxecto asociado á liña de contrato do proxecto. 
 4. Para cambiar a asociación, seleccione proxectos adicionais e engádaos á grade **Proxectos seleccionados**. Se se seleccionan varios proxectos nesta grade, a porcentaxe de finalización do proxecto e as estimacións de ingresos calcúlanse conxuntamente para todos os proxectos seleccionados.

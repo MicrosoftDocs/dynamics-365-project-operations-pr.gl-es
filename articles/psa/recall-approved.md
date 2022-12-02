@@ -1,6 +1,6 @@
 ---
 title: Recuperar entradas de tempo ou gasto aprobadas previamente
-description: Este artigo ofrece información sobre como recuperar unha transacción de tempo ou gasto previamente aprobada.
+description: Este artigo fornece información sobre como recuperar unha transacción de tempo e gasto de proxecto aprobada previamente.
 author: rumant
 ms.custom: ''
 ms.author: rumant

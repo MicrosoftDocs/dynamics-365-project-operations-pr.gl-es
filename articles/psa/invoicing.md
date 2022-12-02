@@ -1,6 +1,6 @@
 ---
 title: Facturación en Project Service Automation
-description: Este artigo ofrece información sobre a facturación.
+description: Este artigo fornece información sobre facturación.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -94,7 +94,7 @@ Despois de que **ProcessRunner** remate a execución, chama a **ProcessRunCaller
 O traballo de proceso por lotes para crear facturas é un traballo recorrente. Se este proceso de lotes se executa moitas veces, créanse varias instancias do traballo e causan erros. Polo tanto, debe iniciar o proceso por lotes unha soa vez e só debe reinicialo se deixa de executarse.
 
 > [!NOTE]
-> A facturación por lotes en Project Service Automation só se executa para liñas de contrato de proxecto que están configuradas por programacións de facturas. Unha liña de contrato cun método de facturación de prezos fixos debe ter configurados os fitos. Unha liña de contrato de proxecto cun método de facturación de tempo e material necesitará unha programación de facturas baseado na data configurada. Información sobre a configuración de frecuencias de facturación no contexto dun proxecto que se basea nunha liña de cotización, ofrécese no artigo, [Citas e liñas de citas](basic-quote-lines.md#invoice-schedule). O mesmo se aplica a unha liña de contrato baseada nun proxecto.      
+> A facturación por lotes en Project Service Automation só se executa para liñas de contrato de proxecto que están configuradas por programacións de facturas. Unha liña de contrato cun método de facturación de prezos fixos debe ter configurados os fitos. Unha liña de contrato de proxecto cun método de facturación de tempo e material necesitará unha programación de facturas baseado na data configurada. A información sobre a configuración de frecuencias de facturación no contexto dun proxecto baseado nunha liña de oferta inclúese no artigo [Ofertas e liñas de oferta](basic-quote-lines.md#invoice-schedule). O mesmo se aplica a unha liña de contrato baseada nun proxecto.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Edita un borrador de factura PSA
 

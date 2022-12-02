@@ -1,6 +1,6 @@
 ---
 title: Prezos de proxecto
-description: Este artigo ofrece información sobre como funciona o prezo en Dynamics 365 Project Service Automation.
+description: Este artigo fornece información sobre como funcionan os prezos en Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice

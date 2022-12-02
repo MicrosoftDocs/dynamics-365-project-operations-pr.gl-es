@@ -1,6 +1,6 @@
 ---
 title: Escenarios de varias moedas (versión 3.x)
-description: Este artigo ofrece información sobre escenarios de varias moedas.
+description: Este artigo fornece información sobre escenarios de varias moedas.
 author: rumant
 ms.custom:
 - dyn365-projectservice

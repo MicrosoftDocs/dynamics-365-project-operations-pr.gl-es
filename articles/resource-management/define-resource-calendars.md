@@ -1,6 +1,6 @@
 ---
 title: Definir calendarios de recursos
-description: Este artigo ofrece información sobre como definir os calendarios de horas de traballo para os recursos en Project Operations.
+description: Este artigo ofrece información sobre como definir os calendarios de horas de traballo para recursos en Project Operations.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

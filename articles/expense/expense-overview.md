@@ -1,6 +1,6 @@
 ---
 title: Visión xeral dos gastos
-description: Este artigo ofrece información sobre a funcionalidade de gastos en Operacións do proxecto.
+description: Este artigo ofrece información sobre a funcionalidade de gasto en Project Operations.
 author: stsporen
 ms.date: 10/06/2020
 ms.topic: overview

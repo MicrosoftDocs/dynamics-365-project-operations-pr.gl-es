@@ -1,6 +1,6 @@
 ---
 title: Unidades organizativas avanzadas
-description: Este artigo ofrece información sobre as unidades organizativas en Dynamics 365 Project Service Automation.
+description: Este artigo fornece información sobre as unidades organizativas en Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -24,7 +24,7 @@ ms.contentlocale: gl-ES
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8927096"
 ---
-# <a name="about-organizational-units"></a>Sobre as unidades organizativas 
+# <a name="about-organizational-units"></a>Acerca das unidades organizativas 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 

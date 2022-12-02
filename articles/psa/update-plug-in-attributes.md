@@ -1,6 +1,6 @@
 ---
 title: Actualizar os atributos do complemento para incluír novas dimensións de prezos
-description: Este artigo ofrece información sobre a actualización dos atributos do complemento para as dimensións de prezos.
+description: Este artigo fornece información sobre a actualización dos atributos do complemento para as dimensións de prezos.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -27,9 +27,9 @@ ms.locfileid: "8913204"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Se non estás a usar as funcións de cotización e contratación de Project Service Automation (PSA), podes omitir este artigo.
+> Se non está a usar as funcións de ofertas e contratación de Project Service Automation (PSA), pode omitir este artigo.
 
-Este artigo asume que completou os procedementos dos artigos, [Crear campos e entidades personalizados](create-custom-fields-entities.md),[Engade campos personalizados á configuración de prezos e ás entidades transaccionais](field-references.md), e [Configura campos personalizados como dimensións de prezos](set-up-pricing-dimensions.md). Se non completaches eses procedementos, volve e complétaos e despois volve a este artigo.
+Este artigo asume que completou os procedementos nos artigos [Crear campos e entidades personalizados](create-custom-fields-entities.md), [Engadir campos personalizados a configuración de prezos e entidades transaccionais](field-references.md) e [Configurar campos personalizados como dimensións de prezos](set-up-pricing-dimensions.md). Se non completou eses procedementos, volva e compléteos e despois volva a este artigo.
 
 Cando se crea un detalle de liña de oferta na páxina **Liña de oferta** para unha liña de oferta do proxecto, o sistema crea dúas liñas de estimación en segundo plano: unha liña para o lado de custo da estimación e outra para o lado de vendas. Isto é o mesmo para as liñas de contrato do proxecto.
 

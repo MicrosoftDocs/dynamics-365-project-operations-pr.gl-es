@@ -1,6 +1,6 @@
 ---
 title: Análise de ofertas de proxecto
-description: Este artigo ofrece información sobre a análise das cotizacións do proxecto.
+description: Este artigo fornece información sobre a análise de ofertas de proxecto.
 author: rumant
 ms.custom:
 - dyn365-projectservice

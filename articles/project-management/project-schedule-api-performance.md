@@ -17,12 +17,12 @@ ms.locfileid: "8911180"
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento, despregamento de Lite: facturación proforma, Project for the Web_
 
-Este artigo ofrece información sobre os puntos de referencia de rendemento das interfaces de programación de aplicacións (API) de programación do proxecto e identifica as mellores prácticas para optimizar o uso.
+Este artigo ofrece información sobre os puntos de referencia de rendemento das interfaces de programación de aplicacións (API) de programación do proxecto e identifica as mellores prácticas para un uso optimizado.
 
 ## <a name="project-scheduling-service"></a>Servizo de programación de proxectos
 O servizo de programación de proxectos é un servizo de varios arrendatarios que se executa en Microsoft Azure. Está deseñado para mellorar a interacción proporcionando unha experiencia rápida e fluída cando os usuarios traballan en proxectos. Esta mellora conséguese aceptando solicitudes de cambio, procesándoas e devolvendo inmediatamente o resultado. O servizo persiste de forma asíncrona en Dataverse e non impide que os usuarios realicen outras operacións.
 
-As API de programación de proxectos confían no Servizo de programación de proxectos para executar solicitudes que se describen con máis detalle nas seccións posteriores deste artigo.
+As API de programación de proxectos dependen do servizo de programación de proxectos para executar solicitudes que se describen con máis detalle en seccións posteriores deste artigo.
 
 As API de programación do proxecto están deseñadas para funcionar coas seguintes entidades de estrutura de subdivisión do traballo (WBS):
 

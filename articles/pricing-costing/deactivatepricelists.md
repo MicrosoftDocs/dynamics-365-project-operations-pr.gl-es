@@ -1,6 +1,6 @@
 ---
 title: Desactivar listas de prezos
-description: Este artigo explica como desactivar ou eliminar as listas de prezos antigas ou non utilizadas.
+description: Este artigo explica como desactivar ou eliminar listas de prezos non usadas ou antigas.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

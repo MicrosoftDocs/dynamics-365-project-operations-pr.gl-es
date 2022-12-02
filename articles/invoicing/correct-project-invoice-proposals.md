@@ -19,7 +19,7 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 
 O xestor do proxecto mantén os *Detalles operativos* para as facturas do proxecto nunha factura proforma. Estes detalles inclúen a decisión sobre as horas, gastos, materiais ou fitos que se deben facturar, as taxas e a aplicación dos importes de adiantos e retencións. Despois de confirmar a factura proforma orixinal, pode axustar os detalles operativos creando e confirmando unha [factura pro forma correctiva](../proforma-invoicing/corrective-invoices.md).
 
-os *Detalles de contabilidade* para as facturas do proxecto mantéñense nun documento de factura orientado ao cliente. Estes detalles inclúen o cálculo do imposto sobre as vendas e as dimensións financeiras que se aplican á factura. Este artigo ofrece detalles sobre como se poden axustar estes detalles contables nun borrador de proposta de factura de proxecto.
+os *Detalles de contabilidade* para as facturas do proxecto mantéñense nun documento de factura orientado ao cliente. Estes detalles inclúen o cálculo do imposto sobre as vendas e as dimensións financeiras que se aplican á factura. Este artigo ofrece detalles sobre como se poden axustar estes detalles de contabilidade nun borrador de proposta de factura do proxecto.
 
 ## <a name="adjust-sales-tax"></a>Axustar imposto sobre as vendas
 
@@ -29,13 +29,13 @@ Os grupos de impostos sobre as vendas de facturación por defecto e os grupos de
 
 ### <a name="header-dimensions"></a>Dimensións da cabeceira
 
-De forma predeterminada, as dimensións financeiras das facturas derívanse dos rexistros de transaccións do proxecto non facturados que se están facturando. Non obstante, a configuración do sistema permítelle utilizar dimensións financeiras na cabeceira das propostas de factura do proxecto para contabilizar os saldos dos clientes. Para activar esta función, seleccione **Permitir actualizacións das dimensións do proxecto para as contas por cobrar** no **Finanzas** ficha da **Xestión de proxectos e parámetros contables** páxina.
+De forma predefinida, as dimensións financeiras das facturas derívanse dos rexistros de transaccións do proxecto non facturados que se están a facturar. Non obstante, a configuración do sistema permítelle utilizar dimensións financeiras na cabeceira das propostas de factura do proxecto para contabilizar os saldos dos clientes. Para activar esta función, seleccione **Permitir actualizacións das dimensións do proxecto para as contas pendentes de cobro** no separador **Finanzas** da páxina **Xestión e contabilidade de proxectos**.
 
-As dimensións financeiras das cabeceiras das facturas pódense editar antes de que se publique unha factura. No **Proposta de factura do proxecto** páxina, cambie á páxina **Cabeceira** ver e, a continuación, editar os valores en **Dimensións financeiras** ficha.
+As dimensións financeiras das cabeceiras das facturas pódense editar antes de que se contabilice unha factura. Na páxina **Proposta de factura do proxecto**, cambie á vista **Cabeceira** e, a seguir, edite os valores no separador **Dimensións financeiras**.
 
-O **Cabeceira** a vista só está dispoñible despois de que o administrador do sistema habilite a **Use os formularios de proposta de factura do proxecto e diario de facturas coa vista Cabeceira e Liñas** característica no **Xestión de características** espazo de traballo. Esta función require a actualización financeira 10.0.25 ou posterior.
+A vista **cabeceira** está dispoñible só despois de que o administrador do sistema active a funcionalidade **Usar os formularios de proposta de factura e diario de factura do proxecto coa vista de Cabeceira e Liñas** na área de traballo **Xestión de funcionalidades**. Esta función require a actualización de Finance 10.0.25 ou posterior.
 
-### <a name="line-dimensions"></a>Dimensións da liña
+### <a name="line-dimensions"></a>Dimensións de liña
 
 As dimensións financeiras non se poden editar directamente nunha liña de proposta de factura do proxecto. Pola contra, siga estes pasos para axustar as dimensións financeiras nunha proposta de factura do proxecto.
 

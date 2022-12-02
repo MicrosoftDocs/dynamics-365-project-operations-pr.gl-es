@@ -1,6 +1,6 @@
 ---
 title: Xestionar de varios clientes en liñas de oferta baseada en contrato - lite
-description: Este artigo ofrece información sobre como xestionar varios clientes en liñas de contrato baseadas en proxectos.
+description: Este artigo ofrece información sobre a xestión de varios clientes en liñas de contrato baseado en proxecto.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

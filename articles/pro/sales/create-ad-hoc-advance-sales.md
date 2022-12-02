@@ -1,6 +1,6 @@
 ---
 title: Creación dun adianto ad hoc nun contrato
-description: Este artigo ofrece información sobre como crear un anticipo nun contrato segundo sexa necesario.
+description: Este artigo ofrece información sobre como crear un adianto nun contrato segundo sexa necesario.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

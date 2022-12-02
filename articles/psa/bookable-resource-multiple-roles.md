@@ -1,6 +1,6 @@
 ---
 title: Estimar as vendas e os custos do proxecto cando un recurso reservable ten varios roles para un proxecto
-description: Este artigo ofrece información sobre como se poden usar as dimensións de prezos para admitir os prezos e os custos dun recurso que cumpre varias funcións nun proxecto.
+description: Este artigo fornece información sobre como se poden usar dimensións de prezos para soportar prezos e custos dun recurso que cumpra múltiples funcións nun proxecto.
 author: rumant
 ms.custom:
 - dyn365-projectservice

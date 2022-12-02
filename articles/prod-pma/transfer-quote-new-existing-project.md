@@ -1,6 +1,6 @@
 ---
 title: Transferir unha oferta a un proxecto
-description: Este artigo ofrece información sobre como transferir unha cotización a un proxecto novo ou existente.
+description: Este artigo ofrece información sobre como transferir unha oferta a un proxecto novo ou existente.
 author: kfend
 ms.date: 05/28/2020
 ms.topic: article

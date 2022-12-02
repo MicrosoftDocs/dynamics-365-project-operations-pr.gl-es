@@ -1,6 +1,6 @@
 ---
 title: Ampliación das entradas de tempo
-description: Este artigo ofrece información sobre como os desenvolvedores poden estender o control de entrada de tempo.
+description: Este artigo ofrece información sobre como os programadores poden ampliar o control de entradas de tempo.
 author: stsporen
 ms.date: 01/27/2022
 ms.topic: article
@@ -55,7 +55,7 @@ A lóxica actualizará automaticamente o rexistro de entrada de tempo nas seguin
     - **msdyn_end**
     - **msdyn_duration**
 
-- O **msdyn_start** e **msdyn_end** os campos son conscientes do fuso horario.
+- Os campos **msdyn_start** e **msdyn_end** son conscientes do fuso horario.
 - As entradas de tempo creadas con só **data_msdyn** e **msdyn_duration** especificados comezarán á media noite. Os campos **msdyn_start** e **msdyn_end** actualizaranse como corresponda.
 
 #### <a name="time-entry-types"></a>Tipos de entradas de tempo
@@ -78,57 +78,57 @@ Os programadores poden engadir campos e buscas adicionais a outras entidades e i
 ### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Engadir campos personalizados con buscas a outras entidades
 Hai tres pasos principais para engadir un campo personalizado á grade de entrada de tempo semanal.
 
-1. Engade o campo personalizado ao **Creación rápida** caixa de diálogo.
+1. Engada o campo personalizado á caixa de diálogo **Creación rápida**.
 2. Configure a grade para mostrar o campo personalizado.
-3. Engade o campo personalizado ao **Edición de filas** ou **Edición de entrada de hora** páxina, segundo corresponda.
+3. Engada o campo personalizado á páxina **Edición de filas** ou **Edición de entradas de tempo**, segundo corresponda.
 
-Asegúrese de que o novo campo teña as validacións requiridas no **Edición de filas** ou **Edición de entrada de hora** páxina. Como parte desta tarefa, bloquea o campo en función do estado da entrada de tempo.
+Asegúrese de que o novo campo ten as validacións requiridas na páxina **Edición de filas** ou **Edición de entradas de tempo**. Como parte desta tarefa, bloquee o campo, en función do estado da entrada de tempo.
 
-Cando engade un campo personalizado ao **Entrada horaria** grella e despois cree entradas de tempo directamente na grella, o campo personalizado para esas entradas establécese automaticamente para que coincida coa fila. 
+Cando engade un campo personalizado á grade **Entrada de tempo** e despois crea entradas de tempo directamente na grade, o campo personalizado para esas entradas establécese automaticamente para que coincida coa fila. 
 
-### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Engade o campo personalizado ao cadro de diálogo Creación rápida
-Engade o campo personalizado ao **Creación rápida: crear entrada de tempo** caixa de diálogo. Os usuarios poden introducir un valor cando engaden entradas de tempo seleccionando **Nova**.
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Engadir o campo personalizado á caixa de diálogo de creación rápida
+Engada o campo personalizado á caixa de diálogo **Creación rápida: crear entrada de tempo**. Os usuarios poden introducir un valor cando engaden entradas de tempo seleccionando **Nova**.
 
 ### <a name="configure-the-grid-to-show-the-custom-field"></a>Configurar a grade para mostrar o campo personalizado
-Hai dúas formas de engadir un campo personalizado ao **Entrada horaria semanal** reixa.
+Hai dous xeitos de engadir un campo personalizado á grade **Entrada de tempo semanal**.
 
-- Personaliza o **As miñas entradas de tempo semanais** ver e engadirlle o campo personalizado. Podes especificar a posición e o tamaño do campo personalizado na grade editando as propiedades na vista.
-- Crea unha nova vista de entrada de hora personalizada e configúraa como vista predeterminada. Esta vista debe conter **Descrición** e **Comentarios externos** campos ademais das columnas que desexa que inclúa a grade. Podes especificar a posición, o tamaño e a orde predeterminada da grade editando as propiedades na vista. A seguir, configure o control personalizado para esta vista para que sexa un control de **Grade de entrada de tempo**. Engade o control á vista e selecciónao para **Web**, **·**, e **Tablet**. A continuación, configure os parámetros para **Entrada horaria semanal** reixa. Establece o **Data de inicio** campo a **msdyn\_ data**, establece o **Duración** campo a **msdyn\_ duración**, e configura o **Estado** campo a **msdyn\_ estado de entrada**. O **Lista de estado de só lectura** campo está configurado en **192350002 (Aprobado)**, **(Enviado)**, ou **192350004 (Solicitude de retirada)**.
+- Personalice a vista **As miñas entradas de tempo semanal** e engádalle o campo personalizado. Pode especificar a posición e o tamaño do campo personalizado na grade editando as propiedades na vista.
+- Cree unha nova vista de entrada de tempo personalizada e definila como vista por defecto. Esta vista debería conter os campos **Descrición** e **Comentarios externos**, ademais das columnas que desexa incluír na grade. Pode especificar a posición, o tamaño e a orde de clasificación por defecto da grade editando as propiedades na vista. A seguir, configure o control personalizado para esta vista para que sexa un control de **Grade de entrada de tempo**. Engada o control á vista e seleccióneo para **Web**, **Teléfono** e **Tableta**. A seguir, configure os parámetros para a grade **Entrada de tempo semanal**. Configure o campo **Data de inicio** en **msdyn\_date**, configure o campo **Duración** en **msdyn\_duration** e configure o campo **Estado** en **msdyn\_entrystatus**. O campo **Lista de estado de só lectura** está configurado como **192350002 (Enviado)**, **192350003 (Enviado)** ou **192350004 (Solicitude de retirada)**.
 
-### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Engade o campo personalizado á páxina de edición adecuada
-As páxinas que se usan para editar unha entrada de tempo ou unha fila de entradas de tempo pódense atopar en **Formularios**. O **Editar entrada** botón da grella abre o **Editar entrada** páxina, e o **Editar fila** botón abre o **Edición de filas** páxina. Podes editar estas páxinas para que inclúan campos personalizados.
+### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Engadir o campo personalizado á páxina de edición adecuada
+As páxinas que se usan para editar unha entrada de tempo ou unha fila de entradas de tempo pódense atopar en **Formularios**. O botón **Editar entrada** da grade abre a páxina **Editar entrada**, e o botón **Editar fila** abre a páxina **Edición de filas**. Pode editar estas páxinas para que inclúan campos personalizados.
 
-Ambas as opcións eliminan algúns filtros predeterminados **Proxecto** e **Tarefa do proxecto** entidades, para que todas as vistas de busca das entidades sexan visibles. Ao principio, só son visibles as vistas de busca relevantes.
+Ambas opcións eliminan algún filtro listo para usar nas entidades **Proxecto** e **Tarefa do proxecto**, de xeito que todas as vistas de busca das entidades son visibles. Ao principio, só son visibles as vistas de busca relevantes.
 
-Debes determinar a páxina adecuada para o campo personalizado. O máis probable é que, se engadiches o campo á grella, debería ir ao **Edición de filas** páxina que se usa para os campos que se aplican a toda a fila de entradas de tempo. Se o campo personalizado ten un valor único na fila todos os días (por exemplo, se é un campo personalizado para a hora de finalización), debería ir ao **Edición de entrada de hora** páxina.
+Debe determinar a páxina adecuada para o campo personalizado. Moi probablemente, se engadiu o campo á grade, debería ir na páxina **Edición de filas** que se usa para campos que se aplican a toda a fila de entradas de tempo. Se o campo personalizado ten un valor único na fila todos os días (por exemplo, é un campo personalizado para a hora de finalización), debe ir na páxina **Edición de entrada de tempo**.
 
-Para engadir o campo personalizado a unha páxina, arrastre a **Campo** elemento na posición adecuada na páxina e, a continuación, configure as súas propiedades.
+Para engadir un campo personalizado a unha páxina, arrastre o elemento **Campo** á posición adecuada na páxina e logo estableza as súas propiedades.
 
 ### <a name="add-new-option-set-values"></a>Engadir valores de novo conxunto de opcións
-Para engadir valores conxunto de opcións a un campo listo para usar, siga estes pasos.
+Para engadir os valores do conxunto de opcións a un campo listo para usar, siga estes pasos.
 
-1. Abre a páxina de edición do campo e, a continuación, en **Tipo**, seleccione **Editar** xunto ao conxunto de opcións.
-2. Engada unha nova opción que teña unha etiqueta e unha cor personalizadas. Se desexa engadir un novo estado de entrada de hora, chámase o campo de lista **Estado de entrada**.
+1. Abra a páxina de edición do campo e, a seguir, en **Tipo**, seleccione **Editar** xunto ao conxunto de opcións.
+2. Engada unha nova opción que teña unha etiqueta e unha cor personalizadas. Se desexa engadir un novo estado de entrada de tempo, o campo listo para usar denomínase **Estado de entrada**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Designe un novo estado de entrada de tempo como só de lectura
-Para designar un novo estado de entrada de tempo como só de lectura, engada o novo valor de entrada de tempo á propiedade **Lista de estado de só lectura**. Asegúrate de engadir o número, non a etiqueta. A parte editable da grella de entrada de tempo agora bloquearase para as filas que teñan o novo estado. Para configurar o **Lista de estado de só lectura** propiedade diferente para diferente **Entrada horaria** vistas, engade o **Entrada horaria** cuadrícula nunha vista **Controis personalizados** sección e configure os parámetros segundo corresponda.
+Para designar un novo estado de entrada de tempo como só de lectura, engada o novo valor de entrada de tempo á propiedade **Lista de estado de só lectura**. Asegúrese de engadir o número, non a etiqueta. A parte editable da grade de entrada de tempo bloquearase agora para as filas que teñan o novo estado. Para configurar a propiedade **Lista de estado de só lectura** de xeito diferente para vistas de **Entrada de tempo** diferentes, engada a grade **Entrada de tempo** na sección de **Controis personalizados** dunha vista e configure os parámetros segundo corresponda.
 
-A continuación, engade regras comerciais para bloquear todos os campos do **Edición de filas** e **Edición de entrada de hora** páxinas. Para acceder ás regras comerciais destas páxinas, abra o editor de formularios para cada páxina e, a continuación, seleccione **Regras comerciais**. Pode engadir o novo estado á condición nas regras de negocio existentes ou pode engadir unha nova regra de negocio para o novo estado.
+A seguir, engada regras de negocio para bloquear todos os campos nas páxinas **Edición de filas** e **Edición de entradas de tempo**. Para acceder ás regras de negocio para estas páxinas, abra o editor de formularios para casa páxina e logo seleccione **Regras de negocio**. Pode engadir o novo estado á condición nas regras de negocio existentes ou pode engadir unha nova regra de negocio para o novo estado.
 
 ### <a name="add-custom-validation-rules"></a>Engadir regras de validación personalizadas
-Podes engadir dous tipos de regras de validación para o **Entrada horaria semanal** experiencia na rede:
+Pode engadir dous tipos de regras de validación para a experiencia da grade **Entrada de tempo semanal**:
 
-- Regras comerciais do lado do cliente que funcionan nas páxinas
+- Regras de negocio do lado do cliente que funcionan nas páxinas
 - Validacións de complementos do servidor que se aplican a todas as actualizacións de entrada de tempo
 
-#### <a name="client-side-business-rules"></a>Regras comerciais do lado do cliente
-Use regras de negocio para bloquear e desbloquear campos, introducir valores predefinidos en campos e definir validacións que requiran información só do rexistro de entrada de tempo actual. Para acceder ás regras comerciais dunha páxina, abra o editor de formularios e, a continuación, seleccione **Regras comerciais**. Pode editar as regras de negocio existentes ou engadir unha nova regra de negocio.
+#### <a name="client-side-business-rules"></a>Regras de negocio do lado do cliente
+Use regras de negocio para bloquear e desbloquear campos, introducir valores predefinidos en campos e definir validacións que requiran información só do rexistro de entrada de tempo actual. Para acceder ás regras de negocio para unha páxina, abra o editor de formularios e logo seleccione **Regras de negocio**. Pode editar as regras de negocio existentes ou engadir unha nova regra de negocio.
 
 #### <a name="server-side-plug-in-validations"></a>Validacións de complementos do lado do servidor
-Deberías usar validacións de complementos para todas as validacións que requiran máis contexto do que hai dispoñible nun rexistro de entrada única. Tamén deberías usalos para calquera validación que queiras executar nas actualizacións en liña na grella. Para completar as validacións, cree un complemento personalizado no ficheiro **Entrada horaria** entidade.
+Debe usar as validacións de complementos para calquera validación que requira máis contexto do que está dispoñible nun rexistro de entrada única. Tamén debe usalos para calquera validación que queira executar nas actualizacións en liña na grade. Para completar as validacións, cree un complemento personalizado na entidade **Entrada de tempo**.
 
 ### <a name="limits"></a>Límites
-Actualmente, o **Entrada horaria** a grade ten un límite de tamaño de 500 filas. Se hai máis de 500 filas, non se mostrarán as filas en exceso. Non hai forma de aumentar este límite de tamaño.
+Actualmente, a grade **Entrada de tempo** ten un límite de tamaño de 500 filas. Se hai máis de 500 filas, o exceso de filas non se mostrará. Non hai forma de aumentar este límite de tamaño.
 
 ### <a name="copying-time-entries"></a>Copiar as entradas de tempo
 Use a vista **Copiar columnas de entrada de tempo** para definir a lista de campos para copiar durante a entrada de tempo. **Data** e **Duración** son campos obrigatorios e non se deben eliminar da vista.

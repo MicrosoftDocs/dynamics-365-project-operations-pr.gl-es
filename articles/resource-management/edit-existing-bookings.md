@@ -18,7 +18,7 @@ ms.locfileid: "8915228"
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
 
-Cando se producen cambios nun proxecto que requiren que actualice as reservas existentes, hai varias formas de facelos. Este artigo explica como actualizar e facer cambios nas reservas.
+Cando se producen cambios nun proxecto que requiren que actualice as reservas existentes, hai varias formas de facelos. Este artigo describe como actualizar e facer cambios nas reservas.
 
 ## <a name="resource-reconciliation"></a>Conciliación de recursos
 

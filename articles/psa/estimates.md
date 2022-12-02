@@ -1,6 +1,6 @@
 ---
 title: Estimacións
-description: Este artigo ofrece información sobre estimacións en Dynamics 365 Project Service Automation.
+description: Este artigo fornece información sobre as estimacións en Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice

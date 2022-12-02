@@ -1,6 +1,6 @@
 ---
-title: 'Orixes da transacción: vincula os datos reais á súa fonte'
-description: Este artigo explica como se usa o concepto de orixe das transaccións para vincular datos reais aos rexistros orixinais de orixe, como a entrada de tempo, a entrada de gastos ou os rexistros de uso de material.
+title: Orixes da transacción - Ligar os datos reais á súa orixe
+description: Este artigo explica como o concepto de orixes da transacción se usa para vencellar datos reais a rexistros da fonte orixinal, como entrada de tempo, entrada de gastos ou rexistros de uso de material.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
@@ -14,7 +14,7 @@ ms.contentlocale: gl-ES
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8921300"
 ---
-# <a name="transaction-origins---link-actuals-to-their-source"></a>Orixes da transacción: vincula os datos reais á súa fonte
+# <a name="transaction-origins---link-actuals-to-their-source"></a>Orixes da transacción - Ligar os datos reais á súa orixe
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
@@ -22,14 +22,14 @@ Os rexistros de orixe das transaccións créanse para vincular os datos reais á
 
 O seguinte exemplo mostra o procesamento típico de entradas de tempo nun ciclo de vida dun proxecto de Project Operations.
 
-> ![Tempo de procesamento completo en Operacións do proxecto.](media/basic-guide-17.png)
+> ![Procesamento de entradas de tempo en Project Operations.](media/basic-guide-17.png)
  
-1. O envío dunha entrada de tempo fai que se creen dúas liñas de diario: unha para o custo e outra para as vendas non facturadas.
-2. A aprobación eventual da entrada de tempo fai que se creen dous reais: un para o custo e outro para as vendas non facturadas.
+1. O envío dunha entrada de tempo provoca a creación de dúas liñas de diario: unha para o custo e outra para as vendas sen facturar.
+2. A aprobación posterior da entrada de tempo provoca a creación de dous datos reais: un para o custo e outro para as vendas sen facturar.
 3. Cando o usuario crea unha factura de proxecto, a transacción da liña de factura créase mediante datos de vendas non facturadas.
 4. Cando se confirma a factura, créanse dous novos datos reais: unha reversión de vendas sen facturar e un dato real de vendas facturadas.
 
-Cada evento deste fluxo de traballo de procesamento desencadea a creación de rexistros na entidade de orixe da transacción para axudar a construír un rastro das relacións entre estes rexistros que se crean a través da entrada de tempo, liña do diario, detalles reais e da liña de factura.
+Cada evento deste fluxo de traballo de procesamento desencadea a creación de rexistros na entidade Orixe da transacción e Conexión da transacción para axudar a construír un rastro de relacións entre estes rexistros que se crean na entrada de tempo, a liña de diario, o dato real e os detalles da liña de factura.
 
 Na seguinte táboa móstranse os rexistros da entidade de Orixe da transacción para o fluxo de traballo anterior.
 
@@ -70,7 +70,7 @@ Na seguinte táboa móstranse os rexistros da entidade de Orixe da transacción 
 | GUID de factura de corrección      | Factura                  | GUID de dato real de novas vendas sen facturar    | Dato real                            |                          |
 
 
-A seguinte ilustración mostra as ligazóns que se crean entre os datos reais e as súas fontes en varios eventos usando o exemplo de entradas de tempo en Operacións do proxecto.
+A seguinte ilustración mostra as ligazóns que se crean entre diferentes tipos de datos reais e as súas orixes en varios eventos usando o exemplo de entradas de tempo en Project Operations.
 
 > ![Como se vinculan os datos reais aos rexistros de orixe en Project Operations.](media/TransactionOrigins.png)
 

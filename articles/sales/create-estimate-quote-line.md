@@ -1,6 +1,6 @@
 ---
 title: Crea estimacións nunha liña de oferta
-description: Este artigo ofrece información sobre como crear unha estimación nunha liña de cotización para un proxecto.
+description: Este artigo ofrece información sobre como crear unha estimación nunha liña de oferta para un proxecto.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

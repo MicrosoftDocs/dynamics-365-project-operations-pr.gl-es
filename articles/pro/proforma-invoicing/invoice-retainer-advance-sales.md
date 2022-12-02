@@ -1,6 +1,6 @@
 ---
 title: Facturar unha retención ou un adianto
-description: Este artigo ofrece información sobre como facturar unha retención ou un anticipo en Operacións do proxecto.
+description: Este artigo ofrece información sobre como facturar unha retención ou un adianto en Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

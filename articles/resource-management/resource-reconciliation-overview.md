@@ -1,6 +1,6 @@
 ---
 title: Visión xeral da conciliación de recursos
-description: Este artigo ofrece información que che axudará a garantir que as reservas de recursos e as asignacións dos proxectos estean aliñadas.
+description: Este artigo ofrece información que o axudará a garantir que as reservas de recursos e as atribucións para proxectos estean aliñadas.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: overview

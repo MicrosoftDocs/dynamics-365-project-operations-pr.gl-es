@@ -1,6 +1,6 @@
 ---
 title: Crear facturas entre empresas de clientes e fornecedores
-description: Este artigo ofrece información sobre como crear facturas de provedores e clientes entre empresas.
+description: Este artigo ofrece información sobre como crear facturas de clientes e fornecedores entre empresas.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -27,7 +27,7 @@ Utilice este procedemento para crear manualmente unha factura de cliente entre e
 
 Os seguintes pasos deben realizarse na entidade legal prestamista. 
 
-1. En Dynamics 365 Finance, vai a **Xestión de proxectos e contabilidade** > **Facturas do proxecto** > **Facturas de clientes interempresas**. Na páxina de lista **Facturas de clientes entre empresas**, no Panel de acción, seleccione **Novo.**
+1. En Dynamics 365 Finance, vaia a **Xestión e contabilidade de proxectos** > **Facturas do proxecto** > **Facturas de clientes entre empresas**. Na páxina de lista **Facturas de clientes entre empresas**, no Panel de acción, seleccione **Novo.**
 2. Na páxina **Crear factura entre empresas**, no campo **Entidade legal**, seleccione unha entidade legal prestameira.
 3. Opcional: Introduza un contrato de proxecto e un número de proxecto específicos.
 4. Limite a busca seleccionando un intervalo de datas. Insira datas específicas nos campos **Data de inicio** e **Data de finalización**. Nos resultados da busca só se amosan as transaccións entre empresas que se contabilicen dentro deste intervalo de datas.

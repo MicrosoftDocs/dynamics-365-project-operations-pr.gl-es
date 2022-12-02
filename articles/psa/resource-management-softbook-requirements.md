@@ -1,6 +1,6 @@
 ---
 title: Requisitos da reserva branda
-description: Este artigo ofrece información sobre como realizar os requisitos do libro programado.
+description: Este artigo fornece información sobre como cumprir requisitos de reserva branda.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

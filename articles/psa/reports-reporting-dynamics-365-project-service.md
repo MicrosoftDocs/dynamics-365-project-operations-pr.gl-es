@@ -1,6 +1,6 @@
 ---
 title: Páxina de inicio de informes
-description: Este artigo ofrece información sobre os informes en Dynamics 365 Project Service Automation.
+description: Este artigo fornece ligazóns a información sobre informes en Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

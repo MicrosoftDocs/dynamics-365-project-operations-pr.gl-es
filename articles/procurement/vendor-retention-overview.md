@@ -1,6 +1,6 @@
 ---
 title: Visión xeral da retención de fornecedores
-description: Este artigo ofrece unha visión xeral das capacidades de retención de provedores.
+description: Este artigo ofrece unha visión xeral das capacidades de retención de fornecedores.
 author: sigitac
 ms.date: 10/01/2021
 ms.topic: overview

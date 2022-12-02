@@ -1,6 +1,6 @@
 ---
 title: Novidades ou cambios na versión 15 de actualización de Project Service Automation, V3
-description: Este artigo ofrece información sobre as novidades de Project Service Automation Update, versión 15, V3.
+description: Este artigo fornece información sobre as novidades e as modificacións na versión 15 de actualización de Project Service Automation, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
@@ -29,7 +29,7 @@ ms.locfileid: "8915642"
 
 Comprácenos anunciar a última actualización para a aplicación Dynamics 365 Project Service Automation (PSA). Esta versión inclúe algunhas melloras importantes na calidade, rendemento e facilidade de uso. Esta versión é compatible con Dynamics 365 9.x. Para actualizar a esta versión, visite o Centro de administración para Dynamics 365 en liña e vaia á páxina de solucións para instalar a actualización. Para obter máis información, consulte [Instalar, actualizar ou eliminar unha solución preferida](/power-platform/admin/install-remove-preferred-solution)
 
-Este artigo enumera as funcións e correccións novas ou modificadas para PSA V3, actualización 15. Esta versión ten un número de compilación de V3.10.5.28 e está dispoñible xeralmente a través dunha autoactualización desde xaneiro de 2020.
+Este artigo mostra as funcionalidades e correccións que son novas ou modificadas para PSA V3, versión 15 de actualización. Esta versión ten un número de compilación de V3.10.5.28 e está dispoñible xeralmente a través dunha autoactualización desde xaneiro de 2020.
 
 ## <a name="update-release-15"></a>Versión 15 de actualización 
 

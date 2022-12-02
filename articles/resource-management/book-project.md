@@ -1,6 +1,6 @@
 ---
 title: Reserva a un proxecto
-description: Este artigo ofrece información sobre como reservar un recurso para un proxecto.
+description: Este artigo fornece información sobre como reservar un recurso para un proxecto.
 author: ruhercul
 ms.date: 01/24/2022
 ms.topic: article
@@ -55,7 +55,7 @@ Cando un xestor de recursos necesita reservar un recurso directamente nun proxec
     - Duración
    
    > [!NOTE]
-   > Actualmente,Dynamics 365 Project Operations non admite o taboleiro de programación.   
+   > Actualmente, Dynamics 365 Project Operations non admite o taboleiro de programación.   
 
 ## <a name="book-from-the-project-form"></a>Reservar desde o formulario Proxecto
 

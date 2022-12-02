@@ -1,6 +1,6 @@
 ---
 title: Consideracións de actualización - Microsoft Dynamics 365 Project Service Automation versión 2.x ou 1.x a versión 3
-description: Este artigo ofrece información sobre as consideracións que debes facer cando actualizas a versión 2.x ou 1.x de Project Service Automation á versión 3.
+description: Este artigo proporciona información sobre as consideracións que debe ter en conta ao actualizar da versión 2.x ou 1.x á versión 3 de Project Service Automation.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -40,7 +40,7 @@ En Project Service Automation versión 2 e versión 1, as tarefas almacenábanse
 
 Na versión 3 de Project Service Automation, o esquema subxacente de atribución de recursos reservables a tarefas cambiou. A tarefa de liña quedou desfasada e hai unha relación directa 1:1 entre a tarefa no **Entidade tarefa** e o membro do equipo na entidade **Atribución de recursos**. As tarefas atribuídas a un membro do equipo de proxecto agora almacénanse directamente na entidade Atribución de recursos.  
 
-Estes cambios afectan á actualización de calquera proxecto existente que teña atribucións de recursos para recursos reservables nomeados e recursos xenéricos nun equipo de proxecto. Este artigo ofrece as consideracións que terás que ter en conta para os teus proxectos cando actualices á versión 3. 
+Estes cambios afectan á actualización de calquera proxecto existente que teña atribucións de recursos para recursos reservables nomeados e recursos xenéricos nun equipo de proxecto. Este artigo ofrece as consideracións que terá que ter en conta para os seus proxectos cando actualice á versión 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Tarefas atribuídas a recursos nomeados
 Ao usar a entidade de tarefas subxacente, as tarefas da versión 2 e a versión 1 permitían aos membros do equipo retratar un rol distinto do seu rol definido por defecto. Por exemplo, a Beatriz Fervenza, a quen por defecto se atribuíu o rol de xestor de programas, podería atribuírselle unha tarefa co rol de programador. Na versión 3, o rol dun membro nomeado é sempre o predefinido, polo que calquera tarefa que se lle atribúa a Beatriz Fervenza usa o seu rol predefinido de xestor de programas.

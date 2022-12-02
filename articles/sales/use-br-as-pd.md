@@ -1,6 +1,6 @@
 ---
 title: Usar un recurso reservable como dimensión de prezos
-description: Este artigo ofrece información sobre como utilizar un recurso reservable como dimensión de prezos.
+description: Este artigo fornece información sobre como usar recurso reservable como dimensión de prezos.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -17,10 +17,10 @@ ms.locfileid: "8914814"
 
  _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_ 
 
-Este artigo ofrece información sobre como utilizar un recurso reservable como dimensión de prezos. Se a súa estratexia de prezos está configurada de xeito que cada recurso reservable debe ter un prezo ou unha taxa de custo específicos, use un recurso reservable como dimensión de prezos.
+Este artigo fornece información sobre como usar recurso reservable como dimensión de prezos. Se a súa estratexia de prezos está configurada de xeito que cada recurso reservable debe ter un prezo ou unha taxa de custo específicos, use un recurso reservable como dimensión de prezos.
 
 ## <a name="prerequisites"></a>Requisitos previos
-Antes de completar os procedementos deste artigo, debes ter unha nova solución de dimensións de prezos para a túa organización. Se aínda non o creou, consulte [Crear campos e entidades personalizados](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Antes de completar os procedementos deste artigo, debe ter unha nova solución de dimensión de prezos para a súa organización. Se aínda non o creou, consulte [Crear campos e entidades personalizados](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Engadir un campo de recurso reservable a formularios e vistas
 Para facer o campo **Recurso reservable** visible na solución de dimensión de prezos, cómpre engadir o campo a todos os formularios e vistas como unha entidade.

@@ -1,6 +1,6 @@
 ---
 title: Programacións de facturas en liñas de oferta baseada en proxecto
-description: Este artigo ofrece información sobre como crear calendarios de facturas e fitos para liñas de cotización.
+description: Este artigo ofrece información sobre a creación de programacións de facturas e fitos para as liñas de oferta.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

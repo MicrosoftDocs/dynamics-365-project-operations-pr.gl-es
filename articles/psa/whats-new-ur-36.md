@@ -1,6 +1,6 @@
 ---
 title: Novidades ou cambios na versión 36 de actualización de Project Service Automation, V3
-description: Este artigo enumera as funcións e correccións que están dispoñibles en Microsoft Dynamics 365 Project Service Automation Actualizar a versión 36, V3.
+description: Este artigo indica as funcionalidades e correccións dispoñibles na versión 36 de actualización de Microsoft Dynamics 365 Project Service Automation, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/06/2021
@@ -29,7 +29,7 @@ ms.locfileid: "8924980"
 
 Comprácenos anunciar a última actualización da aplicación Microsoft Dynamics 365 Project Service Automation. Esta versión inclúe algunhas melloras importantes na calidade, rendemento e facilidade de uso. É compatible con Dynamics 365 9.x. Para actualizar esta versión, visite a páxina de solucións en liña do Centro de administración de Dynamics 365 e instale a actualización. Para obter máis información, consulte [Instalar, actualizar ou eliminar unha solución preferida](/power-platform/admin/install-remove-preferred-solution)
 
-Este artigo enumera as funcións e correccións que son novas ou modificadas para a actualización de Project Service Automation, versión 36, V3. Esta versión ten un número de compilación de V3.10.57.152 e está dispoñible xeralmente a través dunha autoactualización desde outubro de 2021.
+Este artigo mostra as funcionalidades e correccións que son novas ou modificadas para Project Service Automation, versión 36 de actualización, V3. Esta versión ten un número de compilación de V3.10.57.152 e está dispoñible xeralmente a través dunha autoactualización desde outubro de 2021.
 
 ## <a name="update-release-36"></a>Versión 36 de actualización
 

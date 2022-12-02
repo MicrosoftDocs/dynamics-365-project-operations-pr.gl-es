@@ -1,6 +1,6 @@
 ---
 title: Xestionar varios clientes nunha en contratos de proxecto - lite
-description: Este artigo ofrece información sobre como xestionar varios clientes en contratos de proxectos.
+description: Este artigo ofrece información sobre a xestión de varios clientes en contratos de proxecto.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

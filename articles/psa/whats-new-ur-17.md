@@ -1,6 +1,6 @@
 ---
 title: Novidades ou cambios na versión 17 de actualización de Project Service Automation, V3
-description: Este artigo enumera as funcións e correccións dispoñibles na actualización de Project Service Automation, versión 17, V3.
+description: Este artigo mostra as funcionalidades e correccións que están dispoñibles la versión 17 de actualización de Project Service Automation, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/06/2020
@@ -29,7 +29,7 @@ ms.locfileid: "8915688"
 
 Comprácenos anunciar a última actualización da aplicación Project Service Automation para Dynamics 365. Esta versión inclúe algunhas melloras importantes na calidade, rendemento e facilidade de uso.  Esta versión é compatible con Dynamics 365 9.x. Para actualizar a esta versión, visite a paxina de solucións do Centro de administración para Dynamics 365 en liña para instalar a actualización. Para obter máis información, consulte [Instalar, actualizar ou eliminar unha solución preferida](/power-platform/admin/install-remove-preferred-solution)
 
-Este artigo enumera as funcións e correccións novas ou modificadas para PSA V3, actualización 17. Esta versión ten un número de compilación de V3.10.6.34 e está dispoñible xeralmente a través dunha autoactualización desde marzo de 2020.
+Este artigo mostra as funcionalidades e correccións que son novas ou modificadas para PSA V3, versión 17 de actualización. Esta versión ten un número de compilación de V3.10.6.34 e está dispoñible xeralmente a través dunha autoactualización desde marzo de 2020.
 
 
 ## <a name="update-release-17"></a>Versión 17 de actualización

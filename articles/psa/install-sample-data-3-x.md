@@ -1,6 +1,6 @@
 ---
 title: Instalación dos datos de exemplo
-description: Este artigo ofrece información sobre a instalación de datos de mostra en Project Service Automation.
+description: Este artigo ofrece información sobre a instalación de datos de exemplo en Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
 ms.reviewer: johnmichalak

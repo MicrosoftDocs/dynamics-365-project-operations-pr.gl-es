@@ -1,6 +1,6 @@
 ---
 title: Configurar taxas de custo laboral - lite
-description: Este artigo ofrece información sobre como configurar as taxas de custo para a man de obra en Operacións do proxecto.
+description: Este artigo ofrece información sobre como configurar as taxas de custo para man de obra en Project Operations.
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article

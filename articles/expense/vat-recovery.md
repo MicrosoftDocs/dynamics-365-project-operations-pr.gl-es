@@ -1,6 +1,6 @@
 ---
 title: Recuperación do IVE na xestión de gastos
-description: Este artigo explica como recibir reembolsos nas transaccións subvencionables do imposto sobre o valor engadido (IVE).
+description: Este artigo explica como recibir reembolsos das transaccións elixibles do imposto sobre o valor engadido (IVE).
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article

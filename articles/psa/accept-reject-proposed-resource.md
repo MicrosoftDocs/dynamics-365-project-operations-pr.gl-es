@@ -1,6 +1,6 @@
 ---
 title: Aceptar ou rexeitar un recurso de proxecto proposto
-description: Este artigo ofrece información sobre como aprobar ou rexeitar un recurso de proxecto proposto.
+description: Este artigo fornece información sobre como aprobar ou rexeitar un recurso de proxecto proposto.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -30,7 +30,7 @@ ms.locfileid: "8916194"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Este artigo ofrece información sobre como aprobar ou rexeitar un recurso de proxecto proposto.
+Este artigo fornece información sobre como aprobar ou rexeitar un recurso de proxecto proposto.
 
 Cando un xestor de recursos propón un recurso nomeado para cubrir a solicitude de recursos xenéricos para un proxecto, o campo **Estado da solicitude** para o membro do equipo xenérico actualizarase a **Revisión de necesidades**. A solicitude será enviada ao xestor de proxectos para a súa aprobación ou rexeitamento.
 

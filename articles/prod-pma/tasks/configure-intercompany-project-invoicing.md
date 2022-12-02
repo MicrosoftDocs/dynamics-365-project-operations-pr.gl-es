@@ -1,6 +1,6 @@
 ---
 title: Configurar a facturación de proxectos entre empresas
-description: Este artigo mostra como configurar a facturación de proxectos entre dúas empresas da túa organización.
+description: Este artigo mostra como configurar a facturación de proxectos entre dúas empresas da súa organización.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8916608"
 
 [!include [banner](../../includes/banner.md)]
 
-Este artigo mostra como configurar a facturación de proxectos entre dúas empresas da túa organización. Esta tarefa utiliza o conxunto de datos USSI.
+Este artigo mostra como configurar a facturación de proxectos entre dúas empresas da súa organización. Esta tarefa utiliza o conxunto de datos USSI.
 
 1. No panel de navegación, vaia a **Módulos > Contas pendentes de pago > Fornecedores > Todos os fornecedores**.
 2. Na lista **Todos os fornecedores**, busque e seleccione o rexistro desexado.

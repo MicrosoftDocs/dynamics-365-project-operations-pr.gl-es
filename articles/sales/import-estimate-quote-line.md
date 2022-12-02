@@ -1,6 +1,6 @@
 ---
 title: Importar estimacións para un proxecto a unha liña de oferta de proxecto
-description: Este artigo ofrece información sobre como importar estimacións dun proxecto a unha liña de cotización do proxecto.
+description: Este artigo ofrece información sobre como importar estimacións dun proxecto a unha liña de oferta de proxecto.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

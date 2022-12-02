@@ -1,6 +1,6 @@
 ---
 title: Integración de facturas do fornecedor
-description: Este artigo ofrece información sobre a integración de facturas de provedores en Project Operations.
+description: Este artigo ofrece información sobre a integración de facturas do fornecedor en Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
@@ -21,7 +21,7 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 A adquisición relacionada co proxecto en Dynamics 365 Project Operations pódese rexistrar indo a **Contas pendentes de pago** > **Facturas** > **Facturas pendentes do fornecedor** e usando un documento de factura pendente do fornecedor. Para obter máis información, consulte [Comprar materiais sen fornecemento usando unha factura pendente do fornecedor](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Antes de utilizar a funcionalidade descrita neste artigo, revise e aplique as configuracións necesarias. Para obter máis información, consulte [Activar materiais sen fornecemento e facturas pendentes do fornecedor](../procurement/configure-materials-nonstocked.md).
+> Antes de empregar a funcionalidade descrita neste artigo, revise e aplique as configuracións necesarias. Para obter máis información, consulte [Activar materiais sen fornecemento e facturas pendentes do fornecedor](../procurement/configure-materials-nonstocked.md).
 
 En Project Operations, as facturas do fornecedor relacionadas co proxecto contabilízanse utilizando regras especiais de contabilización:
 
@@ -34,7 +34,7 @@ En Project Operations, as facturas do fornecedor relacionadas co proxecto contab
      > [!NOTE]
      > Os detalles da factura do fornecedor en Dataverse non son editables.
 
-O rexistro secundario de impostos, o sublibro de provedores e outras publicacións financeiras rexístranse segundo corresponda en Dynamics 365 Finance cando se publica a factura do provedor.
+O libro auxiliar fiscal, o libro auxiliar do fornecedor e outras contabilizacións financeiras rexístranse segundo o caso en Dynamics 365 Finance cando se contabiliza a factura do fornecedor.
 
 ![Integración de facturas do fornecedor.](media/DW7VendorInvoice.png)
 

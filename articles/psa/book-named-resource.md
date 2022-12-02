@@ -1,6 +1,6 @@
 ---
 title: Reservar recursos nomeados a partir de requisitos de recursos
-description: Este artigo ofrece información sobre como reservar recursos con nome para un requisito de recursos xenéricos.
+description: Este artigo proporciona información sobre a reserva de recursos nomeados para un requisito de recursos xenérico.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Cabeceira/resumo de oportunidade
-description: Este artigo ofrece información sobre as ofertas baseadas en proxectos e as liñas de oportunidade baseadas en proxectos.
+description: Este artigo ofrece información sobre acordos baseados en proxecto e as liñas de oportunidade baseada en proxecto.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

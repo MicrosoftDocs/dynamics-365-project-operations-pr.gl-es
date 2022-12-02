@@ -30,7 +30,7 @@ ms.locfileid: "8919230"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Unha vez que configures os elementos dos artigos anteriores, debes establecer parámetros adicionais do proxecto para usar nos teus proxectos. Ao instalar por primeira vez [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], creou unha configuración de parámetros para crear por primeira vez todos os rexistros necesarios para que [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] funcione. Agora é hora de volver e configurar campos adicionais para esta configuración.  
+Vez vez configurados os elementos dos artigos anteriores, debe definir parámetros adicionais de proxecto para usar cos seus proxectos. Ao instalar por primeira vez [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], creou unha configuración de parámetros para crear por primeira vez todos os rexistros necesarios para que [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] funcione. Agora é hora de volver e configurar campos adicionais para esta configuración.  
   
  Terá que ter configurados os seguintes axustes:  
   

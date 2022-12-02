@@ -48,11 +48,11 @@ Os seus recursos poden utilizar a aplicación Project Finder Mobile nos seus tel
   
 4. Defina **Permitir actualización de habilidades por recurso** en **Si**.  
   
-   ![Servizo de Proxectos&#95; ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService_ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    Esta é unha configuración global. Os xestores de proxecto poden definir se un proxecto individual será visible na páxina dese proxecto **Equipo de proxecto**.  
   
-   ![Servizo de Proxectos&#95; ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService_ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>Notificacións de correo electrónico  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] envía correos referentes ás solicitudes de recursos para os destinatarios seguintes nos casos seguintes:  

@@ -1,6 +1,6 @@
 ---
 title: Reservas de recursos e como se relacionan coas atribucións de tarefas
-description: Este artigo ofrece información sobre como xestionar os recursos con nome, as reservas de recursos e as asignacións de tarefas e como se relacionan entre si.
+description: Este artigo proporciona información sobre como xestionar os recursos nomeados, as reservas de recursos e as atribucións de tarefas e como se relacionan entre si.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

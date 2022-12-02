@@ -1,6 +1,6 @@
 ---
 title: Novidades de agosto de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
-description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de agosto de 2021 de Project Operations para escenarios baseados en recursos ou non almacenados.
+description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de agosto de 2021 de Project Operations para situacións baseadas en recursos/sen fornecemento.
 author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8912284"
 
 *Aplícase a: Project Operations para situacións baseadas en recursos/sen fornecemento*
 
-Este artigo aplícase ao seguinte Dynamics 365 Project Operations compoñentes e versións:
+Este artigo aplícase aos seguintes compoñentes e versións de Dynamics 365 Project Operations:
 
    - Project Operations no ambiente de Microsoft Dataverse versión 4.13.0.152.
-   - Xestión de proxectos e contabilidade no entorno Dynamics 365 Finance versión 10.0.20.
+   - Xestión e contabilidade de proxectos en ambientes de aplicacións de Dynamics 365 Finance versión 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Funcionalidades incluídas nesta versión
 
@@ -54,7 +54,7 @@ Se ten algún problema ao iniciar o mapa, siga as instrucións da sección [Prob
 | Tempo e gasto | 2336884 | O botón de entrada de tempo **Copiar semana** debe funcionar para máis que o usuario actual. |
 
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Xestión de proxectos e contabilidade en Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Xestión e contabilidade de proxectos en Dynamics 365 Finance
 
 | Área de funcionalidades | Número de referencia | Actualización de calidade |
 | --- | --- | --- |

@@ -1,6 +1,6 @@
 ---
 title: Configurar a facturación entre empresas
-description: Este artigo ofrece información e exemplos sobre a configuración da facturación entre empresas para proxectos.
+description: Este artigo ofrece información e exemplos sobre como configurar a facturación entre empresas para proxectos.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -25,7 +25,7 @@ No seguinte exemplo, Contoso Robotics USA (USPM) é a entidade legal prestameira
 
 1. **Configure a contabilidade entre empresas entre entidades legais**. Cada par de entidades legais prestameira e prestamista debe estar configurado na páxina [Contabilidade entre empresas](/dynamics365/finance/general-ledger/intercompany-accounting-setup) do libro maior.
     
-    1. En Dynamics 365 Finance, vai a **Contabilidade Xeral** > **Configuración da publicación** > **Contabilidade interempresas**. Cree un rexistro coa seguinte información:
+    1. En Dynamics 365 Finance, vaia a **Libro maior** > **Configuración da contabilización** > **Contabilidade entre empresas**. Cree un rexistro coa seguinte información:
 
         - **Empresa de orixe** = **GBPM**
         - **Empresa de destino** = **USPM**

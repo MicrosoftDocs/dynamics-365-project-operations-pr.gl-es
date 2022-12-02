@@ -1,6 +1,6 @@
 ---
 title: Modelo de seguranza
-description: Este artigo ofrece información sobre o modelo de seguridade en Dynamics 365 Project Operations.
+description: Este artigo fornece información sobre o modelo de seguridade en Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
@@ -70,7 +70,7 @@ A medida que evoluciona o modelo de colaboración dos grupos de Office, engadira
 
 Para obter máis información, consulte [Seguranza en Common Data Service](/power-platform/admin/wp-security).
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Operacións do proxecto e Microsoft Dynamics 365 Seguridade financeira
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Seguranza de Project Operations e Microsoft Dynamics 365 Finance
 Project Operations inclúe os seguintes roles:
 
 - Xestor de proxectos

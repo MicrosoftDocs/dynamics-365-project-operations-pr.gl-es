@@ -1,6 +1,6 @@
 ---
 title: Xestionar unha factura proforma de proxecto
-description: Este artigo ofrece información sobre como traballar con facturas de proxectos proforma.
+description: Este artigo ofrece información sobre como traballar con facturas proforma de proxecto.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

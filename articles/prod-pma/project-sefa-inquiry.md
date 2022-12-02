@@ -1,6 +1,6 @@
 ---
 title: Lista de gastos de investigación de subvencións federais
-description: Este artigo ofrece información sobre o calendario de gastos da consulta de premios federais.
+description: Este artigo ofrece información sobre a programación de gastos de investigación de subvencións federais.
 author: velofog
 ms.date: 04/2/2020
 ms.topic: article

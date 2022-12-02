@@ -1,6 +1,6 @@
 ---
 title: Xestionar unidades complexas para liñas de contrato baseado en produto - lite
-description: Este artigo ofrece información sobre como apoiar a venda de produtos baseados na subscrición.
+description: Este artigo ofrece información sobre como apoiar a venda de produtos baseados en subscrición.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: article

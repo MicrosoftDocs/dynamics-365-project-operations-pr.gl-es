@@ -1,6 +1,6 @@
 ---
 title: Crear un modelo de horas laborables
-description: Este artigo describe como crear un modelo de horas de traballo en Project Service.
+description: Este artigo describe como crear un modelo de horas laborables en Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

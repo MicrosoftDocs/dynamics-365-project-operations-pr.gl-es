@@ -1,6 +1,6 @@
 ---
 title: Use a categoría de transacción como dimensión de prezos
-description: Este artigo ofrece información sobre o uso dunha categoría de transacción como dimensión de prezos.
+description: Este artigo fornece información sobre o uso da categoría de transacción como dimensión de prezos.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8915734"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Este artigo mostra como usar unha categoría de transacción como dimensión de prezos. Antes de comezar, se aínda non creou unha solución de dimensión de prezos, necesitará crear unha nova. Se xa ten unha solución de dimensión de prezos, pode facer os seus cambios nesa solución. Se non creou unha nova solución de dimensións de prezos para a súa organización, complete os procedementos da páxina [Crear campos e entidades personalizados](create-custom-fields-entities.md) artigo.
+Este artigo mostra como usar a categoría de transacción como dimensión de prezos. Antes de comezar, se aínda non creou unha solución de dimensión de prezos, necesitará crear unha nova. Se xa ten unha solución de dimensión de prezos, pode facer os seus cambios nesa solución. Se non creou unha nova solución de dimensión de prezos para a súa organización, complete os procedementos do artigo [Crear campos e entidades personalizados](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Engadir a categoría de transacción a formularios e vistas
 Para facer a categoría de transacción visible na IU na solución de dimensión de prezos, necesitará percorrer todos os formularios e vistas das entidades clave de Project Service e engadir estes campos aos formularios e vistas desas entidades.

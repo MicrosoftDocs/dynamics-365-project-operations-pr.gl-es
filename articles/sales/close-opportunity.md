@@ -1,6 +1,6 @@
 ---
 title: Pechar unha oportunidade
-description: Este artigo ofrece información sobre como pechar unha oportunidade de proxecto.
+description: Neste artigo se proporciona información sobre o peche dunha oportunidade de proxecto.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

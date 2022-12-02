@@ -1,6 +1,6 @@
 ---
 title: Copiar oportunidades baseadas en proxecto
-description: Este artigo ofrece información sobre como copiar oportunidades baseadas en proxectos en Project Operations.
+description: Este artigo ofrece información sobre como copiar oportunidades baseadas en proxecto en Project Operations.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

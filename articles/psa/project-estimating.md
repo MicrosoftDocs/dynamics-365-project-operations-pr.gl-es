@@ -1,6 +1,6 @@
 ---
 title: Custos e ingresos de proxecto
-description: Este artigo ofrece información sobre a estimación dos custos e ingresos do proxecto.
+description: Este artigo fornece información sobre a estimación de custos e ingresos dos proxectos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

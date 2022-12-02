@@ -1,6 +1,6 @@
 ---
 title: Conceptos clave de xestión de recursos
-description: Este artigo ofrece información sobre as capacidades de xestión de recursos en Microsoft Dynamics Operacións do proxecto.
+description: Neste artigo se proporciona información sobre as capacidades de xestión de recursos en Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

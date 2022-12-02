@@ -1,6 +1,6 @@
 ---
 title: Listas de prezos de produtos
-description: Este artigo ofrece información sobre as listas de prezos nos prezos do catálogo utilizados para as cotizacións de proxectos e contratos.
+description: Este artigo ofrece información sobre as listas de prezos nos prezos do catálogo empregados para ofertas e contratos de proxectos.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

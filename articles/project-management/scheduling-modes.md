@@ -1,6 +1,6 @@
 ---
 title: Modos de programación
-description: Este artigo ofrece información sobre os modos de programación.
+description: Este artigo fornece información sobre os modos de programación.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
@@ -38,7 +38,7 @@ Cando define o modo de programación dun proxecto, está configurando un destes 
 | Tarefa de esforzo fixo    | A duración calcúlase de novo. | As unidades calcúlanse de novo.    | A duración calcúlase de novo. |
 | Tarefa de duración fixa  | O esforzo calcúlase de novo.   | O esforzo calcúlase de novo.    | As unidades calcúlanse de novo.   |
 
-Para obter máis información sobre as implicacións dun modo determinado, consulte [Cambiar o tipo de tarefa para unha programación máis precisa](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). No artigo, o termo **Traballo** úsase en lugar de **Esforzo**.
+Para obter máis información sobre as implicacións dun modo determinado, consulte [Cambiar o tipo de tarefa para unha programación máis precisa](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). No artigo, o termo **Traballo** úsase no canto de **Esforzo**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Cambiar o modo de programación da organización
 

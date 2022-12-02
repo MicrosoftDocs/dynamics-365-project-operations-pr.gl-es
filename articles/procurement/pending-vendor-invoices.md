@@ -1,6 +1,6 @@
 ---
-title: Adquira materiais ou categorías de aprovisionamento non almacenados mediante unha factura de provedor pendente
-description: Este artigo explica como rexistrar facturas de provedores pendentes.
+title: Comprar materiais sen fornecemento ou categorías de adquisición usando unha factura pendente de fornecedor
+description: Este artigo explica como rexistrar as facturas pendentes do fornecedor.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
@@ -14,29 +14,29 @@ ms.contentlocale: gl-ES
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8921990"
 ---
-# <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Adquira materiais ou categorías de aprovisionamento non almacenados mediante unha factura de provedor pendente
+# <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Comprar materiais sen fornecemento ou categorías de adquisición usando unha factura pendente de fornecedor
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Como unha empresa adquire materiais non abastecidos ou categorías de adquisición para un proxecto, os custos pódense rexistrar inmediatamente contra o proxecto. 
+Cando unha empresa adquire materiais sen fornecemento ou categorías de adquisición para un proxecto, os custos pódense rexistrar de inmediato no proxecto. 
 
-Por exemplo, Contoso Robotics US está a realizar un proxecto de renovación de equipos e precisa licenzas de software. Estas licenzas adquírense a un fornecedor externo.  Usando Dynamics 365 Finance, o empregado de contas a pagar rexistra un documento de factura do provedor pendente e atribúe os custos da licenza directamente ao proxecto de renovación do equipo. 
+Por exemplo, Contoso Robotics US está a realizar un proxecto de renovación de equipos e precisa licenzas de software. Estas licenzas adquírense a un fornecedor externo.  Usando Dynamics 365 Finance, o empregado de contas pendentes de pago rexistra un documento de factura pendente do fornecedor e atribúe os custos da licenza directamente ao proxecto de renovación de equipos. 
 
 > [!IMPORTANT]
-> Antes de utilizar a funcionalidade descrita neste artigo, revise e aplique as configuracións necesarias. Para obter máis información, consulte [Activa os materiais non abastecidos e as facturas de provedores pendentes](configure-materials-nonstocked.md) e [Use categorías de adquisición con pedidos de compra de proxectos e facturas de provedores pendentes](configure-procurement-categories.md)
+> Antes de empregar a funcionalidade descrita neste artigo, revise e aplique as configuracións necesarias. Para obter máis información, consulte [Activa materiais sen fornecemento e facturas pendentes do fornecedor](configure-materials-nonstocked.md) e [Usar categorías de adquisición con pedidos de compra de proxectos e facturas de fornecedores pendentes](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Enviar unha factura pendente fornecedor relacionada co proxecto 
 
 As facturas pendentes do fornecedor poden rexistrarse na páxina **Facturas pendentes do fornecedor** (**Contas pendentes de pago** > **Facturas** > **Facturas pendentes do fornecedor**). Complete os seguintes pasos para publicar unha factura pendente do fornecedor relacionada co proxecto:
 
-1. Ir a **Contas por pagar** > **Facturas**, e seleccione **Novo**. 
-1. No **Conta de factura** campo, seleccione un provedor e, a continuación, no campo **Número** campo, introduza a identificación da factura do provedor.
-1. Engade unha liña á factura do provedor e, a continuación, no **Número de artigo** campo, seleccione o artigo non almacenado que foi adquirido ao provedor. Alternativamente, no **Categoría de contratación** campo, seleccione a categoría de adquisición que se comprou ao provedor.   
-1. Engade a cantidade que foi comprada. O sistema enche o prezo unitario, en función da configuración do prezo do artigo non almacenado. 
+1. Vaia a **Contas pendentes de pago** > **Facturas** e seleccione **Nova**. 
+1. No campo **Conta de factura**, seleccione un fornecedor e, a seguir, no campo **Número**, introduza a identificación da factura do fornecedor.
+1. Engada unha liña á factura do fornecedor e logo, no campo **Número de artigo**, seleccione o artigo sen fornecemento comprado ao fornecedor. Alternativamente, no campo **Categoría de adquisición**, seleccione a categoría de adquisición que se comprou ao fornecedor.   
+1. Engada a cantidade que se comprou. O sistema enche o prezo unitario en función da configuración do prezo do elemento sen fornecemento. 
 1. Verifique o importe total e outros detalles requiridos na liña.
-1. Nos detalles da liña, no **Proxecto** ficha, seleccione o ID do proxecto no que se gravará este elemento.
-1. Opcional: seleccione o número de actividade e actualice a categoría do proxecto e a propiedade da liña.
-1. Publicar a factura do provedor pendente. Cando se publica a factura, o sistema rexistra a seguinte información:
+1. Nos detalles da liña, no separador **Proxecto**, seleccione o ID do proxecto no que se rexistrará este elemento.
+1. Opcional: Seleccione o número de actividade e actualice a categoría do proxecto e a propiedade da liña.
+1. Contabilice a factura pendente do fornecedor. Cando se contabiliza a factura, o sistema rexistra a seguinte información:
     
     - O importe do saldo do fornecedor.
     - O importe do imposto de vendas.

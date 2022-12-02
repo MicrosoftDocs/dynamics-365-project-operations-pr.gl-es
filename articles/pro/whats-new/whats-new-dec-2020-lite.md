@@ -1,6 +1,6 @@
 ---
 title: Novidades de decembro de 2020 - despregamento de Project Operations Lite - de acordo a facturación proforma
-description: 'Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de decembro de 2020 da implementación de Project Operations Lite: acordo coa facturación proforma.'
+description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de decembro de 2020 do despregamento de Project Operations Lite - de acordo a facturación proforma.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8924060"
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
-Este artigo aplícase ao seguinte Dynamics 365 Project Operations compoñentes e versións:
+Este artigo aplícase aos seguintes compoñentes e versións de Dynamics 365 Project Operations:
 
   - Project Operations en ambiente de Dataverse versión 4.5.0.134 
 

@@ -1,6 +1,6 @@
 ---
 title: Métodos de asignación de reservas en Project Service Automation
-description: Este artigo ofrece información sobre as diferentes formas en que pode reservar asignacións.
+description: Este artigo fornece información sobre as diferentes formas de atribuír reservas.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8929166"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Tanto si engade un membro do equipo directamente a un proxecto no separador **Equipo** ou se reserva un recurso a un proxecto ou requisito no panel de programación, hai diferentes médotos de reserva de atribucións que pode utilizar. Este artigo explica como funciona cada método e que métodos poden levar a recursos de reserva excesiva.
+Tanto si engade un membro do equipo directamente a un proxecto no separador **Equipo** ou se reserva un recurso a un proxecto ou requisito no panel de programación, hai diferentes médotos de reserva de atribucións que pode utilizar. Este artigo explica como funciona cada método e que tipo de método pode provocar saturación de recursos.
 
 ## <a name="full-capacity"></a>Capacidade completa 
 O método de Capacidade completa reserva a capacidade completa do recurso para as datas desde e ata especificadas. Por exemplo, se un recurso ten un calendario definido para traballar oito horas por día, cinco días por semana, definir unha data de inicio e de fin que cubra cinco días laborables reservará o recurso para 40 horas. A reserva faise independentemente da capacidade restante do recurso. Se un recurso xa está reservado durante ese período noutros proxectos, as horas 40 resérvanse como horas adicionais, o que pode provocar saturacións.

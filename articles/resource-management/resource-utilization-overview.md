@@ -1,6 +1,6 @@
 ---
 title: Visión xeral da utilización de recursos
-description: Este artigo ofrece información sobre a utilización de recursos en Project Operations.
+description: Este artigo fornece información sobre a utilización de recursos en Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: overview

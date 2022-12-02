@@ -1,6 +1,6 @@
 ---
 title: Páxina inicial de proxectos de recursos
-description: Este artigo ofrece información sobre as capacidades de xestión de recursos en Project Service Automation (PSA) para Dynamics 365.
+description: Este artigo fornece ligazóns a información sobre as capacidades de xestión de recursos en Project Service Automation (PSA) para Dynamics 365.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -46,7 +46,7 @@ Os recursos son o activo máis importante dunha organización baseada en servizo
 - Manter un repositorio de habilidades e coñecementos.
 
 
-Pode dotar de persoal o seu proxecto cun equipo de recursos xenéricos ou nomeados en PSA. Pode empregar varios métodos para engadir e atribuír membros do equipo e para xestionar as súas reservas e atribucións. Para obter información adicional, consulte os seguintes artigos:
+Pode dotar de persoal o seu proxecto cun equipo de recursos xenéricos ou nomeados en PSA. Pode empregar varios métodos para engadir e atribuír membros do equipo e para xestionar as súas reservas e atribucións. Para obter máis información, consulte os seguintes artigos:
 
 - [Reservar recursos reservables nomeados para un equipo de proxecto e atribuírlles tarefas](assign-named-bookable-resource.md)
 - [Atribuír recursos reservables xenéricos a unha tarefa e xerar requisitos de recursos](assign-generic-bookable-resource.md)

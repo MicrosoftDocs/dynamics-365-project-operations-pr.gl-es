@@ -1,6 +1,6 @@
 ---
 title: Novidades ou cambios na versión 39 de actualización de Project Service Automation, V3
-description: Este artigo enumera as funcións e correccións dispoñibles en Microsoft Dynamics 365 Project Service Automation Actualizar a versión 39, V3.
+description: Este artigo indica as funcionalidades e correccións dispoñibles na versión 39 de actualización de Microsoft Dynamics 365 Project Service Automation, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/20/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8922450"
 
 Comprácenos anunciar a última actualización da aplicación Microsoft Dynamics 365 Project Service Automation. Esta versión inclúe algunhas melloras importantes na calidade, rendemento e facilidade de uso. É compatible con Dynamics 365 9.x. Para actualizar esta versión, visite a páxina de solucións en liña do Centro de administración de Dynamics 365 e instale a actualización. Para obter máis información, consulte [Instalar, actualizar ou eliminar unha solución preferida](/power-platform/admin/install-remove-preferred-solution)
 
-Este artigo enumera as funcións e correccións que son novas ou modificadas para a actualización de Project Service Automation, versión 39, V3. Esta versión ten un número de compilación de V3.10.60.170 e está dispoñible xeralmente a través dunha autoactualización desde xaneiro de 2022.
+Este artigo mostra as funcionalidades e correccións que son novas ou modificadas para Project Service Automation, versión 39 de actualización, V3. Esta versión ten un número de compilación de V3.10.60.170 e está dispoñible xeralmente a través dunha autoactualización desde xaneiro de 2022.
 
 ## <a name="update-release-39"></a>Versión 39 de actualización
 
@@ -43,10 +43,10 @@ Resolvéronse os seguintes problemas.
 
 **Xestión de proxectos**
 
-- Prodúcese un erro cando cambia o xestor de proxecto dun proxecto por un usuario que xa é membro do equipo do proxecto.
+- Prodúcese un erro cando cambia o xestor de proxectos dun proxecto por un usuario que xa é membro do equipo do proxecto.
 
 **Vendas**
 
-- O propietario do **Lista de prezos do contrato do proxecto** é incorrecta cando a lista de prezos se crea automaticamente. 
+- O propietario da **Lista de prezos do contrato do proxecto** é incorrecto cando a lista de prezos se crea automaticamente. 
 - A data de vixencia dunha lista de prezos non se respecta cando a lista de prezos se aplica ao parámetro do proxecto.
-- É posible que a unidade de contratación non teña o valor predeterminado correcto ao editar dúas cotizacións separadas.
+- É posible que a unidade de contratación non teña o valor predefinido correcto ao editar dúas ofertas separadas.

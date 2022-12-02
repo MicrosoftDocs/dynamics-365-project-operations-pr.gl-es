@@ -1,6 +1,6 @@
 ---
 title: Previsións e orzamentos de proxectos
-description: Microsoft Dynamics 365 Finance ofrece previsións e orzamentos de proxectos para xestionar e controlar os seus proxectos.
+description: Microsoft Dynamics 365 Finance ofrece previsións de proxectos e orzamentos de proxectos para xestionar e controlar os seus proxectos.
 author: Yowelle
 ms.date: 10/25/2017
 ms.topic: article

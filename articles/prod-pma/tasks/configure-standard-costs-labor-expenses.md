@@ -1,6 +1,6 @@
 ---
 title: Configurar os custos estándar de man de obra e gastos
-description: Este artigo explica como configurar os custos estándar para a man de obra e os gastos dun proxecto.
+description: Este artigo explica como configurar os custos estándar de man de obra e gastos para un proxecto.
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8919507"
 
 [!include [banner](../../includes/banner.md)]
 
-Este artigo explica como configurar os custos estándar para a man de obra e os gastos dun proxecto. Esta tarefa utiliza o conxunto de datos USSI.
+Este artigo explica como configurar os custos estándar de man de obra e gastos para un proxecto. Esta tarefa utiliza o conxunto de datos USSI.
 
 1. No panel de navegación, vaia a **Módulos > Xestión de proxectos e contabilidade > Configuración > Prezos > Prezo de custo (hora)**.
 2. Seleccione **Nova**.

@@ -1,6 +1,6 @@
 ---
 title: Engadir membros do equipo desde a grade de membros do equipo
-description: Este artigo ofrece información sobre como xestionar os recursos dos membros do equipo.
+description: Este artigo fornece información sobre como pode xestionar recursos dos membros do equipo.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

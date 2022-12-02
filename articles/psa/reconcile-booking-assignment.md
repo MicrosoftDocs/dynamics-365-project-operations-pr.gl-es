@@ -1,6 +1,6 @@
 ---
 title: Conciliar reservas e atribucións
-description: Este artigo ofrece información sobre os datos reais.
+description: Neste artigo se proporciona información sobre datos reais.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

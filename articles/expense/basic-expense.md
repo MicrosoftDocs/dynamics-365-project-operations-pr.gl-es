@@ -1,6 +1,6 @@
 ---
 title: Entrada de gasto (lite)
-description: Este artigo ofrece información sobre como traballar coa entrada de gastos nunha implementación lite.
+description: Este artigo ofrece información sobre como traballar coa entrada de gastos nun despregamento lite.
 author: stsporen
 ms.date: 11/19/2020
 ms.topic: article

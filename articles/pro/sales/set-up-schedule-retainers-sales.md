@@ -1,6 +1,6 @@
 ---
 title: Configurar unha programación de retención
-description: Este artigo ofrece información sobre como configurar unha programación de retención en Project Operations.
+description: Este artigo ofrece información sobre como configurar unha programación de retencións en Project Operations.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

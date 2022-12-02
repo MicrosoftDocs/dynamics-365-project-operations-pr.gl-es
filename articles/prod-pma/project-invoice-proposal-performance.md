@@ -1,6 +1,6 @@
 ---
 title: Rendemento de proposta de factura de proxecto
-description: Este artigo ofrece información sobre melloras de rendemento nas propostas de facturas de proxectos.
+description: Este artigo ofrece información sobre melloras de rendemento para as propostas de factura do proxecto.
 author: Yowelle
 ms.date: 06/16/2021
 ms.topic: article

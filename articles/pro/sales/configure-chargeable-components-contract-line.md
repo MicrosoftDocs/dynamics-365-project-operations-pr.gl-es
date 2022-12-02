@@ -1,6 +1,6 @@
 ---
 title: Configurar compoñentes imputables dunha liña de contrato baseado en proxecto
-description: Este artigo ofrece información sobre como engadir compoñentes cobrables ás liñas de contrato en Project Operations.
+description: Este artigo ofrece información sobre como engadir compoñentes imputables a liñas de contrato en Project Operations.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article

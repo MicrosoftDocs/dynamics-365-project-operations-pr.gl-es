@@ -1,6 +1,6 @@
 ---
 title: Calendario de entradas de tempo
-description: Este artigo ofrece información sobre como usar o calendario de entrada de tempo.
+description: Este artigo ofrece información sobre como usar o calendario de entradas de tempo.
 author: rumant
 ms.custom:
 - dyn365-projectservice

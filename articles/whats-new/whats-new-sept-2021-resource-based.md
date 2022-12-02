@@ -1,6 +1,6 @@
 ---
 title: Novidades de setembro de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
-description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de setembro de 2021 de Project Operations para escenarios baseados en recursos ou non almacenados.
+description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de setembro de 2021 de Project Operations para situacións baseadas en recursos/sen fornecemento.
 author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8923370"
 
 *Aplícase a: Project Operations para situacións baseadas en recursos/sen fornecemento*
 
-Este artigo aplícase ao seguinte Dynamics 365 Project Operations compoñentes e versións:
+Este artigo aplícase aos seguintes compoñentes e versións de Dynamics 365 Project Operations:
 
    - Project Operations no ambiente de Microsoft Dataverse versión 4.14.0.99.
-   - Xestión de proxectos e contabilidade no entorno Dynamics 365 Finance versión 10.0.20.
+   - Xestión e contabilidade de proxectos en ambientes de aplicacións de Dynamics 365 Finance versión 10.0.20.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Actualizacións de mapas de escrita dual en Project Operations
 
@@ -45,7 +45,7 @@ Se ten algún problema ao iniciar o mapa, siga as instrucións da sección [Prob
 | Facturación e prezos | 2385802 | Corrixiuse o erro que se producía con horas reais negativas cando se actualizaban os totais do proxecto. |
 | Facturación e prezos | 2389675 | Mellorouse o comportamento de confirmación da factura proforma. A entidade de traballos de longa duración debe ter en conta a actividade necesaria para escribir resultados de confirmación para contabilidade. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Xestión de proxectos e contabilidade en Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Xestión e contabilidade de proxectos en Dynamics 365 Finance
 
 | Área de funcionalidades | Número de referencia | Actualización de calidade |
 | --- | --- | --- |

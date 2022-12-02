@@ -1,6 +1,6 @@
 ---
 title: Conceptos clave
-description: Este artigo ofrece información sobre os conceptos clave para a xestión de recursos en Project Service Automation.
+description: Este artigo fornece ligazóns a información sobre os conceptos clave para a xestión de recursos en Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

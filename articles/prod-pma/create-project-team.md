@@ -1,6 +1,6 @@
 ---
 title: Crear un equipo de proxecto
-description: Este artigo ofrece información sobre como crear e xestionar equipos de proxectos.
+description: Este artigo fornece información sobre como crear e xestionar equipos de proxecto.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

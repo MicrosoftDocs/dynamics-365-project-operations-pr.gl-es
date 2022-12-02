@@ -1,6 +1,6 @@
 ---
 title: Xestionar listas de prezos de proxecto nos contratos de proxecto
-description: Este artigo ofrece información sobre como xestionar as listas de prezos dos proxectos nos contratos de proxectos.
+description: Este artigo ofrece información sobre a xestión de listas de prezos de proxecto en contratos de proxecto.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

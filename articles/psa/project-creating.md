@@ -1,6 +1,6 @@
 ---
 title: Programas de proxecto
-description: Este artigo ofrece información sobre como crear unha programación.
+description: Este artigo fornece información sobre como crear unha programación.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

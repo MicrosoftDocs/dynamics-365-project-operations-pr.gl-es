@@ -1,6 +1,6 @@
 ---
 title: Navegar na interface de usuario
-description: Este artigo ofrece información sobre a xestión de proxectos nas operacións de Dynamics 365 Project.
+description: Neste artigo se proporciona información sobre xestión de proxectos en Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

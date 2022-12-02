@@ -1,6 +1,6 @@
 ---
 title: Personalizar entrada de tempo semanal
-description: Este artigo ofrece información sobre como implementar regras empresariais personalizadas que admiten as prácticas dunha organización.
+description: Este artigo proporciona información sobre como implantar regras de negocio personalizadas para apoiar as prácticas dunha organización.
 author: stsporen
 ms.custom:
 - dyn365-projectservice

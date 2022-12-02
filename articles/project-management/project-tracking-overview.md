@@ -1,6 +1,6 @@
 ---
 title: Rastrexo de esforzo de proxectos
-description: Este artigo ofrece información sobre como controlar o esforzo do proxecto e o progreso do traballo.
+description: Este artigo ofrece información sobre como rastrexar o esforzo do proxecto e o progreso do traballo.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.locfileid: "8929258"
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-A necesidade de rastrexar o progreso cunha programación varía segundo o sector. Algúns sectores rastrexan a un nivel granular, mentres que outros sectores rastrexan a un nivel máis alto. Este artigo mostra como programar para cumprir cos requisitos da túa organización.
+A necesidade de rastrexar o progreso cunha programación varía segundo o sector. Algúns sectores rastrexan a un nivel granular, mentres que outros sectores rastrexan a un nivel máis alto. Este artigo mostra como programar para cumprir os requisitos da súa organización.
 
 ## <a name="effort-tracking-view"></a>Visualización de rastrexamento do esforzo
 
@@ -46,7 +46,7 @@ Pódese proxectar de novo o esforzo en tarefas resumo ou en tarefas contedor. Os
 - As tarefas dependentes afectadas ata os nós folla teñen o seu esforzo restante e a porcentaxe de progreso calculada de novo en función do valor de EAC. Isto da lugar a unha nova proxección para a varianza de esforzo da tarefa. 
 - Calcúlanse de novo os EAC das tarefas resumo ata o nó raíz.
 - O esforzo aprobado nunha tarefa de resumo é a suma do esforzo aprobado en todas as tarefas secundarias máis o esforzo aprobado na tarefa de resumo.
-- O esforzo restante na tarefa de resumo é a suma do esforzo restante en todas as tarefas infantís menos o esforzo aprobado na tarefa de resumo.
+- O esforzo restante na tarefa de resumo é a suma do esforzo restante en todas as tarefas secundarias menos o esforzo aprobado na tarefa de resumo.
 
 ## <a name="project-status-summary"></a>Resumo do estado do proxecto
 

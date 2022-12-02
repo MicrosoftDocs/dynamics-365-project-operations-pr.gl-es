@@ -1,6 +1,6 @@
 ---
 title: Configurar creación automática de facturas
-description: Este artigo ofrece información sobre como configurar e configurar a creación automática de facturas proforma.
+description: Este artigo ofrece información sobre como configurar a creación automática de facturas proforma.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

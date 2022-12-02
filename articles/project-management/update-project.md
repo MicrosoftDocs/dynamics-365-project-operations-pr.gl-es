@@ -1,6 +1,6 @@
 ---
 title: Crear e actualizar un proxecto
-description: Este artigo ofrece información sobre a actualización de proxectos Project Operations.
+description: Neste artigo se proporciona información sobre actualizar proxectos en Project Operations.
 author: ruhercul
 ms.date: 10/20/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Estados de reservas
-description: Este artigo ofrece unha ligazón a información sobre como configurar os estados de reserva para as operacións do proxecto.
+description: Este artigo ofrece unha ligazón a información sobre como configurar estados de reservas para Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

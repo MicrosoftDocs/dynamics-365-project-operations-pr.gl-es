@@ -1,6 +1,6 @@
 ---
 title: Define funcións
-description: Este artigo ofrece unha ligazón a información sobre a configuración de categorías de recursos reservables.
+description: Este artigo fornece unha ligazón a información sobre a configuración de categorías de recursos reservables.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

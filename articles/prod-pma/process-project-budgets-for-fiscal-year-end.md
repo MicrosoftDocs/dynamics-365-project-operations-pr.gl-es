@@ -1,6 +1,6 @@
 ---
 title: Transferir orzamentos de proxecto ao finalizar o ano fiscal
-description: Este artigo ofrece información sobre como transferir as cantidades restantes do orzamento a anos futuros e crear detalles do rexistro orzamentario.
+description: Este artigo ofrece información sobre como transferir cantidades de orzamento restantes a exercicios futuros e crear detalles do rexistro de orzamento.
 author: Yowelle
 ms.date: 03/23/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: 'Novidades de xullo de 2021: despregamento de Project Operations lite'
-description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de xullo de 2021 da implantación de Project Operations lite.
+description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de xullo de 2021 do despregamento de Project Operations lite.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8913986"
 
 _Aplícase a: Despregamento de Lite - acordo para facturación proforma_
 
-Este artigo aplícase ao seguinte Dynamics 365 Project Operations compoñentes e versións:
+Este artigo aplícase aos seguintes compoñentes e versións de Dynamics 365 Project Operations:
 
   - Project Operations no ambiente de Dataverse versión 4.12.0.148 ou 4.12.0.152.
 

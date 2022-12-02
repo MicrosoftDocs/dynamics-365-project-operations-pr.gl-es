@@ -1,6 +1,6 @@
 ---
 title: Xestionar varios clientes en liñas de oferta baseada en proxecto
-description: Este artigo ofrece información sobre como xestionar varios clientes nas liñas de cotización baseadas en proxectos.
+description: Este artigo ofrece información sobre como xestionar varios clientes en liñas de oferta baseada en proxecto.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

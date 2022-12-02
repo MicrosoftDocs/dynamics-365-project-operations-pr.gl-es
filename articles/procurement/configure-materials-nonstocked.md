@@ -1,6 +1,6 @@
 ---
 title: Configurar materiais sen fornecemento e facturas pendentes do fornecedor
-description: Este artigo explica como activar os materiais non abastecidos e as facturas de provedores pendentes.
+description: Este artigo explica como activar materiais sen fornecemento e facturas pendentes do fornecedor.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Executar mapas de escrita dual para a integración de materiais sen fornecemento facturas do fornecedor
 
-Esta sección ofrece información sobre os mapas específicos necesarios para os materiais sen fornecemento e as facturas do fornecedor. Verifique que os mapas de requisitos previos enumerados no [Proporcionar un novo ambiente](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) artigo están a executarse no teu entorno.
+Esta sección ofrece información sobre os mapas específicos necesarios para os materiais sen fornecemento e as facturas do fornecedor. Verifique que os mapas de requisitos previos listados no artigo [Fornecer un novo ambiente](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) están a executarse no seu ambiente.
 
 1. Vaia a Lifecycle Services (LCS), navegue ata o seu proxecto de LCS e vaia á páxina **Detalles do ambiente**.
 2. Na sección **Información do ambiente de Common Data Service**, seleccione **Ligazón a CDS para aplicacións**. Despois de seleccionar a ligazón, redirixiráselle á lista de entidades nas asignacións.

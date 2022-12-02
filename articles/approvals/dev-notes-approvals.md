@@ -1,6 +1,6 @@
 ---
 title: Notas do programador para as aprobacións
-description: Este artigo ofrece información adicional para os desenvolvedores sobre como traballar coas aprobacións.
+description: Este artigo ofrece información adicional para programadores sobre o traballo con aprobacións.
 author: stsporen
 ms.date: 11/09/2020
 ms.topic: article

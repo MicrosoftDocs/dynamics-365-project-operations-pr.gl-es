@@ -1,6 +1,6 @@
 ---
 title: Traballar con gastos persoais nun informe de gastos
-description: Este artigo ofrece información sobre como traballar cos gastos persoais que incorren os empregados mentres viaxan con fins comerciais.
+description: Este artigo ofrece información sobre como traballar cos gastos persoais nos que incorren os empregados cando viaxan con fins empresariais.
 author: suvaidya
 ms.date: 05/11/2021
 ms.topic: article

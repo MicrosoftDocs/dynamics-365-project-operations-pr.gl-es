@@ -1,6 +1,6 @@
 ---
 title: Liñas de oportunidade baseadas en proxecto
-description: Este artigo ofrece información sobre como traballar con liñas de oportunidade baseadas en proxectos.
+description: Este artigo ofrece información sobre como traballar con liñas de oportunidade baseadas en proxecto.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

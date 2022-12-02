@@ -1,6 +1,6 @@
 ---
 title: Crear campos e entidades personalizados
-description: Este artigo explica como crear conxuntos de opcións e entidades na súa propia solución no Power Apps plataforma.
+description: Este artigo explica como crear conxuntos de opcións e entidades na súa propia solución na plataforma Power Apps.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8926912"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Realice os seguintes pasos sempre que queira crear un conxunto de opcións ou unha entidade personalizada na plataforma Power Apps.  
-Os procedementos deste artigo deben completarse mediante a interface web de Project Service Automation (PSA).
+Os procedementos deste artigo deberían realizarse mediante a interface web de Project Service Automation (PSA).
 
 > [!IMPORTANT]
 > Recomendamos que faga todos os cambios de dimensións de prezos personalizados nunha solución separada. Esta importante boa práctica proporciona flexibilidade no futuro para actualizar ou eliminar os cambios segundo sexa necesario, axudará á reutilización do seu traballo e facilita levar estes cambios a outra instancia. Despois de facer todos os cambios necesarios, exporte esta solución como **Solución xestionada** e impórtea a outras instancias para reutilizar a súa configuración de prezos.

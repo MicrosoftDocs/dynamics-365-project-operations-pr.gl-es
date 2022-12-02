@@ -1,6 +1,6 @@
 ---
 title: Configurar taxas de custo e vendas para os gastos
-description: Este artigo ofrece información sobre como configurar os custos e as tarifas de vendas para as categorías de transaccións e gastos.
+description: Este artigo ofrece información sobre como configurar as taxas de custo e vendas para categorías de transaccións e gastos.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article

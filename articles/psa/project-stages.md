@@ -1,6 +1,6 @@
 ---
 title: Tipos de fases de proxecto
-description: Este artigo ofrece información sobre as fases do proxecto.
+description: Neste artigo se proporciona información sobre as fases do proxecto.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

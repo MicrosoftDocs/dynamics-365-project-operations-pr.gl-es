@@ -1,6 +1,6 @@
 ---
 title: Visión xeral de liñas de oferta baseada en produto - lite
-description: Este artigo ofrece información sobre como traballar con liñas de cotización baseadas en produtos.
+description: Este artigo ofrece información sobre o traballo con liñas de oferta baseada en produto.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview

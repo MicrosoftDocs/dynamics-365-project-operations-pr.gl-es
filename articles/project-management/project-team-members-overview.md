@@ -1,6 +1,6 @@
 ---
 title: Membros do equipo do proxecto
-description: Este artigo ofrece información sobre como traballar coa información, os atributos e a programación dos membros do equipo do proxecto.
+description: Este artigo ofrece información sobre como traballar coa información dos membros do equipo do proxecto, os atributos e a programación.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

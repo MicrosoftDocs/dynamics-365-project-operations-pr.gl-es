@@ -1,6 +1,6 @@
 ---
 title: Crear e aplicar os termos de retención do pagamento do fornecedor
-description: Este artigo ofrece información sobre como configurar e manter os termos de retención dos pagos dos provedores.
+description: Este artigo ofrece información sobre como configurar e manter os termos de retención para os pagamentos do fornecedor.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

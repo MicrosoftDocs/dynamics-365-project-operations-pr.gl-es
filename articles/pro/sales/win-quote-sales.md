@@ -1,6 +1,6 @@
 ---
 title: Pechar unha oferta - lite
-description: Este artigo ofrece información sobre como pechar unha cotización en Project Operations.
+description: Este artigo ofrece información sobre o peche dunha oferta en Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

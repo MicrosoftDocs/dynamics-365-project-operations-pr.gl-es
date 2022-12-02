@@ -1,6 +1,6 @@
 ---
 title: Visión xeral de liñas de contrato baseado en produto - lite
-description: Este artigo ofrece información sobre liñas de contrato baseadas en produtos.
+description: Este artigo fornece información sobre liñas de contrato baseado en produtos.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: overview

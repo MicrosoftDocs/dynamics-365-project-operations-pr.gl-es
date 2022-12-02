@@ -1,6 +1,6 @@
 ---
 title: Comprender o estado do proxecto
-description: Este artigo ofrece información sobre o estado asignado aos proxectos en Dynamics 365 Project Operations.
+description: Este artigo ofrece información sobre o estado atribuído aos proxectos en Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

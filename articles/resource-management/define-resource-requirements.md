@@ -1,6 +1,6 @@
 ---
 title: Definir os requisitos de recursos
-description: Este artigo ofrece información sobre como definir a información sobre os requisitos de recursos.
+description: Este artigo fornece información sobre a definición da información dos requisitos de recursos.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

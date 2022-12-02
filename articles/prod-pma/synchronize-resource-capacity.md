@@ -1,6 +1,6 @@
 ---
 title: Sincronizar capacidade de recursos
-description: Este artigo ofrece información sobre como sincronizar a capacidade dun recurso en calendarios e proxectos.
+description: Este artigo ofrece información sobre como sincronizar a capacidade dun recurso entre calendarios e proxectos.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

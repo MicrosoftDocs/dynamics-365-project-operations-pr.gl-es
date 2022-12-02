@@ -1,6 +1,6 @@
 ---
 title: Novidades ou cambios na versión 32.5 de actualización de Project Service Automation, V3
-description: Este artigo enumera as funcións e correccións dispoñibles na actualización 32.5, V3 de Project Service Automation.
+description: Este artigo mostra as funcionalidades e correccións que están dispoñibles la versión 32.5 de actualización de Project Service Automation, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/21/2021
@@ -29,7 +29,7 @@ ms.locfileid: "8918770"
 
 Comprácenos anunciar a última actualización da aplicación Microsoft Dynamics 365 Project Service Automation. Esta versión inclúe algunhas melloras importantes na calidade, rendemento e facilidade de uso. É compatible con Dynamics 365 9.x. Para actualizar esta versión, visite a páxina de solucións en liña do Centro de administración de Dynamics 365 e instale a actualización. Para obter máis información, consulte [Instalar, actualizar ou eliminar unha solución preferida](/power-platform/admin/install-remove-preferred-solution)
 
-Este artigo enumera as funcións e correccións novas ou modificadas para Project Service Automation V3, actualización da versión 32.5. Esta versión ten un número de compilación de V3.10.53.231 e normalmente está dispoñible a través dunha actualización automática en xuño de 2021.
+Este artigo mostra as funcionalidades e correccións que son novas ou modificadas para Project Service Automation V3, versión 32.5 de actualización. Esta versión ten un número de compilación de V3.10.53.231 e normalmente está dispoñible a través dunha actualización automática en xuño de 2021.
 
 ## <a name="update-release-325"></a>Versión 32.5 de actualización
 

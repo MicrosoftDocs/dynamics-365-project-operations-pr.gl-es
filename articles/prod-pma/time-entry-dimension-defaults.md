@@ -23,6 +23,6 @@ Cando usa dimensións financeiras para as entradas de tempo do proxecto, o valor
 2. Project
 3. Fonte de financiamento
 
-Por exemplo, se se especifica a dimensión predeterminada nun recurso, o valor predeterminado aplícase sobre o valor predeterminado especificado para o proxecto. Así mesmo, se se especifica a dimensión predeterminada nun proxecto, o valor predeterminado aplícase sobre o valor predeterminado que se especifica para a fonte de financiamento.
+Por exemplo, se se especifica a dimensión predeterminada nun recurso, o valor predeterminado aplícase sobre o valor predeterminado especificado para o proxecto. Igualmente, se se especifica a dimensión predeterminada nun proxecto, o valor predeterminado aplícase sobre o valor predeterminado especificado para a fonte de financiamento.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

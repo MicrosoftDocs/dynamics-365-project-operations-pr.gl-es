@@ -1,6 +1,6 @@
 ---
 title: Métodos de custo para completar
-description: Este artigo ofrece información sobre os métodos utilizados para calcular o custo para completar un proxecto.
+description: Este artigo ofrece información sobre os métodos empregados para calcular o custo para completar un proxecto.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8920288"
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Este artigo ofrece información sobre os métodos utilizados para calcular o custo para completar un proxecto. Hai varios métodos que pode usar para calcular o custo para completar un proxecto. 
+Este artigo ofrece información sobre os métodos empregados para calcular o custo para completar un proxecto. Hai varios métodos que pode usar para calcular o custo para completar un proxecto. 
 
 Cando crea unha estimación para un proxecto, na páxina **Crear estimación**, no campo **Método de custo para completar**, pode seleccionar un dos seguintes métodos de custo para completar.
 

@@ -1,6 +1,6 @@
 ---
 title: Engadir novos formularios de entidade personalizada (Project Service Automation 2.x)
-description: Este artigo ofrece información sobre como engadir formularios de entidades personalizados para oportunidades, cotizacións, pedidos ou facturas en Dynamics 365 Project Service Automation 2.x.
+description: Este artigo fornece información sobre como engadir formularios de entidade personalizada para oportunidades, ofertas, pedidos ou facturas en Dynamics 365 Project Service Automation 2.x.
 author: makk
 ms.custom:
 - dyn365-projectservice

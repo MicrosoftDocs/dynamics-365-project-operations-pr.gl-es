@@ -1,6 +1,6 @@
 ---
 title: Cumprimento dos requisitos de recursos xenéricos
-description: Este artigo ofrece información sobre como reservar recursos con nome para un requisito de recurso xenérico.
+description: Este artigo proporciona información sobre como reservar recursos nomeados para un requisito de recursos xenérico.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Reservas fronte a atribucións
-description: Este artigo ofrece información sobre as diferenzas entre as reservas de recursos e as asignacións de recursos.
+description: Este artigo ofrece información sobre as diferenzas entre as reservas de recursos e as atribucións de recursos.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: article

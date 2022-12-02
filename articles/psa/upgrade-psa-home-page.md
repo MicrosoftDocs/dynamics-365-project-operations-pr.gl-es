@@ -1,6 +1,6 @@
 ---
 title: Actualizar a páxina de inicio
-description: Este artigo mostra onde atopar información importante sobre as funcións novas e modificadas Dynamics 365 Project Service Automation, e o proceso para actualizar á versión máis recente.
+description: Este artigo mostra onde atopar información importante sobre as funcións novas e modificadas en Dynamics 365 Project Service Automation e o proceso para actualizar á versión máis recente.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -48,14 +48,14 @@ Anteriormente, os clientes que tiñan unha instancia da versión 2.x de PSA e ne
 Antes de comezar o proceso de actualización, recomendámoslle que realice as seguintes tarefas:
 
 - Verifique se Dynamics 365 Field Service e Project Service Automation están instalados na instancia identificada. Se se instalan ambas solucións, ten que planificar a actualización antes de continuar co uso regular da instancia.
-- Revisa coidadosamente os seguintes artigos. O coñecemento e a comprensión dos cambios entre versións axudaranlle co proceso de actualización. Estes artigos ofrecen información sobre os principais cambios no PSA, xunto con consideracións e recomendacións para planificar a súa actualización á versión 3.x.
+- Revise coidadosamente os seguintes artigos. O coñecemento e a comprensión dos cambios entre versións axudaranlle co proceso de actualización. Estes artigos fornecen información sobre os cambios importantes en PSA, xunto con consideracións e recomendacións para planificar a súa actualización á versión 3.x.
 
     - [Novidades ou cambios na versión 3 de Project Service Automation](whats-new-changed-v3.md)
     - [Consideracións sobre a actualizaciñon - Project Service Automation versión 2.x ou 1.x a versión 3](upgrade-v3.md)
 
 - Actualice a súa instancia de illamento de procesos para avaliar os cambios na súa instalación antes de actualizar a súa instancia de produción.
 
-Despois de revisar os artigos que se mencionaron anteriormente e de estar listo para actualizar á versión 3.x de PSA ou á versión baseada en UCI, envíe unha solicitude ao soporte de Microsoft para que a actualización estea dispoñible no Centro de administración. Na súa solicitude, indique os detalles da súa instancia.
+Despois de revisar os artigos mencionados anteriormente e estar preparado para actualizar a PSA versión 3.x ou a versión baseada en UCI, envíe unha solicitude ao servizo de asistencia de Microsoft para que a actualización estea dispoñible desde o centro de administración. Na súa solicitude, indique os detalles da súa instancia.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>Versións máis antigas de PSA (versión PSA 2.x) nunha instancia de nova creación
 

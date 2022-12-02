@@ -1,6 +1,6 @@
 ---
 title: Información resumida sobre unha oferta de proxecto - lite
-description: Este artigo ofrece información sobre a información e a configuración que se aplican ás cotizacións do proxecto e afectan. (Sales)
+description: Este artigo ofrece información sobre a información e a configuración que se aplican e afectan ás ofertas do proxecto. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

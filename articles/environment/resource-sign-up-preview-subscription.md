@@ -1,6 +1,6 @@
 ---
 title: Rexístrese nas subscricións de previsualización de Project Operations para situacións de recursos/sen fornecemento
-description: Este artigo ofrece información sobre como subscribirse e implementar as operacións do proxecto para escenarios baseados en recursos ou non almacenados.
+description: Este artigo ofrece información sobre como subscribirse e despregar Project Operations para situacións baseadas en recursos/sen fornecemento.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
@@ -19,7 +19,7 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 
 
 
-Este artigo explica como subscribirse á oferta de proba e implementar o ambiente Project Operations para escenarios baseados en recursos ou non almacenados.
+Este artigo explica como subscribirse á oferta de proba e despregar o ambiente de Project Operations para situacións baseadas en recursos/sen fornecemento.
 
 ## <a name="prerequisites"></a>Requisitos previos
 - O usuario que desprega a vprevisualización debe ter dereitos de administrador global de arrendatario de Azure. Pode crear un arrendatario durante o troco da primeira oferta. 
@@ -40,7 +40,7 @@ Antes de comezar, asegúrese de iniciar sesión nun explorador coa conta de trab
 
   Verá que a oferta de confirmación se trocou con éxito.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Proba de vista previa de Dynamics 365 Finance
+### <a name="dynamics-365-finance-preview-trial"></a>Proba da versión preliminar de Dynamics 365 Finance
 
 Vaia a [Proba da versión preliminar de Dynamics 365 for Finance](https://aka.ms/trypoche) e repita os pasos da sección anterior coa oferta, Rexístrese para o ambiente aloxado na nube.  
 
@@ -49,7 +49,7 @@ Vaia a [Proba da versión preliminar de Dynamics 365 for Finance](https://aka.ms
 > [!IMPORTANT]
 > Necesitará acceso administrativo ao portal Microsoft 365 da súa organización para completar os seguintes pasos.
 
-1. Ir a [Microsoft 365 centro de administración](https://portal.office.com/) para asignar as licenzas aos seus usuarios.
+1. Vaia a [Centro de administración de Microsoft 365](https://portal.office.com/) para atribuír as licenzas aos seus usuarios.
 
 2. Na páxina **Usuarios activos**, seleccione os usuarios aos que desexa atribuír unha licenza.
 
@@ -60,19 +60,19 @@ Vaia a [Proba da versión preliminar de Dynamics 365 for Finance](https://aka.ms
 
 ## <a name="start-a-new-project-in-lcs"></a>Iniciar un novo proxecto en LCS
 
-Crea un novo proxecto LCS como se describe no artigo, [Comeza un novo proxecto en LCS](create-lcs-project.md)
+Crear un novo proxecto LCS como se describe no artigo [Iniciar un novo proxecto en LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Engadir unha subscrición a Azure a un proxecto de LCS
 
-Para completar esta tarefa, siga os pasos do artigo, [Engade unha subscrición de Azure ao proxecto LCS](resource-add-azure-subscription-lcs-project.md).
+Para completar esta tarefa, siga os pasos do artigo [Engadir unha subscrición a Azure ao proxecto de LCS](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Despregar ambiente de demostración de Finance con Project Operations para situacións de recursos/sen fornecemento
 
-Siga as orientacións do artigo, [Proporcionar un novo ambiente](resource-provision-new-environment.md) para completar o despregamento. Use o tipo de despregamento de [ambiente de demostración](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) para a previsualización. 
+Siga as indicacións do artigo [Proporcionar un novo ambiente](resource-provision-new-environment.md) para completar o despregamento. Use o tipo de despregamento de [ambiente de demostración](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) para a previsualización. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Instalar os datos de configuración de CDS
 
-Instale os datos de configuración e configuración de CDS como se describe no artigo, [Configure e aplique os datos de configuración no ficheiro Common Data Service](resource-apply-pro-setup-config-data.md).
+Instale os datos configuración do CDS como se describe no artigo [Configurar e aplicar os datos de configuración en Common Data Service](resource-apply-pro-setup-config-data.md).
 Complete este paso só despois de que se despregue o ambiente de demostración Finance e os datos de demostración estean listos.
 
 

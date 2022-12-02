@@ -1,6 +1,6 @@
 ---
 title: Desenvolver modelos de proxecto con Copiar proxecto
-description: Este artigo ofrece información sobre como crear modelos de proxecto mediante a acción personalizada Copiar proxecto.
+description: Este artigo ofrece información sobre como crear modelos de proxecto usando a acción personalizada Copiar proxecto.
 author: stsporen
 ms.date: 03/10/2022
 ms.topic: article
@@ -25,40 +25,40 @@ Cando selecciona **Copiar proxecto**, actualízase o estado do proxecto de desti
 
 ### <a name="name"></a>Nome 
 
-msdyn\_ CopyProjectV3
+msdyn\_CopyProjectV3
 
 ### <a name="input-parameters"></a>Parámetros de entrada
 
 Hai tres parámetros de entrada:
 
-- **SubstituírNamedResources** ou **ClearTeamsAndAssignments** – Establece só unha das opcións. Non configure os dous.
+- **ReplaceNamedResources** ou **ClearTeamsAndAssignments** – Estableza só unha das opcións. Non estableza ambas.
 
-    - **\{"ReplaceNamedResources": verdadeiro\}** – O comportamento predeterminado para as operacións do proxecto. Calquera recurso nomeado substitúese por recursos xenéricos.
-    - **\{"ClearTeamsAndAssignments":true\}** – O comportamento predeterminado para Project for the Web. Elimínanse todas as tarefas e membros do equipo.
+    - **\{"ReplaceNamedResources":true\}** – O comportamento por defecto para Project Operations. Os recursos nomeados son substituídos por recursos xenéricos.
+    - **\{"ClearTeamsAndAssignments":true\}** – O comportamento por defecto para Project for the Web. Elimínanse todas as atribucións e membros do equipo.
 
-- **Proxecto fonte** – A referencia da entidade do proxecto orixe do que se copia. Este parámetro non pode ser nulo.
-- **Obxectivo** – A referencia da entidade do proxecto de destino para copiar. Este parámetro non pode ser nulo.
+- **SourceProject** – A referencia da entidade do proxecto de orixe para copiar. Este parámetro non pode ser nulo.
+- **Target** – A referencia da entidade do proxecto de destino para copiar. Este parámetro non pode ser nulo.
 
-A seguinte táboa ofrece un resumo dos tres parámetros.
+A táboa seguinte ofrece un resumo dos tres parámetros.
 
 | Parámetro                | Tipo             | Valor                 |
 |--------------------------|------------------|-----------------------|
-| SubstituírNamedResources    | Boolean          | **Verdade** ou **Falso** |
-| ClearTeamsAndAssignments | Boolean          | **Verdade** ou **Falso** |
-| SourceProject            | Referencia de entidade | O proxecto fonte    |
-| Destino                   | Referencia de entidade | O proxecto obxectivo    |
+| ReplaceNamedResources    | Boolean          | **True** ou **False** |
+| ClearTeamsAndAssignments | Boolean          | **True** ou **False** |
+| SourceProject            | Referencia de entidade | O proxecto de orixe    |
+| Destino                   | Referencia de entidade | O proxecto de destino    |
 
-Para obter máis valores predeterminados das accións, consulte [Usa accións da API web](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+Para ver máis valores predefinidos para accións, consulte [Usar accións da API web](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
 
 ### <a name="validations"></a>Validacións
 
-Realízanse as seguintes validacións.
+Realízanse as seguintes validacións:
 
 1. Null verifica e recupera os proxectos orixe e destino para confirmar a existencia de ambos proxectos na organización.
 2. O sistema valida que o proxecto de destino é válido para copiar verificando as seguintes condicións:
 
-    - Non hai ningunha actividade previa no proxecto (incluída a selección do **Tarefas** pestana), e o proxecto é recén creado.
-    - Non hai ningunha copia anterior, non se solicitou ningunha importación neste proxecto e o proxecto non ten un **Fallou** estado.
+    - Non hai ningunha actividade previa no proxecto (incluída a selección do separador **Tarefas**), e o proxecto é de nova creación.
+    - Non hai ningunha copia anterior, non se solicitou ningunha importación neste proxecto e o proxecto non ten un estado de **Erro**.
 
 3. A operación non se chama usando HTTP.
 
@@ -68,7 +68,7 @@ Cando se chama a acción, **Copiar proxecto** verá a vista do proxecto **Copiar
 
 ### <a name="example"></a>Exemplo
 
-O seguinte exemplo mostra como chamar a **CopyProjectV3** acción personalizada co **removeNamedResources** conxunto de parámetros.
+O seguinte exemplo mostra como chamar á acción personalizada **CopyProjectV3** co grupo de parámetros **removeNamedResources**.
 
 ```C#
 {

@@ -1,6 +1,6 @@
 ---
 title: Habilidades e certificacións
-description: Este artigo ofrece información sobre como engadir características de habilidades e certificación aos recursos.
+description: Este artigo ofrece información sobre como engadir características de habilidade e certificación aos recursos.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

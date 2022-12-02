@@ -1,6 +1,6 @@
 ---
 title: Contratos de proxecto - Conceptos clave
-description: Este artigo ofrece información sobre os conceptos clave dos contratos de proxectos en Operacións de proxectos.
+description: Este artigo ofrece información sobre os conceptos clave dos contratos de proxecto en Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -19,11 +19,11 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 
 
 
-Este artigo proporciona os conceptos clave dos que debes ter en conta antes de comezar a usar os contratos do proxecto Dynamics 365 Project Operations:
+Este artigo ofrece os conceptos clave que hai que ter en conta antes de comezar a empregar contratos de proxecto en Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Empresa propietaria
 
-A empresa propietaria é a persoa xurídica do **Xestión de proxectos e contabilidade** módulo para Operacións do Proxecto de Dynamics 365 Finance. A empresa propietaria representa a entidade xurídica que contabilizará o custo e os ingresos que se derivan dun acordo.
+A empresa propietaria é a entidade xurídica do módulo **Xestión e contabilidade de proxectos** para Project Operations de Dynamics 365 Finance. A empresa propietaria representa a entidade xurídica que contabilizará o custo e os ingresos que se derivan dun acordo.
 
 ## <a name="contracting-unit"></a>Unidade de contratación
 

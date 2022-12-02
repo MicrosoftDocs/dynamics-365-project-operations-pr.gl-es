@@ -1,6 +1,6 @@
 ---
 title: Utilizar o panel de programación para reservar recursos de proxecto
-description: Este artigo ofrece información sobre como reservar recursos.
+description: Este artigo fornece información sobre como reservar recursos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

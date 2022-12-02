@@ -1,6 +1,6 @@
 ---
 title: Reservar recursos reservables nomeados para un equipo de proxectos e atribuír tarefas
-description: Este artigo ofrece información sobre como reservar recursos con nome para os equipos do proxecto e asignalos a tarefas.
+description: Este artigo fornece información sobre como reservar recursos nomeados para equipos de proxectos e atribuírlles tarefas.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

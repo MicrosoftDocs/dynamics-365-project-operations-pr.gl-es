@@ -1,6 +1,6 @@
 ---
 title: Desinstalar Dynamics 365 Project Operations
-description: Este artigo ofrece información sobre como desinstalar Dynamics 365 Project Operations.
+description: Este artigo fornece información sobre como desinstalar Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 11/09/2021
 ms.topic: article
@@ -35,8 +35,8 @@ Para desinstalar Dynamics 365 Project Operations, debe ter atribuído o rol de A
     | 6 | ProjectServiceCore_Patch                           | Non hai notas adicionais.                                                                         |
     | 7 | ProjectServiceCore                                 | Non hai notas adicionais.                                                                         |
     | 8 | ProjectServiceDeprecatedComponents                 | Se non se atopa, omita esta solución.                                                            |
-    | 9 | FieldServiceCommon                                 | Necesario para a escritura dual con Dynamics 365 Finance ou Dynamics 365 Supply Chain Management.   |
-    | 1,0 | msdyn_AssetCommon                                  | Necesario para a escritura dual con Dynamics 365 Finance ou Dynamics 365 Supply Chain Management.   |
+    | 9 | FieldServiceCommon                                 | Necesario para a escrita dual con Dynamics 365 Finance ou Dynamics 365 Supply Chain Management.   |
+    | 1,0 | msdyn_AssetCommon                                  | Necesario para a escrita dual con Dynamics 365 Finance ou Dynamics 365 Supply Chain Management.   |
     | 11 | msdyn_TESA_Anchor                                  | Necesario para Dynamics 365 Field Service.                                                     |
     | 12 | msdyn_TESA_Patch                                   | Necesario para Dynamics 365 Field Service.                                                     |
     | 13 | msdyn_TESA                                         | Necesario para Dynamics 365 Field Service.                                                     |

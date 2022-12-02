@@ -1,6 +1,6 @@
 ---
 title: Prezos do catálogo de produtos
-description: Este artigo ofrece información sobre como funciona o prezo do catálogo de produtos Dynamics 365 Project Service Automation (PSA).
+description: Este artigo fornece información sobre como funcionan os prezos do catálogo de produtos en Dynamics 365 Project Service Automation (PSA).
 author: rumant
 ms.custom:
 - dyn365-projectservice

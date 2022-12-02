@@ -1,6 +1,6 @@
 ---
 title: Integración de escrita dual de Project Operations
-description: Este artigo ofrece unha visión xeral da integración de dobre escritura de Project Operations.
+description: Este artigo ofrece unha visión xeral da integración da escrita dual de Project Operations.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: overview
@@ -18,7 +18,7 @@ ms.locfileid: "8927970"
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Usos operativos do proxecto [capacidades de escritura dual](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) para sincronizar datos Microsoft Dataverse e Dynamics 365 Finance.
+Project Operations usa as [capacidades de escrita dual](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) para sincronizar datos entre Microsoft Dataverse e Dynamics 365 Finance.
 
 A seguinte ilustración mostra como se sincronizan os datos como parte desta integración entre Dataverse e Finance.
 

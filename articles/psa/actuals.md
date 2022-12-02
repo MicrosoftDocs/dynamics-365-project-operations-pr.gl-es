@@ -1,6 +1,6 @@
 ---
 title: Visión xeral dos datos reais
-description: Este artigo ofrece información sobre os proxectos reais.
+description: Neste artigo se proporciona información sobre datos reais do proxecto.
 author: rumant
 ms.custom:
 - dyn365-projectservice

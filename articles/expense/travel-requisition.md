@@ -1,6 +1,6 @@
 ---
 title: Solicitudes de viaxes
-description: Este artigo ofrece información sobre as solicitudes de viaxe.
+description: Este artigo fornece información sobre as solicitudes de viaxes.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

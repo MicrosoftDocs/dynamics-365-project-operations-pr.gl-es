@@ -1,6 +1,6 @@
 ---
 title: Actualizar os atributos do complemento con novas dimensións de prezos
-description: Este artigo ofrece información sobre como actualizar os atributos do complemento para as dimensións de prezos.
+description: Este artigo fornece información sobre como actualizar os atributos do complemento para as dimensións de prezos.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.locfileid: "8920012"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Actualizar os atributos do complemento con novas dimensións de prezos
 
-Este artigo ofrece información sobre como actualizar os atributos do complemento para as dimensións de prezos.
+Este artigo fornece información sobre como actualizar os atributos do complemento para as dimensións de prezos.
 
 > [!NOTE]
-> Este artigo só é aplicable ás características de cotización e contrato en Dynamics 365 Project Operations.
+> Este artigo só é aplicable ás funcionalidades de oferta e contrato en Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Requisitos previos
-Antes de completar os pasos deste artigo, debes completar os procedementos dos seguintes artigos:
+Antes de completar os pasos deste artigo, debe ter completado os procedementos dos seguintes artigos:
 
   - [Crear campos e entidades personalizados](create-custom-fields-entities-pricing-dimensions.md) 
   - [Engadir campos personalizados á configuración de prezos e ás entidades transaccionais ](add-custom-fields-price-setup-transactional-entities.md)
   - [Configurar campos personalizados como dimensións de prezos](set-up-custom-fields-pricing-dimensions.md). 
   
-Se non completaches eses procedementos, complétaos e despois volve a este artigo.
+Se non completou eses procedementos, compléteos e despois volva a este artigo.
 
 ## <a name="register-a-plug-in"></a>Rexistrar un complemento
 Cando se crea un detalle de liña de oferta na páxina **Liña de oferta** dunha liña de oferta do proxecto, o sistema crea dúas liñas de estimación. Unha liña é para o lado de custo da estimación e a outra liña é para o lado de vendas. Isto é o mesmo para as liñas de contrato do proxecto.

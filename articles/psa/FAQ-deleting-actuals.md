@@ -1,6 +1,6 @@
 ---
 title: Por que non podo eliminar rexistros da entidade datos reais?
-description: Este artigo ofrece información sobre por que non podes eliminar rexistros da entidade reais.
+description: Este artigo fornece información sobre por que non pode eliminar rexistros da entidade datos reais.
 author: JPBurrows
 ms.custom:
 - dyn365-projectservice

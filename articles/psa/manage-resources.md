@@ -1,6 +1,6 @@
 ---
 title: Xestionar recursos
-description: Este artigo ofrece información sobre como xestionar os recursos.
+description: Este artigo fornece información sobre como pode xestionar recursos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

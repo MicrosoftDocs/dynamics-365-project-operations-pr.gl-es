@@ -1,6 +1,6 @@
 ---
 title: Atribuír recursos reservables xenéricos a unha tarefa e un equipo de proxectos
-description: Este artigo ofrece información sobre como reservar recursos xenéricos para tarefas e equipos de proxecto.
+description: Este artigo fornece información sobre a reserva de recursos xenéricos a tarefas e equipos de proxectos.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

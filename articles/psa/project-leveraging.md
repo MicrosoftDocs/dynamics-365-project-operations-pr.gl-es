@@ -1,6 +1,6 @@
 ---
 title: Proxectos e estimacións de vendas
-description: Este artigo ofrece información sobre como aproveitar a programación e as estimacións no proceso de vendas.
+description: Este artigo fornece información sobre como aproveitar a programación e as estimacións no proceso de vendas.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

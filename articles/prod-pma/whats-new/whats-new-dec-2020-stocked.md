@@ -1,6 +1,6 @@
 ---
 title: Novidades de decembro 2020 - Project Operations para situacións baseadas en produción/con fornecemento
-description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de decembro de 2020 de Project Operations para escenarios de almacenamento/produción.
+description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de decembro de 2020 de Project Operations para situacións baseadas en produción/con fornecemento.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
@@ -18,9 +18,9 @@ ms.locfileid: "8911364"
 
 _Aplícase a: Project Operations para situacións baseadas en produción/con fornecemento_
 
-Este artigo aplícase ao seguinte Dynamics 365 Project Operations compoñentes e versións:
+Este artigo aplícase aos seguintes compoñentes e versións de Dynamics 365 Project Operations:
 
-  - Xestión de proxectos e contabilidade no entorno Dynamics 365 Finance versión 10.0.15
+  - Xestión e contabilidade de proxectos en ambientes de aplicacións de Dynamics 365 Finance versión 10.0.15
 
 ## <a name="quality-updates"></a>Actualizacións de calidade
 
@@ -139,7 +139,7 @@ Este artigo aplícase ao seguinte Dynamics 365 Project Operations compoñentes e
 
 ## <a name="regulatory-updates"></a>Actualizacións normativas
 
-Para obter información sobre as actualizacións regulamentarias para Dynamics 365 Finance, consulte [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Outra forma de aprender sobre as actualizacións normativas é iniciar sesión en Lifecycle Services (LCS) e ver as actualizacións regulamentarias planificadas mediante a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
+Para obter información sobre actualizacións normativas para aplicacións de Dynamics 365 Finance, vexa [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Outra forma de aprender sobre as actualizacións normativas é iniciar sesión en Lifecycle Services (LCS) e ver as actualizacións regulamentarias planificadas mediante a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

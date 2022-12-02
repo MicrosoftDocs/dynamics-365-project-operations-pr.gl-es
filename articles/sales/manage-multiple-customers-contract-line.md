@@ -1,6 +1,6 @@
 ---
 title: Xestionar varios clientes en liñas de oferta baseada en contrato
-description: Este artigo ofrece información sobre como traballar con liñas de contrato e contratos que conteñen varios clientes.
+description: Este artigo ofrece información sobre o traballo con liñas de contrato e contratos que conteñen varios clientes.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Cambios de tempo e gastos (Project Service Automation 3.x)
-description: Este artigo ofrece información sobre os cambios da solución para o tempo e os gastos.
+description: Este artigo fornece información sobre os cambios de solucións para tempo e gasto.
 author: makk
 ms.custom:
 - dyn365-projectservice

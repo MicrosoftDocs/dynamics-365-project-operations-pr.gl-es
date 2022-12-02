@@ -1,6 +1,6 @@
 ---
 title: Estimacións financeiras dos materiais en proxectos
-description: Este artigo ofrece información sobre como definir ou estimar materiais baseados en proxectos.
+description: Este artigo ofrece información sobre a definición ou estimación de materiais baseados en proxectos.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8925690"
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Dynamics 365 Project Operations permite aos xestores de proxectos definir custos de material baseados en proxectos para cada proxecto ou tarefa. Cada estimación de material pode asociarse a unha tarefa específica do proxecto. Os materiais que se utilizan nos proxectos poden ser produtos escritos ou produtos do catálogo de produtos. Para cada combinación dun produto e unha unidade, pódese definir un prezo nas listas de prezos do proxecto para as vendas e nas listas de prezos do proxecto para o custo.  
+Dynamics 365 Project Operations permite aos xestores de proxectos definir custos de material baseados en proxectos para cada proxecto ou tarefa. Cada estimación de material pode asociarse a unha tarefa específica do proxecto. Os materiais que se utilizan nos proxectos poden ser produtos fóra de catálogo ou produtos do catálogo de produtos. Para cada combinación dun produto e unha unidade, pódese definir un prezo nas listas de prezos do proxecto para as vendas e nas listas de prezos do proxecto para o custo.  
 
 Complete os seguintes pasos para ver, engadir ou eliminar unha estimación do material do proxecto.
 

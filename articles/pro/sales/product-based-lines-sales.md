@@ -1,6 +1,6 @@
 ---
 title: Liñas de oportunidade baseada en produto - lite
-description: Este artigo ofrece información sobre elementos de liña de oportunidade baseados en produtos en Project Operations.
+description: Este artigo ofrece información sobre os elementos de liña de oportunidade baseada en produto en Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

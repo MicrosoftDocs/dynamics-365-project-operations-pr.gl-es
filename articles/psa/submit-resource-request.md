@@ -1,6 +1,6 @@
 ---
 title: Enviar unha solicitude de recurso
-description: Este artigo ofrece información sobre como enviar unha solicitude para un recurso do proxecto.
+description: Este artigo fornece información sobre o envío dunha solicitude dun recurso de proxecto.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018

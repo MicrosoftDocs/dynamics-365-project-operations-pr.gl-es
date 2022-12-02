@@ -1,6 +1,6 @@
 ---
 title: Páxina de inicio de planificación de proxectos
-description: Este artigo ofrece información sobre a planificación do proxecto.
+description: Neste artigo se proporciona información sobre a planificación de proxectos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -43,7 +43,7 @@ As ferramentas de xestión de proxectos en PSA axúdanlle a executar proxectos f
 - Facer previsións dos requisitos de recursos para proxectos que están na canle.
 - Entregar con éxito os proxectos rastrexando o progreso e o consumo de custos.
 
-Os artigos seguintes fornecen información que axudará aos xestores de proxectos a estimar o traballo, os custos do proxecto e prever os requisitos de recursos mediante as ferramentas compatibles con PSA:
+Os artigos seguintes proporcionan información que axudará aos xestores de proxectos a estimar o traballo, a estimar os custos do proxecto e a predicir os requisitos de recursos mediante as ferramentas compatibles con PSA:
 
 - [Creación dunha programación](project-creating.md)
 - [Estimación dos custos e ingresos de proxectos](project-estimating.md)

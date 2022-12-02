@@ -26,7 +26,7 @@ ms.locfileid: "8916010"
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-As seccións deste artigo ofrecen información sobre os cambios que se realizaron na área de xestión de recursos de Dynamics 365 Project Service Automation versión 3.x.
+As seccións deste artigo proporcionan información sobre os cambios realizados na área de xestión de recursos de Dynamics 365 Project Service Automation versión 3.x.
 
 ## <a name="project-estimates"></a>Estimacións do proxecto
 

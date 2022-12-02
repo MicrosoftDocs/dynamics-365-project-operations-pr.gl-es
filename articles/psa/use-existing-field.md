@@ -1,6 +1,6 @@
 ---
 title: Usar un campo existente en Project Service como dimensión de prezos
-description: Este artigo ofrece información sobre como usar os campos de Project Service existentes como dimensións de prezos.
+description: Este artigo fornece información sobre o uso dos campos existentes de Project Service como dimensións de prezos.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

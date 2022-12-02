@@ -1,6 +1,6 @@
 ---
 title: Configurar listas de prezos
-description: Este artigo ofrece información sobre como configurar as listas de prezos de venda e de custo.
+description: Este artigo ofrece información sobre como configurar listas de prezos de custo e venda en Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

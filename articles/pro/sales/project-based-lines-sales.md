@@ -1,6 +1,6 @@
 ---
 title: Liñas de oportunidade baseada en proxecto - lite
-description: Este artigo ofrece información sobre liñas de oportunidade baseadas en proxectos. (Pro)
+description: Este artigo ofrece información sobre as liñas de oportunidade baseadas en proxecto. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

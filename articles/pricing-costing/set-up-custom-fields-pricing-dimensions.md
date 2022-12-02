@@ -1,6 +1,6 @@
 ---
 title: Configurar campos personalizados como dimensións de prezos
-description: Este artigo ofrece información sobre como configurar as dimensións de prezos mediante campos personalizados.
+description: Este artigo fornece información sobre como configurar dimensións de prezos mediante campos personalizados.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8917574"
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Antes de comezar, este artigo asume que completou os procedementos dos artigos, [Crear campos e entidades personalizados](create-custom-fields-entities-pricing-dimensions.md) e [Engade campos personalizados obrigatorios á configuración de prezos e ás entidades transaccionais](add-custom-fields-price-setup-transactional-entities.md). Se non completaches eses procedementos, volve e complétaos e despois volve a este artigo. 
+Antes de comezar, este artigo asume que completou os procedementos nos artigos [Crear campos e entidades personalizados](create-custom-fields-entities-pricing-dimensions.md) e [Engadir campos personalizados requiridos a configuración de prezos e entidades transaccionais](add-custom-fields-price-setup-transactional-entities.md). Se non completou eses procedementos, volva e compléteos e despois volva a este artigo. 
 
-Este artigo ofrece información sobre a configuración de dimensións de prezos personalizados. Na páxina **Parámetros**, o separador **Dimensións de prezos baseados na cantidade** mostra os rexistros nas entidades de dimensións de prezos. Por defecto, hai dúas filas na grade deste separador:
+Este artigo fornece información sobre a configuración de dimensións de prezos personalizadas. Na páxina **Parámetros**, o separador **Dimensións de prezos baseados na cantidade** mostra os rexistros nas entidades de dimensións de prezos. Por defecto, hai dúas filas na grade deste separador:
 
 - **msdyn_resourcecategory** (Rol)
 - **msdyn_OrganizationalUnit** (Unidade organizativa)

@@ -35,7 +35,7 @@ O grao de detalle dunha WBS depende do nivel de precisión que se require nas es
 
 Pola contra, os proxectos en sectores como medios de comunicación e publicidade, software e infraestruturas de TI adoitan ser únicos e a produtividade está relacionada coa experiencia e competencia da persoa que realiza a tarefa. Polo tanto, estes sectores utilizan unha WBS para obter unha aproximación do tamaño dun proxecto, non para rastrexar o progreso dese proxecto en detalle. 
 
-Construír unha WBS é un proceso intensivo que se realiza normalmente durante un longo período e que require colaboración e información dunha gran variedade de persoas. Este artigo describe como pode usar as melloras de WBS para satisfacer os seus requisitos de estimacións e seguimento.
+Construír unha WBS é un proceso intensivo que se realiza normalmente durante un longo período e que require colaboración e información dunha gran variedade de persoas. Este artigo describe como pode usar as melloras da WBS para cumprir os seus requisitos de estimacións e rastrexo.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Requisitos previos para a creación dunha WBS
 Para crear unha WBS, ten que ser capaz de crear un programa de traballo e estimar o custo do traballo.
@@ -166,7 +166,7 @@ Finanzas ten tres vistas para a WBS dun proxecto: a vista de planificación, a v
 
 ### <a name="planning-view"></a>Vista de planificación
 
-A vista de planificación mostra a estimación planificada ou de base da información sobre programación e custos. Aínda que non hai funcionalidades para rastrexar a versión e a liña de base da WBS dun proxecto, os valores desta vista están pensados para representar a versión de liña de base. As seccións de Estimación de programación e Estimación de custos deste artigo describen esta vista e como se usa para crear un WBS.
+A vista de planificación mostra a estimación planificada ou de base da información sobre programación e custos. Aínda que non hai funcionalidades para rastrexar a versión e a liña de base da WBS dun proxecto, os valores desta vista están pensados para representar a versión de liña de base. As seccións de estimación de programación e estimación de custos deste artigo describen esta vista e como se usa para crear unha WBS.
 
 ### <a name="effort-tracking-view"></a>Visualización de rastrexamento do esforzo
 

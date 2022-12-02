@@ -24,7 +24,7 @@ ms.locfileid: "8683858"
 
 [!include [banner](../../includes/banner.md)]
 
-As fases do proxecto poden servir de guía para o ciclo de vida do proxecto. Pode definir as fases do proxecto que desexa incluír nos seus proxectos na área Fase do proxecto na páxina Parámetros de xestión de proxectos e contabilidade. Dynamics 365 Finance ofrece cinco etapas de proxecto predefinidas e tres etapas definidas polo usuario. Pode actualizar o nome dunha fase do proxecto que está a usar para rastrexar o progreso dos proxectos. Tamén pode fornecer nomes para os nomes de estado definidos polo usuario. Esta tarefa mostra como cambiar o nome ou modificar unha fase do proxecto e utiliza o conxunto de datos USSI.
+As fases do proxecto poden servir de guía para o ciclo de vida do proxecto. Pode definir as fases do proxecto que desexa incluír nos seus proxectos na área Fase do proxecto na páxina Parámetros de xestión de proxectos e contabilidade. Dynamics 365 Finance ofrece cinco fases de proxecto predefinidas e tres fases definidas polo usuario. Pode actualizar o nome dunha fase do proxecto que está a usar para rastrexar o progreso dos proxectos. Tamén pode fornecer nomes para os nomes de estado definidos polo usuario. Esta tarefa mostra como cambiar o nome ou modificar unha fase do proxecto e utiliza o conxunto de datos USSI.
 
 1. Vaia a Xestión de proxectos e contabilidade > Configuración > Parámetros de xestión de proxectos e contabilidade.
 2. Prema o separador Fase do proxecto.

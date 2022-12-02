@@ -1,6 +1,6 @@
 ---
 title: Estimacións financeiras dos gastos en proxectos
-description: Este artigo ofrece información sobre como definir ou estimar os gastos baseados en proxectos.
+description: Este artigo ofrece información sobre a definición ou estimación de gastos baseados en proxectos.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

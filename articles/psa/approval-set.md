@@ -1,6 +1,6 @@
 ---
 title: Conxuntos de aprobacións en Project Service Automation
-description: Este artigo ofrece información sobre o conxunto de aprobación, as solicitudes e os subconxuntos desas operacións.
+description: Este artigo ofrece información sobre o conxunto de aprobacións, as solicitudes e os subconxuntos desas operacións.
 author: stsporen
 manager: tfehr
 ms.date: 05/28/2021

@@ -1,6 +1,6 @@
 ---
 title: Determinar o seu tipo de despregamento
-description: Este artigo ofrece información para axudarche a determinar o tipo de implantación correcto das operacións do proxecto para a túa empresa.
+description: Este artigo ofrece información para axudarlle a determinar o tipo de despregamento correcto de Project Operations para a súa empresa.
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
@@ -25,7 +25,7 @@ _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fo
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Clientes existentes de Dynamics usando Dynamics 365 Project Service Automation
 Project Operations inclúe as capacidades que se fornecen con Project Service Automation. Publicarase un camiño de actualización para estes clientes na onda 1 da versión de 2021.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clientes existentes de Dynamics 365 Finance usando Xestión de proxectos e contabilidade 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clientes existentes de Dynamics 365 Finance empregando a xestión e a contabilidade do proxecto 
 
 Os clientes existentes de Finance que empregan a funcionalidade de xestión e contabilidade de proxectos poden seguir empregándoa tal como está. Consulte [Project Operations para situacións baseadas en recursos/sen fornecemento](#pma).
 

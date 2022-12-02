@@ -1,6 +1,6 @@
 ---
 title: Recursos web desfasados en Project Service Automation 3.x
-description: Este artigo describe os recursos web que xa non se utilizan Dynamics 365 Project Service Automation 3.0.
+description: Este artigo describe os recursos web que xa non se usan en Dynamics 365 Project Service Automation 3.0.
 author: makk
 ms.custom:
 - dyn365-projectservice

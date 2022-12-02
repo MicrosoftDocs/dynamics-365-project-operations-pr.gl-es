@@ -1,6 +1,6 @@
 ---
 title: Crear ofertas de proxectos a partir de oportunidades
-description: Este artigo ofrece información sobre como crear unha cotización de proxecto a partir dunha oportunidade.
+description: Neste artigo se proporciona información sobre o a creación dunha oferta de proxecto a partir dunha oportunidade.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

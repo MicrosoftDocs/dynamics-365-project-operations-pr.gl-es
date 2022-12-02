@@ -1,6 +1,6 @@
 ---
 title: Paneis
-description: Este artigo ofrece información sobre os paneis de informes que se inclúen en Dynamics 365 Project Service Automation.
+description: Este artigo fornece información sobre os paneis de informes incluídos en Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

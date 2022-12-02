@@ -1,6 +1,6 @@
 ---
 title: Recibir artigos do pedido de compra a partir do requisito do artigo
-description: Este artigo explica como recibir artigos nunha orde de compra a partir dun requisito de artigos.
+description: Este artigo explica como recibir artigos dun pedido de compra a partir dun requisito de artigo.
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -24,7 +24,7 @@ ms.locfileid: "8929534"
 
 [!include [banner](../../includes/banner.md)]
 
-Este artigo explica como recibir artigos nunha orde de compra a partir dun requisito de artigos.
+Este artigo explica como recibir artigos dun pedido de compra a partir dun requisito de artigo.
 
 Ao usar un requisito de artigo en lugar dunha transacción de artigo, pode planificar a entrega xusto antes de que o artigo se use, crear un pedido de compra, incluír o artigo no marco do acordo comercial e incluír o requisito de artigo na planificación da produción. 
 

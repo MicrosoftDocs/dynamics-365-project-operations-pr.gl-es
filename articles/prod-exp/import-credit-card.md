@@ -1,6 +1,6 @@
 ---
 title: Importar e manter transaccións con tarxeta de crédito
-description: Este artigo explica como importar e manter transaccións con tarxetas de crédito relacionadas con gastos. Estas transaccións pódense configurar para que se importen automaticamente nunha programación recorrente ou se poidan importar manualmente segundo sexan necesarias.
+description: Neste artigo explícase como importar e manter transaccións con tarxeta de crédito relacionadas cos gastos. Estas transaccións pódense configurar para que se importen automaticamente nunha programación recorrente ou se poidan importar manualmente segundo sexan necesarias.
 author: KimANelson
 ms.date: 01/12/2018
 ms.topic: article

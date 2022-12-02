@@ -1,6 +1,6 @@
 ---
 title: Guía de informes
-description: Este artigo ofrece ligazóns a información sobre os informes.
+description: Este artigo fornece ligazóns a información sobre informes.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8919184"
 
 Os métodos e tecnoloxías de presentación desta aplicación poden axudarlle a determinar a saúde dos seus proxectos e identificar cando necesita tomar medidas correctivas. 
 
-Eliminouse a ligazón PDF que estaba anteriormente neste artigo e o contido moveuse aos artigos seguintes:
+Eliminouse a ligazón en formato PDF que antes había neste artigo e o contido trasladouse aos seguintes artigos:
 
 - [Páxina de inicio de informes](../reports-reporting-dynamics-365-project-service.md)
 - [Paneis](../reports-dashboards.md)

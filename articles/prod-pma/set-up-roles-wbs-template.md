@@ -1,6 +1,6 @@
 ---
 title: Configurar roles nos modelos de estrutura de subdivisión do traballo
-description: Este artigo ofrece información sobre como configurar a información de funcións nos modelos de estrutura de desglose do traballo.
+description: Este artigo ofrece información sobre como configurar información de roles en modelos de estrutura de subdivisión do traballo.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

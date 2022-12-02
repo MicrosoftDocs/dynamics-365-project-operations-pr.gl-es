@@ -1,6 +1,6 @@
 ---
 title: Ver a utilización imputable de recursos
-description: Este artigo ofrece información sobre a vista de utilización de recursos.
+description: Este artigo fornece información sobre a vista de utilización de recursos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

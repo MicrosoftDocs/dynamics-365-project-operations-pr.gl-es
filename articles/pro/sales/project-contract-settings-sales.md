@@ -1,6 +1,6 @@
 ---
 title: Configuración de contrato de proxecto - lite
-description: Este artigo ofrece información sobre os campos que afectan ás liñas do contrato e a información sobre o contrato que se resume en todas as liñas.
+description: Este artigo ofrece información sobre os campos que afectan ás liñas de contrato e a información sobre o contrato que se resume en todos os elementos de liña.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8917068"
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
-Este artigo ofrece información sobre os campos que se aplican a todo o contrato do proxecto, incluíndo a configuración que afecta a todas as liñas do contrato. Tamén se inclúe información sobre o contrato que se resume en todos os elementos de liña para impulsar os KPIs do contrato do proxecto.
+Este artigo ofrece información sobre campos que se aplican a todo o contrato do proxecto, incluídos os axustes que afectan a todas as liñas de contrato. Tamén se inclúe información sobre o contrato que se resume en todos os elementos de liña para impulsar os KPIs do contrato do proxecto.
 
 A seguinte táboa indica os campos dun contrato de proxecto que son exclusivos de Dynamics 365 Project Operations ou teñen algúns cambios importantes no comportamento dos pedidos de vendas en Dynamics 365 Sales.
 
@@ -35,7 +35,7 @@ A seguinte táboa indica os campos dun contrato de proxecto que son exclusivos d
 Os seguintes KPI están dispoñibles no separador **Execución do contrato** dun contrato de proxecto. 
 
 >[!NOTE]
->Todos os importes no **Execución do contrato** ficha exprésanse na moeda predeterminada do contorno.
+>Todos os importes no separador **Execución do contrato** exprésanse na moeda predeterminada do ambiente.
 
 | Campo | Localización | Descripción |
 | --- | --- | --- |

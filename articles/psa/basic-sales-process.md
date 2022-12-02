@@ -1,6 +1,6 @@
 ---
 title: Procesos de vendas
-description: Este artigo ofrece información sobre os procesos básicos de venda.
+description: Este artigo fornece información sobre os procesos básicos de vendas.
 author: rumant
 ms.custom:
 - dyn365-projectservice

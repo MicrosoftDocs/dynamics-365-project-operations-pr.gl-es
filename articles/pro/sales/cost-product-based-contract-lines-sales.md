@@ -1,6 +1,6 @@
 ---
 title: Custo de liñas de contrato baseado en de produto - lite
-description: Este artigo ofrece información sobre a creación
+description: Neste artigo se proporciona información sobre a creación de
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

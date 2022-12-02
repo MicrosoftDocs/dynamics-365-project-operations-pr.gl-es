@@ -1,6 +1,6 @@
 ---
 title: Guía de xestión de recursos
-description: Este artigo ofrece ligazóns a información sobre a xestión de recursos en Project Service Automation
+description: Este artigo fornece ligazóns a información sobre xestión de recursos en Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8910770"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-Eliminouse a ligazón PDF que estaba anteriormente neste artigo e o contido moveuse aos artigos seguintes:
+Eliminouse a ligazón en formato PDF que antes había neste artigo e o contido trasladouse aos seguintes artigos:
 
 - [Páxina de inicio de xestión de recursos](../resource-management-home-page.md)
 - [Conceptos clave](../reports-key-concepts.md)

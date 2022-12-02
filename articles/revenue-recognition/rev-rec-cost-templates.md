@@ -1,6 +1,6 @@
 ---
 title: Configurar os modelos de custo
-description: Este artigo ofrece información sobre como crear e usar modelos de custos en Project Operations.
+description: Este artigo ofrece información sobre como crear e usar modelos de custo en Project Operations.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8918402"
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
 
-Este artigo ofrece información sobre como crear e usar modelos de custos en Project Operations. Un modelo de custo determina:
+Este artigo ofrece información sobre como crear e usar modelos de custo en Project Operations. Un modelo de custo determina:
 
 - As categorías de proxecto para as transaccións previstas e reais que se incluirán nunha porcentaxe do cálculo de finalización do proxecto. O valor de porcentaxe de finalización úsase entón para calcular a cantidade de ingresos recoñecidos.
 - Se a porcentaxe de finalización se pode modificar se se calcula automaticamente.
@@ -56,7 +56,7 @@ Decidir que enfoque tomar para crear un modelo de custo pode depender de varias 
 ## <a name="create-cost-templates"></a>Crear modelos de custo
 Para crear modelos de custo, siga estes pasos:
 
-1. Para acceder aos modelos de custos, no contorno Dynamics 365 Finance, vai a **Xestión de proxectos e contabilidade** > **Montar** > **Estimacións** > **Modelo de custo**.
+1. Para acceder aos modelos de custo, no ambiente de Dynamics 365 Finance, vaia a **Xestión e contabilidade de proxectos** > **Configurar** > **Estimacións** > **Modelo de custo**.
 2. Seleccione **Novo** para crear un novo modelo de custo. Introduza un nome e unha descrición.
 3. Proporcione un ID de liña de custo para cada tipo de transacción.
 4. Seleccione un método de finalización predefinido:

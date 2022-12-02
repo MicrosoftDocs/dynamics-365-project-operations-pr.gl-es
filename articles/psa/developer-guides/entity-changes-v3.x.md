@@ -1,6 +1,6 @@
 ---
 title: Cambios de entidade, control e interface de usuario (Project Service Automation 3.x)
-description: Este artigo describe os cambios de solución para Microsoft Dynamics Project Service Automation 3.x.
+description: Este artigo describe os cambios de solucións para Microsoft Dynamics Project Service Automation 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8926866"
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Co lanzamento de Microsoft Dynamics Project Service Automation (PSA) 3.x, fixéronse moitos cambios nas entidades, nos controis, nas vistas e na interface de usuario. Este artigo ofrece información sobre estes cambios importantes.
+Co lanzamento de Microsoft Dynamics Project Service Automation (PSA) 3.x, fixéronse moitos cambios nas entidades, nos controis, nas vistas e na interface de usuario. Neste artigo fornécese información acerca destes importantes cambios:
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Relacións primarias-secundarias para as entidades de documento de vendas, liña de documento de vendas, detalle de liña de documento de vendas
 En versións de Dynamics 365 Project Service Automation (PSA) lanzadas antes da versión 3.0, algunhas das relacións entre as entidades de documentos de vendas, liñas de documento de vendas e detalles de liña de documento de vendas implementáronse a través de campos de cadea que terían unha representación de cadeas de GUID da entidade relacionada. Isto debeuse ás limitacións da plataforma que requirían un código personalizado significativo nos lados do servidor e do cliente da solución para que esas relacións funcionasen de xeito semellante ás típicas relacións de entidades de Dynamics CRM e para facer que os campos de cadea actúen como campos de busca.

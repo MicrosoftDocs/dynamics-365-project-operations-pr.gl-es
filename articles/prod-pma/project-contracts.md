@@ -44,7 +44,7 @@ Algúns contratos de proxecto especifican que varias partes comparten a responsa
 -   Un proxecto de carreteira está cofinanciado por dous concellos.
 -   Un proxecto de ponte está financiado por unha subvención do goberno e unha corporación privada.
 
-En Dynamics 365 Finance, pode dividir a facturación dunha soa transacción ou dun proxecto completo entre varios clientes, subvencións ou organizacións. 
+En Dynamics 365 Finance, pode dividir a facturación dunha única transacción ou un proxecto completo entre varios clientes, subvencións ou organizacións. 
 
 Nos proxectos que teñen varios patrocinadores, todas as partes que contribúen ao financiamento dun proxecto de financiamento avanzado chámanse fontes de financiamento. Despois de que un cliente, organización ou subvención se defina como unha fonte de financiamento, pódese asignar a unha ou máis regras de financiamento. As regras de financiamento conteñen os criterios que determinan como se asignan os cargos ás distintas fontes de financiamento dun proxecto. 
 

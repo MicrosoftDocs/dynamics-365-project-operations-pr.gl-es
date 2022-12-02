@@ -1,6 +1,6 @@
 ---
 title: Configurar taxas de custo e vendas para os materiais
-description: Este artigo ofrece información sobre como configurar o custo e as tarifas de vendas dos materiais utilizados nos proxectos.
+description: Este artigo ofrece información sobre como configurar o custo e as taxas de vendas dos materiais empregados nos proxectos.
 author: rumant
 ms.date: 03/21/2022
 ms.topic: article
@@ -25,7 +25,7 @@ Para configurar as taxas de custos e vendas dos produtos, complete os seguintes 
 2. En **Elementos da lista de prezos**, no menú da subgrade, seleccione **Novo elemento da lista de prezos**. 
 3. Na páxina **Creación rápida**, introduza o produto e a unidade para a que está a crear o novo prezo.
 
-Para obter máis información sobre como definir os prezos dos artigos do catálogo, consulte [Define o prezo dos produtos con listas de prezos e elementos da lista de prezos](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) e [Precisión decimal en moeda e prezos](/dynamics365/sales/decimal-precision-currency-pricing).
+Para obter máis información sobre como definir os prezos dos elementos do catálogo, consulte [Definir prezos de produtos con listas de prezos e elementos de listas de prezo](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) e [Precisión decimal en moeda e prezos](/dynamics365/sales/decimal-precision-currency-pricing).
 > [!NOTE]
 > Dynamics 365 Project Operations non admite todos os métodos de prezos para produtos como Dynamics 365 Sales. O único método de prezos admitido para os produtos que se van usar en proxectos é *Importe da moeda*.
 

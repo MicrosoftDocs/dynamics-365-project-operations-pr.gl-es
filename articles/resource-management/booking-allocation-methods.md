@@ -26,7 +26,7 @@ ms.locfileid: "8912744"
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Tanto si engade un membro do equipo directamente a un proxecto no separador **Equipo** ou se reserva un recurso a un proxecto ou requisito no panel de programación, hai diferentes médotos de reserva de atribucións que pode utilizar. Este artigo explica como funciona cada método e que métodos poden levar a recursos de reserva excesiva.
+Tanto si engade un membro do equipo directamente a un proxecto no separador **Equipo** ou se reserva un recurso a un proxecto ou requisito no panel de programación, hai diferentes médotos de reserva de atribucións que pode utilizar. Este artigo explica como funciona cada método e que tipo de método pode provocar saturación de recursos.
 
 ## <a name="booking-allocation-methods"></a>Métodos de atribución de reservas
 

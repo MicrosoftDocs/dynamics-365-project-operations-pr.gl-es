@@ -1,6 +1,6 @@
 ---
 title: Atribuír un recurso a unha tarefa
-description: Este artigo ofrece información sobre como asignar recursos ás tarefas.
+description: Este artigo fornece información sobre como atribuír recursos a tarefas.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

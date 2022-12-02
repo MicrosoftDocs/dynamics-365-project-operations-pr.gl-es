@@ -1,6 +1,6 @@
 ---
 title: Xestionar contratos de proxecto
-description: Este artigo ofrece información sobre a visualización de contratos baseados en proxectos.
+description: Este artigo ofrece información sobre a visualización de contratos baseados en proxecto.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ Pódese ver unha lista de todos os contratos de proxecto na páxina de lista **C
 Os contratos pódense crear ou eliminar desta páxina de lista ou das páxinas de detalles.
 
 > [!NOTE]
-> Non se poden eliminar os contratos que teñan asociados proxectos, tarefas, estimacións, xornais e/ou datos reais. 
+> Non se poden eliminar os contratos que teñan asociados proxectos, tarefas, estimacións, diarios e/ou datos reais. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

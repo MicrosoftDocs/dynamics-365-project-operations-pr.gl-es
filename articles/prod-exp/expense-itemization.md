@@ -1,6 +1,6 @@
 ---
 title: Detalle de gastos
-description: Este artigo explica como detallar os gastos usando o espazo de traballo de Gastos reimaxinado.
+description: Este artigo explica como detallar os gastos usando a área de traballo de Gasto reinventada.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -19,31 +19,31 @@ ms.locfileid: "8920932"
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-As organizacións adoitan esixir aos empregados que proporcionen un desglose detallado dos gastos realizados durante a viaxe. Por exemplo, un folio de hotel pode conter varias liñas detalladas sobre a tarifa da habitación, os impostos, o aparcamento e outros gastos diversos que se incorren cada día durante a estadía. Ou un gasto de comida pode requirir que proporcione unha desglose máis granular para o almorzo, o xantar ou a cea. Sexa cal sexan as necesidades da organización, cada categoría de gasto pódese configurar para reflectir as subcategorías ou as partidas que compoñen un gasto. Aínda que o detalle sempre foi compatible en **Xestión de gastos**, o **Gasto reimaxinado** o espazo de traballo permite un desglose máis eficiente cando a función, **Capacidade de detallar os gastos recorrentes rapidamente** está activado.  
+As organizacións adoitan esixir aos empregados que proporcionen un desglose detallado dos gastos realizados durante a viaxe. Por exemplo, un folio de hotel pode conter varias liñas detalladas sobre a tarifa da habitación, os impostos, o aparcamento e outros gastos diversos ocasionados cada día durante a estancia. Ou un gasto de comida pode requirir que proporcione un desglose máis granular para o almorzo, o xantar ou a cea. Sexa cal sexan as necesidades da organización, cada categoría de gasto pódese configurar para reflectir as subcategorías ou as partidas que compoñen un gasto. Aínda que o detallado sempre foi compatible na área de traballo **Xestión de gastos**, ou **Gasto reinventado**, permite un detallado máis eficiente cando a función **Capacidade de detallar os gastos recorrentes rapidamente** está activada.  
 
-## <a name="enable-quick-itemization"></a>Activa a listaxe rápida 
+## <a name="enable-quick-itemization"></a>Activar detallado rápido 
 
-Podes usar o **Capacidade de detallar os gastos recorrentes rapidamente** característica para detallar os gastos recorrentes rapidamente evitando a necesidade de introducir os gastos diarios cada vez durante a duración da estadía. Complete os seguintes pasos para activar a listaxe rápida.
+Pode usar a funcionalidade **Capacidade de detallar os gastos recorrentes rapidamente** para detallar os gastos recorrentes rapidamente evitando a necesidade de introducir os gastos diarios cada vez durante a estancia. Complete os seguintes pasos para activar o detallado rápido.
 
-1. Vaia ao **Xestión de características** espazo de traballo e na lista de funcións, localice e seleccione, **Informes de gastos reimaxinados**. 
+1. Vaia á área de traballo **Xestión de funcionalidades** e na lista de funcionalidades, localice e seleccione **Informes de gastos reinventados**. 
 2. Seleccione **Activar agora**. 
-3. Na lista de funcións, localice e seleccione, **Capacidade de detallar os gastos recorrentes rapidamente**.
+3. Na lista de funcionalidades, localice e seleccione **Capacidade de detallar os gastos recorrentes rapidamente**.
 4. Seleccione **Activar agora**. 
 
-## <a name="itemization-grid"></a>Reixa de desglose 
+## <a name="itemization-grid"></a>Grade de detallado 
 
-Se unha categoría de gasto ten subcategorías ou compoñentes diferentes que compoñen ese gasto, pódese desglosar. Para desglosar un gasto, seleccione a liña de gasto no informe de gastos e na páxina **Detalles do gasto** panel, seleccione **Accións** > **Detallar**. O **Desglose** o control deslizante revela unha cuadrícula con campos. A seguinte táboa ofrece un exemplo de cada campo da grade e como se representa o campo no informe de gastos. 
+Se unha categoría de gasto ten subcategorías ou compoñentes diferentes que compoñen ese gasto, pódese detallar. Para detallar un gasto, seleccione a liña de gasto no informe de gastos e no panel **Detalles do gasto**, seleccione **Accións** > **Detallar**. A barra de desprazamento **Detallado** revela unha grade con campos. A seguinte táboa ofrece un exemplo de cada campo da grade e como se representa o campo no informe de gastos. 
 
 |     Campo          |     Descripción                                                                                  |     Exemplo              |
 |--------------------|--------------------------------------------------------------------------------------------------|--------------------------|
-|     Subcategoría    |     A lista de subcategorías configuradas baixo o tipo de categoría de gasto, **Hotel**.             |     Tarifa diaria da habitación      |
-|     Data de inicio     |     A data na que se incorreu por primeira vez na partida de gasto.                                           |     13/09/2021           |
+|     Subcategoría    |     A lista de subcategorías configuradas baixo o tipo de categoría de gasto **Hotel**.             |     Tarifa diaria da habitación      |
+|     Data de inicio     |     A data na que se incorreu por primeira vez na partida de gasto.                                           |     09/13/2021           |
 |     Tarifa diaria     |     O importe incorrido pola partida de gasto.                                                    |     200                  |
-|     Cantidade       |     Número de veces que se repite a carga nun período continuo.                       |     3                    |
+|     Cantidade       |     O número de veces que se repite o cargo nun período continuo.                       |     3                    |
 
-![Desglosar o gasto.](media/Itemization%20screen%201.png)
+![Detalle o gasto.](media/Itemization%20screen%201.png)
 
-Cando garda un detalle, verá unha liña individualizada para a cantidade especificada na grade de elementos. Cada liña comeza na data especificada na grade.
+Cando garde un detallado, verá unha liña detallada individual para a cantidade especificada na grade de detallado. Cada liña comeza na data especificada na grade.
 
 ![Informe detallado.](media/Itemization%20screen%202.png)
 

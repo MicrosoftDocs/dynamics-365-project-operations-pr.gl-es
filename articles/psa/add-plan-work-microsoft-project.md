@@ -1,6 +1,6 @@
 ---
 title: Utilizar o complemento Project Service para planificar o traballo en Microsoft Project | MicrosoftDocs
-description: Este artigo ofrece información sobre como engadir, configurar e usar o complemento de Microsoft Project para Microsoft Project Service.
+description: Este artigo fornece información sobre como engadir, configurar e usar o complemento Microsoft Project para Microsoft Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

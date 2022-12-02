@@ -30,14 +30,14 @@ Cando se aproba unha transacción entre empresas, créanse as seguintes transacc
 
 O custo, o custo unitario do recurso e os prezos e moeda das transaccións de venda de unidade entre organización están dirixidos pola **unidade organizativa**. É importante lembrar isto ao decidir como estruturar empresas e unidades organizativas na súa implementación.
 
-Cando crea rexistros de oportunidade, oferta, contrato de proxecto e proxecto, o sistema verifica que a moeda da unidade contratante coincide coa moeda contable da empresa contratante. Cando non son a mesma, estes rexistros non se poden crear. A moeda da unidade organizativa defínese en Dynamics 365 Project Operations ao ir a **Dataverse** > **Configuración** > **Unidades organizativas**. A moeda contable dunha empresa defínese en Dynamics 365 Finance indo a **Contabilidade Xeral** > **Configuración do libro maior** > **Libro maior**. A moeda sincronízase co seu ambiente de Dataverse ambiente mediante o mapa de Escritura dobre de libro maior.
+Cando crea rexistros de oportunidade, oferta, contrato de proxecto e proxecto, o sistema verifica que a moeda da unidade contratante coincide coa moeda contable da empresa contratante. Cando non son a mesma, estes rexistros non se poden crear. A moeda da unidade organizativa defínese en Dynamics 365 Project Operations ao ir a **Dataverse** > **Configuración** > **Unidades organizativas**. A moeda contable dunha empresa defínese en Dynamics 365 Finance ao ir a **Libro maior xeral** > **Configuración do libro maior** > **Libro maior**. A moeda sincronízase co seu ambiente de Dataverse ambiente mediante o mapa de Escritura dobre de libro maior.
 
 O sistema crea o custo da unidade de recursos e as vendas da unidade entre organizacións nas seguintes situacións:
 
   - Cando a unidade de recursos difire da unidade contratante
   - Cando a empresa de recursos difire da empresa contratante
 
-Non obstante, só as transaccións que teñan unha empresa de recursos diferente da empresa contratante serán transferidas ao contorno Dynamics 365 Finance para a contabilidade adicional.
+Non obstante, só as transaccións que teñan unha empresa de recursos diferente á empresa contratante serán transferidas ao ambiente de Dynamics 365 Finance para contabilidade adicional.
 
 A contabilidade dos datos reais do proxecto rexístrase no diario de integración de Project Operations en Finance. O sistema crea as seguintes liñas de diario.
 

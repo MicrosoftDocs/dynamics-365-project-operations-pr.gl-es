@@ -1,6 +1,6 @@
 ---
 title: Revisar os traballos pendentes de facturación en proxectos e contratos de proxectos
-description: Este artigo ofrece información sobre como revisar o tempo, os gastos e os produtos atrasados, e como marcalos como listos para a facturación.
+description: Este artigo fornece información sobre como revisar o traballo pendente de facturación de tempo, gasto e produtos e como marcalos como listos para a facturación.
 author: rumant
 ms.custom: ''
 ms.author: rumant

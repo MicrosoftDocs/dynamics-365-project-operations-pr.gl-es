@@ -1,6 +1,6 @@
 ---
 title: Definir habilidades e destrezas
-description: Este artigo ofrece información sobre como configurar modelos de competencia para valorar os recursos.
+description: Este artigo ofrece información sobre como configurar os modelos de habilidades para valorar os recursos.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

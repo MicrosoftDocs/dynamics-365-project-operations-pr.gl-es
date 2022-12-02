@@ -1,6 +1,6 @@
 ---
 title: Transaccións comerciais
-description: Este artigo ofrece información sobre transaccións comerciais.
+description: Este artigo fornece información sobre as transaccións comerciais.
 author: rumant
 ms.custom:
 - dyn365-projectservice

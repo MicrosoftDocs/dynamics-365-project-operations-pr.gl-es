@@ -1,6 +1,6 @@
 ---
 title: Visión xeral da xestión de proxectos
-description: Este artigo ofrece información sobre a xestión de proxectos en Dynamics 365 Project Operations.
+description: Neste artigo se proporciona información sobre a xestión de proxectos en Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/06/2020
 ms.topic: overview

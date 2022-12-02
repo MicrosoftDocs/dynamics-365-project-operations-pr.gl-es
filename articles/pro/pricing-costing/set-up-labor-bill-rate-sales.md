@@ -1,6 +1,6 @@
 ---
 title: Configurar taxas de factura laboral - lite
-description: Este artigo ofrece información sobre a configuración das tarifas de facturación da man de obra en Project Operations.
+description: Este artigo ofrece información sobre como configurar as taxas de facturación de man de obra en Project Operations.
 author: rumant
 ms.date: 10/16/2020
 ms.topic: article

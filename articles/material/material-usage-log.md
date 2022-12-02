@@ -1,6 +1,6 @@
 ---
 title: Rexistrar o uso do material en proxectos e tarefas de proxecto
-description: Este artigo ofrece información sobre como rexistrar o uso de material en proxectos e tarefas do proxecto.
+description: Este artigo ofrece información sobre como rexistrar o uso de material en proxectos e tarefas de proxecto.
 author: rumant
 ms.date: 03/31/2021
 ms.topic: article

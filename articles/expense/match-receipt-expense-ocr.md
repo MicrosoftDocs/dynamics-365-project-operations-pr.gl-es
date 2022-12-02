@@ -1,6 +1,6 @@
 ---
 title: Capturar un recibo usando OCR
-description: Este artigo ofrece información sobre o proceso de recoñecemento óptico de caracteres (OCR) para recibos.
+description: Este artigo ofrece información sobre o procesamento de recoñecemento óptico de caracteres (OCR) para recibos.
 author: suvaidya
 ms.date: 11/10/2021
 ms.topic: article
@@ -52,7 +52,7 @@ Para crear un gasto ou emparellar un gasto desde un recibo, complete os seguinte
 
 ## <a name="installation"></a>Instalación
 
-Para usar estas capacidades de gastos avanzadas, instale o complemento do servizo de xestión de gastos para Microsoft Dynamics 365 Finance e activa as funcións na túa instancia. Pode acceder ao complemento desde o seu proxecto en Microsoft Dynamics Lifecycle Services (LCS).
+Para utilizar estas capacidades avanzadas de gastos, instale o complemento Servizo de xestión de gastos para Microsoft Dynamics 365 Finance e active as funcionalidades na súa instancia. Pode acceder ao complemento desde o seu proxecto en Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Inicie sesión en LCS e abra o ambiente desexado.
 2. Vaia a **Detalles completos**.
@@ -85,11 +85,11 @@ Non, Microsoft creou un modelo xeral de aprendizaxe automático para o seu servi
 
 **Onde está dispoñible e se procesa esta funcionalidade?**
 
-A dispoñibilidade desta función en diferentes rexións está listada na seguinte táboa. Se a túa rexión non é compatible actualmente, envía unha solicitude para priorizar a dispoñibilidade do servizo OCR na túa rexión. 
+A dispoñibilidade desta funcionalidade en diferentes rexións indícase na seguinte táboa. Se a súa rexión non é compatible actualmente, envíe unha solicitude para priorizar a dispoñibilidade do servizo OCR na súa rexión. 
 
 | Rexión | Compatible                         |
 |--------|-----------------------------------|
-| EUA    | Si                               |
+| USA    | Si                               |
 | CAN    | Si                               |
 | Reino Unido     | Si                               |
 | AUS    | Si                               |

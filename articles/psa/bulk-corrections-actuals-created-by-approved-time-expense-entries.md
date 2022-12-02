@@ -1,6 +1,6 @@
 ---
 title: Correccións en masa de datos reais creadas por entradas aprobadas de tempo e gasto
-description: Este artigo explica como un administrador pode facer correccións únicas ou masivas nas entradas de tempo ou gastos previamente aprobadas se a facturación non está completa.
+description: Este artigo explica como un administrador pode facer correccións sinxelas ou en masa ás entradas de tempo ou gasto aprobadas previamente se a facturación non está completa.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -28,7 +28,7 @@ ms.locfileid: "8916287"
 
 De cando en vez pode introducirse unha entrada de tempo ou gasto incorrectamente. Por exemplo, un consultor pode seleccionar a data incorrecta ao crear unha entrada de tempo ou pode traspor os números ao ingresar un gasto. Se un consultor non pode realizar as actualizacións das entradas enviadas, un administrador pode corrixir directamente a entrada para un proxecto.
 
-Para completar os procedementos deste artigo, necesitarás permisos de administrador.
+Para completar os procedementos neste artigo, necesitará permisos de administrador.
 
 ## <a name="correct-approved-time-entries"></a>Corrixir as entradas de tempo aprobadas     
 

@@ -26,16 +26,16 @@ ms.locfileid: "8913710"
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo ofrece patróns comúns para usar extensións para implementar campos personalizados. Están tratados os seguintes artigos:
+Este artigo ofrece patróns comúns para usar extensións para implementar campos personalizados. Trátanse os seguintes artigos:
 
 - Os distintos tipos de datos que admite o marco de campo personalizado
 - Como amosar campos de só lectura ou editables nas entradas da folla de control horario e gardar os valores proporcionados polo usuario na base de datos
 - Como amosar campos de só lectura na cabeceira da folla de control horario
 - Como integrar outra lóxica empresarial personalizada para introducir valores predefinidos nos campos e facer validación adicional
 
-## <a name="audience"></a>Audiencia
+## <a name="audience"></a>Público
 
-Este artigo está destinado a desenvolvedores que están integrando os seus campos personalizados no Microsoft Dynamics 365 Project Timesheet aplicación móbil que está dispoñible para Apple iOS e Google Android. A suposición é que os lectores están familiarizados co desenvolvemento de X++ e a funcionalidade da folla de control horario do proxecto.
+Este artigo está destinado aos programadores que integran os seus campos personalizados na aplicación móbil Microsoft Dynamics 365 Project Timesheet dispoñible para Apple iOS e Google Android. A suposición é que os lectores están familiarizados co desenvolvemento de X++ e a funcionalidade da folla de control horario do proxecto.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Contrato de datos - clase TSTimesheetCustomField X++
 
@@ -64,7 +64,7 @@ A propiedade **FieldBaseType** no obxecto **TsTimesheetCustom** determina o tipo
 
 - Se a propiedade **stringOptions** se fornece no obxecto **TSTimesheetCustomField**, eses elementos da lista son os únicos valores que os usuarios poden seleccionar usando os botóns de opción.
 
-    Neste caso, o campo de cadea pode actuar como un valor inicial para os fins da entrada do usuario. Para gardar o valor na base de datos como enumeración, mapee manualmente o valor da cadea ao valor de enumeración antes de gardar na base de datos mediante a cadea de comandos (consulte a sección "Usar cadea de comandos na clase TSTimesheetEntryService para gardar unha entrada da folla de tempo" a aplicación volve á base de datos" sección máis adiante neste artigo para obter un exemplo).
+    Neste caso, o campo de cadea pode actuar como un valor inicial para os fins da entrada do usuario. Para gardar o valor na base de datos como unha enumeración, asigne manualmente o valor da cadea ao valor enumerado antes de gardalo na base de datos empregando a cadea de comando (consulte a sección "Usar a cadea de comando na clase TSTimesheetEntryService para gardar unha entrada de folla de control horario da aplicación de novo na base de datos" máis adiante neste artigo para ver un exemplo).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Esta propiedade especifica a etiqueta que se mostra a continuación do campo na 
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (Lista de cadeas)
 
-Esta propiedade só se aplica cando **fieldBaseType** está establecido en **Cadea**. Se **stringOptions** está definido, os valores das cadeas dispoñibles para a selección mediante botóns de opción especifícanse nas cadeas da lista. Se non se proporcionan cadeas, permítese a entrada de texto libre no campo da cadea (consulta a sección "Usar cadea de comandos na clase TSTimesheetEntryService para gardar unha entrada da folla de horas da aplicación na base de datos" máis adiante neste artigo para obter un exemplo). .
+Esta propiedade só se aplica cando **fieldBaseType** está establecido en **Cadea**. Se **stringOptions** está definido, os valores das cadeas dispoñibles para a selección mediante botóns de opción especifícanse nas cadeas da lista. Se non se proporcionan cadeas, permítese a entrada de texto libre no campo da cadea (consulte a sección "Usar a cadea de comando na clase TSTimesheetEntryService para gardar unha entrada de folla de control horario da aplicación de novo na base de datos" máis adiante neste artigo para ver un exemplo) .
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

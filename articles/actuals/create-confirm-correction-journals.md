@@ -1,6 +1,6 @@
 ---
 title: Crear e confirmar diarios de corrección
-description: Este artigo ofrece información sobre como crear e confirmar un diario de correccións.
+description: Este artigo fornece información sobre como crear e confirmar un diario de corrección.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8928062"
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-En ocasións, é posible que se introduza incorrectamente unha entrada de tempo ou gasto. Por exemplo, un consultor pode seleccionar a data incorrecta cando crea unha entrada de tempo ou pode seleccionar o proxecto incorrecto cando introduce un gasto. Se un consultor non pode actualizar as entradas enviadas, un administrador back-end pode corrixir directamente os datos reais dun proxecto.
+De cando en vez podería introducirse unha entrada de tempo ou gasto incorrectamente. Por exemplo, un consultor pode seleccionar a data incorrecta ao crear unha entrada de tempo ou pode seleccionar o proxecto incorrecto ao ingresar un gasto. Se un consultor non pode actualizar as entradas enviadas, un administrador de back-end pode corrixir directamente os datos reais para un proxecto.
 
 ## <a name="correct-approved-time-entries"></a>Corrixir as entradas de tempo aprobadas     
 
@@ -73,30 +73,30 @@ Realice os seguintes pasos para corrixir unha ou varias entradas de gasto.
 
 6. Se os valores corrixidos son os esperados, seleccione **Confirmar**. Na caixa de diálogo, seleccione **Aceptar.** Se os valores non se amosan como se espera, seleccione **Cancelar** para volver á lista **Gastos aprobados**. Repita os pasos do 2 ao 5. 
 
-7. Despois de confirmar o diario de correccións, volve ao proxecto ou proxectos que actualizou para ver os cambios.
+7. Despois de confirmar o diario de correccións, volva ao proxecto ou proxectos que actualizou para ver os seus cambios.
 
-8. Na páxina do proxecto, na **Reais** ficha, revisa o **Vista asociada real** lista. Aparecerán as entradas orixinais e as entradas corrixidas.
+8. Na páxina do proxecto, no separador **Datos reais**, revise a lista **Visualización asociada dos datos reais**. Aparecerán as entradas orixinais e as entradas corrixidas.
 
 
 ## <a name="correct-approved-material-usage-logs"></a>Corrixir os rexistros de uso do material aprobado
 
-Complete os seguintes pasos para corrixir unha ou máis entradas do rexistro de uso de material.
+Realice os seguintes pasos para corrixir unha ou varias entradas de rexistro de uso de material.
 
-1. No **Vendas** área, no panel de navegación esquerdo, debaixo **Transaccións**, seleccione **Reais**.
+1. Na zona **Vendas**, no panel de navegación esquerdo, baixo **Transaccións**, seleccione **Datos reais**.
 
-2. No **Reais** lista, use filtros de columna para seleccionar **Material** clase de transacción, para que só se mostren os datos reais dos materiais. Use outros filtros de columna para limitar aínda máis os datos reais que se mostran. Despois de atopar o conxunto desexado de datos reais, seleccione os reais e, a continuación, seleccione **Entradas correctas**. Créase automaticamente un novo diario de correccións e o **Corrección material** se asigna o tipo.
+2. Na lista **Datos reais**, use filtros de columna para seleccionar a clase de transacción **Material**, de xeito que só se mostren os datos reais dos materiais. Use outros filtros de columna para limitar aínda máis os datos reais que se mostran. Despois de atopar o conxunto desexado de datos reais, seleccione os datos reais e, a seguir, seleccione **Corrixir entradas**. Créase automaticamente un novo diario de corrección, e se atribúe o tipo **Corrección de material**.
 
-3. No **Novo Xornal** páxina, na **Descrición** campo, introduza unha descrición para a corrección. Despois, no **Corrección material** ficha, na **Novos valores para os materiais** sección, seleccione os campos de datos para corrixir para as liñas de material seleccionadas. Por exemplo, pode asignar o material a outro proxecto ou corrixir o produto, a data do material ou o subcontrato.
+3. Na páxina **Novo diario**, no separador **Descrición**, introduza unha descrición para a corrección. Despois, no separador **Corrección de material**, na sección **Novos valores para materiais**, seleccione os campos de datos para corrixir para as liñas de material seleccionadas. Por exemplo, pode atribuír o material a outro proxecto ou corrixir o produto, a data do material ou o subcontrato.
 
-4. Seleccione **Previsualización**. A continuación, no cadro de diálogo, seleccione **Ok**.
+4. Seleccione **Previsualización**. Logo, na caixa de diálogo, seleccione **Aceptar**.
 
-5. No **Liñas do xornal** ficha, verifique as correccións. Podes ver unha lista dos reais orixinais que están relacionados coas entradas de materiais seleccionadas que foron invertidas e as liñas correspondentes corrixidas que foron creadas.
+5. No separador **Liñas de diario**, verifique as correccións. Pode ver unha lista dos datos reais orixinais relacionados coas entradas de material seleccionadas que foron invertidas e as liñas correspondentes corrixidas que se crearon.
 
-6. Se os valores corrixidos son os esperados, seleccione **Confirmar**. A continuación, no cadro de diálogo, seleccione **Ok**. Se os valores non son os esperados, seleccione **Cancelar** para volver ao **Reais** lista. A continuación, repita os pasos do 2 ao 5.
+6. Se os valores corrixidos son os esperados, seleccione **Confirmar**. Logo, na caixa de diálogo, seleccione **Aceptar**. Se os valores non son os esperados, seleccione **Cancelar** para volver á lista **Datos reais**. Logo repita os pasos do 2 ao 5.
 
-7. Despois de confirmar o diario de correccións, volve ao proxecto ou proxectos que actualizou para ver os cambios.
+7. Despois de confirmar o diario de correccións, volva ao proxecto ou proxectos que actualizou para ver os seus cambios.
 
-8. Na páxina do proxecto, na **Reais** ficha, revisa o **Vista asociada real** lista. Aparecerán as entradas orixinais e as entradas corrixidas.
+8. Na páxina do proxecto, no separador **Datos reais**, revise a lista **Visualización asociada dos datos reais**. Aparecerán as entradas orixinais e as entradas corrixidas.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

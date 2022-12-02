@@ -1,6 +1,6 @@
 ---
 title: Páxina de inicio de ofertas, prezos e facturación avanzados
-description: Este artigo ofrece información sobre cotizacións, prezos e facturación.
+description: Este artigo fornece información sobre ofertas, prezos e facturación.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -33,7 +33,7 @@ ms.locfileid: "8926728"
 
 Ofertas, prezos e facturación son funcionalidades que usan tanto pequenas como grandes organizacións. Ao entender como funcionan estas funcionalidade na aplicación, as organizacións poden personalizar máis facilmente as configuracións.
 
-Os artigos seguintes ofrecen máis información sobre as funcións de cotización, prezos e facturación en PSA:
+Os artigos seguintes fornecen máis información sobre as funcións de ofertas, prezos e facturación en PSA:
 
 - [Proceso de vendas](basic-sales-process.md)
 - [Liñas de oferta](basic-quote-lines.md)

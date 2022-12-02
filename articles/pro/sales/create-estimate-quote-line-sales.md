@@ -1,6 +1,6 @@
 ---
 title: Estimación dunha liña de oferta baseada en proxecto
-description: Este artigo ofrece información sobre como crear unha estimación nunha liña de cotización baseada no proxecto.
+description: Este artigo ofrece información sobre como crear unha estimación nunha liña de oferta baseada en proxecto.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article

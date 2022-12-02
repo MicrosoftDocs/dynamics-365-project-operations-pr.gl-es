@@ -1,6 +1,6 @@
 ---
 title: Novidades de novembro de 2020 - despregamento de Project Operations Lite - de acordo a facturación proforma
-description: 'Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de novembro de 2020 da implementación de Project Operations Lite: acordo coa facturación proforma.'
+description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de novembro de 2020 do despregamento de Project Operations Lite - de acordo a facturación proforma.
 author: sigitac
 ms.date: 11/02/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Crear campos e entidades personalizados como dimensións de prezos
-description: Este artigo ofrece información sobre como crear conxuntos de opcións ou entidades personalizadas.
+description: Este artigo ofrece información sobre como crear conxuntos de opcións ou entidades personalizados.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

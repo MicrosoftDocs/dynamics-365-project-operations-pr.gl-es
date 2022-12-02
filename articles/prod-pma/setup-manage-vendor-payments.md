@@ -1,6 +1,6 @@
 ---
 title: Configurar e usar pagamentos de fornecedores que se pagan ao recibir o pagamento
-description: Este artigo explica como crear condicións de pago cando se paga (PWP) para que poida liberar pagos parciais de provedores, en función dos pagos dos clientes.
+description: Este artigo explica como crear termos de pagamento ao recibir o pagamento (PWP) para que poida liberar pagamentos parciais ao fornecedor, en función dos pagamentos dos clientes.
 author: RadhikaRS
 ms.date: 03/30/2020
 ms.topic: article

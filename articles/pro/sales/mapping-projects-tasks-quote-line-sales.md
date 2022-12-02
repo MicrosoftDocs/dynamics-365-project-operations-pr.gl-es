@@ -1,6 +1,6 @@
 ---
 title: Asignar proxectos e tarefas a unha liña de oferta baseada en proxecto
-description: Este artigo ofrece información sobre como asignar proxectos e tarefas a unha liña de tarefas baseada en proxectos.
+description: Este artigo ofrece información sobre como asignar proxectos e tarefas a unha liña de tarefa baseada en proxecto.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article

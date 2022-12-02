@@ -1,6 +1,6 @@
 ---
 title: Xestionar o traballo pendente de facturación
-description: Este artigo ofrece información sobre como ver e traballar co atraso de facturación en Project Operations.
+description: Este artigo ofrece información sobre como ver e traballar co traballo pendente de facturación en Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

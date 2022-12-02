@@ -1,6 +1,6 @@
 ---
 title: Copiar ofertas baseadas en proxecto
-description: Este artigo ofrece información sobre como copiar presupostos baseados en proxectos en Project Operations.
+description: Este artigo ofrece información sobre como copiar ofertas baseadas en proxecto en Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

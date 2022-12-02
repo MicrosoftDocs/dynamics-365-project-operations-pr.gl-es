@@ -1,6 +1,6 @@
 ---
 title: Modelos de habilidades e competencias
-description: Este artigo ofrece información sobre como utilizar os modelos de habilidades e competencias.
+description: Este artigo ofrece información sobre como usar os modelos de habilidades e competencias.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -47,7 +47,7 @@ PSA envíase cun conxunto predefinido de dimensións de prezos. Podes velas indo
 > [!IMPORTANT]
 > Se estivo a usar os campos listos para usar de rol e unidade organizativa como dimensións de prezos antes da versión 3 de PSA, non haberá ningún cambio observable. Pode seguir usando o Project Service como sempre. 
 
-Se precisa un prezo ou custo para os seus recursos usando atributos adicionais, pode crear campos, entidades e dimensións personalizados. Para obter máis información, consulte os seguintes artigos, pero teña en conta que debe completar os procedementos na orde que se indica a continuación:
+Se precisa un prezo ou custo para os seus recursos usando atributos adicionais, pode crear campos, entidades e dimensións personalizados. Para obter máis información, consulte os artigos seguintes, pero teña en conta que debe completar os procedementos na orde que aparece a continuación:
 
 - [Crear campos e entidades personalizados](create-custom-fields-entities.md)
 - [Engadir campos personalizados a configuración de prezos e entidades transaccionais](field-references.md)

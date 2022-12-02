@@ -1,6 +1,6 @@
 ---
 title: Facturas proforma
-description: Este artigo ofrece información sobre facturas proforma en Project Operations.
+description: Este artigo ofrece información sobre as facturas proforma en Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

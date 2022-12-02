@@ -1,6 +1,6 @@
 ---
 title: Estimar unha estimación a unha liña de contrato baseado en proxecto - lite
-description: Este artigo ofrece información sobre a estimación dunha liña de contrato baseada en proxectos.
+description: Este artigo ofrece información sobre a estimación dunha liña de contrato baseado en proxecto.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

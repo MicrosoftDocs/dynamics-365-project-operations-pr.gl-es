@@ -1,6 +1,6 @@
 ---
 title: Crear contratos avanzados para a facturación baseada no progreso
-description: Neste artigo explícase como crear contratos de proxecto para que poida xerar facturas para os clientes, en función dunha porcentaxe do traballo realizado.
+description: Este artigo explica como crear contratos de proxectos para que poida xerar facturas para os clientes, en función dunha porcentaxe do traballo rematado.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -25,9 +25,9 @@ ms.locfileid: "8913664"
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Crear contratos avanzados para a facturación baseada no progreso
 [!include [banner](../includes/banner.md)]
 
-Este artigo explica como crear contratos de proxecto para que poida crear facturas para os clientes, en función dunha porcentaxe do traballo realizado. Os importes da factura calcúlanse automaticamente para as categorías orzamentarias de traballo que configurou para un proxecto. O prazo de facturación establécese cando negocia o contrato do proxecto co cliente.
+Este artigo explica como crear contratos de proxectos para que poida crear facturas para os clientes, en función dunha porcentaxe do traballo rematado. Os importes da factura calcúlanse automaticamente para as categorías orzamentarias de traballo que configurou para un proxecto. O prazo de facturación establécese cando negocia o contrato do proxecto co cliente.
 
-Use os procedementos deste artigo para configurar un contrato, un proxecto asociado e as regras de facturación que calculan os importes das facturas para as categorías orzamentarias de traballo que configurou para o proxecto.
+Utilice os procedementos deste artigo para configurar un contrato, un proxecto asociado e as regras de facturación que calculan os importes da factura para as categorías de traballo orzamentarias que configurou para o proxecto.
 
 Despois de crear o contrato e o proxecto, pode configurar os detalles do proxecto. Por exemplo, pode definir actividades e atribuír traballadores ao proxecto.
 

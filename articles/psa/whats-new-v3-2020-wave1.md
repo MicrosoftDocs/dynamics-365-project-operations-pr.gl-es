@@ -1,6 +1,6 @@
 ---
 title: Novidades ou cambios na versión 3.x onda 1 2020 de Project Service Automation
-description: Este artigo ofrece información sobre as novidades e as modificacións da versión 3 da onda 1 de Project Service Automation de 2020.
+description: Este artigo fornece información sobre as novidades e as modificacións na versión 3 onda 1 2020 de Project Service Automation.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -28,7 +28,7 @@ ms.locfileid: "8928614"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-O artigo destaca as principais consideracións de actualización ao pasar á última versión de Project Service Automation (PSA) versión 3.x wave 1 2020.
+O artigo resalta as principais consideracións da actualización ao pasar á última versión de Project Service Automation (PSA) versión 3.x onda 1 2020.
 
 ## <a name="time-entry"></a>Entrada de tempo
 A experiencia de entrada de tempo ampliouse para ofrecer capacidades para ampliar a entrada de tempo a máis escenarios de clientes. Isto inclúe a capacidade de engadir tipos de entrada, que agora favorecen un comportamento específico baseado no nome do esquema de campo **Configuración de entrada de hora**, amosado como **Orixe de tempo**. Engadiuse unha nova solución, chamada Time, Expense, Statusing, and Approvals (TESA) para permitir esta funcionalidade.

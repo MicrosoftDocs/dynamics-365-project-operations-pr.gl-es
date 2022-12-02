@@ -1,6 +1,6 @@
 ---
 title: Novidades de outubro de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
-description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de outubro de 2021 de Project Operations para escenarios baseados en recursos ou non almacenados.
+description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de outubro de 2021 de Project Operations para situacións baseadas en recursos/sen fornecemento.
 author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8914635"
 
 *Aplícase a: Project Operations para situacións baseadas en recursos/sen fornecemento*
 
-Este artigo aplícase ao seguinte Dynamics 365 Project Operations compoñentes e versións:
+Este artigo aplícase aos seguintes compoñentes e versións de Dynamics 365 Project Operations:
 
    - Project Operations no ambiente de Microsoft Dataverse versión 4.25.0.91
-   - Xestión de proxectos e contabilidade no entorno Dynamics 365 Finance versión 10.0.21
+   - Xestión e contabilidade de proxectos en ambientes de aplicacións de Dynamics 365 Finance versión 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Funcionalidades incluídas nesta versión
 
@@ -49,7 +49,7 @@ Se ten algún problema ao iniciar o mapa, siga as instrucións da sección [Prob
 | Facturación e prezos | 2338357 | A moeda do rexistro de uso do material debe ser a moeda predefinida do proxecto cando se selecciona o proxecto. |
 | Tempo e gasto | 2414777 | Debe ser posible cancelar unha aprobación cando a entrada de gasto ou tempo teña máis dunha aprobación de proxecto asociada. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Xestión de proxectos e contabilidade en Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Xestión e contabilidade de proxectos en Dynamics 365 Finance
 
 | Área de funcionalidades | Número de referencia | Actualización de calidade |
 | --- | --- | --- |

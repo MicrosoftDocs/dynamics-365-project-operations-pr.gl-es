@@ -1,6 +1,6 @@
 ---
 title: Crear unha programación de facturas nunha liña de contrato baseado en proxecto
-description: Este artigo ofrece información sobre como crear calendarios de facturas e fitos nas liñas de contrato.
+description: Este artigo ofrece información sobre como crear programacións de facturas e fitos nas liñas de contrato.
 author: rumant
 ms.date: 10/17/2020
 ms.topic: article

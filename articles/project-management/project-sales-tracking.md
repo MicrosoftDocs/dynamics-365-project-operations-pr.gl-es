@@ -1,6 +1,6 @@
 ---
 title: Rastrexo de vendas do proxecto
-description: Este artigo ofrece información sobre como Project Operations fai un seguimento do progreso fronte aos ingresos laborais dun proxecto.
+description: Este artigo ofrece información sobre como as Project Operations rastrexa o progreso fronte aos ingresos laborais nun proxecto.
 author: rumant
 ms.date: 03/24/2021
 ms.topic: article

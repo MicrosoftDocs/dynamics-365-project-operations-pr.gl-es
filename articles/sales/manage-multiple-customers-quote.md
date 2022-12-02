@@ -1,6 +1,6 @@
 ---
 title: Xestionar varios clientes nunha oferta de proxecto
-description: Este artigo ofrece información sobre como traballar en presupostos que impliquen varios clientes que financiarán o proxecto.
+description: Este artigo ofrece información sobre o traballo en ofertas que inclúen a varios clientes que financiarán o proxecto.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

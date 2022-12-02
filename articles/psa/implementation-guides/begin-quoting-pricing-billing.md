@@ -1,6 +1,6 @@
 ---
 title: Guía básica de ofertas, prezos e facturación
-description: Este artigo ofrece ligazóns a información sobre cotizacións básicas, prezos e facturación en Project Service Automation.
+description: Este artigo fornece ligazóns a información sobre ofertas, facturación e prezos básicos en Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8910796"
 
 A capacidade de atopar os recursos axeitados no momento adecuado, reservar eses recursos nos proxectos e manter os recursos utilizados axuda ás organizacións a cumprir os obxectivos de ingresos e os obxectivos de satisfacción do cliente. 
 
-Eliminouse a ligazón PDF que estaba anteriormente neste artigo e o contido moveuse aos artigos seguintes:
+Eliminouse a ligazón en formato PDF que antes había neste artigo e o contido trasladouse aos seguintes artigos:
 
 - [Ofertas, prezos e facturación](../quote-bill-price.md)
 - [Procesos de Sales](../basic-sales-process.md)

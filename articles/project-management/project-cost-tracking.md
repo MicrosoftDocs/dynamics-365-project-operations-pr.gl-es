@@ -1,6 +1,6 @@
 ---
 title: Rastrexo de custos de proxecto
-description: Este artigo ofrece información sobre como Project Operations fai un seguimento do progreso do custo laboral e do gasto nun proxecto.
+description: Este artigo ofrece información sobre como as Project Operations rastrexa o progreso fronte ao custo laboral e ao gasto nun proxecto.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Novidades do acceso anticipado da onda 2 de 2021 - Despregamento de Project Operations lite
-description: Este artigo ofrece información sobre as funcións dispoñibles na versión de acceso anticipado da segunda fase de 2021 da implantación de Project Operations lite.
+description: Este artigo ofrece información sobre as funcionalidades dispoñibles na versión de acceso anticipado da onda 2 de 2021 do despregamento de Project Operations lite.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8924106"
 
 _Aplícase a: Despregamento de Lite - acordo para facturación proforma_
 
-Este artigo aplícase ao seguinte Dynamics 365 Project Operations compoñentes e versións:
+Este artigo aplícase aos seguintes compoñentes e versións de Dynamics 365 Project Operations:
 
   - Project Operations en ambiente de Dataverse versión 4.23.0.4
 

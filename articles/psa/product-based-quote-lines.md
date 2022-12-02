@@ -1,6 +1,6 @@
 ---
 title: Liñas de oferta baseadas en produtos
-description: Este artigo ofrece información sobre as liñas de cotización baseadas en produtos.
+description: Este artigo fornece información sobre liñas de oferta baseadas en produtos.
 author: rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Cumprimento de requisitos de recursos
-description: Este artigo ofrece información sobre como cumprir os requisitos de recursos.
+description: Este artigo fornece información sobre como cumprir requisitos de recursos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

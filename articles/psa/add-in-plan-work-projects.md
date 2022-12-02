@@ -1,6 +1,6 @@
 ---
 title: Planifique o seu traballo en Microsoft Project co complemento Project Service
-description: Este artigo ofrece información sobre como usar o complemento de Microsoft Project para Microsoft Project Service.
+description: Este artigo fornece información sobre como usar o complemento Microsoft Project para Microsoft Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

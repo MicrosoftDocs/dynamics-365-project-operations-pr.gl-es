@@ -1,6 +1,6 @@
 ---
 title: Reserva branda dun recurso
-description: Este artigo ofrece información acerca de como programar provisionalmente os membros do equipo do proxecto ou do libro suave.
+description: Este artigo fornece información sobre como programar provisionalmente ou facer unha reserva branda de membros de equipo.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

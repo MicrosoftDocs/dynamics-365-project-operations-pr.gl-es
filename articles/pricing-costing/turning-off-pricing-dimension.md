@@ -1,6 +1,6 @@
 ---
 title: Desactivar unha dimensión de prezos
-description: Este artigo ofrece información sobre como desactivar as dimensións de prezos.
+description: Este artigo fornece información sobre como desactivar dimensións de prezos.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

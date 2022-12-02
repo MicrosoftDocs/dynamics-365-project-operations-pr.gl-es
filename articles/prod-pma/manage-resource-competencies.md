@@ -1,6 +1,6 @@
 ---
 title: Xestionar competencias de recursos
-description: Este artigo ofrece información sobre a configuración de competencias para os recursos do proxecto.
+description: Este artigo fornece información sobre a configuración de competencias para recursos de proxecto.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

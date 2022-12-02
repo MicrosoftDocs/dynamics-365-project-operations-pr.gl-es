@@ -1,6 +1,6 @@
 ---
 title: Xestionar clientes potenciais
-description: Este artigo ofrece información sobre como xestionar clientes potenciales baseados en proxectos.
+description: Neste artigo se proporciona información sobre a xestión de clientes potenciais baseados en proxectos.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

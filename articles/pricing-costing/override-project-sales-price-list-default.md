@@ -1,6 +1,6 @@
 ---
 title: Anular listas de prezos de vendas de proxecto
-description: Este artigo ofrece información sobre a creación de listas de prezos de venda personalizadas.
+description: Este artigo ofrece información sobre como crear listas de prezos de venda personalizadas.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

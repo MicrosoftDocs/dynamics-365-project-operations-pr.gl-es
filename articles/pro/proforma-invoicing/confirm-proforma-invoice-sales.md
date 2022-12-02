@@ -1,6 +1,6 @@
 ---
 title: Confirmar unha factura proforma de proxecto
-description: Este artigo ofrece información sobre a confirmación de facturas de proxectos proforma en Project Operations.
+description: Este artigo ofrece información sobre a confirmación das facturas proforma do proxecto en Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

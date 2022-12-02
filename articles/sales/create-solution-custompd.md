@@ -1,6 +1,6 @@
 ---
 title: Crear unha solución para as dimensións de prezos personalizadas
-description: Este artigo ofrece información sobre como crear solucións para dimensións de prezos personalizados.
+description: Este artigo fornece información sobre como crear solucións para dimensións de prezos personalizadas.
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article

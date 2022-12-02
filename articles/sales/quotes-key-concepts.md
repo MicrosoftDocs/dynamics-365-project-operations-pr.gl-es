@@ -1,6 +1,6 @@
 ---
 title: Ofertas - Conceptos clave
-description: Este artigo ofrece información sobre as cotizacións do proxecto e as cotizacións de vendas dispoñibles en Project Operations.
+description: Este artigo ofrece información sobre as ofertas e as ofertas de vendas dispoñibles en Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -35,7 +35,7 @@ En Dynamics 365 Project Operations, hai dous tipos de ofertas: ofertas de proxec
 - **Campos e conceptos**: Unha oferta de vendas non inclúe algúns campos e conceptos que se inclúen nunha oferta de proxecto. Os campos inclúen **Unidade contratante**, **Xestor de conta** e **Facturar ao nome de contacto**.  
 - **Tipo**: As ofertas de vendas e as ofertas de proxecto tamén se identifican por un campo baseado en conxunto de opcións, **Tipo**. Para unha oferta de vendas, este campo ten o valor **Baseado en elementos**. Para unha oferta de proxecto, ten o valor **Baseado en traballo**.
 
-Este artigo céntrase nos detalles das citas do proxecto.
+Este artigo centrase nos detalles das ofertas de proxecto.
 
 Unha oferta de proxecto en Project Operations pode ter varios elementos ou liñas de oferta. De feito, unha oferta de proxecto ten dúas grades para os elementos de liña. Unha grade é para liñas baseadas en proxectos que permiten estimacións detalladas. A outra grade é para liñas baseadas en produtos que empregan un prezo de unidade simple e un enfoque baseado na cantidade.
 
