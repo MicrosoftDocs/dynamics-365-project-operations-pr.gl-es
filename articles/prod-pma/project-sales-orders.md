@@ -1,6 +1,6 @@
 ---
 title: Pedidos de venda de proxectos para proxectos de tempo e material
-description: Este artigo explica como crear pedidos de venda baseados en proxectos para proxectos de tempo e materiais.
+description: Este artigo explica como crear pedidos de venda baseados en proxectos para proxectos de tempo e material.
 author: Yowelle
 ms.date: 04/05/2019
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: 'Novidades de agosto de 2022: despregamento de Project Operations lite'
-description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de agosto de 2022 de Microsoft Dynamics 365 Project Operations despregamento lite.
+description: Este artigo ofrece información sobre as actualizacións de calidade que están dispoñibles na versión de agosto de 2022 do despregamento lite de Microsoft Dynamics 365 Project Operations.
 author: ramagadu
 ms.date: 08/19/2022
 ms.topic: article
@@ -20,7 +20,7 @@ _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
 Este artigo aplícase aos seguintes compoñentes e versións de Microsoft Dynamics 365 Project Operations:
 
-- Operacións do proxecto en a Dataverse versión do entorno 4.45.0.53
+- Project Operations nun ambiente de Dataverse versión 4.45.0.53
 
 ## <a name="quality-updates"></a>Actualizacións de calidade
 
@@ -28,6 +28,6 @@ Este artigo aplícase aos seguintes compoñentes e versións de Microsoft Dynami
 | --- | --- | --- |
 |   Xestión de oportunidades | 2762089 | Xestión de erros ao pechar o contrato como perdido se o gardado automático está desactivado na organización.|
 |Planificación e rastrexo de proxectos | 2767841 | Actualizacións de telemetría Entidade do proxecto Crear ou actualizar escenarios.|
-|Facturación e prezos | 2771072 | Manexo de excepcións de referencia nula ao gañar cotización.|
-|Facturación e prezos | 2844181 |Fallo ao conseguir un identificador de correlación e bloqueo da creación dunha factura.|
+|Facturación e prezos | 2771072 | Tratamento de excepcións de referencia nula ao gañar a oferta.|
+|Facturación e prezos | 2844181 |Fallo ao obter un identificador de correlación e bloqueo da creación dunha factura.|
 |Facturación e prezos | 2852836 | Faltan datos reais entre empresas para os gastos entre empresas creados e aprobados en CE.|

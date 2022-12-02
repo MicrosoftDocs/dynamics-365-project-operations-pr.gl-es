@@ -1,6 +1,6 @@
 ---
 title: Xestión de fornecedores listas de prezos de compra en Project Operations
-description: Este artigo ofrece información que che axudará a crear e manter datos de provedores e listas de prezos de compra para a subcontratación.
+description: Este artigo ofrece información que lle axudará a crear e manter datos de fornecedores e listas de prezos de compra para subcontratación.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article

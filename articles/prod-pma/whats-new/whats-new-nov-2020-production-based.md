@@ -1,6 +1,6 @@
 ---
 title: Novidades de novembro 2020 - Project Operations para situacións baseadas en produción/con fornecemento
-description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de novembro de 2020 de Project Operations para escenarios baseados na produción en stock.
+description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de novembro de 2020 de Project Operations para situacións baseadas en produción/con fornecemento.
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
@@ -23,7 +23,7 @@ Para obter información sobre as correccións incluídas nesta actualización, i
 
 ## <a name="regulatory-updates"></a>Actualizacións normativas
 
-Para obter información acerca das actualizacións regulamentarias para as aplicacións financeiras e de operacións de Dynamics 365, consulte [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
+Para obter información sobre actualizacións normativas para aplicacións de finanzas e operacións de Dynamics 365, vexa [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

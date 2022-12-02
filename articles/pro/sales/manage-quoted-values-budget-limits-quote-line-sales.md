@@ -1,6 +1,6 @@
 ---
 title: Visión xeral de liñas de oferta baseada en proxecto
-description: Este artigo ofrece información sobre o uso de liñas de presupostos baseadas en proxectos para o traballo do proxecto.
+description: Este artigo ofrece información sobre como liñas de oferta baseada en proxecto para o traballo do proxecto.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview

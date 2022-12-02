@@ -1,6 +1,6 @@
 ---
 title: Liñas de factura de fornecedor para fitos
-description: Este artigo explica como crear liñas de factura de provedores para fitos nun subcontrato.
+description: Este artigo explica como crear liñas de factura de fornecedor para fitos nun subcontrato.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
@@ -17,28 +17,28 @@ ms.locfileid: "9260993"
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
-Unha factura de provedor en Microsoft Dynamics 365 Project Operations pode ter liñas de factura de provedores para fitos que se definen nunha liña de subcontrato. Os xestores de proxectos poden usar liñas de facturas de provedores para fitos para rexistrar os custos dos servizos que se adquiren como custos baseados en fitos que se incorren nos servizos ou produtos que se adquiren para o proxecto.
+Unha factura de fornecedor en Microsoft Dynamics 365 Project Operations pode ter liñas de factura de fornecedor para fitos que se definen nunha liña de subcontrato. Os xestores de proxectos poden usar liñas de facturas de fornecedor para fitos para rexistrar os custos dos servizos que se adquiren como custos baseados en fitos que se incorren nos servizos ou produtos que se adquiren para o proxecto.
 
-As liñas de factura de provedores para fitos sempre deben facer referencia a unha liña de subcontrato que teña un método de facturación de prezo fixo. Cando unha liña de factura de provedor para fitos fai referencia a unha liña de subcontrato, os xestores de proxecto poderán comparar e verificar os custos subxacentes de tempo, gastos ou materiais que fan referencia a esa liña de subcontrato co fito que está a ser facturado polo provedor.
+As liñas de factura de fornecedor para fitos sempre deben facer referencia a unha liña de subcontrato que teña un método de facturación de prezo fixo. Cando unha liña de factura de fornecedor para fitos fai referencia a unha liña de subcontrato, os xestores de proxectos poderán comparar e verificar os custos subxacentes de tempo, gastos ou materiais que fan referencia a esa liña de subcontratación contra o fito que está a ser facturado polo fornecedor.
 
-A seguinte táboa ofrece información sobre os campos das liñas de factura de provedores para os fitos.
+A táboa seguinte fornece información acerca dos campos das liñas de factura do fornecedor para fitos.
 
 | Campo | Descripción | Impacto funcional |
 | --- | --- | --- |
-| Nome | O nome da liña de factura do provedor, para axudar coa identificación. | Este nome mostrarase como a primeira columna en todas as buscas baseadas nas liñas de factura de provedores. |
-| Descripción | Unha breve descrición dos servizos que está a ser facturado polo provedor na liña de factura do provedor. | Nada |
-| Subcontrato | O subcontrato polo que se encargaron orixinalmente os servizos. | Cando se selecciona un subcontrato para a factura do provedor, todas as liñas da factura do provedor herdarán esa selección. Unha factura de provedor non pode ter liñas de factura de provedor que fagan referencia a diferentes subcontratos. |
-| Liña de subcontratación | A liña de subcontratación na que se encargaron os servizos. A lista de liñas de subcontratación que se poden seleccionar está limitada ás liñas do subcontrato seleccionado. | Cando se selecciona unha liña de subcontrato nunha liña de factura de provedor para os fitos, o **Papel** e **Categoría de transacción** campos e campos relacionados co produto, son irrelevantes e non están dispoñibles. O **Cantidade**, **·**, e **Grupo de unidades** Os campos tampouco son relevantes para as liñas de facturas de provedores baseadas en fitos. |
-| Data de transacción | A data na que se rexistrará no proxecto o custo real da liña de factura do provedor. | Nada |
-| Clase de transacción | Seleccione **Fito** para rexistrar unha factura de provedor para un fito completado que se definiu nunha liña de subcontrato. | Nada |
-| Fito | Seleccione o fito que se define na liña de subcontratación relacionada que está marcada como **Listo para facturar**. | Fitos da liña de subcontratación que teñen un estado de **Listo para facturar** pódese seleccionar nunha liña de factura de provedor. |
-| Project | O nome do proxecto no que se utilizaron os servizos que se están facturando. | Este campo é obrigatorio e non se pode deixar en branco. |
-| Tarefa | O nome da tarefa do proxecto na que se utilizaron os servizos que se están facturando. Este campo só está dispoñible se se selecciona un proxecto. A selección dunha tarefa do proxecto é opcional. | Se este campo se deixa en branco, o xestor do proxecto pode relacionar a liña de factura do provedor coa clase de transaccións da liña de subcontratación relacionada que se rexistra en calquera tarefa do proxecto. Se a liña de factura do provedor non fai referencia a unha liña de subcontrato e este campo se deixa en branco, o custo real que crea a liña de factura do provedor non se vinculará a ningún dato de vendas non facturado. Neste caso, se se configura a facturación baseada en tarefas, é posible que non se poidan facturar os custos ao cliente final. |
-| Cantidade do fito | Introduza o valor do fito que se define na liña de subcontrato que está lista para ser facturada. | Nada |
+| Nome | O nome la liña da factura do fornecedor, para axudar na identificación. | Este nome amosarase como a primeira columna en todas as buscas baseadas en liñas de factura do fornecedor. |
+| Descripción | Unha breve descrición dos servizos e produtos que vai facturar o fornecedor na liña de factura do fornecedor. | Nada |
+| Subcontrato | O subcontrato no que se pediron orixinalmente os servizos. | Cando se selecciona un subcontrato para a factura do fornecedor, todas as liñas da factura do fornecedor herdarán esa selección. Unha factura de fornecedor non pode ter liñas de factura de fornecedor que fagan referencia a diferentes subcontratos. |
+| Liña de subcontratación | A liña de subcontratación no que se pediron os servizos. A lista de liñas de subcontratación que se poden seleccionar está limitada ás liñas do subcontrato seleccionado. | Cando se selecciona unha liña de subcontratación nunha liña de factura de fornecedor para os fitos, os campos **Rol** e **Categoría de transacción** e os campos relacionados co produto, son irrelevantes e non están dispoñibles. Os campos **Cantidade**, **Unidade** e **Grupo de unidades** tampouco son relevantes para as liñas de facturas de fornecedor baseadas en fitos. |
+| Data de transacción | A data na que se rexistrará no proxecto o dato real de custo da liña de factura do fornecedor. | Nada |
+| Clase de transacción | Seleccione **Fito** para rexistrar unha factura de fornecedor para un fito completado que se definiu nunha liña de subcontratación. | Nada |
+| Fito | Seleccione o fito que se define na liña de subcontratación relacionada que está marcada como **Listo para facturar**. | Os fitos de liña de subcontratación que teñen un estado de **Listo para facturar** se poden seleccionar nunha liña de factura de fornecedor. |
+| Project | O nome do proxecto no que se usaron os servizos que se van facturar. | Este campo é obrigatorio e non se pode deixar en branco. |
+| Tarefa | O nome da tarefa do proxecto no que se usaron os servizos que se van facturar. Este campo só está dispoñible se se selecciona un proxecto. A selección dunha tarefa de proxecto é opcional. | Se este campo se deixa en branco, o xestor do proxecto pode relacionar a liña de factura do fornecedor coa clase de transaccións da liña de subcontratación seleccionada que está rexistrada en calquera tarefa do proxecto. Se a liña de factura do fornecedor non fai referencia a unha liña de subcontratación e este campo se deixa en branco, o dato real de custo que crea a liña de factura do fornecedor non se vinculará a ningún dato de vendas non facturado. Neste caso, se se configura a facturación baseada en tarefas, é posible que os custos non se poidan facturar ao cliente final. |
+| Cantidade do fito | Introduza o valor do fito que se define na liña de subcontratación que está lista para facturar | Nada |
 | Imposto de vendas | Introduza o importe do imposto de vendas. | Nada |
-| Cantidade total | O importe total da liña de factura do provedor, incluídos os impostos. Este campo calcúlase como *Importe do fito* + *Imposto sobre vendas*. | Nada |
+| Importe total | O importe total da liña de factura do fornecedor, incluídos os impostos. Este campo calcúlase cono *Importe de fito* + *Imposto sobre as vendas*. | Nada |
 
 > [!NOTE]
-> Cando se crea unha liña de factura de provedor que fai referencia a un hito da liña de subcontrato, o estado do fito de subcontrato actualízase a **Creouse a factura do provedor**. Despois, cando se confirma esa factura do provedor, actualízase o estado do fito da liña de subcontrato **Factura do provedor confirmada**.
+> Cando se crea unha liña de factura de fornecedor que fai referencia a un fito da liña de subcontratación, o estado do fito de subcontrato actualízase a **Creouse a factura do fornecedor**. Despois, cando se confirma esa factura do fornecedor, actualízase o estado do fito da liña de subcontratación a **Factura do fornecedor confirmada**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

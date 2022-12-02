@@ -20,19 +20,19 @@ _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fo
 Microsoft Dynamics 365 Project Operations usa dous roles de seguranza para permitir a aprobación de entradas de tempo, gastos e materiais:
 
 - Responsable da aprobación do proxecto
-- Administrador Aprobador de Proxectos
+- Administrador responsable da aprobación do proxecto
 
 ## <a name="project-approver"></a>Responsable da aprobación do proxecto
 
-Debes ter o **Aprobador do proxecto** rol de seguranza para aprobar as entradas de tempo, gastos e materiais do proxecto. Tamén debes ter acceso ás entidades relacionadas relevantes, como **Proxecto**. Ese acceso pode ser asignado por alguén que teña o **Xerente de proxecto** papel. Ademais, debes ser membro do equipo do proxecto e estar marcado como aprobador.
+Debe ter o rol de seguranza **Responsable de aprobación do proxecto** para aprobar as entradas de tempo, gastos e materiais do proxecto. Tamén debe ter acceso ás entidades relacionadas relevantes, como **Proxecto**. Ese acceso pode ser asignado por alguén que teña o rol de **Xestor de proxectos**. Ademais, debe ser membro do equipo do proxecto e estar marcado como responsable de aprobación.
 
-Para aprobar as entradas que non sexan do proxecto, debes ser o xestor do remitente.
+Para aprobar as entradas que non sexan do proxecto, debe ser o xestor do remitente.
 
-## <a name="project-approver-admin"></a>Administrador Aprobador de Proxectos
+## <a name="project-approver-admin"></a>Administrador responsable da aprobación do proxecto
 
 > [!NOTE]
-> O [Conxuntos de aprobación](approval-sets.md) A función debe estar activada antes de poder usar a funcionalidade de administrador do aprobador de proxectos.
+> A funcionalidade [Conxuntos de aprobacións](approval-sets.md) debe estar activada antes de poder usar a funcionalidade de administrador responsable de aprobación de proxectos.
 
-O **Administrador Aprobador de Proxectos** rol de seguranza permite aos usuarios ignorar as políticas e permite a aprobación de entradas en todos os proxectos. A asignación deste rol ignorará a lóxica de validación que require a pertenza ao equipo e que se marque como aprobador. Debes ter acceso ás táboas relacionadas relevantes, como **Proxecto**, a través das funcións de seguranza asignadas a vostede.
+O rol de seguranza **Administrador responsable de aprobación do proxecto** permite aos usuarios ignorar as políticas e permite a aprobación de entradas en todos os proxectos. A atribución deste rol ignorará a lóxica de validación que require a pertenza ao equipo e estar marcado como responsable de aprobación. Debe ter acceso ás táboas relacionadas relevantes, como **Proxecto**, a través das funcións de seguranza atribuídas a vostede.
 
-O contexto de usuario SISTEMA omite validacións do mesmo xeito que o administrador do aprobador de proxectos rol de seguranza.
+O contexto de usuario do SISTEMA ignora as validacións do mesmo xeito que o rol de seguranza administrador responsable de aprobación do proxecto.

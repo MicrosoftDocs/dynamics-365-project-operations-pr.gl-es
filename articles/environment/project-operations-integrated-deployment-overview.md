@@ -1,6 +1,6 @@
 ---
 title: Visión xeral do despregamento de Project Operations para situacións baseadas en recursos/sen fornecemento
-description: Este artigo ofrece información sobre o tipo de implantación, Operacións do proxecto para escenarios baseados en recursos/non abastecidos.
+description: Este artigo ofrece información sobre o tipo de despregamento, Project Operations para situacións baseadas en recursos/sen fornecemento.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
@@ -31,7 +31,7 @@ O tipo de despregamento, Dynamics 365 Project Operations para situacións basead
 - Recoñecemento de ingresos de proxectos
 - Extensibilidade a través de Power Platform
 
-Este tipo de implementación proporciona unha extensión á funcionalidade proporcionada por Dynamics 365 Finance e Dynamics 365 Supply Chain Management aplicacións.
+Este tipo de despregamento tamén proporciona unha extensión á funcionalidade proporcionada polas aplicacións Dynamics 365 Finance e Dynamics 365 Supply Chain Management.
 
 Este despregamento debe escollerse se a expectativa de Project Operations é utilizar o ciclo de vida completo do proxecto que inclúa os seguintes requisitos:
 

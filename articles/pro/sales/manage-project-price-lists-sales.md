@@ -1,6 +1,6 @@
 ---
 title: Xestionar listas de prezos de proxecto nas ofertas de proxecto
-description: Este artigo ofrece información sobre como traballar coas listas de prezos de proxectos nas cotizacións.
+description: Este artigo ofrece información sobre como traballar con listas de prezos de proxecto nas ofertas.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

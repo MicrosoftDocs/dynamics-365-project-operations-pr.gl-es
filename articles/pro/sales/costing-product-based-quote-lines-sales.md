@@ -1,6 +1,6 @@
 ---
 title: Custos de liñas de oferta baseadas en produto
-description: Este artigo ofrece información sobre como aplicar un prezo de custo a unha liña de cotización baseada en produtos.
+description: Este artigo fornece información sobre aplicar un prezo de custo a unha liña de oferta baseada en produtos.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Rexistrarse para unha subscrición de previsualización - lite
-description: 'Este artigo ofrece información sobre como subscribirse e implementar a implementación de Project Operations Lite: xestionar a facturación proforma.'
+description: Este artigo ofrece información sobre como subscribirse e despregar o despregamento de Project Operations lite - de acordo a facturación proforma.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.locfileid: "9410009"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Rexistrarse para unha subscrición de previsualización - lite 
 
-Este artigo explica como subscribirse á oferta de proba e implementar Dynamics 365 Project Operations implementación lite: tramitar a facturación proforma.
+Este artigo explica como subscribirse á oferta de proba e despregar Dynamics 365 Project Operations lite: acordo para facturación proforma.
 
 > [!NOTE]
 > Este proceso cambiará nas próximas versións de Project Operations.
@@ -43,14 +43,14 @@ Antes de comezar, asegúrese de iniciar sesión nun explorador coa conta de trab
 > Necesitará acceso administrativo ao portal Microsoft 365 da súa organización para completar os seguintes pasos.
 
 
-1. Ir a [Microsoft 365 centro de administración](https://portal.office.com/) para asignar as licenzas aos seus usuarios.
+1. Vaia a [Centro de administración de Microsoft 365](https://portal.office.com/) para atribuír as licenzas aos seus usuarios.
 2. Na páxina **Usuarios activos**, seleccione os usuarios aos que desexa atribuír unha licenza.
 3. Verifique que a licenza de **Dynamics 365 Project Operations** está seleccionada. 
 4. Seleccione **Gardar as modificacións**.
 
 ## <a name="create-a-new-dataverse-environment"></a>Crear un novo ambiente de Dataverse
 
-1. Proporcionar un novo proxecto Operacións Dataverse ambiente de implantación seguindo as instrucións do artigo, [Dataverse modelo de implantación](lite-deployment.md). Cando seleccione o tipo de ambiente, asegúrese de usar **Proba (baseada en subscrición)**.
+1. Proporcione un novo ambiente de despregamento de Project Operations Dataverse seguindo as instrucións do artigo, [Modelo de despregamento de Dataverse](lite-deployment.md). Cando seleccione o tipo de ambiente, asegúrese de usar **Proba (baseada en subscrición)**.
 
   ![Novo ambiente.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Antes de comezar, asegúrese de iniciar sesión nun explorador coa conta de trab
 
 ## <a name="set-up-demo-data"></a>Configurar datos de demostración
 
-Configure os datos de demostración seguindo as instrucións do artigo, [Aplicar datos de configuración e configuración de demostración](lite-apply-demo-setup-config-data.md).
+Configure os datos de demostración seguindo as instrucións do artigo, [Aplicar os datos de instalación e configuración da demostración](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

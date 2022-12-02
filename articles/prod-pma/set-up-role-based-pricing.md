@@ -1,6 +1,6 @@
 ---
 title: Configurar prezos baseados en roles
-description: Este artigo ofrece información sobre como configurar os prezos para funcións específicas.
+description: Este artigo fornece información sobre como configurar dimensións de prezos para roles específicos.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

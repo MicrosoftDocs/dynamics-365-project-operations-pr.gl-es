@@ -1,6 +1,6 @@
 ---
 title: Configurar os compoñentes imputables dunha liña de oferta
-description: Este artigo ofrece información sobre a configuración de compoñentes cobrables e non cobrables nunha liña de cotización baseada en proxectos.
+description: Este artigo ofrece información sobre a configuración de compoñentes imputables e non imputables nunha liña de oferta baseada en proxecto.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

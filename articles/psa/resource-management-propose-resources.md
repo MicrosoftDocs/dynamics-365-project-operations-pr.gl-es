@@ -1,6 +1,6 @@
 ---
 title: Propoñer recursos do proxecto
-description: Este artigo ofrece información sobre como propoñer recursos do proxecto.
+description: Este artigo fornece información sobre propoñer recursos de proxecto.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

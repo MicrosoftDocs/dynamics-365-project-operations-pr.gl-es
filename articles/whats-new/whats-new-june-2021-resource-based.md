@@ -1,6 +1,6 @@
 ---
 title: Novidades de xuño de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
-description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de xuño de 2021 de Project Operations para escenarios baseados en recursos ou non almacenados.
+description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de xuño de 2021 de Project Operations para situacións baseadas en recursos/sen fornecemento.
 author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9028244"
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Este artigo aplícase ao seguinte Dynamics 365 Project Operations compoñentes e versións:
+Este artigo aplícase aos seguintes compoñentes e versións de Dynamics 365 Project Operations:
 
 - Project Operations no ambiente de Dynamics 365 Dataverse versión 4.11.0.156 ou 4.11.0.164.
-- Xestión de proxectos e contabilidade en contornos de aplicacións financeiras e operacións versión 10.0.19.
+- Xestión e contabilidade de proxectos en ambientes de aplicacións de finanzas e operacións versión 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Funcionalidades incluídas nesta versión
 
@@ -38,7 +38,7 @@ Non hai actualizacións para mapas de escrita dual de Project Operations nesta v
 
 Para obter unha lista actual e versións dos mapas de escrita dual de Project Operations, consulte [Versións de mapa de escrita dual de Project Operations](../environment/resource-dual-write-maps.md).
 
-Executa sempre a versión máis recente do mapa no teu ambiente e activa todos os mapas de táboas relacionados mentres actualizas as operacións do teu proxecto Dataverse solución e versión de solución de aplicacións de finanzas e operacións. É posible que certas funcionalidades e capacidades non funcionen correctamente se a última versión do mapa non está activada. Pode ver a versión activa do mapa na páxina **Escrita dual** na columna **Versión**. Active unha nova versión do mapa seleccionando **Versións do mapa de táboas**, seleccionando a última versión e logo gardando a versión seleccionada. Se personalizou un mapa de táboa listo para usar, aplique de novo os cambios. Para obter máis información, consulte [Xestión do ciclo de vida da aplicación](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Execute sempre a última versión do mapa no seu ambiente e active todos os mapas de táboa relacionados mentres actualiza a súa solución de Project Operations Dataverse solución e a versión da solución de aplicacións de finanzas e operacións. É posible que certas funcionalidades e capacidades non funcionen correctamente se a última versión do mapa non está activada. Pode ver a versión activa do mapa na páxina **Escrita dual** na columna **Versión**. Active unha nova versión do mapa seleccionando **Versións do mapa de táboas**, seleccionando a última versión e logo gardando a versión seleccionada. Se personalizou un mapa de táboa listo para usar, aplique de novo os cambios. Para obter máis información, consulte [Xestión do ciclo de vida da aplicación](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Se ten algún problema ao iniciar o mapa, siga as instrucións da sección [Problema de columnas da táboa que faltan nos mapas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) da guía de resolución de problemas de escrita dual.
 
@@ -62,7 +62,7 @@ Se ten algún problema ao iniciar o mapa, siga as instrucións da sección [Prob
 | Tempo e gasto | 2194431 | A grade **Entrada de tempo** debe cumprir o comezo da semana como se establece na **Configuración do sistema**. |
 | Tempo e gasto | 2277311 | Despois de eliminar o valor dunha cela na grade **Entrada de tempo**, o cursor permanece na grade. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Xestión de proxectos e contabilidade en Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Xestión e contabilidade de proxectos en Dynamics 365 Finance
 
 | Área de funcionalidades | Número de referencia | Actualización de calidade |
 | --- | --- | --- |

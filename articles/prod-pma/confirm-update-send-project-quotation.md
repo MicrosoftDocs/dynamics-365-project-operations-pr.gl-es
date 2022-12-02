@@ -1,6 +1,6 @@
 ---
 title: Confirmar, actualizar e enviar unha oferta de proxecto
-description: Este artigo ofrece información sobre como enviar unha cotización ao cliente para a súa confirmación, modificala en función dos comentarios e, a continuación, reenviar a cotización.
+description: Este artigo ofrece información sobre o envío dunha oferta ao cliente para a súa confirmación, a modificación baseada nos comentarios e, a seguir, o reenvío da oferta.
 author: ruhercul
 ms.date: 05/09/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Área de traballo móbil de entrada de tempo do proxecto
-description: Este artigo ofrece información sobre o espazo de traballo móbil de entrada de hora do proxecto. Esta área de traballo permite aos usuarios introducir e aforrar tempo nun proxecto usando o seu dispositivo móbil.
+description: Este artigo ofrece información sobre como usar á área de traballo móbil de entrada de tempo do proxecto. Esta área de traballo permite aos usuarios introducir e aforrar tempo nun proxecto usando o seu dispositivo móbil.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "9029666"
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo ofrece información sobre o **Entrada do tempo do proxecto** espazo de traballo móbil. Esta área de traballo permite aos usuarios introducir e aforrar tempo nun proxecto usando o seu dispositivo móbil.
+Este artigo ofrece información sobre como usar á área de traballo móbil **Entrada de tempo do proxecto**. Esta área de traballo permite aos usuarios introducir e aforrar tempo nun proxecto usando o seu dispositivo móbil.
 
 Esta área de traballo móbil está pensada para ser usada xunto coa aplicación móbil Dynamics 365 Unified Ops. 
 
@@ -82,7 +82,7 @@ Se se despregou a versión 1611 coa actualización da plataforma 3 ou posterior 
 
 ## <a name="download-and-install-the-mobile-app"></a>Descargar e instalar a aplicación móbil
 
-Descarga e instala a aplicación móbil de finanzas e operacións:
+Descargue e instale a aplicación móbil de finanzas e operacións:
 
 -   [Para teléfonos Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

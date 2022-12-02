@@ -1,6 +1,6 @@
 ---
 title: Novidades de maio de 2021 - despregamento lite de Project Operations
-description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de maio de 2021 da implantación de Project Operations lite.
+description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de maio de 2021 do despregamento lite de Project Operations.
 author: sigitac
 ms.date: 05/17/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8934180"
 
 _Aplícase a: Despregamento de Lite - acordo para facturación proforma_
 
-Este artigo aplícase ao seguinte Dynamics 365 Project Operations compoñentes e versións:
+Este artigo aplícase aos seguintes compoñentes e versións de Dynamics 365 Project Operations:
 
    - Project Operations en ambiente de Dataverse versión 4.10.0.186.
 

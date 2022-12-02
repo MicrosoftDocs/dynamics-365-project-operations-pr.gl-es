@@ -1,6 +1,6 @@
 ---
 title: Novidades de novembro de 2020 - Project Operations para situacións baseadas en recursos/sen fornecemento
-description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de novembro de 2020 de Project Operations para escenarios baseados en recursos ou non almacenados.
+description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de novembro de 2020 de Project Operations para situacións baseadas en recursos/sen fornecemento.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
@@ -17,10 +17,10 @@ ms.locfileid: "9029528"
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Este artigo aplícase ao seguinte Dynamics 365 Project Operations compoñentes e versións:
+Este artigo aplícase aos seguintes compoñentes e versións de Dynamics 365 Project Operations:
 
 - Project Operations en ambiente de CDS versión 4.4.0.70
-- Xestión de proxectos e contabilidade no entorno Dynamics 365 Finance versión 10.0.14
+- Xestión e contabilidade de proxectos en ambientes de aplicacións de Dynamics 365 Finance versión 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Actualizacións de Project Operations para situacións baseadas en recursos/sen fornecemento
 
@@ -42,7 +42,7 @@ Este artigo aplícase ao seguinte Dynamics 365 Project Operations compoñentes e
 | Entrada rápida de tempo e gasto | 2059859          | Ábrese unha ventá emerxente inesperada ao crear unha entrada de gasto.                                                                                                                         |
 | Outras                        | 2044181          | (Desinstalación do pedido de compra)   Cando se intentan desinstalar as solucións básicas msdyn_ProjectServiceCore_Patch e msdyn Project   service, prodúcese o erro "O rexistro non está dispoñible".  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Xestión de proxectos e contabilidade en Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Xestión e contabilidade de proxectos en Dynamics 365 Finance
 
 | Área de funcionalidades        | Número de referencia | Actualización de calidade                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Este artigo aplícase ao seguinte Dynamics 365 Project Operations compoñentes e
 | Contabilidade de proxectos  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Activando a funcionalidade, non son posibles varias liñas de contrato sen a integración de CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Actualizacións normativas
-Para obter información acerca das actualizacións regulamentarias para as aplicacións financeiras e de operacións, consulte [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
+Para obter información sobre actualizacións normativas para aplicacións de finanzas e operacións, vexa [Actualizacións normativas](/dynamics365/finance/localizations/regulatory-updates). Tamén pode iniciar sesión en LCS e ver as actualizacións normativas previstas usando a ferramenta de busca de problemas. A busca de problemas permítelle buscar por país, tipo de funcionalidade e lanzamento.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

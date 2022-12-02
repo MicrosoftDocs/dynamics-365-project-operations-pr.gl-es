@@ -1,6 +1,6 @@
 ---
 title: Liñas de subcontrato para categorías de gastos
-description: Este artigo explica como rexistrar liñas de subcontrato para gastos e usar os campos para rexistrar a compra de tempo dos provedores.
+description: Este artigo explica como rexistrar liñas de subcontrato para gastos e usar os campos para rexistrar a compra de tempo de fornecedores.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

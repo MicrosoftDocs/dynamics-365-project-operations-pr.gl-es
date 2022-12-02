@@ -1,6 +1,6 @@
 ---
 title: Crear unha reserva de proxecto desde o panel de programación
-description: Este artigo ofrece información sobre como crear unha reserva de proxecto desde o taboleiro de programación.
+description: Este artigo fornece información sobre como crear unha reserva de proxecto desde o panel de programación.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Revisar os recursos propostos
-description: Este artigo ofrece información sobre como propoñer recursos do proxecto.
+description: Este artigo fornece información sobre como propoñer recursos de proxecto.
 author: ruhercul
 ms.date: 08/18/2021
 ms.topic: article
@@ -41,7 +41,7 @@ Para revisar os recursos propostos, siga estes pasos:
 
     - Na páxina **Asistente de programación**, os indicadores de estado actualízanse para indicar que a reserva é unha proposta, non unha reserva dura.
     - Na solicitude de recurso, o revisor da solicitude debe cambiar o estado a **Necesita revisión**.
-    - No **Equipo** ficha do proxecto, a do membro xenérico do equipo **Estado da solicitude** o valor cámbiase automaticamente a **Necesita revisión**.
+    - No separador **Equipo** do proxecto, o valor **Estado da solicitude** do membro xenérico do equipo, o valor cambiase automaticamente a **Necesita revisión**.
 
 O responsable do proxecto pode aceptar ou rexeitar a proposta.
 

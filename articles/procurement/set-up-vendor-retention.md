@@ -1,6 +1,6 @@
 ---
 title: Configurar a retención de fornecedores
-description: Este artigo explica como configurar a retención de provedores.
+description: Este artigo explica como configurar a retención de fornecedores.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
@@ -18,11 +18,11 @@ ms.locfileid: "8929764"
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Este artigo ofrece información sobre como configurar a retención de provedores.
+Este artigo ofrece información sobre como configurar a retención de fornecedores.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Configurar unha conta de retención de fornecedores no libro maior xeral
 
-1. En Dynamics 365 Finance, vai a **Contabilidade Xeral** > **Configuración da publicación** > **Contas para transaccións automáticas**.
+1. En Dynamics 365 Finance, vaia a **Libro maior xeral** > **Configuración da contabilización** > **Contas para transaccións automáticas**.
 2. Engada unha liña nova.
 3. No campo **Tipo de contabilización**, seleccione **Retención de fornecedores**.
 4. Seleccione a conta principal para a contabilización de retención de fornecedores.

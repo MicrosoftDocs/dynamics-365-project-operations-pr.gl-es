@@ -1,6 +1,6 @@
 ---
 title: Tipos de período
-description: Este artigo ofrece información sobre como configurar tipos de período para a estimación de ingresos.
+description: Este artigo ofrece información sobre como configurar os tipos de período para a estimación de ingresos.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8930960"
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Un tipo de período define a frecuencia coa que se calculan os ingresos dun proxecto. Este artigo ofrece información sobre como configurar tipos de período para a estimación de ingresos. 
+Un tipo de período define a frecuencia coa que se calculan os ingresos dun proxecto. Este artigo ofrece información sobre como configurar os tipos de período para a estimación de ingresos. 
 
 ## <a name="create-and-work-with-period-types"></a>Crear tipos de período e traballar con eles
 Para crear e traballar con tipos de período, complete os seguintes pasos:
 
-1. No teu entorno Dynamics 365 Finance, vai a **Xestión de proxectos e contabilidade** > **Montar** > **Estimacións** > **Tipos de período**.
+1. No seu ambiente de Dynamics 365 Finance, vaia a **Xestión e contabilidade de proxectos** > **Configuración** > **Estimacións** > **Tipos de período**.
 2. Seleccione **Novo** para crear o novo tipo de período. Introduza un nome e unha descrición.
 3. No campo **Frecuencia**, seleccione un valor:
 

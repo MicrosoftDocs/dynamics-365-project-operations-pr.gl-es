@@ -1,6 +1,6 @@
 ---
 title: Liñas de subcontrato para tempo
-description: Este artigo explica como rexistrar liñas de subcontratación para o tempo e rexistrar a compra de tempo dos provedores.
+description: Este artigo explica como rexistrar liñas de subcontrato para tempo e rexistrar a compra de tempo de fornecedores.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

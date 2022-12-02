@@ -1,6 +1,6 @@
 ---
 title: Aplicar datos de instalación e configuración da demostración - lite
-description: Este artigo ofrece información sobre como aplicar os datos de configuración e configuración de demostración para as operacións do proxecto.
+description: Este artigo ofrece información sobre como aplicar os datos de instalación e configuración da demostración para Project Operations.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: sigitac
 ms.openlocfilehash: 9a3a99c326b7ebbdfa859c3298b35e910af0eb2a
 ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: gl-ES
 ms.lasthandoff: 09/07/2022
 ms.locfileid: "9409988"
@@ -21,7 +21,7 @@ _**Despregamento de Lite - oferta para facturación proforma_
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Antes de comezar a configuración, debes ter un Dataverse ambiente provisto para Dynamics 365 Project Operations.
+Antes de comezar a configuración, debe ter un ambiente de Dataverse subministrado para Dynamics 365 Project Operations.
 
 
 ## <a name="instructions"></a>Instrucións

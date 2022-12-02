@@ -1,6 +1,6 @@
 ---
 title: Campos de Project Operations como dimensións de prezos
-description: Este artigo ofrece información utilizando campos como dimensións de prezos en Dynamics 365 Project Operations.
+description: Este artigo fornece información sobre o uso de campos como dimensións de prezos en Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

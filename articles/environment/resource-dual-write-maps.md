@@ -1,6 +1,6 @@
 ---
 title: Versións do mapa de escrita dual de Project Operations
-description: Este artigo ofrece a lista de mapas de dobre escritura necesarios para Dynamics 365 Project Operations.
+description: Este artigo ofrece a lista de mapas de escrita dual necesarios para Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 07/01/2021
 ms.topic: article
@@ -25,12 +25,12 @@ Os seguintes mapas son requisitos previos para a solución de Project Operations
 
 | Asignación de táboas | Sincronización inicial |
 | --- | --- |
-| Libro maior (msdyn_ledgers) | Require a sincronización inicial para o mapa da táboa e todos os requisitos previos. O mestre para a sincronización inicial son as aplicacións financeiras e de operacións. |
+| Libro maior (msdyn_ledgers) | Require a sincronización inicial para o mapa da táboa e todos os requisitos previos. O padrón para a sincronización inicial é as aplicacións de finanzas e operacións. |
 | Entidades legais (cdm_companies) | Non é necesario. O sistema enche esta entidade automaticamente cando os ambientes están ligados mediante escrita dual. |
 | Clientes V3 (contas) | Non é necesario para o aprovisionamento. |
 | Fornecedores V2 (msdyn_vendors) | Non é necesario para o aprovisionamento. |
 
-1. Na lista de mapas, seleccione o papa de libro maior **(msdyn\_ledgers)** con todos os requisitos previos e seleccione a caixa de verificación **Sincronización inicial**. No **Mestre para a sincronización inicial** campo, seleccione **Aplicacións de finanzas e operacións** tanto para o mapa de contabilidade como para todos os mapas de requisitos previos. Seleccione **Executar**.
+1. Na lista de mapas, seleccione o papa de libro maior **(msdyn\_ledgers)** con todos os requisitos previos e seleccione a caixa de verificación **Sincronización inicial**. No campo **Padrón para a sincronización inicial**, seleccione **Aplicacións de finanzas e operacións** tanto para o mapa de libro maior como para todos os mapas de requisitos previos. Seleccione **Executar**.
 
 ![Sincronización de mapa de libro maior.](media/DW6.png)
 
@@ -40,13 +40,13 @@ Os seguintes mapas son requisitos previos para a solución de Project Operations
 
 Os seguintes mapas son necesarios para a solución de Project Operations. As versións de mapas de escritura dual aparecen a partir da actualización de maio de 2021, Project Operations, versión 4.10.0.186.
 
-| Asignación de entidades | Última versión | Sincronización inicial | Versión Dynamics 365 Finance obrigatoria |
+| Asignación de entidades | Última versión | Sincronización inicial | Versión necesaria de Dynamics 365 Finance |
 | --- | --- | --- | --- |
 | Entidade de integración para as relacións de transaccións do proxecto (msdyn\_transactionconnections) | 1.0.0.0 | Non é necesario para o aprovisionamento. ||
 | Cabeceiras de contrato de proxecto (pedidos de vendas) | 1.0.0.1 | Non é necesario para o aprovisionamento. ||
 | Liñas de contrato de proxecto (salesorderdetails) | 1.0.0.0 | Non é necesario para o aprovisionamento. ||
 | Orixe de financiamento do proxecto (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Non é necesario para o aprovisionamento. ||
-| Táboa de integración de proxectos para estimacións de materiais (msdyn\_ estimacións) | 1.0.0.0 | Non é necesario para o aprovisionamento. ||
+| Táboa de integración de proxecto para estimacións de material (msdyn\_estimatelines) | 1.0.0.0 | Non é necesario para o aprovisionamento. ||
 | Propostas de factura de proxecto V2 (facturas) | 1.0.0.3 | Non é necesario para o aprovisionamento. ||
 | Datos reais de integración de Project Operations (msdyn_actuals) | 1.0.0.15 | Non é necesario para o aprovisionamento. |10.0.29 ou posterior|
 | Fitos de liña de contrato de integración de Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Non é necesario para o aprovisionamento. ||

@@ -1,6 +1,6 @@
 ---
 title: Configurar subcontratistas como recursos reservables
-description: Este artigo explica como configurar e manter os recursos de subcontratistas que se crean a partir de usuarios e contactos do sistema, para que poidan asociarse a subcontratos en Microsoft Dynamics 365 Project Operations.
+description: Este artigo explica como configurar e manter recursos de subcontratistas que se crean a partir de usuarios e contactos do sistema, para que poidan asociarse a subcontratos en Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

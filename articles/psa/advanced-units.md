@@ -1,6 +1,6 @@
 ---
 title: Grupos de unidades e unidades
-description: Este artigo ofrece información sobre grupos de unidades e unidades.
+description: Este artigo fornece información sobre os grupos de unidades e as unidades.
 author: rumant
 ms.custom:
 - dyn365-projectservice

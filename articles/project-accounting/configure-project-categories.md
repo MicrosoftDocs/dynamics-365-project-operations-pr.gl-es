@@ -1,6 +1,6 @@
 ---
 title: Configurar categorías de proxecto
-description: Este artigo ofrece información sobre a configuración de categorías de proxectos.
+description: Neste artigo se proporciona información sobre a configuración das categorías de proxectos.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
@@ -35,7 +35,7 @@ As categorías de transaccións defínense no módulo Project Operations.
 
 ## <a name="shared-categories"></a>Categorías compartidas
 
-Dynamics 365 usa o concepto de categorías compartidas para categorizar os gastos en diferentes aplicacións, como Dynamics 365 Finance, Dynamics 365 Supply Chain e Dynamics 365 Project Operations. Para cada categoría de transacción creada, Project Operations crea automaticamente catro categorías compartidas relacionadas: Horas, Gasto, Taxas e Elemento. Pode revisar e axustar as categorías compartidas indo a **Xestión de proxectos e contabilidade** \> **Configuración** \> **Categorías** \> **Categorías compartidas**.
+Dynamics 365 utiliza o concepto de categorías compartidas para clasificar os gastos en diferentes aplicacións, como Dynamics 365 Finance, Dynamics 365 Supply Chain e Dynamics 365 Project Operations. Para cada categoría de transacción creada, Project Operations crea automaticamente catro categorías compartidas relacionadas: Horas, Gasto, Taxas e Elemento. Pode revisar e axustar as categorías compartidas indo a **Xestión de proxectos e contabilidade** \> **Configuración** \> **Categorías** \> **Categorías compartidas**.
 
 ## <a name="project-categories"></a>Categorías do proxecto
 

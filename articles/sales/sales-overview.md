@@ -1,6 +1,6 @@
 ---
 title: Visión xeral do proceso de vendas
-description: Este artigo ofrece información sobre os procesos básicos de venda.
+description: Este artigo fornece información sobre os procesos básicos de vendas.
 author: rumant
 ms.date: 10/29/2020
 ms.topic: overview

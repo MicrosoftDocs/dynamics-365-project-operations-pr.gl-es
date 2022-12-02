@@ -1,6 +1,6 @@
 ---
 title: Modelos de proxecto
-description: Este artigo ofrece información sobre como usar modelos de proxecto para a configuración rápida do proxecto.
+description: Este artigo fornece información sobre como usar modelos de proxecto para a configuración rápida do proxecto.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

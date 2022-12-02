@@ -1,6 +1,6 @@
 ---
 title: Planificación e rastrexo de proxectos
-description: Este artigo ofrece unha ligazón a información sobre a planificación e o seguimento en Project Service Automation.
+description: Este artigo fornece unha ligazón a información sobre planificación e rastrexo en Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8933260"
 
 A aplicación Project Service axuda ás organizacións de servizo a identificar oportunidades, presentar ofertas, alcanzar acordos contractuais, xestionar recursos, rastrexar tempo e gastos, facturar a clientes e entregar proxectos a tempo e dentro do orzamento. 
 
-Eliminouse a ligazón PDF que estaba anteriormente neste artigo e o contido moveuse aos artigos seguintes:
+Eliminouse a ligazón en formato PDF que antes había neste artigo e o contido trasladouse aos seguintes artigos:
 
 - [Programas de proxecto](../project-creating.md)
 - [Custos e ingresos de proxecto](../project-estimating.md)

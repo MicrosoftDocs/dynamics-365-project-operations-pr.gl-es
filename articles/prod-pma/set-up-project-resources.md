@@ -1,6 +1,6 @@
 ---
 title: Configurar recursos de proxectos
-description: Este artigo ofrece información sobre como configurar ou solicitar recursos do proxecto.
+description: Este artigo fornece información sobre a configuración ou solicitude de recursos de proxecto.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

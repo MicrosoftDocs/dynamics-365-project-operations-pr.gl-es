@@ -1,6 +1,6 @@
 ---
 title: Ofertas e liñas de oferta
-description: Este artigo ofrece información sobre comiñas e liñas de comiñas.
+description: Este artigo fornece información sobre as ofertas e as liñas de oferta.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -39,7 +39,7 @@ En Dynamics 365 Project Service Automation, hai dous tipos de ofertas: ofertas d
 - Unha oferta de vendas non inclúe algúns campos e conceptos que se inclúen nunha oferta de proxecto. Os campos inclúen **Unidade contratante**, **Xestor de conta** e **Facturar ao nome de contacto**.  
 - As ofertas de vendas e as ofertas de proxecto tamén se identifican por un campo baseado en conxunto de opcións que leva o nome **Tipo**. Para unha oferta de vendas, este campo ten o valor **Baseado en elementos**. Para unha oferta de proxecto, ten o valor **Baseado en traballo**.
 
-Este artigo centrarase nos detalles das citas do proxecto.
+Este artigo centrarase nos detalles das ofertas de proxecto.
 
 Unha oferta de proxecto en PSA pode ter varios elementos ou liñas de oferta. De feito, unha oferta de proxecto ten dúas grades para os elementos de liña. Unha grade é para liñas baseadas en proxectos que permiten estimacións detalladas. A outra grade é para liñas baseadas en produtos que empregan un prezo de unidade simple e un enfoque baseado na cantidade.
 

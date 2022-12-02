@@ -1,6 +1,6 @@
 ---
 title: Xestión de unidades complexas como por usuario, por mes para as liñas de oferta baseadas en produto - lite
-description: Este artigo ofrece información sobre a xestión de unidades complexas para as liñas de cotización baseadas en produtos.
+description: Este artigo ofrece información sobre a xestión de unidades complexas para liñas de oferta baseadas en produto.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

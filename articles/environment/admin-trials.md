@@ -1,6 +1,6 @@
 ---
 title: Rexistro para as probas de Project Operations
-description: Este artigo ofrece información sobre como implementar unha versión de proba de Dynamics 365 Project Operations.
+description: Este artigo fornece información sobre como despregar unha proba de Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
@@ -19,9 +19,9 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 
 
 
-Este artigo explica como subscribirse á oferta de socios de vista previa e implementar a Dynamics 365 Project Operations ambiente.
+Este artigo explica como subscribirse á oferta de asociado de versión preliminar e despregar un ambiente de Dynamics 365 Project Operations.
 
-Coa nova proba de Project Operations, pode despregar automaticamente calquera dos tres escenarios de despregamento admitidos enchendo un cuestionario que recomenda o mellor enfoque de despregamento. Este artigo ofrece información sobre como:
+Coa nova proba de Project Operations, pode despregar automaticamente calquera dos tres escenarios de despregamento admitidos enchendo un cuestionario que recomenda o mellor enfoque de despregamento. Neste artigo se proporciona información sobre como:
 
 - Troque a súa oferta de proba.
 - Inicie o aprovisionamento.
@@ -86,18 +86,18 @@ Antes de comezar, inicie sesión nun explorador coa conta de traballo do usuario
  
   Cando se completa o aprovisionamento, o estado do seu ambiente é **Listo**. O aprovisionamento do ambiente inclúe o despregamento de datos de demostración.
  
-4.  Seleccione o correspondente Microsoft Dataverse URL e os URL das aplicacións financeiras e de operacións para validar a implantación.
+4.  Seleccione o respectivo URL de Microsoft Dataverse e as aplicacións de finanzas e operacións para validar o despregamento.
 
 ## <a name="configuring-dual-write"></a>Configuración da escrita dual
-- Para configurar as funcións de seguranza para a escritura dual, consulte [Actualiza a configuración de seguranza en Project Operations en Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Para acceder á configuración de dobre escritura, desprácese ata a instancia de finanzas e operacións e, a continuación, navegue ata **Xestión de datos** > **Escritura dual**.
-- Para configurar mapas de dobre escritura, consulte [Executar mapas de dobre escritura de Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+- Para configurar as funcións de seguranza para a escritura dual, consulte [Actualizar a configuración de seguranza en Project Operations en Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Para acceder á configuración de escrita dual, desprácese ata a instancia de finanzas e operacións e, a continuación, navegue ata **Xestión de datos** > **Escrita dual**.
+- Para configurar mapas de escrita dual, consulte [Executar mapas de escrita dual de Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Atribuír licenzas
 
 Necesitará acceso administrativo ao portal Microsoft 365 da súa organización para completar os seguintes pasos.
 
-1. Vaia ao [Microsoft 365 centro de administración](https://portal.office.com/) para asignar as licenzas aos seus usuarios.
+1. Vaia ao [Centro de administración de Microsoft 365](https://portal.office.com/) para atribuír as licenzas aos seus usuarios.
 
    ![Páxina de inicio do centro de administración](./media/14AdminPortal.png)
 
@@ -117,7 +117,7 @@ Os seguintes recursos proporcionan unha guía útil cando comeza a súa viaxe co
 
 ## <a name="frequently-asked-questions"></a>Preguntas máis frecuentes
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>E se necesito ALM ou ELM para o meu entorno de aplicacións financeiras e de operacións?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Que pasa se necesito ALM ou ELM para o meu ambiente de aplicacións de finanzas e operacións?
 
 - Para os socios que requiran capacidades de xestión do ciclo de vida do ambiente completo, consulte o documento [Solicitude de licenza de illamento de procesos para socios](https://experience.dynamics.com/requestlicense) para revisar a oferta para novos socios. 
 - Para socios que buscan máis información sobre os dereitos de uso interno, consulte [Beneficios de nube e software de dereitos de uso interno (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +125,7 @@ Os seguintes recursos proporcionan unha guía útil cando comeza a súa viaxe co
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Podo prolongar a proba máis de 30 días?
 Para ampliar a proba, complete os seguintes pasos.
 
-1. No **Microsoft 365 Centro de administración**, Ir a **Facturación** > **Os teus produtos**.
+1. No **Centro de administración de Microsoft 365**, vaia a **Facturación** > **Os seus produtos**.
 2. Seleccione **Dynamics 365 Project Operations (CE) - Proba de versión preliminar**.
 3. En **Data de caducidade**, seleccione **Ampliar data**.
 

@@ -1,6 +1,6 @@
 ---
 title: Sincronizar contratos de proxecto e proxectos directamente desde Project Service Automation to Finance
-description: Este artigo describe o modelo e as tarefas subxacentes que se usan para sincronizar contratos e proxectos de proxectos directamente desde Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
+description: Este artigo describe o modelo e as tarefas subxacentes que se usan para sincronizar os contratos do proxecto e os proxectos directamente desde Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
@@ -27,7 +27,7 @@ ms.locfileid: "8933858"
 
 
 
-Este artigo describe o modelo e as tarefas subxacentes que se usan para sincronizar contratos e proxectos de proxectos directamente desde Dynamics 365 Project Service Automation a Dynamics 365 Finance.
+Este artigo describe o modelo e as tarefas subxacentes que se usan para sincronizar os contratos do proxecto e os proxectos directamente desde Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 
 > [!NOTE] 
 > Se está a usar Enterprise edition 7.3.0, debe instalar KB 4074835.
@@ -120,15 +120,15 @@ Cando se aplica a solución de integración de Project Service Automation con Fi
 
 ## <a name="power-query"></a>Power Query
 
-Usa Microsoft Power Query para que Excel filtre os datos se se cumpren as seguintes condicións:
+Use Microsoft Power Query para Excel para filtrar datos se se cumpren as seguintes condicións:
 
 - Vostede ten pedidos de vendas en Dynamics 365 Sales.
 - Ten varias unidades organizativas en Project Service Automation e estas unidades organizativas asignaranse a varias persoas xurídicas en Finanzas.
 
-Se debes usar Power Query, siga estas pautas:
+Se debe usar Power Query, siga estas pautas:
 
 - O modelo Proxectos e contratos (PSA a Fin e Ops) ten un filtro predefinido que só inclúe pedidos de venda do tipo **Artigo de traballo (msdyn\_ordertype = 192350001)**. Este filtro axuda a garantir que non se crean contratos de proxectos para pedidos de vendas en Finanzas. Se crea o seu propio modelo, debe engadir este filtro.
-- Crear un Power Query filtro que inclúe só as organizacións contractuais que deberían sincronizarse coa entidade xurídica do conxunto de conexións de integración. Por exemplo, os contratos de proxectos que vostede ten coa unidade organizativa do contrato de Contoso US deben sincronizarse coa persoa xurídica USSI, pero os contratos de proxectos que teña coa unidade organizativa do contrato de Contoso Global deben sincronizarse coa persoa xurídica USMF. Se non engade este filtro á súa asignación de tarefas, todos os contratos do proxecto sincronizaranse coa persoa xurídica que se define para o conxunto de conexións, independentemente da unidade organizativa do contrato.
+- Cree un filtro de Power Query que inclúa só as organizacións contractuais que deben sincronizarse coa entidade legal do conxunto de conexións de integración. Por exemplo, os contratos de proxectos que vostede ten coa unidade organizativa do contrato de Contoso US deben sincronizarse coa persoa xurídica USSI, pero os contratos de proxectos que teña coa unidade organizativa do contrato de Contoso Global deben sincronizarse coa persoa xurídica USMF. Se non engade este filtro á súa asignación de tarefas, todos os contratos do proxecto sincronizaranse coa persoa xurídica que se define para o conxunto de conexións, independentemente da unidade organizativa do contrato.
 
 ## <a name="template-mapping-in-data-integration"></a>Asignación de modelos na integración de datos
 

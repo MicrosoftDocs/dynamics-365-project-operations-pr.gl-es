@@ -1,6 +1,6 @@
 ---
 title: Configurar e aplicar datos de configuración en Microsoft Dataverse
-description: Este artigo ofrece información sobre como configurar e aplicar datos de configuración en Project Operations.
+description: Este artigo ofrece información sobre como configurar e aplicar os datos de configuración en Project Operations.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
@@ -21,10 +21,10 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Antes de comezar a configurar os datos no ficheiro Microsoft Dataverse, deben cumprirse os seguintes requisitos:
+Antes de comezar a configurar os datos no Microsoft Dataverse, deben cumprirse os seguintes requisitos previos:
 
-1.  Disposición a Dataverse e un ambiente Dynamics 365 Finance para as operacións do proxecto.
-2.  A información da persoa xurídica de Dynamics 365 Finance compártese co Dataverse ambiente. Isto significa que o **Compañía** entidade en Dataverse ten os seguintes rexistros da empresa:
+1.  Proporcionar un ambiente de Dataverse e un ambiente de Dynamics 365 Finance para Project Operations.
+2.  A información da entidade legal de Dynamics 365 Finance compártese co ambiente de Dataverse. Isto significa que a entidade **Empresa** en Dataverse ten os seguintes rexistros da empresa:
   - THPM
   - USPM
   - GBPM

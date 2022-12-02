@@ -1,6 +1,6 @@
 ---
 title: Xestionar delegación
-description: Este artigo ofrece información sobre como un delegado de gastos pode crear e xestionar informes de gastos doutro empregado.
+description: Este artigo ofrece información sobre como un delegado de gastos pode crear e xestionar informes de gastos para outro empregado.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

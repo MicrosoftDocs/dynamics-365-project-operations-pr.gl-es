@@ -1,6 +1,6 @@
 ---
 title: Integración de xestión de gastos
-description: Este artigo ofrece información sobre a integración de informes de gastos en Project Operations mediante a escritura dual.
+description: Este artigo ofrece información sobre a integración de informes de gastos en Project Operations mediante a escrita dual.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
@@ -18,19 +18,19 @@ ms.locfileid: "9527985"
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Este artigo ofrece información sobre a integración de informes de gastos en Project Operations [implantación total dos gastos](../expense/expense-overview.md) utilizando a escritura dual.
+Este artigo ofrece información sobre a integración de informes de gastos no [despregamento de datos completo](../expense/expense-overview.md) de Project Operations mediante a escrita dual.
 
 ## <a name="expense-categories"></a>Categorías de gasto
 
-Nunha implantación completa de gastos, as categorías de gastos créanse e mantéñense nas aplicacións de finanzas e operacións. Para crear unha nova categoría de gasto, complete os seguintes pasos:
+Nun despregamento de gastos completo, créanse e mantense categorías de gastos nas aplicacións de finanzas e operacións. Para crear unha nova categoría de gasto, complete os seguintes pasos:
 
-1. En Microsoft Dataverse, cree unha categoría de **Transacción**. A integración de dobre escritura sincronizará esta categoría de transaccións coas aplicacións de financiamento e operacións. Para obter máis información, consulte [Configurar categorías de proxecto](/dynamics365/project-operations/project-accounting/configure-project-categories) e [Integración de datos de instalación e configuración de Project Operations](resource-dual-write-setup-integration.md). Como resultado desta integración, o sistema crea catro rexistros de categorías compartidas en aplicacións de finanzas e operacións.
+1. En Microsoft Dataverse, cree unha categoría de **Transacción**. A integración de escrita dual sincronizará esta categoría de transaccións coas aplicacións de finanzas e operacións. Para obter máis información, consulte [Configurar categorías de proxecto](/dynamics365/project-operations/project-accounting/configure-project-categories) e [Integración de datos de instalación e configuración de Project Operations](resource-dual-write-setup-integration.md). Como resultado desta integración, o sistema crea catro rexistros de categoría compartidos nas aplicacións de finanzas e operacións.
 2. En Finance, vaia a **Xestión de gastos** > **Configuración** > **Categorías compartidas** e seleccione unha categoría compartida cunha clase de transacción **Gasto**. Configure o parámetro **Pódese usar en Gasto** como **Verdadeiro** e defina o tipo de gasto que se vai usar.
 3. Usando este rexistro de categoría compartida, cree unha nova categoría de gasto indo a **Xestión de gastos** > **Configurar** > **Categorías de gasto** e seleccionando **Nova**. Cando se garda o rexistro, a escrita dual usa o mapa da táboa **Entidade de exportación de categorías de gasto do proxecto de integración de Project Operations (msdyn\_expensecategories)** para sincronizar este rexistro con Dataverse.
 
   ![Integración de categorías de gasto.](./media/DW6ExpenseCategories.png)
 
-As categorías de gastos nas aplicacións de finanzas e operacións son específicas da empresa ou da entidade xurídica. Hai rexistros separados e específicos da entidade legal correspondente en Dataverse. Cando un xestor de proxectos estima gastos, non pode seleccionar as categorías de gasto creadas para un proxecto propiedade dunha empresa diferente da empresa propietaria do proxecto no que están a traballar. 
+As categorías de gasto nas aplicacións de finanzas e operacións son específicas da empresa ou entidade legal. Hai rexistros separados e específicos da entidade legal correspondente en Dataverse. Cando un xestor de proxectos estima gastos, non pode seleccionar as categorías de gasto creadas para un proxecto propiedade dunha empresa diferente da empresa propietaria do proxecto no que están a traballar. 
 
 ## <a name="expense-reports"></a>Informes de gastos
 

@@ -43,7 +43,7 @@ Para obter máis información, consulte [Reinvención dos informes de gastos](Ex
 
 ### <a name="blogs"></a>Blogs
 
-Podes atopar opinións, noticias e outra información sobre o [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e o [Microsoft Dynamics 365 Finanzas - Blog de finanzas](https://community.dynamics.com/365/financeandoperations/b/financials).
+Pode atopar opinións, noticias e outra información no [Blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e o [Blog de Microsoft Dynamics 365 Finance - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 O [Blog da comunidade de socios de Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) ofrece aos socios de Microsoft Dynamics un recurso único onde poden descubrir as novidades e tendencias en MBS Operations.
 

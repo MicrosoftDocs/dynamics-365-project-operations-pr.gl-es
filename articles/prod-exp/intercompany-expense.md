@@ -1,6 +1,6 @@
 ---
 title: Gastos entre empresas
-description: Este artigo ofrece información sobre como utilizar os gastos interempresas para asignar os gastos dun traballador á persoa xurídica para a que se realizou o traballo.
+description: Este artigo ofrece información sobre como usar os gastos entre empresas para atribuír os gastos dun traballador á entidade legal para a que se realizou o traballo.
 author: suvaidya
 ms.date: 07/08/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Cumprimento de recursos para os recursos planificados
-description: Este artigo ofrece información sobre os recursos planificados para un proxecto.
+description: Este artigo fornece información sobre os recursos planificados para un proxecto.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

@@ -18,7 +18,7 @@ ms.locfileid: "9522746"
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-O artigo explica algúns conceptos clave que debes ter en conta antes de comezar a utilizar a funcionalidade de subcontratación de Microsoft Dynamics 365 Project Operations.
+O artigo explica algúns conceptos clave que debe ter en conta antes de comezar a empregar a funcionalidade de subcontratación en Microsoft Dynamics 365 Project Operations.
 
 ## <a name="contracting-unit-on-the-subcontract"></a>Unidade de contratación do subcontrato
 

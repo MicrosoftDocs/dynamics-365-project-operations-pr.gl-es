@@ -1,6 +1,6 @@
 ---
 title: Dietas
-description: Este artigo ofrece información sobre as regras de dietas que se usan na xestión de gastos.
+description: Este artigo ofrece información sobre as regras das dietas que se usan na xestión de gastos.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

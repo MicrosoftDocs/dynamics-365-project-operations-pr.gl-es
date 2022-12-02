@@ -1,6 +1,6 @@
 ---
 title: Definir calendarios de proxectos
-description: Este artigo ofrece información sobre como aplicar un modelo de calendario a un proxecto para seguir a programación do proxecto.
+description: Este artigo ofrece información sobre como aplicar un modelo de calendario a un proxecto para rastrexar a programación do proxecto.
 author: ruhercul
 ms.date: 02/05/2021
 ms.topic: article

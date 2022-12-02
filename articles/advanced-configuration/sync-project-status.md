@@ -19,56 +19,56 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 
 ## <a name="scenario"></a>Escenario
 
-Contoso está en directo con Microsoft Dynamics 365 Project Operations para escenarios de recursos/non abastecidos. Como parte das actividades comerciais normais, os proxectos pódense completar ou suspender. Podes desactivar o proxecto para garantir que non se xeren gastos nin facturas.
+Contoso publicouse con Microsoft Dynamics 365 Project Operations para escenarios de recursos/sen fornecemento. Como parte das actividades comerciais normais, os proxectos pódense completar ou suspender. Podes desactivar o proxecto para garantir que non se xeren gastos nin facturas.
 
 ## <a name="solution"></a>Solución
 
 ### <a name="prerequisites"></a>Requisitos previos
 
--   Microsoft Dynamics Debe instalarse 365 Finance 10.0.29 ou posterior.
--   Mapa de escritura dual 1.0.0.3 para Projects V2 (msdyn\_ proxectos) deben instalarse ou configurarse manualmente como se describe a continuación.
+-   Microsoft Dynamics 365 Finance 10.0.29 ou posterior debe estar instalado.
+-   Mapa de escrita dual 1.0.0.3 para Projects V2 (msdyn\_projects) deben instalarse ou configurarse manualmente como se describe a continuación.
 
-### <a name="create-an-updated-version-of-the-project-operations-integration-projects-v2-dual-write-map"></a>Crea unha versión actualizada do mapa de dobre escritura Projects V2 de integración de Project Operations
+### <a name="create-an-updated-version-of-the-project-operations-integration-projects-v2-dual-write-map"></a>Crear unha versión actualizada do mapa de escrita dual de Projects V2 de integración de Project Operations
 
-Para actualizar o mapa de dobre escritura de Project Operations Projects V2:
+Para actualizar o mapa de escrita dual de Projects V2 de Project Operations:
 
-1. Vaia ao **Xestión de datos** espazo de traballo e seleccione **Escritura dual**.
-2. Seleccione o **Escritura dual** tella.
-3. Do T **Mapa de táboa** columna, localiza e selecciona **Proxecto V2 (msdyn\_ proxectos)** e, a continuación, seleccione Deter.
-4. Seleccione o nome do mapa para abrir o mapa e, a continuación, seleccione **[Ningún]**.
-5. No cadro de diálogo Seleccionar columna, seleccione **código de estado\[ Estado do proxecto\]** e, a continuación, seleccione Aceptar. Podes escribir **estado** no valor do filtro para restrinxir a lista.
-6.  Seleccione **Engadir ou editar transformación** no **tipo de mapa** columna para editar a transformación.
-7.  Desde **Tipo de transformación** seleccionar **ValueMap**.
-8.  Seleccione **Mapeo de valor engadido**, e despois engade o seguinte **Chaves** e **Valores**:
+1. Vaia á área de traballo **Xestión de datos** e seleccione **Escrita dual**.
+2. Seleccione o mosaico **Escrita dual**.
+3. do columna **Mapa de táboa**, localice e seleccione **Project V2 (msdyn\_projects)** e, a seguir, seleccione Deter.
+4. Seleccione o nome do mapa para abrir o mapa e, a seguir, seleccione **[Ningún]**.
+5. Na caixa de diálogo Seleccionar columna, seleccione **código de estado \[Estado do proxecto\]** e, a seguir, seleccione Aceptar. Pode escribir **estado** no valor do filtro para restrinxir a lista.
+6.  Seleccione **Engadir ou editar transformación** na columna **tipo de mapa** para editar a transformación.
+7.  Desde **Tipo de transformación** seleccione **ValueMap**.
+8.  Seleccione **Engador asignación de valores**, e despois engada as seguintes **Claves** e **Valores**:
 
    Tecla       | Valor 
    ----------|-------
-   En proceso | 0     
+   InProcess | 0     
    concluída | 1     
 
-![Captura de pantalla que mostra a asignación de escritura dual](media/projectstage-dw-mapping.png)
+![Captura de pantalla que mostra a asignación de escrita dual](media/projectstage-dw-mapping.png)
 
 9. Seleccione **Gardar**.
-10. Dende a parte superior do **Escritura dual > Proxectos V2 (msdyn_projects)** páxina, seleccione **Gardar como**.
-11. Desde **Engadir táboa** no **Editora** campo, seleccione **Editor predeterminado de CDS**.
-12. Establece o **Versión** campo a 1.0.0.3.
-13. Tipo a **Descrición** e, a continuación, seleccione **Gardar**.
-14. Dende a parte superior do **Escritura dual > Proxectos V2 (msdyn_projects)** páxina, seleccione **Corre** para iniciar o mapa e, a continuación, sekect **Si** se se lle pide que confirme antes da execución. 
+10. Desde a parte superior da páxina **Escrita dual > Projects V2 (msdyn_projects)**, seleccione **Gardar como**.
+11. Desde **Engadir táboa** no campo **Editor**, seleccione **Editor predeterminado de CDS**.
+12. Establece o campo **Versión** en 1.0.0.3.
+13. Escriba unha **Descrición** e, a seguir, seleccione **Gardar**.
+14. Dende a parte superior da páxina **Escrita dual > Projects V2 (msdyn_projects)**, seleccione **Executar** para iniciar o mapa e, a continuación, seleccione **Si** se se lle pide que confirme antes da execución. 
 
-### <a name="close-a-newly-completed-project"></a>Pecha un proxecto recén rematado
+### <a name="close-a-newly-completed-project"></a>Pechar un proxecto rematado recentemente
 
-Dynamics 365 Finance usa o **fase do proxecto** campo para diferenciar os proxectos **en proceso** ou **rematado**. **Rematou** os proxectos non poden incorrer en gastos nin facturar aos clientes.
+Dynamics 365 Finance usa o campo **fase do proxecto** campo para diferenciar os proxectos **en proceso** ou **rematados**. Os proxectos **Rematados** non poden incorrer en gastos nin facturar aos clientes.
 
-1. Abre un proxecto para desactivalo.
-2. Desde a cinta, selecciona **Desactivar**.
+1. Abra un proxecto para desactivalo.
+2. Desde a fita, seleccione **Desactivar**.
 
 > [!NOTE]
-> Podes desactivar ou pechar un proxecto xa que ambos se comportarán igual no contexto das finanzas.
+> Pode desactivar ou pechar un proxecto xa que ambos se comportarán igual no contexto de Finance.
 
-3. En Finanzas, abra o **Lista de todos os proxectos** páxina.
+3. En Finance, abra a páxina **Lista de todos os proxectos**.
 4. Confirme que o proxecto desactivado non aparece na lista.
-5. No **mostrar proxectos** filtro enriba da lista, cambie o valor de **Activo** a **Todos**.
-6. Agora verás o proxecto desactivado.
+5. No filtro **mostrar proxectos** enriba da lista, cambie o valor de **Activo** a **Todos**.
+6. Agora verá o proxecto desactivado.
 
-Se tentas rexistrar o tempo ou os gastos para este proxecto en Finanzas, non deberías ver o proxecto para a selección. Se introduces manualmente o número do proxecto nun gasto, verás unha mensaxe como "A fase do proxecto rematada non permite gravar no proxecto". A facturación e outras funcións de facturación deberían estar desactivadas xa que se farán no contexto dun proxecto pechado.
+Se tenta rexistrar o tempo ou os gastos para este proxecto en Finance, non deberías ver o proxecto para a selección. Se introduce manualmente o número do proxecto nun gasto, verás unha mensaxe como "A fase do proxecto rematada non permite gravar no proxecto". A facturación e outras funcións de facturación deberían estar desactivadas xa que se farán no contexto dun proxecto pechado.
 

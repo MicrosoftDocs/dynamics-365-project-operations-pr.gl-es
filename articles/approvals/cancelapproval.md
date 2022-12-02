@@ -1,6 +1,6 @@
 ---
-title: Cancelar a aprobación de entradas previamente aprobadas
-description: Este artigo explica como un xestor de proxecto pode cancelar a aprobación de entradas de tempo, gastos ou uso de material previamente aprobadas.
+title: Cancelar a aprobación de entradas aprobadas previamente
+description: Este artigo explica como un xestor de proxecto pode cancelar a aprobación de entradas de tempo, gasto ou uso de material previamente aprobadas.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
@@ -13,35 +13,35 @@ ms.contentlocale: gl-ES
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8930454"
 ---
-# <a name="cancel-the-approval-of-previously-approved-entries"></a>Cancelar a aprobación de entradas previamente aprobadas
+# <a name="cancel-the-approval-of-previously-approved-entries"></a>Cancelar a aprobación de entradas aprobadas previamente
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Un director de proxecto ou aprobador que aprobou previamente as entradas de tempo, gasto ou uso de material pode cancelar a súa aprobación desas entradas. 
+Un xestor de proxecto ou un responsable de aprobación que aprobou previamente entradas de tempo, gasto ou uso de material pode cancelar a aprobación desas entradas de tempo. 
 
-Siga estes pasos para cancelar a aprobación dunha entrada de tempo, gasto ou uso de material previamente aprobada.
+Siga estes pasos para cancelar a aprobación dunha entrada de tempo, gasto ou uso de material aprobada anteriormente.
 
 1. Vaia a **Proxectos** \> **O meu traballo** \> **Aprobacións**.
-2. O **Aprobacións** páxina de lista mostra todas as entradas de tempo que están agardando aprobación. Cambia a vista a **As miñas aprobacións pasadas**.
-3. Seleccione o tempo, o gasto ou as aprobacións de material para cancelar. A continuación, no Panel de accións, seleccione **Cancelar aprobación**.
-4. Na caixa de mensaxe de confirmación que aparece, seleccione **Ok** para confirmar a operación.
+2. A páxina de lista **Aprobacións** mostra todas as entradas de tempo que están agardando aprobación. Cambie a vista a **As miñas aprobacións pasadas**.
+3. Seleccione as aprobacións de tempo, gasto ou material para cancelar. A continuación, no panel Acción, seleccione **Cancelar aprobación**.
+4. Na caixa de mensaxe de confirmación que apareza, seleccione **Aceptar** para confirmar a aprobación.
 
 > [!IMPORTANT]
-> Non pode cancelar a aprobación dunha entrada de tempo, gasto e uso de material previamente aprobada que xa foi facturada ao cliente. Se o intentas, recibirás unha mensaxe que indica que a aprobación non se pode cancelar porque xa estaba facturada. Neste caso, só pode cancelar a aprobación se se utiliza unha factura correctiva para emitir un crédito ou reembolso completo ao cliente na factura orixinal.
+> Non pode cancelar a aprobación dunha entrada de tempo, gasto e uso de material previamente aprobada que xa foi facturada ao cliente. Se o intenta, recibirá unha mensaxe que indica que a aprobación non se pode cancelar porque xa estaba facturada. Neste caso, só pode cancelar a aprobación se se utiliza unha factura correctiva para emitir un crédito ou reembolso completo ao cliente sobre a factura orixinal.
 
-## <a name="impact-of-canceling-the-approval-of-a-previously-approved-entry"></a>Impacto da anulación da aprobación dunha entrada previamente aprobada
+## <a name="impact-of-canceling-the-approval-of-a-previously-approved-entry"></a>Impacto de cancelar a aprobación dunha entrada previamente aprobada
 
 Cando se cancela unha aprobación, hai un impacto operativo e financeiro.
 
 ### <a name="operational-impact"></a>Impacto operativo
 
-Se se cancela a aprobación dunha entrada, o rexistro de aprobación márcase como **Enviado**. O estado da entrada cámbiase a **Enviado**. Nesta fase, un membro do equipo do proxecto pode recordar a entrada sen enviar unha solicitude de retirada.
+Se se cancela a aprobación dunha entrada, o rexistro de aprobación márcase como **Enviado**. O estado da entrada cámbiase a **Enviado**. Nesta fase, un membro do equipo do proxecto pode retirar a entrada sen enviar unha solicitude de retirada.
 
-O aprobador pode cambiar o **Cantidade facturable** e **Tipo de facturación** valores e, a continuación, aprobe a entrada unha vez máis.
+O responsable de aprobación pode cambiar os valores de **Cantidade facturable** e **Tipo de facturación** e, a seguir, aprobar a entrada unha vez máis.
 
 ### <a name="financial-impact"></a>Impacto financeiro
 
-Se se anula a aprobación dunha entrada, os correspondentes reais de custo e vendas actualízanse do seguinte xeito:
+Se se cancela a aprobación dunha entrada, os datos reais correspondentes de custo e vendas actualízanse do seguinte xeito:
 
 - O campo **Estado de axuste** actualízase a **Axustado**.
 - O campo **Estado de facturación** actualízase a **Cancelado**.

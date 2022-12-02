@@ -1,6 +1,6 @@
 ---
 title: Adianto en efectivo
-description: Este artigo ofrece información sobre os avances en efectivo.
+description: Este artigo fornece información sobre adiantos de efectivo.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
@@ -66,7 +66,7 @@ Antes de enviar un informe de gastos, pode seleccionar o adianto de efectivo que
  
  Cando estas funcionalidades están activadas:
  
-  - Podes engadir un ou máis anticipos en efectivo para cada liña de gasto.
+  - Pode engadir un ou máis adiantos de efectivo por cada liña de gasto.
   - O saldo dispoñible dun adianto de efectivo é visible en tempo real cando se garda un informe de gasto. Isto permítelle procesar transaccións de gasto e devolver transaccións en efectivo ao mesmo tempo.
   - Pode seleccionar varios adiantos de efectivo para unha transacción de gasto.
   - Os datos de conciliación de adiantos de efectivo están dispoñibles mediante unha consulta. 

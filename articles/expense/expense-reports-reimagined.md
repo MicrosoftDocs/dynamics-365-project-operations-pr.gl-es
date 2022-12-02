@@ -1,6 +1,6 @@
 ---
-title: Informes de gastos reimaxinados (contén vídeo)
-description: Este artigo explica a experiencia rediseñado e reimaxinado para a entrada do informe de gastos.
+title: Os informes de gastos reinventáronse (contén vídeo)
+description: Este artigo explica a experiencia redeseñada e reinterpretada para a entrada do informe de gastos.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -58,7 +58,7 @@ Para activar a nova experiencia, use a área de traballo **Xestión de funcional
 | Gardar e engadir novas liñas de gasto | Os botóns **Gardar** e **Novo** están dispoñibles cando se introducen novos gastos para axudarlle a introducir rapidamente as liñas de gastos. |
 | Mellor visibilidade en liñas divididas e detalladas | As liñas detalladas e divididas engádense directamente á lista de gastos para aumentar a visibilidade e axudarlle a determinar facilmente se hai algún erro. |
 | Ver detalles da subcategoría en liñas detalladas | As liñas detalladas dun gasto principal amosan as etiquetas da subcategoría no informe de gastos. A itemización permítelle revisar os detalles granulares dunha ollada.|
-|Desglose rapidamente os gastos recorrentes | O espazo de traballo de gastos reimaxinado ofrece a posibilidade de detallar os gastos recorrentes rapidamente engadindo a subcategoría, a data de inicio e a cantidade. A cantidade refírese ao número de veces que se repite a carga nun período continuo. |
+|Detallar rapidamente os gastos recorrentes | A área de traballo de gastos reimaxinada ofrece a posibilidade de detallar os gastos recorrentes rapidamente engadindo a subcategoría, a data de inicio e a cantidade. A cantidade refírese ao número de veces que se repite o cargo nun período continuo. |
 | Amosar recibos durante a itemización | Os recibos pódense mostrar durante a itemización. |
 | Selección de adianto en efectivo | Seleccione un ou máis adiantos en efectivo para realizar unha única transacción de gasto. |
 | Saldo de adiantos en efectivo | Revise o saldo de adiantos en efectivo en tempo real cando cree unha entrada de gasto fronte a adiantos en efectivo aprobados e pagados. |

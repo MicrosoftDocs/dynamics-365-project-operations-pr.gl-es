@@ -1,6 +1,6 @@
 ---
-title: Confirme as facturas do provedor do proxecto
-description: Este artigo explica como confirmar unha factura do provedor do proxecto en Microsoft Dynamics 365 Project Operations e describe o impacto financeiro de confirmar unha factura do provedor do proxecto.
+title: Confirmar facturas de fornecedor do proxecto
+description: Este artigo explica como confirmar unha factura de fornecedor de proxecto en Microsoft Dynamics 365 Project Operations e describe o impacto financeiro de confirmar unha factura do fornecedor do proxecto.
 author: suvaidya
 ms.date: 8/25/2022
 ms.topic: article
@@ -13,24 +13,24 @@ ms.contentlocale: gl-ES
 ms.lasthandoff: 09/13/2022
 ms.locfileid: "9475462"
 ---
-# <a name="confirm-project-vendor-invoices"></a>Confirme as facturas do provedor do proxecto
+# <a name="confirm-project-vendor-invoices"></a>Confirmar facturas de fornecedor do proxecto
 
 **Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento
 
-Cando o **Requírese confirmación manual por PM** o parámetro está activado, as facturas de provedores que se crean en Microsoft Dataverse ter **Borrador** estado. As facturas de provedores que se crean deste xeito deben revisarse e confirmarse manualmente. Cando o **Requírese confirmación manual por PM** o parámetro está desactivado, as facturas de provedores que se crean en Dataverse confírmanse automaticamente. Non é necesaria ningunha acción adicional. 
+Cando o parámetro **Requírese confirmación manual por PM** está activado, as facturas de fornecedores que se crean en Microsoft Dataverse teñen o estado de **Borrador**. As facturas de fornecedores que se crean deste xeito deben revisarse e confirmarse manualmente. Cando o parámetro **Requírese confirmación manual por PM** está desactivado, as facturas de fornecedores que se crean en Dataverse confírmanse automaticamente. Non son necesarias máis accións. 
 
-Despois de verificar todas as liñas dunha factura de provedor Dynamics 365 Project Operations, seleccione **Confirmar** para confirmar a factura do provedor.
+Despois de verificar todas as liñas dunha factura de fornecedor en Dynamics 365 Project Operations, seleccione **Confirmar** para confirmar a factura do fornecedor.
 
-Cando selecciones **Confirmar** nunha factura de provedor, ocorre o seguinte comportamento:
+Cando seleccione **Confirmar** nunha factura de fornecedor, ocorre o seguinte comportamento:
 
-1. O estado da factura do provedor actualízase a **Confirmado**.
-1. A factura do provedor confirmada e os seus rexistros relacionados pasan a ser de só lectura e non se poden editar nin eliminar.
-1. Se algún custo real fai referencia á liña de factura do provedor como parte do proceso de coincidencia, todos os custos reais que están asociados á liña de factura do provedor referenciado invertéranse.
-1. Os novos custos reais créanse utilizando a información da liña de factura do provedor.
-1. Xa non pode crear diarios de corrección, procesar recordatorios de entradas horarias nin cancelar a aprobación do tempo orixinal, os gastos ou os datos reais do material que se reverteron.
-1. En Dynamics 365 Finance, o **Custo do proxecto** o valor actualízase mediante o diario de integración do proxecto e a conta de integración de Adquisicións *invertida* despois de publicar o diario de integración do proxecto.
+1. Actualízase o estado da factura do fornecedor a **Confirmada**.
+1. A factura do fornecedor confirmada e os seus rexistros relacionados pasan a ser de só lectura e non se poden editar nin eliminar.
+1. Se algún dato real de custo fai referencia á liña de factura do fornecedor como parte do proceso de busca de coincidencias, todos os datos reais de custo que están asociados á liña de factura do fornecedor de referencia reverteranse.
+1. Os novos datos reais de custo créanse utilizando a información da liña de factura do fornecedor.
+1. Xa non pode crear diarios de corrección, procesar os recordatorios de entradas de tempo ou cancelar a aprobación dos datos reais de tempo, gasto ou material orixinais que se reverteron.
+1. En Dynamics 365 Finance, o valor de **Custo do proxecto** actualízase mediante o diario de integración do proxecto e a conta de integración de adquisicións *revértese* despois de publicar o diario de integración do proxecto.
 
 > [!NOTE]
-> Se algunha liña dunha factura de provedor ten un estado de verificación distinto de **Completa**, a factura do provedor non se pode confirmar.
+> Se algunha liña dunha factura de fornecedor ten un estado de verificación distinto de **Completa**, a factura do fornecedor non se pode confirmar.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

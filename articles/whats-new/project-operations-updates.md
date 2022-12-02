@@ -1,6 +1,6 @@
 ---
 title: Actualizacións de Project Operations
-description: Este artigo ofrece información sobre as versións publicadas de Dynamics 365 Project Operations.
+description: Este artigo ofrece información sobre as versións lanzadas de Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
@@ -25,7 +25,7 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 Dynamics 365 Project Operations consta de dous compoñentes:
 
 - Project Operations en ambiente de Dataverse abrangue capacidades desde a oportunidade ata a facturación proforma. Dataverse úsase no despregamento lite e no despregamento de situacións de recursos/sen fornecemento de Project Operations.
-- A xestión e a contabilidade de proxectos no contorno Dynamics 365 Finance abarcan as capacidades de xestión de gastos, a contabilidade de proxectos e o recoñecemento de ingresos. O ambiente da aplicación financeira e de operacións úsase en Operacións de proxectos para escenarios baseados en recursos/non abastecidos e Operacións de proxectos para escenarios baseados en abastecemento/produción.
+- Xestión e contabilidade de proxectos no ambiente de Dynamics 365 Finance abrangue as capacidades de xestión de gastos, contabilidade de proxectos e recoñecemento de ingresos. A aplicación de finanzas e operacións utilízase en Project Operations para situacións baseadas en recursos/sen fornecemento e Project Operations para situacións baseadas en produción/con fornecemento.
 
 ## <a name="project-operations-release-notes"></a>Notas de lanzamento de Project Operations
 - Notas de lanzamento máis recentes de Project Operations para situación [baseada en recursos/sen fornecemento](whats-new-july-2022-resource-based.md).
@@ -34,11 +34,11 @@ Dynamics 365 Project Operations consta de dous compoñentes:
 
 ## <a name="project-operations-latest-version"></a>Última versión de Project Operations
 
-| Project Operations en ambiente de Dataverse | Xestión de proxectos e contabilidade en contornos de aplicacións financeiras e de operacións | 
+| Project Operations en ambiente de Dataverse | Xestión e contabilidade de proxectos en ambientes de aplicacións de finanzas e operacións | 
 | --- | --- |
 | 4.45.0.53 | 10.0.29 |
 
-Para o escenario de recursos de operacións do proxecto/non abastecido, recomendámosche que utilices a versión de orquestración de escritura dual 2.3.1.15 ou superior.
+Para a situación baseada en recursos/sen fornecemento de Project Operations, recomendámoslle usar Dual Write Orchestration versión 2.3.1.15 ou superior.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Programación de lanzamento de Project Operations en ambiente de Dataverse
 
@@ -66,7 +66,7 @@ As actualizacións para Project Operations en ambiente de Dataverse están dispo
 | Estación 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | América do Norte         |  4.46.0.60      | Concluída           | Concluída            | A determinar           | 04 de novembro de 2022       |
 
-## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Programa de lanzamento para Xestión de proxectos e contabilidade no contorno de aplicacións financeiras e de operacións
+## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Programación de lanzamentos para a xestión e contabilidade de proxectos en ambiente de aplicacións de finanzas e operacións
 
 As actualizacións para a xestión e contabilidade de proxectos publícanse oito veces ao ano.
 

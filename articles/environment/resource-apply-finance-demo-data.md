@@ -1,6 +1,6 @@
 ---
 title: Aplicar os datos de demostración a un ambiente aloxado na nube de Finance
-description: Este artigo explica como aplicar datos de demostración de Project Operations a un ambiente Dynamics 365 Finance aloxado na nube.
+description: Este artigo explica como aplicar datos de demostración de Project Operations a un ambiente aloxado na nube de Dynamics 365 Finance.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "9029895"
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
 > [!IMPORTANT]
-> Este artigo só é aplicable Microsoft Dynamics 365 Finance versión 10.0.13 e só se pode realizar nun ambiente aloxado na nube. Completa os pasos deste artigo **ANTES** aplicas actualizacións de calidade ao medio ambiente.
+> Este artigo só é aplicable a Microsoft Dynamics 365 Finance versión 10.0.13 e só se pode executar nun ambiente aloxado na nube. Complete os pasos deste artigo **ANTES** de aplicar actualizacións de calidade ao ambiente.
 
 1. No seu proxecto LCS, abra a páxina **Detalles do ambiente**. Teña en conta que inclúe os detalles necesarios para conectarse ao ambiente mediante o protocolo de escritorio remoto (RDP).
 

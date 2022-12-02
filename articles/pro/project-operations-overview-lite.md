@@ -1,6 +1,6 @@
 ---
 title: Visión xeral do despregamento de Lite
-description: Este artigo ofrece información sobre a implementación Lite de Dynamics 365 Project Operations.
+description: Este artigo ofrece información sobre o despregamento Lite de Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview

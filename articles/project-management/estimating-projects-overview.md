@@ -1,6 +1,6 @@
 ---
 title: Conceptos de estimación financeira
-description: Este artigo ofrece información sobre as estimacións financeiras dos proxectos en Project Operations.
+description: Este artigo ofrece información sobre as estimacións financeiras de proxectos en Project Operations.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: overview

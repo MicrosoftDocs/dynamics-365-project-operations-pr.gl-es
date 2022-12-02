@@ -1,6 +1,6 @@
 ---
 title: Publicar informes de gastos
-description: Este artigo explica como publicar informes de gastos.
+description: Este artigo explica como contabilizar informes de gastos.
 author: ramagadu
 ms.date: 08/12/2022
 ms.topic: article
@@ -30,15 +30,15 @@ Para contabilizar un informe de gastos, na páxina **Informes de gastos aprobado
 
 Tamén pode contabilizar todos os informes de gastos da lista ao mesmo tempo. Seleccione todos os informes de gastos e logo seleccione **Contabilizar**.
 
-## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Activa a función Capacidade de contabilizar a responsabilidade dos gastos na moeda do provedor para o método de pago en efectivo
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Activar a Capacidade de contabilizar a responsabilidade dos gastos na moeda do fornecedor para o método de pago en efectivo
 
-O **Capacidade de contabilizar a responsabilidade dos gastos na moeda do provedor para o método de pago en efectivo** A función permite que os informes de gastos se publiquen nunha moeda do provedor para o método de pago en efectivo.
+A funcionalidade **Capacidade de contabilizar a responsabilidade dos gastos na moeda do fornecedor para o método de pago en efectivo** permite que os informes de gastos se contabilicen nunha moeda do fornecedor para o método de pago en efectivo.
 
-Actualmente, cando envía gastos en efectivo, os informes de gastos publícanse na moeda contable. Debido á conversión de cantidades entre a moeda da transacción, a moeda contable e a moeda do provedor, págase un importe incorrecto aos provedores se a data de transacción do gasto e a data de pago real teñen tipos de cambio diferentes.
+Actualmente, cando envía gastos en efectivo, os informes de gastos contabilízanse na moeda de contabilidade. Debido á conversión de cantidades entre a moeda da transacción, a moeda de contabilidade e a moeda do fornecedor, págase un importe incorrecto aos provedores se a data de transacción do gasto e a data de pago real teñen tipos de cambio diferentes.
 
-Esta función garantirá que o saldo do provedor estea rexistrado na moeda do provedor cando se publique o informe de gastos.
+Esta funcionalidade garantirá que o saldo do fornecedor estea rexistrado na moeda do fornecedor cando se contabilice o informe de gastos.
 
 1. Vaia a **Áreas de traballo** \> **Xestión de funcionalidades**.
-2. Na lista, busque e seleccione **Capacidade de contabilizar a responsabilidade dos gastos na moeda do provedor para o método de pago en efectivo** e, a continuación, seleccione **Habilita agora**.
+2. Na lista, busque e seleccione **Capacidade de contabilizar a responsabilidade dos gastos na moeda do fornecedor para o método de pago en efectivo** e, a seguir, seleccione **Activar agora**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

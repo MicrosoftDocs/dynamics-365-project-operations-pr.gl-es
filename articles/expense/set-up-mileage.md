@@ -1,6 +1,6 @@
 ---
 title: Configurar a quilometraxe empregando niveis de taxa de quilometraxe
-description: Este artigo ofrece información sobre as taxas de quilometraxe e os niveis de taxas de quilometraxe.
+description: Este artigo ofrece información sobre as taxas de quilometraxe e os niveis de taxa de quilometraxe.
 author: suvaidya
 ms.date: 05/20/2021
 ms.topic: article
@@ -52,13 +52,13 @@ Despois de activar a funcionalidade, restableza os niveis de quilometraxe para r
 
 ## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Activa o cálculo dos totais de quilometraxe mediante a función ano fiscal
 
-O **Cálculo dos totais de quilometraxe por ano fiscal** A función activa unha nova configuración nos parámetros de xestión de gastos que realiza cálculos totais de quilometraxe mediante ano fiscal en lugar do ano natural. Complete os seguintes pasos para activar esta función.
+A funcionalidade **Cálculo dos totais de quilometraxe por ano fiscal** activa unha nova configuración nos parámetros de xestión de gastos que realiza cálculos totais de quilometraxe por ano fiscal en lugar do ano natural. Complete os seguintes pasos para activar esta función.
 
 1. Vaia a **Áreas de traballo** > **Xestión de funcionalidades**.
-1. Na lista, localice e seleccione **Cálculo dos totais de quilometraxe por ano fiscal** e, a continuación, seleccione **Habilita agora**.
-1. Ir a **Xestión de gastos** > **Montar** > **Xeral** > **Parámetros de xestión de gastos**.
-1. No **Parámetros de xestión de gastos** páxina, localiza e activa **Use ano fiscal para os totais de quilometraxe**.
+1. Na lista, localice e seleccione **Cálculo dos totais de quilometraxe por ano fiscal** e, a seguir, seleccione **Activar agora**.
+1. Vaia a **Xestión de gastos** > **Configuración** > **Xeral** > **Parámetros de xestión de gastos**.
+1. Na páxina **Parámetros de xestión de gastos**, localice e active **Usar ano fiscal para os totais de quilometraxe**.
 
-Despois de activar **Use ano fiscal para os totais de quilometraxe**, os totais de quilometraxe calcúlanse mediante ano fiscal.
+Despois de activar **Usar ano fiscal para os totais de quilometraxe**, os totais de quilometraxe calcúlanse por ano fiscal.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

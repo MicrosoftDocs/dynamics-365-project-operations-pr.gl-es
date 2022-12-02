@@ -1,6 +1,6 @@
 ---
 title: Cancelar as entradas de tempo e gasto aprobadas previamente
-description: Este artigo ofrece información sobre como cancelar unha transacción de gasto e tempo de proxecto aprobada.
+description: Este artigo fornece información sobre como cancelar unha transacción de tempo e gasto de proxecto aprobada.
 author: rumant
 ms.custom:
 - dyn365-projectservice

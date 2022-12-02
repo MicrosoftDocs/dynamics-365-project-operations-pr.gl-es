@@ -1,6 +1,6 @@
 ---
 title: Visión xeral do tempo
-description: Este artigo ofrece información sobre a funcionalidade Time en Dynamics 365 Project Operations.
+description: Este artigo fornece información sobre a funcionalidade de tempo en Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 10/02/2020
 ms.topic: overview

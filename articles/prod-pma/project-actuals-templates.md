@@ -1,6 +1,6 @@
 ---
 title: Sincronice os datos reais do proxecto directamente desde Project Service Automation ao diario de integración do proxecto para publicar en finanzas e operacións
-description: Este artigo describe os modelos e as tarefas subxacentes que se usan para sincronizar os datos reais do proxecto directamente desde Microsoft Dynamics 365 Project Service Automation ao financiamento e ás operacións.
+description: Este artigo describe os modelos e as tarefas subxacentes que se usan para sincronizar os datos do proxecto directamente desde Microsoft Microsoft Dynamics 365 Project Service Automation a finanzas e operacións.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -25,7 +25,7 @@ ms.locfileid: "9028976"
 
 [!include[banner](../includes/banner.md)]
 
-Este artigo describe os modelos e as tarefas subxacentes que se usan para sincronizar os datos reais do proxecto directamente desde Dynamics 365 Project Service Automation a Dynamics 365 Finance.
+Este artigo describe os modelos e as tarefas subxacentes que se usan para sincronizar os datos do proxecto directamente desde Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 
 O modelo sincroniza as transaccións desde Project Service Automation a unha táboa de transición en Finanzas. Despois de completar a sincronización, vostede **debe** importar os datos da táboa de transición ao diario de integración.
 
@@ -74,7 +74,7 @@ Antes de que poida producirse a sincronización de datos reais, debe configurar 
 
 ### <a name="power-query"></a>Power Query
 
-No modelo de datos reais do proxecto, debes usar Microsoft Power Query para que Excel realice estas tarefas:
+No modelo de datos reais do proxecto, debe usar Microsoft Power Query for Excel para completar estas tarefas:
 
 - Transforme o tipo de transacción en Project Service Automation ao tipo de transacción correcto en Finanzas. Esta transformación xa está definida no modelo de datos reais do proxecto (PSA a Fin e Ops).
 - Transforme o tipo de facturación en Project Service Automation ao tipo de facturación correcto en Finanzas. Esta transformación xa está definida no modelo de datos reais do proxecto (PSA a Fin e Ops). A seguir, o tipo de facturación asígnase á propiedade da liña, en función da configuración da páxina **Parámetros de integración de Project Service Automation**.
@@ -83,9 +83,9 @@ No modelo de datos reais do proxecto, debes usar Microsoft Power Query para que 
 - Se os datos reais de tempo entre empresas ou de gastos entre empresas non se sincronizarán con Finanzas, debe eliminar a última columna condicional inserida do seu modelo. Se non, pode ocorrer un erro de integración ou as transaccións de datos reais incorrectas poden importarse a Finanzas.
 
 #### <a name="contract-organizational-unit"></a>Unidade organizativa do contrato
-Para actualizar a columna condicional inserida no modelo, prema a frecha de **Asignar** para abrir a asignación. Seleccione o **Consulta e filtrado avanzados** ligazón para abrir Power Query.
+Para actualizar a columna condicional inserida no modelo, prema a frecha de **Asignar** para abrir a asignación. Seleccione a ligazón **Consulta e filtrado avanzados** para abrir Power Query.
 
-- Se estás a usar o modelo predeterminado de datos reais do proxecto (PSA para Fin e Ops), in Power Query, seleccione o último **Condición inserida** dende **Pasos aplicados** sección. Na entrada **Función**, substitúa **USSI** polo nome da persoa xurídica que se debería empregar coa integración. Engada condicións adicionais á entrada **Función** que precise e actualice a condición **else** de **USMF** á persoa xurídica correcta.
+- Se está a usar o modelo predefinido de datos reais do proxecto (PSA a Fin e Ops), en Power Query, seleccione a última **Condición inserida** desde a sección **Pasos aplicados**. Na entrada **Función**, substitúa **USSI** polo nome da persoa xurídica que se debería empregar coa integración. Engada condicións adicionais á entrada **Función** que precise e actualice a condición **else** de **USMF** á persoa xurídica correcta.
 - Se está a crear un novo modelo, debe engadir a columna para admitir o tempo e os gastos entre empresas. Seleccione **Engadir columna condicional** e escriba un nome para a columna, como **LegalEntity**. Introduza unha condición para a columna, onde, se **msdyn\_contractorganizationalunitid.msdyn\_name** é \<organizational unit\>, entón \<enter the legal entity\>; senón nulo.
 
 ### <a name="template-mapping-in-data-integration"></a>Asignación de modelos na integración de datos
@@ -125,7 +125,7 @@ Os datos reais do proxecto xestiónanse en Project Service Automation e sincron�
 
 ### <a name="power-query"></a>Power Query
 
-No modelo de actualización de datos reais do proxecto, debes usar Power Query para completar estas tarefas:
+No modelo actualización de datos reais do proxecto, debe usar Power Query para completar estas tarefas:
 
 - Transforme o tipo de transacción en Finanzas ao tipo de transacción correcto en Project Service Automation. Esta transformación xa está definida na actualización de datos reais do proxecto (Fin Ops a PSA).
 - Transforme o tipo de facturación en Finanzas ao tipo de facturación correcto en Project Service Automation. Esta transformación xa está definida na actualización de datos reais do proxecto (Fin Ops a PSA).

@@ -17,17 +17,17 @@ ms.locfileid: "9261088"
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
-Despois de confirmar unha factura de provedor, non se pode editar nin eliminar. Se houbo un erro nunha factura de provedor que se confirmou, pode usar a acción Cancelar para revertir o impacto da factura de provedor e crear unha nova factura de provedor.
+Despois de que se confirma a factura do fornecedor, non se pode editar nin eliminar. Se houbo un erro nunha factura de fornecedor que se confirmou, pode usar a acción Cancelar para reverter o impacto da factura de fornecedor e crear unha nova factura de fornecedor.
 
-Cando selecciones **Cancelar** nunha factura de provedor, ocorre o seguinte comportamento:
+Cando seleccione **Cancelar** nunha factura de fornecedor, ocorre o seguinte comportamento:
 
-1. Actualízase o estado da factura do provedor **Cancelado**.
-2. A factura do provedor cancelada e os seus rexistros relacionados pasan a ser de só lectura e non se poden editar nin eliminar.
-3. Todos os custos reais que se crearon en función das liñas de factura do provedor como parte da confirmación da factura do provedor invertéranse.
-4. Se algún custo reais estaba ligado ás liñas de factura do provedor como parte do proceso de coincidencia, a confirmación orixinal da factura do provedor invertíao. Durante a cancelación da factura do provedor, eses custos reais volven crear. As orixes apuntan ás entradas de tempo, gasto ou uso de material.
-5. Despois de que se cancele a factura do provedor, pode volver crear diarios de corrección, procesar os recordatorios de entradas de tempo e cancelar a aprobación do tempo orixinal, dos gastos ou dos datos reais do material.
+1. Actualízase o estado da factura do fornecedor a **Cancelada**.
+2. A factura do fornecedor cancelada e os seus rexistros relacionados pasan a ser de só lectura e non se poden editar nin eliminar.
+3. Todos os custos reais que se crearon en función das liñas de factura do fornecedor como parte da confirmación da factura do fornecedor reverteranse.
+4. Se algún dato real de custo estaba ligado ás liñas de factura do fornecedor como parte do proceso de busca de coincidencias, a confirmación orixinal da factura do fornecedor reverteuno. Durante a cancelación da factura do fornecedor, eses datos reais de custos créanse de novo. As orixes apuntan ás entradas de tempo, gasto ou uso de material.
+5. Despois de que se cancele a factura do fornecedor, pode volver crear diarios de corrección, procesar os recordatorios de entradas de tempo e cancelar a aprobación dos datos reais de tempo, gasto ou material orixinais.
 
 > [!NOTE]
-> Só se poden cancelar as facturas de provedores do proxecto confirmadas. Non se poden cancelar as facturas de provedores doutros estados.
+> Só se poden cancelar as facturas do fornecedor do proxecto confirmadas. Non se poden cancelar as facturas de fornecedor noutros estados.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Configurar a xestión de gastos
-description: Este artigo describe as consideracións e as decisións que debes tomar durante o proceso de planificación antes de configurar a xestión de gastos Microsoft Dynamics 365 Finanzas.
+description: Este artigo describe as consideracións e as decisións que debe tomar durante o proceso de planificación antes de configurar a xestión de gastos en Microsoft Dynamics 365 Finance.
 author: KimANelson
 ms.date: 08/29/2017
 ms.topic: article

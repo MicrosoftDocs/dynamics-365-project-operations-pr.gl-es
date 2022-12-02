@@ -1,6 +1,6 @@
 ---
 title: Xestionar oportunidades baseadas en proxectos
-description: Este artigo ofrece información sobre como traballar con oportunidades relacionadas con proxectos.
+description: Este artigo ofrece información sobre como traballar con oportunidades relacionadas cos proxectos.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fo
 
 As empresas baseadas en proxectos normalmente teñen as súas operacións de entrega repartidas en varios países e zonas xeográficas. O custo da execución e entrega do proxecto pode variar segundo a zona xeográfica ou división que xestione a entrega. Á súa vez, isto pode afectar ás marxes do acordo. A entrega de servizos baseados en proxectos normalmente implica grandes cantidades de tempo de recursos humanos, gastos considerables de viaxe, custos materiais e outros gastos.
 
-As oportunidades baseadas en proxectos en Dynamics 365 Project Operations están deseñadas con extensións a Dynamics 365 Sales. O artigo ofrece detalles sobre os diferentes campos e a lóxica empresarial incluídas na funcionalidade adicional que requiren as empresas baseadas en proxectos para xestionar as oportunidades baseadas en proxectos.
+As oportunidades baseadas en proxectos en Dynamics 365 Project Operations están deseñadas con extensións a Dynamics 365 Sales. O artigo ofrece detalles sobre os diferentes campos e a lóxica empresarial incluídos na funcionalidade adicional que as empresas baseadas en proxectos requiren para xestionar oportunidades baseadas en proxectos.
 
 ## <a name="view-all-project-based-opportunities"></a>Ver todas as oportunidades baseadas en proxectos
 

@@ -1,6 +1,6 @@
 ---
 title: Configuración de oportunidades - lite
-description: Este artigo ofrece información sobre ofertas baseadas en proxectos e liñas de oportunidade baseadas en proxectos.
+description: Este artigo ofrece información sobre acordos baseados en proxecto e liñas de oportunidade baseada en proxecto.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

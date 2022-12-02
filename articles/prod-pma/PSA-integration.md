@@ -1,6 +1,6 @@
 ---
 title: Visión xeral de Project Service Automation
-description: Este artigo ofrece información sobre o Dynamics 365 Project Service Automation a solución de integración Dynamics 365 Finance.
+description: Este artigo ofrece información sobre a solución de integración de Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 author: ruhercul
 ms.date: 07/25/2019
 ms.topic: overview
@@ -25,7 +25,7 @@ ms.locfileid: "8929580"
 [!include[banner](../includes/banner.md)]
 
 
-A solución de integración de Project Service Automation to Finance usa a función de integración de datos para sincronizar datos entre instancias de Dynamics 365 Finance e Dynamics 365 Project Service Automation vía Common Data Service. A integración de modelos dispoñible coa funcionalidade de integración de datos permite o fluxo de proxectos, contratos de proxectos, liñas de contratos de proxectos, fitos da liña de contratos de proxectos, tarefas de proxectos, categorías de transaccións de datos, estimacións de horas e estimacións de gastos de Project Service Automation a Finanzas.
+A solución de integración de Project Service Automation a Finanzas usa a funcionalidade de Integración de datos para sincronizar datos entre instancias de Dynamics 365 Finance e Dynamics 365 Project Service Automation a través de Common Data Service. A integración de modelos dispoñible coa funcionalidade de integración de datos permite o fluxo de proxectos, contratos de proxectos, liñas de contratos de proxectos, fitos da liña de contratos de proxectos, tarefas de proxectos, categorías de transaccións de datos, estimacións de horas e estimacións de gastos de Project Service Automation a Finanzas.
 
 > [!NOTE]
 > - Se está a usar a versión 7.3.0, debe instalar KB 4074835. Despois poderá integrar proxectos de prezo fixo.

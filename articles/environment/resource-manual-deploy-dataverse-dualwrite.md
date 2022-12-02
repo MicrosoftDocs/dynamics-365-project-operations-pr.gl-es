@@ -1,6 +1,6 @@
 ---
 title: Despregar manualmente a aplicación Project Operations Dataverse con soporte de escrita dual
-description: Este artigo explica como implementar manualmente as operacións do proxecto Dataverse aplicación para que admita a escritura dual.
+description: Este artigo explica como despregar manualmente a aplicación Project Operations Dataverse para que admita a escrita dual.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
@@ -17,9 +17,9 @@ ms.locfileid: "9028562"
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Este artigo explica como implementar Microsoft manualmente Dynamics 365 Project Operations en Microsoft Dataverse para que admita a escritura dual. Project Operations detecta a configuración do ambiente e engade soporte adicional para a escritura dual se se cumpren os requisitos previos.
+Este artigo explica como despregar manualmente Microsoft Dynamics 365 Project Operations en Microsoft Dataverse para que admita a escrita dual. Project Operations detecta a configuración do ambiente e engade soporte adicional para a escritura dual se se cumpren os requisitos previos.
 
-Durante a implantación mediante Microsoft Dynamics Servizos de ciclo de vida (LCS), se seguiu as instrucións deste artigo, pode omitir a implantación do Microsoft Power Platform integración (anteriormente coñecida como Common Data Service medio ambiente).
+Durante o despregamento a través de Microsoft Dynamics Lifecycle Services (LCS), se seguiu as instrucións deste artigo, podes omitir o despregamento da integración de Microsoft Power Platform (anteriormente coñecida como o ambiente de Common Data Service).
 
 O proceso de despregamento de Project Operations en Dataverse para que admita a escrita dual ten catro pasos principais:
 
@@ -37,7 +37,7 @@ Para completar este procedemento, debe iniciar sesión como administrador.
 3. Seleccione o tipo de ambiente. Se se rexistrou para a oferta de proba, seleccione **Proba (baseada en subscrición)**.
 4. Confirme a rexión de despregamento.
 5. Active a opción **Crear unha base de datos para este ambiente**. 
-6. Confirma o idioma e, a continuación, confirma que a moeda coincide coa moeda das túas aplicacións de finanzas e operacións.
+6. Confirme o idioma e, a seguir, confirme que a moeda coincide coa moeda para as súas aplicacións de finanzas e operacións.
 7. Active a opción **Aplicacións de Dynamics 365** e confirme que o campo **Despregar automaticamente estas aplicacións** está definido como **Ningunha**.
 8. Engada un grupo de seguranza, se é necesario un grupo de seguranza.
 9. Seleccione **Gardar** para crear o ambiente.
@@ -62,4 +62,4 @@ Só pode completar este procedemento se completou os procedementos anteriores an
 
 ## <a name="link-your-environments"></a><a name="link"></a>Ligar os seus ambientes
 
-Tras o Dataverse o ambiente está implantado, podes configurar a ligazón nas túas aplicacións de finanzas e operacións. Siga os pasos indicados en [Usar asistente de escrita dual para ligar os seus ambientes](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Despois do despregamento de Dataverse, pode configurar a ligazón nas súas aplicacións de finanzas e operacións. Siga os pasos indicados en [Usar asistente de escrita dual para ligar os seus ambientes](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

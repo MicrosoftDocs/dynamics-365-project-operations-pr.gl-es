@@ -1,6 +1,6 @@
 ---
 title: Xestionar o traballo pendente de facturación de proxecto
-description: Este artigo ofrece información sobre as distintas vistas dispoñibles para xestionar o atraso de facturación dos proxectos.
+description: Este artigo ofrece información sobre as distintas vistas dispoñibles para usar ao xestionar o traballo pendente de facturación en proxectos.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

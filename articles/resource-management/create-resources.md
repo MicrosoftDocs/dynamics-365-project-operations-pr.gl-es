@@ -1,6 +1,6 @@
 ---
 title: Crear recursos
-description: Este artigo ofrece unha ligazón a información sobre como crear recursos reservables.
+description: Este artigo fornece unha ligazón a información sobre como crear recursos reservables.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

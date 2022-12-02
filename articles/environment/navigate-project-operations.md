@@ -22,9 +22,9 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 Dynamics 365 Project Operations para escenarios de recursos/sen fornecemento constan de dous compoñentes: 
 
  - **Project Operations en ambiente de Common Data Service (CDS)**: Este compoñente abrangue capacidades e procesos desde a oportunidade ata a facturación proforma. 
- - **Xestión de proxectos e contabilidade no entorno Dynamics 365 Finance** : Este compoñente abrangue as capacidades de xestión de gastos, a contabilidade do proxecto e o recoñecemento de ingresos. 
+ - **Xestión e contabilidade de proxectos no ambiente de Dynamics 365 Finance**: Este compoñente abrangue as capacidades de xestión de gastos, contabilidade de proxectos e recoñecemento de ingresos. 
 
-Despois de aprovisionar as operacións do proxecto como se describe neste artigo, os servizos de ciclo de vida (LCS) **Detalles do entorno** proporciona un acceso sinxelo a ambos os compoñentes de Operacións do proxecto.  
+Despois de subministrar Project Operations como se describe neste artigo, a páxina **Detalles do ambiente** de Lifecycle Services (LCS) ofrece fácil acceso aos dous compoñentes de Project Operations.  
 
 Use o nome do ambiente na sección **Nome de ambiente de Common Data Service** para navegar a Project Operations nun ambiente de CDS. 
 

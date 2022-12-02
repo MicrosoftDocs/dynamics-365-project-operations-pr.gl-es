@@ -17,7 +17,7 @@ ms.locfileid: "8931466"
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Este artigo describe os parámetros para controlar o comportamento xeral na xestión de gastos.
+Este artigo describe os parámetros que controlan o comportamento xeral na xestión de gastos.
 
 ## <a name="general"></a>Xeral
 

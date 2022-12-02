@@ -1,6 +1,6 @@
 ---
 title: Parámetros de integración de Project Service Automation
-description: Este artigo explica como configurar como se introducen os datos predeterminados ao integrar Microsoft Dynamics 365 for Project Service Automation con Microsoft Dynamics 365 Finanzas.
+description: Este artigo explica como configurar como se introducen os datos predefinidos cando se integra Microsoft Dynamics 365 for Project Service Automation con Microsoft Dynamics 365 Finance.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
@@ -25,7 +25,7 @@ ms.locfileid: "8932294"
 
 [!include[banner](../includes/banner.md)]
 
-No **Parámetros de integración de Project Service Automation** páxina, pode configurar como se introducen os datos predeterminados ao integrar Dynamics 365 Project Service Automation con Dynamics 365 Finance. Para que os proxectos se sincronicen con éxito de Project Service Automation a Finanzas, debe configurar os seguintes campos.
+Na páxina **Parámetros de integración de Project Service Automation**, pode configurar como se introducen os datos predefinidos cando se integra Dynamics 365 Project Service Automation con Dynamics 365 Finance. Para que os proxectos se sincronicen con éxito de Project Service Automation a Finanzas, debe configurar os seguintes campos.
 
 Para abrir a páxina **Parámetros de integración de Project Service Automation**, vaia a **Xestión de proxectos e contabilidade** \> **Configurar** \> **Parámetros de integración de Dynamics 365 for Project Service Automation**. 
 

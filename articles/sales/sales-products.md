@@ -1,6 +1,6 @@
 ---
 title: Produtos
-description: Este artigo ofrece información sobre o catálogo de produtos que pode utilizar para proporcionar información aos clientes sobre os produtos e os prezos que ofrece a súa organización.
+description: Este artigo ofrece información sobre o catálogo de produtos que pode usar para proporcionar información aos clientes sobre os produtos e os prezos que ofrece a súa organización.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

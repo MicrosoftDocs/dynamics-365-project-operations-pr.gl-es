@@ -1,6 +1,6 @@
 ---
 title: Contratos baseados en adiantos e retencións
-description: Este artigo ofrece información sobre modelos de contratación baseados en retencións e avances nas operacións do proxecto.
+description: Este artigo ofrece información sobre modelos de contratación baseados en retencións e adiantos en Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

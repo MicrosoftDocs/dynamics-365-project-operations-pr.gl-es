@@ -1,6 +1,6 @@
 ---
 title: Iniciar un novo proxecto de LCS
-description: Este artigo ofrece información sobre como crear un proxecto novo en LCS para o seu contorno de Operacións de Proxecto.
+description: Este artigo ofrece información sobre a creación dun novo proxecto en LCS para o seu ambiente de Project Operations.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
@@ -27,7 +27,7 @@ Use Lifecycle Services (LCS) para xestionar os seus ambientes de Dynamics 365 Pr
   ![Escoller tipo de proxecto de LCS.](./media/create-lcs-1.png)
 
 5. Poña un nome ao proxecto. 
-6. Seleccione **Finanzas e operacións** como o nome do produto e seleccione a industria e a metodoloxía. 
+6. Seleccione **Finanzas e operacións** como nome do produto e seleccione o sector e a metodoloxía. 
 7. Seleccione **Crear**.
 
 ![Cree u proxecto de LCS.](./media/create-lcs-2.png)

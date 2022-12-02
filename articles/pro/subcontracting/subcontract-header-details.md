@@ -1,6 +1,6 @@
 ---
 title: Detalles da cabeceira para subcontratos
-description: Este artigo explica a funcionalidade proporcionada na cabeceira do subcontrato en Operacións do proxecto.
+description: Este artigo explica a funcionalidade proporcionada na cabeceira de subcontrato en Project Operations.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "9522558"
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Este artigo explica a funcionalidade proporcionada na cabeceira do subcontrato en Dynamics 365 Project Operations.
+Este artigo explica a funcionalidade proporcionada na cabeceira de subcontrato en Dynamics 365 Project Operations.
 
 Como un xestor de proxectos planifica e executa proxectos, pode empregar subcontratistas e mercar produtos e servizos a fornecedores. Cando un xestor de proxectos precisa mercar produtos ou servizos, pode crear un subcontrato en Project Operations.
 

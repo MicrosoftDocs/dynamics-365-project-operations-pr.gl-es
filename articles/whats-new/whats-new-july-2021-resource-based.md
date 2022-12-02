@@ -1,6 +1,6 @@
 ---
 title: Novidades de xullo de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
-description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de xullo de 2021 de Project Operations para escenarios baseados en recursos ou non almacenados.
+description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de xullo de 2021 de Project Operations para situacións baseadas en recursos/sen fornecemento.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8931696"
 
 *Aplícase a: Project Operations para situacións baseadas en recursos/sen fornecemento*
 
-Este artigo aplícase ao seguinte Dynamics 365 Project Operations compoñentes e versións:
+Este artigo aplícase aos seguintes compoñentes e versións de Dynamics 365 Project Operations:
 
    - Project Operations no ambiente de Microsoft Dataverse versión 4.12.0.148 ou 4.12.0.152.
-   - Xestión de proxectos e contabilidade no entorno Dynamics 365 Finance versión 10.0.20.
+   - Xestión e contabilidade de proxectos en ambientes de aplicacións de Dynamics 365 Finance versión 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Funcionalidades incluídas nesta versión
 
@@ -80,7 +80,7 @@ Se ten algún problema ao iniciar o mapa, siga as instrucións da sección [Prob
 | Xeral                       | 2253682              | A solución de escrita dual de Project Operations non se debería instalar cando o núcleo de escrita dual está instalado nun ambiente sen a solución de orquestración de escrita dual.                                                |
 | Xeral                       | 2316420              | O aprovisionamento principal de Project Service falla se cambia a unidade de negocio do usuario da aplicación.                                                                                                                     |
 | Xeral                       | 2376405              | Solucionouse un problema de actualización causado polo editor (a actualización de calidade está dispoñible na versión 4.12.0.152)                                                                                                                     |
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Xestión de proxectos e contabilidade en Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Xestión e contabilidade de proxectos en Dynamics 365 Finance
 
 | Área de funcionalidades                      | Número de referencia | Actualización de calidade                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

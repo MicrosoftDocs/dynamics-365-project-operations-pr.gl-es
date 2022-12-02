@@ -1,6 +1,6 @@
 ---
 title: Novidades de abril de 2021 - Project Operations para situacións baseadas en recursos/sen fornecemento
-description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de abril de 2021 de Project Operations para escenarios baseados en recursos ou non almacenados.
+description: Este artigo ofrece información sobre as actualizacións de calidade dispoñibles na versión de abril de 2021 de Project Operations para situacións baseadas en recursos/sen fornecemento.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9029252"
 
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-Este artigo aplícase ao seguinte Dynamics 365 Project Operations compoñentes e versións:
+Este artigo aplícase aos seguintes compoñentes e versións de Dynamics 365 Project Operations:
 
 - Project Operations en ambiente de Dataverse versión 4.9.0.221
-- Xestión de proxectos e contabilidade no entorno Dynamics 365 Finance versión 10.0.17
+- Xestión e contabilidade de proxectos en ambientes de aplicacións de Dynamics 365 Finance versión 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Funcionalidades incluídas nesta versión
 
@@ -42,13 +42,13 @@ A seguinte lista mostra os mapas de escrita dual que foron modificados ou engadi
 | **Mapa de entidades** | **Versión actualizada** | **Comentarios** |
 | --- | --- | --- |
 | Datos reais de integración de Project Operations (msdyn\_actuals) | 1.0.0.14 | Mapa modificado para sincronizar os datos reais do proxecto de material. |
-| Entidade de integración de Project Operations para estimacións de gastos (msdyn\_estimateslines) | 1.0.0.2 | Engadiuse a sincronización da liña do contrato do proxecto ás aplicacións de financiamento e operacións para o soporte de facturación baseada en tarefas. |
-| Entidade de integración de Project Operations para estimacións de horas (msdyn\_resourceassignments) | 1.0.0.5 | Engadiuse a sincronización da liña do contrato do proxecto ás aplicacións de financiamento e operacións para o soporte de facturación baseada en tarefas. |
-| Táboa de integración de Project Operations para estimacións de material (msdyn\_estimatelines) | 1.0.0.0 | Novo mapa da táboa para sincronizar as estimacións de materiais desde Dataverse a aplicacións de financiamento e operacións. |
-| Entidade de exportación de facturas do fornecedor do proxecto de integración de Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Novo mapa de táboas para sincronizar as cabeceiras das facturas de provedores das aplicacións de finanzas e operacións a Dataverse. |
-| Entidade de exportación de liñas de facturas do fornecedor do proxecto de integración de Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Novo mapa de táboas para sincronizar as liñas de facturas de provedores das aplicacións de finanzas e operacións a Dataverse. |
+| Entidade de integración de Project Operations para estimacións de gastos (msdyn\_estimateslines) | 1.0.0.2 | Engadiuse a sincronización de liña do contrato do proxecto coas aplicacións de finanzas e operacións aplicacións para a asistencia de facturación baseada en tarefas. |
+| Entidade de integración de Project Operations para estimacións de horas (msdyn\_resourceassignments) | 1.0.0.5 | Engadiuse a sincronización de liña do contrato do proxecto coas aplicacións de finanzas e operacións aplicacións para a asistencia de facturación baseada en tarefas. |
+| Táboa de integración de Project Operations para estimacións de material (msdyn\_estimatelines) | 1.0.0.0 | Novo mapa de táboa para sincronizar as estimacións de material de Dataverse coas aplicacións de finanzas e operacións. |
+| Entidade de exportación de facturas do fornecedor do proxecto de integración de Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Novo mapa de táboa para sincronizar as cabeceiras de facturas de fornecedor de Dataverse coas aplicacións de finanzas e operacións. |
+| Entidade de exportación de liñas de facturas do fornecedor do proxecto de integración de Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Novo mapa de táboa para sincronizar as liñas de factura de fornecedor de Dataverse coas aplicacións de finanzas e operacións. |
 
-Sempre debes executar a versión máis recente do mapa no teu ambiente e activar todos os mapas de táboas relacionados mentres actualizas as operacións do teu proxecto.Dataverse solución e versión de solución de finanzas e operacións. É posible que certas funcionalidades e capacidades non funcionen correctamente se a última versión do mapa non está activada. Pode ver a versión activa do mapa na columna **Versión** columna na páxina **Escrita dual**. Pode activar unha nova versión do mapa seleccionando **Versións do mapa de táboa**, seleccionando a versión máis recente e logo gardar a versión seleccionada. Se personalizou un mapa de táboa listo para usar, aplique de novo os cambios. Para obter máis información, consulte [Xestión do ciclo de vida da aplicación](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Sempre debería executar a última versión do mapa no seu ambiente e activar todos os mapas de táboa relacionados mentres actualiza a súa solución de Project Operations Dataverse e a versión da solución de finanzas e operacións. É posible que certas funcionalidades e capacidades non funcionen correctamente se a última versión do mapa non está activada. Pode ver a versión activa do mapa na columna **Versión** columna na páxina **Escrita dual**. Pode activar unha nova versión do mapa seleccionando **Versións do mapa de táboa**, seleccionando a versión máis recente e logo gardar a versión seleccionada. Se personalizou un mapa de táboa listo para usar, aplique de novo os cambios. Para obter máis información, consulte [Xestión do ciclo de vida da aplicación](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Se ten algún problema ao iniciar o mapa, siga as instrucións da sección [Problema de falta de columnas da táboa nos mapas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) da guía de resolución de problemas de escrita dual.
 
@@ -79,7 +79,7 @@ Se ten algún problema ao iniciar o mapa, siga as instrucións da sección [Prob
 | Tempo e gasto | 2204377 | As follas de control horario copiadas deben amosarse automaticamente cando selecciona **Copiar Semana** durante a entrada de tempo. |
 | Tempo e gasto | 2209059 | O campo **Estado** pode editarse para entradas de tempo de Dynamics 365 Field Service. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Xestión de proxectos e contabilidade en Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Xestión e contabilidade de proxectos en Dynamics 365 Finance
 
 | **Área de funcionalidades** | **Número de referencia** | **Actualización de calidade** |
 | --- | --- | --- |

@@ -1,6 +1,6 @@
 ---
 title: Liñas de subcontrato para produtos
-description: Este artigo explica como rexistrar liñas de subcontratación de produtos e utilizar os distintos campos para rexistrar as compras de produtos dos provedores.
+description: Este artigo explica como rexistrar liñas de subcontrato para produtos e usar os distintos campos para rexistrar compras de produtos de fornecedores.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Recursos da liña de subcontrato
-description: Este artigo explica como especificar os recursos dedicados que proporciona o provedor para unha liña de subcontratación específica durante o tempo.
+description: Este artigo explica como especificar os recursos dedicados que o provedor proporciona para unha liña de subcontrato específica para tempo.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

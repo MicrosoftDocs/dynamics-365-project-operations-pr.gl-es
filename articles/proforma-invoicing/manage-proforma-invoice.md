@@ -1,6 +1,6 @@
 ---
 title: Xestionar unha factura proforma baseada en proxecto
-description: Este artigo ofrece información sobre como xestionar e traballar con facturas proforma baseadas en proxectos.
+description: Este artigo ofrece información sobre como xestionar e traballar con facturas proforma baseadas en proxecto.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

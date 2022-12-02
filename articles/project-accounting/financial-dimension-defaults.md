@@ -1,6 +1,6 @@
 ---
 title: Valores predefinidos das dimensións financeiras
-description: Este artigo ofrece información sobre como configurar os valores predeterminados da dimensión financeira.
+description: Este artigo ofrece información sobre como configurar valores predefinidos de dimensións financeiras.
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
@@ -19,7 +19,7 @@ _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen f
 
 
 
-Dynamics 365 Project Operations utiliza o [Dimensións financeiras](/dynamics365/finance/general-ledger/financial-dimensions) marco en Dynamics 365 Finance para proporcionar información adicional sobre as transaccións do libro principal e do libro maior do proxecto.
+Dynamics 365 Project Operations usa o marco [Dimensións financeiras](/dynamics365/finance/general-ledger/financial-dimensions) en Dynamics 365 Finance para proporcionar información adicional sobre as transaccións do libro maior e do libro auxiliar do proxecto.
 
 As dimensións financeiras predefinidas pódense establecer nun cliente, fonte de financiamento do proxecto, fito, liña de contrato de proxecto ou proxecto.
 

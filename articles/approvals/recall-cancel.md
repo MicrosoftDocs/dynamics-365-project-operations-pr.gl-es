@@ -1,6 +1,6 @@
 ---
 title: Recuperación de entradas aprobadas previamente
-description: Este artigo explica como un membro do equipo do proxecto pode solicitar a retirada dos rexistros de tempo, gastos e uso de material enviados e aprobados previamente e como un xestor de proxecto pode aprobar ou rexeitar solicitudes de retirada.
+description: Este artigo explica como un membro do equipo do proxecto pode solicitar a retirada dos rexistros de tempo, gastos e uso de material enviados e aprobados anteriormente e como un xestor de proxecto pode aprobar ou rexeitar solicitudes de retirada.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
@@ -17,26 +17,26 @@ ms.locfileid: "8930362"
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Un membro do equipo do proxecto que envíe unha entrada de tempo, gasto ou uso de material pode recordar esa entrada despois de que fose aprobada. O proceso de recuperación ten dous pasos principais:
+Un membro do equipo do proxecto que envíe unha entrada de tempo, gasto ou uso de material pode recuperar esa entrada de tempo ou gasto despois de que foi aprobada. O proceso de recuperación ten dous pasos principais:
 
 1. Un solicitante solicita unha recuperación.
-2. Un aprobador aproba a solicitude de retirada.
+2. Un responsable de aprobación aproba a solicitude de recuperación.
 
 ## <a name="request-a-recall"></a>Solicitar unha recuperación
 
-Siga estes pasos para solicitar a retirada das entradas de tempo, gasto ou uso de material aprobados.
+Siga estes pasos para solicitar unha recuperación de entradas de tempo, gasto ou uso de material aprobadas.
 
-1. Siga un destes pasos, dependendo do tipo de entrada que quere recordar:
+1. Siga un destes pasos, dependendo do tipo de entrada que queira recuperar:
 
-    - Para as entradas de tempo, vai a **Proxectos** \> **O meu traballo** \> **Entrada horaria**, e seleccione todas as entradas de tempo para unha combinación específica dun proxecto e unha tarefa. Alternativamente, na grade, seleccione as celas individuais para tempo nunha data concreta para un proxecto específico.
-    - Para as entradas de gastos, vai a **Proxectos** \> **O meu traballo** \> **Gastos**, e seleccione a fila para recuperar a entrada de gasto.
-    - Para as entradas de uso de material, vai a **Proxectos** \> **O meu traballo** \> **Rexistro de uso do material**, e seleccione a fila para a entrada de uso de material para recuperar.
+    - Para as entradas de tempo, vaia a **Proxectos** \> **O meu traballo** \> **Entrada de tempo** e seleccione todas as entradas de tempo para unha combinación específica dun proxecto e unha tarefa. Alternativamente, na grade, seleccione as celas individuais para tempo nunha data concreta para un proxecto específico.
+    - Para as entradas de gasto, vaia a **Proxectos** \> **O meu traballo** \> **Gastos** e seleccione a fila da entrada de gasto para recuperar.
+    - Para as entradas de uso de material, vaia a **Proxectos** \> **O meu traballo** \> **Rexistros de uso de material** e seleccione a fila da entrada de uso de material para recuperar.
 
-2. Seleccione **Recuperar**. Aparecerá unha caixa de diálogo de confirmación. Se xa se aprobaron as entradas seleccionadas de tempo, gasto ou uso de material, solicitarase que introduza un motivo para a retirada.
+2. Seleccione **Recuperar**. Aparecerá unha caixa de diálogo de confirmación. Se as entradas de tempo, gasto e uso de material seleccionadas xa foron aprobadas, solicitaráselle que introduza un motivo para a recuperación.
 3. Insira un motivo para a recuperación e seleccione **Aceptar** para confirmar a operación. O sistema envía á persoa que aprobou as entradas unha solicitude para aprobar a recuperación.
 
 > [!IMPORTANT]
-> Non podes crear unha solicitude de retirada para unha entrada de tempo, gasto ou uso de material aprobado que xa se facturara ao cliente. Se o intentas, recibirás unha mensaxe que indica que a entrada de tempo, gasto ou uso de material non se pode recuperar porque xa estaba facturada. Neste caso, pode solicitar a retirada da entrada só se se utiliza unha factura correctora para emitir un crédito ou reembolso completo ao cliente na factura orixinal.
+> Non pode crear unha solicitude de recuperación para unha entrada de tempo, gasto ou uso de material previamente aprobada que xa foi facturada ao cliente. Se o intenta, recibirá unha mensaxe que afirma que non se pode recuperar a entrada de tempo, gasto ou uso de material porque xa foi facturada. Neste caso, só pode solicitar a recuperación da entrada se se utiliza unha factura correctiva para emitir un crédito ou reembolso completo ao cliente sobre a factura orixinal.
 
 ## <a name="approve-or-reject-a-recall-request"></a>Aprobar ou rexeitar unha solicitude de recuperación
 
@@ -52,7 +52,7 @@ Siga estes pasos para aprobar ou rexeitar unha solicitude de recuperación.
     Se seleccionou **Rexeitar**, a solicitude de recuperación é rexeitada.
 
 > [!IMPORTANT]
-> Cando se aproba unha retirada, igual que cando se solicita, o sistema comproba se hai actividade de facturación nas entradas de tempo, gasto ou uso de material. Se xa se facturou unha entrada ou se está nun borrador de factura, o aprobador recibe unha mensaxe de erro que indica que o tempo ou o gasto non se pode aprobar para a súa retirada porque xa estaba facturado. Neste caso, o aprobador pode aprobar a retirada só se se utiliza unha factura correctiva para emitir un crédito ou reembolso completo ao cliente na factura orixinal.
+> Cando se aproba unha recuperación, como cando se solicita, o sistema verifica calquera actividade de facturación nas entradas de tempo, gasto ou uso de material. Se unha entrada xa foi facturada ou se está nun borrador de factura, o responsable de aprobacións recibe unha mensaxe de erro que afirma que o tempo ou gasto non se poden aprobar para a súa recuperación porque xa foi facturado. Neste caso, o responsable de aprobación só pode aprobar a recuperación se se utiliza unha factura correctiva para emitir un crédito ou reembolso completo ao cliente sobre a factura orixinal.
 
 ## <a name="impact-of-a-recall-request"></a>Impacto dunha solicitude de recuperación
 
@@ -60,9 +60,9 @@ Cando se recupera unha aprobación, hai un impacto operativo e financeiro.
 
 ### <a name="operational-impact"></a>Impacto operativo
 
-Se se aproba unha solicitude de recuperación, o rexistro de aprobación está marcado como **Rexeitado**. O estado da entrada cámbiase a calquera **Devolto** ou **Rexeitado**, dependendo de se se trata dunha entrada de tempo ou de gasto ou de uso de material.
+Se se aproba unha solicitude de recuperación, o rexistro de aprobación está marcado como **Rexeitado**. O estado da entrada cambia a **Devolto** ou **Rexeitado**, segundo sexa unha entrada de tempo ou unha entrada de gasto ou uso de material.
 
-O membro do equipo do proxecto pode ver entradas, editar e despois enviar de novo entradas ou eliminar entradas por completo.
+O membro do equipo do proxecto pode ver as entradas, editar e volver enviar as entradas ou borrar por completo as entradas.
 
 Se se rexeita unha solicitude de recuperación, o estado da entrada permanece en **Aprobado** e a entrada non pode ser editada polo membro do equipo do proxecto nin polo responsable de aprobacións do proxecto.
 
@@ -79,14 +79,14 @@ Se se rexeita a solicitude de recuperación, non hai impacto financeiro no proxe
 
 ## <a name="changes-to-time-entry-records"></a>Cambios nos rexistros de entrada de tempo
 
-A seguinte ilustración mostra os cambios que se producen para as entradas de tempo aprobadas e os rexistros de aprobación correspondentes cando se recuperan.
+A seguinte ilustración mostra os cambios que se producen para as entradas de tempo aprobadas e os rexistros de aprobación cando se recuperan.
 
-![Transicións de estado de entrada de tempo.](media/TimeEntryStateTransitions.png)
+![Transicións de estado de entradas de tempo.](media/TimeEntryStateTransitions.png)
 
-## <a name="changes-to-expense-and-material-usage-entry-records"></a>Cambios nos rexistros de entrada de gastos e uso de material
+## <a name="changes-to-expense-and-material-usage-entry-records"></a>Cambios nos rexistros de entrada de gasto e uso de material
 
-A seguinte ilustración mostra os cambios que se producen para as entradas de gastos e uso de material aprobados e os rexistros de aprobación correspondentes cando son retirados.
+A seguinte ilustración mostra os cambios que se producen para as entradas de gasto e uso de material aprobadas e os rexistros de aprobación cando se recuperan.
 
-![Transicións de estado de entrada de gastos.](media/ExpenseEntryStateTransitions.png)
+![Transicións de estado de entradas de gasto.](media/ExpenseEntryStateTransitions.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

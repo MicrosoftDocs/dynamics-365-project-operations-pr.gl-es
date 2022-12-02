@@ -1,6 +1,6 @@
 ---
 title: Use as API de programación de proxectos para realizar operacións con entidades de programación
-description: Este artigo ofrece información e mostras para usar as API de programación do proxecto.
+description: Este artigo ofrece información e mostras para usar as API de programación de proxectos.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
@@ -47,14 +47,14 @@ A continuación móstrase unha lista das API de programación de proxectos actua
 
 | **API**                                 | Descripción                                                                                                                       |
 |-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| **msdyn_CreateProjectV1**               | Esta API úsase para crear un proxecto. O proxecto e o conxunto de proxectos predeterminados créanse inmediatamente.                         |
+| **msdyn_CreateProjectV1**               | Esta API úsase para crear un proxecto. O proxecto e o depósito por defecto do proxecto créanse inmediatamente.                         |
 | **msdyn_CreateTeamMemberV1**            | Esta API úsase para crear un membro do equipo do proxecto. O rexistro de membro do equipo créase inmediatamente.                                  |
-| **msdyn_CreateOperationSetV1**          | Esta API úsase para programar varias solicitudes que deben realizarse nunha transacción.                                        |
+| **msdyn_CreateOperationSetV1**          | Esta API utilízase para programar varias solicitudes que deben realizarse dentro dunha transacción.                                        |
 | **msdyn_PssCreateV1**                   | Esta API úsase para crear unha entidade. A entidade pode ser calquera das entidades de programación de proxectos que admitan a operación de creación. |
-| **msdyn_PssUpdateV1**                   | Esta API úsase para actualizar unha entidade. A entidade pode ser calquera das entidades de programación do proxecto que admitan a operación de actualización  |
+| **msdyn_PssUpdateV1**                   | Esta API úsase para actualizar unha entidade. A entidade pode ser calquera das entidades de programación de proxectos que admitan a operación de actualización  |
 | **msdyn_PssDeleteV1**                   | Esta API úsase para eliminar unha entidade. A entidade pode ser calquera das entidades de programación de proxectos que admitan a operación de eliminación. |
-| **msdyn_ExecuteOperationSetV1**         | Esta API úsase para executar todas as operacións dentro do conxunto de operacións dado.                                                 |
-| **msdyn_PssUpdateResourceAssignmentV1** | Esta API úsase para actualizar un contorno de traballo planificado da asignación de recursos.                                                        |
+| **msdyn_ExecuteOperationSetV1**         | Esta API úsase para executar todas as operacións dentro do conxunto de operacións determinado.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | Esta API úsase para actualizar un contorno de traballo planificado da atribución de recursos.                                                        |
 
 
 
@@ -66,16 +66,16 @@ Como os rexistros con **CreateProjectV1** e **CreateTeamMemberV1** créanse inme
 
 | **Entidade de programación**   | **Crear** | **Actualización** | **SUPR** | **Consideracións importantes**                                                                                                                                                                                                                                                                                                                            |
 |-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tarefa do proxecto            | Si        | Si        | Si        | O **Progreso**, **completado**, e **EsforzoRestante** os campos pódense editar en Project for the Web, pero non se poden editar en Project Operations.                                                                                                                                                                                             |
-| Dependencia da tarefa do proxecto | Si        | No         | Si        | Os rexistros de dependencia de tarefas do proxecto non se actualizan. Pola contra, pódese eliminar un rexistro antigo e crear un rexistro novo.                                                                                                                                                                                                                                 |
-| Atribución do recurso     | Si        | Si\*      | Si        | Non se admiten operacións cos seguintes campos: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** e **PlannedWork**. Os rexistros de atribución de recursos non se actualizan. Pola contra, pódese eliminar o rexistro antigo e crear un novo rexistro. Forneceuse unha API separada para actualizar os contornos de asignación de recursos. |
-| Depósito do proxecto          | Si        | Si        | Si        | O depósito predeterminado créase usando o **CrearProxectoV1** API. A compatibilidade para crear e eliminar grupos de proxectos engadiuse na actualización 16.                                                                                                                                                                                                   |
+| Tarefa do proxecto            | Si        | Si        | Si        | Os campos **Progreso**, **Esforzo completado**, e **Esforzo restante** pódense editar en Project for the Web, pero non se poden editar en Project Operations.                                                                                                                                                                                             |
+| Dependencia da tarefa do proxecto | Si        | No         | Si        | Os rexistros de dependencia de tarefas do proxecto non se actualizan. Pola contra, pódese eliminar un rexistro antigo e pódese crear un novo rexistro.                                                                                                                                                                                                                                 |
+| Atribución do recurso     | Si        | Si\*      | Si        | Non se admiten operacións cos seguintes campos: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** e **PlannedWork**. Os rexistros de atribución de recursos non se actualizan. Pola contra, pódese eliminar o rexistro antigo e pódese crear un novo rexistro. Forneceuse unha API separada para actualizar os contornos de atribución de recursos. |
+| Depósito do proxecto          | Si        | Si        | Si        | O depósito predefinido créase usando a API **CreateProjectV1**. A compatibilidade para crear e eliminar depósitos de proxectos engadiuse na actualización 16.                                                                                                                                                                                                   |
 | Membro do equipo do proxecto     | Si        | Si        | Si        | Para a operación de creación, use a API **CreateTeamMemberV1**.                                                                                                                                                                                                                                                                                           |
 | Project                 | Si        | Si        |            | Non se admiten operacións cos seguintes campos: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** e **Duration**.                                                                                       |
 | Listas de verificación do proxecto      | Si        | Si        | Si        |                                                                                                                                                                                                                                                                                                                                                         |
-| Etiqueta do proxecto           | No         | Si        | No         | Os nomes das etiquetas pódense cambiar. Esta función só está dispoñible para Project for the Web                                                                                                                                                                                                                                                                      |
-| Tarefa do proxecto para etiquetar   | Si        | No         | Si        | Esta función só está dispoñible para Project for the Web                                                                                                                                                                                                                                                                                                  |
-| Sprint do proxecto          | Si        | Si        | Si        | O **Comeza** campo debe ter unha data anterior á **Remate** campo. Os sprints para o mesmo proxecto non poden superpoñerse entre si. Esta función só está dispoñible para Project for the Web                                                                                                                                                                    |
+| Etiqueta do proxecto           | No         | Si        | No         | Os nomes das etiquetas pódense cambiar. Esta funcionalidade só está dispoñible para Project for the Web                                                                                                                                                                                                                                                                      |
+| Tarefa do proxecto para etiquetar   | Si        | No         | Si        | Esta funcionalidade só está dispoñible para Project for the Web                                                                                                                                                                                                                                                                                                  |
+| Sprint do proxecto          | Si        | Si        | Si        | O campo **Inicio** debe ter unha data anterior á do campo **Final**. Os sprints para o mesmo proxecto non poden superpoñerse entre si. Esta funcionalidade só está dispoñible para Project for the Web                                                                                                                                                                    |
 
 
 
@@ -86,7 +86,7 @@ A propiedade de ID é opcional. Se se proporciona, o sistema tenta usala e lanza
 
 A continuación móstrase unha lista de limitacións e problemas coñecidos:
 
--   As API de Project Schedule só poden ser usadas por **Usuarios con licenza de Microsoft Project**. Non poden ser usadas por:
+-   As API de programación de proxectos só as poden usar **Usuarios con licenza de Microsoft Project**. Non poden ser usadas por:
     -   Usuarios da aplicación
     -   Usuario do sistema
     -   Usuarios de integración
@@ -94,35 +94,35 @@ A continuación móstrase unha lista de limitacións e problemas coñecidos:
 -   Cada **OperationSet** só pode ter un máximo de 100 operacións.
 -   Cada usuario só pode ter un máximo de 10 **OperationSets** abertos.
 -   Project Operations admite actualmente un máximo de 500 tarefas totais nun proxecto.
--   Cada operación de actualización de contorno de asignación de recursos conta como unha única operación.
+-   Cada operación de actualización de contorno de atribución de recursos conta como unha única operación.
 -   Cada lista de contornos actualizados pode conter un máximo de 100 intervalos de tempo.
 -   O estado de fallo e os rexistros de fallos de **OperationSet** non están dispoñibles actualmente.
 -   Hai un máximo de 400 sprints por proxecto.
--   [Límites e límites en proxectos e tarefas](/project-for-the-web/project-for-the-web-limits-and-boundaries).
--   Actualmente, as etiquetas só están dispoñibles para Project for the Web.
+-   [Límites en proxectos e tarefas](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+-   Actualmente as etiquetas só están dispoñibles para Project for the Web.
 
 **Tratamento de erros**
 
 -   Para revisar os erros xerados a partir dos conxuntos de operacións, vaia a **Configuración** \> **Integración de programación** \> **Conxuntos de operacións**.
 -   Para revisar os erros xerados desde o servizo de programación de proxectos, vaia a **Configuración** \> **Integración de programación** \> **Rexistros de erros de PSS**.
 
-**Edición de contornos de asignación de recursos**
+**Edición de contornos de atribución de recursos**
 
-A diferenza de todas as outras API de programación de proxectos que actualizan unha entidade, a API de contorno de asignación de recursos é a única responsable das actualizacións dun só campo, msdyn_plannedwork, nunha única entidade, msydn_resourceassignment.
+A diferenza de todas as outras API de programación de proxectos que actualizan unha entidade, a API de contorno de atribución de recursos é a única responsable das actualizacións dun só campo, msdyn_plannedwork, nunha única entidade, msydn_resourceassignment.
 
 O modo de programación dado é:
 
 -   **unidades fixas**
--   O calendario do proxecto é de 9-5 p. é de 9-5 pst, luns, martes, xoves, venres (SEN TRABALLO OS MÉRCORES)
--   E o calendario de recursos é de 9-1p PST de luns a venres
+-   o calendario do proxecto é de 9-5 p. é de 9-5 pst, luns, martes, xoves, venres (SEN TRABALLO OS MÉRCORES)
+-   e o calendario de recursos é de 9-1p PST de luns a venres
 
-Este traballo é dunha semana, catro horas ao día. Isto débese a que o calendario de recursos é de 9-1 PST, ou catro horas ao día.
+Esta atribución é para unha semana, catro horas ao día. Isto débese a que o calendario de recursos é de 9-1 PST, ou catro horas ao día.
 
-| &nbsp;     | Tarefa | Data de inicio | Data de fin  | Cantidade | 13/06/2022 | 14/06/2022 | 15/06/2022 | 16/06/2022 | 17/06/2022 |
+| &nbsp;     | Tarefa | Data de inicio | Data de fin  | Cantidade | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 traballador |  T1  | 13/06/2022  | 17/06/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+| 9-1 traballador |  T1  | 6/13/2022  | 6/17/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
 
-Por exemplo, se quere que o traballador só traballe tres horas ao día esta semana e permita unha hora para outras tarefas.
+Por exemplo, se quere que o traballador só traballe tres horas ao día esta semana e deixe unha hora para outras tarefas.
 
 #### <a name="updatedcontours-sample-payload"></a>Carga útil de mostra de UpdatedContours:
 
@@ -138,11 +138,11 @@ Por exemplo, se quere que o traballador só traballe tres horas ao día esta sem
 }]
 ```
 
-Esta é a asignación despois de que se execute a API Update Contour Schedule.
+Esta é a atribución despois de que se execute a API de programación de contorno de actualización.
 
-| &nbsp;     | Tarefa | Data de inicio | Data de fin  | Cantidade | 13/06/2022 | 14/06/2022 | 15/06/2022 | 16/06/2022 | 17/06/2022 |
+| &nbsp;     | Tarefa | Data de inicio | Data de fin  | Cantidade | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 traballador | T1   | 13/06/2022  | 17/06/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+| 9-1 traballador | T1   | 6/13/2022  | 6/17/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
 
 
 **Escenario de exemplo**
@@ -195,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-** Mostras adicionais
+** Exemplos adicionais
 
 ```csharp
 #region Call actions --- Sample code ----

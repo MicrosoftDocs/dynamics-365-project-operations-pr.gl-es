@@ -1,6 +1,6 @@
 ---
 title: Configuración de oferta de proxecto
-description: Este artigo ofrece información sobre a información e a configuración que se aplican ás cotizacións do proxecto e afectan.
+description: Este artigo ofrece información sobre a información e a configuración que se aplican e afectan ás ofertas do proxecto.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

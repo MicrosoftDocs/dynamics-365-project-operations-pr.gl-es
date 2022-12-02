@@ -1,6 +1,6 @@
 ---
 title: Estimar unha liña de contrato de proxecto
-description: Este artigo ofrece información sobre as estimacións dunha liña de contrato de proxecto.
+description: Este artigo ofrece información sobre estimacións nunha liña de contrato de proxecto.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

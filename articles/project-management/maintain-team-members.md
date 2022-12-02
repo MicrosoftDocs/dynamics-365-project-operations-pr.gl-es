@@ -1,6 +1,6 @@
 ---
 title: Manter os membros do equipo
-description: Este artigo ofrece información sobre como reservar recursos con nome aos equipos do proxecto e asignalos a tarefas.
+description: Este artigo fornece información sobre a reserva de recursos nomeados para equipos de proxectos e atribuírlles tarefas.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

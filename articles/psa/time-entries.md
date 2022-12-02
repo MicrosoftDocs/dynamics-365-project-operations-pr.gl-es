@@ -1,6 +1,6 @@
 ---
 title: Crear entradas de tempo
-description: Este artigo ofrece información sobre como crear entradas de tempo.
+description: Este artigo fornece información sobre como crear entradas de tempo.
 author: rumant
 ms.custom:
 - dyn365-projectservice

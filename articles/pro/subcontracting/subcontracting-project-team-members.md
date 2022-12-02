@@ -22,36 +22,36 @@ En Microsoft Dynamics 365 Project Operations, pode optar por subcontratar membro
 - Os membros do equipo do proxecto sen persoal teñen asignado un recurso xenérico.
 - Os membros do equipo de persoal teñen asignado un recurso nomeado.
 
-Cando vinculas un membro do equipo do proxecto a unha liña de subcontrato, as asignacións ás tarefas que teña o membro do equipo serán calculadas en función da lista de prezos de compra adxunta ao subcontrato.  No **Estimacións** ficha na **Detalles do proxecto** páxina, seleccione o **Actualizar prezos** botón para ver os prezos e/ou custos actualizados resultantes da decisión de subcontratar. 
+Cando vincula un membro do equipo do proxecto a unha liña de subcontratación, as asignacións ás tarefas que teña o membro do equipo calcularanse en función da lista de prezos de compra anexa ao subcontrato.  No separador **Estimacións** da páxina **Detalles do proxecto**, seleccione o botón **Actualizar prezos** para ver os prezos e/ou custos actualizados resultantes da decisión de subcontratar. 
 
 ## <a name="subcontracting-an-unstaffed-project-team-member"></a>Subcontratación dun membro do equipo do proxecto sen persoal
-O **Detalles dos membros do equipo** A páxina ten campos de subcontrato e liña de subcontrato que permiten a un xestor de proxecto expresar como lle gustaría obter a capacidade necesaria dun subcontrato. Para subcontratar un membro do equipo do proxecto como recurso xenérico, siga estes pasos:
+A páxina **Detalles dos membros do equipo** ten campos de subcontratación e liña de subcontratación que permiten a un xestor de proxecto expresar como lle gustaría obter a capacidade necesaria dun subcontrato. Para subcontratar un membro do equipo do proxecto como recurso xenérico, siga estes pasos:
 
-1.  Escolle un subcontrato no **Detalle do membro do equipo** páxina.
+1.  Escolla un subcontrato na páxina **Detalle do membro do equipo**.
 
-2.  Só pode seleccionar subcontratos con **Borrador** ou **Confirmado** estado. **Pechado** ou **Cancelado** non se poden seleccionar subcontratos. 
+2.  Só pode seleccionar subcontratos cun estado de **Borrador** ou **Confirmado**. Os subcontrato con estado **Pechado** ou **Cancelado** non se poden seleccionar. 
 
-3.  O **Liña de subcontratación** o campo faise visible despois de seleccionar un subcontrato.
+3.  O campo **Liña de subcontratación** faise visible despois de seleccionar un subcontrato.
 
-4.  No **Liña de subcontratación** campo, só pode seleccionar liñas de subcontratación que sexan por tempo. Non pode seleccionar liñas de subcontratación para gastos ou material.
+4.  No campo **Liña de subcontratación**, só pode seleccionar liñas de subcontratación que sexan para tempo. Non pode seleccionar liñas de subcontratación para gastos ou material.
 
-5.  A función do rexistro do membro do equipo do proxecto debe coincidir coa función da liña de subcontrato. Isto garante que o tempo para o papel que se está a estimar no proxecto sexa o mesmo que se adquire na liña de subcontratación. 
+5.  O rol do rexistro do membro do equipo do proxecto debe coincidir co rol da liña de subcontratatación. Isto garante que o tempo para o rol que se está a estimar no proxecto sexa o mesmo que se adquire na liña de subcontratación. 
 
-Cando un membro xenérico do equipo está asociado a unha liña de subcontrato e subcontrato, o **Tipo de traballador** actualizarase o campo da fila xenérica do membro do equipo **Traballador por Contrato** e **Vixencia do subcontrato** establecerase en **Válido**.
+Cando un membro xenérico do equipo está asociado a unha subcontratación e liña de subcontratación, o campo **Tipo de traballador** na fila do membro xenérico do equipo actualizarase a **Traballador por Contrato** e **Validez do subcontrato** establecerase en **Válido**.
 
-## <a name="subcontracting-a-staffed-project-team-member"></a>Subcontratación dun membro do equipo do proxecto
-Do mesmo xeito que os membros do equipo xenérico ou sen persoal, a capacidade dos membros do equipo necesario para un proxecto tamén se pode vincular a un subcontrato. Para subcontratar un membro do equipo do proxecto nomeado, siga estes pasos:
+## <a name="subcontracting-a-staffed-project-team-member"></a>Subcontratación dun membro do equipo do proxecto con persoal
+Do mesmo xeito que os membros do equipo xenéricos ou sen persoal, a capacidade dos membros do equipo necesaria para un proxecto tamén se pode vincular a un subcontrato. Para subcontratar un membro do equipo do proxecto nomeado, siga estes pasos:
 
-1.  Asegúrese de que o recurso nomeado está configurado como un tipo de recurso reservable de traballador contratado. Ademais, asegúrese de que o **Vendedor** o campo do recurso reservable coincide co provedor do subcontrato que está seleccionando. 
+1.  Asegúrese de que o recurso nomeado está configurado como un tipo de recurso reservable de traballador contratado. Ademais, asegúrese de que o campo **Fornecedor** do recurso reservable coincide co fornecedor do subcontrato que está seleccionando. 
 
-2.  Só pode seleccionar subcontratos en **Borrador** ou **Confirmado** estado. **Pechado** ou **Cancelado** non se poden seleccionar subcontratos. 
+2.  Só pode seleccionar subcontratos en estado de **Borrador** ou **Confirmado**. Os subcontrato con estado **Pechado** ou **Cancelado** non se poden seleccionar. 
 
-3.  O **Liña de subcontratación** o campo faise visible despois de seleccionar un subcontrato.
+3.  O campo **Liña de subcontratación** faise visible despois de seleccionar un subcontrato.
 
-4.  No **Liña de subcontratación** campo, só pode seleccionar liñas de subcontratación que sexan por tempo. Non pode seleccionar liñas de subcontratación para gastos ou material.
+4.  No campo **Liña de subcontratación**, só pode seleccionar liñas de subcontratación que sexan para tempo. Non pode seleccionar liñas de subcontratación para gastos ou material.
 
-5.  A función do rexistro do membro do equipo do proxecto debe coincidir coa función da liña de subcontrato. Isto garante que o tempo para o papel que se está a estimar no proxecto sexa o mesmo que se adquire na liña de subcontratación. 
+5.  O rol do rexistro do membro do equipo do proxecto debe coincidir co rol da liña de subcontratatación. Isto garante que o tempo para o rol que se está a estimar no proxecto sexa o mesmo que se adquire na liña de subcontratación. 
 
-Nomeados membros do equipo do proxecto que están configurados como un tipo de traballador contratado **Recurso reservable** mostrarase cun estado de validez de subcontrato de **Non válido** se non están vinculados a un subcontrato. Cando un membro do equipo do proxecto nomeado está asociado a unha liña de subcontrato e subcontrato, o **Tipo de traballador** campo da fila de membro do equipo actualizarase a **Traballador por Contrato** e **Vixencia do subcontrato** establecerase en **Válido**.
+Os membros do equipo do proxecto nomeados que están configurados como un tipo de traballador contratado **Recurso reservable** mostrarase cun estado de validez de subcontrato de **Non válido** se non están vinculados a un subcontrato. Cando un membro do equipo do proxecto nomeado está asociado a unha subcontratación e liña de subcontratación, o campo **Tipo de traballador** na fila do membro xenérico do equipo actualizarase a **Traballador por Contrato** e **Validez do subcontrato** establecerase en **Válido**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

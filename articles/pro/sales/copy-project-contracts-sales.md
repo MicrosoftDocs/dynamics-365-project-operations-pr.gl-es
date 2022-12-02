@@ -1,6 +1,6 @@
 ---
 title: Copiar contratos de proxecto
-description: Este artigo ofrece información sobre como copiar contratos de proxecto en Project Operations.
+description: Neste artigo se proporciona información sobre a copia de contratos de proxecto en Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Visión xeral de liñas de contrato baseado en proxecto
-description: Este artigo ofrece información sobre como traballar con liñas de contrato baseadas en proxectos.
+description: Este artigo ofrece información sobre o traballo con liñas de contrato baseado en proxecto.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview

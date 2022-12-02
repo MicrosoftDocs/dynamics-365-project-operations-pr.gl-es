@@ -1,6 +1,6 @@
 ---
 title: Crear unha estrutura de subdivisión do traballo
-description: Este artigo explica como crear unha estrutura de descomposición do traballo (WBS) que inclúa os controis básicos na nova interface de programación.
+description: Este artigo explica como crear unha estrutura de subdivisión do traballo (WBS) que inclúa os controis básicos na nova interface de programación.
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
@@ -63,7 +63,7 @@ Siga os pasos que se indican a continuación para subir ou baixar o nivel dunha 
 
 ### <a name="move-tasks-up-and-down"></a>Mover tarefas arriba e abaixo
 
-As tarefas pódense mover a calquera nivel da estrutura de desglose do traballo de dúas formas:
+As tarefas pódense mover a calquera nivel da estrutura de subdivisión do traballo de dous xeitos:
 
 - Seleccione unha ou máis tarefas e arrástreas ata o lugar desexado.
 - Seleccione unha ou máis tarefas, prema o botón dereito e seleccione **Cortar**, seleccione a cela de destino na programación e prema co botón dereito e seleccione **Pegar**.
@@ -95,11 +95,11 @@ Como administrador, pode definir campos personalizados na entidade de tarefa. No
 
 ## <a name="staffing-attributes"></a>Atributos de persoal
 
-Pódese acceder a atributos de persoal a través do campo **Recursos** na programación. Pode buscar un recurso existente ou seleccionar **Crear** e no panel **Creación rápida**, engadir un membro do equipo do proxecto como novo recurso.  Cando busca un recurso mediante o selector de recursos na grella de tarefas, na vista de taboleiro ou na vista de gantt, a busca devolve os membros do equipo do proxecto existentes ou os recursos reservables activos.
+Pódese acceder a atributos de persoal a través do campo **Recursos** na programación. Pode buscar un recurso existente ou seleccionar **Crear** e no panel **Creación rápida**, engadir un membro do equipo do proxecto como novo recurso.  Cando busca un recurso mediante o selector de recursos na grade de tarefas, na vista de panel ou na vista de gantt, a busca devolve os membros do equipo do proxecto existentes ou os recursos reservables activos.
 
 Os campos **Rol**, **Unidade de recursos** e **Nome do posto** úsanse para describir os requisitos de persoal para a tarefa. Estes atributos de persoal, xunto coa programación de tarefas, úsanse para atopar os recursos dispoñibles para facer esta tarefa.
 
-   - **Papel** : Especifique o tipo de recurso que se require para realizar a tarefa.,
+   - **Rol**: Especifique o tipo de recurso que se require para realizar a tarefa.
    - **Unidade de recursos**: Especifique a unidade desde a que se deben atribuír os recursos para a tarefa. Este atributo afecta ao custo e ás estimacións de vendas da tarefa se o custo e a taxa de factura do recurso están establecidos en función das unidades de recursos.
    - **Nome do posto**: Insira un nome sinxelo para o recurso xenérico que serve como marcador de posición para o recurso que finalmente fará o traballo.
 
@@ -114,7 +114,7 @@ Pode usar a programación en Project Operations para crear relacións predecesor
 O modo de tarefa non ten efecto nas actualizacións que se realizan ás datas de inicio e finalización das tarefas predecesoras/dependentes.
 
 ## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Comprender os impactos da duración, os calendarios de recursos e os calendarios de proxectos nas tarefas
-A duración dunha tarefa defínese como o número de horas de traballo entre a hora de inicio da data de inicio e a hora de finalización da data de finalización da tarefa.   O proxecto para a web define as unidades de medida de duración do seguinte xeito:
+A duración dunha tarefa defínese como o número de horas de traballo entre a hora de inicio da data de inicio e a hora de finalización da data de finalización da tarefa.   Project for the Web define as unidades de medida de duración do seguinte xeito:
 
 | **Medida de duración** | **Importe**|
 |----------------------------------------------------|----------------------|
@@ -122,7 +122,7 @@ A duración dunha tarefa defínese como o número de horas de traballo entre a h
 | Horas á semana |  40 |
 | Días ao mes |  20 |
 
-As tarefas non asignadas están programadas mediante o calendario do proxecto. Non obstante, tras a asignación inicial de recursos, a programación dunha tarefa actualízase para que respecte o calendario do recurso. Os cambios posteriores a unha tarefa que teña asignación rexeranse polo [modo de programación](scheduling-modes.md) do proxecto. Para obter máis información sobre a influencia dos calendarios nas tarefas, consulte [Calendarios de recursos en Project para a web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) e [Horas de inicio das tarefas e os teus proxectos!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+As tarefas non atribuídas prográmanse mediante o calendario do proxecto. Non obstante, tras a atribución inicial de recursos, a programación dunha tarefa actualízase para que respecte o calendario do recurso. Os cambios posteriores a unha tarefa que teña unha atribución rexeranse polo [modo de programación](scheduling-modes.md) do proxecto. Para obter máis información sobre a influencia dos calendarios nas tarefas, consulte [Calendarios de recursos en Project for the Web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) e [Horas de inicio das tarefas e os seus proxectos.](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
 
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Atallos de teclado e accesibilidade

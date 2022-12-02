@@ -1,6 +1,6 @@
 ---
 title: Fitos da liña de subcontrato
-description: Este artigo explica como crear e manter un calendario de facturas baseado en fitos para un subcontrato cun provedor.
+description: Este artigo explica como crear e manter unha programación de facturas baseada en fitos para un subcontrato cun fornecedor.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Eliminar unha estimación de proxecto
-description: Este artigo ofrece información sobre como eliminar unha estimación de proxecto despois de que estea completada.
+description: Este artigo ofrece información sobre como eliminar unha estimación do proxecto unha vez finalizado.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

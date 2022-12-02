@@ -65,7 +65,7 @@ Para obter información sobre outras actualizacións de Project Service, consult
 |<strong>Estación 4</strong> | |  |  | |
 | | <i>Europa</i> | [3.10.78.8](whats-new-ur-47.md) | A determinar | 21 de outubro de 2022
 |<strong>Estación 5</strong> | |  |  | |
-| | <i>América do Norte</i> | [3.10.78.8](whats-new-ur-47.md) | A determinar | 04 de novembro de 2022
+| | <i>América do Norte</i> | [3.10.78.8](whats-new-ur-47.md) | A determinar | 4 de novembro de 2022
 |<strong>Estación 6</strong> | |  |  | |
 | | <i>Government Community Cloud</i> | [3.10.78.8](whats-new-ur-47.md) | A determinar | 02 de novembro de 2022
 | | <i>Grupos de escala dedicados</i> | [3.10.78.8](whats-new-ur-47.md) | A determinar | 11 de novembro de 2022

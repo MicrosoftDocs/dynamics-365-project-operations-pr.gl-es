@@ -1,6 +1,6 @@
 ---
 title: Fases do proxecto
-description: Este artigo ofrece información sobre as fases do proxecto que están dispoñibles en Microsoft Dynamics Operacións do proxecto.
+description: Este artigo ofrece información sobre as fases do proxecto dispoñibles en Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 09/18/2020
 ms.topic: article
@@ -47,7 +47,7 @@ Cando asocia un proxecto a unha oferta ou cando crea un proxecto a partir dunha 
 
 ## <a name="plan"></a>Planificar
 
-Cando gaña unha oferta asociada a un proxecto, e o proxecto se move á fase **Contrato**, a fase do proxecto actualízase a **Planificar**. Mentres o proxecto está no **Planificar** etapa, o **Vendas** ficha na **Entidade do proxecto** páxina mostra os detalles do contrato.
+Cando gaña unha oferta asociada a un proxecto, e o proxecto se move á fase **Contrato**, a fase do proxecto actualízase a **Planificar**. Mentres o proxecto está na fase de **Plan**, o separador **Vendas** da páxina **Entidade do proxecto** mostra detalles do contrato.
 
 ## <a name="deliver"></a>Entregar
 

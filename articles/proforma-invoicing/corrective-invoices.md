@@ -1,6 +1,6 @@
 ---
 title: Facturas baseadas en proxecto correctivas
-description: Este artigo ofrece información sobre como crear e confirmar facturas correctivas baseadas en proxectos en Project Operations.
+description: Este artigo ofrece información sobre como crear e confirmar facturas baseadas en proxecto correctivas en Project Operations.
 author: rumant
 ms.date: 03/29/2021
 ms.topic: article

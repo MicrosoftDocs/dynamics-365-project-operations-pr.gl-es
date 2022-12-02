@@ -1,6 +1,6 @@
 ---
 title: Crear atribucións de recursos
-description: Este artigo ofrece información sobre a creación de asignacións de recursos xenéricos e con nome.
+description: Este artigo ofrece información sobre como crear atribucións de recursos xenéricos e nomeados.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: ruhercul
 ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
 ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: gl-ES
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8933490"
@@ -18,7 +18,7 @@ ms.locfileid: "8933490"
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
 
-A atribución de recursos é a asociación directa dun membro do equipo do proxecto a unha tarefa de nó folla. Este artigo ofrece información sobre as diferentes formas de asignar recursos.
+A atribución de recursos é a asociación directa dun membro do equipo do proxecto a unha tarefa de nó folla. Este artigo fornece información sobre as diferentes formas de atribuír recursos.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Crear un membro do equipo xenérico a través da atribución de tarefas
 

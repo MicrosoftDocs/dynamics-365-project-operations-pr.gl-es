@@ -1,6 +1,6 @@
 ---
-title: Sincronice as tarefas do proxecto directamente desde Project Service Automation ata o financiamento e as operacións
-description: Este artigo describe o modelo e a tarefa subxacente que se usan para sincronizar tarefas do proxecto directamente desde Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
+title: Sincronizar tarefas de proxecto directamente de Project Service Automation a finanzas e operacións
+description: Este artigo describe o modelo e a tarefa subxacente que se usan para sincronizar as tarefas do proxecto directamente desde Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: gl-ES
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028359"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronice as tarefas do proxecto directamente desde Project Service Automation ata o financiamento e as operacións
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar tarefas de proxecto directamente de Project Service Automation a finanzas e operacións
 
 [!include[banner](../includes/banner.md)]
 
-Este artigo describe o modelo e a tarefa subxacente que se usan para sincronizar tarefas do proxecto directamente desde Dynamics 365 Project Service Automation a Dynamics 365 Finance.
+Este artigo describe o modelo e a tarefa subxacente que se usan para sincronizar as tarefas do proxecto directamente desde Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 
 > [!NOTE]
 > - A integración de tarefas do proxecto, categorías de transaccións de gastos, estimacións de horas, estimacións de gastos e bloqueo de funcionalidades están dispoñibles na versión 8.0.
@@ -67,11 +67,11 @@ Antes de que poida producirse a sincronización de tarefas de proxectos e proxec
 
 ## <a name="power-query"></a>Power Query
 
-Debes usar Microsoft Power Query para que Excel filtre os datos se se cumpre esta condición:
+Debe usar Microsoft Power Query for Excel para filtrar os datos se se cumpre esta condición:
 
 - Ten rexistros específicos de recursos nunha tarefa do proxecto.
 
-Se debes usar Power Query, siga esta pauta:
+Se debe usar Power Query, siga estas pautas:
 
 - O modelo de tarefas do proxecto (PSA a Fin e Ops) ten un filtro predefinido que exclúe os rexistros específicos do recurso dunha tarefa do proxecto configurando o filtro en **IsLineTask** a **False**. Se crea o seu propio modelo, debe engadir este filtro.
 

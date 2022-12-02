@@ -1,6 +1,6 @@
 ---
 title: Visión xeral das aplicacións móbiles do proxecto
-description: Este artigo ofrece información xeral sobre as aplicacións relacionadas co tempo do proxecto Microsoft Dynamics 365 Project Timesheet, Entrada de tempo do proxecto e As miñas follas de horas/follas de horas que están dispoñibles nun dispositivo móbil.
+description: Este artigo ofrece información xeral sobre as aplicacións relacionadas co tempo do proxecto para Microsoft Dynamics 365 Project Timesheet, Project Time Entry e My timesheets/Timesheets dispoñibles nun dispositivo móbil.
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
@@ -29,11 +29,11 @@ Están dispoñibles tres aplicacións móbiles relacionadas co tempo do proxecto
 
 ## <a name="project-timesheet-mobile-app"></a>Aplicación móbil de follas de control horario do proxecto
 
-A aplicación móbil Dynamics 365 Project Timesheet permite aos usuarios enviar e aprobar follas de control horario para proxectos no seu dispositivo móbil. Esta aplicación móbil mostra a funcionalidade da folla de horas na área de xestión de proxectos e contabilidade de Dynamics 365 Finance. Axuda a mellorar a produtividade e eficiencia dos usuarios e tamén axuda á entrada e aprobación oportunas das follas de control horario do proxecto.
+A aplicación móbil Dynamics 365 Project Timesheet permite aos usuarios enviar e aprobar follas de control horario para proxectos no seu dispositivo móbil. Esta aplicación móbil presenta a funcionalidade da folla de control horario na área de xestión e contabilidade de proxectos de Dynamics 365 Finance. Axuda a mellorar a produtividade e eficiencia dos usuarios e tamén axuda á entrada e aprobación oportunas das follas de control horario do proxecto.
 
 ## <a name="project-time-entry-workspace"></a>Espazo de traballo de Project Time Entry
 
-O espazo de traballo de Project Time Entry permite aos usuarios entrar e aforrar tempo nun proxecto. Non obstante, non permite aos usuarios enviar nin aprobar follas de control horario do proxecto. Só se pode usar para a entrada de tempo. Este espazo de traballo móbil está pensado para usarse xunto coa aplicación móbil de finanzas e operacións.
+O espazo de traballo de Project Time Entry permite aos usuarios entrar e aforrar tempo nun proxecto. Non obstante, non permite aos usuarios enviar nin aprobar follas de control horario do proxecto. Só se pode usar para a entrada de tempo. Este espazo de traballo móbil está pensado para ser usado xunto coa aplicación móbil de finanzas e operacións.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>My timesheets/Timesheets para a miña revisión
 

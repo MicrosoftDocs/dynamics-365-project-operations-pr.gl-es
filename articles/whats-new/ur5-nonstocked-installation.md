@@ -1,6 +1,6 @@
 ---
 title: Actualizar Project Operations no seu ambiente de Finance
-description: Este artigo ofrece información sobre como actualizar as operacións do proxecto no teu ambiente Dynamics 365 Finance.
+description: Este artigo ofrece información sobre como actualizar esta versión, consulte Actualizar Project Operations no seu ambiente de Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "9030033"
 _**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
 
-Este artigo ofrece información sobre como actualizar Dynamics 365 Project Operations no teu entorno Dynamics 365 Finance. Hai tres procedementos necesarios para actualizar Project Operations á actualización 5 (UR5):
+Este artigo ofrece información sobre como actualizar Dynamics 365 Project Operations no seu ambiente de Dynamics 365 Finance. Hai tres procedementos necesarios para actualizar Project Operations á actualización 5 (UR5):
 
 - [Importar o paquete ao seu proxecto de previsualización](#import)
 - [Aplicar a actualización](#apply)
@@ -119,7 +119,7 @@ As seguintes actualizacións dos privilexios de seguridade para entidades son ne
 4. Na páxina **Versión do mapa de táboas**, aplique unha nova versión do mapa a cada unha das tres entidades.
 5. Na páxina **Escritura dual**, seleccione executar para reiniciar os mapas.
 6. Na lista de mapas, seleccione o papa de **Libro maior (msdyn_ledgers)** con todos os requisitos previos e seleccione a caixa de verificación **Sincronización inicial**. 
-7. No **Mestre para a sincronización inicial** campo, seleccione **Aplicacións de finanzas e operacións** e despois seleccione **Corre**.
+7. No campo **Padrón para a sincronización inicial**, seleccione **Aplicacións de finanzas e operacións** e logo seleccione **Executar**.
  
  ![Sincronización de mapa de libro maior.](media/DW6.png)
  

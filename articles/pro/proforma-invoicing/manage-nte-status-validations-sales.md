@@ -1,6 +1,6 @@
 ---
 title: Xestionar o estado de non superar e as validacións
-description: Este artigo ofrece información sobre as comprobacións de límite de non exceder realizadas en Operacións do proxecto.
+description: Este artigo ofrece información sobre as comprobacións de límite non superable realizadas en Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
