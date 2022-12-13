@@ -1,19 +1,19 @@
 ---
-title: Visión xeral de liñas de contrato baseado en proxecto
-description: Este artigo ofrece información sobre o traballo con liñas de contrato baseado en proxecto.
+title: Visión xeral das liñas de contrato do proxecto
+description: Este artigo ofrece información sobre como traballar coas liñas de contrato do proxecto en Operacións do proxecto.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d32edac6537a4b0f51e9d2f72cb4a7342606d2c5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f5a529233692a39b0674417cd4ea225e40243086
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931420"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824624"
 ---
-# <a name="project-based-contract-lines-overview"></a>Visión xeral de liñas de contrato baseado en proxecto
+# <a name="project-contract-lines-overview"></a>Visión xeral das liñas de contrato do proxecto
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 

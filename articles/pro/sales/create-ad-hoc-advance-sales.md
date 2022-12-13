@@ -1,19 +1,19 @@
 ---
-title: Creación dun adianto ad hoc nun contrato
+title: Crear un anticipo ad hoc nun contrato de proxecto
 description: Este artigo ofrece información sobre como crear un adianto nun contrato segundo sexa necesario.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3e450a17990c6fc783ddffdb05e1ab5b9429a3c1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 62e41e5faeb5e40143e26e2cdf48c1279941a6b4
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922174"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824842"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Creación dun adianto ad hoc nun contrato
+# <a name="create-an-ad-hoc-advance-on-a-project-contract"></a>Crear un anticipo ad hoc nun contrato de proxecto
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 

@@ -1,19 +1,19 @@
 ---
-title: Xestión de unidades complexas como por usuario, por mes para as liñas de oferta baseadas en produto - lite
+title: Xestión de unidades complexas como por usuario, por mes para as liñas de oferta baseadas en produto
 description: Este artigo ofrece información sobre a xestión de unidades complexas para liñas de oferta baseadas en produto.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 88173468cd2e898331c4aa0a398792d9a0f3df10
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 50151e9a34e8608c98e406a30131c1efc4bf2f11
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929902"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825469"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Xestión de unidades complexas como por usuario, por mes para as liñas de oferta baseadas en produto - lite
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Xestión de unidades complexas como por usuario, por mes para as liñas de oferta baseadas en produto
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 

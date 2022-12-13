@@ -1,21 +1,21 @@
 ---
-title: Estimación dunha liña de oferta baseada en proxecto
-description: Este artigo ofrece información sobre como crear unha estimación nunha liña de oferta baseada en proxecto.
+title: Estimar unha liña de oferta de proxecto
+description: Este artigo ofrece información sobre como crear unha estimación nunha liña de cotización de proxecto.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914354"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825985"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Estimación dunha liña de oferta baseada en proxecto
+# <a name="estimate-a-project-quote-line"></a>Estimar unha liña de oferta de proxecto
 
-_**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
+_**Aplícase a:** Despregamento Lite - factura proforma, Project Operations para situacións baseadas en recursos/sen fornecemento_
 
 Unha liña de oferta baseada en proxecto ten detalles que axudan a estimar o custo e os ingresos potenciais do traballo implicado para entregar a liña de oferta.
 
@@ -24,7 +24,7 @@ Para estimar unha liña de oferta baseada en proxecto, na liña de oferta basead
 - Crear manualmente a estimación directamente na liña de oferta empregando os detalles da liña de oferta. 
 - Cree un proxecto e un plan de proxecto e, a seguir, asocie o proxecto e as tarefas do proxecto á liña de oferta. Activarase o proceso para importar as estimacións do plan do proxecto á liña de oferta en función da información que proporcionou.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Crear estimacións directamente nunha liña de oferta baseada en proxecto
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Crea estimacións directamente nunha liña de cotización do proxecto
 
 Para crear unha estimación nunha liña de oferta baseada en proxecto, seleccione o separador **Detalle da liña de oferta**. O elementos de liña que cree neste separador resumirá o valor ofertado para esta liña de oferta. 
 
@@ -68,8 +68,7 @@ A moeda no detalle da liña de oferta para custo é por defecto a da lista de pr
 
 Os cálculos de rendibilidade converten o importe dos detalles da liña de oferta para custo e vendas na moeda base do ambiente para informar da marxe global estimada na oferta.
 
-> [!NOTA
-> > Os erros de redondeo de moeda e as marxes modificadas poden producirse debido á falta de tipos de cambio con data efectiva. Utilice estes cálculos só nos contratos de proxecto, xa que son aproximacións e non son para informes legais ou doutro tipo que requiran maior precisión de redondeo e coñecemento da efectividade da data para os tipos de cambio.
+> [!NOTA Os erros de redondeo da moeda e as marxes modificadas poderían producirse debido á falta de tipos de cambio efectivos de data. Utilice estes cálculos só nos contratos de proxecto, xa que son aproximacións e non son para informes legais ou doutro tipo que requiran maior precisión de redondeo e coñecemento da efectividade da data para os tipos de cambio.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

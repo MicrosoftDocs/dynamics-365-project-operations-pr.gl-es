@@ -1,21 +1,21 @@
 ---
 title: Custos de liñas de oferta baseadas en produto
 description: Este artigo fornece información sobre aplicar un prezo de custo a unha liña de oferta baseada en produtos.
-author: ruhercul
+author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: ruhercul
-ms.openlocfilehash: 23eb3d29081769347d62098534a9863fd28fa90c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.author: rumant
+ms.openlocfilehash: a8b3569ff217f6fc62606dae4292be14f9d3358c
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932570"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825609"
 ---
 # <a name="costing-product-based-quote-lines"></a>Custos de liñas de oferta baseadas en produto
 
-_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
+_**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
 
 As liñas de oferta baseada en produto en Dynamics 365 Project Operations tamén teñen un campo **Prezo de custo**. Este campo úsase para rastrexar o prezo de custo do produto na liña de oferta e para cálculos de rendibilidade descendentes.

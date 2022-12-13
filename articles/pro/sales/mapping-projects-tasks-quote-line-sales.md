@@ -1,23 +1,23 @@
 ---
-title: Asignar proxectos e tarefas a unha liña de oferta baseada en proxecto
-description: Este artigo ofrece información sobre como asignar proxectos e tarefas a unha liña de tarefa baseada en proxecto.
+title: Mapear proxectos e tarefas para proxectar liñas de cotización
+description: Este artigo ofrece información sobre como mapear proxectos e tarefas para proxectar liñas de cotización.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917160"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824267"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Asignar proxectos e tarefas a unha liña de oferta baseada en proxecto
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Mapear proxectos e tarefas para proxectar liñas de cotización
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Nas liñas de oferta baseada en proxecto, pode asignar as tarefas específicas dun proxecto que xa está asociado a unha liña de oferta.
+Nas liñas de cotización do proxecto, pode mapear as tarefas específicas dun proxecto que xa está asociado a unha liña de cotización.
 
 Cando asigna tarefas a unha liña de oferta, os seguintes elementos que definiu na liña de oferta só se aplicarán a esas tarefas:
 

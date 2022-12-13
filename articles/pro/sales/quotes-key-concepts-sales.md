@@ -1,17 +1,17 @@
 ---
-title: Ofertas - Conceptos clave - lite
+title: Conceptos exclusivos de ofertas de proxecto
 description: Este artigo ofrece información sobre el uso de las ofertas de proxecto en Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916976"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825891"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Conceptos exclusivos de ofertas de proxecto
 
@@ -82,9 +82,13 @@ As programacións de facturas son específicos de cada liña de oferta e tamén 
 
 As ofertas de Project Operations baséanse nas ofertas de Dynamics 365 Sales. Non obstante, hai algunhas diferenzas importantes na funcionalidade que debe ter en conta:
 
-- As accións **Revisar** e **Activar** non son compatibles.
+
 - As ofertas de Project Operations teñen dous tipos de liñas diferentes. Unha é para proxectos e a outra é para produtos.
 - As ofertas de Project Operations teñen os seus propios elementos de formulario e IU regras de negocio, lóxica empresarial nos complementos e scripts do cliente que as diferencian das ofertas de Sales.
+- As cotizacións de vendas permítenche anexar varios pedidos a unha cotización de vendas. En Operacións de Proxecto, só se pode anexar un contrato de proxecto a unha cotización de proxecto.
+- Cando gañas unha cotización de vendas, a oportunidade relacionada pode permanecer aberta. Despois de gañar unha oferta de proxecto, a oportunidade relacionada péchase.
+- Unha cotización de vendas non inclúe algúns campos e conceptos que se inclúen nunha cotización do proxecto. Os campos inclúen **Unidade contratante**, **Xestor de conta** e **Facturar ao nome de contacto**.  
+- **Tipo**: As ofertas de vendas e as ofertas de proxecto tamén se identifican por un campo baseado en conxunto de opcións, **Tipo**. Para unha oferta de vendas, este campo ten o valor **Baseado en elementos**. Para unha oferta de proxecto, ten o valor **Baseado en traballo**.
 
 Por estes motivos, non se recomenda empregar indistintamente unha oferta de Sales e unha oferta de Project Operations.
 

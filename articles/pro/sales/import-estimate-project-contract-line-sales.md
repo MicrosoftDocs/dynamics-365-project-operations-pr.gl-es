@@ -1,21 +1,21 @@
 ---
-title: Importar unha estimación a unha liña de contrato baseado en proxecto - lite
+title: Importar estimacións dun proxecto a unha liña de contrato de proxecto
 description: Este artigo ofrece información sobre como importar estimacións financeiras dun proxecto a unha liña de contrato.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d6e3bdfeb1ea9de32d6712ac5671be39c243702a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 73ae0ccbb5372c9dfbc28ac154094c89add0913d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924198"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824672"
 ---
-# <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Importar unha estimación a unha liña de contrato baseado en proxecto - lite
+# <a name="import-estimates-from-a-project-to-a-project-contract-line"></a>Importar estimacións dun proxecto a unha liña de contrato de proxecto
 
-_**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
+_**Aplícase a:** Implementación simplificada: negociación de facturación proforma, operacións do proxecto para escenarios baseados en recursos ou non almacenados_ _
 
 En Dynamics 365 Project Operations, pode importar estimacións desde un proxecto a unha liña de contrato baseado en proxecto.
 

@@ -1,19 +1,19 @@
 ---
-title: Visión xeral de liñas de oferta baseada en proxecto
+title: Visión xeral de liñas de oferta de proxecto
 description: Este artigo ofrece información sobre como liñas de oferta baseada en proxecto para o traballo do proxecto.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 90c5affa25b113476e43f0bbbadd5c9615f9c05c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e6a67b5c37508085c9ec3d8385eaa6828536de00
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934456"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825656"
 ---
-# <a name="project-based-quote-lines-overview"></a>Visión xeral de liñas de oferta baseada en proxecto 
+# <a name="project-quote-lines-overview"></a>Visión xeral de liñas de oferta de proxecto 
 
 _**Aplícase a:** Despregamento Lite - factura proforma, Project Operations para situacións baseadas en recursos/sen fornecemento_
 

@@ -1,27 +1,27 @@
 ---
-title: Programacións de facturas en liñas de oferta baseada en proxecto
+title: Calendarios de facturas nas liñas de cotización do proxecto
 description: Este artigo ofrece información sobre a creación de programacións de facturas e fitos para as liñas de oferta.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918310"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825751"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Programacións de facturas en liñas de oferta baseada en proxecto
+# <a name="invoice-schedules-on-project-quote-lines"></a>Calendarios de facturas nas liñas de cotización do proxecto
 
 _**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
 
-Unha liña de oferta baseada en proxecto ofrece a capacidade de expresar unha programación de facturas. Isto é opcional durante a fase de oferta porque a aplicación non admite a facturación dun proxecto cando está ligado a unha liña de oferta. A facturación só se permite despois de gañar a oferta. O único impacto descendente da creación dunha programación de facturas durante a fase de oferta é que esta programación de facturas se copia á liña de contrato baseado en proxecto. Se non crea unha programación de facturas durante a fase de oferta, poderá facelo na liña de contrato baseado en proxecto.
+Unha liña de cotización do proxecto dá a posibilidade de expresar un calendario de facturas. Isto é opcional durante a fase de oferta porque a aplicación non admite a facturación dun proxecto cando está ligado a unha liña de oferta. A facturación só se permite despois de gañar a oferta. O único impacto descendente da creación dunha programación de facturas durante a fase de oferta é que esta programación de facturas se copia á liña de contrato baseado en proxecto. Se non crea unha programación de facturas durante a fase de oferta, poderá facelo na liña de contrato baseado en proxecto.
 
 En xeral, a finalidade das programacións de facturas é permitir a creación automática de borradores de facturas para unha liña de contrato baseado en proxecto. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Crear unha programación de facturas de tempo e material para unha liña de oferta baseada en proxecto
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Cree un calendario de facturas de material e tempo para unha liña de cotización do proxecto
 
 Cando o método de facturación dunha liña de oferta baseada en proxecto é Tempo e material, o sistema xera una programación de facturas baseada en datas. Para xerar automaticamente unha programación de facturas baseada en datas, complete os seguintes pasos.
 
@@ -36,7 +36,7 @@ Cando o método de facturación dunha liña de oferta baseada en proxecto é Tem
     - **Data de corte da transacción** establécese o día anterior á **Data de execución da factura**.
     - **Estado de execución** configúrase automaticamente en **Non executar**. Cando a tarefa de creación automática de facturas se execute durante unha determinada data de execución da factura, actualizará este campo a **Execución correcta** ou **Erro na execución**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Crear unha programación de facturas de prezo fixo para unha liña de oferta baseada en proxecto
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Cree unha programación de facturas de prezo fixo para unha liña de cotización do proxecto
 
 Cando a liña de oferta baseada en proxecto ten un método de facturación **Fixo**, o sistema crea unha programación de facturas baseada en fitos. Complete os seguintes pasos para xerar automaticamente esta programación para un conxunto fixo de fitos que se distribúen igualmente para o período do calendario.
 

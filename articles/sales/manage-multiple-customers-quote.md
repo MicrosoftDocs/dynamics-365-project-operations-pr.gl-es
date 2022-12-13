@@ -1,23 +1,23 @@
 ---
-title: Xestionar varios clientes nunha oferta de proxecto
+title: Xestione varios clientes nunha cotización baseada en proxectos
 description: Este artigo ofrece información sobre o traballo en ofertas que inclúen a varios clientes que financiarán o proxecto.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928200"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825146"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Xestionar varios clientes nunha oferta de proxecto
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Xestione varios clientes nunha cotización baseada en proxectos
 
-_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
+_**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-As ofertas de proxecto admiten a situación na que a proposta implica varios clientes que financiarán o acordo. O separador **Resumo** da oferta ten o campo **Cliente potencial**, que identifica o cliente principal do acordo. Pódense configurar outros clientes para o acordo no separador **Clientes** da oferta do proxecto.
+As cotizacións baseadas en proxectos admiten o escenario no que a proposta implica varios clientes que financiarán o acordo. O separador **Resumo** da oferta ten o campo **Cliente potencial**, que identifica o cliente principal do acordo. Pódense configurar outros clientes para o acordo no separador **Clientes** da oferta do proxecto.
 
 Todos os clientes da oferta no separador **Clientes** da oferta do proxecto son por defecto os clientes de liña da oferta en calquera **nova** liña de oferta baseada en proxecto creada para a oferta. Calquera liña de oferta baseada en proxecto existente non herdará os novos rexistros de clientes da oferta creados despois dela.
 

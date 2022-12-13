@@ -1,5 +1,5 @@
 ---
-title: Pechar unha oferta - lite
+title: Pechar ofertas de proxecto
 description: Este artigo ofrece información sobre o peche dunha oferta en Project Operations.
 author: rumant
 ms.date: 10/01/2020
@@ -7,14 +7,14 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e3a199843f379dc53d63372f91e8be2e1bcbf4e9
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4335fa5467640af840c0f68a648c9b8a6864d834
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916930"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826173"
 ---
-# <a name="close-a-quote---lite"></a>Pechar unha oferta - lite
+# <a name="close-project-quotes"></a>Pechar ofertas de proxecto
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
@@ -30,7 +30,7 @@ Se a oferta se anexa a unha oportunidade, calquera outra oferta de proxecto da o
 
 Se hai algún dato real nun proxecto mentres aínda está anexo a un borrador de oferta, só se rexistra o custo do tempo ou do gasto. Despois de pechar a oferta como Gañada, a aplicación refactorizará os custos revertendo os datos reais de custos máis antigos e creando novos datos reais de custos. A aplicación procesará estes custos reais en función do método de facturación da liña de contrato do proxecto asociado. Se os datos reais de custo fan referencia a unha liña de contrato de tempo e material, créanse as vendas sen facturar correspondentes cando se pecha a oferta e se crea o contrato do proxecto. Se os datos reais de custo fan referencia a unha liña de contrato de prezo fixo, a aplicación deixará de reprocesar os custos reais baseados nas regras de facturación divididas para os clientes do contrato do proxecto.
 
-## <a name="closing-a-quote-as-lost"></a>Peche dunha oferta como perdida:
+## <a name="closing-a-quote-as-lost"></a>Pechando unha cotización como perdida
 
 Cando pecha unha oferta de proxecto como Perdida, o estado establécese en Pechada e o motivo para o estado é Perdida. O peche da oferta fai que a oferta de proxecto sexa de só lectura. Debido a que non se pode volver abrir unha oferta pechada, antes de pechar unha oferta, un diálogo de confirmación confirmará os cambios.
 

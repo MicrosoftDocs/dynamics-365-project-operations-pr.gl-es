@@ -1,23 +1,23 @@
 ---
-title: Xestionar varios clientes en liñas de oferta baseada en proxecto - lite
-description: Este artigo describe como xestionar varios clientes en liñas de oferta baseada en proxecto.
+title: Xestiona varios clientes nas liñas de cotización do proxecto
+description: Este artigo describe como xestionar varios clientes nas liñas de cotización do proxecto.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927786"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824436"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Xestionar varios clientes en liñas de oferta baseada en proxecto - lite
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Xestiona varios clientes nas liñas de cotización do proxecto
 
 _**Aplícase a:** Despregamento de Lite - de acordo a facturación proforma_
 
-As liñas de oferta baseada en proxecto admiten situacións nas que cada liña de oferta ten unha lista de clientes que a pagan. Esta lista de clientes da liña de oferta baseada en proxecto pode ser a mesma que a lista de clientes da oferta. Tamén pode cambiar a lista de clientes para que sexan diferentes. Cando se gañe unha oferta de proxecto, a lista de clientes da liña de oferta baseada en proxecto copiarase na liña de contrato baseado en proxecto correspondente para crear o eventual contrato do proxecto. Os clientes da oferta baseada en proxecto cópianse no contrato do proxecto.
+As liñas de cotización do proxecto admiten escenarios nos que cada liña de cotización ten unha lista de clientes que están pagando por iso. Esta lista de clientes da liña de oferta baseada en proxecto pode ser a mesma que a lista de clientes da oferta. Tamén pode cambiar a lista de clientes para que sexan diferentes. Cando se gañe unha oferta de proxecto, a lista de clientes da liña de oferta baseada en proxecto copiarase na liña de contrato baseado en proxecto correspondente para crear o eventual contrato do proxecto. Os clientes da oferta baseada en proxecto cópianse no contrato do proxecto.
 
 Cando factura o contrato eventual do proxecto, a lista de clientes da liña de contrato baseado en proxecto ten prioridade sobre a lista do contrato do proxecto. A lista de clientes do contrato de proxecto só se usa para predefinir novas liñas de contrato de proxecto.
 

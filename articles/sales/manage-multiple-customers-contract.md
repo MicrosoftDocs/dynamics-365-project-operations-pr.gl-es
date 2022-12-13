@@ -1,19 +1,19 @@
 ---
-title: Xestionar varios clientes nunha en contratos de proxecto
-description: Este artigo ofrece información sobre como xestionar varios clientes nun contrato de proxecto.
+title: Xestiona varios clientes en contratos baseados en proxectos
+description: Este artigo ofrece información sobre como xestionar varios clientes nun contrato baseado en proxectos.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1aae178830d7b671c33295ca6d2910ee4be2f8dd
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928338"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825376"
 ---
-# <a name="manage-multiple-customers-on-project-contracts"></a>Xestionar varios clientes nunha en contratos de proxecto
+# <a name="manage-multiple-customers-on-project-based-contracts"></a>Xestiona varios clientes en contratos baseados en proxectos
 
 Este artigo ofrece información sobre como xestionar varios clientes nun contrato de proxecto. Pode usar un contrato de proxecto cando se precise un acordo contractual para varios clientes para financiar un acordo. Na páxina **Contrato do proxecto**, o separador **Resumo** inclúe información sobre o cliente principal dun acordo. Pódense engadir outros clientes que participen no acordo ao separador **Clientes**.
 

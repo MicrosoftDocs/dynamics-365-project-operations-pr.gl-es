@@ -1,8 +1,8 @@
 ---
-title: Ofertas - Conceptos clave
-description: Este artigo ofrece información sobre as ofertas e as ofertas de vendas dispoñibles en Project Operations.
+title: Conceptos exclusivos de ofertas baseadas en proxecto
+description: Este artigo ofrece información sobre presupostos de proxectos en Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 09/18/2020
+ms.date: 12/02/2022
 ms.topic: article
 ms.prod: ''
 audience: Application User
@@ -15,117 +15,91 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 89867cfbe92f47d58b16da40b62d3d9dd6a15b64
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: gl-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912514"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824325"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Conceptos exclusivos de ofertas baseadas en proxecto
 
-_**Aplícase a:** Project Operations para escenarios baseados en recursos/sen fornecemento, despregamento de Lite: xestionar a facturación proforma_
+_**Aplícase a:** Project Operations para situacións baseadas en recursos/sen fornecemento_
 
-En Dynamics 365 Project Operations, hai dous tipos de ofertas: ofertas de proxecto e ofertas de vendas. Os dous tipos de ofertas difiren das seguintes formas:
+Antes de comezar a utilizar as comiñas do proxecto en Microsoft Dynamics 365 Project Operations, debes ter en conta os seguintes conceptos clave.
 
-- **Grades para os elementos de liña**: Na oferta de vendas, só hai unha grade para elementos de liña. Nunha oferta de proxecto, hai dúas grades para os elementos de liña. Unha grade é para liñas de proxectos e a outra é para liñas de produtos.
-- **Activación e revisións**: As ofertas de vendas admiten a activación e revisións. Estes procesos non se admiten nunha oferta de proxecto.
-- **Pedidos anexados**: Pode anexar varios pedidos a unha oferta de vendas. Só se pode anexar un contrato de proxecto a unha oferta de proxecto.
-- **Gañar unha oferta**: Cando gaña unha oferta de vendas, a oportunidade relacionada pode permanecer aberta. Despois de gañar unha oferta de proxecto, a oportunidade relacionada péchase.
-- **Campos e conceptos**: Unha oferta de vendas non inclúe algúns campos e conceptos que se inclúen nunha oferta de proxecto. Os campos inclúen **Unidade contratante**, **Xestor de conta** e **Facturar ao nome de contacto**.  
-- **Tipo**: As ofertas de vendas e as ofertas de proxecto tamén se identifican por un campo baseado en conxunto de opcións, **Tipo**. Para unha oferta de vendas, este campo ten o valor **Baseado en elementos**. Para unha oferta de proxecto, ten o valor **Baseado en traballo**.
+## <a name="owning-company"></a>Empresa propietaria
 
-Este artigo centrase nos detalles das ofertas de proxecto.
+A empresa propietaria representa a persoa xurídica propietaria da entrega do proxecto. O cliente da cotización debe ser un cliente válido desa persoa xurídica nas aplicacións de finanzas e operacións. A moeda da empresa propietaria e a moeda da unidade de contratación seleccionada nunha cotización baseada no proxecto deben coincidir.
 
-Unha oferta de proxecto en Project Operations pode ter varios elementos ou liñas de oferta. De feito, unha oferta de proxecto ten dúas grades para os elementos de liña. Unha grade é para liñas baseadas en proxectos que permiten estimacións detalladas. A outra grade é para liñas baseadas en produtos que empregan un prezo de unidade simple e un enfoque baseado na cantidade.
+## <a name="contracting-unit"></a>Unidade de contratación
 
-- **Baseado en proxectos**: O valor ofertado determínase despois de estimar canto traballo é necesario. Pode estimar o traballo a un nivel alto, directamente como detalles de liña debaixo de cada liña de oferta ou baseándose en estimacións, usando un proxecto e un plan de proxecto. As liñas de ofertas baseadas en proxectos só se atopan en ofertas baseadas en proxectos creadas mediante Project Operations. Este tipo de liña de oferta é un formulario personalizado das liñas de oferta fóra de catálogo dispoñibles en Microsoft Dynamics 365 Sales.
+Unha unidade de contratación representa a división ou práctica propietaria da entrega do proxecto. Pode configurar custos de recursos para cada unidade de contratación. Cando especifica os custos de recursos para un recurso nunha unidade de contratación, pode configurar diferentes taxas de custo para os recursos dos que a unidade de contratación toma préstamos ou para outras divisións ou prácticas da empresa. Estes tipos de custo denomínanse prezos de transferencia, préstamo de recursos ou prezos de cambio. Cando configuras o custo dos recursos de préstamo doutras divisións, podes configurar as taxas de custo na moeda da división de préstamos.
 
-- **Baseada en produtos**: A cantidade (valor ofertado) determínase en función da cantidade de unidades vendidas e do prezo de venda unitario do produto. O produto nunha liña baseada en produtos pode proceder dun catálogo de produtos en Sales ou pode ser un produto que defina vostede. Este tipo de liña de oferta tamén está dispoñible en ofertas baseadas en proxectos creadas mediante Project Operations.
+## <a name="cost-currency"></a>Moeda de custo
 
-O importe dunha oferta é o total das liñas baseadas en produtos e as liñas baseadas en proxectos.
+A moeda de custo en Operacións do proxecto é a moeda na que se informan os custos. Esta moeda derívase da moeda que está anexa ao campo **Unidade de contratación** na cotización, contrato e proxecto. Os custos dun proxecto pódense rexistrar en calquera moeda. Non obstante, hai unha conversión de moeda da moeda na que se rexistraron os custos á moeda de custo do proxecto.
 
-> [!NOTE]
-> As ofertas e liñas de oferta non son necesarias en Project Operations. Pode iniciar o proceso do proxecto cun contrato de proxecto (proxecto vendido). Non obstante, sempre se require unha oportunidade, independentemente de se comece cunha oferta ou un contrato de proxecto.
+Dado que os tipos de cambio da Dataverse plataforma non poden ser efectivos para a data, os totais de custo en pantalla poden cambiar co paso do tempo se actualizas os tipos de cambio de moeda. Non obstante, os custos que se rexistran na base de datos permanecen inalterados, porque os importes almacénanse na moeda na que se incorreron.
 
-## <a name="project-based-quote-lines"></a>Liñas de oferta baseadas en proxecto
+## <a name="sales-currency"></a>Moeda das vendas
 
-Unha liña de oferta baseada en proxectos en Project Operations ten os seguintes métodos de facturación:
+A moeda de vendas en Project Operations é a moeda na que se rexistran e mostran os importes de vendas estimados e reais. Tamén é a moeda na que se factura ao cliente polo acordo. Para unha cotización de proxecto, establécese unha moeda de vendas predeterminada a partir do rexistro do cliente ou da conta e pódese cambiar cando se crea a cotización. Non obstante, a moeda de vendas non se pode cambiar despois de gardar a cotización. As listas de prezos predeterminadas de produtos e proxectos establécense en función da moeda de vendas da cotización.
 
-- Hora e material
-- Prezo fixo
+A diferenza dos custos, os valores de vendas pódense rexistrar **só** na moeda de vendas.
 
-### <a name="time-and-material"></a>Tempo e material
+## <a name="billing-method"></a>Método de facturación
 
-O método de facturación de tempo e material baséase no consumo. Cando seleccione este método de facturación, factúrase ao cliente cando o proxecto incorra en custos. As facturas créanse nunha frecuencia periódica baseada en datas. Durante o proceso de vendas, o valor indicado dun compoñente de tempo e material só proporciona ao cliente unha estimación do custo final. O fornecedor non se compromete a completar o proxecto con exactamente o valor ofertado. Os compoñentes de tempo e material aumentan o risco do cliente. Os clientes poden querer negociar cláusulas adicionais de valores máximos para minimizar o seu risco. Project Operations non admite a configuración de cláusulas de valores máximos.
+Os proxectos adoitan ter modelos de contratación a tarifa fixa e baseados no consumo. En Operacións do proxecto, o modelo de contratación dun proxecto está representado polo método de facturación. O método de facturación ten dous valores: tempo e material e prezo fixo.
 
-### <a name="fixed-price"></a>Prezo fixo
+- **Tempo e material** – Un modelo de contratación baseado no consumo no que cada custo que se incorre está respaldado polos ingresos correspondentes. Cando estime ou incorra en máis custos, tamén aumentarán as vendas estimadas e reais correspondentes. Pode especificar límites non superables nas liñas de oferta que teñan este método de facturación. Deste xeito, pode limitar os ingresos reais. Os ingresos estimados non se ven afectados polos límites de non exceder.
+- **Prezo fixo** – Un modelo de contratación de tarifa fixa no que os valores das vendas son independentes dos custos nos que se incorre. O valor das vendas é fixo e non cambia cando estime ou incorra en máis custos.
 
-No método de facturación de prezos fixos, un vendedor comprométese a entregar o proxecto cun custo fixo ao cliente. Factúrase ao o valor ofertado da liña de oferta de prezo fixo, independentemente dos custos nos que o vendedor incorra para entregar esa liña de oferta. O valor da liña de oferta de prezo fixo factúrase dunha das seguintes formas: 
+## <a name="project-price-lists"></a>Listas de prezos de proxectos
 
-- Como importe total ao inicio ou ao final do proxecto ou cando se alcanza un fito do proxecto. 
-- Con unha frecuencia baseada en datas de prazos iguais do valor fixo na liña de oferta. Estes prazos coñécense como fitos periódicos.
-- En prazos que teñen un valor monetario que está aliñado co avance do traballo ou fitos específicos que se conseguen no proxecto. Neste caso, o valor de cada prazo pode variar, pero todos deberán sumarse ao valor fixo na liña de oferta.
+As listas de prezos do proxecto son listas de prezos que se usan para introducir prezos predeterminados, non taxas de custo, para o tempo, os gastos e outros compoñentes relacionados co proxecto. Pode haber varias listas de prezos e cada lista pode ter a súa propia data de vixencia para cada oferta de proxecto. Project Operations non admite a superposición de datas de vixencia para as listas de prezos do proxecto.
 
-Project Operations admite os tres tipos de programas de facturas para liñas de oferta de prezo fixo.
+## <a name="product-price-lists"></a>Listas de prezos de produtos
 
-## <a name="transaction-classification"></a>Clasificación da transacción
+As listas de prezos dos produtos son listas de prezos que se usan para introducir prezos predeterminados, non taxas de custo, para as liñas baseadas en produtos nunha cotización. Só hai unha lista de prezos de produtos por cotización.
 
-As organizacións de servizos profesionais normalmente ofertan e facturan aos seus clientes mediante a clasificación dos custos. Os custos están representados polas seguintes clasificacións de transaccións:
+## <a name="transaction-classes"></a>Clases de transacción
 
-- **Tempo**: Esta clasificación representa o custo do tempo de traballo ou recursos humanos nun proxecto.
-- **Gasto**: Esta clasificación representa todos os demais tipos de gastos nun proxecto. Debido a que os gastos poden clasificarse de maneira xeral, a maioría das organizacións crean subcategorías, como viaxes, aluguer de vehículos, hotel ou material de oficina.
-- **Tarifa**: Esta clasificación representa gastos xerais, penalizacións e outros elementos que se cobran ao cliente. 
-- **Imposto**: Esta clasificación representa os importes de impostos que os usuarios engaden mentres introducen gastos.
-- **Transacción de material**: Esta clasificación representa os datos reais das liñas de produtos nunha factura de proxecto confirmada.
-- **Fito**: Esta clasificación é utilizada pola lóxica de facturación de prezo fixo en PSA.
+Project Operations admite catro tipos de clases de transacción:
 
-Unha ou máis destas clasificacións de transaccións poden asociarse a cada liña de oferta. Despois de gañar unha oferta, a asignación entre a clasificación da transacción e a liña de oferta transfírese á liña de contrato.
-  
-Por exemplo, unha oferta podería conter as dúas liñas de oferta seguintes: 
+- Tempo
+- Gasto
+- Material
+- Cota
 
-- Traballo de consultoría que emprega un método de facturación de tempo e material onde sexan aplicables clasificacións de transaccións de tempo e tarifas. Por exemplo, as transaccións de tempo e tarifa para o exemplo de proxecto **Aplicación de Dynamics AX** factúrase ao cliente en función do tempo e os materiais que se usen. 
-- Gastos de viaxe relacionados que empregan un método de facturación de prezo fixo. Por exemplo, todos os gastos de viaxe para o exemplo de proxecto **Aplicación de Dynamics AX** factúranse a un valor monetario fixo.
+Os valores de custo e de vendas pódense estimar e producirse en **Tempo**, **Gasto** e **Material** clases de transacción. **As tarifas** é unha clase de transacción só con ingresos.
 
-> [!NOTE]
-> A combinación de clasificacións de proxectos e transaccións de **Tempo**, **Gasto**, e **Tarifa** asociados a unha liña de oferta ou liña de contrato debe ser única. Se a mesma combinación de clase de proxecto e transacción está asociada a máis dunha liña de contrato ou liña de oferta, Project Operations non funcionará correctamente.
+## <a name="work-entities-and-billing-entities"></a>Entidades de traballo e entidades de facturación
 
-## <a name="billing-types"></a>Tipos de facturación
+Proxectos e Tarefas son entidades que representan o traballo. As liñas de cotización e as liñas de contrato son entidades que representan a facturación. Pode vincular diferentes entidades de traballo ás opcións de facturación asociándoas con liñas de cotización ou liñas de contrato.
 
-O campo **Tipo de facturación** define o concepto de imputabilidade. É un conxunto de opcións que ten os seguintes valores posibles:
+## <a name="multi-customer-deals"></a>Ofertas de varios clientes
 
-- **Imputable**: O custo que acumula este rol/categoría é un custo directo que impulsa a execución do proxecto e o cliente pagará por este traballo. O pago pódese administrar como un arranxo de tempo e material ou de prezo fixo. Non obstante, o empregado que dedique este tempo recibirá o crédito correspondente pola súa utilización facturable.
-- **Non Imputable**: O custo que acumula este rol/categoría considérase un custo directo que impulsa a execución do proxecto, aínda que o cliente non recoñece este feito en non pagará por este traballo. Ao empregado que dedique este tempo non se lle acreditará una utilización facturable por iso.
-- **Gratuíto**: O custo que acumula este rol/categoría considérase un custo directo que impulsa a execución do proxecto e o cliente recoñece este feito. Ao empregado que dedique este tempo acreditaráselle una utilización facturable por iso. Non obstante, este custo non se cobra ao cliente.
-- **Non dispoñible**: Os custos nos que se incorre en proxectos internos que non requiren o rastrexo de ingresos rastréxanse mediante esta opción.
+As ofertas multicliente prodúcense cando hai máis dun cliente por factura. Aquí tes algúns exemplos típicos:
 
-## <a name="invoice-schedule"></a>Programa de facturas
+- **As empresas fabricantes de equipos orixinais (OEM) e os seus socios** – Os socios e revendedores venden un produto que inclúe servizos de valor engadido. Durante un acordo cun cliente, o OEM adoita ofrecer financiar parte do proxecto.
+- **Proxectos do sector público** – Varios departamentos dun goberno local acordan financiar un proxecto e factúranse segundo unha división previamente acordada. Por exemplo, un distrito escolar e a cidade ou o departamento do goberno local acordan financiar a construción dunha piscina.
 
-Un programa de facturas é unha serie de datas nas que se produce a facturación dun proxecto. Opcionalmente pode crear un programa de facturas nunha liña de oferta. Cada liña de oferta pode ter o seu propio programa de facturas. Para crear un programa de facturas, ten que proporcionar os seguintes valores de atributo:
+## <a name="invoice-schedules"></a>Programacións de facturas
 
-- Unha data de inicio da facturación 
-- Unha data de entrega que representa a data de finalización da facturación do proxecto
-- Unha frecuencia das facturas
+Os calendarios de facturas son específicos para cada liña de cotización e son opcionais. Os calendarios de facturas créanse en función de datas específicas de inicio e finalización e unha frecuencia de factura. Utilízanse durante a fase do contrato, cando se configura o proceso de creación automática de facturas. Durante a fase de cotización, os calendarios de facturas son opcionais. Se se crean durante a fase de cotización, cópiase no contrato do proxecto que se crea cando se gaña unha cotización do proxecto.
 
-Estes tres valores de atributo utilízanse para xerar un conxunto de datas provisional para establecer a facturación.
+## <a name="differences-from-dynamics-365-sales-quotes"></a>Diferenzas coas cotizacións de Dynamics 365 Sales
 
-## <a name="invoice-frequency"></a>Frecuencia das facturas
+Os presupostos de Project Operations baséanse nos presupostos de Dynamics 365 Sales. Non obstante, hai algunhas diferenzas importantes na funcionalidade que debe ter en conta:
 
-A frecuencia de facturas é unha entidade que almacena valores de atributo que axudan a expresar a frecuencia de creación de facturas. Os seguintes atributos expresan ou definen a entidade de frecuencia de facturas:
+- As cotizacións de Project Operations teñen dous tipos diferentes de liñas: unha para proxectos e outra para produtos.
+- Os presupostos de Project Operations teñen a súa propia páxina e elementos de interface de usuario (UI), regras comerciais, lóxica empresarial en complementos e scripts do lado do cliente que os diferencian dos presupostos de vendas.
+- En Vendas, pode anexar varios pedidos a unha única cotización de vendas. En Operacións do proxecto, só pode anexar un contrato de proxecto a unha cotización do proxecto.
+- Cando gañas unha cotización de vendas, a oportunidade relacionada pode permanecer aberta. Despois de gañar unha oferta de proxecto, a oportunidade relacionada péchase.
+- Unha cotización de venda non inclúe algúns campos e conceptos que inclúe unha cotización do proxecto. Os campos inclúen **Unidade contratante**, **Xestor de conta** e **Facturar ao nome de contacto**.
+- Os presupostos de venda e de proxecto identifícanse co campo conxunto de opcións-based **Tipo** . Para unha cotización de venda, o valor deste campo é **Baseado en artigos**. Para unha cotización de proxecto, o valor é **Baseado no traballo**.
 
-- **Período**: Admítense períodos mensuais, quincenais e semanais. 
-- **Execucións por período**: Para períodos semanais e quincenais, pode definir só unha execución por período. Para períodos mensuais, pode definir entre unha e catro execucións por período. 
-- **Días de execución**: Os días nos que debe executarse a facturación. Pode configurar este atributo de dúas maneiras:
-  - **Días laborables**: Por exemplo, pode especificar que a facturación se executa todos os luns ou cada dous luns. Os clientes que deban establecer a facturación para que se execute un día laborable poderán preferir este tipo de configuración. 
-  - **Días de calendario**: Por exemplo, pode especificar que a facturación se execute os días 7 e 21 de cada mes. Algunhas organizacións poden preferir este tipo de configuración, porque axuda a garantir que a facturación se execute segundo un programa fixo cada mes.
-  
-### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Programa de facturas para unha liña de oferta de prezo fixo
-
-Para unha liña de oferta de prezo fixo, pode empregar a grade **Programa de facturas** para crear fitos de facturación que sexan iguais ao valor da liña de oferta.
-
-- Para crear fitos de facturación divididos equitativamente, seleccione unha frecuencia de facturas, insira a data de inicio da facturación na liña de oferta e seleccione **Data de finalización solicitada** para a oferta na sección **Resumo** do encabezado da oferta. A continuación, seleccione **Xerar fitos periódicos** para crear fitos divididos equitativamente en función da frecuencia de facturas seleccionada. 
-- Para crear un fito de facturación de cantidade global, cree un fito e, a seguir, introduza o valor da liña de oferta como importe do fito.
-- Para crear fitos de facturación baseados en tarefas específicas no plan do proxecto, cree un fito e asígneo ao elemento de programación do proxecto na IU de fitos de facturación.
-
+Debido a estas diferenzas, non recomendamos que utilices os presupostos de vendas e os presupostos de operacións de proxectos de xeito intercambiable.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
