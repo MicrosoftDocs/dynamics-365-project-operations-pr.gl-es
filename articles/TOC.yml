@@ -846,7 +846,7 @@
               items:
                 - name: Contratos baseados en anticipos e retencións
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Configurar unha programación de retenciónsConfigurar unha programación de retencións
+                - name: Configurar unha programación de retención
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Crear un adianto ad hoc nun contrato do proxecto
                   href: pro/sales/create-ad-hoc-advance-sales.md
